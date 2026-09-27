@@ -6,13 +6,12 @@ Extracted on 27 September 2026 from `HabboClassicWin.zip`
 (SHA-256 `5fe2d203ec900f056bb65ecbd0ae8ffdff4d9bb7bf2fb95a858ead5be95b1696`).
 
 Everything is in [`habbo-classic-win/`](habbo-classic-win/). The original binaries
-(`Habbo.exe`, Chromium `.pak`/`.dll` files) are **not** included, only what was
-extracted and reconstructed from them.
+(`Habbo.exe`, Chromium `.pak`/`.dll` files) and the asset bundles are **not**
+included: this repository contains only the decompiled and deobfuscated code.
 
 - [What this build is](#what-this-build-is)
 - [Repository layout](#repository-layout)
 - [Where to start reading](#where-to-start-reading)
-- [The HAB asset format](#the-hab-asset-format)
 - [How the obfuscation works](#how-the-obfuscation-works)
 - [How names were recovered](#how-names-were-recovered)
 - [Results](#results)
@@ -35,7 +34,6 @@ rendered with **Pixi.js** (WebGL or WebGPU). The release manifest declares proto
 |---|---|
 | Electron main process | `Main.mjs`, `Session.mjs`, `Preload.cjs`, `Hotels.json` (plain, not obfuscated) |
 | Whole game client | one esbuild bundle, `client/habbo-air/HabboAirLauncher.app.js` (9.2 MB, 5,222 classes) |
-| Assets (images, XML, sounds, fonts) | 38 proprietary `.hab` bundles, one for each old SWF module |
 
 There is no bytecode to decompile. The real work is **recovering the names**, which
 were replaced with hashes.
@@ -44,13 +42,11 @@ were replaced with hashes.
 
 ```
 habbo-classic-win/
-├── 02_app_estratto/          app.asar unpacked, as shipped
+├── 02_app_estratto/          app.asar code, as shipped
 │   ├── Main.mjs, Session.mjs, Preload.cjs, Hotels.json, package.json
 │   └── client/
 │       ├── habbo-air/        index.html, HabboAirLauncher.app.js, configs
-│       ├── generated/*.hab   28 module bundles (habbo-catalog-com.hab, ...)
-│       └── local_include/*.hab
-├── 03_asset_hab/             every .hab decoded: 3,920 files + _index.json per bundle
+│       └── release-manifest.json
 ├── 04_sorgenti_js/
 │   ├── HabboAirLauncher.min.js      original bundle (byte-identical)
 │   ├── HabboAirLauncher.pretty.js   formatted with Prettier (380k lines)
@@ -100,31 +96,6 @@ var HabboCommunicationEvent = /* AIR 15: com/sulake/habbo/communication/enum/Hab
   static { n(this, "HabboCommunicationEvent"); }
   static AUTHENTICATED = "HABBO_CONNECTION_EVENT_AUTHENTICATED";
 ```
-
-## The HAB asset format
-
-Reverse-engineered from the loader inside the bundle, and implemented in
-[`tools/extract-hab.mjs`](habbo-classic-win/tools/extract-hab.mjs).
-
-| Offset | Size | Field |
-|---|---|---|
-| 0 | 4 | magic `HAB\0` |
-| 4 | 2 | version (u16 LE) = 1 |
-| 6 | 2 | flags (u16 LE) = 1 |
-| 8 | 4 | compressed index length (u32 LE) |
-| 12 | 4 | uncompressed index length (u32 LE) |
-| 16 | 4 | data section length (u32 LE) |
-| 20 | … | zlib-compressed JSON index |
-| … | … | data section |
-
-The index is `{format:"hab", version:1, name, manifest, aliases, definitions,
-unresolvedAssets, entries:[…]}`. Each entry has `name`, `mimeType`, `offset`,
-`storedLength`, `originalLength`, optional `params` and `compression: "deflate"`.
-The extractor checks every length, and the files in `03_asset_hab/` come out with
-extensions set from their MIME type (2,813 PNG, 943 XML, 109 TXT, 21 MP3, 9 TTF, …).
-
-At runtime the client rewrites every `.swf` URL to `.hab`, so the bundles are
-one-to-one replacements for the old SWF modules.
 
 ## How the obfuscation works
 
@@ -253,7 +224,6 @@ the AIR 15 AS3 sources decompiled with FFDec.
 cd habbo-classic-win/tools
 npm install                      # @babel/*, prettier
 npx @electron/asar extract <zip>/resources/app.asar ../02_app_estratto
-node extract-hab.mjs ../02_app_estratto/client ../03_asset_hab
 npx prettier --no-config --print-width 110 ../02_app_estratto/client/habbo-air/HabboAirLauncher.app.js > ../04_sorgenti_js/HabboAirLauncher.pretty.js
 python as3_inventory.py <air15>/03_sorgenti_e_asset/HabboAir/scripts work/as3.json
 node --max-old-space-size=8192 js_inventory.mjs ../04_sorgenti_js/HabboAirLauncher.pretty.js work/js.json
@@ -269,8 +239,8 @@ committed.
 ## Further documents
 
 - [`CHANGES_AIR15_CLASSIC.md`](habbo-classic-win/CHANGES_AIR15_CLASSIC.md): what
-  changed compared to AIR 15 (WebSocket transport, WebGL/WebGPU renderer choice, HAB
-  assets, features not yet ported, new config keys). An Italian version is in
+  changed compared to AIR 15 (WebSocket transport, WebGL/WebGPU renderer choice, features
+  not yet ported, new config keys). An Italian version is in
   [`NOVITA_AIR15_CLASSIC.md`](habbo-classic-win/NOVITA_AIR15_CLASSIC.md).
 - [`habbo-classic-win/README.md`](habbo-classic-win/README.md): the original technical
   notes, in Italian.
