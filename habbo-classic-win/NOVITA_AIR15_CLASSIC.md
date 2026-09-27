@@ -15,6 +15,7 @@ gioco non sono stati verificati.
 | Runtime | Adobe AIR, SWF (AS3) | Electron 41.1.0, JavaScript (esbuild), Pixi.js |
 | Protocollo | — | `FLASH29` (dichiarato nel `release-manifest.json`) |
 | Codice del client | `HabboAir.swf`, 8.863 sorgenti | un bundle da 9,2 MB, 5.222 classi |
+| Asset | incorporati negli SWF | 38 bundle `.hab`, 3.920 voci |
 | Eventi di rete registrati | 603 | 602 |
 | Composer di rete registrati | 586 | 586 |
 
@@ -88,6 +89,17 @@ Nuovo nelle impostazioni ("Altre impostazioni", `OtherSettingsView`):
 | Nuove chiavi di localizzazione | `memenu.settings.graphics.renderer`, `.apply`, `.reload`, `.fallback`, `.save.failed`, `.active.webgl`, `.active.webgpu`. |
 
 Senza WebGL né WebGPU il client si ferma con "This client requires WebGL or WebGPU."
+
+## Asset: da SWF a bundle HAB
+
+Gli URL `.swf` vengono riscritti in `.hab` (`createBrowserHttpRequestResolver`, e un
+resolver dedicato per `local_include/…swf` → `generated/….hab`). Il formato HAB è
+descritto nel `README.md`. Il `launcher-config.json` elenca ancora gli `.swf` di
+`local_include`, ma nel pacchetto ci sono solo gli `.hab`. Gli asset scaricati sono
+memorizzati sotto lo schema `habbo-air-cache://`.
+
+`AssetLibrary` riconosce ora esplicitamente i tipi audio `audio/mp3`, `audio/mpeg`,
+`audio/ogg`, `audio/wav`, `audio/x-wav`.
 
 ## Funzioni non ancora portate
 
