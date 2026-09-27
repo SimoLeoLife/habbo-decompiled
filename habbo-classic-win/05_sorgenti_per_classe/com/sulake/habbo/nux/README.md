@@ -32,9 +32,9 @@ Messages created or registered by classes of this area. Header IDs are those of 
 
 ### Outgoing
 
-| ID | Composer | Args | AIR 15 arg types |
-|---|---|---|---|
-| 65 | `UnkMessageComposer_1args_0dfe00` | 1 |  |
-| 1574 | `class_2154` | 5 | String, String, String, String, int |
-| 1688 | `UnkMessageComposer_1args_40b48b` | 1 |  |
+| ID | Composer | Payload |
+|---|---|---|
+| 65 | `UnkMessageComposer_1args_0dfe00` | int |
+| 1574 | `class_2154` | string string string string int |
+| 1688 | `UnkMessageComposer_1args_40b48b` | number [ … … … ] |
 

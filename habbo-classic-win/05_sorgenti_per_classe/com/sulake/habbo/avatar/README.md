@@ -92,10 +92,10 @@ Messages created or registered by classes of this area. Header IDs are those of 
 
 ### Outgoing
 
-| ID | Composer | Args | AIR 15 arg types |
-|---|---|---|---|
-| 498 | `class_3150` | 0 |  |
-| 1060 | `UnkMessageComposer_1args_643860` | 1 |  |
-| 2095 | `class_2683` | 3 | int, String, String |
-| 3206 | `GetUserNftWardrobeMessageComposer` | 0 |  |
+| ID | Composer | Payload |
+|---|---|---|
+| 498 | `class_3150` | - |
+| 1060 | `UnkMessageComposer_1args_643860` | ? |
+| 2095 | `class_2683` | int string string |
+| 3206 | `GetUserNftWardrobeMessageComposer` | - |
 

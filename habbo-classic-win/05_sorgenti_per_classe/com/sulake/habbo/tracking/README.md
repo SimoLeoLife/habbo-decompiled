@@ -30,9 +30,9 @@ Messages created or registered by classes of this area. Header IDs are those of 
 
 ### Outgoing
 
-| ID | Composer | Args | AIR 15 arg types |
-|---|---|---|---|
-| 172 | `class_2569` | 1 | int |
-| 1066 | `class_3369` | 3 | int, int, int |
-| 2810 | `class_3773` | 1 | int |
+| ID | Composer | Payload |
+|---|---|---|
+| 172 | `class_2569` | int |
+| 1066 | `class_3369` | int int int |
+| 2810 | `class_3773` | int |
 

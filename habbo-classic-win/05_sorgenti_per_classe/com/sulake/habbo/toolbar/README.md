@@ -72,16 +72,16 @@ Messages created or registered by classes of this area. Header IDs are those of 
 
 ### Outgoing
 
-| ID | Composer | Args | AIR 15 arg types |
-|---|---|---|---|
-| 128 | `class_2946` | 0 |  |
-| 300 | `UnkMessageComposer_1args_332802` | 1 |  |
-| 585 | `UnkMessageComposer_1args_fcfff3` | 1 |  |
-| 616 | `class_2370` | 0 |  |
-| 989 | `UnkMessageComposer_1args_554493` | 1 |  |
-| 1574 | `class_2154` | 5 | String, String, String, String, int |
-| 1672 | `class_2922` | 1 | String |
-| 1766 | `UnkMessageComposer_1args_9b16f6` | 1 |  |
-| 2068 | `UnkMessageComposer_1args_0dc938` | 1 |  |
-| 2470 | `class_2868` | 0 |  |
+| ID | Composer | Payload |
+|---|---|---|
+| 128 | `class_2946` | - |
+| 300 | `UnkMessageComposer_1args_332802` | ? |
+| 585 | `UnkMessageComposer_1args_fcfff3` | ? |
+| 616 | `class_2370` | - |
+| 989 | `UnkMessageComposer_1args_554493` | ? |
+| 1574 | `class_2154` | string string string string int |
+| 1672 | `class_2922` | string |
+| 1766 | `UnkMessageComposer_1args_9b16f6` | ? |
+| 2068 | `UnkMessageComposer_1args_0dc938` | ? |
+| 2470 | `class_2868` | - |
 

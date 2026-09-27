@@ -81,17 +81,17 @@ Messages created or registered by classes of this area. Header IDs are those of 
 
 ### Outgoing
 
-| ID | Composer | Args | AIR 15 arg types |
-|---|---|---|---|
-| 46 | `class_3832` | 1 | int |
-| 101 | `class_2134` | 2 | int, Boolean |
-| 518 | `class_3286` | 0 |  |
-| 609 | `class_3634` | 3 | int, int, String |
-| 1820 | `class_3667` | 2 | int, int |
-| 2041 | `class_3057` | 9 | int, String, String, Boolean, Boolean, int, int, int, Boolean |
-| 2736 | `class_2993` | 1 | Array |
-| 2972 | `class_2373` | 3 | int, ChestItemType, int |
-| 3078 | `class_2598` | 1 | Number |
-| 3285 | `class_3327` | 1 | Boolean |
-| 3651 | `class_2718` | 7 | int, int, Boolean, Boolean, Boolean, Boolean, Boolean |
+| ID | Composer | Payload |
+|---|---|---|
+| 46 | `class_3832` | int |
+| 101 | `class_2134` | int bool |
+| 518 | `class_3286` | - |
+| 609 | `class_3634` | int int string |
+| 1820 | `class_3667` | int int |
+| 2041 | `class_3057` | int string string bool bool int int int bool |
+| 2736 | `class_2993` | … |
+| 2972 | `class_2373` | int int |
+| 3078 | `class_2598` | … |
+| 3285 | `class_3327` | bool |
+| 3651 | `class_2718` | int int bool bool bool bool bool |
 

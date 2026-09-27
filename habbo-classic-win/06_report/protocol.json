@@ -7834,7 +7834,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -7845,7 +7847,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -7856,7 +7860,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -7867,7 +7873,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "? ? ? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -7878,7 +7886,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "? int int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -7890,6 +7900,8 @@
   "air15_source": "package_188/class_3832.as",
   "air15_header": 3514,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -7901,7 +7913,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -7913,6 +7927,8 @@
   "air15_source": "package_25/class_2195.as",
   "air15_header": 569,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -7924,7 +7940,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "? ? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -7935,7 +7953,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -7946,7 +7966,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -7957,7 +7979,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -7968,7 +7992,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 5
+  "args": 5,
+  "payload": "",
+  "typed_by": ""
  },
  {
   "direction": "outgoing",
@@ -7980,6 +8006,8 @@
   "air15_source": "package_142/class_2726.as",
   "air15_header": 2563,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -7991,7 +8019,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? bool",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -8002,7 +8032,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -8013,7 +8045,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "? int ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -8025,6 +8059,8 @@
   "air15_source": "package_26/class_3253.as",
   "air15_header": 3059,
   "args": 2,
+  "payload": "int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int"
  },
  {
@@ -8037,6 +8073,8 @@
   "air15_source": "package_25/class_2134.as",
   "air15_header": 3953,
   "args": 2,
+  "payload": "int bool",
+  "typed_by": "air15",
   "air15_arg_types": "int, Boolean"
  },
  {
@@ -8048,7 +8086,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "int ? ? ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -8059,7 +8099,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8071,6 +8113,8 @@
   "air15_source": "com/sulake/habbo/communication/messages/outgoing/quest/class_3384.as",
   "air15_header": 1981,
   "args": 2,
+  "payload": "bool int",
+  "typed_by": "air15",
   "air15_arg_types": "Boolean, int"
  },
  {
@@ -8082,7 +8126,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -8094,6 +8140,8 @@
   "air15_source": "package_130/class_2840.as",
   "air15_header": 2117,
   "args": 2,
+  "payload": "int string",
+  "typed_by": "air15",
   "air15_arg_types": "int, String"
  },
  {
@@ -8106,6 +8154,8 @@
   "air15_source": "package_140/class_2946.as",
   "air15_header": 2983,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -8117,7 +8167,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -8128,7 +8180,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8139,7 +8193,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? string",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -8150,7 +8206,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -8162,6 +8220,8 @@
   "air15_source": "package_70/class_2569.as",
   "air15_header": 2015,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -8173,7 +8233,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "? int",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8184,7 +8246,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8196,6 +8260,8 @@
   "air15_source": "package_26/class_2444.as",
   "air15_header": 1675,
   "args": 2,
+  "payload": "int bool",
+  "typed_by": "air15",
   "air15_arg_types": "int, Boolean"
  },
  {
@@ -8207,7 +8273,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? int [ ? ]",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8218,7 +8286,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8229,7 +8299,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "int ? ? ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -8240,7 +8312,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -8251,7 +8325,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "bool bool bool bool",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -8262,7 +8338,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8273,7 +8351,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8284,7 +8364,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8295,7 +8377,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8306,7 +8390,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "int int [ int ]",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -8317,7 +8403,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8328,7 +8416,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? number [ ? … ]",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8339,7 +8429,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8350,7 +8442,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8361,7 +8455,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -8372,7 +8468,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8383,7 +8481,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "? int int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -8394,7 +8494,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8405,7 +8507,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "number int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -8417,6 +8521,8 @@
   "air15_source": "package_153/class_3386.as",
   "air15_header": 3611,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -8429,6 +8535,8 @@
   "air15_source": "package_142/class_3211.as",
   "air15_header": 2405,
   "args": 2,
+  "payload": "string int",
+  "typed_by": "air15",
   "air15_arg_types": "String, int"
  },
  {
@@ -8440,7 +8548,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -8451,7 +8561,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -8462,7 +8574,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -8473,7 +8587,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -8484,7 +8600,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "string",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -8495,7 +8613,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? bool",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -8506,7 +8626,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "string ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -8517,7 +8639,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8528,7 +8652,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -8540,6 +8666,8 @@
   "air15_source": "com/sulake/habbo/communication/messages/outgoing/quest/class_3315.as",
   "air15_header": 3743,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -8552,6 +8680,8 @@
   "air15_source": "package_82/class_3259.as",
   "air15_header": 455,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -8564,6 +8694,8 @@
   "air15_source": "package_26/class_2432.as",
   "air15_header": 750,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -8576,6 +8708,8 @@
   "air15_source": "package_31/class_1875.as",
   "air15_header": 332,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -8587,7 +8721,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8598,7 +8734,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -8609,7 +8747,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 5
+  "args": 5,
+  "payload": "int ? string int ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -8621,6 +8761,8 @@
   "air15_source": "package_25/class_3706.as",
   "air15_header": 135,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -8632,7 +8774,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8644,6 +8788,8 @@
   "air15_source": "package_152/class_3150.as",
   "air15_header": 43,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -8656,6 +8802,8 @@
   "air15_source": "package_66/class_3808.as",
   "air15_header": 687,
   "args": 2,
+  "payload": "int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int"
  },
  {
@@ -8667,7 +8815,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8679,6 +8829,8 @@
   "air15_source": "package_16/class_2490.as",
   "air15_header": 2014,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -8691,6 +8843,8 @@
   "air15_source": "com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/wiredmenu/class_3286.as",
   "air15_header": 1357,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -8702,7 +8856,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -8713,7 +8869,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8724,7 +8882,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8735,7 +8895,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -8747,6 +8909,8 @@
   "air15_source": "package_10/class_1766.as",
   "air15_header": 2566,
   "args": 2,
+  "payload": "string int",
+  "typed_by": "air15",
   "air15_arg_types": "String, int"
  },
  {
@@ -8759,6 +8923,8 @@
   "air15_source": "package_36/class_2586.as",
   "air15_header": 3947,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -8770,7 +8936,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -8781,7 +8949,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "…",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -8792,7 +8962,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8803,7 +8975,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -8814,7 +8988,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -8826,6 +9002,8 @@
   "air15_source": "com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/wiredmenu/class_3634.as",
   "air15_header": 582,
   "args": 3,
+  "payload": "int int string",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, String"
  },
  {
@@ -8837,7 +9015,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "…",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8848,7 +9028,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -8860,6 +9042,8 @@
   "air15_source": "package_93/class_2370.as",
   "air15_header": 516,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -8871,7 +9055,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "? ? int [ … ]",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8883,6 +9069,8 @@
   "air15_source": "package_89/Game2GetTotalLeaderboardComposer.as",
   "air15_header": 3759,
   "args": 5,
+  "payload": "int int int int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, int, int, int"
  },
  {
@@ -8895,6 +9083,8 @@
   "air15_source": "package_72/class_2687.as",
   "air15_header": 1914,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -8906,7 +9096,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "int int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -8918,6 +9110,8 @@
   "air15_source": "com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/UpdateSelectorMessageComposer.as",
   "air15_header": 125,
   "args": 10,
+  "payload": "int int [ ? ] string int [ ? ] bool bool int [ ? ] int [ ? ] int [ ? ] int [ ? ]",
+  "typed_by": "air15",
   "air15_arg_types": "int, Array, Array, String, Array, Array, Boolean, Boolean, Array, Array"
  },
  {
@@ -8929,7 +9123,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -8941,6 +9137,8 @@
   "air15_source": "package_8/class_3778.as",
   "air15_header": 2830,
   "args": 0,
+  "payload": "int [ ? ]",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -8953,6 +9151,8 @@
   "air15_source": "package_83/class_2523.as",
   "air15_header": 2696,
   "args": 2,
+  "payload": "int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int"
  },
  {
@@ -8964,7 +9164,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "",
+  "typed_by": ""
  },
  {
   "direction": "outgoing",
@@ -8975,7 +9177,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8986,7 +9190,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 6
+  "args": 6,
+  "payload": "…",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -8997,7 +9203,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9008,7 +9216,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "? ? ? int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -9019,7 +9229,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9031,6 +9243,8 @@
   "air15_source": "package_25/class_2474.as",
   "air15_header": 237,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -9042,7 +9256,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "int ? ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -9053,7 +9269,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "? ? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9064,7 +9282,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "int ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -9075,7 +9295,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9086,7 +9308,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9097,7 +9321,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9109,6 +9335,8 @@
   "air15_source": "package_130/class_3734.as",
   "air15_header": 1533,
   "args": 2,
+  "payload": "int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int"
  },
  {
@@ -9121,6 +9349,8 @@
   "air15_source": "package_25/class_1807.as",
   "air15_header": 506,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -9133,6 +9363,8 @@
   "air15_source": "package_16/class_1776.as",
   "air15_header": 444,
   "args": 5,
+  "payload": "int int string string bool",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, String, String, Boolean"
  },
  {
@@ -9145,6 +9377,8 @@
   "air15_source": "package_80/class_3590.as",
   "air15_header": 3943,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -9156,7 +9390,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9167,7 +9403,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "? int ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -9178,7 +9416,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "…",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9190,6 +9430,8 @@
   "air15_source": "package_25/class_2072.as",
   "air15_header": 576,
   "args": 3,
+  "payload": "int int bool",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, Boolean"
  },
  {
@@ -9201,7 +9443,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 6
+  "args": 6,
+  "payload": "? ? ? ? ? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9212,7 +9456,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9224,6 +9470,8 @@
   "air15_source": "package_126/class_2510.as",
   "air15_header": 1451,
   "args": 2,
+  "payload": "int bool",
+  "typed_by": "air15",
   "air15_arg_types": "int, Boolean"
  },
  {
@@ -9236,6 +9484,8 @@
   "air15_source": "package_13/class_3623.as",
   "air15_header": 2465,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -9248,6 +9498,8 @@
   "air15_source": "package_26/class_3659.as",
   "air15_header": 1617,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -9259,7 +9511,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9270,7 +9524,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -9281,7 +9537,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9292,7 +9550,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9304,6 +9564,8 @@
   "air15_source": "package_25/class_1949.as",
   "air15_header": 340,
   "args": 2,
+  "payload": "int bool",
+  "typed_by": "air15",
   "air15_arg_types": "int, Boolean"
  },
  {
@@ -9315,7 +9577,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -9326,7 +9590,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9338,6 +9604,8 @@
   "air15_source": "package_96/class_2943.as",
   "air15_header": 2020,
   "args": 2,
+  "payload": "int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int"
  },
  {
@@ -9350,6 +9618,8 @@
   "air15_source": "package_83/class_2352.as",
   "air15_header": 619,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -9361,7 +9631,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "? int int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -9373,6 +9645,8 @@
   "air15_source": "package_39/class_2678.as",
   "air15_header": 1199,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -9385,6 +9659,8 @@
   "air15_source": "package_66/class_2983.as",
   "air15_header": 1734,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -9396,7 +9672,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9407,7 +9685,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9418,7 +9698,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9430,6 +9712,8 @@
   "air15_source": "package_26/class_3517.as",
   "air15_header": 3371,
   "args": 3,
+  "payload": "int string string",
+  "typed_by": "air15",
   "air15_arg_types": "int, String, String"
  },
  {
@@ -9441,7 +9725,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "int int int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -9452,7 +9738,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "string",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -9463,7 +9751,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9475,6 +9765,8 @@
   "air15_source": "package_101/class_3101.as",
   "air15_header": 3212,
   "args": 4,
+  "payload": "int int string string",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, String, String"
  },
  {
@@ -9487,6 +9779,8 @@
   "air15_source": "package_15/class_2127.as",
   "air15_header": 3897,
   "args": 3,
+  "payload": "int int ?{ string }",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, String"
  },
  {
@@ -9499,6 +9793,8 @@
   "air15_source": "package_122/class_2491.as",
   "air15_header": 3000,
   "args": 2,
+  "payload": "int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int"
  },
  {
@@ -9511,6 +9807,8 @@
   "air15_source": "package_163/class_2823.as",
   "air15_header": 2924,
   "args": 3,
+  "payload": "int int string",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, String"
  },
  {
@@ -9522,7 +9820,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9533,7 +9833,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9545,6 +9847,8 @@
   "air15_source": "package_70/class_3369.as",
   "air15_header": 2446,
   "args": 3,
+  "payload": "int int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, int"
  },
  {
@@ -9557,6 +9861,8 @@
   "air15_source": "package_101/class_2638.as",
   "air15_header": 2314,
   "args": 3,
+  "payload": "int int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, int"
  },
  {
@@ -9569,6 +9875,8 @@
   "air15_source": "package_142/class_3123.as",
   "air15_header": 1101,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -9580,7 +9888,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9591,7 +9901,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9602,7 +9914,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? int [ ? ]",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9613,7 +9927,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9624,7 +9940,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9636,6 +9954,8 @@
   "air15_source": "com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/wiredmenu/class_2550.as",
   "air15_header": 712,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -9647,7 +9967,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9658,7 +9980,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9670,6 +9994,8 @@
   "air15_source": "package_8/class_3066.as",
   "air15_header": 1779,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -9681,7 +10007,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9692,7 +10020,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9703,7 +10033,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9714,7 +10046,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "int ? bool",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -9725,7 +10059,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9736,7 +10072,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9747,7 +10085,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "int ? string string int ?{ ? }",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -9758,7 +10098,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9769,7 +10111,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9781,6 +10125,8 @@
   "air15_source": "package_62/class_2097.as",
   "air15_header": 1259,
   "args": 6,
+  "payload": "int int int int bool int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, int, int, Boolean, int"
  },
  {
@@ -9792,7 +10138,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9803,7 +10151,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "int ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -9814,7 +10164,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9825,7 +10177,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9836,7 +10190,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9847,7 +10203,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "int [ ? ] ? ? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9858,7 +10216,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9870,6 +10230,8 @@
   "air15_source": "package_26/class_3393.as",
   "air15_header": 209,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -9881,7 +10243,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9893,6 +10257,8 @@
   "air15_source": "package_36/class_2472.as",
   "air15_header": 2005,
   "args": 7,
+  "payload": "string string",
+  "typed_by": "air15",
   "air15_arg_types": "String, int, int, int, Array, String, String"
  },
  {
@@ -9905,6 +10271,8 @@
   "air15_source": "package_8/class_1917.as",
   "air15_header": 1739,
   "args": 2,
+  "payload": "int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int"
  },
  {
@@ -9916,7 +10284,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -9927,7 +10297,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "int ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -9938,7 +10310,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -9950,6 +10324,8 @@
   "air15_source": "package_26/class_2142.as",
   "air15_header": 1954,
   "args": 3,
+  "payload": "int int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, Boolean, Boolean"
  },
  {
@@ -9962,6 +10338,8 @@
   "air15_source": "package_63/class_3513.as",
   "air15_header": 2531,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -9973,7 +10351,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -9985,6 +10365,8 @@
   "air15_source": "package_26/class_2656.as",
   "air15_header": 2060,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -9997,6 +10379,8 @@
   "air15_source": "package_31/class_2290.as",
   "air15_header": 2295,
   "args": 1,
+  "payload": "…",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -10009,6 +10393,8 @@
   "air15_source": "package_36/class_3293.as",
   "air15_header": 2609,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -10021,6 +10407,8 @@
   "air15_source": "package_184/class_2959.as",
   "air15_header": 2995,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -10032,7 +10420,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 8
+  "args": 8,
+  "payload": "? int [ ? ] ? int [ ? ] int [ ? ] int [ ? ] int [ ? ] int [ ? ]",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10044,6 +10434,8 @@
   "air15_source": "com/sulake/habbo/communication/messages/outgoing/quest/class_3325.as",
   "air15_header": 2414,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -10055,7 +10447,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "bool",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -10067,6 +10461,8 @@
   "air15_source": "package_16/class_1814.as",
   "air15_header": 3684,
   "args": 9,
+  "payload": "int int string string string int int int bool",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, String, String, String, int, int, int, Boolean"
  },
  {
@@ -10078,7 +10474,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10089,7 +10487,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10100,7 +10500,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -10112,6 +10514,8 @@
   "air15_source": "package_26/class_2704.as",
   "air15_header": 1048,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -10124,6 +10528,8 @@
   "air15_source": "package_25/class_2483.as",
   "air15_header": 1509,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -10135,7 +10541,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10146,7 +10554,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -10157,7 +10567,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 7
+  "args": 7,
+  "payload": "? int int ? ? string string",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -10168,7 +10580,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10180,6 +10594,8 @@
   "air15_source": "package_3/class_1906.as",
   "air15_header": 285,
   "args": 3,
+  "payload": "string string string",
+  "typed_by": "air15",
   "air15_arg_types": "String, String, String"
  },
  {
@@ -10191,7 +10607,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10202,7 +10620,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10213,7 +10633,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 5
+  "args": 5,
+  "payload": "? ? ? ? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10224,7 +10646,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "int int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -10235,7 +10659,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10246,7 +10672,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10257,7 +10685,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "",
+  "typed_by": ""
  },
  {
   "direction": "outgoing",
@@ -10269,6 +10699,8 @@
   "air15_source": "com/sulake/habbo/communication/messages/outgoing/inventory/trading/class_3171.as",
   "air15_header": 3076,
   "args": 1,
+  "payload": "int [ ? ]",
+  "typed_by": "air15",
   "air15_arg_types": "Vector.<int>"
  },
  {
@@ -10280,7 +10712,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10292,6 +10726,8 @@
   "air15_source": "package_16/class_3729.as",
   "air15_header": 400,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -10303,7 +10739,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -10314,7 +10752,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -10325,7 +10765,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -10337,6 +10779,8 @@
   "air15_source": "package_70/class_2154.as",
   "air15_header": 742,
   "args": 5,
+  "payload": "string string string string int",
+  "typed_by": "air15",
   "air15_arg_types": "String, String, String, String, int"
  },
  {
@@ -10348,7 +10792,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "? ? ? int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -10359,7 +10805,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -10370,7 +10818,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "? string ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -10381,7 +10831,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -10392,7 +10844,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -10403,7 +10857,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10414,7 +10870,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -10425,7 +10883,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -10436,7 +10896,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -10448,6 +10910,8 @@
   "air15_source": "package_25/class_2028.as",
   "air15_header": 3361,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -10459,7 +10923,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -10470,7 +10936,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10481,7 +10949,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -10492,7 +10962,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10503,7 +10975,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -10515,6 +10989,8 @@
   "air15_source": "com/sulake/habbo/communication/messages/outgoing/quest/class_3002.as",
   "air15_header": 1942,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -10527,6 +11003,8 @@
   "air15_source": "com/sulake/habbo/communication/messages/outgoing/quest/class_2922.as",
   "air15_header": 1423,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -10538,7 +11016,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -10549,7 +11029,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10560,7 +11042,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "number [ … … … ]",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10571,7 +11055,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "string ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -10582,7 +11068,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10594,6 +11082,8 @@
   "air15_source": "package_26/class_3022.as",
   "air15_header": 3241,
   "args": 2,
+  "payload": "int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int"
  },
  {
@@ -10605,7 +11095,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -10616,7 +11108,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "? ? ? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10628,6 +11122,8 @@
   "air15_source": "package_80/class_2293.as",
   "air15_header": 3645,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -10639,7 +11135,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?{ int } … [ … … ]",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10651,6 +11149,8 @@
   "air15_source": "package_16/class_2437.as",
   "air15_header": 1652,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -10662,7 +11162,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 7
+  "args": 7,
+  "payload": "? ? ? ? ? string string",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -10673,7 +11175,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -10685,6 +11189,8 @@
   "air15_source": "package_16/class_1916.as",
   "air15_header": 900,
   "args": 7,
+  "payload": "? ? ? ? ? ? int",
+  "typed_by": "partial",
   "air15_arg_types": "int, int, String, int"
  },
  {
@@ -10696,7 +11202,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10707,7 +11215,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -10719,6 +11229,8 @@
   "air15_source": "package_25/class_2592.as",
   "air15_header": 1872,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -10731,6 +11243,8 @@
   "air15_source": "package_63/Game2GetAccountGameStatusMessageComposer.as",
   "air15_header": 1717,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -10743,6 +11257,8 @@
   "air15_source": "package_16/class_2059.as",
   "air15_header": 2108,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -10755,6 +11271,8 @@
   "air15_source": "com/sulake/habbo/communication/messages/outgoing/quest/class_3621.as",
   "air15_header": 1732,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -10767,6 +11285,8 @@
   "air15_source": "package_26/class_3189.as",
   "air15_header": 1069,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -10779,6 +11299,8 @@
   "air15_source": "package_25/class_3754.as",
   "air15_header": 773,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -10791,6 +11313,8 @@
   "air15_source": "package_130/class_3503.as",
   "air15_header": 322,
   "args": 4,
+  "payload": "int string string string",
+  "typed_by": "air15",
   "air15_arg_types": "int, String, String, String"
  },
  {
@@ -10803,6 +11327,8 @@
   "air15_source": "package_94/class_3667.as",
   "air15_header": 3325,
   "args": 2,
+  "payload": "int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int"
  },
  {
@@ -10814,7 +11340,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10825,7 +11353,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10837,6 +11367,8 @@
   "air15_source": "package_13/class_2660.as",
   "air15_header": 3340,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -10849,6 +11381,8 @@
   "air15_source": "package_70/class_2702.as",
   "air15_header": 3843,
   "args": 11,
+  "payload": "int string string string string bool int int int int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, String, String, String, String, Boolean, int, int, int, int, int"
  },
  {
@@ -10860,7 +11394,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 5
+  "args": 5,
+  "payload": "? int string int ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -10871,7 +11407,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -10882,7 +11420,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10893,7 +11433,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -10904,7 +11446,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? string",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -10915,7 +11459,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10926,7 +11472,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 5
+  "args": 5,
+  "payload": "string int int int number",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -10937,7 +11485,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10948,7 +11498,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "?{ … … … } int int int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -10960,6 +11512,8 @@
   "air15_source": "package_25/class_1968.as",
   "air15_header": 117,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -10971,7 +11525,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -10983,6 +11539,8 @@
   "air15_source": "package_26/class_3850.as",
   "air15_header": 2893,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -10994,7 +11552,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -11006,6 +11566,8 @@
   "air15_source": "com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/wiredmenu/class_3289.as",
   "air15_header": 3141,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -11017,7 +11579,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11028,7 +11592,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11039,7 +11605,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "int ? ? ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -11050,7 +11618,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "bool bool",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -11061,7 +11631,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "? ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -11072,7 +11644,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11084,6 +11658,8 @@
   "air15_source": "package_101/class_2576.as",
   "air15_header": 3280,
   "args": 5,
+  "payload": "int int int int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, int, int, int"
  },
  {
@@ -11095,7 +11671,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11106,7 +11684,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -11117,7 +11697,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11129,6 +11711,8 @@
   "air15_source": "package_26/class_3219.as",
   "air15_header": 1108,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -11140,7 +11724,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11151,7 +11737,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -11163,6 +11751,8 @@
   "air15_source": "package_94/class_3057.as",
   "air15_header": 3017,
   "args": 9,
+  "payload": "int string string bool bool int int int bool",
+  "typed_by": "air15",
   "air15_arg_types": "int, String, String, Boolean, Boolean, int, int, int, Boolean"
  },
  {
@@ -11175,6 +11765,8 @@
   "air15_source": "package_89/Game2GetWeeklyFriendsLeaderboardComposer.as",
   "air15_header": 2445,
   "args": 6,
+  "payload": "int int int int int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, int, int, int, int"
  },
  {
@@ -11187,6 +11779,8 @@
   "air15_source": "package_26/class_2393.as",
   "air15_header": 3812,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -11198,7 +11792,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11209,7 +11805,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "string",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -11220,7 +11818,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -11231,7 +11831,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11242,7 +11844,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?{ int [ ? ] } … … … … … … … … … … … … … … … … …",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11253,7 +11857,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11265,6 +11871,8 @@
   "air15_source": "package_152/class_2683.as",
   "air15_header": 2944,
   "args": 3,
+  "payload": "int string string",
+  "typed_by": "air15",
   "air15_arg_types": "int, String, String"
  },
  {
@@ -11276,7 +11884,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 6
+  "args": 6,
+  "payload": "? ? bool int ? ? string",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -11287,7 +11897,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 5
+  "args": 5,
+  "payload": "? ? ? int int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -11298,7 +11910,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -11309,7 +11923,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -11320,7 +11936,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11332,6 +11950,8 @@
   "air15_source": "package_47/class_1959.as",
   "air15_header": 3031,
   "args": 3,
+  "payload": "int string int",
+  "typed_by": "air15",
   "air15_arg_types": "int, String, int"
  },
  {
@@ -11343,7 +11963,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11354,7 +11976,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 9
+  "args": 9,
+  "payload": "int bool ? ? ? bool int int ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -11365,7 +11989,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "int int int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -11377,6 +12003,8 @@
   "air15_source": "package_63/class_2078.as",
   "air15_header": 3103,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -11389,6 +12017,8 @@
   "air15_source": "package_8/class_3207.as",
   "air15_header": 808,
   "args": 0,
+  "payload": "bool int [ ? ]",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -11400,7 +12030,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -11411,7 +12043,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11423,6 +12057,8 @@
   "air15_source": "package_130/class_3278.as",
   "air15_header": 1338,
   "args": 6,
+  "payload": "int int string int bool bool int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, String, int, Boolean, int"
  },
  {
@@ -11434,7 +12070,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -11445,7 +12083,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 5
+  "args": 5,
+  "payload": "? ? ? ? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11456,7 +12096,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? string",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -11468,6 +12110,8 @@
   "air15_source": "package_142/class_2596.as",
   "air15_header": 3153,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -11480,6 +12124,8 @@
   "air15_source": "package_61/class_2215.as",
   "air15_header": 2949,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -11492,6 +12138,8 @@
   "air15_source": "package_153/class_2787.as",
   "air15_header": 2784,
   "args": 3,
+  "payload": "int bool string",
+  "typed_by": "air15",
   "air15_arg_types": "int, Boolean, String"
  },
  {
@@ -11503,7 +12151,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -11514,7 +12164,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int [ ? ]",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11525,7 +12177,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -11536,7 +12190,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 6
+  "args": 6,
+  "payload": "string string",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -11548,6 +12204,8 @@
   "air15_source": "package_25/class_2755.as",
   "air15_header": 2093,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -11559,7 +12217,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "? ? ? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11570,7 +12230,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "int ? ? ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -11581,7 +12243,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11593,6 +12257,8 @@
   "air15_source": "package_26/class_2552.as",
   "air15_header": 2463,
   "args": 3,
+  "payload": "int string int",
+  "typed_by": "air15",
   "air15_arg_types": "int, String, int"
  },
  {
@@ -11605,6 +12271,8 @@
   "air15_source": "package_80/class_3710.as",
   "air15_header": 281,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -11617,6 +12285,8 @@
   "air15_source": "package_16/class_2402.as",
   "air15_header": 3615,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -11629,6 +12299,8 @@
   "air15_source": "package_94/class_2520.as",
   "air15_header": 167,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -11640,7 +12312,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -11651,7 +12325,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -11662,7 +12338,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11673,7 +12351,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11684,7 +12364,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "int int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -11696,6 +12378,8 @@
   "air15_source": "package_140/class_2806.as",
   "air15_header": 3079,
   "args": 2,
+  "payload": "string string",
+  "typed_by": "air15",
   "air15_arg_types": "String, String"
  },
  {
@@ -11708,6 +12392,8 @@
   "air15_source": "package_26/class_3418.as",
   "air15_header": 2001,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -11719,7 +12405,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11731,6 +12419,8 @@
   "air15_source": "package_31/class_1847.as",
   "air15_header": 767,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -11742,7 +12432,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -11754,6 +12446,8 @@
   "air15_source": "package_72/class_2182.as",
   "air15_header": 3626,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -11765,7 +12459,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11776,7 +12472,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 5
+  "args": 5,
+  "payload": "? ? ? ? bool",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -11787,7 +12485,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "int int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -11798,7 +12498,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "int ? ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -11809,7 +12511,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11820,7 +12524,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "string ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -11831,7 +12537,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "bool int [ ? ]",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -11842,7 +12550,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11853,7 +12563,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11864,7 +12576,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "? …",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11876,6 +12590,8 @@
   "air15_source": "package_25/class_2738.as",
   "air15_header": 982,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -11888,6 +12604,8 @@
   "air15_source": "package_16/class_2868.as",
   "air15_header": 2864,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -11899,7 +12617,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -11911,6 +12631,8 @@
   "air15_source": "package_26/class_3610.as",
   "air15_header": 3946,
   "args": 2,
+  "payload": "string int",
+  "typed_by": "air15",
   "air15_arg_types": "String, int"
  },
  {
@@ -11923,6 +12645,8 @@
   "air15_source": "package_89/Game2GetWeeklyLeaderboardComposer.as",
   "air15_header": 2993,
   "args": 6,
+  "payload": "int int int int int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, int, int, int, int"
  },
  {
@@ -11934,7 +12658,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "int int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -11945,7 +12671,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "int int ? int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -11957,6 +12685,8 @@
   "air15_source": "package_16/class_1992.as",
   "air15_header": 2649,
   "args": 7,
+  "payload": "int int string int int int bool",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, String, int, int, int, Boolean"
  },
  {
@@ -11968,7 +12698,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -11980,6 +12712,8 @@
   "air15_source": "package_16/class_2622.as",
   "air15_header": 3952,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -11991,7 +12725,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "? ? ? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12002,7 +12738,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "?{ int } int [ ? ]",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12013,7 +12751,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12024,7 +12764,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -12036,6 +12778,8 @@
   "air15_source": "package_8/class_3851.as",
   "air15_header": 2792,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -12047,7 +12791,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12059,6 +12805,8 @@
   "air15_source": "package_13/class_3766.as",
   "air15_header": 917,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -12070,7 +12818,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -12082,6 +12832,8 @@
   "air15_source": "package_129/class_2521.as",
   "air15_header": 1762,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -12093,7 +12845,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "bool",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -12104,7 +12858,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -12115,7 +12871,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12126,7 +12884,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12137,7 +12897,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 8
+  "args": 8,
+  "payload": "int int int ? ? bool bool bool",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -12148,7 +12910,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -12159,7 +12923,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12171,6 +12937,8 @@
   "air15_source": "package_26/class_3256.as",
   "air15_header": 1715,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -12183,6 +12951,8 @@
   "air15_source": "package_40/class_1914.as",
   "air15_header": 3757,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -12195,6 +12965,8 @@
   "air15_source": "package_142/class_3672.as",
   "air15_header": 1329,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -12207,6 +12979,8 @@
   "air15_source": "package_8/class_3524.as",
   "air15_header": 806,
   "args": 1,
+  "payload": "int [ ? ] string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -12218,7 +12992,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "int ? int int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -12229,7 +13005,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -12241,6 +13019,8 @@
   "air15_source": "package_76/class_2213.as",
   "air15_header": 2004,
   "args": 3,
+  "payload": "string int int",
+  "typed_by": "air15",
   "air15_arg_types": "String, int, int"
  },
  {
@@ -12252,7 +13032,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -12264,6 +13046,8 @@
   "air15_source": "package_25/class_2804.as",
   "air15_header": 1933,
   "args": 4,
+  "payload": "int int string int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, String, int"
  },
  {
@@ -12276,6 +13060,8 @@
   "air15_source": "package_188/class_2993.as",
   "air15_header": 3313,
   "args": 1,
+  "payload": "…",
+  "typed_by": "air15",
   "air15_arg_types": "Array"
  },
  {
@@ -12288,6 +13074,8 @@
   "air15_source": "package_47/class_2551.as",
   "air15_header": 3929,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -12300,6 +13088,8 @@
   "air15_source": "package_25/class_2433.as",
   "air15_header": 3145,
   "args": 6,
+  "payload": "string string int int int int [ int ]",
+  "typed_by": "air15",
   "air15_arg_types": "String, String, int, int, int, Array"
  },
  {
@@ -12312,6 +13102,8 @@
   "air15_source": "package_26/class_2579.as",
   "air15_header": 94,
   "args": 2,
+  "payload": "string string",
+  "typed_by": "air15",
   "air15_arg_types": "String, String"
  },
  {
@@ -12323,7 +13115,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -12335,6 +13129,8 @@
   "air15_source": "package_55/class_2748.as",
   "air15_header": 708,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -12346,7 +13142,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -12357,7 +13155,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "? ? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12368,7 +13168,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "? string string",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -12380,6 +13182,8 @@
   "air15_source": "package_70/class_3773.as",
   "air15_header": 174,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -12391,7 +13195,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "int ? ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -12402,7 +13208,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "",
+  "typed_by": ""
  },
  {
   "direction": "outgoing",
@@ -12413,7 +13221,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -12424,7 +13234,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -12436,6 +13248,8 @@
   "air15_source": "package_89/Game2GetWeeklyGroupLeaderboardComposer.as",
   "air15_header": 3278,
   "args": 6,
+  "payload": "int int int int int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, int, int, int, int"
  },
  {
@@ -12448,6 +13262,8 @@
   "air15_source": "package_16/class_2108.as",
   "air15_header": 1676,
   "args": 4,
+  "payload": "? ? ? ?",
+  "typed_by": "none",
   "air15_arg_types": "int, int, int, String, Boolean, String, int"
  },
  {
@@ -12459,7 +13275,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12470,7 +13288,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12481,7 +13301,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12492,7 +13314,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -12503,7 +13327,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -12514,7 +13340,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12526,6 +13354,8 @@
   "air15_source": "package_13/class_3508.as",
   "air15_header": 792,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -12538,6 +13368,8 @@
   "air15_source": "package_121/class_3183.as",
   "air15_header": 1247,
   "args": 2,
+  "payload": "string bool",
+  "typed_by": "air15",
   "air15_arg_types": "String, Boolean"
  },
  {
@@ -12549,7 +13381,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 8
+  "args": 8,
+  "payload": "? int [ ? ] ? int [ ? ] int [ ? ] int [ ? ] int [ ? ] int [ ? ]",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12561,6 +13395,8 @@
   "air15_source": "package_26/class_2537.as",
   "air15_header": 1428,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -12572,7 +13408,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -12583,7 +13421,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -12594,7 +13434,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12605,7 +13447,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -12616,7 +13460,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12627,7 +13473,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "? ? int int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -12638,7 +13486,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "int int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -12650,6 +13500,8 @@
   "air15_source": "package_94/class_2373.as",
   "air15_header": 369,
   "args": 3,
+  "payload": "int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, ChestItemType, int"
  },
  {
@@ -12661,7 +13513,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12672,7 +13526,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "int ? ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -12683,7 +13539,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -12694,7 +13552,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12706,6 +13566,8 @@
   "air15_source": "package_153/class_2690.as",
   "air15_header": 1703,
   "args": 3,
+  "payload": "int int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, int"
  },
  {
@@ -12717,7 +13579,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12729,6 +13593,8 @@
   "air15_source": "package_26/class_3152.as",
   "air15_header": 2843,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -12740,7 +13606,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12751,7 +13619,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12762,7 +13632,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int [ ? ]",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12774,6 +13646,8 @@
   "air15_source": "package_122/class_3197.as",
   "air15_header": 3291,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -12785,7 +13659,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12796,7 +13672,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -12807,7 +13685,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12818,7 +13698,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12829,7 +13711,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12840,7 +13724,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -12852,6 +13738,8 @@
   "air15_source": "package_91/class_2598.as",
   "air15_header": 2804,
   "args": 1,
+  "payload": "…",
+  "typed_by": "air15",
   "air15_arg_types": "Number"
  },
  {
@@ -12864,6 +13752,8 @@
   "air15_source": "package_176/class_2888.as",
   "air15_header": 19,
   "args": 2,
+  "payload": "string string",
+  "typed_by": "air15",
   "air15_arg_types": "String, String"
  },
  {
@@ -12875,7 +13765,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -12886,7 +13778,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "int int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -12897,7 +13791,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12909,6 +13805,8 @@
   "air15_source": "package_3/class_3239.as",
   "air15_header": 2239,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -12920,7 +13818,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12931,7 +13831,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12943,6 +13845,8 @@
   "air15_source": "package_36/class_3326.as",
   "air15_header": 3323,
   "args": 2,
+  "payload": "int string",
+  "typed_by": "air15",
   "air15_arg_types": "int, String"
  },
  {
@@ -12954,7 +13858,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12965,7 +13871,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12976,7 +13884,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 8
+  "args": 8,
+  "payload": "? int [ ? ] ? int [ ? ] int [ ? ] int [ ? ] int [ ? ] int [ ? ]",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -12987,7 +13897,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? string",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -12998,7 +13910,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13010,6 +13924,8 @@
   "air15_source": "package_83/class_2438.as",
   "air15_header": 787,
   "args": 4,
+  "payload": "int int int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, Boolean, Boolean, Boolean"
  },
  {
@@ -13022,6 +13938,8 @@
   "air15_source": "com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/class_3823.as",
   "air15_header": 2019,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -13033,7 +13951,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13045,6 +13965,8 @@
   "air15_source": "package_55/class_2011.as",
   "air15_header": 301,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -13056,7 +13978,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13068,6 +13992,8 @@
   "air15_source": "package_121/class_3366.as",
   "air15_header": 1014,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -13080,6 +14006,8 @@
   "air15_source": "package_34/GetUserNftWardrobeMessageComposer.as",
   "air15_header": 276,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -13091,7 +14019,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13102,7 +14032,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13113,7 +14045,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13124,7 +14058,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13136,6 +14072,8 @@
   "air15_source": "package_15/class_3140.as",
   "air15_header": 2796,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -13147,7 +14085,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "…",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -13158,7 +14098,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13169,7 +14111,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13181,6 +14125,8 @@
   "air15_source": "package_76/class_2928.as",
   "air15_header": 3841,
   "args": 2,
+  "payload": "string int",
+  "typed_by": "air15",
   "air15_arg_types": "String, int"
  },
  {
@@ -13192,7 +14138,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13204,6 +14152,8 @@
   "air15_source": "com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/wiredmenu/class_3327.as",
   "air15_header": 2030,
   "args": 1,
+  "payload": "bool",
+  "typed_by": "air15",
   "air15_arg_types": "Boolean"
  },
  {
@@ -13215,7 +14165,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13226,7 +14178,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13238,6 +14192,8 @@
   "air15_source": "com/sulake/habbo/communication/messages/outgoing/inventory/trading/class_3107.as",
   "air15_header": 567,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -13250,6 +14206,8 @@
   "air15_source": "package_10/class_1995.as",
   "air15_header": 2490,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -13261,7 +14219,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13273,6 +14233,8 @@
   "air15_source": "package_26/class_3185.as",
   "air15_header": 2878,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -13285,6 +14247,8 @@
   "air15_source": "package_82/class_3258.as",
   "air15_header": 1596,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -13297,6 +14261,8 @@
   "air15_source": "package_83/class_3109.as",
   "air15_header": 592,
   "args": 3,
+  "payload": "int string string",
+  "typed_by": "air15",
   "air15_arg_types": "int, String, String"
  },
  {
@@ -13308,7 +14274,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13319,7 +14287,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13330,7 +14300,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13341,7 +14313,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "bool int ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -13352,7 +14326,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int [ ? ]",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -13363,7 +14339,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "string",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -13374,7 +14352,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13385,7 +14365,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13397,6 +14379,8 @@
   "air15_source": "package_190/Game2GameChatMessageComposer.as",
   "air15_header": 3856,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -13408,7 +14392,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "? ? ? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13419,7 +14405,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13430,7 +14418,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13441,7 +14431,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? int [ ? ]",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13452,7 +14444,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 6
+  "args": 6,
+  "payload": "? ? ? ? string string",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -13463,7 +14457,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13474,7 +14470,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13485,7 +14483,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -13496,7 +14496,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13507,7 +14509,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 5
+  "args": 5,
+  "payload": "? ? ? ? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13518,7 +14522,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13529,7 +14535,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13540,7 +14548,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "string",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -13551,7 +14561,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13562,7 +14574,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13573,7 +14587,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "bool",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -13584,7 +14600,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "? ? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13595,7 +14613,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 9
+  "args": 9,
+  "payload": "? int [ ? ] ? int [ ? ] ? int [ ? ] int [ ? ] int [ ? ] int [ ? ]",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13606,7 +14626,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "…",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13617,7 +14639,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -13629,6 +14653,8 @@
   "air15_source": "package_125/class_2506.as",
   "air15_header": 234,
   "args": 7,
+  "payload": "?{ string }",
+  "typed_by": "air15",
   "air15_arg_types": "String, int, int, int, int, int, int"
  },
  {
@@ -13641,6 +14667,8 @@
   "air15_source": "package_89/Game2GetTotalGroupLeaderboardComposer.as",
   "air15_header": 2603,
   "args": 5,
+  "payload": "int int int int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, int, int, int"
  },
  {
@@ -13652,7 +14680,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13664,6 +14694,8 @@
   "air15_source": "package_163/class_3282.as",
   "air15_header": 1903,
   "args": 2,
+  "payload": "int int",
+  "typed_by": "air15",
   "air15_arg_types": "int, int"
  },
  {
@@ -13675,7 +14707,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13686,7 +14720,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13697,7 +14733,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13709,6 +14747,8 @@
   "air15_source": "package_25/class_1869.as",
   "air15_header": 1545,
   "args": 1,
+  "payload": "string",
+  "typed_by": "air15",
   "air15_arg_types": "String"
  },
  {
@@ -13721,6 +14761,8 @@
   "air15_source": "package_94/class_2718.as",
   "air15_header": 1524,
   "args": 7,
+  "payload": "int int bool bool bool bool bool",
+  "typed_by": "air15",
   "air15_arg_types": "int, int, Boolean, Boolean, Boolean, Boolean, Boolean"
  },
  {
@@ -13732,7 +14774,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13743,7 +14787,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -13754,7 +14800,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "string int [ … ]",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -13765,7 +14813,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13777,6 +14827,8 @@
   "air15_source": "package_130/class_3119.as",
   "air15_header": 3487,
   "args": 2,
+  "payload": "int string",
+  "typed_by": "air15",
   "air15_arg_types": "int, String"
  },
  {
@@ -13788,7 +14840,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "? ? int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -13799,7 +14853,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13810,7 +14866,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "string int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -13822,6 +14880,8 @@
   "air15_source": "package_25/class_3375.as",
   "air15_header": 898,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -13834,6 +14894,8 @@
   "air15_source": "package_25/class_1874.as",
   "air15_header": 2840,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -13845,7 +14907,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "int int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -13857,6 +14921,8 @@
   "air15_source": "com/sulake/habbo/communication/messages/outgoing/quest/class_2982.as",
   "air15_header": 1670,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -13868,7 +14934,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "string",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -13879,7 +14947,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13890,7 +14960,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13901,7 +14973,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13912,7 +14986,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -13923,7 +14999,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13934,7 +15012,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "int [ ? ]",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13945,7 +15025,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "int bool bool ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -13956,7 +15038,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 4
+  "args": 4,
+  "payload": "int ? ? ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -13967,7 +15051,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13978,7 +15064,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -13989,7 +15077,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -14000,7 +15090,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -14011,7 +15103,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "bool",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -14023,6 +15117,8 @@
   "air15_source": "package_96/class_2854.as",
   "air15_header": 1415,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -14034,7 +15130,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "string",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -14045,7 +15143,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -14057,6 +15157,8 @@
   "air15_source": "package_197/class_3157.as",
   "air15_header": 3179,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -14069,6 +15171,8 @@
   "air15_source": "package_190/Game2ExitGameMessageComposer.as",
   "air15_header": 1347,
   "args": 1,
+  "payload": "bool",
+  "typed_by": "air15",
   "air15_arg_types": "Boolean"
  },
  {
@@ -14080,7 +15184,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "? ? string",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -14091,7 +15197,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 5
+  "args": 5,
+  "payload": "int int number number string",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -14102,7 +15210,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -14113,7 +15223,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? int",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -14125,6 +15237,8 @@
   "air15_source": "package_13/class_2774.as",
   "air15_header": 3188,
   "args": 2,
+  "payload": "string string",
+  "typed_by": "air15",
   "air15_arg_types": "String, String"
  },
  {
@@ -14136,7 +15250,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "int number ?",
+  "typed_by": "partial"
  },
  {
   "direction": "outgoing",
@@ -14147,7 +15263,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "? ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -14158,7 +15276,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 2
+  "args": 2,
+  "payload": "int int",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -14170,6 +15290,8 @@
   "air15_source": "package_25/class_2710.as",
   "air15_header": 1587,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -14182,6 +15304,8 @@
   "air15_source": "package_26/class_2996.as",
   "air15_header": 3655,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -14193,7 +15317,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -14205,6 +15331,8 @@
   "air15_source": "package_222/class_3843.as",
   "air15_header": 3579,
   "args": 4,
+  "payload": "bool int string int",
+  "typed_by": "air15",
   "air15_arg_types": "Boolean, int, String, int"
  },
  {
@@ -14216,7 +15344,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -14227,7 +15357,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 3
+  "args": 3,
+  "payload": "? int [ ? ] ?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -14238,7 +15370,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 9
+  "args": 9,
+  "payload": "? int [ ? ] ? int [ ? ] ? int [ ? ] int [ ? ] int [ ? ] int [ ? ]",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -14250,6 +15384,8 @@
   "air15_source": "package_36/class_3758.as",
   "air15_header": 3988,
   "args": 1,
+  "payload": "int",
+  "typed_by": "air15",
   "air15_arg_types": "int"
  },
  {
@@ -14261,7 +15397,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -14272,7 +15410,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -14283,7 +15423,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "string",
+  "typed_by": "callsite"
  },
  {
   "direction": "outgoing",
@@ -14294,7 +15436,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  },
  {
   "direction": "outgoing",
@@ -14306,6 +15450,8 @@
   "air15_source": "package_25/class_3720.as",
   "air15_header": 2145,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -14317,7 +15463,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -14329,6 +15477,8 @@
   "air15_source": "package_26/class_3378.as",
   "air15_header": 1240,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -14341,6 +15491,8 @@
   "air15_source": "package_8/class_1900.as",
   "air15_header": 153,
   "args": 0,
+  "payload": "int [ ? ]",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -14352,7 +15504,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -14364,6 +15518,8 @@
   "air15_source": "package_31/class_1975.as",
   "air15_header": 2526,
   "args": 0,
+  "payload": "-",
+  "typed_by": "no args",
   "air15_arg_types": ""
  },
  {
@@ -14375,7 +15531,9 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 0
+  "args": 0,
+  "payload": "-",
+  "typed_by": "no args"
  },
  {
   "direction": "outgoing",
@@ -14386,6 +15544,8 @@
   "status": "placeholder",
   "air15_source": "",
   "air15_header": "",
-  "args": 1
+  "args": 1,
+  "payload": "?",
+  "typed_by": "none"
  }
 ]

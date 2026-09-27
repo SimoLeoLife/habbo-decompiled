@@ -59,18 +59,18 @@ Messages created or registered by classes of this area. Header IDs are those of 
 
 ### Outgoing
 
-| ID | Composer | Args | AIR 15 arg types |
-|---|---|---|---|
-| 637 | `Game2GetTotalLeaderboardComposer` | 5 | int, int, int, int, int |
-| 1318 | `class_2142` | 3 | int, Boolean, Boolean |
-| 1338 | `class_3513` | 0 |  |
-| 2046 | `Game2GetWeeklyFriendsLeaderboardComposer` | 6 | int, int, int, int, int, int |
-| 2181 | `class_2078` | 1 | String |
-| 2184 | `UnkMessageComposer_0args_16c8d7` | 0 |  |
-| 2489 | `Game2GetWeeklyLeaderboardComposer` | 6 | int, int, int, int, int, int |
-| 2850 | `Game2GetWeeklyGroupLeaderboardComposer` | 6 | int, int, int, int, int, int |
-| 3061 | `UnkMessageComposer_0args_c38a5f` | 0 |  |
-| 3560 | `UnkMessageComposer_0args_bb461b` | 0 |  |
-| 3603 | `Game2GetTotalGroupLeaderboardComposer` | 5 | int, int, int, int, int |
-| 3821 | `Game2ExitGameMessageComposer` | 1 | Boolean |
+| ID | Composer | Payload |
+|---|---|---|
+| 637 | `Game2GetTotalLeaderboardComposer` | int int int int int |
+| 1318 | `class_2142` | int int int |
+| 1338 | `class_3513` | - |
+| 2046 | `Game2GetWeeklyFriendsLeaderboardComposer` | int int int int int int |
+| 2181 | `class_2078` | string |
+| 2184 | `UnkMessageComposer_0args_16c8d7` | - |
+| 2489 | `Game2GetWeeklyLeaderboardComposer` | int int int int int int |
+| 2850 | `Game2GetWeeklyGroupLeaderboardComposer` | int int int int int int |
+| 3061 | `UnkMessageComposer_0args_c38a5f` | - |
+| 3560 | `UnkMessageComposer_0args_bb461b` | - |
+| 3603 | `Game2GetTotalGroupLeaderboardComposer` | int int int int int |
+| 3821 | `Game2ExitGameMessageComposer` | bool |
 

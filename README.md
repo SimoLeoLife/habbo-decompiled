@@ -93,7 +93,7 @@ The numbered folder names are in Italian: *app estratto* = extracted app,
    Every matched class carries an inline comment such as
    `/* AIR 15: com/sulake/habbo/communication/enum/HabboCommunicationEvent.as */`.
 4. **`06_report/PROTOCOL.md`**: every network message with its header ID, name,
-   full wire structure and AIR 15 counterpart.
+   full wire structure or payload, and AIR 15 counterpart.
 5. Startup and platform code have readable names and are easy to find with grep:
    `productionStartupArguments`, `initializeGraphicsApplication`,
    `installRendererSettings`, `HabboAirLaunchStage`, `installKeyboardBridge`.
@@ -272,8 +272,8 @@ this build:
 
 - **incoming**: header ID, event name, parser, the **full wire structure** the parser
   reads, the AIR 15 class and its AIR 15 header ID;
-- **outgoing**: header ID, composer name, constructor arity, the AS3 argument types,
-  and the AIR 15 class and header ID.
+- **outgoing**: header ID, composer name, the **payload** it sends with its types,
+  where the types come from, and the AIR 15 class and header ID.
 
 ### Wire structures
 
@@ -297,6 +297,40 @@ int [ class_1989{ string int [ UnkClass_772b30{ string int string } ] } ]
 
 609 parsers are covered, 180 of them with nested structures.
 
+### Outgoing payloads
+
+[`tools/composer_struct.mjs`](habbo-classic-win/tools/composer_struct.mjs) evaluates each
+composer symbolically: it runs the constructor (and helpers such as `packData()`),
+tracks what is stored in fields and pushed into arrays, then evaluates
+`getMessageArray()`. The four shapes used by the client are all covered: values pushed
+into `_data`, `return [this.a, this.b]`, empty payloads, and loops over a list field
+(`[count, ...items]`). Same notation as the wire structures, plus:
+
+| Token | Meaning |
+|---|---|
+| `?` | a value whose type is unknown |
+| `number` | a numeric value that may not be an int (e.g. the result of a division) |
+| `-` | empty payload |
+
+Each value's type comes from the first source that has it:
+
+1. **`air15`**: the typed constructor of the matching AS3 composer
+   (`param1:int, param2:String` → `int string`);
+2. **`callsite`**: the arguments seen where the client creates the composer: literals,
+   comparisons, and fields or getters whose AS3 declaration has a single type
+   (`new X(this._roomId)` → `int` if every AS3 `_roomId` is an `int`);
+3. default parameter values.
+
+The call-site typing was checked against the 123 arguments that AIR 15 also types:
+**123 agree, 0 disagree**.
+
+| Outgoing messages (580) | |
+|---|---|
+| Fully typed payload | 323 |
+| Typed by AIR 15 / call sites / partially / no arguments | 130 / 54 / 64 / 153 |
+| With loops / with conditional values | 30 / 7 |
+| At least one value of unknown type | 238 |
+
 The *AIR 15 ID → this build's ID* pairs are what you need to move a server emulator
 from AIR 15 to this build. No message kept its header ID. The same data is in
 `protocol.csv` and `protocol.json`.
@@ -312,6 +346,8 @@ from AIR 15 to this build. No message kept its header ID. The same data is in
 - Unmatched classes are not "new features": many are classes rewritten by the port.
 - Wire structures follow the reader only through code the client runs directly: a
   structure built through a callback or an unresolved dynamic call is cut short.
+- Outgoing payloads of unmatched composers often keep `?` types: the client passes
+  values whose type cannot be deduced without running it.
 
 ## Area READMEs
 
@@ -344,7 +380,7 @@ GitHub Pages is not used: download the file and open it in a browser.
   the class file on GitHub.
 - **Members** (13,573): hash → recovered name.
 - **Messages** (1,182): direction, header ID, name, parser, wire structure (or the
-  AIR 15 argument types for composers), AIR 15 ID and source.
+  payload for composers), AIR 15 ID and source.
 
 Several words must all match, in any column: `in 2384`, `catalog composer`,
 `_rf87c1e89581ebe`, `Nav`. A search can be passed in the URL: `index.html#HabboCatalog`.
@@ -369,7 +405,7 @@ From the plain `Main.mjs` / `Session.mjs`:
 
 [`tools/run_all.py`](habbo-classic-win/tools/run_all.py) runs everything in one go:
 unzip, `app.asar` extraction, HAB decoding, formatting, name recovery, rewrite,
-per-class split, wire structures, protocol table, area READMEs, search page and
+per-class split, wire structures, outgoing payloads, protocol table, area READMEs, search page and
 changes report.
 
 Requirements: Node.js ≥ 20, Python ≥ 3.10, the `HabboClassicWin.zip` of the build,
@@ -402,6 +438,7 @@ Intermediate files (`tools/work/`) are not committed.
 
 The individual steps can also be run by hand from `tools/`: `as3_inventory.py`,
 `js_inventory.mjs`, `match.py`, `finalize.py`, `deobf.mjs`, `parser_struct.mjs`,
+`composer_struct.mjs` (set `VALIDATE=1` to print the call-site typing check),
 `protocol.py`, `area_readmes.py`, `search_page.py` and `changes.py`. Each script documents its arguments at the top.
 
 ## Further documents

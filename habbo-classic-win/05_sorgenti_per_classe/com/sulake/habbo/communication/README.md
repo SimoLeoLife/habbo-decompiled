@@ -61,9 +61,9 @@ Messages created or registered by classes of this area. Header IDs are those of 
 
 ### Outgoing
 
-| ID | Composer | Args | AIR 15 arg types |
-|---|---|---|---|
-| 1473 | `class_1906` | 3 | String, String, String |
-| 2467 | `UnkMessageComposer_1args_28dbab` | 1 |  |
-| 2813 | `UnkMessageComposer_3args_6b253e` | 3 |  |
+| ID | Composer | Payload |
+|---|---|---|
+| 1473 | `class_1906` | string string string |
+| 2467 | `UnkMessageComposer_1args_28dbab` | ? … |
+| 2813 | `UnkMessageComposer_3args_6b253e` | int ? ? |
 

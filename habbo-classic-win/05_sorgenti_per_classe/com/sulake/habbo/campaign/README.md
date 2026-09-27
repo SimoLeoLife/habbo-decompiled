@@ -40,8 +40,8 @@ Messages created or registered by classes of this area. Header IDs are those of 
 
 ### Outgoing
 
-| ID | Composer | Args | AIR 15 arg types |
-|---|---|---|---|
-| 407 | `UnkMessageComposer_2args_21c19f` | 2 |  |
-| 1705 | `UnkMessageComposer_2args_8704fc` | 2 |  |
+| ID | Composer | Payload |
+|---|---|---|
+| 407 | `UnkMessageComposer_2args_21c19f` | string ? |
+| 1705 | `UnkMessageComposer_2args_8704fc` | string ? |
 

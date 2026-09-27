@@ -51,11 +51,11 @@ Messages created or registered by classes of this area. Header IDs are those of 
 
 ### Outgoing
 
-| ID | Composer | Args | AIR 15 arg types |
-|---|---|---|---|
-| 101 | `class_2134` | 2 | int, Boolean |
-| 667 | `class_3778` | 0 |  |
-| 2183 | `class_3207` | 0 |  |
-| 2696 | `class_3524` | 1 | String |
-| 3976 | `class_1900` | 0 |  |
+| ID | Composer | Payload |
+|---|---|---|
+| 101 | `class_2134` | int bool |
+| 667 | `class_3778` | int [ ? ] |
+| 2183 | `class_3207` | bool int [ ? ] |
+| 2696 | `class_3524` | int [ ? ] string |
+| 3976 | `class_1900` | int [ ? ] |
 

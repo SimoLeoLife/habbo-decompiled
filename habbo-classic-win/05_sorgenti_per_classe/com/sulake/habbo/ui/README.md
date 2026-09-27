@@ -83,23 +83,23 @@ Messages created or registered by classes of this area. Header IDs are those of 
 
 ### Outgoing
 
-| ID | Composer | Args | AIR 15 arg types |
-|---|---|---|---|
-| 51 | `UnkMessageComposer_0args_bd28e4` | 0 |  |
-| 437 | `class_3259` | 1 | String |
-| 509 | `class_3808` | 2 | int, int |
-| 863 | `class_2510` | 2 | int, Boolean |
-| 883 | `class_3659` | 1 | int |
-| 982 | `class_2983` | 1 | int |
-| 1053 | `class_2823` | 3 | int, int, String |
-| 1118 | `UnkMessageComposer_2args_f6b08d` | 2 |  |
-| 1817 | `class_3503` | 4 | int, String, String, String |
-| 2315 | `class_3710` | 0 |  |
-| 2482 | `UnkMessageComposer_0args_5cbd2b` | 0 |  |
-| 2617 | `class_2521` | 1 | int |
-| 2841 | `UnkMessageComposer_0args_e4a895` | 0 |  |
-| 3149 | `UnkMessageComposer_2args_f914b3` | 2 |  |
-| 3347 | `class_3258` | 1 | int |
-| 3435 | `UnkMessageComposer_2args_bfcc88` | 2 |  |
-| 3988 | `UnkMessageComposer_0args_caa89f` | 0 |  |
+| ID | Composer | Payload |
+|---|---|---|
+| 51 | `UnkMessageComposer_0args_bd28e4` | - |
+| 437 | `class_3259` | string |
+| 509 | `class_3808` | int int |
+| 863 | `class_2510` | int bool |
+| 883 | `class_3659` | int |
+| 982 | `class_2983` | int |
+| 1053 | `class_2823` | int int string |
+| 1118 | `UnkMessageComposer_2args_f6b08d` | ? int [ ? ] |
+| 1817 | `class_3503` | int string string string |
+| 2315 | `class_3710` | - |
+| 2482 | `UnkMessageComposer_0args_5cbd2b` | - |
+| 2617 | `class_2521` | int |
+| 2841 | `UnkMessageComposer_0args_e4a895` | - |
+| 3149 | `UnkMessageComposer_2args_f914b3` | ? string |
+| 3347 | `class_3258` | int |
+| 3435 | `UnkMessageComposer_2args_bfcc88` | ? int [ ? ] |
+| 3988 | `UnkMessageComposer_0args_caa89f` | - |
 

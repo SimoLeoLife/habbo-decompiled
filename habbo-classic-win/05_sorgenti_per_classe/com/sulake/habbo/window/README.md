@@ -62,7 +62,7 @@ Messages created or registered by classes of this area. Header IDs are those of 
 
 ### Outgoing
 
-| ID | Composer | Args | AIR 15 arg types |
-|---|---|---|---|
-| 3602 | `class_2506` | 7 | String, int, int, int, int, int, int |
+| ID | Composer | Payload |
+|---|---|---|
+| 3602 | `class_2506` | ?{ string } |
 

@@ -55,6 +55,7 @@ def reads_of(c):
             return ' '.join(x for x in seq if x in READS) or '-'
     return ''
 
+CSTRUCT = json.load(open('work/composer_struct.json', encoding='utf-8')) if os.path.exists('work/composer_struct.json') else {}
 STRUCT = json.load(open('work/parser_struct.json', encoding='utf-8')) if os.path.exists('work/parser_struct.json') else {}
 rows = []
 for kind in ('events', 'composers'):
@@ -73,6 +74,9 @@ for kind in ('events', 'composers'):
         else:
             ct = next((m for m in c['members'] if m['name'] == 'constructor'), None)
             row['args'] = ct['np'] if ct else 0
+            cs = CSTRUCT.get(final(c), {})
+            row['payload'] = cs.get('payload', '')
+            row['typed_by'] = cs.get('typed_by', '')
             a = as3_by_file.get(src)
             if a:
                 act = next((m for m in a['members'] if m['name'] == a['name'] and m['t'] == 'm'), None)
@@ -81,7 +85,7 @@ for kind in ('events', 'composers'):
 
 os.makedirs(OUT, exist_ok=True)
 json.dump(rows, open(os.path.join(OUT, 'protocol.json'), 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
-cols = ['direction', 'header', 'name', 'obfuscated', 'status', 'air15_source', 'air15_header', 'parser', 'parser_reads', 'structure', 'args', 'air15_arg_types']
+cols = ['direction', 'header', 'name', 'obfuscated', 'status', 'air15_source', 'air15_header', 'parser', 'parser_reads', 'structure', 'args', 'air15_arg_types', 'payload', 'typed_by']
 with open(os.path.join(OUT, 'protocol.csv'), 'w', newline='', encoding='utf-8') as fh:
     w = csv.DictWriter(fh, cols, extrasaction='ignore'); w.writeheader(); [w.writerow(r) for r in rows]
 
@@ -118,7 +122,12 @@ How to read the columns:
   done by data class `Name`, `[ … ]` reads repeated in a loop (normally after an `int`
   count), `?{{ … }}` reads done only under a condition (`?{{ a | b }}` for if/else), `…`
   where recursion stops (cycle or depth limit).
-- **AIR 15 arg types**: the constructor signature of the matching AS3 composer.
+- **payload**: what the composer sends, in order, as returned by `getMessageArray()`
+  (built by `tools/composer_struct.mjs`). Same notation as the structures, plus `?` for a
+  value whose type is unknown and `number` for a numeric value that may not be an int.
+- **typed by**: where the payload types come from: `air15` (the typed AS3 constructor),
+  `callsite` (the arguments seen where the client creates the composer), `partial`
+  (only some of them), `none`, or `no args`.
 
 The same data is in `protocol.csv` and `protocol.json`.
 
@@ -128,7 +137,7 @@ The same data is in `protocol.csv` and `protocol.json`.
 
 ## Outgoing (client → server)
 
-{md_table(co, ['header', 'name', 'air15_header', 'args', 'air15_arg_types', 'air15_source'], ['ID', 'Composer', 'AIR 15 ID', 'Args', 'AIR 15 arg types', 'AIR 15 source'])}
+{md_table(co, ['header', 'name', 'air15_header', 'payload', 'typed_by', 'air15_source'], ['ID', 'Composer', 'AIR 15 ID', 'Payload', 'Typed by', 'AIR 15 source'])}
 """
 open(os.path.join(OUT, 'PROTOCOL.md'), 'w', encoding='utf-8').write(md)
 print('incoming', len(ev), dict(st(ev)), 'same id', same(ev), '| outgoing', len(co), dict(st(co)), 'same id', same(co))

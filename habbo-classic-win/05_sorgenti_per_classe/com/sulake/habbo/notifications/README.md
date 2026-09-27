@@ -48,7 +48,7 @@ Messages created or registered by classes of this area. Header IDs are those of 
 
 ### Outgoing
 
-| ID | Composer | Args | AIR 15 arg types |
-|---|---|---|---|
-| 55 | `class_2195` | 0 |  |
+| ID | Composer | Payload |
+|---|---|---|
+| 55 | `class_2195` | - |
 

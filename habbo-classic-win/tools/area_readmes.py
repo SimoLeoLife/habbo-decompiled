@@ -77,8 +77,8 @@ for a in areas:
             L += ['### Incoming\n', table([(r['header'], f"`{r['name']}`", f"`{r.get('parser', '')}`", (r.get('structure') or '')[:140]) for r in inc],
                                           ['ID', 'Event', 'Parser', 'Structure']), '']
         if out:
-            L += ['### Outgoing\n', table([(r['header'], f"`{r['name']}`", r.get('args', ''), r.get('air15_arg_types', '')) for r in out],
-                                          ['ID', 'Composer', 'Args', 'AIR 15 arg types']), '']
+            L += ['### Outgoing\n', table([(r['header'], f"`{r['name']}`", (r.get('payload') or '')[:140]) for r in out],
+                                          ['ID', 'Composer', 'Payload']), '']
     open(os.path.join(d, 'README.md'), 'w', encoding='utf-8').write('\n'.join(L) + '\n')
     mm = msgs.get(a, [])
     index.append((a, len(files), len({r['header'] for r in mm if r['direction'] == 'incoming'}), len({r['header'] for r in mm if r['direction'] == 'outgoing'})))

@@ -75,13 +75,13 @@ Messages created or registered by classes of this area. Header IDs are those of 
 
 ### Outgoing
 
-| ID | Composer | Args | AIR 15 arg types |
-|---|---|---|---|
-| 747 | `class_2474` | 1 | int |
-| 826 | `class_1807` | 1 | int |
-| 1446 | `class_2483` | 1 | int |
-| 2288 | `class_2755` | 1 | int |
-| 2468 | `class_2738` | 0 |  |
-| 3722 | `class_3375` | 0 |  |
-| 3949 | `class_3720` | 0 |  |
+| ID | Composer | Payload |
+|---|---|---|
+| 747 | `class_2474` | int |
+| 826 | `class_1807` | int |
+| 1446 | `class_2483` | int |
+| 2288 | `class_2755` | int |
+| 2468 | `class_2738` | - |
+| 3722 | `class_3375` | - |
+| 3949 | `class_3720` | - |
 

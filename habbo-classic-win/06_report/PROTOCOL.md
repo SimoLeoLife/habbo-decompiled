@@ -22,7 +22,12 @@ How to read the columns:
   done by data class `Name`, `[ … ]` reads repeated in a loop (normally after an `int`
   count), `?{ … }` reads done only under a condition (`?{ a | b }` for if/else), `…`
   where recursion stops (cycle or depth limit).
-- **AIR 15 arg types**: the constructor signature of the matching AS3 composer.
+- **payload**: what the composer sends, in order, as returned by `getMessageArray()`
+  (built by `tools/composer_struct.mjs`). Same notation as the structures, plus `?` for a
+  value whose type is unknown and `number` for a numeric value that may not be an int.
+- **typed by**: where the payload types come from: `air15` (the typed AS3 constructor),
+  `callsite` (the arguments seen where the client creates the composer), `partial`
+  (only some of them), `none`, or `no args`.
 
 The same data is in `protocol.csv` and `protocol.json`.
 
@@ -635,585 +640,585 @@ The same data is in `protocol.csv` and `protocol.json`.
 
 ## Outgoing (client → server)
 
-| ID | Composer | AIR 15 ID | Args | AIR 15 arg types | AIR 15 source |
+| ID | Composer | AIR 15 ID | Payload | Typed by | AIR 15 source |
 |---|---|---|---|---|---|
-| 1 | UnkMessageComposer_1args_bf6bc5 |  | 1 |  |  |
-| 3 | UnkMessageComposer_1args_cbf4ea |  | 1 |  |  |
-| 24 | UnkMessageComposer_1args_497b48 |  | 1 |  |  |
-| 35 | UnkMessageComposer_4args_79a63e |  | 4 |  |  |
-| 42 | UnkMessageComposer_3args_857159 |  | 3 |  |  |
-| 46 | class_3832 | 3514 | 1 | int | package_188/class_3832.as |
-| 51 | UnkMessageComposer_0args_bd28e4 |  | 0 |  |  |
-| 55 | class_2195 | 569 | 0 |  | package_25/class_2195.as |
-| 63 | UnkMessageComposer_3args_b8c93b |  | 3 |  |  |
-| 65 | UnkMessageComposer_1args_0dfe00 |  | 1 |  |  |
-| 74 | UnkMessageComposer_0args_59423f |  | 0 |  |  |
-| 78 | UnkMessageComposer_1args_3bf318 |  | 1 |  |  |
-| 81 | UnkClass_7de45b |  | 5 |  |  |
-| 84 | class_2726 | 2563 | 1 | String | package_142/class_2726.as |
-| 87 | UnkMessageComposer_2args_b36705 |  | 2 |  |  |
-| 89 | UnkMessageComposer_0args_9ec97d |  | 0 |  |  |
-| 91 | UnkMessageComposer_3args_55471e |  | 3 |  |  |
-| 92 | class_3253 | 3059 | 2 | int, int | package_26/class_3253.as |
-| 101 | class_2134 | 3953 | 2 | int, Boolean | package_25/class_2134.as |
-| 112 | UnkMessageComposer_4args_f9763f |  | 4 |  |  |
-| 121 | UnkMessageComposer_1args_87f2c6 |  | 1 |  |  |
-| 122 | class_3384 | 1981 | 2 | Boolean, int | com/sulake/habbo/communication/messages/outgoing/quest/class_3384.as |
-| 123 | UnkMessageComposer_0args_7e040c |  | 0 |  |  |
-| 126 | class_2840 | 2117 | 2 | int, String | package_130/class_2840.as |
-| 128 | class_2946 | 2983 | 0 |  | package_140/class_2946.as |
-| 132 | UnkMessageComposer_0args_e575d8 |  | 0 |  |  |
-| 133 | UnkMessageComposer_1args_3b334c |  | 1 |  |  |
-| 149 | UnkMessageComposer_2args_31311e |  | 2 |  |  |
-| 153 | UnkMessageComposer_0args_f001e3 |  | 0 |  |  |
-| 172 | class_2569 | 2015 | 1 | int | package_70/class_2569.as |
-| 177 | UnkMessageComposer_1args_1e3620 |  | 1 |  |  |
-| 178 | UnkMessageComposer_1args_bfc074 |  | 1 |  |  |
-| 183 | class_2444 | 1675 | 2 | int, Boolean | package_26/class_2444.as |
-| 184 | UnkMessageComposer_2args_2f0c56 |  | 2 |  |  |
-| 189 | UnkMessageComposer_2args_366d0e |  | 2 |  |  |
-| 197 | UnkMessageComposer_4args_ea5f21 |  | 4 |  |  |
-| 206 | UnkMessageComposer_2args_5ad8ab |  | 2 |  |  |
-| 224 | UnkMessageComposer_4args_fbe8d1 |  | 4 |  |  |
-| 230 | UnkMessageComposer_1args_2f9a6b |  | 1 |  |  |
-| 231 | UnkMessageComposer_2args_3043dd |  | 2 |  |  |
-| 235 | UnkMessageComposer_1args_ec400b |  | 1 |  |  |
-| 238 | UnkMessageComposer_1args_052e0c |  | 1 |  |  |
-| 251 | UnkMessageComposer_2args_61cf81 |  | 2 |  |  |
-| 253 | UnkMessageComposer_1args_155bad |  | 1 |  |  |
-| 255 | UnkMessageComposer_2args_825701 |  | 2 |  |  |
-| 259 | UnkMessageComposer_1args_3d035c |  | 1 |  |  |
-| 261 | UnkMessageComposer_1args_ec45f4 |  | 1 |  |  |
-| 268 | UnkMessageComposer_0args_36053f |  | 0 |  |  |
-| 283 | UnkMessageComposer_1args_4aee1d |  | 1 |  |  |
-| 292 | UnkMessageComposer_3args_af730a |  | 3 |  |  |
-| 300 | UnkMessageComposer_1args_332802 |  | 1 |  |  |
-| 314 | UnkMessageComposer_2args_aa6550 |  | 2 |  |  |
-| 331 | class_3386 | 3611 | 1 | int | package_153/class_3386.as |
-| 344 | class_3211 | 2405 | 2 | String, int | package_142/class_3211.as |
-| 352 | UnkMessageComposer_0args_7b84a2 |  | 0 |  |  |
-| 364 | UnkMessageComposer_1args_2f07f9 |  | 1 |  |  |
-| 374 | UnkMessageComposer_0args_2d3a5a |  | 0 |  |  |
-| 381 | UnkMessageComposer_1args_c4eacb |  | 1 |  |  |
-| 395 | UnkMessageComposer_1args_efb9c5 |  | 1 |  |  |
-| 403 | UnkMessageComposer_2args_585389 |  | 2 |  |  |
-| 407 | UnkMessageComposer_2args_21c19f |  | 2 |  |  |
-| 412 | UnkMessageComposer_1args_299bf9 |  | 1 |  |  |
-| 413 | UnkMessageComposer_0args_637b4a |  | 0 |  |  |
-| 429 | class_3315 | 3743 | 1 | String | com/sulake/habbo/communication/messages/outgoing/quest/class_3315.as |
-| 437 | class_3259 | 455 | 1 | String | package_82/class_3259.as |
-| 444 | class_2432 | 750 | 0 |  | package_26/class_2432.as |
-| 445 | class_1875 | 332 | 0 |  | package_31/class_1875.as |
-| 446 | UnkMessageComposer_1args_eb6736 |  | 1 |  |  |
-| 451 | UnkMessageComposer_0args_d5e5cd |  | 0 |  |  |
-| 467 | UnkMessageComposer_5args_295cc0 |  | 5 |  |  |
-| 477 | class_3706 | 135 | 1 | int | package_25/class_3706.as |
-| 497 | UnkMessageComposer_1args_8ad390 |  | 1 |  |  |
-| 498 | class_3150 | 43 | 0 |  | package_152/class_3150.as |
-| 509 | class_3808 | 687 | 2 | int, int | package_66/class_3808.as |
-| 516 | UnkMessageComposer_1args_8bad4e |  | 1 |  |  |
-| 517 | class_2490 | 2014 | 0 |  | package_16/class_2490.as |
-| 518 | class_3286 | 1357 | 0 |  | com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/wiredmenu/class_3286.as |
-| 523 | UnkMessageComposer_0args_bc5573 |  | 0 |  |  |
-| 532 | UnkMessageComposer_1args_f967ff |  | 1 |  |  |
-| 545 | UnkMessageComposer_1args_bf6921 |  | 1 |  |  |
-| 553 | UnkMessageComposer_1args_29fde5 |  | 1 |  |  |
-| 555 | class_1766 | 2566 | 2 | String, int | package_10/class_1766.as |
-| 564 | class_2586 | 3947 | 1 | String | package_36/class_2586.as |
-| 577 | UnkMessageComposer_0args_9b3dfa |  | 0 |  |  |
-| 581 | UnkMessageComposer_1args_7da07d |  | 1 |  |  |
-| 585 | UnkMessageComposer_1args_fcfff3 |  | 1 |  |  |
-| 590 | UnkMessageComposer_0args_c9ff57 |  | 0 |  |  |
-| 603 | UnkMessageComposer_0args_f27b6c |  | 0 |  |  |
-| 609 | class_3634 | 582 | 3 | int, int, String | com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/wiredmenu/class_3634.as |
-| 610 | UnkMessageComposer_1args_9a5617 |  | 1 |  |  |
-| 612 | UnkMessageComposer_0args_2bfae3 |  | 0 |  |  |
-| 616 | class_2370 | 516 | 0 |  | package_93/class_2370.as |
-| 635 | UnkMessageComposer_3args_b7a2f8 |  | 3 |  |  |
-| 637 | Game2GetTotalLeaderboardComposer | 3759 | 5 | int, int, int, int, int | package_89/Game2GetTotalLeaderboardComposer.as |
-| 638 | class_2687 | 1914 | 1 | String | package_72/class_2687.as |
-| 641 | UnkMessageComposer_2args_fa4b75 |  | 2 |  |  |
-| 649 | UpdateSelectorMessageComposer | 125 | 10 | int, Array, Array, String, Array, Array, Boolean, Boolean, Array, Array | com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/UpdateSelectorMessageComposer.as |
-| 661 | UnkMessageComposer_0args_20939e |  | 0 |  |  |
-| 667 | class_3778 | 2830 | 0 |  | package_8/class_3778.as |
-| 672 | class_2523 | 2696 | 2 | int, int | package_83/class_2523.as |
-| 685 | UnkInterface_32a722 |  | 0 |  |  |
-| 698 | UnkMessageComposer_1args_627479 |  | 1 |  |  |
-| 705 | UnkMessageComposer_6args_39add9 |  | 6 |  |  |
-| 706 | UnkMessageComposer_1args_cecbc1 |  | 1 |  |  |
-| 708 | UnkMessageComposer_4args_86258f |  | 4 |  |  |
-| 735 | UnkMessageComposer_1args_7ba091 |  | 1 |  |  |
-| 747 | class_2474 | 237 | 1 | int | package_25/class_2474.as |
-| 763 | UnkMessageComposer_3args_7e3b21 |  | 3 |  |  |
-| 765 | UnkMessageComposer_3args_b0ef4c |  | 3 |  |  |
-| 774 | UnkMessageComposer_2args_d8a23b |  | 2 |  |  |
-| 777 | UnkMessageComposer_0args_38847f |  | 0 |  |  |
-| 803 | UnkMessageComposer_2args_93dfd5 |  | 2 |  |  |
-| 806 | UnkMessageComposer_0args_b10a93 |  | 0 |  |  |
-| 811 | class_3734 | 1533 | 2 | int, int | package_130/class_3734.as |
-| 826 | class_1807 | 506 | 1 | int | package_25/class_1807.as |
-| 847 | class_1776 | 444 | 5 | int, int, String, String, Boolean | package_16/class_1776.as |
-| 848 | class_3590 | 3943 | 0 |  | package_80/class_3590.as |
-| 850 | UnkMessageComposer_1args_d30c13 |  | 1 |  |  |
-| 852 | UnkMessageComposer_3args_0175aa |  | 3 |  |  |
-| 854 | UnkMessageComposer_0args_51ac13 |  | 0 |  |  |
-| 855 | class_2072 | 576 | 3 | int, int, Boolean | package_25/class_2072.as |
-| 858 | UnkMessageComposer_6args_222609 |  | 6 |  |  |
-| 861 | UnkMessageComposer_0args_56b3ff |  | 0 |  |  |
-| 863 | class_2510 | 1451 | 2 | int, Boolean | package_126/class_2510.as |
-| 875 | class_3623 | 2465 | 0 |  | package_13/class_3623.as |
-| 883 | class_3659 | 1617 | 1 | int | package_26/class_3659.as |
-| 885 | UnkMessageComposer_1args_980d5e |  | 1 |  |  |
-| 897 | UnkMessageComposer_1args_9a110d |  | 1 |  |  |
-| 910 | UnkMessageComposer_1args_f19dab |  | 1 |  |  |
-| 921 | UnkMessageComposer_0args_42ab14 |  | 0 |  |  |
-| 925 | class_1949 | 340 | 2 | int, Boolean | package_25/class_1949.as |
-| 935 | UnkMessageComposer_2args_6456b8 |  | 2 |  |  |
-| 950 | UnkMessageComposer_1args_edd83f |  | 1 |  |  |
-| 953 | class_2943 | 2020 | 2 | int, int | package_96/class_2943.as |
-| 962 | class_2352 | 619 | 1 | int | package_83/class_2352.as |
-| 963 | UnkMessageComposer_3args_1e136a |  | 3 |  |  |
-| 974 | class_2678 | 1199 | 1 | String | package_39/class_2678.as |
-| 982 | class_2983 | 1734 | 1 | int | package_66/class_2983.as |
-| 984 | UnkMessageComposer_0args_8e4540 |  | 0 |  |  |
-| 986 | UnkMessageComposer_0args_69f783 |  | 0 |  |  |
-| 989 | UnkMessageComposer_1args_554493 |  | 1 |  |  |
-| 991 | class_3517 | 3371 | 3 | int, String, String | package_26/class_3517.as |
-| 996 | UnkMessageComposer_3args_c9dcc5 |  | 3 |  |  |
-| 1009 | UnkMessageComposer_1args_31de52 |  | 1 |  |  |
-| 1011 | UnkMessageComposer_0args_abfc90 |  | 0 |  |  |
-| 1017 | class_3101 | 3212 | 4 | int, int, String, String | package_101/class_3101.as |
-| 1044 | class_2127 | 3897 | 3 | int, int, String | package_15/class_2127.as |
-| 1049 | class_2491 | 3000 | 2 | int, int | package_122/class_2491.as |
-| 1053 | class_2823 | 2924 | 3 | int, int, String | package_163/class_2823.as |
-| 1060 | UnkMessageComposer_1args_643860 |  | 1 |  |  |
-| 1061 | UnkMessageComposer_1args_5350dd |  | 1 |  |  |
-| 1066 | class_3369 | 2446 | 3 | int, int, int | package_70/class_3369.as |
-| 1070 | class_2638 | 2314 | 3 | int, int, int | package_101/class_2638.as |
-| 1079 | class_3123 | 1101 | 0 |  | package_142/class_3123.as |
-| 1110 | UnkMessageComposer_0args_4e36d9 |  | 0 |  |  |
-| 1112 | UnkMessageComposer_0args_d6e4e5 |  | 0 |  |  |
-| 1118 | UnkMessageComposer_2args_f6b08d |  | 2 |  |  |
-| 1119 | UnkMessageComposer_0args_b53fc6 |  | 0 |  |  |
-| 1124 | UnkMessageComposer_0args_216d1c |  | 0 |  |  |
-| 1132 | class_2550 | 712 | 0 |  | com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/wiredmenu/class_2550.as |
-| 1133 | UnkMessageComposer_0args_5b94ad |  | 0 |  |  |
-| 1143 | UnkMessageComposer_1args_287999 |  | 1 |  |  |
-| 1147 | class_3066 | 1779 | 1 | int | package_8/class_3066.as |
-| 1157 | UnkMessageComposer_0args_199680 |  | 0 |  |  |
-| 1160 | UnkMessageComposer_1args_241f2a |  | 1 |  |  |
-| 1162 | UnkMessageComposer_1args_4c6322 |  | 1 |  |  |
-| 1166 | UnkMessageComposer_3args_b79f99 |  | 3 |  |  |
-| 1167 | UnkMessageComposer_1args_43f663 |  | 1 |  |  |
-| 1170 | UnkMessageComposer_1args_d5c0ee |  | 1 |  |  |
-| 1179 | UnkMessageComposer_4args_645e3c |  | 4 |  |  |
-| 1180 | UnkMessageComposer_1args_48ff45 |  | 1 |  |  |
-| 1188 | UnkMessageComposer_0args_daee12 |  | 0 |  |  |
-| 1211 | class_2097 | 1259 | 6 | int, int, int, int, Boolean, int | package_62/class_2097.as |
-| 1218 | UnkMessageComposer_0args_7e4884 |  | 0 |  |  |
-| 1230 | UnkMessageComposer_2args_5ddae5 |  | 2 |  |  |
-| 1243 | UnkMessageComposer_0args_0d1a05 |  | 0 |  |  |
-| 1244 | UnkMessageComposer_1args_149c94 |  | 1 |  |  |
-| 1246 | UnkMessageComposer_1args_a271d2 |  | 1 |  |  |
-| 1248 | UnkMessageComposer_4args_3fc7ca |  | 4 |  |  |
-| 1250 | UnkMessageComposer_1args_198dc8 |  | 1 |  |  |
-| 1255 | class_3393 | 209 | 0 |  | package_26/class_3393.as |
-| 1266 | UnkMessageComposer_1args_cd0b31 |  | 1 |  |  |
-| 1267 | class_2472 | 2005 | 7 | String, int, int, int, Array, String, String | package_36/class_2472.as |
-| 1301 | class_1917 | 1739 | 2 | int, int | package_8/class_1917.as |
-| 1306 | UnkMessageComposer_2args_353435 |  | 2 |  |  |
-| 1316 | UnkMessageComposer_2args_2f7f53 |  | 2 |  |  |
-| 1317 | UnkMessageComposer_0args_536f63 |  | 0 |  |  |
-| 1318 | class_2142 | 1954 | 3 | int, Boolean, Boolean | package_26/class_2142.as |
-| 1338 | class_3513 | 2531 | 0 |  | package_63/class_3513.as |
-| 1345 | UnkMessageComposer_1args_c7a0c3 |  | 1 |  |  |
-| 1347 | class_2656 | 2060 | 1 | String | package_26/class_2656.as |
-| 1349 | class_2290 | 2295 | 1 | int | package_31/class_2290.as |
-| 1354 | class_3293 | 2609 | 1 | int | package_36/class_3293.as |
-| 1355 | class_2959 | 2995 | 1 | int | package_184/class_2959.as |
-| 1358 | UnkMessageComposer_8args_6e707f |  | 8 |  |  |
-| 1363 | class_3325 | 2414 | 0 |  | com/sulake/habbo/communication/messages/outgoing/quest/class_3325.as |
-| 1365 | UnkMessageComposer_1args_b9c7ad |  | 1 |  |  |
-| 1367 | class_1814 | 3684 | 9 | int, int, String, String, String, int, int, int, Boolean | package_16/class_1814.as |
-| 1375 | UnkMessageComposer_2args_d12462 |  | 2 |  |  |
-| 1387 | UnkMessageComposer_1args_63fdcf |  | 1 |  |  |
-| 1397 | UnkMessageComposer_2args_56c2e9 |  | 2 |  |  |
-| 1407 | class_2704 | 1048 | 0 |  | package_26/class_2704.as |
-| 1446 | class_2483 | 1509 | 1 | int | package_25/class_2483.as |
-| 1448 | UnkMessageComposer_1args_16b46c |  | 1 |  |  |
-| 1454 | UnkMessageComposer_0args_b88ab9 |  | 0 |  |  |
-| 1458 | UnkMessageComposer_7args_558888 |  | 7 |  |  |
-| 1464 | UnkMessageComposer_1args_25b16c |  | 1 |  |  |
-| 1473 | class_1906 | 285 | 3 | String, String, String | package_3/class_1906.as |
-| 1487 | UnkMessageComposer_1args_119583 |  | 1 |  |  |
-| 1489 | UnkMessageComposer_1args_897c73 |  | 1 |  |  |
-| 1500 | UnkMessageComposer_5args_aeffca |  | 5 |  |  |
-| 1503 | UnkMessageComposer_2args_d34f33 |  | 2 |  |  |
-| 1508 | UnkMessageComposer_2args_7fc65c |  | 2 |  |  |
-| 1509 | UnkMessageComposer_1args_dbfc64 |  | 1 |  |  |
-| 1527 | UnkInterface_3a0f00 |  | 0 |  |  |
-| 1529 | class_3171 | 3076 | 1 | Vector.<int> | com/sulake/habbo/communication/messages/outgoing/inventory/trading/class_3171.as |
-| 1542 | UnkMessageComposer_2args_83882f |  | 2 |  |  |
-| 1545 | class_3729 | 400 | 0 |  | package_16/class_3729.as |
-| 1560 | UnkMessageComposer_1args_d98c80 |  | 1 |  |  |
-| 1562 | UnkMessageComposer_1args_d0e50c |  | 1 |  |  |
-| 1564 | UnkMessageComposer_0args_8035f3 |  | 0 |  |  |
-| 1574 | class_2154 | 742 | 5 | String, String, String, String, int | package_70/class_2154.as |
-| 1584 | UnkMessageComposer_4args_0a24f7 |  | 4 |  |  |
-| 1585 | UnkMessageComposer_0args_a0cb16 |  | 0 |  |  |
-| 1587 | UnkMessageComposer_3args_39ec6e |  | 3 |  |  |
-| 1606 | UnkMessageComposer_0args_dceb00 |  | 0 |  |  |
-| 1610 | UnkMessageComposer_0args_03a745 |  | 0 |  |  |
-| 1611 | UnkMessageComposer_1args_2d7b64 |  | 1 |  |  |
-| 1613 | UnkMessageComposer_0args_1e2f08 |  | 0 |  |  |
-| 1615 | UnkMessageComposer_0args_6a30e7 |  | 0 |  |  |
-| 1632 | UnkMessageComposer_0args_674066 |  | 0 |  |  |
-| 1637 | class_2028 | 3361 | 0 |  | package_25/class_2028.as |
-| 1638 | UnkMessageComposer_0args_ba0555 |  | 0 |  |  |
-| 1642 | UnkMessageComposer_1args_fec17d |  | 1 |  |  |
-| 1645 | UnkMessageComposer_2args_005f5c |  | 2 |  |  |
-| 1656 | UnkMessageComposer_1args_75bee1 |  | 1 |  |  |
-| 1665 | UnkMessageComposer_0args_591c5f |  | 0 |  |  |
-| 1670 | class_3002 | 1942 | 0 |  | com/sulake/habbo/communication/messages/outgoing/quest/class_3002.as |
-| 1672 | class_2922 | 1423 | 1 | String | com/sulake/habbo/communication/messages/outgoing/quest/class_2922.as |
-| 1677 | UnkMessageComposer_0args_6c0568 |  | 0 |  |  |
-| 1686 | UnkMessageComposer_1args_9e3ff8 |  | 1 |  |  |
-| 1688 | UnkMessageComposer_1args_40b48b |  | 1 |  |  |
-| 1705 | UnkMessageComposer_2args_8704fc |  | 2 |  |  |
-| 1720 | UnkMessageComposer_1args_b772df |  | 1 |  |  |
-| 1725 | class_3022 | 3241 | 2 | int, int | package_26/class_3022.as |
-| 1731 | UnkMessageComposer_0args_c4056f |  | 0 |  |  |
-| 1733 | UnkMessageComposer_4args_66016d |  | 4 |  |  |
-| 1735 | class_2293 | 3645 | 1 | int | package_80/class_2293.as |
-| 1737 | UnkMessageComposer_1args_f2cae5 |  | 1 |  |  |
-| 1741 | class_2437 | 1652 | 0 |  | package_16/class_2437.as |
-| 1751 | UnkMessageComposer_7args_30b02d |  | 7 |  |  |
-| 1762 | UnkMessageComposer_0args_de44a8 |  | 0 |  |  |
-| 1765 | class_1916 | 900 | 7 | int, int, String, int | package_16/class_1916.as |
-| 1766 | UnkMessageComposer_1args_9b16f6 |  | 1 |  |  |
-| 1767 | UnkMessageComposer_0args_8e4d2a |  | 0 |  |  |
-| 1774 | class_2592 | 1872 | 1 | int | package_25/class_2592.as |
-| 1780 | Game2GetAccountGameStatusMessageComposer | 1717 | 1 | int | package_63/Game2GetAccountGameStatusMessageComposer.as |
-| 1786 | class_2059 | 2108 | 1 | int | package_16/class_2059.as |
-| 1794 | class_3621 | 1732 | 0 |  | com/sulake/habbo/communication/messages/outgoing/quest/class_3621.as |
-| 1815 | class_3189 | 1069 | 0 |  | package_26/class_3189.as |
-| 1816 | class_3754 | 773 | 0 |  | package_25/class_3754.as |
-| 1817 | class_3503 | 322 | 4 | int, String, String, String | package_130/class_3503.as |
-| 1820 | class_3667 | 3325 | 2 | int, int | package_94/class_3667.as |
-| 1823 | UnkMessageComposer_1args_0c6eab |  | 1 |  |  |
-| 1849 | UnkMessageComposer_1args_ac32b5 |  | 1 |  |  |
-| 1857 | class_2660 | 3340 | 1 | String | package_13/class_2660.as |
-| 1863 | class_2702 | 3843 | 11 | int, String, String, String, String, Boolean, int, int, int, int, int | package_70/class_2702.as |
-| 1868 | UnkMessageComposer_5args_024537 |  | 5 |  |  |
-| 1874 | UnkMessageComposer_2args_a82291 |  | 2 |  |  |
-| 1895 | UnkMessageComposer_1args_a34226 |  | 1 |  |  |
-| 1901 | UnkMessageComposer_0args_ea321a |  | 0 |  |  |
-| 1902 | UnkMessageComposer_2args_4a93ef |  | 2 |  |  |
-| 1904 | UnkMessageComposer_1args_3b1131 |  | 1 |  |  |
-| 1915 | UnkMessageComposer_5args_cb1434 |  | 5 |  |  |
-| 1917 | UnkMessageComposer_1args_6c3581 |  | 1 |  |  |
-| 1918 | UnkMessageComposer_3args_f09c5a |  | 3 |  |  |
-| 1934 | class_1968 | 117 | 1 | int | package_25/class_1968.as |
-| 1943 | UnkMessageComposer_1args_9fa391 |  | 1 |  |  |
-| 1944 | class_3850 | 2893 | 1 | int | package_26/class_3850.as |
-| 1947 | UnkMessageComposer_1args_258b76 |  | 1 |  |  |
-| 1957 | class_3289 | 3141 | 0 |  | com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/wiredmenu/class_3289.as |
-| 1961 | UnkMessageComposer_1args_1d2021 |  | 1 |  |  |
-| 1963 | UnkMessageComposer_1args_408b01 |  | 1 |  |  |
-| 1968 | UnkMessageComposer_4args_a6a9b2 |  | 4 |  |  |
-| 1969 | UnkMessageComposer_2args_703229 |  | 2 |  |  |
-| 1973 | UnkMessageComposer_3args_a7c295 |  | 3 |  |  |
-| 1977 | UnkMessageComposer_2args_40e657 |  | 2 |  |  |
-| 1982 | class_2576 | 3280 | 5 | int, int, int, int, int | package_101/class_2576.as |
-| 2012 | UnkMessageComposer_1args_38e25d |  | 1 |  |  |
-| 2015 | UnkMessageComposer_1args_51aaaf |  | 1 |  |  |
-| 2018 | UnkMessageComposer_1args_8f6157 |  | 1 |  |  |
-| 2024 | class_3219 | 1108 | 0 |  | package_26/class_3219.as |
-| 2029 | UnkMessageComposer_1args_7b79c2 |  | 1 |  |  |
-| 2038 | UnkMessageComposer_2args_6a0b5b |  | 2 |  |  |
-| 2041 | class_3057 | 3017 | 9 | int, String, String, Boolean, Boolean, int, int, int, Boolean | package_94/class_3057.as |
-| 2046 | Game2GetWeeklyFriendsLeaderboardComposer | 2445 | 6 | int, int, int, int, int, int | package_89/Game2GetWeeklyFriendsLeaderboardComposer.as |
-| 2053 | class_2393 | 3812 | 1 | String | package_26/class_2393.as |
-| 2059 | UnkMessageComposer_1args_b86093 |  | 1 |  |  |
-| 2064 | UnkMessageComposer_1args_4ef6b0 |  | 1 |  |  |
-| 2066 | UnkMessageComposer_1args_d74f2e |  | 1 |  |  |
-| 2068 | UnkMessageComposer_1args_0dc938 |  | 1 |  |  |
-| 2069 | UnkMessageComposer_1args_9b8b50 |  | 1 |  |  |
-| 2083 | UnkMessageComposer_1args_a7fac5 |  | 1 |  |  |
-| 2095 | class_2683 | 2944 | 3 | int, String, String | package_152/class_2683.as |
-| 2103 | UnkMessageComposer_6args_60e6b3 |  | 6 |  |  |
-| 2107 | UnkMessageComposer_5args_b5af5c |  | 5 |  |  |
-| 2128 | UnkMessageComposer_0args_21ea3c |  | 0 |  |  |
-| 2132 | UnkMessageComposer_0args_8f3e95 |  | 0 |  |  |
-| 2134 | UnkMessageComposer_1args_395056 |  | 1 |  |  |
-| 2137 | class_1959 | 3031 | 3 | int, String, int | package_47/class_1959.as |
-| 2151 | UnkMessageComposer_1args_c73ebf |  | 1 |  |  |
-| 2170 | UnkMessageComposer_9args_0904d6 |  | 9 |  |  |
-| 2177 | UnkMessageComposer_3args_69d2f5 |  | 3 |  |  |
-| 2181 | class_2078 | 3103 | 1 | String | package_63/class_2078.as |
-| 2183 | class_3207 | 808 | 0 |  | package_8/class_3207.as |
-| 2184 | UnkMessageComposer_0args_16c8d7 |  | 0 |  |  |
-| 2189 | UnkMessageComposer_1args_4f047f |  | 1 |  |  |
-| 2190 | class_3278 | 1338 | 6 | int, int, String, int, Boolean, int | package_130/class_3278.as |
-| 2193 | UnkMessageComposer_0args_df297a |  | 0 |  |  |
-| 2208 | UnkMessageComposer_5args_7d4374 |  | 5 |  |  |
-| 2209 | UnkMessageComposer_2args_9ca163 |  | 2 |  |  |
-| 2213 | class_2596 | 3153 | 1 | String | package_142/class_2596.as |
-| 2225 | class_2215 | 2949 | 0 |  | package_61/class_2215.as |
-| 2231 | class_2787 | 2784 | 3 | int, Boolean, String | package_153/class_2787.as |
-| 2232 | UnkMessageComposer_0args_ff3ab2 |  | 0 |  |  |
-| 2234 | UnkMessageComposer_1args_1f682e |  | 1 |  |  |
-| 2269 | UnkMessageComposer_0args_590efe |  | 0 |  |  |
-| 2276 | UnkMessageComposer_6args_826cee |  | 6 |  |  |
-| 2288 | class_2755 | 2093 | 1 | int | package_25/class_2755.as |
-| 2293 | UnkMessageComposer_4args_67b371 |  | 4 |  |  |
-| 2297 | UnkMessageComposer_4args_0a423a |  | 4 |  |  |
-| 2305 | UnkMessageComposer_1args_359cdf |  | 1 |  |  |
-| 2314 | class_2552 | 2463 | 3 | int, String, int | package_26/class_2552.as |
-| 2315 | class_3710 | 281 | 0 |  | package_80/class_3710.as |
-| 2321 | class_2402 | 3615 | 0 |  | package_16/class_2402.as |
-| 2322 | class_2520 | 167 | 1 | int | package_94/class_2520.as |
-| 2325 | UnkMessageComposer_0args_38fbd8 |  | 0 |  |  |
-| 2330 | UnkMessageComposer_0args_258e60 |  | 0 |  |  |
-| 2331 | UnkMessageComposer_1args_74bcb1 |  | 1 |  |  |
-| 2335 | UnkMessageComposer_1args_7007e8 |  | 1 |  |  |
-| 2341 | UnkMessageComposer_2args_555ac0 |  | 2 |  |  |
-| 2346 | class_2806 | 3079 | 2 | String, String | package_140/class_2806.as |
-| 2347 | class_3418 | 2001 | 0 |  | package_26/class_3418.as |
-| 2362 | UnkMessageComposer_1args_f95bde |  | 1 |  |  |
-| 2367 | class_1847 | 767 | 0 |  | package_31/class_1847.as |
-| 2371 | UnkMessageComposer_0args_457c98 |  | 0 |  |  |
-| 2372 | class_2182 | 3626 | 0 |  | package_72/class_2182.as |
-| 2378 | UnkMessageComposer_1args_1bfda9 |  | 1 |  |  |
-| 2381 | UnkMessageComposer_5args_d175ed |  | 5 |  |  |
-| 2384 | UnkMessageComposer_2args_99629c |  | 2 |  |  |
-| 2386 | UnkMessageComposer_3args_edffb9 |  | 3 |  |  |
-| 2394 | UnkMessageComposer_1args_94bac7 |  | 1 |  |  |
-| 2413 | UnkMessageComposer_2args_501038 |  | 2 |  |  |
-| 2419 | UnkMessageComposer_2args_f46dd3 |  | 2 |  |  |
-| 2459 | UnkMessageComposer_1args_5a0637 |  | 1 |  |  |
-| 2462 | UnkMessageComposer_1args_377c09 |  | 1 |  |  |
-| 2467 | UnkMessageComposer_1args_28dbab |  | 1 |  |  |
-| 2468 | class_2738 | 982 | 0 |  | package_25/class_2738.as |
-| 2470 | class_2868 | 2864 | 0 |  | package_16/class_2868.as |
-| 2482 | UnkMessageComposer_0args_5cbd2b |  | 0 |  |  |
-| 2487 | class_3610 | 3946 | 2 | String, int | package_26/class_3610.as |
-| 2489 | Game2GetWeeklyLeaderboardComposer | 2993 | 6 | int, int, int, int, int, int | package_89/Game2GetWeeklyLeaderboardComposer.as |
-| 2494 | UnkMessageComposer_2args_795930 |  | 2 |  |  |
-| 2514 | UnkMessageComposer_4args_eb224a |  | 4 |  |  |
-| 2520 | class_1992 | 2649 | 7 | int, int, String, int, int, int, Boolean | package_16/class_1992.as |
-| 2530 | UnkMessageComposer_1args_366b24 |  | 1 |  |  |
-| 2542 | class_2622 | 3952 | 1 | String | package_16/class_2622.as |
-| 2552 | UnkMessageComposer_4args_263d98 |  | 4 |  |  |
-| 2555 | UnkMessageComposer_3args_b652a2 |  | 3 |  |  |
-| 2571 | UnkMessageComposer_1args_01e867 |  | 1 |  |  |
-| 2577 | UnkMessageComposer_1args_e95634 |  | 1 |  |  |
-| 2600 | class_3851 | 2792 | 1 | String | package_8/class_3851.as |
-| 2603 | UnkMessageComposer_1args_2a0f86 |  | 1 |  |  |
-| 2610 | class_3766 | 917 | 1 | String | package_13/class_3766.as |
-| 2614 | UnkMessageComposer_1args_10fe46 |  | 1 |  |  |
-| 2617 | class_2521 | 1762 | 1 | int | package_129/class_2521.as |
-| 2622 | UnkMessageComposer_1args_c0fc28 |  | 1 |  |  |
-| 2628 | UnkMessageComposer_1args_9c6de6 |  | 1 |  |  |
-| 2630 | UnkMessageComposer_1args_2857d9 |  | 1 |  |  |
-| 2637 | UnkMessageComposer_1args_7db185 |  | 1 |  |  |
-| 2655 | UnkMessageComposer_8args_8f7de2 |  | 8 |  |  |
-| 2661 | UnkMessageComposer_1args_b71115 |  | 1 |  |  |
-| 2672 | UnkMessageComposer_1args_32ef05 |  | 1 |  |  |
-| 2673 | class_3256 | 1715 | 1 | int | package_26/class_3256.as |
-| 2679 | class_1914 | 3757 | 1 | int | package_40/class_1914.as |
-| 2689 | class_3672 | 1329 | 1 | String | package_142/class_3672.as |
-| 2696 | class_3524 | 806 | 1 | String | package_8/class_3524.as |
-| 2709 | UnkMessageComposer_4args_b2c61f |  | 4 |  |  |
-| 2725 | UnkMessageComposer_2args_d5cf77 |  | 2 |  |  |
-| 2730 | class_2213 | 2004 | 3 | String, int, int | package_76/class_2213.as |
-| 2734 | UnkMessageComposer_1args_642b73 |  | 1 |  |  |
-| 2735 | class_2804 | 1933 | 4 | int, int, String, int | package_25/class_2804.as |
-| 2736 | class_2993 | 3313 | 1 | Array | package_188/class_2993.as |
-| 2737 | class_2551 | 3929 | 0 |  | package_47/class_2551.as |
-| 2747 | class_2433 | 3145 | 6 | String, String, int, int, int, Array | package_25/class_2433.as |
-| 2749 | class_2579 | 94 | 2 | String, String | package_26/class_2579.as |
-| 2751 | UnkMessageComposer_0args_5d4c85 |  | 0 |  |  |
-| 2768 | class_2748 | 708 | 0 |  | package_55/class_2748.as |
-| 2788 | UnkMessageComposer_0args_564035 |  | 0 |  |  |
-| 2799 | UnkMessageComposer_3args_50dade |  | 3 |  |  |
-| 2805 | UnkMessageComposer_3args_166ebe |  | 3 |  |  |
-| 2810 | class_3773 | 174 | 1 | int | package_70/class_3773.as |
-| 2813 | UnkMessageComposer_3args_6b253e |  | 3 |  |  |
-| 2839 | UnkMessageComposer_0args_ec9d12 |  | 0 |  |  |
-| 2841 | UnkMessageComposer_0args_e4a895 |  | 0 |  |  |
-| 2842 | UnkMessageComposer_0args_9b50c0 |  | 0 |  |  |
-| 2850 | Game2GetWeeklyGroupLeaderboardComposer | 3278 | 6 | int, int, int, int, int, int | package_89/Game2GetWeeklyGroupLeaderboardComposer.as |
-| 2864 | class_2108 | 1676 | 4 | int, int, int, String, Boolean, String, int | package_16/class_2108.as |
-| 2869 | UnkMessageComposer_1args_09ed2f |  | 1 |  |  |
-| 2873 | UnkMessageComposer_2args_7e7c59 |  | 2 |  |  |
-| 2877 | UnkMessageComposer_1args_edbb78 |  | 1 |  |  |
-| 2887 | UnkMessageComposer_0args_6f5e4e |  | 0 |  |  |
-| 2888 | UnkMessageComposer_0args_52e774 |  | 0 |  |  |
-| 2901 | UnkMessageComposer_1args_d39a1c |  | 1 |  |  |
-| 2902 | class_3508 | 792 | 1 | String | package_13/class_3508.as |
-| 2903 | class_3183 | 1247 | 2 | String, Boolean | package_121/class_3183.as |
-| 2909 | UnkMessageComposer_8args_d32620 |  | 8 |  |  |
-| 2917 | class_2537 | 1428 | 1 | int | package_26/class_2537.as |
-| 2921 | UnkMessageComposer_0args_b9e29b |  | 0 |  |  |
-| 2923 | UnkMessageComposer_0args_79f02c |  | 0 |  |  |
-| 2940 | UnkMessageComposer_2args_a047a4 |  | 2 |  |  |
-| 2941 | UnkMessageComposer_0args_50278e |  | 0 |  |  |
-| 2942 | UnkMessageComposer_1args_124c19 |  | 1 |  |  |
-| 2950 | UnkMessageComposer_4args_7274f8 |  | 4 |  |  |
-| 2968 | UnkMessageComposer_2args_2f1a3e |  | 2 |  |  |
-| 2972 | class_2373 | 369 | 3 | int, ChestItemType, int | package_94/class_2373.as |
-| 2987 | UnkMessageComposer_1args_f2374f |  | 1 |  |  |
-| 3008 | UnkMessageComposer_3args_6467d8 |  | 3 |  |  |
-| 3009 | UnkMessageComposer_1args_1e382b |  | 1 |  |  |
-| 3014 | UnkMessageComposer_1args_717f6e |  | 1 |  |  |
-| 3015 | class_2690 | 1703 | 3 | int, int, int | package_153/class_2690.as |
-| 3023 | UnkMessageComposer_1args_933fbf |  | 1 |  |  |
-| 3024 | class_3152 | 2843 | 1 | int | package_26/class_3152.as |
-| 3027 | UnkMessageComposer_1args_cf4364 |  | 1 |  |  |
-| 3034 | UnkMessageComposer_1args_9aee4c |  | 1 |  |  |
-| 3037 | UnkMessageComposer_1args_8947c2 |  | 1 |  |  |
-| 3045 | class_3197 | 3291 | 1 | int | package_122/class_3197.as |
-| 3047 | UnkMessageComposer_1args_fe672a |  | 1 |  |  |
-| 3061 | UnkMessageComposer_0args_c38a5f |  | 0 |  |  |
-| 3071 | UnkMessageComposer_1args_9760cc |  | 1 |  |  |
-| 3072 | UnkMessageComposer_1args_6c9431 |  | 1 |  |  |
-| 3074 | UnkMessageComposer_2args_dc4eba |  | 2 |  |  |
-| 3077 | UnkMessageComposer_0args_104bce |  | 0 |  |  |
-| 3078 | class_2598 | 2804 | 1 | Number | package_91/class_2598.as |
-| 3079 | class_2888 | 19 | 2 | String, String | package_176/class_2888.as |
-| 3085 | UnkMessageComposer_1args_38d883 |  | 1 |  |  |
-| 3092 | UnkMessageComposer_2args_7be3e6 |  | 2 |  |  |
-| 3100 | UnkMessageComposer_1args_0f924b |  | 1 |  |  |
-| 3108 | class_3239 | 2239 | 1 | String | package_3/class_3239.as |
-| 3112 | UnkMessageComposer_2args_88712c |  | 2 |  |  |
-| 3113 | UnkMessageComposer_1args_d7b33c |  | 1 |  |  |
-| 3117 | class_3326 | 3323 | 2 | int, String | package_36/class_3326.as |
-| 3120 | UnkMessageComposer_1args_d020d8 |  | 1 |  |  |
-| 3127 | UnkMessageComposer_1args_4ee8fc |  | 1 |  |  |
-| 3142 | UnkMessageComposer_8args_351508 |  | 8 |  |  |
-| 3149 | UnkMessageComposer_2args_f914b3 |  | 2 |  |  |
-| 3157 | UnkMessageComposer_0args_ffad2b |  | 0 |  |  |
-| 3160 | class_2438 | 787 | 4 | int, Boolean, Boolean, Boolean | package_83/class_2438.as |
-| 3166 | class_3823 | 2019 | 1 | int | com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/class_3823.as |
-| 3175 | UnkMessageComposer_1args_18a3be |  | 1 |  |  |
-| 3178 | class_2011 | 301 | 0 |  | package_55/class_2011.as |
-| 3189 | UnkMessageComposer_0args_b141ad |  | 0 |  |  |
-| 3200 | class_3366 | 1014 | 0 |  | package_121/class_3366.as |
-| 3206 | GetUserNftWardrobeMessageComposer | 276 | 0 |  | package_34/GetUserNftWardrobeMessageComposer.as |
-| 3212 | UnkMessageComposer_1args_aaec2d |  | 1 |  |  |
-| 3215 | UnkMessageComposer_2args_a5d395 |  | 2 |  |  |
-| 3225 | UnkMessageComposer_2args_99974c |  | 2 |  |  |
-| 3230 | UnkMessageComposer_0args_2ab1df |  | 0 |  |  |
-| 3242 | class_3140 | 2796 | 0 |  | package_15/class_3140.as |
-| 3248 | UnkMessageComposer_1args_c25925 |  | 1 |  |  |
-| 3249 | UnkMessageComposer_0args_d8a83c |  | 0 |  |  |
-| 3257 | UnkMessageComposer_1args_8f295e |  | 1 |  |  |
-| 3273 | class_2928 | 3841 | 2 | String, int | package_76/class_2928.as |
-| 3276 | UnkMessageComposer_0args_c0905c |  | 0 |  |  |
-| 3285 | class_3327 | 2030 | 1 | Boolean | com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/wiredmenu/class_3327.as |
-| 3293 | UnkMessageComposer_0args_86ce82 |  | 0 |  |  |
-| 3299 | UnkMessageComposer_0args_5d30c5 |  | 0 |  |  |
-| 3326 | class_3107 | 567 | 1 | int | com/sulake/habbo/communication/messages/outgoing/inventory/trading/class_3107.as |
-| 3331 | class_1995 | 2490 | 1 | int | package_10/class_1995.as |
-| 3332 | UnkMessageComposer_1args_3e8d23 |  | 1 |  |  |
-| 3343 | class_3185 | 2878 | 0 |  | package_26/class_3185.as |
-| 3347 | class_3258 | 1596 | 1 | int | package_82/class_3258.as |
-| 3351 | class_3109 | 592 | 3 | int, String, String | package_83/class_3109.as |
-| 3352 | UnkMessageComposer_1args_568437 |  | 1 |  |  |
-| 3358 | UnkMessageComposer_0args_bd9689 |  | 0 |  |  |
-| 3361 | UnkMessageComposer_1args_845dac |  | 1 |  |  |
-| 3375 | UnkMessageComposer_3args_361537 |  | 3 |  |  |
-| 3381 | UnkMessageComposer_1args_08ea7a |  | 1 |  |  |
-| 3406 | UnkMessageComposer_1args_51137a |  | 1 |  |  |
-| 3408 | UnkMessageComposer_1args_35156d |  | 1 |  |  |
-| 3411 | UnkMessageComposer_0args_f24fdc |  | 0 |  |  |
-| 3412 | Game2GameChatMessageComposer | 3856 | 1 | String | package_190/Game2GameChatMessageComposer.as |
-| 3417 | UnkMessageComposer_4args_9b2115 |  | 4 |  |  |
-| 3418 | UnkMessageComposer_1args_e28d2d |  | 1 |  |  |
-| 3426 | UnkMessageComposer_2args_d08ec3 |  | 2 |  |  |
-| 3435 | UnkMessageComposer_2args_bfcc88 |  | 2 |  |  |
-| 3445 | UnkMessageComposer_6args_0c6cfe |  | 6 |  |  |
-| 3448 | UnkMessageComposer_1args_4e4d0b |  | 1 |  |  |
-| 3461 | UnkMessageComposer_0args_9606fa |  | 0 |  |  |
-| 3470 | UnkMessageComposer_1args_d67cc3 |  | 1 |  |  |
-| 3497 | UnkMessageComposer_2args_156482 |  | 2 |  |  |
-| 3508 | UnkMessageComposer_5args_da09ce |  | 5 |  |  |
-| 3512 | UnkMessageComposer_0args_96e861 |  | 0 |  |  |
-| 3515 | UnkMessageComposer_0args_bef879 |  | 0 |  |  |
-| 3520 | UnkMessageComposer_1args_2aab97 |  | 1 |  |  |
-| 3545 | UnkMessageComposer_0args_652735 |  | 0 |  |  |
-| 3560 | UnkMessageComposer_0args_bb461b |  | 0 |  |  |
-| 3562 | UnkMessageComposer_1args_8f877f |  | 1 |  |  |
-| 3567 | UnkMessageComposer_3args_8c8542 |  | 3 |  |  |
-| 3573 | UnkMessageComposer_9args_2240eb |  | 9 |  |  |
-| 3580 | UnkMessageComposer_2args_bd0d7b |  | 2 |  |  |
-| 3586 | UnkMessageComposer_1args_9833fa |  | 1 |  |  |
-| 3602 | class_2506 | 234 | 7 | String, int, int, int, int, int, int | package_125/class_2506.as |
-| 3603 | Game2GetTotalGroupLeaderboardComposer | 2603 | 5 | int, int, int, int, int | package_89/Game2GetTotalGroupLeaderboardComposer.as |
-| 3612 | UnkMessageComposer_0args_b21bdb |  | 0 |  |  |
-| 3613 | class_3282 | 1903 | 2 | int, int | package_163/class_3282.as |
-| 3617 | UnkMessageComposer_0args_32db5b |  | 0 |  |  |
-| 3632 | UnkMessageComposer_0args_0f5d86 |  | 0 |  |  |
-| 3640 | UnkMessageComposer_0args_670ded |  | 0 |  |  |
-| 3649 | class_1869 | 1545 | 1 | String | package_25/class_1869.as |
-| 3651 | class_2718 | 1524 | 7 | int, int, Boolean, Boolean, Boolean, Boolean, Boolean | package_94/class_2718.as |
-| 3659 | UnkMessageComposer_2args_10b537 |  | 2 |  |  |
-| 3661 | UnkMessageComposer_1args_9cd25c |  | 1 |  |  |
-| 3686 | UnkMessageComposer_2args_77c58e |  | 2 |  |  |
-| 3702 | UnkMessageComposer_0args_dadf93 |  | 0 |  |  |
-| 3703 | class_3119 | 3487 | 2 | int, String | package_130/class_3119.as |
-| 3710 | UnkMessageComposer_3args_0b97a2 |  | 3 |  |  |
-| 3717 | UnkMessageComposer_0args_1f252e |  | 0 |  |  |
-| 3720 | UnkMessageComposer_3args_7df365 |  | 3 |  |  |
-| 3722 | class_3375 | 898 | 0 |  | package_25/class_3375.as |
-| 3723 | class_1874 | 2840 | 0 |  | package_25/class_1874.as |
-| 3724 | UnkMessageComposer_2args_8e8810 |  | 2 |  |  |
-| 3728 | class_2982 | 1670 | 0 |  | com/sulake/habbo/communication/messages/outgoing/quest/class_2982.as |
-| 3731 | UnkMessageComposer_1args_f9faca |  | 1 |  |  |
-| 3734 | UnkMessageComposer_2args_3e403d |  | 2 |  |  |
-| 3735 | UnkMessageComposer_0args_f730f5 |  | 0 |  |  |
-| 3741 | UnkMessageComposer_0args_7baf13 |  | 0 |  |  |
-| 3749 | UnkMessageComposer_0args_573deb |  | 0 |  |  |
-| 3751 | UnkMessageComposer_2args_7654b6 |  | 2 |  |  |
-| 3752 | UnkMessageComposer_1args_aab880 |  | 1 |  |  |
-| 3764 | UnkMessageComposer_4args_5990fc |  | 4 |  |  |
-| 3766 | UnkMessageComposer_4args_bad7a3 |  | 4 |  |  |
-| 3775 | UnkMessageComposer_2args_47dc6f |  | 2 |  |  |
-| 3776 | UnkMessageComposer_1args_85b5fd |  | 1 |  |  |
-| 3779 | UnkMessageComposer_2args_355926 |  | 2 |  |  |
-| 3784 | UnkMessageComposer_1args_8badd5 |  | 1 |  |  |
-| 3792 | UnkMessageComposer_1args_e52ad3 |  | 1 |  |  |
-| 3794 | class_2854 | 1415 | 1 | int | package_96/class_2854.as |
-| 3795 | UnkMessageComposer_1args_9bda71 |  | 1 |  |  |
-| 3810 | UnkMessageComposer_0args_56dae5 |  | 0 |  |  |
-| 3811 | class_3157 | 3179 | 0 |  | package_197/class_3157.as |
-| 3821 | Game2ExitGameMessageComposer | 1347 | 1 | Boolean | package_190/Game2ExitGameMessageComposer.as |
-| 3827 | UnkMessageComposer_3args_150670 |  | 3 |  |  |
-| 3828 | UnkMessageComposer_5args_3d9f3a |  | 5 |  |  |
-| 3834 | UnkMessageComposer_1args_232303 |  | 1 |  |  |
-| 3835 | UnkMessageComposer_2args_ce9155 |  | 2 |  |  |
-| 3836 | class_2774 | 3188 | 2 | String, String | package_13/class_2774.as |
-| 3839 | UnkMessageComposer_3args_019510 |  | 3 |  |  |
-| 3846 | UnkMessageComposer_2args_ef7686 |  | 2 |  |  |
-| 3854 | UnkMessageComposer_2args_7c06f8 |  | 2 |  |  |
-| 3857 | class_2710 | 1587 | 1 | int | package_25/class_2710.as |
-| 3859 | class_2996 | 3655 | 0 |  | package_26/class_2996.as |
-| 3861 | UnkMessageComposer_0args_56053f |  | 0 |  |  |
-| 3863 | class_3843 | 3579 | 4 | Boolean, int, String, int | package_222/class_3843.as |
-| 3864 | UnkMessageComposer_0args_095739 |  | 0 |  |  |
-| 3868 | UnkMessageComposer_3args_7df25a |  | 3 |  |  |
-| 3873 | UnkMessageComposer_9args_5d6aac |  | 9 |  |  |
-| 3908 | class_3758 | 3988 | 1 | int | package_36/class_3758.as |
-| 3909 | UnkMessageComposer_0args_fdcc6e |  | 0 |  |  |
-| 3924 | UnkMessageComposer_0args_67c3b6 |  | 0 |  |  |
-| 3935 | UnkMessageComposer_1args_61003c |  | 1 |  |  |
-| 3939 | UnkMessageComposer_1args_17f216 |  | 1 |  |  |
-| 3949 | class_3720 | 2145 | 0 |  | package_25/class_3720.as |
-| 3968 | UnkMessageComposer_0args_5d612e |  | 0 |  |  |
-| 3973 | class_3378 | 1240 | 0 |  | package_26/class_3378.as |
-| 3976 | class_1900 | 153 | 0 |  | package_8/class_1900.as |
-| 3988 | UnkMessageComposer_0args_caa89f |  | 0 |  |  |
-| 3993 | class_1975 | 2526 | 0 |  | package_31/class_1975.as |
-| 4100 | UnkMessageComposer_0args_cc7acf |  | 0 |  |  |
-| 4101 | UnkMessageComposer_1args_4224c6 |  | 1 |  |  |
+| 1 | UnkMessageComposer_1args_bf6bc5 |  | ? | none |  |
+| 3 | UnkMessageComposer_1args_cbf4ea |  | ? | none |  |
+| 24 | UnkMessageComposer_1args_497b48 |  | ? | none |  |
+| 35 | UnkMessageComposer_4args_79a63e |  | ? ? ? ? | none |  |
+| 42 | UnkMessageComposer_3args_857159 |  | ? int int | partial |  |
+| 46 | class_3832 | 3514 | int | air15 | package_188/class_3832.as |
+| 51 | UnkMessageComposer_0args_bd28e4 |  | - | no args |  |
+| 55 | class_2195 | 569 | - | no args | package_25/class_2195.as |
+| 63 | UnkMessageComposer_3args_b8c93b |  | ? ? ? | none |  |
+| 65 | UnkMessageComposer_1args_0dfe00 |  | int | callsite |  |
+| 74 | UnkMessageComposer_0args_59423f |  | - | no args |  |
+| 78 | UnkMessageComposer_1args_3bf318 |  | ? | none |  |
+| 81 | UnkClass_7de45b |  |  |  |  |
+| 84 | class_2726 | 2563 | string | air15 | package_142/class_2726.as |
+| 87 | UnkMessageComposer_2args_b36705 |  | ? bool | partial |  |
+| 89 | UnkMessageComposer_0args_9ec97d |  | - | no args |  |
+| 91 | UnkMessageComposer_3args_55471e |  | ? int ? | partial |  |
+| 92 | class_3253 | 3059 | int int | air15 | package_26/class_3253.as |
+| 101 | class_2134 | 3953 | int bool | air15 | package_25/class_2134.as |
+| 112 | UnkMessageComposer_4args_f9763f |  | int ? ? ? | partial |  |
+| 121 | UnkMessageComposer_1args_87f2c6 |  | ? | none |  |
+| 122 | class_3384 | 1981 | bool int | air15 | com/sulake/habbo/communication/messages/outgoing/quest/class_3384.as |
+| 123 | UnkMessageComposer_0args_7e040c |  | - | no args |  |
+| 126 | class_2840 | 2117 | int string | air15 | package_130/class_2840.as |
+| 128 | class_2946 | 2983 | - | no args | package_140/class_2946.as |
+| 132 | UnkMessageComposer_0args_e575d8 |  | - | no args |  |
+| 133 | UnkMessageComposer_1args_3b334c |  | ? | none |  |
+| 149 | UnkMessageComposer_2args_31311e |  | ? string | partial |  |
+| 153 | UnkMessageComposer_0args_f001e3 |  | - | no args |  |
+| 172 | class_2569 | 2015 | int | air15 | package_70/class_2569.as |
+| 177 | UnkMessageComposer_1args_1e3620 |  | ? int | none |  |
+| 178 | UnkMessageComposer_1args_bfc074 |  | ? | none |  |
+| 183 | class_2444 | 1675 | int bool | air15 | package_26/class_2444.as |
+| 184 | UnkMessageComposer_2args_2f0c56 |  | ? int [ ? ] | none |  |
+| 189 | UnkMessageComposer_2args_366d0e |  | ? ? | none |  |
+| 197 | UnkMessageComposer_4args_ea5f21 |  | int ? ? ? | partial |  |
+| 206 | UnkMessageComposer_2args_5ad8ab |  | ? int | partial |  |
+| 224 | UnkMessageComposer_4args_fbe8d1 |  | bool bool bool bool | callsite |  |
+| 230 | UnkMessageComposer_1args_2f9a6b |  | ? | none |  |
+| 231 | UnkMessageComposer_2args_3043dd |  | ? ? | none |  |
+| 235 | UnkMessageComposer_1args_ec400b |  | ? | none |  |
+| 238 | UnkMessageComposer_1args_052e0c |  | ? | none |  |
+| 251 | UnkMessageComposer_2args_61cf81 |  | int int [ int ] | partial |  |
+| 253 | UnkMessageComposer_1args_155bad |  | ? | none |  |
+| 255 | UnkMessageComposer_2args_825701 |  | ? number [ ? … ] | none |  |
+| 259 | UnkMessageComposer_1args_3d035c |  | ? | none |  |
+| 261 | UnkMessageComposer_1args_ec45f4 |  | ? | none |  |
+| 268 | UnkMessageComposer_0args_36053f |  | - | no args |  |
+| 283 | UnkMessageComposer_1args_4aee1d |  | ? | none |  |
+| 292 | UnkMessageComposer_3args_af730a |  | ? int int | partial |  |
+| 300 | UnkMessageComposer_1args_332802 |  | ? | none |  |
+| 314 | UnkMessageComposer_2args_aa6550 |  | number int | callsite |  |
+| 331 | class_3386 | 3611 | int | air15 | package_153/class_3386.as |
+| 344 | class_3211 | 2405 | string int | air15 | package_142/class_3211.as |
+| 352 | UnkMessageComposer_0args_7b84a2 |  | - | no args |  |
+| 364 | UnkMessageComposer_1args_2f07f9 |  | int | callsite |  |
+| 374 | UnkMessageComposer_0args_2d3a5a |  | - | no args |  |
+| 381 | UnkMessageComposer_1args_c4eacb |  | int | callsite |  |
+| 395 | UnkMessageComposer_1args_efb9c5 |  | string | callsite |  |
+| 403 | UnkMessageComposer_2args_585389 |  | ? bool | partial |  |
+| 407 | UnkMessageComposer_2args_21c19f |  | string ? | partial |  |
+| 412 | UnkMessageComposer_1args_299bf9 |  | ? | none |  |
+| 413 | UnkMessageComposer_0args_637b4a |  | - | no args |  |
+| 429 | class_3315 | 3743 | string | air15 | com/sulake/habbo/communication/messages/outgoing/quest/class_3315.as |
+| 437 | class_3259 | 455 | string | air15 | package_82/class_3259.as |
+| 444 | class_2432 | 750 | - | no args | package_26/class_2432.as |
+| 445 | class_1875 | 332 | - | no args | package_31/class_1875.as |
+| 446 | UnkMessageComposer_1args_eb6736 |  | ? | none |  |
+| 451 | UnkMessageComposer_0args_d5e5cd |  | - | no args |  |
+| 467 | UnkMessageComposer_5args_295cc0 |  | int ? string int ? | partial |  |
+| 477 | class_3706 | 135 | int | air15 | package_25/class_3706.as |
+| 497 | UnkMessageComposer_1args_8ad390 |  | ? | none |  |
+| 498 | class_3150 | 43 | - | no args | package_152/class_3150.as |
+| 509 | class_3808 | 687 | int int | air15 | package_66/class_3808.as |
+| 516 | UnkMessageComposer_1args_8bad4e |  | ? | none |  |
+| 517 | class_2490 | 2014 | - | no args | package_16/class_2490.as |
+| 518 | class_3286 | 1357 | - | no args | com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/wiredmenu/class_3286.as |
+| 523 | UnkMessageComposer_0args_bc5573 |  | - | no args |  |
+| 532 | UnkMessageComposer_1args_f967ff |  | ? | none |  |
+| 545 | UnkMessageComposer_1args_bf6921 |  | ? | none |  |
+| 553 | UnkMessageComposer_1args_29fde5 |  | int | callsite |  |
+| 555 | class_1766 | 2566 | string int | air15 | package_10/class_1766.as |
+| 564 | class_2586 | 3947 | string | air15 | package_36/class_2586.as |
+| 577 | UnkMessageComposer_0args_9b3dfa |  | - | no args |  |
+| 581 | UnkMessageComposer_1args_7da07d |  | … | callsite |  |
+| 585 | UnkMessageComposer_1args_fcfff3 |  | ? | none |  |
+| 590 | UnkMessageComposer_0args_c9ff57 |  | - | no args |  |
+| 603 | UnkMessageComposer_0args_f27b6c |  | - | no args |  |
+| 609 | class_3634 | 582 | int int string | air15 | com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/wiredmenu/class_3634.as |
+| 610 | UnkMessageComposer_1args_9a5617 |  | … | none |  |
+| 612 | UnkMessageComposer_0args_2bfae3 |  | - | no args |  |
+| 616 | class_2370 | 516 | - | no args | package_93/class_2370.as |
+| 635 | UnkMessageComposer_3args_b7a2f8 |  | ? ? int [ … ] | none |  |
+| 637 | Game2GetTotalLeaderboardComposer | 3759 | int int int int int | air15 | package_89/Game2GetTotalLeaderboardComposer.as |
+| 638 | class_2687 | 1914 | string | air15 | package_72/class_2687.as |
+| 641 | UnkMessageComposer_2args_fa4b75 |  | int int | callsite |  |
+| 649 | UpdateSelectorMessageComposer | 125 | int int [ ? ] string int [ ? ] bool bool int [ ? ] int [ ? ] int [ ? ] int [ ? ] | air15 | com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/UpdateSelectorMessageComposer.as |
+| 661 | UnkMessageComposer_0args_20939e |  | - | no args |  |
+| 667 | class_3778 | 2830 | int [ ? ] | no args | package_8/class_3778.as |
+| 672 | class_2523 | 2696 | int int | air15 | package_83/class_2523.as |
+| 685 | UnkInterface_32a722 |  |  |  |  |
+| 698 | UnkMessageComposer_1args_627479 |  | ? | none |  |
+| 705 | UnkMessageComposer_6args_39add9 |  | … | none |  |
+| 706 | UnkMessageComposer_1args_cecbc1 |  | ? | none |  |
+| 708 | UnkMessageComposer_4args_86258f |  | ? ? ? int | partial |  |
+| 735 | UnkMessageComposer_1args_7ba091 |  | ? | none |  |
+| 747 | class_2474 | 237 | int | air15 | package_25/class_2474.as |
+| 763 | UnkMessageComposer_3args_7e3b21 |  | int ? ? | partial |  |
+| 765 | UnkMessageComposer_3args_b0ef4c |  | ? ? ? | none |  |
+| 774 | UnkMessageComposer_2args_d8a23b |  | int ? | partial |  |
+| 777 | UnkMessageComposer_0args_38847f |  | - | no args |  |
+| 803 | UnkMessageComposer_2args_93dfd5 |  | ? ? | none |  |
+| 806 | UnkMessageComposer_0args_b10a93 |  | - | no args |  |
+| 811 | class_3734 | 1533 | int int | air15 | package_130/class_3734.as |
+| 826 | class_1807 | 506 | int | air15 | package_25/class_1807.as |
+| 847 | class_1776 | 444 | int int string string bool | air15 | package_16/class_1776.as |
+| 848 | class_3590 | 3943 | - | no args | package_80/class_3590.as |
+| 850 | UnkMessageComposer_1args_d30c13 |  | ? | none |  |
+| 852 | UnkMessageComposer_3args_0175aa |  | ? int ? | partial |  |
+| 854 | UnkMessageComposer_0args_51ac13 |  | … | no args |  |
+| 855 | class_2072 | 576 | int int bool | air15 | package_25/class_2072.as |
+| 858 | UnkMessageComposer_6args_222609 |  | ? ? ? ? ? ? | none |  |
+| 861 | UnkMessageComposer_0args_56b3ff |  | - | no args |  |
+| 863 | class_2510 | 1451 | int bool | air15 | package_126/class_2510.as |
+| 875 | class_3623 | 2465 | - | no args | package_13/class_3623.as |
+| 883 | class_3659 | 1617 | int | air15 | package_26/class_3659.as |
+| 885 | UnkMessageComposer_1args_980d5e |  | ? | none |  |
+| 897 | UnkMessageComposer_1args_9a110d |  | int | callsite |  |
+| 910 | UnkMessageComposer_1args_f19dab |  | ? | none |  |
+| 921 | UnkMessageComposer_0args_42ab14 |  | - | no args |  |
+| 925 | class_1949 | 340 | int bool | air15 | package_25/class_1949.as |
+| 935 | UnkMessageComposer_2args_6456b8 |  | ? int | partial |  |
+| 950 | UnkMessageComposer_1args_edd83f |  | ? | none |  |
+| 953 | class_2943 | 2020 | int int | air15 | package_96/class_2943.as |
+| 962 | class_2352 | 619 | int | air15 | package_83/class_2352.as |
+| 963 | UnkMessageComposer_3args_1e136a |  | ? int int | partial |  |
+| 974 | class_2678 | 1199 | string | air15 | package_39/class_2678.as |
+| 982 | class_2983 | 1734 | int | air15 | package_66/class_2983.as |
+| 984 | UnkMessageComposer_0args_8e4540 |  | - | no args |  |
+| 986 | UnkMessageComposer_0args_69f783 |  | - | no args |  |
+| 989 | UnkMessageComposer_1args_554493 |  | ? | none |  |
+| 991 | class_3517 | 3371 | int string string | air15 | package_26/class_3517.as |
+| 996 | UnkMessageComposer_3args_c9dcc5 |  | int int int | callsite |  |
+| 1009 | UnkMessageComposer_1args_31de52 |  | string | callsite |  |
+| 1011 | UnkMessageComposer_0args_abfc90 |  | - | no args |  |
+| 1017 | class_3101 | 3212 | int int string string | air15 | package_101/class_3101.as |
+| 1044 | class_2127 | 3897 | int int ?{ string } | air15 | package_15/class_2127.as |
+| 1049 | class_2491 | 3000 | int int | air15 | package_122/class_2491.as |
+| 1053 | class_2823 | 2924 | int int string | air15 | package_163/class_2823.as |
+| 1060 | UnkMessageComposer_1args_643860 |  | ? | none |  |
+| 1061 | UnkMessageComposer_1args_5350dd |  | ? | none |  |
+| 1066 | class_3369 | 2446 | int int int | air15 | package_70/class_3369.as |
+| 1070 | class_2638 | 2314 | int int int | air15 | package_101/class_2638.as |
+| 1079 | class_3123 | 1101 | - | no args | package_142/class_3123.as |
+| 1110 | UnkMessageComposer_0args_4e36d9 |  | - | no args |  |
+| 1112 | UnkMessageComposer_0args_d6e4e5 |  | - | no args |  |
+| 1118 | UnkMessageComposer_2args_f6b08d |  | ? int [ ? ] | none |  |
+| 1119 | UnkMessageComposer_0args_b53fc6 |  | - | no args |  |
+| 1124 | UnkMessageComposer_0args_216d1c |  | - | no args |  |
+| 1132 | class_2550 | 712 | - | no args | com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/wiredmenu/class_2550.as |
+| 1133 | UnkMessageComposer_0args_5b94ad |  | - | no args |  |
+| 1143 | UnkMessageComposer_1args_287999 |  | ? | none |  |
+| 1147 | class_3066 | 1779 | int | air15 | package_8/class_3066.as |
+| 1157 | UnkMessageComposer_0args_199680 |  | - | no args |  |
+| 1160 | UnkMessageComposer_1args_241f2a |  | ? | none |  |
+| 1162 | UnkMessageComposer_1args_4c6322 |  | ? | none |  |
+| 1166 | UnkMessageComposer_3args_b79f99 |  | int ? bool | partial |  |
+| 1167 | UnkMessageComposer_1args_43f663 |  | ? | none |  |
+| 1170 | UnkMessageComposer_1args_d5c0ee |  | ? | none |  |
+| 1179 | UnkMessageComposer_4args_645e3c |  | int ? string string int ?{ ? } | partial |  |
+| 1180 | UnkMessageComposer_1args_48ff45 |  | ? | none |  |
+| 1188 | UnkMessageComposer_0args_daee12 |  | - | no args |  |
+| 1211 | class_2097 | 1259 | int int int int bool int | air15 | package_62/class_2097.as |
+| 1218 | UnkMessageComposer_0args_7e4884 |  | - | no args |  |
+| 1230 | UnkMessageComposer_2args_5ddae5 |  | int ? | partial |  |
+| 1243 | UnkMessageComposer_0args_0d1a05 |  | - | no args |  |
+| 1244 | UnkMessageComposer_1args_149c94 |  | ? | none |  |
+| 1246 | UnkMessageComposer_1args_a271d2 |  | ? | none |  |
+| 1248 | UnkMessageComposer_4args_3fc7ca |  | int [ ? ] ? ? ? | none |  |
+| 1250 | UnkMessageComposer_1args_198dc8 |  | ? | none |  |
+| 1255 | class_3393 | 209 | - | no args | package_26/class_3393.as |
+| 1266 | UnkMessageComposer_1args_cd0b31 |  | ? | none |  |
+| 1267 | class_2472 | 2005 | string string | air15 | package_36/class_2472.as |
+| 1301 | class_1917 | 1739 | int int | air15 | package_8/class_1917.as |
+| 1306 | UnkMessageComposer_2args_353435 |  | ? ? | none |  |
+| 1316 | UnkMessageComposer_2args_2f7f53 |  | int ? | partial |  |
+| 1317 | UnkMessageComposer_0args_536f63 |  | - | no args |  |
+| 1318 | class_2142 | 1954 | int int int | air15 | package_26/class_2142.as |
+| 1338 | class_3513 | 2531 | - | no args | package_63/class_3513.as |
+| 1345 | UnkMessageComposer_1args_c7a0c3 |  | int | callsite |  |
+| 1347 | class_2656 | 2060 | string | air15 | package_26/class_2656.as |
+| 1349 | class_2290 | 2295 | … | air15 | package_31/class_2290.as |
+| 1354 | class_3293 | 2609 | int | air15 | package_36/class_3293.as |
+| 1355 | class_2959 | 2995 | int | air15 | package_184/class_2959.as |
+| 1358 | UnkMessageComposer_8args_6e707f |  | ? int [ ? ] ? int [ ? ] int [ ? ] int [ ? ] int [ ? ] int [ ? ] | none |  |
+| 1363 | class_3325 | 2414 | - | no args | com/sulake/habbo/communication/messages/outgoing/quest/class_3325.as |
+| 1365 | UnkMessageComposer_1args_b9c7ad |  | bool | callsite |  |
+| 1367 | class_1814 | 3684 | int int string string string int int int bool | air15 | package_16/class_1814.as |
+| 1375 | UnkMessageComposer_2args_d12462 |  | ? ? | none |  |
+| 1387 | UnkMessageComposer_1args_63fdcf |  | ? | none |  |
+| 1397 | UnkMessageComposer_2args_56c2e9 |  | ? int | partial |  |
+| 1407 | class_2704 | 1048 | - | no args | package_26/class_2704.as |
+| 1446 | class_2483 | 1509 | int | air15 | package_25/class_2483.as |
+| 1448 | UnkMessageComposer_1args_16b46c |  | ? | none |  |
+| 1454 | UnkMessageComposer_0args_b88ab9 |  | - | no args |  |
+| 1458 | UnkMessageComposer_7args_558888 |  | ? int int ? ? string string | partial |  |
+| 1464 | UnkMessageComposer_1args_25b16c |  | ? | none |  |
+| 1473 | class_1906 | 285 | string string string | air15 | package_3/class_1906.as |
+| 1487 | UnkMessageComposer_1args_119583 |  | ? | none |  |
+| 1489 | UnkMessageComposer_1args_897c73 |  | ? | none |  |
+| 1500 | UnkMessageComposer_5args_aeffca |  | ? ? ? ? ? | none |  |
+| 1503 | UnkMessageComposer_2args_d34f33 |  | int int | callsite |  |
+| 1508 | UnkMessageComposer_2args_7fc65c |  | ? ? | none |  |
+| 1509 | UnkMessageComposer_1args_dbfc64 |  | ? | none |  |
+| 1527 | UnkInterface_3a0f00 |  |  |  |  |
+| 1529 | class_3171 | 3076 | int [ ? ] | air15 | com/sulake/habbo/communication/messages/outgoing/inventory/trading/class_3171.as |
+| 1542 | UnkMessageComposer_2args_83882f |  | ? ? | none |  |
+| 1545 | class_3729 | 400 | - | no args | package_16/class_3729.as |
+| 1560 | UnkMessageComposer_1args_d98c80 |  | int | callsite |  |
+| 1562 | UnkMessageComposer_1args_d0e50c |  | int | callsite |  |
+| 1564 | UnkMessageComposer_0args_8035f3 |  | - | no args |  |
+| 1574 | class_2154 | 742 | string string string string int | air15 | package_70/class_2154.as |
+| 1584 | UnkMessageComposer_4args_0a24f7 |  | ? ? ? int | partial |  |
+| 1585 | UnkMessageComposer_0args_a0cb16 |  | - | no args |  |
+| 1587 | UnkMessageComposer_3args_39ec6e |  | ? string ? | partial |  |
+| 1606 | UnkMessageComposer_0args_dceb00 |  | - | no args |  |
+| 1610 | UnkMessageComposer_0args_03a745 |  | - | no args |  |
+| 1611 | UnkMessageComposer_1args_2d7b64 |  | ? | none |  |
+| 1613 | UnkMessageComposer_0args_1e2f08 |  | - | no args |  |
+| 1615 | UnkMessageComposer_0args_6a30e7 |  | - | no args |  |
+| 1632 | UnkMessageComposer_0args_674066 |  | - | no args |  |
+| 1637 | class_2028 | 3361 | - | no args | package_25/class_2028.as |
+| 1638 | UnkMessageComposer_0args_ba0555 |  | - | no args |  |
+| 1642 | UnkMessageComposer_1args_fec17d |  | ? | none |  |
+| 1645 | UnkMessageComposer_2args_005f5c |  | ? int | partial |  |
+| 1656 | UnkMessageComposer_1args_75bee1 |  | ? | none |  |
+| 1665 | UnkMessageComposer_0args_591c5f |  | - | no args |  |
+| 1670 | class_3002 | 1942 | - | no args | com/sulake/habbo/communication/messages/outgoing/quest/class_3002.as |
+| 1672 | class_2922 | 1423 | string | air15 | com/sulake/habbo/communication/messages/outgoing/quest/class_2922.as |
+| 1677 | UnkMessageComposer_0args_6c0568 |  | - | no args |  |
+| 1686 | UnkMessageComposer_1args_9e3ff8 |  | ? | none |  |
+| 1688 | UnkMessageComposer_1args_40b48b |  | number [ … … … ] | none |  |
+| 1705 | UnkMessageComposer_2args_8704fc |  | string ? | partial |  |
+| 1720 | UnkMessageComposer_1args_b772df |  | ? | none |  |
+| 1725 | class_3022 | 3241 | int int | air15 | package_26/class_3022.as |
+| 1731 | UnkMessageComposer_0args_c4056f |  | - | no args |  |
+| 1733 | UnkMessageComposer_4args_66016d |  | ? ? ? ? | none |  |
+| 1735 | class_2293 | 3645 | int | air15 | package_80/class_2293.as |
+| 1737 | UnkMessageComposer_1args_f2cae5 |  | ?{ int } … [ … … ] | none |  |
+| 1741 | class_2437 | 1652 | - | no args | package_16/class_2437.as |
+| 1751 | UnkMessageComposer_7args_30b02d |  | ? ? ? ? ? string string | partial |  |
+| 1762 | UnkMessageComposer_0args_de44a8 |  | - | no args |  |
+| 1765 | class_1916 | 900 | ? ? ? ? ? ? int | partial | package_16/class_1916.as |
+| 1766 | UnkMessageComposer_1args_9b16f6 |  | ? | none |  |
+| 1767 | UnkMessageComposer_0args_8e4d2a |  | - | no args |  |
+| 1774 | class_2592 | 1872 | int | air15 | package_25/class_2592.as |
+| 1780 | Game2GetAccountGameStatusMessageComposer | 1717 | int | air15 | package_63/Game2GetAccountGameStatusMessageComposer.as |
+| 1786 | class_2059 | 2108 | int | air15 | package_16/class_2059.as |
+| 1794 | class_3621 | 1732 | - | no args | com/sulake/habbo/communication/messages/outgoing/quest/class_3621.as |
+| 1815 | class_3189 | 1069 | - | no args | package_26/class_3189.as |
+| 1816 | class_3754 | 773 | - | no args | package_25/class_3754.as |
+| 1817 | class_3503 | 322 | int string string string | air15 | package_130/class_3503.as |
+| 1820 | class_3667 | 3325 | int int | air15 | package_94/class_3667.as |
+| 1823 | UnkMessageComposer_1args_0c6eab |  | ? | none |  |
+| 1849 | UnkMessageComposer_1args_ac32b5 |  | ? | none |  |
+| 1857 | class_2660 | 3340 | string | air15 | package_13/class_2660.as |
+| 1863 | class_2702 | 3843 | int string string string string bool int int int int int | air15 | package_70/class_2702.as |
+| 1868 | UnkMessageComposer_5args_024537 |  | ? int string int ? | partial |  |
+| 1874 | UnkMessageComposer_2args_a82291 |  | ? int | partial |  |
+| 1895 | UnkMessageComposer_1args_a34226 |  | ? | none |  |
+| 1901 | UnkMessageComposer_0args_ea321a |  | - | no args |  |
+| 1902 | UnkMessageComposer_2args_4a93ef |  | ? string | partial |  |
+| 1904 | UnkMessageComposer_1args_3b1131 |  | ? | none |  |
+| 1915 | UnkMessageComposer_5args_cb1434 |  | string int int int number | callsite |  |
+| 1917 | UnkMessageComposer_1args_6c3581 |  | ? | none |  |
+| 1918 | UnkMessageComposer_3args_f09c5a |  | ?{ … … … } int int int | callsite |  |
+| 1934 | class_1968 | 117 | int | air15 | package_25/class_1968.as |
+| 1943 | UnkMessageComposer_1args_9fa391 |  | ? | none |  |
+| 1944 | class_3850 | 2893 | int | air15 | package_26/class_3850.as |
+| 1947 | UnkMessageComposer_1args_258b76 |  | int | callsite |  |
+| 1957 | class_3289 | 3141 | - | no args | com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/wiredmenu/class_3289.as |
+| 1961 | UnkMessageComposer_1args_1d2021 |  | ? | none |  |
+| 1963 | UnkMessageComposer_1args_408b01 |  | ? | none |  |
+| 1968 | UnkMessageComposer_4args_a6a9b2 |  | int ? ? ? | partial |  |
+| 1969 | UnkMessageComposer_2args_703229 |  | bool bool | callsite |  |
+| 1973 | UnkMessageComposer_3args_a7c295 |  | ? ? | partial |  |
+| 1977 | UnkMessageComposer_2args_40e657 |  | ? ? | none |  |
+| 1982 | class_2576 | 3280 | int int int int int | air15 | package_101/class_2576.as |
+| 2012 | UnkMessageComposer_1args_38e25d |  | ? | none |  |
+| 2015 | UnkMessageComposer_1args_51aaaf |  | int | callsite |  |
+| 2018 | UnkMessageComposer_1args_8f6157 |  | ? | none |  |
+| 2024 | class_3219 | 1108 | - | no args | package_26/class_3219.as |
+| 2029 | UnkMessageComposer_1args_7b79c2 |  | ? | none |  |
+| 2038 | UnkMessageComposer_2args_6a0b5b |  | ? int | partial |  |
+| 2041 | class_3057 | 3017 | int string string bool bool int int int bool | air15 | package_94/class_3057.as |
+| 2046 | Game2GetWeeklyFriendsLeaderboardComposer | 2445 | int int int int int int | air15 | package_89/Game2GetWeeklyFriendsLeaderboardComposer.as |
+| 2053 | class_2393 | 3812 | string | air15 | package_26/class_2393.as |
+| 2059 | UnkMessageComposer_1args_b86093 |  | ? | none |  |
+| 2064 | UnkMessageComposer_1args_4ef6b0 |  | string | callsite |  |
+| 2066 | UnkMessageComposer_1args_d74f2e |  | int | callsite |  |
+| 2068 | UnkMessageComposer_1args_0dc938 |  | ? | none |  |
+| 2069 | UnkMessageComposer_1args_9b8b50 |  | ?{ int [ ? ] } … … … … … … … … … … … … … … … … … | none |  |
+| 2083 | UnkMessageComposer_1args_a7fac5 |  | ? | none |  |
+| 2095 | class_2683 | 2944 | int string string | air15 | package_152/class_2683.as |
+| 2103 | UnkMessageComposer_6args_60e6b3 |  | ? ? bool int ? ? string | partial |  |
+| 2107 | UnkMessageComposer_5args_b5af5c |  | ? ? ? int int | partial |  |
+| 2128 | UnkMessageComposer_0args_21ea3c |  | - | no args |  |
+| 2132 | UnkMessageComposer_0args_8f3e95 |  | - | no args |  |
+| 2134 | UnkMessageComposer_1args_395056 |  | ? | none |  |
+| 2137 | class_1959 | 3031 | int string int | air15 | package_47/class_1959.as |
+| 2151 | UnkMessageComposer_1args_c73ebf |  | ? | none |  |
+| 2170 | UnkMessageComposer_9args_0904d6 |  | int bool ? ? ? bool int int ? | partial |  |
+| 2177 | UnkMessageComposer_3args_69d2f5 |  | int int int | callsite |  |
+| 2181 | class_2078 | 3103 | string | air15 | package_63/class_2078.as |
+| 2183 | class_3207 | 808 | bool int [ ? ] | no args | package_8/class_3207.as |
+| 2184 | UnkMessageComposer_0args_16c8d7 |  | - | no args |  |
+| 2189 | UnkMessageComposer_1args_4f047f |  | ? | none |  |
+| 2190 | class_3278 | 1338 | int int string int bool bool int | air15 | package_130/class_3278.as |
+| 2193 | UnkMessageComposer_0args_df297a |  | - | no args |  |
+| 2208 | UnkMessageComposer_5args_7d4374 |  | ? ? ? ? ? | none |  |
+| 2209 | UnkMessageComposer_2args_9ca163 |  | ? string | partial |  |
+| 2213 | class_2596 | 3153 | string | air15 | package_142/class_2596.as |
+| 2225 | class_2215 | 2949 | - | no args | package_61/class_2215.as |
+| 2231 | class_2787 | 2784 | int bool string | air15 | package_153/class_2787.as |
+| 2232 | UnkMessageComposer_0args_ff3ab2 |  | - | no args |  |
+| 2234 | UnkMessageComposer_1args_1f682e |  | int [ ? ] | none |  |
+| 2269 | UnkMessageComposer_0args_590efe |  | - | no args |  |
+| 2276 | UnkMessageComposer_6args_826cee |  | string string | partial |  |
+| 2288 | class_2755 | 2093 | int | air15 | package_25/class_2755.as |
+| 2293 | UnkMessageComposer_4args_67b371 |  | ? ? ? ? | none |  |
+| 2297 | UnkMessageComposer_4args_0a423a |  | int ? ? ? | partial |  |
+| 2305 | UnkMessageComposer_1args_359cdf |  | ? | none |  |
+| 2314 | class_2552 | 2463 | int string int | air15 | package_26/class_2552.as |
+| 2315 | class_3710 | 281 | - | no args | package_80/class_3710.as |
+| 2321 | class_2402 | 3615 | - | no args | package_16/class_2402.as |
+| 2322 | class_2520 | 167 | int | air15 | package_94/class_2520.as |
+| 2325 | UnkMessageComposer_0args_38fbd8 |  | - | no args |  |
+| 2330 | UnkMessageComposer_0args_258e60 |  | - | no args |  |
+| 2331 | UnkMessageComposer_1args_74bcb1 |  | ? | none |  |
+| 2335 | UnkMessageComposer_1args_7007e8 |  | ? | none |  |
+| 2341 | UnkMessageComposer_2args_555ac0 |  | int int | callsite |  |
+| 2346 | class_2806 | 3079 | string string | air15 | package_140/class_2806.as |
+| 2347 | class_3418 | 2001 | - | no args | package_26/class_3418.as |
+| 2362 | UnkMessageComposer_1args_f95bde |  | ? | none |  |
+| 2367 | class_1847 | 767 | - | no args | package_31/class_1847.as |
+| 2371 | UnkMessageComposer_0args_457c98 |  | - | no args |  |
+| 2372 | class_2182 | 3626 | - | no args | package_72/class_2182.as |
+| 2378 | UnkMessageComposer_1args_1bfda9 |  | ? | none |  |
+| 2381 | UnkMessageComposer_5args_d175ed |  | ? ? ? ? bool | partial |  |
+| 2384 | UnkMessageComposer_2args_99629c |  | int int | callsite |  |
+| 2386 | UnkMessageComposer_3args_edffb9 |  | int ? ? | partial |  |
+| 2394 | UnkMessageComposer_1args_94bac7 |  | ? | none |  |
+| 2413 | UnkMessageComposer_2args_501038 |  | string ? | partial |  |
+| 2419 | UnkMessageComposer_2args_f46dd3 |  | bool int [ ? ] | callsite |  |
+| 2459 | UnkMessageComposer_1args_5a0637 |  | ? | none |  |
+| 2462 | UnkMessageComposer_1args_377c09 |  | ? | none |  |
+| 2467 | UnkMessageComposer_1args_28dbab |  | ? … | none |  |
+| 2468 | class_2738 | 982 | - | no args | package_25/class_2738.as |
+| 2470 | class_2868 | 2864 | - | no args | package_16/class_2868.as |
+| 2482 | UnkMessageComposer_0args_5cbd2b |  | - | no args |  |
+| 2487 | class_3610 | 3946 | string int | air15 | package_26/class_3610.as |
+| 2489 | Game2GetWeeklyLeaderboardComposer | 2993 | int int int int int int | air15 | package_89/Game2GetWeeklyLeaderboardComposer.as |
+| 2494 | UnkMessageComposer_2args_795930 |  | int int | callsite |  |
+| 2514 | UnkMessageComposer_4args_eb224a |  | int int ? int | partial |  |
+| 2520 | class_1992 | 2649 | int int string int int int bool | air15 | package_16/class_1992.as |
+| 2530 | UnkMessageComposer_1args_366b24 |  | ? | none |  |
+| 2542 | class_2622 | 3952 | string | air15 | package_16/class_2622.as |
+| 2552 | UnkMessageComposer_4args_263d98 |  | ? ? ? ? | none |  |
+| 2555 | UnkMessageComposer_3args_b652a2 |  | ?{ int } int [ ? ] | none |  |
+| 2571 | UnkMessageComposer_1args_01e867 |  | ? | none |  |
+| 2577 | UnkMessageComposer_1args_e95634 |  | int | callsite |  |
+| 2600 | class_3851 | 2792 | string | air15 | package_8/class_3851.as |
+| 2603 | UnkMessageComposer_1args_2a0f86 |  | ? | none |  |
+| 2610 | class_3766 | 917 | string | air15 | package_13/class_3766.as |
+| 2614 | UnkMessageComposer_1args_10fe46 |  | int | callsite |  |
+| 2617 | class_2521 | 1762 | int | air15 | package_129/class_2521.as |
+| 2622 | UnkMessageComposer_1args_c0fc28 |  | bool | callsite |  |
+| 2628 | UnkMessageComposer_1args_9c6de6 |  | int | callsite |  |
+| 2630 | UnkMessageComposer_1args_2857d9 |  | ? | none |  |
+| 2637 | UnkMessageComposer_1args_7db185 |  | ? | none |  |
+| 2655 | UnkMessageComposer_8args_8f7de2 |  | int int int ? ? bool bool bool | partial |  |
+| 2661 | UnkMessageComposer_1args_b71115 |  | int | callsite |  |
+| 2672 | UnkMessageComposer_1args_32ef05 |  | ? | none |  |
+| 2673 | class_3256 | 1715 | int | air15 | package_26/class_3256.as |
+| 2679 | class_1914 | 3757 | int | air15 | package_40/class_1914.as |
+| 2689 | class_3672 | 1329 | string | air15 | package_142/class_3672.as |
+| 2696 | class_3524 | 806 | int [ ? ] string | air15 | package_8/class_3524.as |
+| 2709 | UnkMessageComposer_4args_b2c61f |  | int ? int int | partial |  |
+| 2725 | UnkMessageComposer_2args_d5cf77 |  | ? int | partial |  |
+| 2730 | class_2213 | 2004 | string int int | air15 | package_76/class_2213.as |
+| 2734 | UnkMessageComposer_1args_642b73 |  | int | callsite |  |
+| 2735 | class_2804 | 1933 | int int string int | air15 | package_25/class_2804.as |
+| 2736 | class_2993 | 3313 | … | air15 | package_188/class_2993.as |
+| 2737 | class_2551 | 3929 | - | no args | package_47/class_2551.as |
+| 2747 | class_2433 | 3145 | string string int int int int [ int ] | air15 | package_25/class_2433.as |
+| 2749 | class_2579 | 94 | string string | air15 | package_26/class_2579.as |
+| 2751 | UnkMessageComposer_0args_5d4c85 |  | - | no args |  |
+| 2768 | class_2748 | 708 | - | no args | package_55/class_2748.as |
+| 2788 | UnkMessageComposer_0args_564035 |  | - | no args |  |
+| 2799 | UnkMessageComposer_3args_50dade |  | ? ? ? | none |  |
+| 2805 | UnkMessageComposer_3args_166ebe |  | ? string string | partial |  |
+| 2810 | class_3773 | 174 | int | air15 | package_70/class_3773.as |
+| 2813 | UnkMessageComposer_3args_6b253e |  | int ? ? | partial |  |
+| 2839 | UnkMessageComposer_0args_ec9d12 |  |  |  |  |
+| 2841 | UnkMessageComposer_0args_e4a895 |  | - | no args |  |
+| 2842 | UnkMessageComposer_0args_9b50c0 |  | - | no args |  |
+| 2850 | Game2GetWeeklyGroupLeaderboardComposer | 3278 | int int int int int int | air15 | package_89/Game2GetWeeklyGroupLeaderboardComposer.as |
+| 2864 | class_2108 | 1676 | ? ? ? ? | none | package_16/class_2108.as |
+| 2869 | UnkMessageComposer_1args_09ed2f |  | ? | none |  |
+| 2873 | UnkMessageComposer_2args_7e7c59 |  | ? ? | none |  |
+| 2877 | UnkMessageComposer_1args_edbb78 |  | ? | none |  |
+| 2887 | UnkMessageComposer_0args_6f5e4e |  | - | no args |  |
+| 2888 | UnkMessageComposer_0args_52e774 |  | - | no args |  |
+| 2901 | UnkMessageComposer_1args_d39a1c |  | ? | none |  |
+| 2902 | class_3508 | 792 | string | air15 | package_13/class_3508.as |
+| 2903 | class_3183 | 1247 | string bool | air15 | package_121/class_3183.as |
+| 2909 | UnkMessageComposer_8args_d32620 |  | ? int [ ? ] ? int [ ? ] int [ ? ] int [ ? ] int [ ? ] int [ ? ] | none |  |
+| 2917 | class_2537 | 1428 | int | air15 | package_26/class_2537.as |
+| 2921 | UnkMessageComposer_0args_b9e29b |  | - | no args |  |
+| 2923 | UnkMessageComposer_0args_79f02c |  | - | no args |  |
+| 2940 | UnkMessageComposer_2args_a047a4 |  | ? ? | none |  |
+| 2941 | UnkMessageComposer_0args_50278e |  | - | no args |  |
+| 2942 | UnkMessageComposer_1args_124c19 |  | ? | none |  |
+| 2950 | UnkMessageComposer_4args_7274f8 |  | ? ? int int | partial |  |
+| 2968 | UnkMessageComposer_2args_2f1a3e |  | int int | callsite |  |
+| 2972 | class_2373 | 369 | int int | air15 | package_94/class_2373.as |
+| 2987 | UnkMessageComposer_1args_f2374f |  | ? | none |  |
+| 3008 | UnkMessageComposer_3args_6467d8 |  | int ? ? | partial |  |
+| 3009 | UnkMessageComposer_1args_1e382b |  | int | callsite |  |
+| 3014 | UnkMessageComposer_1args_717f6e |  | ? | none |  |
+| 3015 | class_2690 | 1703 | int int int | air15 | package_153/class_2690.as |
+| 3023 | UnkMessageComposer_1args_933fbf |  | ? | none |  |
+| 3024 | class_3152 | 2843 | int | air15 | package_26/class_3152.as |
+| 3027 | UnkMessageComposer_1args_cf4364 |  | ? | none |  |
+| 3034 | UnkMessageComposer_1args_9aee4c |  | ? | none |  |
+| 3037 | UnkMessageComposer_1args_8947c2 |  | int [ ? ] | none |  |
+| 3045 | class_3197 | 3291 | int | air15 | package_122/class_3197.as |
+| 3047 | UnkMessageComposer_1args_fe672a |  | ? | none |  |
+| 3061 | UnkMessageComposer_0args_c38a5f |  | - | no args |  |
+| 3071 | UnkMessageComposer_1args_9760cc |  | ? | none |  |
+| 3072 | UnkMessageComposer_1args_6c9431 |  | ? | none |  |
+| 3074 | UnkMessageComposer_2args_dc4eba |  | ? ? | none |  |
+| 3077 | UnkMessageComposer_0args_104bce |  | - | no args |  |
+| 3078 | class_2598 | 2804 | … | air15 | package_91/class_2598.as |
+| 3079 | class_2888 | 19 | string string | air15 | package_176/class_2888.as |
+| 3085 | UnkMessageComposer_1args_38d883 |  | int | callsite |  |
+| 3092 | UnkMessageComposer_2args_7be3e6 |  | int int | callsite |  |
+| 3100 | UnkMessageComposer_1args_0f924b |  | ? | none |  |
+| 3108 | class_3239 | 2239 | string | air15 | package_3/class_3239.as |
+| 3112 | UnkMessageComposer_2args_88712c |  | ? ? | none |  |
+| 3113 | UnkMessageComposer_1args_d7b33c |  | ? | none |  |
+| 3117 | class_3326 | 3323 | int string | air15 | package_36/class_3326.as |
+| 3120 | UnkMessageComposer_1args_d020d8 |  | ? | none |  |
+| 3127 | UnkMessageComposer_1args_4ee8fc |  | ? | none |  |
+| 3142 | UnkMessageComposer_8args_351508 |  | ? int [ ? ] ? int [ ? ] int [ ? ] int [ ? ] int [ ? ] int [ ? ] | none |  |
+| 3149 | UnkMessageComposer_2args_f914b3 |  | ? string | partial |  |
+| 3157 | UnkMessageComposer_0args_ffad2b |  | - | no args |  |
+| 3160 | class_2438 | 787 | int int int int | air15 | package_83/class_2438.as |
+| 3166 | class_3823 | 2019 | int | air15 | com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/class_3823.as |
+| 3175 | UnkMessageComposer_1args_18a3be |  | ? | none |  |
+| 3178 | class_2011 | 301 | - | no args | package_55/class_2011.as |
+| 3189 | UnkMessageComposer_0args_b141ad |  | - | no args |  |
+| 3200 | class_3366 | 1014 | - | no args | package_121/class_3366.as |
+| 3206 | GetUserNftWardrobeMessageComposer | 276 | - | no args | package_34/GetUserNftWardrobeMessageComposer.as |
+| 3212 | UnkMessageComposer_1args_aaec2d |  | ? | none |  |
+| 3215 | UnkMessageComposer_2args_a5d395 |  | ? ? | none |  |
+| 3225 | UnkMessageComposer_2args_99974c |  | ? ? | none |  |
+| 3230 | UnkMessageComposer_0args_2ab1df |  | - | no args |  |
+| 3242 | class_3140 | 2796 | - | no args | package_15/class_3140.as |
+| 3248 | UnkMessageComposer_1args_c25925 |  | … | callsite |  |
+| 3249 | UnkMessageComposer_0args_d8a83c |  | - | no args |  |
+| 3257 | UnkMessageComposer_1args_8f295e |  | ? | none |  |
+| 3273 | class_2928 | 3841 | string int | air15 | package_76/class_2928.as |
+| 3276 | UnkMessageComposer_0args_c0905c |  | - | no args |  |
+| 3285 | class_3327 | 2030 | bool | air15 | com/sulake/habbo/communication/messages/outgoing/userdefinedroomevents/wiredmenu/class_3327.as |
+| 3293 | UnkMessageComposer_0args_86ce82 |  | - | no args |  |
+| 3299 | UnkMessageComposer_0args_5d30c5 |  | - | no args |  |
+| 3326 | class_3107 | 567 | int | air15 | com/sulake/habbo/communication/messages/outgoing/inventory/trading/class_3107.as |
+| 3331 | class_1995 | 2490 | int | air15 | package_10/class_1995.as |
+| 3332 | UnkMessageComposer_1args_3e8d23 |  | ? | none |  |
+| 3343 | class_3185 | 2878 | - | no args | package_26/class_3185.as |
+| 3347 | class_3258 | 1596 | int | air15 | package_82/class_3258.as |
+| 3351 | class_3109 | 592 | int string string | air15 | package_83/class_3109.as |
+| 3352 | UnkMessageComposer_1args_568437 |  | ? | none |  |
+| 3358 | UnkMessageComposer_0args_bd9689 |  | - | no args |  |
+| 3361 | UnkMessageComposer_1args_845dac |  | ? | none |  |
+| 3375 | UnkMessageComposer_3args_361537 |  | bool int ? | partial |  |
+| 3381 | UnkMessageComposer_1args_08ea7a |  | int [ ? ] | callsite |  |
+| 3406 | UnkMessageComposer_1args_51137a |  | string | callsite |  |
+| 3408 | UnkMessageComposer_1args_35156d |  | ? | none |  |
+| 3411 | UnkMessageComposer_0args_f24fdc |  | - | no args |  |
+| 3412 | Game2GameChatMessageComposer | 3856 | string | air15 | package_190/Game2GameChatMessageComposer.as |
+| 3417 | UnkMessageComposer_4args_9b2115 |  | ? ? ? ? | none |  |
+| 3418 | UnkMessageComposer_1args_e28d2d |  | ? | none |  |
+| 3426 | UnkMessageComposer_2args_d08ec3 |  | ? ? | none |  |
+| 3435 | UnkMessageComposer_2args_bfcc88 |  | ? int [ ? ] | none |  |
+| 3445 | UnkMessageComposer_6args_0c6cfe |  | ? ? ? ? string string | partial |  |
+| 3448 | UnkMessageComposer_1args_4e4d0b |  | ? | none |  |
+| 3461 | UnkMessageComposer_0args_9606fa |  | - | no args |  |
+| 3470 | UnkMessageComposer_1args_d67cc3 |  | int | callsite |  |
+| 3497 | UnkMessageComposer_2args_156482 |  | ? ? | none |  |
+| 3508 | UnkMessageComposer_5args_da09ce |  | ? ? ? ? ? | none |  |
+| 3512 | UnkMessageComposer_0args_96e861 |  | - | no args |  |
+| 3515 | UnkMessageComposer_0args_bef879 |  | - | no args |  |
+| 3520 | UnkMessageComposer_1args_2aab97 |  | string | callsite |  |
+| 3545 | UnkMessageComposer_0args_652735 |  | - | no args |  |
+| 3560 | UnkMessageComposer_0args_bb461b |  | - | no args |  |
+| 3562 | UnkMessageComposer_1args_8f877f |  | bool | callsite |  |
+| 3567 | UnkMessageComposer_3args_8c8542 |  | ? ? ? | none |  |
+| 3573 | UnkMessageComposer_9args_2240eb |  | ? int [ ? ] ? int [ ? ] ? int [ ? ] int [ ? ] int [ ? ] int [ ? ] | none |  |
+| 3580 | UnkMessageComposer_2args_bd0d7b |  | … | none |  |
+| 3586 | UnkMessageComposer_1args_9833fa |  | int | callsite |  |
+| 3602 | class_2506 | 234 | ?{ string } | air15 | package_125/class_2506.as |
+| 3603 | Game2GetTotalGroupLeaderboardComposer | 2603 | int int int int int | air15 | package_89/Game2GetTotalGroupLeaderboardComposer.as |
+| 3612 | UnkMessageComposer_0args_b21bdb |  | - | no args |  |
+| 3613 | class_3282 | 1903 | int int | air15 | package_163/class_3282.as |
+| 3617 | UnkMessageComposer_0args_32db5b |  | - | no args |  |
+| 3632 | UnkMessageComposer_0args_0f5d86 |  | - | no args |  |
+| 3640 | UnkMessageComposer_0args_670ded |  | - | no args |  |
+| 3649 | class_1869 | 1545 | string | air15 | package_25/class_1869.as |
+| 3651 | class_2718 | 1524 | int int bool bool bool bool bool | air15 | package_94/class_2718.as |
+| 3659 | UnkMessageComposer_2args_10b537 |  | ? ? | none |  |
+| 3661 | UnkMessageComposer_1args_9cd25c |  | int | callsite |  |
+| 3686 | UnkMessageComposer_2args_77c58e |  | string int [ … ] | partial |  |
+| 3702 | UnkMessageComposer_0args_dadf93 |  | - | no args |  |
+| 3703 | class_3119 | 3487 | int string | air15 | package_130/class_3119.as |
+| 3710 | UnkMessageComposer_3args_0b97a2 |  | ? ? int | partial |  |
+| 3717 | UnkMessageComposer_0args_1f252e |  | - | no args |  |
+| 3720 | UnkMessageComposer_3args_7df365 |  | string int | partial |  |
+| 3722 | class_3375 | 898 | - | no args | package_25/class_3375.as |
+| 3723 | class_1874 | 2840 | - | no args | package_25/class_1874.as |
+| 3724 | UnkMessageComposer_2args_8e8810 |  | int int | callsite |  |
+| 3728 | class_2982 | 1670 | - | no args | com/sulake/habbo/communication/messages/outgoing/quest/class_2982.as |
+| 3731 | UnkMessageComposer_1args_f9faca |  | string | callsite |  |
+| 3734 | UnkMessageComposer_2args_3e403d |  | ? ? | none |  |
+| 3735 | UnkMessageComposer_0args_f730f5 |  | - | no args |  |
+| 3741 | UnkMessageComposer_0args_7baf13 |  | - | no args |  |
+| 3749 | UnkMessageComposer_0args_573deb |  | - | no args |  |
+| 3751 | UnkMessageComposer_2args_7654b6 |  | ? ? | none |  |
+| 3752 | UnkMessageComposer_1args_aab880 |  | int [ ? ] | none |  |
+| 3764 | UnkMessageComposer_4args_5990fc |  | int bool bool ? | partial |  |
+| 3766 | UnkMessageComposer_4args_bad7a3 |  | int ? ? ? | partial |  |
+| 3775 | UnkMessageComposer_2args_47dc6f |  | ? ? | none |  |
+| 3776 | UnkMessageComposer_1args_85b5fd |  | ? | none |  |
+| 3779 | UnkMessageComposer_2args_355926 |  | ? ? | none |  |
+| 3784 | UnkMessageComposer_1args_8badd5 |  | ? | none |  |
+| 3792 | UnkMessageComposer_1args_e52ad3 |  | bool | callsite |  |
+| 3794 | class_2854 | 1415 | int | air15 | package_96/class_2854.as |
+| 3795 | UnkMessageComposer_1args_9bda71 |  | string | callsite |  |
+| 3810 | UnkMessageComposer_0args_56dae5 |  | - | no args |  |
+| 3811 | class_3157 | 3179 | - | no args | package_197/class_3157.as |
+| 3821 | Game2ExitGameMessageComposer | 1347 | bool | air15 | package_190/Game2ExitGameMessageComposer.as |
+| 3827 | UnkMessageComposer_3args_150670 |  | ? ? string | partial |  |
+| 3828 | UnkMessageComposer_5args_3d9f3a |  | int int number number string | callsite |  |
+| 3834 | UnkMessageComposer_1args_232303 |  | ? | none |  |
+| 3835 | UnkMessageComposer_2args_ce9155 |  | ? int | partial |  |
+| 3836 | class_2774 | 3188 | string string | air15 | package_13/class_2774.as |
+| 3839 | UnkMessageComposer_3args_019510 |  | int number ? | partial |  |
+| 3846 | UnkMessageComposer_2args_ef7686 |  | ? ? | none |  |
+| 3854 | UnkMessageComposer_2args_7c06f8 |  | int int | callsite |  |
+| 3857 | class_2710 | 1587 | int | air15 | package_25/class_2710.as |
+| 3859 | class_2996 | 3655 | - | no args | package_26/class_2996.as |
+| 3861 | UnkMessageComposer_0args_56053f |  | - | no args |  |
+| 3863 | class_3843 | 3579 | bool int string int | air15 | package_222/class_3843.as |
+| 3864 | UnkMessageComposer_0args_095739 |  | - | no args |  |
+| 3868 | UnkMessageComposer_3args_7df25a |  | ? int [ ? ] ? | none |  |
+| 3873 | UnkMessageComposer_9args_5d6aac |  | ? int [ ? ] ? int [ ? ] ? int [ ? ] int [ ? ] int [ ? ] int [ ? ] | none |  |
+| 3908 | class_3758 | 3988 | int | air15 | package_36/class_3758.as |
+| 3909 | UnkMessageComposer_0args_fdcc6e |  | - | no args |  |
+| 3924 | UnkMessageComposer_0args_67c3b6 |  | - | no args |  |
+| 3935 | UnkMessageComposer_1args_61003c |  | string | callsite |  |
+| 3939 | UnkMessageComposer_1args_17f216 |  | ? | none |  |
+| 3949 | class_3720 | 2145 | - | no args | package_25/class_3720.as |
+| 3968 | UnkMessageComposer_0args_5d612e |  | - | no args |  |
+| 3973 | class_3378 | 1240 | - | no args | package_26/class_3378.as |
+| 3976 | class_1900 | 153 | int [ ? ] | no args | package_8/class_1900.as |
+| 3988 | UnkMessageComposer_0args_caa89f |  | - | no args |  |
+| 3993 | class_1975 | 2526 | - | no args | package_31/class_1975.as |
+| 4100 | UnkMessageComposer_0args_cc7acf |  | - | no args |  |
+| 4101 | UnkMessageComposer_1args_4224c6 |  | ? | none |  |

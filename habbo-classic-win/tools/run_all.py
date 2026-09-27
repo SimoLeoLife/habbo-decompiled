@@ -16,7 +16,7 @@ import argparse, os, shutil, subprocess, sys, zipfile, hashlib
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SCRIPTS = ['as3_inventory.py', 'js_inventory.mjs', 'match.py', 'finalize.py', 'deobf.mjs',
-           'extract-hab.mjs', 'parser_struct.mjs', 'protocol.py', 'area_readmes.py', 'search_page.py', 'changes.py', 'package.json']
+           'extract-hab.mjs', 'parser_struct.mjs', 'composer_struct.mjs', 'protocol.py', 'area_readmes.py', 'search_page.py', 'changes.py', 'package.json']
 
 def run(cmd, cwd):
     print('>', ' '.join(cmd), flush=True)
@@ -71,6 +71,7 @@ def main():
     for f, t in (('classi.csv', 'classes.csv'), ('membri.csv', 'members.csv'), ('final_map.json', 'name_map.json')):
         shutil.copy(os.path.join(work, f), os.path.join(rep, t))
     run(['node', '--max-old-space-size=8192', 'parser_struct.mjs', os.path.join(src, 'HabboAirLauncher.deobf.js'), 'work/parser_struct.json'], tools)
+    run(['node', '--max-old-space-size=8192', 'composer_struct.mjs', os.path.join(src, 'HabboAirLauncher.deobf.js'), 'work/final_map.json', 'work/as3.json', 'work/composer_struct.json'], tools)
     registry = next(os.path.join(dp, f) for dp, _, fs in os.walk(os.path.join(air15, 'com', 'sulake', 'habbo', 'communication'))
                     for f in fs if f.endswith('.as') and '_composers[' in open(os.path.join(dp, f), encoding='utf-8', errors='replace').read())
     run([sys.executable, 'protocol.py', rep, registry], tools)

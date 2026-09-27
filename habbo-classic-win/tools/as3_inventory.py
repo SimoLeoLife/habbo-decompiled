@@ -46,7 +46,8 @@ for dp, _, fs in os.walk(ROOT):
             if fm:
                 b, j = body(lines, i); txt = '\n'.join(b[1:])
                 params = [x.strip() for x in fm.group(4).split(',') if x.strip()]
-                c['members'].append(dict(t='m', acc=fm.group(2) or '', name=fm.group(3), static=' static ' in ' ' + l, ptypes=[(x.split(':', 1)[1].split('=')[0].strip() if ':' in x else '*') for x in params if not x.startswith('...')],
+                rt = re.search(r'\)\s*:\s*([\w.<>*]+)', l)
+                c['members'].append(dict(t='m', acc=fm.group(2) or '', name=fm.group(3), static=' static ' in ' ' + l, rtype=rt.group(1) if rt else '', ptypes=[(x.split(':', 1)[1].split('=')[0].strip() if ':' in x else '*') for x in params if not x.startswith('...')],
                     np=len([x for x in params if not x.startswith('...')]), nreq=len([x for x in params if '=' not in x and not x.startswith('...')]),
                     strings=STR.findall(txt), crefs=re.findall(r'(?<![.\w])([A-Za-z_]\w*)', re.sub(r'(:\s*|\bas\s+)[\w.<>*]+', ' ', STR.sub('""', txt))), _tok=TOK.findall(re.sub(r'(:\s*|\bas\s+)[\w.<>*]+', ' ', STR.sub('""', txt)))))
                 i = j + 1; continue

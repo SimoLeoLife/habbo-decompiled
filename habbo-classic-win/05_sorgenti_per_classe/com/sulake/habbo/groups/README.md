@@ -54,11 +54,11 @@ Messages created or registered by classes of this area. Header IDs are those of 
 
 ### Outgoing
 
-| ID | Composer | Args | AIR 15 arg types |
-|---|---|---|---|
-| 925 | `class_1949` | 2 | int, Boolean |
-| 1574 | `class_2154` | 5 | String, String, String, String, int |
-| 2577 | `UnkMessageComposer_1args_e95634` | 1 |  |
-| 2734 | `UnkMessageComposer_1args_642b73` | 1 |  |
-| 3857 | `class_2710` | 1 | int |
+| ID | Composer | Payload |
+|---|---|---|
+| 925 | `class_1949` | int bool |
+| 1574 | `class_2154` | string string string string int |
+| 2577 | `UnkMessageComposer_1args_e95634` | int |
+| 2734 | `UnkMessageComposer_1args_642b73` | int |
+| 3857 | `class_2710` | int |
 

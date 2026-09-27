@@ -30,7 +30,7 @@ for c in JS:
     classes.append([fin, c['name'] if c['name'] != fin else '', c['binding'] or '', file_of.get(fin, ''),
                     NM['as3_for'].get(k, ''), status, len(c['members'])])
 members = sorted(NM['members'].items(), key=lambda x: x[1])
-messages = [[r['direction'][0], r['header'], r['name'], r.get('parser', ''), r.get('structure') or r.get('air15_arg_types', ''),
+messages = [[r['direction'][0], r['header'], r['name'], r.get('parser', ''), r.get('structure') or r.get('payload') or '',
              r['air15_header'], r['air15_source']] for r in PROTO]
 data = json.dumps(dict(base=BASE, classes=classes, members=members, messages=messages), ensure_ascii=False, separators=(',', ':'))
 
@@ -91,7 +91,7 @@ const V = {
   classes: { head: ['Name', 'Obfuscated', 'Binding', 'Status', 'Members', 'AIR 15 source'], rows: D.classes,
     cell: r => [link(r[3], r[0]), `<code>${esc(r[1])}</code>`, `<code>${esc(r[2])}</code>`, `<span class="tag ${r[5]}">${r[5]}</span>`, r[6], air(r[4])] },
   members: { head: ['Hash', 'Name'], rows: D.members, cell: r => [`<code>${esc(r[0])}</code>`, `<code>${esc(r[1])}</code>`] },
-  messages: { head: ['Dir', 'ID', 'Name', 'Parser', 'Structure / AIR 15 arg types', 'AIR 15 ID', 'AIR 15 source'], rows: D.messages,
+  messages: { head: ['Dir', 'ID', 'Name', 'Parser', 'Structure / payload', 'AIR 15 ID', 'AIR 15 source'], rows: D.messages,
     cell: r => [r[0] === 'i' ? 'in' : 'out', r[1], `<code>${esc(r[2])}</code>`, `<code>${esc(r[3])}</code>`, `<span class="mono">${esc(r[4])}</span>`, r[5], air(r[6])] },
 };
 for (const v of Object.values(V)) v.text = v.rows.map(r => r.join(' ').toLowerCase());
