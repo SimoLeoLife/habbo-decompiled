@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 194671.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/RoomAdsCatalogWidget.as
-// Nome offuscato: _i23e9c16b7fc2a8
+// Extracted from HabboAirLauncher.deobf.js, line 194671.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/RoomAdsCatalogWidget.as
+// Obfuscated name: _i23e9c16b7fc2a8
 
 class extends CatalogWidget {
   constructor(r, t) {
@@ -148,7 +148,7 @@ class extends CatalogWidget {
       this.setDefaultRoom(this._catalog?.roomEngine?.activeRoomId ?? 0, !0));
     let s = this._ra24cef20fe242a();
     if (s == null) return;
-    this.events?.dispatchEvent?.(new _idfee6137b0eb86(s));
+    this.events?.dispatchEvent?.(new UnkClass_dfee61(s));
     let o = this._catalog?._rc7dd5dfdda40b8 ?? null;
     (o == null && ((o = new RoomAdPurchaseData()), this._catalog && (this._catalog._rc7dd5dfdda40b8 = o)),
       (o.offerId = s.offerId));

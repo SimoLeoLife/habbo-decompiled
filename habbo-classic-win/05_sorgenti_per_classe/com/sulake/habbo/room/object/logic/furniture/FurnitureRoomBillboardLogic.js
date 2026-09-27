@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 300571.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureRoomBillboardLogic.as
-// Nome offuscato: _i1539450ca517fa
+// Extracted from HabboAirLauncher.deobf.js, line 300571.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureRoomBillboardLogic.as
+// Obfuscated name: _i1539450ca517fa
 
 class extends pX {
   static {

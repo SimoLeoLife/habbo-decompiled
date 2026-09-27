@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 350948.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/params/RadioButtonParam.as
-// Nome offuscato: _ia6b1f3109672da
+// Extracted from HabboAirLauncher.deobf.js, line 350948.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/params/RadioButtonParam.as
+// Obfuscated name: _ia6b1f3109672da
 
 class {
   constructor(e, r, t = null, i = null, s = !1) {

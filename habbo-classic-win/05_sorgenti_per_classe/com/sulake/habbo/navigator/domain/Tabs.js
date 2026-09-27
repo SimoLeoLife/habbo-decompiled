@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 252591.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/domain/Tabs.as
-// Nome offuscato: _i157d1c6d90ac28
+// Extracted from HabboAirLauncher.deobf.js, line 252591.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/domain/Tabs.as
+// Obfuscated name: _i157d1c6d90ac28
 
 class a {
     constructor(e) {
@@ -19,7 +19,7 @@ class a {
             this._navigator,
             a.CategoriesTabPageDecorator,
             a.SEARCHTYPE_CATEGORIES,
-            new _ia602bb6d74ab39(this._navigator),
+            new UnkClass_a602bb(this._navigator),
             hEt,
           ),
         ),
@@ -37,7 +37,7 @@ class a {
             this._navigator,
             a.OfficialTabPageDecorator,
             a.SEARCHTYPE_OFFICIALROOMS,
-            new _i2c32c6bac91913(this._navigator),
+            new UnkClass_2c32c6(this._navigator),
             uEt,
           ),
         ),

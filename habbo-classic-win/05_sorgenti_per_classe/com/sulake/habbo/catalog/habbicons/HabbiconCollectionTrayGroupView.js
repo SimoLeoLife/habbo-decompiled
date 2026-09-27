@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 178457.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconCollectionTrayGroupView.as
-// Nome offuscato: _i33bf0e1d95bc31
+// Extracted from HabboAirLauncher.deobf.js, line 178457.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconCollectionTrayGroupView.as
+// Obfuscated name: _i33bf0e1d95bc31
 
 class a {
   constructor(e, r, t, i) {

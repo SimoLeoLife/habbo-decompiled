@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 60768.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/utils/ErrorReportStorage.as
-// Nome offuscato: _i5829fae3c7bd36
+// Extracted from HabboAirLauncher.deobf.js, line 60768.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/utils/ErrorReportStorage.as
+// Obfuscated name: _i5829fae3c7bd36
 
 class {
   static {

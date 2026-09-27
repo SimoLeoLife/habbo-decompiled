@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 352140.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/FloatVerticallyPreset.as
-// Nome offuscato: _i073ee3bafab1aa
+// Extracted from HabboAirLauncher.deobf.js, line 352140.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/FloatVerticallyPreset.as
+// Obfuscated name: _i073ee3bafab1aa
 
 class extends WiredUIPreset {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 69542.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/animation/DelayedCall.as
-// Nome offuscato: _i8149d9e3a53922
+// Extracted from HabboAirLauncher.deobf.js, line 69542.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/animation/DelayedCall.as
+// Obfuscated name: _i8149d9e3a53922
 
 class a extends EventDispatcherWrapper {
   static {

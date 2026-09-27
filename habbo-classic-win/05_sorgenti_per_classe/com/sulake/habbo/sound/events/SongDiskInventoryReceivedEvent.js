@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 162251.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/events/SongDiskInventoryReceivedEvent.as
-// Nome offuscato: _ic354dd751b36a1
+// Extracted from HabboAirLauncher.deobf.js, line 162251.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/events/SongDiskInventoryReceivedEvent.as
+// Obfuscated name: _ic354dd751b36a1
 
 class extends M {
   static {

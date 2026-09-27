@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 134586.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/services/WindowMouseOperator.as
-// Nome offuscato: _i6198c1d89a6182
+// Extracted from HabboAirLauncher.deobf.js, line 134586.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/services/WindowMouseOperator.as
+// Obfuscated name: _i6198c1d89a6182
 
 class {
   static {
@@ -33,7 +33,7 @@ class {
             (this._re66073e9e7a15e.y = this._rf8f9fc25599fa4.mouseY));
         return;
       }
-      r instanceof _ifd7c1208e3417e && r.type === _ifd7c1208e3417e._ra93f33360c3a28 && this.end(this._window);
+      r instanceof UnkClass_fd7c12 && r.type === UnkClass_fd7c12._ra93f33360c3a28 && this.end(this._window);
     }
   }, "handler");
   clientWindowDestroyed = n((...e) => {
@@ -68,8 +68,8 @@ class {
         this._rf8f9fc25599fa4 !== null &&
         this._re66073e9e7a15e !== null &&
         this._offset !== null &&
-        (this._rf8f9fc25599fa4.addEventListener(_ifd7c1208e3417e._r9001c395573374, this.handler),
-        this._rf8f9fc25599fa4.addEventListener(_ifd7c1208e3417e._ra93f33360c3a28, this.handler),
+        (this._rf8f9fc25599fa4.addEventListener(UnkClass_fd7c12._r9001c395573374, this.handler),
+        this._rf8f9fc25599fa4.addEventListener(UnkClass_fd7c12._ra93f33360c3a28, this.handler),
         this._rf8f9fc25599fa4.addEventListener(M._re9c5159721d60d, this.handler),
         (this._re66073e9e7a15e.x = this._rf8f9fc25599fa4.mouseX),
         (this._re66073e9e7a15e.y = this._rf8f9fc25599fa4.mouseY),
@@ -86,8 +86,8 @@ class {
       this._working &&
         this._window === e &&
         this._rf8f9fc25599fa4 !== null &&
-        (this._rf8f9fc25599fa4.removeEventListener(_ifd7c1208e3417e._r9001c395573374, this.handler),
-        this._rf8f9fc25599fa4.removeEventListener(_ifd7c1208e3417e._ra93f33360c3a28, this.handler),
+        (this._rf8f9fc25599fa4.removeEventListener(UnkClass_fd7c12._r9001c395573374, this.handler),
+        this._rf8f9fc25599fa4.removeEventListener(UnkClass_fd7c12._ra93f33360c3a28, this.handler),
         this._rf8f9fc25599fa4.removeEventListener(M._re9c5159721d60d, this.handler),
         this._window.disposed ||
           this._window.removeEventListener(y.const_953, this.clientWindowDestroyed),

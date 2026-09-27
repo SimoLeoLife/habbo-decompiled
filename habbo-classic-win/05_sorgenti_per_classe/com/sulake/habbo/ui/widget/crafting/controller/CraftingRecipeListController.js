@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 313266.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/controller/CraftingRecipeListController.as
-// Nome offuscato: _i9027f6b019b9c4
+// Extracted from HabboAirLauncher.deobf.js, line 313266.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/controller/CraftingRecipeListController.as
+// Obfuscated name: _i9027f6b019b9c4
 
 class extends CraftingGridControllerBase {
   static {

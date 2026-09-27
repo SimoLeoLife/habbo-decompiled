@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 248439.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/OpenDiscussionThread.as
-// Nome offuscato: _i5abb16a9d039ec
+// Extracted from HabboAirLauncher.deobf.js, line 248439.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/OpenDiscussionThread.as
+// Obfuscated name: _i5abb16a9d039ec
 
 class {
   constructor(e, r, t, i) {

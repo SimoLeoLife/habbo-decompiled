@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 289014.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/level/LevelDetailsRenderer.as
+// Extracted from HabboAirLauncher.deobf.js, line 289014.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/level/LevelDetailsRenderer.as
 
 class a {
   static {
@@ -29,7 +29,7 @@ class a {
   var_1772 = null;
   _badgeRenderKey = "";
   _context;
-  _frame = new _i5ec3143bd5c7df();
+  _frame = new UnkClass_5ec314();
   var_5827 = 0;
   _r9c81e682746f4c = "";
   var_3458 = "";
@@ -126,7 +126,7 @@ class a {
         x: a.BADGE_X,
         y: a.BADGE_Y,
       });
-    return new _i446b7371e98d4f(i, s, new wwe(this.getLayer(a._rae454bc10cd1d3._rb780ad28f80470)));
+    return new UnkClass_446b73(i, s, new wwe(this.getLayer(a._rae454bc10cd1d3._rb780ad28f80470)));
   }
   _r9a47c9f32d3a1b(e) {
     let r = a._rae454bc10cd1d3;

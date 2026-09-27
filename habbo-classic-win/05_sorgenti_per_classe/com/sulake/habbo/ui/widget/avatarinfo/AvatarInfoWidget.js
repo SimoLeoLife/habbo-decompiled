@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 309285.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/AvatarInfoWidget.as
-// Nome offuscato: _i753515df76eb47
+// Extracted from HabboAirLauncher.deobf.js, line 309285.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/AvatarInfoWidget.as
+// Obfuscated name: _i753515df76eb47
 
 class a extends RoomWidgetBase {
   constructor(r, t, i, s, o, d, c, f) {
@@ -478,9 +478,9 @@ class a extends RoomWidgetBase {
         break;
       case $p.PET_BREEDING_RESULT: {
         let t = r,
-          i = new _i4749d1df712823();
+          i = new UnkClass_4749d1();
         i.populate(t.resultData);
-        let s = new _i4749d1df712823();
+        let s = new UnkClass_4749d1();
         (s.populate(t.resultData2), this._r04b35900605938(i, s));
         break;
       }
@@ -517,8 +517,8 @@ class a extends RoomWidgetBase {
     this.handler?.container?.events?.dispatchEvent?.(new RoomWidgetUpdateEvent("RWPCUE_CLOSE_PET_TRAINING"));
   }
   _r1324d016b68582() {
-    (this.handler?.container?.avatarEditor?._rdaf967f79ea08a(_ic723960da8d613._r4a110ddb22fcf1, null, null, !0),
-      this.handler?.container?.avatarEditor?._rb825ef6be7b35c(_ic723960da8d613._r4a110ddb22fcf1));
+    (this.handler?.container?.avatarEditor?._rdaf967f79ea08a(UnkConstants_c72396._r4a110ddb22fcf1, null, null, !0),
+      this.handler?.container?.avatarEditor?._rb825ef6be7b35c(UnkConstants_c72396._r4a110ddb22fcf1));
   }
   _r5d9a76e135764b(r, t, i) {
     this._view instanceof RentableBotMenuView && this._view._r5d9a76e135764b(r, t, i);
@@ -613,10 +613,10 @@ class a extends RoomWidgetBase {
       ));
   }
   _rebc4fa7f4414a5(r) {
-    this.handler?.container?.connection?.send(new _i408b01f630b2e2(r));
+    this.handler?.container?.connection?.send(new UnkMessageComposer_1args_408b01(r));
   }
   _r9bcce1ef12e316(r, t, i, s) {
-    this.handler?.container?.connection?.send(new _i67b3718f8d8fe2(r, t, i, s));
+    this.handler?.container?.connection?.send(new UnkMessageComposer_4args_67b371(r, t, i, s));
   }
   _r04b35900605938(r, t) {
     (this._r6758df77025d57 == null && (this._r6758df77025d57 = new WIe(this)),
@@ -682,7 +682,7 @@ class a extends RoomWidgetBase {
     i != null &&
       s != null &&
       this.handler?.container?.connection?.send(
-        new _i857159cb91dc97(_i857159cb91dc97._r7bf38ef8bfda68, i.webID, s.webID),
+        new UnkMessageComposer_3args_857159(UnkMessageComposer_3args_857159._r7bf38ef8bfda68, i.webID, s.webID),
       );
   }
   _r50cc5fa40e6d84(r, t) {
@@ -691,7 +691,7 @@ class a extends RoomWidgetBase {
     i != null &&
       s != null &&
       this.handler?.container?.connection?.send(
-        new _i857159cb91dc97(_i857159cb91dc97._r06de8e1f8203ee, i.webID, s.webID),
+        new UnkMessageComposer_3args_857159(UnkMessageComposer_3args_857159._r06de8e1f8203ee, i.webID, s.webID),
       );
   }
   _r4e102a484ef85d(r, t) {
@@ -700,7 +700,7 @@ class a extends RoomWidgetBase {
     i != null &&
       s != null &&
       this.handler?.container?.connection?.send(
-        new _i857159cb91dc97(_i857159cb91dc97._r7bf38ef8bfda68, i.webID, s.webID),
+        new UnkMessageComposer_3args_857159(UnkMessageComposer_3args_857159._r7bf38ef8bfda68, i.webID, s.webID),
       );
   }
   _r55a9ce9b4d014d(r, t) {
@@ -709,7 +709,7 @@ class a extends RoomWidgetBase {
     i != null &&
       s != null &&
       this.handler?.container?.connection?.send(
-        new _i857159cb91dc97(_i857159cb91dc97._rbb0e38da69244d, i.webID, s.webID),
+        new UnkMessageComposer_3args_857159(UnkMessageComposer_3args_857159._rbb0e38da69244d, i.webID, s.webID),
       );
   }
   updateUserView(r, t, i, s, o, d) {
@@ -999,7 +999,7 @@ class a extends RoomWidgetBase {
   }, "_r1e361785ff47c7");
   _r74d0514c1c17de() {
     (this._r551f821057a245?.stop(),
-      (this._r551f821057a245 = new _i05394ecc0c0c4d(a.AVATAR_HIGHLIGHT_DURATION_MSEC, 1)),
+      (this._r551f821057a245 = new UnkEventDispatcherWrapperSubclass_05394e(a.AVATAR_HIGHLIGHT_DURATION_MSEC, 1)),
       this._r551f821057a245.addEventListener(DeBouncer.addEventListener, this._rfbd72fbb7ca9ca),
       this._r551f821057a245.start());
   }

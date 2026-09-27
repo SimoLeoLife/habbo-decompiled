@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 113686.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/outgoing/camera/class_2040.as
-// Nome offuscato: _i5652e77340198c
+// Extracted from HabboAirLauncher.deobf.js, line 113686.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/outgoing/camera/class_2040.as
+// Obfuscated name: _i5652e77340198c
 
 class a {
     static {
@@ -262,7 +262,7 @@ class a {
     getRoomPlanesDataArray(e) {
       let r = [];
       for (let t of e) {
-        let i = new _i9676c92621ccac();
+        let i = new UnkClass_9676c9();
         i.z = t.z;
         let s = t.cornerPoints;
         (i.addCornerPoint(s[0].x, s[0].y),
@@ -274,12 +274,12 @@ class a {
           d = t._rd661e1e7571aca,
           c = t._r975aab7e436864,
           f = t._r107425bc6dc88f;
-        for (let b = 0; b < o.length; b++) i.addMask(new _ic688c136c68bd2(o[b], new _ie2ef954a489bb1(d[b].x, d[b].y), c[b], f[b]));
+        for (let b = 0; b < o.length; b++) i.addMask(new UnkClass_c688c1(o[b], new UnkClass_e2ef95(d[b].x, d[b].y), c[b], f[b]));
         i.setBottomAligned(t.isBottomAligned());
         let l = t._r462fb34fa01d45;
         if (l.length !== 0)
           for (let b of l) {
-            let _ = new _i2b88c5a919b8c3();
+            let _ = new UnkClass_2b88c5();
             for (let h of b) _.addAssetName(h);
             i.addTexCol(_);
           }

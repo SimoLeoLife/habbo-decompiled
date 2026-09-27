@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 159254.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionErrorMessageEvent.as
-// Nome offuscato: _i0b8cba6725ba5d
+// Extracted from HabboAirLauncher.deobf.js, line 159254.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionErrorMessageEvent.as
+// Obfuscated name: _i0b8cba6725ba5d
 
 class extends RoomSessionEvent {
   constructor(r, t, i = null, s = !1, o = !1) {

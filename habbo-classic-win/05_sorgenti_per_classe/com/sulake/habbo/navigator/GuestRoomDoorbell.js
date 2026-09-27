@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 251658.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/GuestRoomDoorbell.as
-// Nome offuscato: _i184729ad7333de
+// Extracted from HabboAirLauncher.deobf.js, line 251658.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/GuestRoomDoorbell.as
+// Obfuscated name: _i184729ad7333de
 
 class {
   constructor(e) {

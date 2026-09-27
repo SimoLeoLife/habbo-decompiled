@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 188440.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/events/CatalogWidgetBundleDisplayExtraInfoEvent.as
-// Nome offuscato: _i160989254bb93c
+// Extracted from HabboAirLauncher.deobf.js, line 188440.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/events/CatalogWidgetBundleDisplayExtraInfoEvent.as
+// Obfuscated name: _i160989254bb93c
 
 class extends M {
   constructor(r, t = null, i = -1) {

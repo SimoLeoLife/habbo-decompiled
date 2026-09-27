@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 269801.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/QuestController.as
-// Nome offuscato: _i1c4bc6d416373b
+// Extracted from HabboAirLauncher.deobf.js, line 269801.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/QuestController.as
+// Obfuscated name: _i1c4bc6d416373b
 
 class {
   constructor(e, r = null) {

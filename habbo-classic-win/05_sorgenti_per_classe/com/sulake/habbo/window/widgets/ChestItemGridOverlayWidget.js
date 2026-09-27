@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 148530.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/ChestItemGridOverlayWidget.as
-// Nome offuscato: _i6efc2bd98d8c0b
+// Extracted from HabboAirLauncher.deobf.js, line 148530.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/ChestItemGridOverlayWidget.as
+// Obfuscated name: _i6efc2bd98d8c0b
 
 class {
   constructor(e, r) {

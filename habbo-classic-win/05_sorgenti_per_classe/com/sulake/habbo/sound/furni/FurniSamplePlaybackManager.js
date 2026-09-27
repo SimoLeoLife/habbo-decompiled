@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 337457.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/furni/FurniSamplePlaybackManager.as
-// Nome offuscato: _ie7c28677746028
+// Extracted from HabboAirLauncher.deobf.js, line 337457.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/furni/FurniSamplePlaybackManager.as
+// Obfuscated name: _ie7c28677746028
 
 class {
   constructor(e, r) {
@@ -103,10 +103,10 @@ class {
     let r = this._soundManager.getProperty("flash.dynamic.download.url");
     ((r += this._soundManager.getProperty("flash.dynamic.download.samples.template")),
       (r = r.replace(/%typeid%/, e.toString())));
-    let t = new _i636490202c0f9a(r),
+    let t = new UnkClass_636490(r),
       i = new Mf();
     (i.addEventListener(M.ComponentDependency, this._r657a0b2a633997),
-      i.addEventListener(_i207e0270849f6a._rb9739f8a5177c3, this.ioErrorHandler),
+      i.addEventListener(UnkErrorEventSubclass_207e02._rb9739f8a5177c3, this.ioErrorHandler),
       i.load(t),
       this._rc73c07f612d74e.add(i, e));
   }

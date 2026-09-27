@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 60736.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/ComponentDependency.as
-// Nome offuscato: _i1b32e9b8d55bd4
+// Extracted from HabboAirLauncher.deobf.js, line 60736.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/ComponentDependency.as
+// Obfuscated name: _i1b32e9b8d55bd4
 
 class {
   constructor(e, r, t = !0, i = null) {

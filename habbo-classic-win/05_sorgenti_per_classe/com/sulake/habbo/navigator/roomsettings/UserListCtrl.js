@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 257213.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/roomsettings/UserListCtrl.as
-// Nome offuscato: _i436cf1020191cf
+// Extracted from HabboAirLauncher.deobf.js, line 257213.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/roomsettings/UserListCtrl.as
+// Obfuscated name: _i436cf1020191cf
 
 class a {
   constructor(e, r) {
@@ -45,10 +45,10 @@ class a {
     let r = e.target;
     if (r != null) {
       if (this._r018f336972d336) {
-        this._navigator.send(new _iaaec2d157986c1(r.id));
+        this._navigator.send(new UnkMessageComposer_1args_aaec2d(r.id));
         return;
       }
-      this._navigator.send(new _i08ea7a9f9bb449([r.id]));
+      this._navigator.send(new UnkMessageComposer_1args_08ea7a([r.id]));
     }
   }
   getListEntry(e) {

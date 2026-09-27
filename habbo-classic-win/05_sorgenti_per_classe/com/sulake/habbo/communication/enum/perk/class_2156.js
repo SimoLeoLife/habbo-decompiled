@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 72564.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/enum/perk/class_2156.as
-// Nome offuscato: _iafcb7544e9c45a
+// Extracted from HabboAirLauncher.deobf.js, line 72564.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/enum/perk/class_2156.as
+// Obfuscated name: _iafcb7544e9c45a
 
 class {
   static {

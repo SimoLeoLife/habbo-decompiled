@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 345794.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/ContainerButtonPreset.as
-// Nome offuscato: _i312c70e3770868
+// Extracted from HabboAirLauncher.deobf.js, line 345794.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/ContainerButtonPreset.as
+// Obfuscated name: _i312c70e3770868
 
 class extends PaddedContainerPreset {
   static {

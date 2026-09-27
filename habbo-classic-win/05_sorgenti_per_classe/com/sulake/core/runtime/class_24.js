@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 59746.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/class_24.as
-// Nome offuscato: _i70d97f36e23413
+// Extracted from HabboAirLauncher.deobf.js, line 59746.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/class_24.as
+// Obfuscated name: _i70d97f36e23413
 
 class a extends ComponentContext {
     static {
@@ -29,14 +29,14 @@ class a extends ComponentContext {
     constructor(e, r, t, i) {
       (super(null, ue.COMPONENT_FLAG_CONTEXT, new AssetLibraryCollection("_core_assets")),
         (this._r2ee29b2203b5c5 = e),
-        (this._rad39d0db2a714d = r ?? new _i22937e6f5f27b8()),
+        (this._rad39d0db2a714d = r ?? new UnkClass_22937e()),
         (this.var_450 = i ?? new Map()),
         (this._r868579ab9ea587 = t),
         (this.var_1933 = (t & class_14._r45378a812c2e75) === class_14._r45378a812c2e75),
         (this._r3adf32e28a3095 = this._rc94ca1e9d5883d));
       for (let s = 0; s < a.NUM_UPDATE_RECEIVER_LEVELS; s++)
         (this.var_1667.push([]), this._r2aca1358a187d7.push(0));
-      (this.attachComponent(this, [new _iff898cc8f41eae()]),
+      (this.attachComponent(this, [new UnkInterface_ff898c()]),
         this._r2ee29b2203b5c5?.addEventListener(M._re9c5159721d60d, this._r15073fc81a0758),
         this._ra9a39f2cd9946a(t & class_14._r4ffc196616a655),
         class_14._r99da3325792405(this));
@@ -72,10 +72,10 @@ class a extends ComponentContext {
     }
     _r55e974d136c7f2(e, r = 1) {
       this.hibernating ||
-        (_i3aa97bcbee2828.stop(), (this._rd3b7389937eeab = e), (this._rf116e4edfe6bd4 = 1e3 / Math.max(1, r)));
+        (UnkClass_3aa97b.stop(), (this._rd3b7389937eeab = e), (this._rf116e4edfe6bd4 = 1e3 / Math.max(1, r)));
     }
     resume() {
-      this.hibernating && (_i3aa97bcbee2828.start(), (this._rd3b7389937eeab = -1), (this._rf116e4edfe6bd4 = 0));
+      this.hibernating && (UnkClass_3aa97b.start(), (this._rd3b7389937eeab = -1), (this._rf116e4edfe6bd4 = 0));
     }
     _r24056a96827208() {
       this.var_450 = new Map();
@@ -107,7 +107,7 @@ class a extends ComponentContext {
           d.addEventListener(ht.LIBRARY_LOADER_EVENT_ERROR, this._r5a833a008b1dd4),
           d.addEventListener(ht.LIBRARY_LOADER_EVENT_PROGRESS, this._raf2c4fe34b13e2),
           o.kind === "asset" && (this._r46b9438508a3e0.add(d), this.assets.loadFromFile(d, !0)),
-          d.load(new _i636490202c0f9a(this.updateUrlProtocol(o.url))),
+          d.load(new UnkClass_636490(this.updateUrlProtocol(o.url))),
           this._r9bedec15ad0846.push(d),
           (this._r7407c59cfdcc82 += 1));
       }
@@ -125,7 +125,7 @@ class a extends ComponentContext {
           (this.var_577 == null || this.var_577.disposed) &&
             (this.var_577 = new BZ(this)),
           this._components.includes(this.var_577) ||
-            this.attachComponent(this.var_577, [new _i0944d2585efdf9()]),
+            this.attachComponent(this.var_577, [new UnkInterface_0944d2()]),
           this._rb71549ffa08651 == null &&
             ((this._rb71549ffa08651 = new MZ(this.var_577)),
             this._r2ee29b2203b5c5?.addChild(this._rb71549ffa08651)));
@@ -133,7 +133,7 @@ class a extends ComponentContext {
           let t = this.var_1667[r];
           for (let i = t.length - 1; i >= 0; i--) {
             let s = t[i];
-            s instanceof _i9dd47e48576289 && ((t[i] = s.receiver), s.dispose());
+            s instanceof UnkClass_9dd47e && ((t[i] = s.receiver), s.dispose());
           }
         }
         return;
@@ -149,7 +149,7 @@ class a extends ComponentContext {
           let t = this.var_1667[r];
           for (let i = t.length - 1; i >= 0; i--) {
             let s = t[i];
-            s != null && !(s instanceof _i9dd47e48576289) && (t[i] = new _i9dd47e48576289(s, this, r));
+            s != null && !(s instanceof UnkClass_9dd47e) && (t[i] = new UnkClass_9dd47e(s, this, r));
           }
         }
     }
@@ -183,7 +183,7 @@ class a extends ComponentContext {
       let t = Math.max(0, Math.min(a.NUM_UPDATE_RECEIVER_LEVELS - 1, r));
       (this.var_577 != null ? class_14._r9be507f8634252 : this._r868579ab9ea587 & class_14._r4ffc196616a655) ===
       class_14._raec78e22cdca0c
-        ? this.var_1667[t].push(new _i9dd47e48576289(e, this, t))
+        ? this.var_1667[t].push(new UnkClass_9dd47e(e, this, t))
         : this.var_1667[t].push(e);
     }
     removeUpdateReceiver(e) {
@@ -195,7 +195,7 @@ class a extends ComponentContext {
         if (r === class_14._raec78e22cdca0c)
           for (let s = 0; s < i.length; s++) {
             let o = i[s];
-            if (o instanceof _i9dd47e48576289 && o.receiver === e) {
+            if (o instanceof UnkClass_9dd47e && o.receiver === e) {
               (o.dispose(), i.splice(s, 1));
               return;
             }
@@ -324,8 +324,8 @@ class a extends ComponentContext {
     }
     dispose() {
       if (!this.disposed) {
-        _i3aa97bcbee2828.stop();
-        for (let e of this.var_1667) for (let r of e) r instanceof _i9dd47e48576289 && r.dispose();
+        UnkClass_3aa97b.stop();
+        for (let e of this.var_1667) for (let r of e) r instanceof UnkClass_9dd47e && r.dispose();
         (this._r2ee29b2203b5c5?.removeEventListener(M._re9c5159721d60d, this._r15073fc81a0758),
           this._r9bedec15ad0846?.dispose(),
           (this._r9bedec15ad0846 = null),
@@ -358,7 +358,7 @@ class a extends ComponentContext {
             (this.var_577 == null || this.var_577.disposed) &&
               (this.var_577 = new BZ(this)),
             this._components.includes(this.var_577) ||
-              this.attachComponent(this.var_577, [new _i0944d2585efdf9()]),
+              this.attachComponent(this.var_577, [new UnkInterface_0944d2()]),
             this._rb71549ffa08651 == null &&
               ((this._rb71549ffa08651 = new MZ(this.var_577)),
               this._r2ee29b2203b5c5?.addChild(this._rb71549ffa08651)));
@@ -374,7 +374,7 @@ class a extends ComponentContext {
       }
     }
     _r69d1b31d7ff759() {
-      (this.events.dispatchEvent?.(new M(ue.COMPONENT_EVENT_RUNNING)), _i3aa97bcbee2828.start());
+      (this.events.dispatchEvent?.(new M(ue.COMPONENT_EVENT_RUNNING)), UnkClass_3aa97b.start());
     }
     isCrashOnCriticalError() {
       return this.getBoolean("error_handling.crash_on_critical_error");
@@ -403,7 +403,7 @@ class a extends ComponentContext {
     }
     _rbf47610c4bd466(e) {
       this._rcc146877d1e053?.dispatchEvent?.(
-        new _i8643977614b683(
+        new UnkClass_864397(
           e.url ?? "",
           this._r7407c59cfdcc82 - this._ra28da5fa64db98(),
           this._r7407c59cfdcc82,
@@ -458,7 +458,7 @@ class a extends ComponentContext {
         t = r.target;
       t != null &&
         this._rcc146877d1e053?.dispatchEvent?.(
-          new _i8643977614b683(t.url ?? "", r.bytesLoaded, r.bytesTotal, t.elapsedTime),
+          new UnkClass_864397(t.url ?? "", r.bytesLoaded, r.bytesTotal, t.elapsedTime),
         );
     }, "_raf2c4fe34b13e2");
     _rc94ca1e9d5883d = n((e, r) => {
@@ -486,7 +486,7 @@ class a extends ComponentContext {
         let r = this.var_1667[e];
         for (let t = r.length - 1; t >= 0; t--) {
           let i = r[t];
-          (i == null || (i instanceof _i9dd47e48576289 && i.disposed)) && (i instanceof _i9dd47e48576289 && i.dispose(), r.splice(t, 1));
+          (i == null || (i instanceof UnkClass_9dd47e && i.disposed)) && (i instanceof UnkClass_9dd47e && i.dispose(), r.splice(t, 1));
         }
       }
     }, "_rf35254de2a32da");
@@ -500,10 +500,10 @@ class a extends ComponentContext {
       for (; d < o.length;) {
         let c = o[d];
         if (c == null || c.disposed) {
-          (c instanceof _i9dd47e48576289 && c.dispose(), o.splice(d, 1));
+          (c instanceof UnkClass_9dd47e && c.dispose(), o.splice(d, 1));
           continue;
         }
-        if (c instanceof _i9dd47e48576289) {
+        if (c instanceof UnkClass_9dd47e) {
           d += 1;
           continue;
         }

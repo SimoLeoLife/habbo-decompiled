@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 366548.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/FurniHasAltitude.as
-// Nome offuscato: _i8b2453cd9b8592
+// Extracted from HabboAirLauncher.deobf.js, line 366548.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/FurniHasAltitude.as
+// Obfuscated name: _i8b2453cd9b8592
 
 class extends DefaultConditionType {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 315295.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/mysterybox/MysteryBoxOpenDialogView.as
-// Nome offuscato: _i567ad9ba21c117
+// Extracted from HabboAirLauncher.deobf.js, line 315295.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/mysterybox/MysteryBoxOpenDialogView.as
+// Obfuscated name: _i567ad9ba21c117
 
 class {
   constructor(e) {
@@ -107,7 +107,7 @@ class {
           (this.closeWindow(),
             this.var_627 != null &&
               this.connection?.send(
-                new _i95c95556db026d(
+                new class_2521(
                   this.var_17?.handler.container?._r73fd72da7a633d(this.var_627) ?? 0,
                 ),
               ));

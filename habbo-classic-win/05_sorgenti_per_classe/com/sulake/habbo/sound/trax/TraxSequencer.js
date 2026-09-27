@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 338746.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/trax/TraxSequencer.as
-// Nome offuscato: _ic03dd2a77de473
+// Extracted from HabboAirLauncher.deobf.js, line 338746.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/trax/TraxSequencer.as
+// Obfuscated name: _ic03dd2a77de473
 
 class a {
   constructor(e, r, t, i) {
@@ -77,7 +77,7 @@ class a {
   set volume(e) {
     ((this._volume = e),
       this._soundObject != null &&
-        (this._soundObject._r24165a2568d0c7 = new _i366982a182b463(this._volume)));
+        (this._soundObject._r24165a2568d0c7 = new UnkClass_366982(this._volume)));
   }
   get length() {
     return this._r3c5134e19d504f / a.SAMPLES_PER_SECOND;
@@ -168,7 +168,7 @@ class a {
       (this._r452bb3fd274d0e = r),
       (this._r7267d672f84764 = new Mf()),
       this._r7267d672f84764._r94de227ce9fc1c(t.bytes, t.samples, "float"),
-      (this._soundObject = this._r7267d672f84764.play(0, 0, new _i366982a182b463(this._volume))),
+      (this._soundObject = this._r7267d672f84764.play(0, 0, new UnkClass_366982(this._volume))),
       this._soundObject?.addEventListener(M.ComponentDependency, this._rc4450c462f6e19),
       !0
     );
@@ -196,7 +196,7 @@ class a {
     this._r5983c96ac74ba2 == null &&
       ((this._r7264eaba106414 = _ia411d8d8194a3a()),
       (this._rdb27aaac66e90c = this._soundObject?._r24165a2568d0c7.volume ?? this._volume),
-      (this._r5983c96ac74ba2 = new _i05394ecc0c0c4d(a._r32f4fd135254b4)),
+      (this._r5983c96ac74ba2 = new UnkEventDispatcherWrapperSubclass_05394e(a._r32f4fd135254b4)),
       this._r5983c96ac74ba2.start(),
       this._r5983c96ac74ba2.addEventListener(DeBouncer.addEventListener, this._ra618d21021f7dc));
   }
@@ -294,7 +294,7 @@ class a {
       i = Math.min(1, t / r),
       s = this._rdb27aaac66e90c * (1 - i),
       o = this._soundObject._r24165a2568d0c7;
-    ((this._soundObject._r24165a2568d0c7 = new _i366982a182b463(Math.max(0, s), o.pan)),
+    ((this._soundObject._r24165a2568d0c7 = new UnkClass_366982(Math.max(0, s), o.pan)),
       i >= 1 && (this._rf69c7ababc6bdd(), this.playingComplete()));
   }, "_ra618d21021f7dc");
   playingComplete() {

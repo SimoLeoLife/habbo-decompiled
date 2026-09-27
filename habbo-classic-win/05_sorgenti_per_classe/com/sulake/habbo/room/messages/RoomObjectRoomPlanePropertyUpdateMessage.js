@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 181668.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/messages/RoomObjectRoomPlanePropertyUpdateMessage.as
-// Nome offuscato: _iebad6c0342525d
+// Extracted from HabboAirLauncher.deobf.js, line 181668.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/messages/RoomObjectRoomPlanePropertyUpdateMessage.as
+// Obfuscated name: _iebad6c0342525d
 
 class extends RoomObjectUpdateMessage {
   constructor(r, t) {

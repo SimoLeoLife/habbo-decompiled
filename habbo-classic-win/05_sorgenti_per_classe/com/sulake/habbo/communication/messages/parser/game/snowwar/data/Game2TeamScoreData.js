@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 83328.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/game/snowwar/data/Game2TeamScoreData.as
-// Nome offuscato: _i6e7fe49799b730
+// Extracted from HabboAirLauncher.deobf.js, line 83328.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/game/snowwar/data/Game2TeamScoreData.as
+// Obfuscated name: _i6e7fe49799b730
 
 class {
     static {

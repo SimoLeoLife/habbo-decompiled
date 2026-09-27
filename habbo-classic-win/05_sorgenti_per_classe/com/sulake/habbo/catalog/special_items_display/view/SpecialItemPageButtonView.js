@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 186611.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/special_items_display/view/SpecialItemPageButtonView.as
-// Nome offuscato: _i2641a89287a7f8
+// Extracted from HabboAirLauncher.deobf.js, line 186611.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/special_items_display/view/SpecialItemPageButtonView.as
+// Obfuscated name: _i2641a89287a7f8
 
 class {
   static {

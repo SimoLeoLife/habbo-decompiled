@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 107363.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_124/SharedGlobalPlaceholderList.as
-// Nome offuscato: _iae7c0980664c4f
+// Extracted from HabboAirLauncher.deobf.js, line 107363.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_124/SharedGlobalPlaceholderList.as
+// Obfuscated name: _iae7c0980664c4f
 
 class {
     static {

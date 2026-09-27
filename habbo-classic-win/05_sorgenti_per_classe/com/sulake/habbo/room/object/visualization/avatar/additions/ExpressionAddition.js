@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 272745.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/avatar/additions/ExpressionAddition.as
-// Nome offuscato: _ic91c09d87802b0
+// Extracted from HabboAirLauncher.deobf.js, line 272745.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/avatar/additions/ExpressionAddition.as
+// Obfuscated name: _ic91c09d87802b0
 
 class {
   constructor(e, r, t) {

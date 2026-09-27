@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 359651.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/WiredMenuController.as
-// Nome offuscato: _ic0965d9bf1e4d6
+// Extracted from HabboAirLauncher.deobf.js, line 359651.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/WiredMenuController.as
+// Obfuscated name: _ic0965d9bf1e4d6
 
 class a extends ue {
   static {
@@ -160,7 +160,7 @@ class a extends ue {
         (this.isShowing() ||
           (this.showView(), this.view.selectTab(Z1.TAB_MONITOR_ID)),
         this._rf70c2bba05b8c0.view == null || !this._rf70c2bba05b8c0.view.isShowing()
-          ? this._rf70c2bba05b8c0.send(new _i3d9f3af732b347(1, _ifaf38892102cfa.PAGE_SIZE, -1, -1, ""))
+          ? this._rf70c2bba05b8c0.send(new UnkMessageComposer_5args_3d9f3a(1, UnkConstants_faf388.PAGE_SIZE, -1, -1, ""))
           : this._rf70c2bba05b8c0.view.activate()));
   }
   routeInspectionLink(e) {
@@ -231,7 +231,7 @@ class a extends ue {
   }
   _rdba8d58443ab74() {
     this.send(
-      new _i60e6b3515ace27(
+      new UnkMessageComposer_6args_60e6b3(
         this._r62e1bd3b7b027a,
         this.wiredInspectButton,
         this.playTestMode,

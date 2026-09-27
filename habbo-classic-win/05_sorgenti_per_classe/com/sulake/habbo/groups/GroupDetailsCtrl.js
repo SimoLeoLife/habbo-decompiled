@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 224681.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/GroupDetailsCtrl.as
-// Nome offuscato: _id79e4c2015f2c4
+// Extracted from HabboAirLauncher.deobf.js, line 224681.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/GroupDetailsCtrl.as
+// Obfuscated name: _id79e4c2015f2c4
 
 class {
   static {
@@ -176,7 +176,7 @@ class {
       this.var_41 == null ||
       (this.var_41.trackGoogle("groupDetails", "joinGroup"),
       this._window?.findChildByName("join_button")?.disable(),
-      this.var_41.send(new _ie95634b0bf54c2(this._selectedGroup.groupId)),
+      this.var_41.send(new UnkMessageComposer_1args_e95634(this._selectedGroup.groupId)),
       this.var_41.send(new class_2154("Groups", `${this._selectedGroup.groupId}`, "join")));
   }, "onJoin");
   onRoomLink = n((e, r) => {
@@ -197,7 +197,7 @@ class {
       this._selectedGroup == null ||
       this.var_41 == null ||
       (this.var_41.trackGoogle("groupDetails", "groupManage"),
-      this.var_41.send(new _i642b73d3185b8f(this._selectedGroup.groupId)));
+      this.var_41.send(new UnkMessageComposer_1args_642b73(this._selectedGroup.groupId)));
   }, "onManageGuild");
   onDeleteGuild = n((e, r) => {
     e.type !== u.CLICK ||
@@ -214,7 +214,7 @@ class {
       r.type === y.const_1300 &&
         this._selectedGroup != null &&
         (this.var_41?.trackGoogle("groupDetails", "groupDelete"),
-        this.var_41?.send(new _i01d970b69e56a4(this._selectedGroup.groupId))));
+        this.var_41?.send(new class_2710(this._selectedGroup.groupId))));
   }, "_r331145cebd4921");
   onMembers = n((e, r) => {
     e.type !== u.CLICK ||

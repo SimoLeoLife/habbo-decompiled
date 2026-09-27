@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161030.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetRoomObjectPlaceEvent.as
-// Nome offuscato: _ife7878490e2a23
+// Extracted from HabboAirLauncher.deobf.js, line 161030.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetRoomObjectPlaceEvent.as
+// Obfuscated name: _ife7878490e2a23
 
 class extends RoomWidgetRoomObjectUpdateEvent {
   constructor(r, t, i, s, o, d, c, f, l, b, _, h, p, m, v = !1, w = !1) {

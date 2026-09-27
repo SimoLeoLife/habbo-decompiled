@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 229879.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/enum/GuideSessionStateEnum.as
-// Nome offuscato: _i78641debf2b0c8
+// Extracted from HabboAirLauncher.deobf.js, line 229879.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/enum/GuideSessionStateEnum.as
+// Obfuscated name: _i78641debf2b0c8
 
 class {
   static {

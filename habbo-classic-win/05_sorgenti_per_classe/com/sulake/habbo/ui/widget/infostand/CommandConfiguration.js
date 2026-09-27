@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 319683.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/CommandConfiguration.as
-// Nome offuscato: _i76a90094ad3bff
+// Extracted from HabboAirLauncher.deobf.js, line 319683.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/CommandConfiguration.as
+// Obfuscated name: _i76a90094ad3bff
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 159278.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionFavouriteGroupUpdateEvent.as
-// Nome offuscato: _i1aab59f7cc3022
+// Extracted from HabboAirLauncher.deobf.js, line 159278.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionFavouriteGroupUpdateEvent.as
+// Obfuscated name: _i1aab59f7cc3022
 
 class a extends RoomSessionEvent {
   constructor(r, t, i, s, o, d = !1, c = !1) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 275800.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/data/ColorData.as
-// Nome offuscato: _i54299e35a30c85
+// Extracted from HabboAirLauncher.deobf.js, line 275800.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/data/ColorData.as
+// Obfuscated name: _i54299e35a30c85
 
 class a {
   static {

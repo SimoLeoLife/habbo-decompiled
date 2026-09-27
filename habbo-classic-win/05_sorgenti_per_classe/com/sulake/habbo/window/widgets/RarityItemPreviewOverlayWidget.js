@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 151525.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/RarityItemPreviewOverlayWidget.as
-// Nome offuscato: _i82e6317239d141
+// Extracted from HabboAirLauncher.deobf.js, line 151525.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/RarityItemPreviewOverlayWidget.as
+// Obfuscated name: _i82e6317239d141
 
 class a {
   constructor(e, r) {

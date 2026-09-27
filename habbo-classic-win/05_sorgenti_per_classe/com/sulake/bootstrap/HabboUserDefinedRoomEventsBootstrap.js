@@ -1,7 +1,7 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 375791.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/bootstrap/HabboUserDefinedRoomEventsBootstrap.as
+// Extracted from HabboAirLauncher.deobf.js, line 375791.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/bootstrap/HabboUserDefinedRoomEventsBootstrap.as
 
-class extends _ib9a37f7542ff0f {
+class extends UnkClass_b9a37f {
   static {
     n(this, "HabboUserDefinedRoomEventsBootstrap");
   }

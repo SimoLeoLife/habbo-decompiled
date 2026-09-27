@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161742.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetGetObjectLocationMessage.as
-// Nome offuscato: _ife79eaca438904
+// Extracted from HabboAirLauncher.deobf.js, line 161742.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetGetObjectLocationMessage.as
+// Obfuscated name: _ife79eaca438904
 
 class extends RoomWidgetMessage {
   constructor(r, t, i) {

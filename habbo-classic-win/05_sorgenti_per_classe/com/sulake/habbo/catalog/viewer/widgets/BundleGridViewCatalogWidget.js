@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 188383.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/BundleGridViewCatalogWidget.as
-// Nome offuscato: _ia0db3daf88302c
+// Extracted from HabboAirLauncher.deobf.js, line 188383.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/BundleGridViewCatalogWidget.as
+// Obfuscated name: _ia0db3daf88302c
 
 class extends CatalogWidget {
   static {
@@ -35,7 +35,7 @@ class extends CatalogWidget {
   _rd886c8bcbe0933 = n((e) => {
     if ((this.page?.offers.length ?? 0) === 1) {
       let r = this.page?.offers[0] ?? null;
-      r != null && this.events?.dispatchEvent?.(new _idfee6137b0eb86(r));
+      r != null && this.events?.dispatchEvent?.(new UnkClass_dfee61(r));
     }
   }, "_rd886c8bcbe0933");
   _rae8e17ddaeb413 = n((e) => {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 365622.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/ClipboardWiredEntry.as
-// Nome offuscato: _iee433105a8ff25
+// Extracted from HabboAirLauncher.deobf.js, line 365622.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/ClipboardWiredEntry.as
+// Obfuscated name: _iee433105a8ff25
 
 class {
   constructor(e, r, t, i, s, o, d) {

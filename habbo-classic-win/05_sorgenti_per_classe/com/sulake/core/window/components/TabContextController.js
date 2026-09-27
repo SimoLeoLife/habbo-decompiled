@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 141092.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/TabContextController.as
-// Nome offuscato: _ib2aed3039440f7
+// Extracted from HabboAirLauncher.deobf.js, line 141092.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/TabContextController.as
+// Obfuscated name: _ib2aed3039440f7
 
 class a extends st {
   static {

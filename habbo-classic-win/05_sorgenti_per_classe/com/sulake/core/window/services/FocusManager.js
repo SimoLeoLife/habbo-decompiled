@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 28954.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/services/FocusManager.as
-// Nome offuscato: _ib09a6c8a747ec9
+// Extracted from HabboAirLauncher.deobf.js, line 28954.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/services/FocusManager.as
+// Obfuscated name: _ib09a6c8a747ec9
 
 class extends M {
   static {

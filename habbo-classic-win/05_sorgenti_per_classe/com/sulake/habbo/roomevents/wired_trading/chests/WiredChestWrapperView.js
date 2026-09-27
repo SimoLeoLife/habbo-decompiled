@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 372064.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/WiredChestWrapperView.as
-// Nome offuscato: _ia0fd33fc73fb76
+// Extracted from HabboAirLauncher.deobf.js, line 372064.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/WiredChestWrapperView.as
+// Obfuscated name: _ia0fd33fc73fb76
 
 class a {
   constructor(e, r) {
@@ -127,10 +127,10 @@ class a {
     return this.var_497;
   }
   _rdc699093a5be58 = n(() => {
-    this.var_63.send(new _ic9dcc5b7c1f3de(this.var_428, TransactionConfig.PAGE_SIZE, 1));
+    this.var_63.send(new UnkMessageComposer_3args_c9dcc5(this.var_428, TransactionConfig.PAGE_SIZE, 1));
   }, "_rdc699093a5be58");
   _r4a65a29cfd3dee = n(() => {
-    this.var_63.send(new _i9a110df22147ef(this.var_428));
+    this.var_63.send(new UnkMessageComposer_1args_9a110d(this.var_428));
   }, "_r4a65a29cfd3dee");
   _r145e32a951f4c5 = n(() => {
     this.var_63._r41f5cc7d3516ce.windowManager.confirm(
@@ -141,7 +141,7 @@ class a {
     );
   }, "_r145e32a951f4c5");
   _rcdb0efa51170a2 = n((e, r) => {
-    (e.dispose(), r.type === y.const_1300 && this.var_63.send(new _id98c8041b57695(this.var_428)));
+    (e.dispose(), r.type === y.const_1300 && this.var_63.send(new UnkMessageComposer_1args_d98c80(this.var_428)));
   }, "_rcdb0efa51170a2");
   _re92aff65337e91 = n(() => {
     this.var_637.visible = !1;
@@ -357,7 +357,7 @@ class a {
   _r740b6265f51971 = n(() => {
     this._ignoreCheckboxSelectedEvents ||
       this.var_63.send(
-        new _i5990fcb8a7a3e8(
+        new UnkMessageComposer_4args_5990fc(
           this.var_428,
           this.lockChestCheckbox.isSelected,
           this.autoLockChestCheckbox.isSelected,

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 270216.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/seasonalcalendar/CalendarArrowButton.as
-// Nome offuscato: _i8e7e3ff8c9bdc5
+// Extracted from HabboAirLauncher.deobf.js, line 270216.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/seasonalcalendar/CalendarArrowButton.as
+// Obfuscated name: _i8e7e3ff8c9bdc5
 
 class a {
   constructor(e, r, t, i) {

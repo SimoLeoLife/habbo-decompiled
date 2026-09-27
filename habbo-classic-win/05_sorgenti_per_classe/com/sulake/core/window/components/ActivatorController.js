@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 130791.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/ActivatorController.as
-// Nome offuscato: _id934f077869066
+// Extracted from HabboAirLauncher.deobf.js, line 130791.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/ActivatorController.as
+// Obfuscated name: _id934f077869066
 
 class extends ContainerController {
     static {

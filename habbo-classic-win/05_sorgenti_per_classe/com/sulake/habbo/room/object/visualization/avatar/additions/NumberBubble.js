@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 273117.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/avatar/additions/NumberBubble.as
-// Nome offuscato: _i0e70e8f1f11de1
+// Extracted from HabboAirLauncher.deobf.js, line 273117.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/avatar/additions/NumberBubble.as
+// Obfuscated name: _i0e70e8f1f11de1
 
 class {
   constructor(e, r, t) {

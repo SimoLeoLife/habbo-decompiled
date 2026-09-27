@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 346819.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/params/SectionParam.as
-// Nome offuscato: _i87102ffda54365
+// Extracted from HabboAirLauncher.deobf.js, line 346819.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/params/SectionParam.as
+// Obfuscated name: _i87102ffda54365
 
 class a {
   constructor(e = null, r = 0, t = null, i = 0) {

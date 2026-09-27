@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 249675.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/IssueManager.as
-// Nome offuscato: _i8040f198122e61
+// Extracted from HabboAirLauncher.deobf.js, line 249675.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/IssueManager.as
+// Obfuscated name: _i8040f198122e61
 
 class a {
   constructor(e) {
@@ -12,7 +12,7 @@ class a {
     )),
       (this._r3bc688830e51b8 = this._moderationManager.getInteger("chf.score.updatefactor", 60)),
       (this._issueListLimit = this._moderationManager.getInteger("max.call_for_help.results", 200)),
-      (this._rbb2a2fef9b7659 = new _i05394ecc0c0c4d(a.PRIORITY_UPDATE_INTERVAL_MS, 0)),
+      (this._rbb2a2fef9b7659 = new UnkEventDispatcherWrapperSubclass_05394e(a.PRIORITY_UPDATE_INTERVAL_MS, 0)),
       this._rbb2a2fef9b7659.addEventListener(DeBouncer.addEventListener, this._r4dc2f58a5b650c.bind(this)),
       this._rbb2a2fef9b7659.start());
   }
@@ -203,10 +203,10 @@ class a {
   }
   _r19cc9935650149(e, r) {
     let i = (this._bundles.getValue(e) ?? null)?.var_2416() ?? null;
-    i != null && this._moderationManager.connection?.send(new _i0195104c8c3160(i.issueId, -1, r));
+    i != null && this._moderationManager.connection?.send(new UnkMessageComposer_3args_019510(i.issueId, -1, r));
   }
   _rd38f13cf29203e(e, r) {
-    this._moderationManager.connection?.send(new _i0195104c8c3160(-1, e, r));
+    this._moderationManager.connection?.send(new UnkMessageComposer_3args_019510(-1, e, r));
   }
   updateSanctionData(e, r, t) {
     let i = `${t.name}${t.avatarOnly ? " (avatar) " : " "}`;
@@ -271,7 +271,7 @@ class a {
   _r3b876fc683ea84(e) {
     e.length === 0 ||
       this._moderationManager.connection == null ||
-      (this._moderationManager.connection.send(new _iaab880822b368e(e)),
+      (this._moderationManager.connection.send(new UnkMessageComposer_1args_aab880(e)),
       (this._r58d5a94b9eacf1 = this._r58d5a94b9eacf1.concat(e)));
   }
   _rdf9a1399054573(e) {
@@ -294,14 +294,14 @@ class a {
   _rf69042521b33de(e, r) {
     e.length > 0 &&
       this._moderationManager.connection != null &&
-      this._moderationManager.connection.send(new _i2f0c5652e4bcae(e, r));
+      this._moderationManager.connection.send(new UnkMessageComposer_2args_2f0c56(e, r));
   }
   sendPick(e, r, t, i) {
     e.length > 0 &&
       this._moderationManager.connection != null &&
-      this._moderationManager.connection.send(new _i3fc7caf549514e(e, r, t, i));
+      this._moderationManager.connection.send(new UnkMessageComposer_4args_3fc7ca(e, r, t, i));
   }
   _r477bfdf3bebbef(e, r, t) {
-    this._moderationManager.connection?.send(new _i7df25a8484d009(e, r, t));
+    this._moderationManager.connection?.send(new UnkMessageComposer_3args_7df25a(e, r, t));
   }
 }

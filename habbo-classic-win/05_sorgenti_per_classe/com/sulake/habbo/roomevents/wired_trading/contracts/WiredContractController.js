@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 373930.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/contracts/WiredContractController.as
-// Nome offuscato: _i333ef2818c3e05
+// Extracted from HabboAirLauncher.deobf.js, line 373930.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/contracts/WiredContractController.as
+// Obfuscated name: _i333ef2818c3e05
 
 class {
   static {
@@ -33,7 +33,7 @@ class {
   _r1c0f0d3f33d635(e) {
     let r = e.getParser();
     ((this._r745622ff0a77ba = r.contractId),
-      this._rf3db13932bfb60.connection.send(new _i3b7731b3553038(this._r745622ff0a77ba)));
+      this._rf3db13932bfb60.connection.send(new class_3832(this._r745622ff0a77ba)));
   }
   _r0d4a8a165d8cbf(e) {
     let r = e.getParser();

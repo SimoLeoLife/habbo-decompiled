@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 138698.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/ItemListController.as
-// Nome offuscato: _iadc502acfb8deb
+// Extracted from HabboAirLauncher.deobf.js, line 138698.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/ItemListController.as
+// Obfuscated name: _iadc502acfb8deb
 
 class extends st {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 194448.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/recycler/RecycleRewardDisplayWrapper.as
-// Nome offuscato: _i9c5af2a0b44297
+// Extracted from HabboAirLauncher.deobf.js, line 194448.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/recycler/RecycleRewardDisplayWrapper.as
+// Obfuscated name: _i9c5af2a0b44297
 
 class {
   constructor(e, r) {

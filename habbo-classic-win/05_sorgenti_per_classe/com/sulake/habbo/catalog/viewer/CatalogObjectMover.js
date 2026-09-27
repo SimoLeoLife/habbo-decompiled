@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 193861.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/CatalogObjectMover.as
-// Nome offuscato: _i3039ecaf752262
+// Extracted from HabboAirLauncher.deobf.js, line 193861.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/CatalogObjectMover.as
+// Obfuscated name: _i3039ecaf752262
 
 class a {
   static {
@@ -69,7 +69,7 @@ class a {
     if (r == null || this._r9b90e4962f5ade() != null) return;
     let t = new Sprite();
     ((t.name = a.OVERLAY_SPRITE_NAME), (t.mouseEnabled = !1), (t.visible = !0));
-    let i = new _i3a5c6f457acdad();
+    let i = new UnkClass_3a5c6f();
     ((i.bitmapData = e), t.addChild(i), r.addChild(t));
   }
   _r50537fb8d84684() {

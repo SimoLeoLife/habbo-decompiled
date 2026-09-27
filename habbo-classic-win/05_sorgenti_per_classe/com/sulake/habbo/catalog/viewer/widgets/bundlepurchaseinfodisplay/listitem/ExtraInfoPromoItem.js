@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 188826.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/bundlepurchaseinfodisplay/listitem/ExtraInfoPromoItem.as
-// Nome offuscato: _ib3e70b5308853b
+// Extracted from HabboAirLauncher.deobf.js, line 188826.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/bundlepurchaseinfodisplay/listitem/ExtraInfoPromoItem.as
+// Obfuscated name: _ib3e70b5308853b
 
 class a extends UpdateableExtraInfoListItem {
   constructor(r, t, i, s) {
@@ -8,7 +8,7 @@ class a extends UpdateableExtraInfoListItem {
     this._catalog = s;
     (this.createNextDiscountMap(),
       this.resolveNextDiscountLevel(),
-      (this._r7640245f5b76c0 = new _i05394ecc0c0c4d(50)),
+      (this._r7640245f5b76c0 = new UnkEventDispatcherWrapperSubclass_05394e(50)),
       this._r7640245f5b76c0.addEventListener(DeBouncer.addEventListener, this.var_2011),
       this._r7640245f5b76c0.start());
   }

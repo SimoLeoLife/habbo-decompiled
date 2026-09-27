@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 99039.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_51/PrizeMessageData.as
-// Nome offuscato: _iba5fe10c4cffeb
+// Extracted from HabboAirLauncher.deobf.js, line 99039.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_51/PrizeMessageData.as
+// Obfuscated name: _iba5fe10c4cffeb
 
 class {
     static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 69650.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/habbicons/assets/HabbiconAssetManager.as
-// Nome offuscato: _i4b0bcc7b5ec9d6
+// Extracted from HabboAirLauncher.deobf.js, line 69650.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/habbicons/assets/HabbiconAssetManager.as
+// Obfuscated name: _i4b0bcc7b5ec9d6
 
 class a {
   static {
@@ -181,24 +181,24 @@ class a {
       return;
     }
     this._isLoading = !0;
-    let r = new _ib182ac399b1881();
-    ((r._rb1fac8ba8605e0 = _i70a4b4b891980a.TEXT),
+    let r = new UnkEventDispatcherWrapperSubclass_b182ac();
+    ((r._rb1fac8ba8605e0 = UnkConstants_70a4b4.TEXT),
       r.addEventListener(M.ComponentDependency, this._r20e8b5f928e30a),
-      r.addEventListener(_i207e0270849f6a._rb9739f8a5177c3, this._r3dce650f5f03ea),
-      r.addEventListener(_i30cc549f9371ef._r5ff5ea8eb8799e, this._rf687aa43fea090),
-      r.load(new _i636490202c0f9a(e + a.const_548)));
-    let t = new _ib182ac399b1881();
-    ((t._rb1fac8ba8605e0 = _i70a4b4b891980a.BINARY),
+      r.addEventListener(UnkErrorEventSubclass_207e02._rb9739f8a5177c3, this._r3dce650f5f03ea),
+      r.addEventListener(UnkErrorEventSubclass_30cc54._r5ff5ea8eb8799e, this._rf687aa43fea090),
+      r.load(new UnkClass_636490(e + a.const_548)));
+    let t = new UnkEventDispatcherWrapperSubclass_b182ac();
+    ((t._rb1fac8ba8605e0 = UnkConstants_70a4b4.BINARY),
       t.addEventListener(M.ComponentDependency, this._rc4cbc8d0794eb0),
-      t.addEventListener(_i207e0270849f6a._rb9739f8a5177c3, this._r3dce650f5f03ea),
-      t.addEventListener(_i30cc549f9371ef._r5ff5ea8eb8799e, this._rf687aa43fea090),
-      t.load(new _i636490202c0f9a(e + a.const_625)));
-    let i = new _ib182ac399b1881();
-    ((i._rb1fac8ba8605e0 = _i70a4b4b891980a.BINARY),
+      t.addEventListener(UnkErrorEventSubclass_207e02._rb9739f8a5177c3, this._r3dce650f5f03ea),
+      t.addEventListener(UnkErrorEventSubclass_30cc54._r5ff5ea8eb8799e, this._rf687aa43fea090),
+      t.load(new UnkClass_636490(e + a.const_625)));
+    let i = new UnkEventDispatcherWrapperSubclass_b182ac();
+    ((i._rb1fac8ba8605e0 = UnkConstants_70a4b4.BINARY),
       i.addEventListener(M.ComponentDependency, this._r8255029b39907d),
-      i.addEventListener(_i207e0270849f6a._rb9739f8a5177c3, this._r390a2c52855e8e),
-      i.addEventListener(_i30cc549f9371ef._r5ff5ea8eb8799e, this._r43ae2a3616df78),
-      i.load(new _i636490202c0f9a(e + a.COLLECTION_ICONS_SPRITESHEET_FILE)));
+      i.addEventListener(UnkErrorEventSubclass_207e02._rb9739f8a5177c3, this._r390a2c52855e8e),
+      i.addEventListener(UnkErrorEventSubclass_30cc54._r5ff5ea8eb8799e, this._r43ae2a3616df78),
+      i.load(new UnkClass_636490(e + a.COLLECTION_ICONS_SPRITESHEET_FILE)));
   }
   _r20e8b5f928e30a = n((e) => {
     let r = e.currentTarget;
@@ -231,7 +231,7 @@ class a {
   _r99b88983f795d4(e) {
     if (!(e.data instanceof re)) return null;
     try {
-      return ((e.data.position = 0), new _ifdd92074c780c7().decode(e.data));
+      return ((e.data.position = 0), new UnkClass_fdd920().decode(e.data));
     } catch {
       return null;
     }
@@ -296,7 +296,7 @@ class a {
       d = s?.playbackSpeed != null ? Number(s.playbackSpeed) : 1;
     (Number.isNaN(d) || d <= 0) && (d = 1);
     let c = (Number(e.frameCount) | 0) > 1 && i.length > 0 && o.length > 0;
-    return new _ia3b62c2312e87c(
+    return new UnkClass_a3b62c(
       r,
       t,
       this._r99ce61d7783423(e.dir),
@@ -351,13 +351,13 @@ class a {
     let t = this.refreshAssetRoot();
     if (t == null || t === "") return;
     this._r3e93eac993cfb4.set(e, !0);
-    let i = new _ib182ac399b1881();
+    let i = new UnkEventDispatcherWrapperSubclass_b182ac();
     (this._ra0af4e3f832911.set(i, e),
-      (i._rb1fac8ba8605e0 = _i70a4b4b891980a.BINARY),
+      (i._rb1fac8ba8605e0 = UnkConstants_70a4b4.BINARY),
       i.addEventListener(M.ComponentDependency, this._r181430cd6d652f),
-      i.addEventListener(_i207e0270849f6a._rb9739f8a5177c3, this._r481c350550dc65),
-      i.addEventListener(_i30cc549f9371ef._r5ff5ea8eb8799e, this._r25f3729e6a4e6e),
-      i.load(new _i636490202c0f9a(t + a.HABBICONS_ANIMATION_PATH + e + ".png")));
+      i.addEventListener(UnkErrorEventSubclass_207e02._rb9739f8a5177c3, this._r481c350550dc65),
+      i.addEventListener(UnkErrorEventSubclass_30cc54._r5ff5ea8eb8799e, this._r25f3729e6a4e6e),
+      i.load(new UnkClass_636490(t + a.HABBICONS_ANIMATION_PATH + e + ".png")));
   }
   _r181430cd6d652f = n((e) => {
     let r = e.currentTarget,
@@ -443,13 +443,13 @@ class a {
   _r2801db6f15d037(e) {
     e != null &&
       (e.removeEventListener(M.ComponentDependency, this._r20e8b5f928e30a),
-      e.removeEventListener(_i207e0270849f6a._rb9739f8a5177c3, this._r3dce650f5f03ea),
-      e.removeEventListener(_i30cc549f9371ef._r5ff5ea8eb8799e, this._rf687aa43fea090));
+      e.removeEventListener(UnkErrorEventSubclass_207e02._rb9739f8a5177c3, this._r3dce650f5f03ea),
+      e.removeEventListener(UnkErrorEventSubclass_30cc54._r5ff5ea8eb8799e, this._rf687aa43fea090));
   }
   _rf04126f2f17149(e, r = this._rc4cbc8d0794eb0, t = this._r3dce650f5f03ea, i = this._rf687aa43fea090) {
     e != null &&
       (e.removeEventListener(M.ComponentDependency, r),
-      e.removeEventListener(_i207e0270849f6a._rb9739f8a5177c3, t),
-      e.removeEventListener(_i30cc549f9371ef._r5ff5ea8eb8799e, i));
+      e.removeEventListener(UnkErrorEventSubclass_207e02._rb9739f8a5177c3, t),
+      e.removeEventListener(UnkErrorEventSubclass_30cc54._r5ff5ea8eb8799e, i));
   }
 }

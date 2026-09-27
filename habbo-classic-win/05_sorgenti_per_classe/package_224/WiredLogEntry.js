@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 109162.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_224/WiredLogEntry.as
-// Nome offuscato: _i361f597880dde0
+// Extracted from HabboAirLauncher.deobf.js, line 109162.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_224/WiredLogEntry.as
+// Obfuscated name: _i361f597880dde0
 
 class {
     static {

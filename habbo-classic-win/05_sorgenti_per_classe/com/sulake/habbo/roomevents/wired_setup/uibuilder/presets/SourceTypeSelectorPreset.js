@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 347409.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/SourceTypeSelectorPreset.as
-// Nome offuscato: _ie6c60bbbdb860c
+// Extracted from HabboAirLauncher.deobf.js, line 347409.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/SourceTypeSelectorPreset.as
+// Obfuscated name: _ie6c60bbbdb860c
 
 class extends WiredUIPreset {
   static {

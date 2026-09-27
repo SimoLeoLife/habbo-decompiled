@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 316341.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/dimmer/DimmerViewAlphaSlider.as
-// Nome offuscato: _i43436edd61d81f
+// Extracted from HabboAirLauncher.deobf.js, line 316341.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/dimmer/DimmerViewAlphaSlider.as
+// Obfuscated name: _i43436edd61d81f
 
 class {
   static {

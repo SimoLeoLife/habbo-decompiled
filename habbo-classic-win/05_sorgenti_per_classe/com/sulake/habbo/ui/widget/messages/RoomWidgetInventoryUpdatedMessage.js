@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161763.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetInventoryUpdatedMessage.as
-// Nome offuscato: _i06c95d0fef665d
+// Extracted from HabboAirLauncher.deobf.js, line 161763.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetInventoryUpdatedMessage.as
+// Obfuscated name: _i06c95d0fef665d
 
 class extends RoomWidgetUpdateEvent {
   static {

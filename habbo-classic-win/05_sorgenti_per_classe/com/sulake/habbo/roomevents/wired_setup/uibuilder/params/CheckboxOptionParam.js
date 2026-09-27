@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 351610.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/params/CheckboxOptionParam.as
-// Nome offuscato: _ib3a3558d424b57
+// Extracted from HabboAirLauncher.deobf.js, line 351610.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/params/CheckboxOptionParam.as
+// Obfuscated name: _ib3a3558d424b57
 
 class {
   constructor(e, r = -1, t = null, i = null) {

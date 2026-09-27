@@ -1,12 +1,12 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 355965.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/RoomObjectHighLighter.as
-// Nome offuscato: _i8bf95b7a48db5b
+// Extracted from HabboAirLauncher.deobf.js, line 355965.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/RoomObjectHighLighter.as
+// Obfuscated name: _i8bf95b7a48db5b
 
 class a {
   constructor(e) {
     this._roomEvents = e;
     let o = new ColorMatrixFilter_([0.25, 0, 0, 0, 115.5, 0, 0.25, 0, 0, 141, 0, 0, 0.25, 0, 141, 0, 0, 0, 1, 0]),
-      d = new _ibaf84c0aa91c5d(16777215, 1, 5, 5, 3, 1, !0, !1);
+      d = new UnkClass_baf84c(16777215, 1, 5, 5, 3, 1, !0, !1);
     ((this._r2b2084572ff3c1 = [o, d]),
       (this._r5dde13865810f2 = [o, d]),
       (this._r113ef0d59e86e0 = [new ColorMatrixFilter_([0.9, 0, 0, 0, 0, 0, 1, 0, 0, 40, 0, 0, 1, 0, 80, 0, 0, 0, 0.8, 0])]),

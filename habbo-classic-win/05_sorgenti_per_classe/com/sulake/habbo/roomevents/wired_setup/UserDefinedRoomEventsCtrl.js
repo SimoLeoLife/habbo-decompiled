@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 370517.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/UserDefinedRoomEventsCtrl.as
-// Nome offuscato: _i5c7e92a7675af9
+// Extracted from HabboAirLauncher.deobf.js, line 370517.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/UserDefinedRoomEventsCtrl.as
+// Obfuscated name: _i5c7e92a7675af9
 
 class a {
   constructor(e) {
@@ -360,7 +360,7 @@ class a {
               : this._refa3da82d90174;
   }
   _ra16304ec90074b(e, r) {
-    return !(r instanceof _icbbc47f0f04020) || e == null ? null : _ib619bfd98fe9f2.as({ value: e, guard: _i66bf19a0b90095 });
+    return !(r instanceof UnkSubclassOf_class_2396_cbbc47) || e == null ? null : UnkClass_b619bf.as({ value: e, guard: _i66bf19a0b90095 });
   }
   _r29f3f30a47ba63() {
     if (this.var_20 == null || this.var_47 == null)
@@ -475,7 +475,7 @@ class a {
   }
   createInputs(e, r, t) {
     if (r.inputMode !== So.INPUTS_TYPE_UI_BUILDER) return;
-    let i = new _icf59381930830e(this.var_102);
+    let i = new UnkWiredUIBuilderSubclass_cf5938(this.var_102);
     (r._r0effae977df5f6(this._roomEvents),
       r.buildInputs(this.var_102, this.getElementByCode, i));
     for (let s of i._rf55edeae0ecb69) t.addElements(s);
@@ -505,7 +505,7 @@ class a {
       this._re04972651b3e30("createFurniPicks.afterCreate"));
   }
   createDelaySection(e, r, t) {
-    let i = _ib619bfd98fe9f2.as({ value: r, guard: _i6f604ea13f4e09 });
+    let i = UnkClass_b619bf.as({ value: r, guard: _i6f604ea13f4e09 });
     !(e instanceof class_3391) ||
       i == null ||
       !i.allowDelaying ||
@@ -726,8 +726,8 @@ class a {
   _r1dcaf929634892(e) {
     let r = this._ra92c81c3f48874(),
       t = this._r81a3cda1ec1860();
-    return this.var_20 instanceof _i273ff567809acd
-      ? new _id32620b36e94c1(
+    return this.var_20 instanceof UnkSubclassOf_class_2396_273ff5
+      ? new UnkMessageComposer_8args_d32620(
           e,
           this._r94cc7d148d1619(),
           this._r74383d74ef2dac(),
@@ -738,7 +738,7 @@ class a {
           this._r1661b31ec686af(),
         )
       : this.var_20 instanceof class_3391
-        ? new _i5d6aac3b2da798(
+        ? new UnkMessageComposer_9args_5d6aac(
             e,
             this._r94cc7d148d1619(),
             this._r74383d74ef2dac(),
@@ -750,7 +750,7 @@ class a {
             this._r1661b31ec686af(),
           )
         : this.var_20 instanceof class_3028
-          ? new _i2240ebf3d49845(
+          ? new UnkMessageComposer_9args_2240eb(
               e,
               this._r94cc7d148d1619(),
               this._r74383d74ef2dac(),
@@ -761,8 +761,8 @@ class a {
               this._rd8bc0bae32776f(),
               this._r1661b31ec686af(),
             )
-          : this.var_20 instanceof _ie39e7d82fe88f2
-            ? new _i6e707fe66c1cf6(
+          : this.var_20 instanceof UnkSubclassOf_class_2396_e39e7d
+            ? new UnkMessageComposer_8args_6e707f(
                 e,
                 this._r94cc7d148d1619(),
                 this._r74383d74ef2dac(),
@@ -773,7 +773,7 @@ class a {
                 this._r1661b31ec686af(),
               )
             : this.var_20 instanceof SelectorDefinition
-              ? new _i01e9ff4bf7194f(
+              ? new UpdateSelectorMessageComposer(
                   e,
                   this._r94cc7d148d1619(),
                   this._r74383d74ef2dac(),
@@ -785,7 +785,7 @@ class a {
                   this._rd8bc0bae32776f(),
                   this._r1661b31ec686af(),
                 )
-              : new _i351508ea93ba1a(
+              : new UnkMessageComposer_8args_351508(
                   e,
                   this._r94cc7d148d1619(),
                   this._r74383d74ef2dac(),
@@ -800,7 +800,7 @@ class a {
     return this.var_833?.value ?? 0;
   }
   _r115cce54cad0ab = n(() => {
-    this.var_20 != null && this._roomEvents.send(new _i63fdcfd7dda743(this.var_20.id));
+    this.var_20 != null && this._roomEvents.send(new UnkMessageComposer_1args_63fdcf(this.var_20.id));
   }, "_r115cce54cad0ab");
   _rf843b5605ce9a1 = n(() => {
     let e = this._ra16304ec90074b(this.var_47, this.var_20);

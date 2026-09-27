@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 79338.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/RoomObjectOperationEnum.as
-// Nome offuscato: _ic58300381fe5c2
+// Extracted from HabboAirLauncher.deobf.js, line 79338.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/RoomObjectOperationEnum.as
+// Obfuscated name: _ic58300381fe5c2
 
 class {
   static {

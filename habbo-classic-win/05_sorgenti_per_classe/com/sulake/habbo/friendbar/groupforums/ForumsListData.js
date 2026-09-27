@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 205881.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/ForumsListData.as
-// Nome offuscato: _ida6151b10f20db
+// Extracted from HabboAirLauncher.deobf.js, line 205881.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/ForumsListData.as
+// Obfuscated name: _ida6151b10f20db
 
 class {
   static {

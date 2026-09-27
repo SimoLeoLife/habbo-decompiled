@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 231469.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/GuideHelpManager.as
-// Nome offuscato: _i8b80634b02a416
+// Extracted from HabboAirLauncher.deobf.js, line 231469.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/GuideHelpManager.as
+// Obfuscated name: _i8b80634b02a416
 
 class {
   constructor(e) {

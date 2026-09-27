@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 195307.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/SpinnerCatalogWidget.as
-// Nome offuscato: _i1740dc4d4a05d8
+// Extracted from HabboAirLauncher.deobf.js, line 195307.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/SpinnerCatalogWidget.as
+// Obfuscated name: _i1740dc4d4a05d8
 
 class a extends CatalogWidget {
   static {
@@ -35,7 +35,7 @@ class a extends CatalogWidget {
           this.events?.addEventListener?.(CatalogWidgetSpinnerEvent.HIDE, this._r59caeaad847e0b),
           this.events?.addEventListener?.(CatalogWidgetSpinnerEvent.const_735, this._r350e2593e4fbc1),
           this.events?.addEventListener?.(CatalogWidgetSpinnerEvent.SET_MIN, this._r8ca17ac44cf087),
-          (this.var_991 = new _i05394ecc0c0c4d(a.SPIN_BUTTONDOWN_HOLD_VALUE_STEP_DELAY_MS)),
+          (this.var_991 = new UnkEventDispatcherWrapperSubclass_05394e(a.SPIN_BUTTONDOWN_HOLD_VALUE_STEP_DELAY_MS)),
           this.var_991.addEventListener(DeBouncer.addEventListener, this.onSpinnerTimerEvent),
           (this._rb52710dbb0ac27 = this.window?.findChildByName("promo.info") ?? null)),
         !0)

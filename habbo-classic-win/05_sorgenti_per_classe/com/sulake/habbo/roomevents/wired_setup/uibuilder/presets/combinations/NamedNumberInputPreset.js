@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 349567.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/combinations/NamedNumberInputPreset.as
-// Nome offuscato: _ib8fdbd8e5c0184
+// Extracted from HabboAirLauncher.deobf.js, line 349567.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/combinations/NamedNumberInputPreset.as
+// Obfuscated name: _ib8fdbd8e5c0184
 
 class extends WiredUIPreset {
   static {

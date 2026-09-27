@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 148273.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/BalloonWidget.as
-// Nome offuscato: _ia8c4131fb71d6e
+// Extracted from HabboAirLauncher.deobf.js, line 148273.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/BalloonWidget.as
+// Obfuscated name: _ia8c4131fb71d6e
 
 class a {
   constructor(e, r) {

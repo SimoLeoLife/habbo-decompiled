@@ -90,13 +90,15 @@ traverse(ast, {
     const dn = declaredName(p.node); if (!dn) return;
     const orig = Object.entries(MAP.classes).find(([, v]) => v === dn)?.[0] ?? dn;
     let rel = MAP.paths[orig] ?? MAP.paths[dn];
-    if (!rel) rel = HASH_C.test(dn) ? `_non_abbinate/${dn}.js` : `_runtime_e_librerie/${dn}.js`;
+    const ph = MAP.placeholders?.[orig] != null;
+    if (!rel) rel = HASH_C.test(dn) || ph ? `_unmatched/${dn}.js` : `_runtime_and_libraries/${dn}.js`;
     if (seen.has(rel)) rel = rel.replace(/\.js$/, `.${p.node.start}.js`);
     seen.add(rel);
     const as3 = MAP.as3_for[orig];
-    const head = `// Estratto da HabboAirLauncher.deobf.js, riga ${p.node.loc.start.line}.\n`
-      + (as3 ? `// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/${as3}\n` : '')
-      + (orig !== dn ? `// Nome offuscato: ${orig}\n` : '');
+    const head = `// Extracted from HabboAirLauncher.deobf.js, line ${p.node.loc.start.line}.\n`
+      + (as3 ? `// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/${as3}\n` : '')
+      + (ph ? '// Placeholder name: no AIR 15 match was found, the original name is unknown.\n' : '')
+      + (orig !== dn ? `// Obfuscated name: ${orig}\n` : '');
     const file = path.join(splitDir, rel);
     mkdirSync(path.dirname(file), { recursive: true });
     writeFileSync(file, head + '\n' + out.slice(p.node.start, p.node.end) + '\n');

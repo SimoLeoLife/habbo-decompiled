@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 264327.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/ProgressBar.as
+// Extracted from HabboAirLauncher.deobf.js, line 264327.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/ProgressBar.as
 
 class a {
   constructor(e, r, t, i, s, o, d = !1) {

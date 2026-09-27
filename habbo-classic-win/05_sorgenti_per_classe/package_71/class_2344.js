@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 101473.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_71/class_2344.as
-// Nome offuscato: _ic414d76e07df43
+// Extracted from HabboAirLauncher.deobf.js, line 101473.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_71/class_2344.as
+// Obfuscated name: _ic414d76e07df43
 
 class {
     static {
@@ -29,7 +29,7 @@ class {
           o = 0,
           d = s.getLegacyString();
         (Number.isNaN(Number.parseFloat(d)) || (o = Number.parseInt(d, 10)),
-          this.var_415.push(new _i7e74246c6da5b1(i, o, s)));
+          this.var_415.push(new UnkClass_7e7424(i, o, s)));
       }
       return !0;
     }

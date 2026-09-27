@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 364984.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/common/slider_converter/SliderValueHundredth.as
-// Nome offuscato: _iffeab41eedf882
+// Extracted from HabboAirLauncher.deobf.js, line 364984.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/common/slider_converter/SliderValueHundredth.as
+// Obfuscated name: _iffeab41eedf882
 
 class {
   static {

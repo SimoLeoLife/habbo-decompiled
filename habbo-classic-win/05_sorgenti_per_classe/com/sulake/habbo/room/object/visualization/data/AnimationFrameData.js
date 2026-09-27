@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 275377.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/data/AnimationFrameData.as
-// Nome offuscato: _ic5a4894af6503a
+// Extracted from HabboAirLauncher.deobf.js, line 275377.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/data/AnimationFrameData.as
+// Obfuscated name: _ic5a4894af6503a
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 288150.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/healthpoints/class_3933.as
-// Nome offuscato: _i77ab3f1e18f22d
+// Extracted from HabboAirLauncher.deobf.js, line 288150.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/healthpoints/class_3933.as
+// Obfuscated name: _i77ab3f1e18f22d
 
 class a {
   static {

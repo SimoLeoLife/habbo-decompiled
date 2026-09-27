@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 71509.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/configuration/HabboConfigurationManager.as
-// Nome offuscato: _i062e22ca4959c6
+// Extracted from HabboAirLauncher.deobf.js, line 71509.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/configuration/HabboConfigurationManager.as
+// Obfuscated name: _i062e22ca4959c6
 
 class a extends ue {
   static {
@@ -152,7 +152,7 @@ class a extends ue {
         this._localization == null
           ? e
           : `${this._localization._r68d2fdd449edb3()}/${this._localization._rcdbdbfe4130cf2()}`,
-      t = this.assets.loadAssetFromFile(e, new _i636490202c0f9a(r), "text/plain");
+      t = this.assets.loadAssetFromFile(e, new UnkClass_636490(r), "text/plain");
     (t.addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._r2dab8eae25b033),
       t.addEventListener(Le.ASSET_LOADER_EVENT_ERROR, this._r74a045accd5d3b));
   }

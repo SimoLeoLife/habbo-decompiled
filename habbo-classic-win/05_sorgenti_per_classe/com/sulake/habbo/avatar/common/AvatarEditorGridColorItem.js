@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 165579.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/common/AvatarEditorGridColorItem.as
-// Nome offuscato: _i65f8fee4c0c35c
+// Extracted from HabboAirLauncher.deobf.js, line 165579.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/common/AvatarEditorGridColorItem.as
+// Obfuscated name: _i65f8fee4c0c35c
 
 class a {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 174021.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/renderer/model/BaseItemWrapper.as
-// Nome offuscato: _i9e2908bd36c918
+// Extracted from HabboAirLauncher.deobf.js, line 174021.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/renderer/model/BaseItemWrapper.as
+// Obfuscated name: _i9e2908bd36c918
 
 class {
   constructor(e) {

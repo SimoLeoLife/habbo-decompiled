@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158515.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/UnseenForumsCountUpdatedEvent.as
-// Nome offuscato: _ic888d035288ac7
+// Extracted from HabboAirLauncher.deobf.js, line 158515.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/UnseenForumsCountUpdatedEvent.as
+// Obfuscated name: _ic888d035288ac7
 
 class extends M {
   constructor(r, t) {

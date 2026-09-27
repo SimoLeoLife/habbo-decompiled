@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 195488.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/TextInputCatalogWidget.as
-// Nome offuscato: _ifa8a7b4cca9cd4
+// Extracted from HabboAirLauncher.deobf.js, line 195488.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/TextInputCatalogWidget.as
+// Obfuscated name: _ifa8a7b4cca9cd4
 
 class extends CatalogWidget {
   static {
@@ -23,6 +23,6 @@ class extends CatalogWidget {
       super.dispose());
   }
   _r5435d363a29fe5 = n((e) => {
-    this.var_2666 != null && this.events?.dispatchEvent?.(new _i7ca93159eab558(this.var_2666.text));
+    this.var_2666 != null && this.events?.dispatchEvent?.(new UnkClass_7ca931(this.var_2666.text));
   }, "_r5435d363a29fe5");
 }

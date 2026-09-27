@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 243544.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/wired_trading/requirements/TradeRequirementWrapper.as
-// Nome offuscato: _i8fbecaee227a95
+// Extracted from HabboAirLauncher.deobf.js, line 243544.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/wired_trading/requirements/TradeRequirementWrapper.as
+// Obfuscated name: _i8fbecaee227a95
 
 class {
   constructor(e) {

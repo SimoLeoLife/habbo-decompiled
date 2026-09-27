@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 322089.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/TagListRenderer.as
-// Nome offuscato: _i807bbb1715b665
+// Extracted from HabboAirLauncher.deobf.js, line 322089.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/TagListRenderer.as
+// Obfuscated name: _i807bbb1715b665
 
 class {
   static {

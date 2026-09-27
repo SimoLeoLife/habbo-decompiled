@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 281844.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/RoomPlane.as
-// Nome offuscato: _i5976696720af79
+// Extracted from HabboAirLauncher.deobf.js, line 281844.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/RoomPlane.as
+// Obfuscated name: _i5976696720af79
 
 class a {
   constructor(e, r, t, i, s, o, d, c, f = 0, l = 0, b = 0, _ = 0) {
@@ -376,7 +376,7 @@ class a {
         );
       else {
         let f = _ie26e140b784b4c(Math.max(1, Math.round(s)), Math.max(1, Math.round(o)));
-        (f != null && _ib4e6c41bf9a436(f, this._color | 4278190080, 1), (i = new _i3fbc7ebaffb088(f, -1)));
+        (f != null && _ib4e6c41bf9a436(f, this._color | 4278190080, 1), (i = new UnkClass_3fbc7e(f, -1)));
       }
       i != null && (this.updateMask(i.texture, e), this.cacheTexture(t, i));
     } else i = this.var_517 ?? this._textures.getValue(t) ?? null;

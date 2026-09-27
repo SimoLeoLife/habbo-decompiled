@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 227602.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge_leaderboard/server/BadgeLeaderboardDataServerChunk.as
-// Nome offuscato: _i28d33b032638d7
+// Extracted from HabboAirLauncher.deobf.js, line 227602.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge_leaderboard/server/BadgeLeaderboardDataServerChunk.as
+// Obfuscated name: _i28d33b032638d7
 
 class {
   constructor(e, r, t, i, s, o) {

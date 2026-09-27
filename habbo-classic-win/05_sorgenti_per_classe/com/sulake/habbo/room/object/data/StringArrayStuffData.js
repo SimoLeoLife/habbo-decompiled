@@ -1,8 +1,8 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 144502.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/data/StringArrayStuffData.as
-// Nome offuscato: _if0b252095b2585
+// Extracted from HabboAirLauncher.deobf.js, line 144502.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/data/StringArrayStuffData.as
+// Obfuscated name: _if0b252095b2585
 
-class extends _ic4d6c8d627ab4e {
+class extends UnkClass_c4d6c8 {
   constructor(r, t, i, s) {
     super(CatalogWidgetEventEnum.GUILD_SELECTED);
     this.var_3597 = r;

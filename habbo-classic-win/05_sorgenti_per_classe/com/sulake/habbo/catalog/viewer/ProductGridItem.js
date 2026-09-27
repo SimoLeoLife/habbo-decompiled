@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 171869.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/ProductGridItem.as
-// Nome offuscato: _i90c1799f40de2f
+// Extracted from HabboAirLauncher.deobf.js, line 171869.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/ProductGridItem.as
+// Obfuscated name: _i90c1799f40de2f
 
 class a {
   constructor(e) {

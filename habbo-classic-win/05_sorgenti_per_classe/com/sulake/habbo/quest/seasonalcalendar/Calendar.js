@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 270380.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/seasonalcalendar/Calendar.as
-// Nome offuscato: _i9b99c9aac2cb36
+// Extracted from HabboAirLauncher.deobf.js, line 270380.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/seasonalcalendar/Calendar.as
+// Obfuscated name: _i9b99c9aac2cb36
 
 class a {
   constructor(e, r) {
@@ -106,7 +106,7 @@ class a {
       (this._rccd04624390ad8 = e.findChildByName("background_slice")),
       (this.var_4297 = e.findChildByName("entity_template")),
       this.var_4297 != null && (this.var_4297.visible = !1),
-      (this._rf337362e063542 = new _i6a5143a7fd80fd()),
+      (this._rf337362e063542 = new UnkClass_6a5143()),
       (this.scrollToIndex = new DI(
         this._r8fb3f7aefefa42(),
         e.findChildByName("button_left"),
@@ -126,12 +126,12 @@ class a {
       this.var_80 === -1 && this._r506c277abd736f(this.var_33._r7568522c4b24c4),
       this.prepareImages(),
       (this._ra9f6cd58c2ed0b = new Date().getDate()),
-      (this.onDateRefreshTimer = new _i05394ecc0c0c4d(1e3 * 60 * a.DAILY_REFRESH_DELAY_MINUTES)),
+      (this.onDateRefreshTimer = new UnkEventDispatcherWrapperSubclass_05394e(1e3 * 60 * a.DAILY_REFRESH_DELAY_MINUTES)),
       this.onDateRefreshTimer.addEventListener(DeBouncer.addEventListener, this.TimerEvent),
       this.onDateRefreshTimer.start(),
       this.TimerEvent(new DeBouncer(DeBouncer.addEventListener)),
       this._questEngine?.registerUpdateReceiver(this, 1),
-      (this._rab4d8866bb1014 = new _i05394ecc0c0c4d(10, 10)));
+      (this._rab4d8866bb1014 = new UnkEventDispatcherWrapperSubclass_05394e(10, 10)));
   }
   close() {
     (this._graphicEntityCache(), this._rf337362e063542?._r5ea14906576318([]));
@@ -343,7 +343,7 @@ class a {
   }
   loadAssetFromImageGallery(e, r) {
     let t = `${this._r427615427f34b9}${e}.png`,
-      i = new _i636490202c0f9a(t),
+      i = new UnkClass_636490(t),
       s = this._r8fb3f7aefefa42().loadAssetFromFile(e, i, "image/png");
     s != null &&
       !s.disposed &&
@@ -436,7 +436,7 @@ class a {
           this._rbe67ebba9669ae(e),
           this.updateEntityVisibilities(!0, e - this.var_80),
           (this._r946b6bc836c617 = -(a.ENTITY_SPACING * (e - this.var_80)) / 10),
-          (this._rab4d8866bb1014 = new _i05394ecc0c0c4d(10, 10)),
+          (this._rab4d8866bb1014 = new UnkEventDispatcherWrapperSubclass_05394e(10, 10)),
           this._rab4d8866bb1014.addEventListener(DeBouncer.addEventListener, this._r3c6da61b9b2110),
           this._rab4d8866bb1014.addEventListener(DeBouncer._rf33144eac61595, this._r3c6da61b9b2110),
           this._rab4d8866bb1014.start())

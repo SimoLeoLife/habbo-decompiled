@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 210253.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/talent/CitizenshipPopupController.as
-// Nome offuscato: _i27ab1cfccad4a2
+// Extracted from HabboAirLauncher.deobf.js, line 210253.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/talent/CitizenshipPopupController.as
+// Obfuscated name: _i27ab1cfccad4a2
 
 class {
   static {

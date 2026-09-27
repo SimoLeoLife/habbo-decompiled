@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 207175.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/CommunityGoalPrizesWidget.as
-// Nome offuscato: _ib7f37ab205f09e
+// Extracted from HabboAirLauncher.deobf.js, line 207175.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/CommunityGoalPrizesWidget.as
+// Obfuscated name: _ib7f37ab205f09e
 
 class {
   constructor(e) {
@@ -34,7 +34,7 @@ class {
         }),
       ),
       this._landingView?._rf3db13932bfb60?._r2e106e2349a0b6(
-        new _ic493e19be4b81c((e) => {
+        new UnkMessageEvent_class_2562((e) => {
           this._r9b3a75bb1f2b44(e);
         }),
       ));

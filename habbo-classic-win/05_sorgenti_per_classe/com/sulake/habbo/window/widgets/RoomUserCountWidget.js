@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 151805.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/RoomUserCountWidget.as
-// Nome offuscato: _i926031ad1737a5
+// Extracted from HabboAirLauncher.deobf.js, line 151805.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/RoomUserCountWidget.as
+// Obfuscated name: _i926031ad1737a5
 
 class {
   constructor(e, r) {

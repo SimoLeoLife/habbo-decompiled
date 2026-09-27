@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 309172.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/AvatarContextInfoView.as
-// Nome offuscato: _ia7f6eb58e9a30e
+// Extracted from HabboAirLauncher.deobf.js, line 309172.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/AvatarContextInfoView.as
+// Obfuscated name: _ia7f6eb58e9a30e
 
 class extends Dc {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 217185.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/HabboFriendList.as
-// Nome offuscato: _id726576b6c1847
+// Extracted from HabboAirLauncher.deobf.js, line 217185.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/HabboFriendList.as
+// Obfuscated name: _id726576b6c1847
 
 class a extends ue {
   static {
@@ -16,7 +16,7 @@ class a extends ue {
   _r6199af4806bf6e = !1;
   _rb3976a96b1929b = !1;
   var_3798 = 0;
-  var_5697 = _ia4c17117df4f10._r05521d2174447f;
+  var_5697 = UnkConstants_a4c171._r05521d2174447f;
   _r4c3fb90f88a143 = -zz.ROOM_INVITATION_DELAY;
   _r9534593ee4611a;
   _categories;
@@ -24,8 +24,8 @@ class a extends ue {
   constructor(e, r = 0, t = null) {
     (super(e, r, t),
       (this._categories = new p4e(new FriendCategoriesDeps(this))),
-      (this._r76deb6afce45f5 = new AvatarSearchResults(new _i2362d931a86308(this))),
-      (this._r9534593ee4611a = new _if23792bbaa3f53()));
+      (this._r76deb6afce45f5 = new AvatarSearchResults(new UnkClass_2362d9(this))),
+      (this._r9534593ee4611a = new UnkClass_f23792()));
   }
   get dependencies() {
     return super.dependencies.concat([
@@ -62,7 +62,7 @@ class a extends ue {
   initComponent() {
     (this._communication?._r2e106e2349a0b6(new class_1926(this._r6e2e75987c854e)),
       this._communication?._r2e106e2349a0b6(new class_2248(this._r835491ace736d9)),
-      this._communication?._r2e106e2349a0b6(new _ib1cf729ef555ec(this._r89804fb6520a29)),
+      this._communication?._r2e106e2349a0b6(new UnkMessageEvent_b1cf72(this._r89804fb6520a29)),
       this.context.events?.addEventListener?.(HabboCommunicationEvent.AUTHENTICATED, this._r3ff765f17f3159),
       this.context._r7e43d9f4706607(this),
       this._ra93b992ad04545());
@@ -156,17 +156,17 @@ class a extends ue {
     this._r4c3fb90f88a143 = Date.now();
   }
   openFriendList() {
-    this.openFriendListWithTab(_ia4c17117df4f10._ra8c8b3cdc9c268);
+    this.openFriendListWithTab(UnkConstants_a4c171._ra8c8b3cdc9c268);
   }
   _r7ec993a0b08204() {
-    this.openFriendListWithTab(_ia4c17117df4f10._rfadb4d8e33d276);
+    this.openFriendListWithTab(UnkConstants_a4c171._rfadb4d8e33d276);
   }
   _r5ea4d7eb8b0a8c() {
-    (this.openFriendListWithTab(_ia4c17117df4f10.SearchView),
-      this._re842dacc40aa7f?.findTab(_ia4c17117df4f10.SearchView)?._r547724a31de035?.focus());
+    (this.openFriendListWithTab(UnkConstants_a4c171.SearchView),
+      this._re842dacc40aa7f?.findTab(UnkConstants_a4c171.SearchView)?._r547724a31de035?.focus());
   }
   _r31fba0b9e95dac() {
-    return this._view == null || !this._view.isOpen() ? _ia4c17117df4f10._r05521d2174447f : this.var_5697;
+    return this._view == null || !this._view.isOpen() ? UnkConstants_a4c171._r05521d2174447f : this.var_5697;
   }
   getFriendCount(e, r) {
     return this._view == null ? 0 : this._categories.getFriendCount(e, r);
@@ -198,7 +198,7 @@ class a extends ue {
       : this._r76deb6afce45f5.var_3816(e)
         ? !0
         : this._r7df26efa3d56a0(e)
-          ? (this.send(new _icf4364c12405b9(r)), this._r76deb6afce45f5.setFriendRequestSent(e), this.send(new _ic0905c4104eb87()), !0)
+          ? (this.send(new UnkMessageComposer_1args_cf4364(r)), this._r76deb6afce45f5.setFriendRequestSent(e), this.send(new UnkMessageComposer_0args_c0905c()), !0)
           : !1;
   }
   openHabboWebPage(e, r, t, i) {
@@ -282,16 +282,16 @@ class a extends ue {
     this._windowManager != null ? this._windowManager._r3651220a1507f2(e, "", r) : new SimpleAlertView(this, e, r).show();
   }
   _r2261fa54b0d7ce(e) {
-    this._re842dacc40aa7f?.findTab(_ia4c17117df4f10._rfadb4d8e33d276)?._r547724a31de035?.acceptRequest(e);
+    this._re842dacc40aa7f?.findTab(UnkConstants_a4c171._rfadb4d8e33d276)?._r547724a31de035?.acceptRequest(e);
   }
   _r36a1959e9c4470() {
-    this._re842dacc40aa7f?.findTab(_ia4c17117df4f10._rfadb4d8e33d276)?._r547724a31de035?.acceptAllRequests();
+    this._re842dacc40aa7f?.findTab(UnkConstants_a4c171._rfadb4d8e33d276)?._r547724a31de035?.acceptAllRequests();
   }
   _r62afd2c361c783(e) {
-    this._re842dacc40aa7f?.findTab(_ia4c17117df4f10._rfadb4d8e33d276)?._r547724a31de035?.declineRequest(e);
+    this._re842dacc40aa7f?.findTab(UnkConstants_a4c171._rfadb4d8e33d276)?._r547724a31de035?.declineRequest(e);
   }
   _r64b082e60ec4ab() {
-    this._re842dacc40aa7f?.findTab(_ia4c17117df4f10._rfadb4d8e33d276)?._r547724a31de035?.declineAllRequests();
+    this._re842dacc40aa7f?.findTab(UnkConstants_a4c171._rfadb4d8e33d276)?._r547724a31de035?.declineAllRequests();
   }
   _rb0baadd15ced86(e, r) {
     this.send(new class_1917(e, r));
@@ -318,14 +318,14 @@ class a extends ue {
       (e.procedure = t));
   }
   _r3ebab57ec826fa() {
-    (this._communication?._r2e106e2349a0b6(new _i07ae484c56c170(this._ra2a140f1aa896a)),
-      this._communication?._r2e106e2349a0b6(new _ib019fd527eda9d(this._re2d4f827ef2413)),
-      this._communication?._r2e106e2349a0b6(new _id914761a015ed9(this._r46ae09bb95d453)),
-      this._communication?._r2e106e2349a0b6(new _ifdf85a61afccf4(this._rf9b7cbaf81007e)),
-      this._communication?._r2e106e2349a0b6(new _i1f64010219fea1(this._rbf4c4a51b7f794)),
-      this._communication?._r2e106e2349a0b6(new _if8dc94f99b03d0(this._r482e3dd977479a)),
+    (this._communication?._r2e106e2349a0b6(new UnkMessageEvent_07ae48(this._ra2a140f1aa896a)),
+      this._communication?._r2e106e2349a0b6(new UnkMessageEvent_b019fd(this._re2d4f827ef2413)),
+      this._communication?._r2e106e2349a0b6(new UnkMessageEvent_d91476(this._r46ae09bb95d453)),
+      this._communication?._r2e106e2349a0b6(new UnkMessageEvent_fdf85a(this._rf9b7cbaf81007e)),
+      this._communication?._r2e106e2349a0b6(new UnkMessageEvent_1f6401(this._rbf4c4a51b7f794)),
+      this._communication?._r2e106e2349a0b6(new UnkMessageEvent_f8dc94(this._r482e3dd977479a)),
       this._communication?._r2e106e2349a0b6(new class_2288(this._rf3f7efc071df24)),
-      this._communication?._r2e106e2349a0b6(new _i38a86b3f3520e2(this._r7ad969464e11d5)),
+      this._communication?._r2e106e2349a0b6(new UnkMessageEvent_38a86b(this._r7ad969464e11d5)),
       this._communication?._r2e106e2349a0b6(new class_2271(this._r97aecc27368072)));
   }
   _r6e2e75987c854e = n((e) => {
@@ -333,7 +333,7 @@ class a extends ue {
     t != null && ((this.var_3798 = Number(t.id)), this._ra93b992ad04545());
   }, "_r6e2e75987c854e");
   _r89804fb6520a29 = n((e) => {
-    let t = ClassUtils._rc882f0c0aea57f(e, _ib1cf729ef555ec)?.getParser() ?? null;
+    let t = ClassUtils._rc882f0c0aea57f(e, UnkMessageEvent_b1cf72)?.getParser() ?? null;
     if (t != null) {
       for (let i of t._r3ffeb595461103) this._categories.addFriend(new Friend(i));
       t._rd646a5cabacc16 === t._rec250fae6d7fc2 - 1 &&
@@ -350,46 +350,46 @@ class a extends ue {
       ((this._r6199af4806bf6e = !0),
       (this._rb3976a96b1929b = !0),
       (this._view = new o4e(this)),
-      (this.var_194 = new FriendRequests(new _iaec6492ba501cd(this), r._rdeb413fa6c27ce, r._rd18925e9d6e18a)),
+      (this.var_194 = new FriendRequests(new UnkClass_aec649(this), r._rdeb413fa6c27ce, r._rd18925e9d6e18a)),
       this._categories.addCategory(new _c(_c._r2a8d0988824e63, this.getText("friendlist.friends"))),
       this._categories.addCategory(
         new _c(_c._r9f6f78959f0306, this.getText("friendlist.friends.offlinecaption")),
       ),
       (this._re842dacc40aa7f = new FriendListTabs(new FriendListTabsDeps(this, this))),
       this.var_1327 == null &&
-        ((this.var_1327 = new _i05394ecc0c0c4d(1e6)),
+        ((this.var_1327 = new UnkEventDispatcherWrapperSubclass_05394e(1e6)),
         this.var_1327.addEventListener(DeBouncer.addEventListener, this._r3b0414a267b3c1),
         this.var_1327.start()),
-      this.send(new _i9606fa8e9670ab()),
+      this.send(new UnkMessageComposer_0args_9606fa()),
       this._r3ebab57ec826fa());
   }, "_r835491ace736d9");
   _r3b0414a267b3c1 = n((e) => {
-    this.send(new _i0f5d864ce4ee2d());
+    this.send(new UnkMessageComposer_0args_0f5d86());
   }, "_r3b0414a267b3c1");
   _r46ae09bb95d453 = n((e) => {
     if (this.var_194 == null || this._re842dacc40aa7f == null || this._view == null) return;
-    let r = ClassUtils.getParser(e, _i9cd5c96c2d404f);
+    let r = ClassUtils.getParser(e, UnkMessageParser_II_9cd5c9);
     if (r != null) {
       this.var_194._rfba60cd726e045(!1);
       for (let t of r._r6ec858df0bd32d) this.var_194._r2513a3d4c4957f(new Po(t));
       (r._r6ec858df0bd32d.length > 0 &&
-        this._re842dacc40aa7f.findTab(_ia4c17117df4f10._rfadb4d8e33d276)?.setNewMessageArrived(!0),
+        this._re842dacc40aa7f.findTab(UnkConstants_a4c171._rfadb4d8e33d276)?.setNewMessageArrived(!0),
         this._view.refresh("friendRequests"));
     }
   }, "_r46ae09bb95d453");
   _rf9b7cbaf81007e = n((e) => {
     if (this.var_194 == null || this._re842dacc40aa7f == null || this._view == null) return;
-    let t = ClassUtils._rc882f0c0aea57f(e, _ifdf85a61afccf4)?.getParser() ?? null;
+    let t = ClassUtils._rc882f0c0aea57f(e, UnkMessageEvent_fdf85a)?.getParser() ?? null;
     if (t == null) return;
     let i = t.req;
     if (i == null) return;
     let s = new Po(i);
     (this.var_194._r01fbe580789752(s),
-      this._re842dacc40aa7f.findTab(_ia4c17117df4f10._rfadb4d8e33d276)?.setNewMessageArrived(!0),
+      this._re842dacc40aa7f.findTab(UnkConstants_a4c171._rfadb4d8e33d276)?.setNewMessageArrived(!0),
       this._view.refresh("newFriendRequest"));
   }, "_rf9b7cbaf81007e");
   _rbf4c4a51b7f794 = n((e) => {
-    let r = ClassUtils.getParser(e, _ieec6a5c6cf2886);
+    let r = ClassUtils.getParser(e, UnkMessageParser_I_eec6a5);
     if (r != null)
       for (let t of r._r3933db8d552e0b)
         (this.var_194?._r5efc4cec21c4c4(t.senderId),
@@ -400,11 +400,11 @@ class a extends ue {
     r != null && (this._r76deb6afce45f5.searchReceived(r.friends, r.others), this._view?.refresh("search"));
   }, "_rf3f7efc071df24");
   _r482e3dd977479a = n((e) => {
-    let t = ClassUtils._rc882f0c0aea57f(e, _if8dc94f99b03d0)?.getParser() ?? null;
+    let t = ClassUtils._rc882f0c0aea57f(e, UnkMessageEvent_f8dc94)?.getParser() ?? null;
     t != null && this.showAlertView(t.errorCode, t._r5e5a4c91d9abaf);
   }, "_r482e3dd977479a");
   _r7ad969464e11d5 = n((e) => {
-    let t = ClassUtils._rc882f0c0aea57f(e, _i38a86b3f3520e2)?.getParser() ?? null;
+    let t = ClassUtils._rc882f0c0aea57f(e, UnkMessageEvent_38a86b)?.getParser() ?? null;
     t != null &&
       this._r3651220a1507f2(
         "${friendlist.alert.title}",
@@ -415,7 +415,7 @@ class a extends ue {
     (this._categories._re2d4f827ef2413(e), this._view?.refresh("friendListUpdate"));
   }, "_re2d4f827ef2413");
   _ra2a140f1aa896a = n((e) => {
-    let t = ClassUtils._rc882f0c0aea57f(e, _i07ae484c56c170)?.getParser() ?? null;
+    let t = ClassUtils._rc882f0c0aea57f(e, UnkMessageEvent_07ae48)?.getParser() ?? null;
     t != null && this._r3651220a1507f2("${friendlist.alert.title}", this.getFollowFriendErrorText(t.errorCode));
   }, "_ra2a140f1aa896a");
   _r3ff765f17f3159 = n((e) => {
@@ -432,7 +432,7 @@ class a extends ue {
   _ra93b992ad04545() {
     if (this._r6199af4806bf6e || this._rb3976a96b1929b) return;
     let e = this._communication?.connection ?? null;
-    e == null || !e.connected || (e.send(new _i5640350515a481()) && (this._r6199af4806bf6e = !0));
+    e == null || !e.connected || (e.send(new UnkMessageComposer_0args_564035()) && (this._r6199af4806bf6e = !0));
   }
   showAlertView(e, r = 0) {
     let t =

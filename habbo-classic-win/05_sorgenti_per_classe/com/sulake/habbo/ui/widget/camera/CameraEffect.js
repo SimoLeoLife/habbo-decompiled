@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 303581.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/camera/CameraEffect.as
-// Nome offuscato: _i72f61517febd2b
+// Extracted from HabboAirLauncher.deobf.js, line 303581.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/camera/CameraEffect.as
+// Obfuscated name: _i72f61517febd2b
 
 class a {
   constructor(e, r, t, i, s = 0) {

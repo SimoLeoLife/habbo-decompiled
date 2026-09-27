@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 188644.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/bundlepurchaseinfodisplay/listitem/ExtraInfoBundlesInfoItem.as
-// Nome offuscato: _iaeaf9985589af5
+// Extracted from HabboAirLauncher.deobf.js, line 188644.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/bundlepurchaseinfodisplay/listitem/ExtraInfoBundlesInfoItem.as
+// Obfuscated name: _iaeaf9985589af5
 
 class extends bo {
   constructor(r, t, i, s) {

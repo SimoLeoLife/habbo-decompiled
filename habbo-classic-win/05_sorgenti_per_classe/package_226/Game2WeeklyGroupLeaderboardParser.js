@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 85319.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_226/Game2WeeklyGroupLeaderboardParser.as
-// Nome offuscato: _idf9767702f5162
+// Extracted from HabboAirLauncher.deobf.js, line 85319.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_226/Game2WeeklyGroupLeaderboardParser.as
+// Obfuscated name: _idf9767702f5162
 
 class extends Game2LeaderboardParser {
     static {

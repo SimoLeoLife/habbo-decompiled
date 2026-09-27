@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 294549.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/utils/class_2198.as
-// Nome offuscato: _i22200329e429e4
+// Extracted from HabboAirLauncher.deobf.js, line 294549.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/utils/class_2198.as
+// Obfuscated name: _i22200329e429e4
 
 class {
   static {
@@ -56,7 +56,7 @@ class {
       this._r6076d293c746ce?.dispose(),
       (this._r6076d293c746ce =
         this._r660159888c3e93 != null
-          ? new _ie8acdd5d1c04f0(this._r660159888c3e93.width, this._r660159888c3e93.height)
+          ? new UnkClass_e8acdd(this._r660159888c3e93.width, this._r660159888c3e93.height)
           : null));
   }
   set _r11ba5ec084117f(e) {

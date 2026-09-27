@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 354257.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/presets/VariableFxVisibilitySettingsPreset.as
-// Nome offuscato: _i208b167747f3d4
+// Extracted from HabboAirLauncher.deobf.js, line 354257.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/presets/VariableFxVisibilitySettingsPreset.as
+// Obfuscated name: _i208b167747f3d4
 
 class a extends WiredUIPreset {
   static {
@@ -65,14 +65,14 @@ class a extends WiredUIPreset {
     )),
       (this.var_2477 = this.var_102.createRadioGroup(
         [
-          new RadioButtonParam(_ic0d82f49e1914d.ALWAYS, "${wiredfurni.params.variablefx.show_mode.always}"),
+          new RadioButtonParam(UnkConstants_c0d82f.ALWAYS, "${wiredfurni.params.variablefx.show_mode.always}"),
           new RadioButtonParam(
-            _ic0d82f49e1914d._r2c1030fcb2aef2,
+            UnkConstants_c0d82f._r2c1030fcb2aef2,
             "${wiredfurni.params.variablefx.show_mode.when_variable_changes}",
             null,
             this.var_2900,
           ),
-          new RadioButtonParam(_ic0d82f49e1914d.NEVER, "${wiredfurni.params.variablefx.show_mode.never}"),
+          new RadioButtonParam(UnkConstants_c0d82f.NEVER, "${wiredfurni.params.variablefx.show_mode.never}"),
         ],
         this._r25a898161a00ff,
       )),
@@ -100,7 +100,7 @@ class a extends WiredUIPreset {
       (this.var_2173.mask = e.var_620),
       (this.var_2004.value = e.showDuration),
       (this.var_1756.visible = !0),
-      (this.var_2900.disabled = e._r09ab560170f112 !== _ic0d82f49e1914d._r2c1030fcb2aef2),
+      (this.var_2900.disabled = e._r09ab560170f112 !== UnkConstants_c0d82f._r2c1030fcb2aef2),
       (this.var_1341 = !1));
   }
   _rdcc8cfe3390cf7 = n((e) => {

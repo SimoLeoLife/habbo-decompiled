@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 96266.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_208/NftWardrobeItem.as
-// Nome offuscato: _ib5b625d6c305a9
+// Extracted from HabboAirLauncher.deobf.js, line 96266.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_208/NftWardrobeItem.as
+// Obfuscated name: _ib5b625d6c305a9
 
 class {
     static {

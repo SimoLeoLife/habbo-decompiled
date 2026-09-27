@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 216310.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/domain/FriendOnlineImageListener.as
-// Nome offuscato: _ib2807bf778297f
+// Extracted from HabboAirLauncher.deobf.js, line 216310.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/domain/FriendOnlineImageListener.as
+// Obfuscated name: _ib2807bf778297f
 
 class {
   static {

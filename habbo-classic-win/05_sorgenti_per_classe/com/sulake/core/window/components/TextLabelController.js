@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 141219.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/TextLabelController.as
-// Nome offuscato: _i4503103b188c75
+// Extracted from HabboAirLauncher.deobf.js, line 141219.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/TextLabelController.as
+// Obfuscated name: _i4503103b188c75
 
 class a extends st {
   static {

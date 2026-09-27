@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 109966.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/communication/util/Byte.as
-// Nome offuscato: _ic32a587a27a37c
+// Extracted from HabboAirLauncher.deobf.js, line 109966.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/communication/util/Byte.as
+// Obfuscated name: _ic32a587a27a37c
 
 class {
   static {

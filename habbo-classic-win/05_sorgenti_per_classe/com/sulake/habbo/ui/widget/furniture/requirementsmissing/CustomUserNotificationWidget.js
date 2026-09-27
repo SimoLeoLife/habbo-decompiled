@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 318951.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/requirementsmissing/CustomUserNotificationWidget.as
-// Nome offuscato: _i16709fc29f2034
+// Extracted from HabboAirLauncher.deobf.js, line 318951.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/requirementsmissing/CustomUserNotificationWidget.as
+// Obfuscated name: _i16709fc29f2034
 
 class a extends RoomWidgetBase {
   static {
@@ -105,7 +105,7 @@ class a extends RoomWidgetBase {
   }
   _r7435e95841ff9c(e) {
     e != null &&
-      (e._rdaf967f79ea08a(_ic723960da8d613._r4a110ddb22fcf1, null, null, !0, null, class_1962.const_65),
-      e._rb825ef6be7b35c(_ic723960da8d613._r4a110ddb22fcf1));
+      (e._rdaf967f79ea08a(UnkConstants_c72396._r4a110ddb22fcf1, null, null, !0, null, class_1962.const_65),
+      e._rb825ef6be7b35c(UnkConstants_c72396._r4a110ddb22fcf1));
   }
 }

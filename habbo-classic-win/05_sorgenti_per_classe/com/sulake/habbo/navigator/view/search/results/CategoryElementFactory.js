@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 260504.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/view/search/results/CategoryElementFactory.as
-// Nome offuscato: _ie95b184944e135
+// Extracted from HabboAirLauncher.deobf.js, line 260504.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/view/search/results/CategoryElementFactory.as
+// Obfuscated name: _ie95b184944e135
 
 class a {
   static {
@@ -86,26 +86,26 @@ class a {
         this._ra15d96930b149e(this._rd62dcd80647856._rfe1f6e8a0106aa.bind(this._rd62dcd80647856)),
       ),
         (R.id = t),
-        (R.visible = s === _i3fbb457a8e41b2._r038bfe744af0bc),
+        (R.visible = s === UnkConstants_3fbb45._r038bfe744af0bc),
         T.addEventListener(
           u.CLICK,
           this._ra15d96930b149e(this._rd62dcd80647856._rfe1f6e8a0106aa.bind(this._rd62dcd80647856)),
         ),
         (T.id = t),
-        (T.visible = s === _i3fbb457a8e41b2._r1c7674a28521d4));
+        (T.visible = s === UnkConstants_3fbb45._r1c7674a28521d4));
     } else {
       let R = l.getListItemByName("category_toggle_tiles"),
         T = l.getListItemByName("category_toggle_rows");
       (R != null && l.removeListItem(R), T != null && l.removeListItem(T));
     }
-    (l.arrangeListItems(), s === _i3fbb457a8e41b2._r038bfe744af0bc && (f.spacing = 0));
+    (l.arrangeListItems(), s === UnkConstants_3fbb45._r038bfe744af0bc && (f.spacing = 0));
     let w = 9412607,
       I = -1,
       C = 1,
       W = null;
     for (let R of e) {
       let T = C % 2 === 0 ? I : w;
-      s === _i3fbb457a8e41b2._r038bfe744af0bc
+      s === UnkConstants_3fbb45._r038bfe744af0bc
         ? (f.addListItem(this.var_1572.getNewRowElement(R, T)), C++)
         : (W ||
             ((W = this.var_1572.getNewTileContainerElement()),

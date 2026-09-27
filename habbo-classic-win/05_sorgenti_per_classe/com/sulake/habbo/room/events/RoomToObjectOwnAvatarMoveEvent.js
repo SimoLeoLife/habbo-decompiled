@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 181058.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomToObjectOwnAvatarMoveEvent.as
-// Nome offuscato: _i6cb568c242cccb
+// Extracted from HabboAirLauncher.deobf.js, line 181058.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomToObjectOwnAvatarMoveEvent.as
+// Obfuscated name: _i6cb568c242cccb
 
 class extends RoomToObjectEvent {
   constructor(r, t, i = !1, s = !1) {

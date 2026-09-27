@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 71084.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/onBoardingHcUi/Button.as
-// Nome offuscato: _ic23a7de95b02bc
+// Extracted from HabboAirLauncher.deobf.js, line 71084.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/onBoardingHcUi/Button.as
+// Obfuscated name: _ic23a7de95b02bc
 
 class extends F2 {
   static {
@@ -139,16 +139,16 @@ class extends F2 {
         this.parent != null &&
         (this.x = Math.trunc((this.parent.width - this.width) / 2)),
       this._alignRight && this.parent != null && (this.x = this.parent.width - this.width),
-      this.addEventListener(_ifd7c1208e3417e._r9001c395573374, this._ra2392916df2aec),
-      this.addEventListener(_ifd7c1208e3417e._r0f980b14ecbc94, this._rad325cc53260a0),
-      this.addEventListener(_ifd7c1208e3417e._rbf5bc4e563fc08, this.onMousetOut));
+      this.addEventListener(UnkClass_fd7c12._r9001c395573374, this._ra2392916df2aec),
+      this.addEventListener(UnkClass_fd7c12._r0f980b14ecbc94, this._rad325cc53260a0),
+      this.addEventListener(UnkClass_fd7c12._rbf5bc4e563fc08, this.onMousetOut));
   }, "ChatHistoryScrollBar");
   _r8ab2e311a50996 = n((e) => {
-    (this.stage?.removeEventListener(_ifd7c1208e3417e._ra93f33360c3a28, this._rb39726d43f7cc1),
-      this.removeEventListener(_ifd7c1208e3417e._r9001c395573374, this._ra2392916df2aec),
-      this.removeEventListener(_ifd7c1208e3417e._ra93f33360c3a28, this._r1acf27e9365839),
-      this.removeEventListener(_ifd7c1208e3417e._r0f980b14ecbc94, this._rad325cc53260a0),
-      this.removeEventListener(_ifd7c1208e3417e._rbf5bc4e563fc08, this.onMousetOut));
+    (this.stage?.removeEventListener(UnkClass_fd7c12._ra93f33360c3a28, this._rb39726d43f7cc1),
+      this.removeEventListener(UnkClass_fd7c12._r9001c395573374, this._ra2392916df2aec),
+      this.removeEventListener(UnkClass_fd7c12._ra93f33360c3a28, this._r1acf27e9365839),
+      this.removeEventListener(UnkClass_fd7c12._r0f980b14ecbc94, this._rad325cc53260a0),
+      this.removeEventListener(UnkClass_fd7c12._rbf5bc4e563fc08, this.onMousetOut));
   }, "_r8ab2e311a50996");
   onMousetOut = n((e) => {
     ((this._pressedBackground = !1), this.refresh());
@@ -158,22 +158,22 @@ class extends F2 {
   }, "_rad325cc53260a0");
   _ra2392916df2aec = n((e) => {
     this._active &&
-      (this.stage?.addEventListener(_ifd7c1208e3417e._ra93f33360c3a28, this._rb39726d43f7cc1),
-      this.addEventListener(_ifd7c1208e3417e._ra93f33360c3a28, this._r1acf27e9365839),
+      (this.stage?.addEventListener(UnkClass_fd7c12._ra93f33360c3a28, this._rb39726d43f7cc1),
+      this.addEventListener(UnkClass_fd7c12._ra93f33360c3a28, this._r1acf27e9365839),
       (this._pressed = !0),
       this.refresh());
   }, "_ra2392916df2aec");
   _r1acf27e9365839 = n((e) => {
     (e.stopImmediatePropagation(),
-      this.stage?.removeEventListener(_ifd7c1208e3417e._ra93f33360c3a28, this._rb39726d43f7cc1),
-      this.removeEventListener(_ifd7c1208e3417e._ra93f33360c3a28, this._r1acf27e9365839),
+      this.stage?.removeEventListener(UnkClass_fd7c12._ra93f33360c3a28, this._rb39726d43f7cc1),
+      this.removeEventListener(UnkClass_fd7c12._ra93f33360c3a28, this._r1acf27e9365839),
       (this._pressed = !1),
       this.refresh(),
       this._action(this));
   }, "_r1acf27e9365839");
   _rb39726d43f7cc1 = n((e) => {
-    (this.stage?.removeEventListener(_ifd7c1208e3417e._ra93f33360c3a28, this._rb39726d43f7cc1),
-      this.removeEventListener(_ifd7c1208e3417e._ra93f33360c3a28, this._r1acf27e9365839),
+    (this.stage?.removeEventListener(UnkClass_fd7c12._ra93f33360c3a28, this._rb39726d43f7cc1),
+      this.removeEventListener(UnkClass_fd7c12._ra93f33360c3a28, this._r1acf27e9365839),
       (this._pressed = !1),
       this.refresh());
   }, "_rb39726d43f7cc1");
@@ -198,7 +198,7 @@ class extends F2 {
       (this._r61b7f9e9006018.visible = e === 4),
       this._r1f19e25360a8c5 != null
         ? ((this._r1f19e25360a8c5.visible = e === 1 && this._pressedBackground), (this.filters = []))
-        : (this.filters = this._pressedBackground ? [new _ibaf84c0aa91c5d(this._glowColour, 0.7, 10, 10)] : []),
+        : (this.filters = this._pressedBackground ? [new UnkClass_baf84c(this._glowColour, 0.7, 10, 10)] : []),
       this._r68ec92def14624 != null &&
         (this._r68ec92def14624.textColor = this._active ? this.textColour : 10066329));
   }

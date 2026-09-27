@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 182122.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/tracking/ToolbarClickTracker.as
-// Nome offuscato: _i4ae2a1c8ab79be
+// Extracted from HabboAirLauncher.deobf.js, line 182122.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/tracking/ToolbarClickTracker.as
+// Obfuscated name: _i4ae2a1c8ab79be
 
 class {
   static {

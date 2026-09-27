@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 352316.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/main_layout/FooterPreset.as
-// Nome offuscato: _i10ea0408e12f2a
+// Extracted from HabboAirLauncher.deobf.js, line 352316.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/main_layout/FooterPreset.as
+// Obfuscated name: _i10ea0408e12f2a
 
 class extends WiredUIPreset {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 131892.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/InteractiveController.as
-// Nome offuscato: _ia6d87ba9be3384
+// Extracted from HabboAirLauncher.deobf.js, line 131892.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/InteractiveController.as
+// Obfuscated name: _ia6d87ba9be3384
 
 class a extends st {
   static {

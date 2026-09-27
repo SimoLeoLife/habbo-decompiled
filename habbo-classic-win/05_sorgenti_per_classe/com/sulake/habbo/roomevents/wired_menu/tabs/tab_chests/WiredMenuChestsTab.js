@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 355747.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_chests/WiredMenuChestsTab.as
-// Nome offuscato: _i9d5e780f303299
+// Extracted from HabboAirLauncher.deobf.js, line 355747.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_chests/WiredMenuChestsTab.as
+// Obfuscated name: _i9d5e780f303299
 
 class a extends WiredMenuDefaultTab {
   static {
@@ -88,13 +88,13 @@ class a extends WiredMenuDefaultTab {
     this.var_1938._rb800e4dd98c360(e);
   }
   requestData() {
-    ((this.var_4508 = _ia411d8d8194a3a()), this.controller.send(new _i7be3e6378eefce(a.TRANSACTIONS_PREVIEW_AMOUNT, a.TRANSACTIONS_FIRST_PAGE)));
+    ((this.var_4508 = _ia411d8d8194a3a()), this.controller.send(new UnkMessageComposer_2args_7be3e6(a.TRANSACTIONS_PREVIEW_AMOUNT, a.TRANSACTIONS_FIRST_PAGE)));
   }
   _r0ee25b57a37353 = n((e) => {
-    (this.controller.send(new _i703229ab5f3c3c(!0, !1)), this._r778a6e8c790bd3());
+    (this.controller.send(new UnkMessageComposer_2args_703229(!0, !1)), this._r778a6e8c790bd3());
   }, "_r0ee25b57a37353");
   _rfe3d6bad57a1b2 = n((e) => {
-    (this.controller.send(new _i703229ab5f3c3c(!1, !1)), this._r778a6e8c790bd3());
+    (this.controller.send(new UnkMessageComposer_2args_703229(!1, !1)), this._r778a6e8c790bd3());
   }, "_rfe3d6bad57a1b2");
   _r8ea13be66a2e06 = n((e) => {
     this.controller._r41f5cc7d3516ce.windowManager.confirm(
@@ -106,7 +106,7 @@ class a extends WiredMenuDefaultTab {
   }, "_r8ea13be66a2e06");
   _rfec1971bf2a836 = n((e, r) => {
     (e.dispose(),
-      r.type === y.const_1300 && (this.controller.send(new _i703229ab5f3c3c(!0, !0)), this._r778a6e8c790bd3()));
+      r.type === y.const_1300 && (this.controller.send(new UnkMessageComposer_2args_703229(!0, !0)), this._r778a6e8c790bd3()));
   }, "_rfec1971bf2a836");
   _r778a6e8c790bd3() {
     ((this.var_2007 = !0),
@@ -114,7 +114,7 @@ class a extends WiredMenuDefaultTab {
       this._rb1888e9019ee7c || this.updateButtonsUI());
   }
   onViewInDetailClick = n((e) => {
-    this.controller.send(new _i7be3e6378eefce(TransactionConfig.PAGE_SIZE, 1));
+    this.controller.send(new UnkMessageComposer_2args_7be3e6(TransactionConfig.PAGE_SIZE, 1));
   }, "onViewInDetailClick");
   get lockYourChestsButton() {
     return this.container.findChildByName("lock_own_button");

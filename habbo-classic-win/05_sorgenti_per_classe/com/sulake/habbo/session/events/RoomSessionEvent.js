@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 159041.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionEvent.as
-// Nome offuscato: _i9920b53cfa3039
+// Extracted from HabboAirLauncher.deobf.js, line 159041.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionEvent.as
+// Obfuscated name: _i9920b53cfa3039
 
 class extends M {
   constructor(r, t, i = !0, s = !1, o = !1) {

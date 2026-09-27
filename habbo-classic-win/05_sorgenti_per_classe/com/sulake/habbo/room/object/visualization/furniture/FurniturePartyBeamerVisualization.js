@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 201861.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurniturePartyBeamerVisualization.as
-// Nome offuscato: _i9a7707260014d9
+// Extracted from HabboAirLauncher.deobf.js, line 201861.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurniturePartyBeamerVisualization.as
+// Obfuscated name: _i9a7707260014d9
 
 class a {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 316414.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/dimmer/DimmerViewColorGrid.as
-// Nome offuscato: _i4b9511cf387b2b
+// Extracted from HabboAirLauncher.deobf.js, line 316414.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/dimmer/DimmerViewColorGrid.as
+// Obfuscated name: _i4b9511cf387b2b
 
 class {
   static {
@@ -63,7 +63,7 @@ class {
         let d = ((r >> 16) & 255) / 255,
           c = ((r >> 8) & 255) / 255,
           f = (r & 255) / 255,
-          l = new _i4210dc3239901d(d, c, f),
+          l = new UnkClass_4210dc(d, c, f),
           b = this.var_2425.clone();
         (b.colorTransform(b.rect, l), s.bitmap.copyPixels(b, b.rect, new E(0, 0)));
       }

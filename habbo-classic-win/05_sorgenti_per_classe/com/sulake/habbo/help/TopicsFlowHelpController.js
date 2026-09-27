@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 232909.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/TopicsFlowHelpController.as
-// Nome offuscato: _i2d720abb488aea
+// Extracted from HabboAirLauncher.deobf.js, line 232909.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/TopicsFlowHelpController.as
+// Obfuscated name: _i2d720abb488aea
 
 class a {
   constructor(e) {
@@ -121,7 +121,7 @@ class a {
     ) {
       case jt.REPORT_TYPE_PHOTO:
         this._habboHelp._rb13ed3a89b85ae(
-          new _i558888606ccb6a(
+          new UnkMessageComposer_7args_558888(
             this._habboHelp._rbc914ab682acbc,
             this._habboHelp.reportedRoomId,
             this._habboHelp.reportedUserId,
@@ -134,7 +134,7 @@ class a {
         break;
       case jt.REPORT_TYPE_IM:
         this._habboHelp._rb13ed3a89b85ae(
-          new _i826cee1cafa171(
+          new UnkMessageComposer_6args_826cee(
             this.var_1065,
             this.var_563.id,
             this._habboHelp.reportedUserId,
@@ -149,7 +149,7 @@ class a {
         break;
       case jt.REPORT_TYPE_ROOM:
         this._habboHelp._rb13ed3a89b85ae(
-          new _i894d4d6a00b70e(
+          new class_2472(
             this.var_1065,
             this.var_563.id,
             -1,
@@ -162,7 +162,7 @@ class a {
         break;
       case jt.REPORT_TYPE_THREAD:
         this._habboHelp._rb13ed3a89b85ae(
-          new _i0c6cfe2f5218c7(
+          new UnkMessageComposer_6args_0c6cfe(
             this._habboHelp._r6d93655097f605._rd5d902ebf403c9,
             this._habboHelp._r6d93655097f605._rd9f5cdd9dd88ea,
             this.var_563.id,
@@ -174,7 +174,7 @@ class a {
         break;
       case jt.REPORT_TYPE_MESSAGE:
         this._habboHelp._rb13ed3a89b85ae(
-          new _i30b02d832f72c5(
+          new UnkMessageComposer_7args_30b02d(
             this._habboHelp._r6d93655097f605._rd5d902ebf403c9,
             this._habboHelp._r6d93655097f605._rd9f5cdd9dd88ea,
             this._habboHelp._r6d93655097f605._r5883f416775423,
@@ -191,10 +191,10 @@ class a {
         this._habboHelp.getBoolean("guides.enabled") &&
         this._habboHelp.guardiansEnabled
           ? this._habboHelp._rb13ed3a89b85ae(
-              new _i99629c68f7a80e(this._habboHelp.reportedUserId, this._habboHelp.reportedRoomId),
+              new UnkMessageComposer_2args_99629c(this._habboHelp.reportedUserId, this._habboHelp.reportedRoomId),
             )
           : this._habboHelp._rb13ed3a89b85ae(
-              new _i894d4d6a00b70e(
+              new class_2472(
                 this.var_1065,
                 this.var_563.id,
                 this._habboHelp.reportedUserId,
@@ -412,7 +412,7 @@ class a {
           break;
         case "tour_button":
           (this._habboHelp?._r61d35b1de16441.onInput(
-            this._habboHelp.newIdentity ? _id64457360695fc._rb6595d1a1fe905 : _id64457360695fc._rba379f7c9c44bb,
+            this._habboHelp.newIdentity ? UnkConstants_d64457._rb6595d1a1fe905 : UnkConstants_d64457._rba379f7c9c44bb,
           ),
             this.closeWindow());
           break;
@@ -420,7 +420,7 @@ class a {
           (this.closeWindow(), this._habboHelp?._rcc22aff4331642());
           break;
         case "instructions_button":
-          (this._habboHelp?._r61d35b1de16441.onInput(_id64457360695fc._r5c4ffc3b81a5d4), this.closeWindow());
+          (this._habboHelp?._r61d35b1de16441.onInput(UnkConstants_d64457._r5c4ffc3b81a5d4), this.closeWindow());
           break;
         case "safetybooklet_link":
           (this._habboHelp?._r572a5ffd9c1afd(), this.closeWindow());

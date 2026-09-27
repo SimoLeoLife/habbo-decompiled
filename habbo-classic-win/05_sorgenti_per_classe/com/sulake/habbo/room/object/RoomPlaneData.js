@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 80606.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/RoomPlaneData.as
-// Nome offuscato: _i53bae3e2b55a3a
+// Extracted from HabboAirLauncher.deobf.js, line 80606.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/RoomPlaneData.as
+// Obfuscated name: _i53bae3e2b55a3a
 
 class a {
   static {

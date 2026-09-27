@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 236665.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/items/GroupItem.as
-// Nome offuscato: _i3fd803214f862e
+// Extracted from HabboAirLauncher.deobf.js, line 236665.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/items/GroupItem.as
+// Obfuscated name: _i3fd803214f862e
 
 class a {
   constructor(e, r, t, i, s, o, d = Number.NaN, c = null, f = !1, l = "center") {

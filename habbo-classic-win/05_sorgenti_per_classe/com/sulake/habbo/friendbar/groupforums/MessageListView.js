@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 204469.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/MessageListView.as
-// Nome offuscato: _i0fa8f46fa38595
+// Extracted from HabboAirLauncher.deobf.js, line 204469.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/MessageListView.as
+// Obfuscated name: _i0fa8f46fa38595
 
 class a {
   static {

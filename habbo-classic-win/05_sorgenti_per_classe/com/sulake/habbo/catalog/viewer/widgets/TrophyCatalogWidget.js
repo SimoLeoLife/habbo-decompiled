@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 195734.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/TrophyCatalogWidget.as
-// Nome offuscato: _if4471440bae020
+// Extracted from HabboAirLauncher.deobf.js, line 195734.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/TrophyCatalogWidget.as
+// Obfuscated name: _if4471440bae020
 
 class a extends CatalogWidget {
   constructor(r, t) {
@@ -68,7 +68,7 @@ class a extends CatalogWidget {
   _rd886c8bcbe0933 = n((r) => {
     let t = [a.GOLD, a.SILVER, a.BRONZE],
       i = this._r84852882fc76ee();
-    (i != null && this.events?.dispatchEvent?.(new _idfee6137b0eb86(i)),
+    (i != null && this.events?.dispatchEvent?.(new UnkClass_dfee61(i)),
       this.events?.dispatchEvent?.(new CatalogWidgetColoursEvent(t, "ctlg_clr_40x32_1", "ctlg_clr_40x32_2", "ctlg_clr_40x32_3")));
   }, "_rd886c8bcbe0933");
   _rae8e17ddaeb413 = n((r) => {
@@ -109,7 +109,7 @@ class a extends CatalogWidget {
         break;
     }
     let t = this._r84852882fc76ee();
-    t != null && this.events?.dispatchEvent?.(new _idfee6137b0eb86(t));
+    t != null && this.events?.dispatchEvent?.(new UnkClass_dfee61(t));
   }, "onColourIndex");
   _rc16b0510b888b4 = n((r) => {
     this.events?.dispatchEvent?.(new SetExtraPurchaseParameterEvent(r.text));
@@ -133,13 +133,13 @@ class a extends CatalogWidget {
     let t = [...this._rac876ecf968310.values()];
     (this.var_464++, this.var_464 >= t.length && (this.var_464 = 0));
     let i = this._r84852882fc76ee();
-    i != null && this.events?.dispatchEvent?.(new _idfee6137b0eb86(i));
+    i != null && this.events?.dispatchEvent?.(new UnkClass_dfee61(i));
   }, "_rd670e3c08abaa5");
   _rcbb3204cda2947 = n((r) => {
     let t = [...this._rac876ecf968310.values()];
     (this.var_464--, this.var_464 < 0 && (this.var_464 = t.length - 1));
     let i = this._r84852882fc76ee();
-    i != null && this.events?.dispatchEvent?.(new _idfee6137b0eb86(i));
+    i != null && this.events?.dispatchEvent?.(new UnkClass_dfee61(i));
   }, "_rcbb3204cda2947");
   setPreviewImage(r, t) {
     if (this.window == null || this.window.disposed || this.var_172 == null) {
@@ -174,7 +174,7 @@ class a extends CatalogWidget {
     let t = this.page?.viewer.catalog;
     if (t == null) return;
     t.assets
-      .loadAssetFromFile(r, new _i636490202c0f9a(`${t.imageGalleryHost}${r}.gif`), "image/gif")
+      .loadAssetFromFile(r, new UnkClass_636490(`${t.imageGalleryHost}${r}.gif`), "image/gif")
       .addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._rbd9d54e2af9eac);
   }
   _rbd9d54e2af9eac = n((r) => {

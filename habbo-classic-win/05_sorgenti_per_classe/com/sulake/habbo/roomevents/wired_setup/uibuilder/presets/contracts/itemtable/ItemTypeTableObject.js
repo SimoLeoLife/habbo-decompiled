@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 349952.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/contracts/itemtable/ItemTypeTableObject.as
-// Nome offuscato: _iebcc0162eee76a
+// Extracted from HabboAirLauncher.deobf.js, line 349952.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/contracts/itemtable/ItemTypeTableObject.as
+// Obfuscated name: _iebcc0162eee76a
 
 class {
   constructor(e, r, t) {

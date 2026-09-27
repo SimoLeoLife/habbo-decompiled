@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 319282.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/trophy/TrophyTheme.as
-// Nome offuscato: _ie4eefac8d60107
+// Extracted from HabboAirLauncher.deobf.js, line 319282.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/trophy/TrophyTheme.as
+// Obfuscated name: _ie4eefac8d60107
 
 class a {
   static {

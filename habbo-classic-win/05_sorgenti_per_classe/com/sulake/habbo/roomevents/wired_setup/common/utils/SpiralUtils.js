@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 367614.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/common/utils/SpiralUtils.as
-// Nome offuscato: _i5ce346815e5157
+// Extracted from HabboAirLauncher.deobf.js, line 367614.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/common/utils/SpiralUtils.as
+// Obfuscated name: _i5ce346815e5157
 
 class a {
   static {

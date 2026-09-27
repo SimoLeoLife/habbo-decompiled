@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 232679.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/SafetyBookletController.as
-// Nome offuscato: _ib59abbf73da039
+// Extracted from HabboAirLauncher.deobf.js, line 232679.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/SafetyBookletController.as
+// Obfuscated name: _ib59abbf73da039
 
 class a {
   constructor(e) {

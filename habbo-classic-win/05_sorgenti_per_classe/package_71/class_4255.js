@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 82912.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_71/class_4255.as
-// Nome offuscato: _i26badd1111b047
+// Extracted from HabboAirLauncher.deobf.js, line 82912.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_71/class_4255.as
+// Obfuscated name: _i26badd1111b047
 
 class a {
     static {
@@ -34,7 +34,7 @@ class a {
     }
     static parseStuffData(e) {
       let r = e.readInteger(),
-        t = _i5205b2079e8037._r41d3e1274ff5f9(r);
+        t = UnkClass_5205b2._r41d3e1274ff5f9(r);
       if (!t) throw new Error(`Unsupported stuff data type: ${r}`);
       return (t._rf86aa9dd0d70c1(e), t);
     }

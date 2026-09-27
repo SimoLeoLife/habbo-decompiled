@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 144104.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/enum/VideoOfferTypeEnum.as
-// Nome offuscato: _i08f1028715d356
+// Extracted from HabboAirLauncher.deobf.js, line 144104.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/enum/VideoOfferTypeEnum.as
+// Obfuscated name: _i08f1028715d356
 
 class a {
   constructor(e) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 290185.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/RoomObjectVisualizationFactory.as
-// Nome offuscato: _i53edf27252db07
+// Extracted from HabboAirLauncher.deobf.js, line 290185.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/RoomObjectVisualizationFactory.as
+// Obfuscated name: _i53edf27252db07
 
 class extends ue {
   static {
@@ -16,7 +16,7 @@ class extends ue {
     (super(e, r, t),
       (this._r9b7ed9da0cfeea = r === 0),
       (this._rd7acc96b774cde = new B()),
-      (this.var_1927 = new _id0fbcb77a2d7a4(this.assets)),
+      (this.var_1927 = new UnkClass_d0fbcb(this.assets)),
       (this._variableFxRendererRegistry = sX.createDefault(this.var_1927)));
   }
   get dependencies() {
@@ -76,7 +76,7 @@ class extends ue {
     let r = this._ra9c17888b47a74.getValue(e);
     return (
       r == null &&
-        ((r = new _ic5169bd4096d14(this.var_1927, this._variableFxRendererRegistry)), this._ra9c17888b47a74.add(e, r)),
+        ((r = new UnkClass_c5169b(this.var_1927, this._variableFxRendererRegistry)), this._ra9c17888b47a74.add(e, r)),
       r
     );
   }
@@ -84,7 +84,7 @@ class extends ue {
     let r = this._re17d37b945bb5f.getValue(e);
     return (
       r == null &&
-        ((r = new _i2f470e442dfd4c(this.var_1927, this._variableFxRendererRegistry)), this._re17d37b945bb5f.add(e, r)),
+        ((r = new UnkClass_2f470e(this.var_1927, this._variableFxRendererRegistry)), this._re17d37b945bb5f.add(e, r)),
       r
     );
   }
@@ -100,11 +100,11 @@ class extends ue {
       i._rfdb8aa7da48b3e(
         t.configId,
         new G1(
-          _i3b0b1a104db30e._r243bb8019f9336(t.categoryId),
+          UnkClass_3b0b1a._r243bb8019f9336(t.categoryId),
           s.serverStyle,
-          _i3b0b1a104db30e._r28e293e1c3737e(t.rendererId),
-          _i3b0b1a104db30e._rdd4e5a7f936bb0(t.var_954),
-          _i3b0b1a104db30e._ra532a30dcc3450(t._r5b3d4f00714e69),
+          UnkClass_3b0b1a._r28e293e1c3737e(t.rendererId),
+          UnkClass_3b0b1a._rdd4e5a7f936bb0(t.var_954),
+          UnkClass_3b0b1a._ra532a30dcc3450(t._r5b3d4f00714e69),
           t._r528f4963a1a948,
           t._r5e470edbfdddac,
           t.extra,
@@ -133,14 +133,14 @@ class extends ue {
       e.avatarRenderer = this._avatarRenderer;
       return;
     }
-    e instanceof _i66eb785a68df77 && (e.assets = this.assets);
+    e instanceof UnkClass_66eb78 && (e.assets = this.assets);
   }
   _r0c2026fce3d769(e) {
     switch (e) {
       case RoomObjectVisualizationEnum.ROOM:
         return qve;
       case RoomObjectVisualizationEnum.const_608:
-        return _if29d469b89aa7a;
+        return UnkClass_f29d46;
       case RoomObjectVisualizationEnum.USER:
       case RoomObjectVisualizationEnum.BOT:
       case RoomObjectVisualizationEnum.RENTABLE_BOT:
@@ -154,7 +154,7 @@ class extends ue {
       case RoomObjectVisualizationEnum.const_1307:
         return AnimatedFurnitureVisualization;
       case RoomObjectVisualizationEnum.FURNITURE_POSTER:
-        return _ie3f23b48ab6ed6;
+        return UnkInterface_e3f23b;
       case RoomObjectVisualizationEnum.const_106:
         return xve;
       case RoomObjectVisualizationEnum.FURNITURE_VAL_RANDOMIZER:
@@ -164,7 +164,7 @@ class extends ue {
       case RoomObjectVisualizationEnum.FURNITURE_FURNI_CHEST:
         return gve;
       case RoomObjectVisualizationEnum.FURNITURE_COINS_CHEST:
-        return _i8eed08e4d2dee5;
+        return UnkInterface_8eed08;
       case RoomObjectVisualizationEnum.const_93:
         return FurniturePlanetSystemVisualization;
       case RoomObjectVisualizationEnum.const_673:
@@ -206,7 +206,7 @@ class extends ue {
       case RoomObjectVisualizationEnum.const_114:
         return Nve;
       case RoomObjectVisualizationEnum.FURNITURE_SOUNDBLOCK:
-        return _i0b997eb6d55cc2;
+        return UnkClass_0b997e;
       case RoomObjectVisualizationEnum.const_74:
         return dve;
       case RoomObjectVisualizationEnum.FURNITURE_YOUTUBE:
@@ -266,7 +266,7 @@ class extends ue {
         return AnimatedPetVisualizationData;
       case RoomObjectVisualizationEnum.SNOWBALL:
       case RoomObjectVisualizationEnum.SNOW_SPLASH:
-        return _i66eb785a68df77;
+        return UnkClass_66eb78;
       default:
         return null;
     }

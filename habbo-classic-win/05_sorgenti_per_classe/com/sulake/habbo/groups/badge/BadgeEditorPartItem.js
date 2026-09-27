@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 225748.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge/BadgeEditorPartItem.as
-// Nome offuscato: _i881d93f1eca229
+// Extracted from HabboAirLauncher.deobf.js, line 225748.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge/BadgeEditorPartItem.as
+// Obfuscated name: _i881d93f1eca229
 
 class a {
   static {
@@ -23,7 +23,7 @@ class a {
   var_39 = null;
   _mask = null;
   _composite = null;
-  var_536 = new _i4210dc3239901d(1, 1, 1);
+  var_536 = new UnkClass_4210dc(1, 1, 1);
   _r3f27f59dd53fda = !1;
   _isLoaded = !1;
   var_3868 = !1;

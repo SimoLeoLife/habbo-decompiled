@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 84265.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_95/Game2JoiningGameFailedMessageEvent.as
-// Nome offuscato: _id639bcf8146784
+// Extracted from HabboAirLauncher.deobf.js, line 84265.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_95/Game2JoiningGameFailedMessageEvent.as
+// Obfuscated name: _id639bcf8146784
 
 class extends MessageEvent {
     static {

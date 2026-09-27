@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 260169.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/view/search/results/BlockResultsView.as
-// Nome offuscato: _i60e483118640fb
+// Extracted from HabboAirLauncher.deobf.js, line 260169.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/view/search/results/BlockResultsView.as
+// Obfuscated name: _i60e483118640fb
 
 class a {
   static {
@@ -122,7 +122,7 @@ class a {
     return this._itemList?.width ?? 0;
   }
   _r939aa86ef4d047(e) {
-    return e === _i3fbb457a8e41b2._r038bfe744af0bc ? _i3fbb457a8e41b2._r1c7674a28521d4 : _i3fbb457a8e41b2._r038bfe744af0bc;
+    return e === UnkConstants_3fbb45._r038bfe744af0bc ? UnkConstants_3fbb45._r1c7674a28521d4 : UnkConstants_3fbb45._r038bfe744af0bc;
   }
   isMinimized(e) {
     return this._navigator._r126d1d667eed47.indexOf(e) !== -1;
@@ -156,7 +156,7 @@ class a {
       let s =
         !this._navigator.sessionData.isPerkAllowed(class_2156.NAVIGATOR_ROOM_THUMBNAIL_CAMERA) &&
         this._navigator._r863f575e329672.var_485 !== xd.OFFICIAL_VIEW_CODE
-          ? _i3fbb457a8e41b2._r038bfe744af0bc
+          ? UnkConstants_3fbb45._r038bfe744af0bc
           : t.viewMode;
       return this.guestRooms.getOpenCategoryElement(t.actionAllowed, i, e, t.var_1839, s);
     }

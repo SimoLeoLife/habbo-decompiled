@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 266585.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/progress/RewardTrackMainProgressBarView.as
-// Nome offuscato: _i3550f322b86ebb
+// Extracted from HabboAirLauncher.deobf.js, line 266585.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/progress/RewardTrackMainProgressBarView.as
+// Obfuscated name: _i3550f322b86ebb
 
 class extends TQ {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 80329.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/utils/RoomId.as
-// Nome offuscato: _ieaa295fe303059
+// Extracted from HabboAirLauncher.deobf.js, line 80329.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/utils/RoomId.as
+// Obfuscated name: _ieaa295fe303059
 
 class a {
   static {

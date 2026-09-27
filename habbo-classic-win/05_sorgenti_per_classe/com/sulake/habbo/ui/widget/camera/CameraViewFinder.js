@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 304821.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/camera/CameraViewFinder.as
-// Nome offuscato: _ia68393c6ac1039
+// Extracted from HabboAirLauncher.deobf.js, line 304821.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/camera/CameraViewFinder.as
+// Obfuscated name: _ia68393c6ac1039
 
 class a {
   constructor(e) {

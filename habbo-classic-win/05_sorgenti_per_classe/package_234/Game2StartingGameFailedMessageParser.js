@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 84317.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_234/Game2StartingGameFailedMessageParser.as
-// Nome offuscato: _i185d67141c4ff2
+// Extracted from HabboAirLauncher.deobf.js, line 84317.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_234/Game2StartingGameFailedMessageParser.as
+// Obfuscated name: _i185d67141c4ff2
 
 class {
     static {

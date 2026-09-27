@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 132454.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/DropBaseController.as
-// Nome offuscato: _ica7d26ddc2e7d5
+// Extracted from HabboAirLauncher.deobf.js, line 132454.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/DropBaseController.as
+// Obfuscated name: _ica7d26ddc2e7d5
 
 class a extends Ci {
   static {

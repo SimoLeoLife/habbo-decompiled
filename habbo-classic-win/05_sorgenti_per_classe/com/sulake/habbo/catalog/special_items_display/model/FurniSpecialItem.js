@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 186524.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/special_items_display/model/FurniSpecialItem.as
-// Nome offuscato: _idc17f310f853d4
+// Extracted from HabboAirLauncher.deobf.js, line 186524.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/special_items_display/model/FurniSpecialItem.as
+// Obfuscated name: _idc17f310f853d4
 
 class extends AbstractSpecialItem {
   static {

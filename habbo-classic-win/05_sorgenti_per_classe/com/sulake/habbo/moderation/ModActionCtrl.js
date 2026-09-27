@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 247619.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/ModActionCtrl.as
-// Nome offuscato: _i95f594a2d4617c
+// Extracted from HabboAirLauncher.deobf.js, line 247619.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/ModActionCtrl.as
+// Obfuscated name: _i95f594a2d4617c
 
 class a {
   constructor(e, r, t, i, s) {
@@ -137,7 +137,7 @@ class a {
     (this.trackAction("defaultAction"), this.logEvent("action.default"));
     let r = this.var_3014[this._topicDropdown?.selection ?? -1] ?? 0;
     (this._main.connection?.send(
-      new _ia6a9b233f8d42d(this.var_805, r, this.var_966?.text ?? "", this._re72990b1411908()),
+      new UnkMessageComposer_4args_a6a9b2(this.var_805, r, this.var_966?.text ?? "", this._re72990b1411908()),
     ),
       this.dispose());
   }, "_r56af73a8e9cb52");
@@ -172,7 +172,7 @@ class a {
           }
           (this.trackAction("sendCaution"),
             this._main.connection?.send(
-              new _ibad7a3c36c1818(this.var_805, this.var_966?.text ?? "", r, this._re72990b1411908()),
+              new UnkMessageComposer_4args_bad7a3(this.var_805, this.var_966?.text ?? "", r, this._re72990b1411908()),
             ));
           break;
         case ModActionDefinition.MUTE:
@@ -215,7 +215,7 @@ class a {
           }
           (this.trackAction("kick"),
             this._main.connection?.send(
-              new _iea5f21bce03b75(this.var_805, this.var_966?.text ?? "", r, this._re72990b1411908()),
+              new UnkMessageComposer_4args_ea5f21(this.var_805, this.var_966?.text ?? "", r, this._re72990b1411908()),
             ));
           break;
         case ModActionDefinition.TRADING_LOCK:
@@ -242,7 +242,7 @@ class a {
           }
           (this.trackAction("sendCaution"),
             this._main.connection?.send(
-              new _i645e3c079f9dd6(this.var_805, this.var_966?.text ?? "", r, this._re72990b1411908()),
+              new UnkMessageComposer_4args_645e3c(this.var_805, this.var_966?.text ?? "", r, this._re72990b1411908()),
             ));
           break;
       }

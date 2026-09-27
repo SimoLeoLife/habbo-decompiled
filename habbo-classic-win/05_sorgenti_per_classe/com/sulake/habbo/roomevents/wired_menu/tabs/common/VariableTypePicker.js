@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 355885.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/common/VariableTypePicker.as
-// Nome offuscato: _i2a5e5bb4eb2265
+// Extracted from HabboAirLauncher.deobf.js, line 355885.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/common/VariableTypePicker.as
+// Obfuscated name: _i2a5e5bb4eb2265
 
 class a {
   constructor(e, r) {

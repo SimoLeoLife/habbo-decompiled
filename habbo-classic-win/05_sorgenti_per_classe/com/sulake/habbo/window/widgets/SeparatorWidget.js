@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 151972.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/SeparatorWidget.as
-// Nome offuscato: _ib89041b9dee18b
+// Extracted from HabboAirLauncher.deobf.js, line 151972.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/SeparatorWidget.as
+// Obfuscated name: _ib89041b9dee18b
 
 class a {
   constructor(e, r) {

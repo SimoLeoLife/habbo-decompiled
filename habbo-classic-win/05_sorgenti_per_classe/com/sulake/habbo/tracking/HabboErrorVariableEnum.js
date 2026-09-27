@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145108.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/tracking/HabboErrorVariableEnum.as
-// Nome offuscato: _i530fcda20a90a3
+// Extracted from HabboAirLauncher.deobf.js, line 145108.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/tracking/HabboErrorVariableEnum.as
+// Obfuscated name: _i530fcda20a90a3
 
 class {
   static {

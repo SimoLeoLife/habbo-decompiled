@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 9175.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/rendering/VariableFxIconOverlayPlacement.as
+// Extracted from HabboAirLauncher.deobf.js, line 9175.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/rendering/VariableFxIconOverlayPlacement.as
 
 class a {
       static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 318373.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/present/PresentFurniWidget.as
-// Nome offuscato: _iaf88645a905721
+// Extracted from HabboAirLauncher.deobf.js, line 318373.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/present/PresentFurniWidget.as
+// Obfuscated name: _iaf88645a905721
 
 class a extends RoomWidgetBase {
   static {
@@ -383,7 +383,7 @@ class a extends RoomWidgetBase {
       this._catalog?.openCatalogPage(CatalogPageName.CATALOG_PAGE_GIFT_SHOP));
   }
   _rc280e702c544c6() {
-    this.isUnknownSender() || this._catalog?.connection?.send(new _ieb6736d26d7391(this._senderName ?? ""));
+    this.isUnknownSender() || this._catalog?.connection?.send(new UnkMessageComposer_1args_eb6736(this._senderName ?? ""));
   }
   _r2725189e8139c5 = n((e) => {
     this._rc280e702c544c6();

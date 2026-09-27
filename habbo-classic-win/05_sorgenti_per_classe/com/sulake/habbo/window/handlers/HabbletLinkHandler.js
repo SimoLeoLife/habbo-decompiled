@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145370.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/handlers/HabbletLinkHandler.as
-// Nome offuscato: _id11715931e40a5
+// Extracted from HabboAirLauncher.deobf.js, line 145370.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/handlers/HabbletLinkHandler.as
+// Obfuscated name: _id11715931e40a5
 
 class {
   constructor(e) {

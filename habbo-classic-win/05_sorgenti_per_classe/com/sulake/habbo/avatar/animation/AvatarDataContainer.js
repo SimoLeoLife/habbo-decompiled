@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 169225.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/animation/AvatarDataContainer.as
-// Nome offuscato: _i13670d1db719ff
+// Extracted from HabboAirLauncher.deobf.js, line 169225.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/animation/AvatarDataContainer.as
+// Obfuscated name: _i13670d1db719ff
 
 class {
   static {
@@ -34,7 +34,7 @@ class {
       (this.var_3965 = this._g / 255),
       (this.var_4269 = this._b / 255),
       this.var_4064 === 37 && ((this._alphaMultiplier = 0.5), (this.var_4873 = !1)),
-      (this.var_536 = new _i4210dc3239901d(
+      (this.var_536 = new UnkClass_4210dc(
         this.var_4163,
         this.var_3965,
         this.var_4269,

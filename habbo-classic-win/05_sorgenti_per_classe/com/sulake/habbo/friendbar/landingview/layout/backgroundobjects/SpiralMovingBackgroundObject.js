@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 209553.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/layout/backgroundobjects/SpiralMovingBackgroundObject.as
-// Nome offuscato: _ie8e405654db950
+// Extracted from HabboAirLauncher.deobf.js, line 209553.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/layout/backgroundobjects/SpiralMovingBackgroundObject.as
+// Obfuscated name: _ie8e405654db950
 
 class extends BackgroundObject {
   static {

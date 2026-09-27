@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 345914.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/DropdownPreset.as
-// Nome offuscato: _iba12564bb2c648
+// Extracted from HabboAirLauncher.deobf.js, line 345914.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/DropdownPreset.as
+// Obfuscated name: _iba12564bb2c648
 
 class extends WiredUIPreset {
   static {
@@ -17,7 +17,7 @@ class extends WiredUIPreset {
       (this._container.caption = e.caption),
       (this._staticWidth = e.staticWidth),
       this._staticWidth >= 0 && (this._container.width = this._staticWidth),
-      (this.var_63 = new _i7c94bb8db295dd(this._container, e._r103991862f2899, e._r9560516d063ff2)),
+      (this.var_63 = new UnkClass_7c94bb(this._container, e._r103991862f2899, e._r9560516d063ff2)),
       this.var_63.init(e.options ?? [], -1));
   }
   get selectedId() {

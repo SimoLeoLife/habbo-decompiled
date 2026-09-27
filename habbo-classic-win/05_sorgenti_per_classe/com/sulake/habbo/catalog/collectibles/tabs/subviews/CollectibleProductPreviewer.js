@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 174364.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/tabs/subviews/CollectibleProductPreviewer.as
-// Nome offuscato: _i2ebfc4cefa1528
+// Extracted from HabboAirLauncher.deobf.js, line 174364.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/tabs/subviews/CollectibleProductPreviewer.as
+// Obfuscated name: _i2ebfc4cefa1528
 
 class {
   constructor(e, r, t, i, s = null, o = null, d = null, c = null) {

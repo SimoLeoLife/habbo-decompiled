@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 147863.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/BadgeImageWidget.as
-// Nome offuscato: _i71a1b22dcbc6bf
+// Extracted from HabboAirLauncher.deobf.js, line 147863.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/BadgeImageWidget.as
+// Obfuscated name: _i71a1b22dcbc6bf
 
 class a {
   constructor(e, r) {
@@ -131,7 +131,7 @@ class a {
           (this._r6b72ab6df117f9 = null))
         : r &&
           this._r6b72ab6df117f9 == null &&
-          ((this._r78911d17f8f085 = new _i00aa3a6d8f8ba7(this._r063f1cfd507d66)),
+          ((this._r78911d17f8f085 = new UnkMessageEvent_00aa3a(this._r063f1cfd507d66)),
           (this._r6b72ab6df117f9 = new class_2723(this._rfaff84536ada7c)),
           t._r2e106e2349a0b6(this._r78911d17f8f085),
           t._r2e106e2349a0b6(this._r6b72ab6df117f9)));
@@ -222,7 +222,7 @@ class a {
       ((this._rf3ff3e1a982426 = i),
       (this._r46a223eae0a800 = this._re3998ce3e575a0),
       (this._r25c5d219050551 = r),
-      (this._ra6a9e3e582b0a0 = new _i05394ecc0c0c4d(a.PENDING_GLOW_MAX_WAIT_MS, 1)),
+      (this._ra6a9e3e582b0a0 = new UnkEventDispatcherWrapperSubclass_05394e(a.PENDING_GLOW_MAX_WAIT_MS, 1)),
       this._ra6a9e3e582b0a0.addEventListener(DeBouncer._rf33144eac61595, this._r0e2ebff6244838),
       this._ra6a9e3e582b0a0.start(),
       this._windowManager._r55bb54da384802.retrieveAsset(this._rf3ff3e1a982426, this));
@@ -284,7 +284,7 @@ class a {
   set rotation(e) {}
   onClick = n(() => {
     this._groupId > 0 &&
-      this._windowManager?.communication?.connection?.send(new _i494540f04bf21d(this._groupId, !0));
+      this._windowManager?.communication?.connection?.send(new class_1949(this._groupId, !0));
   }, "onClick");
   get assetUri() {
     if (this.var_595 == null || this.var_595.length === 0) return "";
@@ -330,7 +330,7 @@ class a {
       (this._r829c35a93e556f = !0),
       this._racbe682890f8a8(0));
     let t = Math.max(1, Math.trunc(r / a._rf2b462fb7c43b3));
-    ((this._r3a15d553973bbc = new _i05394ecc0c0c4d(a._rf2b462fb7c43b3, t)),
+    ((this._r3a15d553973bbc = new UnkEventDispatcherWrapperSubclass_05394e(a._rf2b462fb7c43b3, t)),
       this._r3a15d553973bbc.addEventListener(DeBouncer.addEventListener, this._r2d0cd8de38e0cd),
       this._r3a15d553973bbc.addEventListener(DeBouncer._rf33144eac61595, this._r5b3858adba142d),
       this._r3a15d553973bbc.start());
@@ -345,10 +345,10 @@ class a {
       (this._r25c5d219050551 = a._rda13a98adc9b71));
   }
   _re97691ce3af339(e, r) {
-    return new _ibaf84c0aa91c5d(e, a.const_1108 * r, 4 + r * 4, 4 + r * 4, 1 + r * 1.2, 2, !1, !1);
+    return new UnkClass_baf84c(e, a.const_1108 * r, 4 + r * 4, 4 + r * 4, 1 + r * 1.2, 2, !1, !1);
   }
   _r7dd6b5ef127ca7(e, r) {
-    return new _ibaf84c0aa91c5d(e, a.INNER_GLOW_MAX_ALPHA * r, 2 + r * 2, 2 + r * 2, 0.8 + r * 0.6, 1, !0, !1);
+    return new UnkClass_baf84c(e, a.INNER_GLOW_MAX_ALPHA * r, 2 + r * 2, 2 + r * 2, 0.8 + r * 0.6, 1, !0, !1);
   }
   _r1ca38445aae451(e, r) {
     let t = ((e >> 16) & 255) / 255,

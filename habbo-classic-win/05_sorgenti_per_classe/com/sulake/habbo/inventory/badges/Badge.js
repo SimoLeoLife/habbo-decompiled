@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 234565.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/badges/Badge.as
-// Nome offuscato: _iba2d9f01015142
+// Extracted from HabboAirLauncher.deobf.js, line 234565.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/badges/Badge.as
+// Obfuscated name: _iba2d9f01015142
 
 class a {
   constructor(e, r, t, i, s, o, d) {

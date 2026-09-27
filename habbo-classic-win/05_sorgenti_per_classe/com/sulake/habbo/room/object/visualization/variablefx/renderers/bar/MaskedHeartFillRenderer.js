@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 287260.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/bar/MaskedHeartFillRenderer.as
+// Extracted from HabboAirLauncher.deobf.js, line 287260.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/bar/MaskedHeartFillRenderer.as
 
 class a extends hb {
   static {

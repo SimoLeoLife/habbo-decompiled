@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 140574.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/ISelectableWindow.as
-// Nome offuscato: _i90cdf367cb3460
+// Extracted from HabboAirLauncher.deobf.js, line 140574.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/ISelectableWindow.as
+// Obfuscated name: _i90cdf367cb3460
 
 class extends kc {
   static {

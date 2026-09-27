@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 215639.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/FriendsView.as
+// Extracted from HabboAirLauncher.deobf.js, line 215639.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/FriendsView.as
 
 class a {
   static {
@@ -46,7 +46,7 @@ class a {
     this._re57070ef4efe46?._rd6e3f4c29ef0ec();
   }
   setNewMessageArrived() {
-    this._friendList?.tabs.findTab(_ia4c17117df4f10._ra8c8b3cdc9c268)?.setNewMessageArrived(!0);
+    this._friendList?.tabs.findTab(UnkConstants_a4c171._ra8c8b3cdc9c268)?.setNewMessageArrived(!0);
   }
   refreshList() {
     if (this.var_122 == null || this._friendList == null) return;
@@ -96,7 +96,7 @@ class a {
       e
         ? ((s.height = 20),
           (s.visible = !0),
-          (s.color = this._friendList._r6dce2f14add5ec._rc2e3809e8c04e6(_ia4c17117df4f10._ra8c8b3cdc9c268, o)),
+          (s.color = this._friendList._r6dce2f14add5ec._rc2e3809e8c04e6(UnkConstants_a4c171._ra8c8b3cdc9c268, o)),
           i == null && t != null
             ? ((t.view = s), this.refreshCategoryEntry(t, o))
             : i != null && t != null && ((i.view = s), this.refreshFriendEntry(t, i, o)),
@@ -143,7 +143,7 @@ class a {
       (i.visible = !0),
       r.selected
         ? (i.color = this._friendList._r6dce2f14add5ec._rbc73a30b0a92d3())
-        : t && (i.color = this._friendList._r6dce2f14add5ec._rc2e3809e8c04e6(_ia4c17117df4f10._ra8c8b3cdc9c268, !0)));
+        : t && (i.color = this._friendList._r6dce2f14add5ec._rc2e3809e8c04e6(UnkConstants_a4c171._ra8c8b3cdc9c268, !0)));
     let s = i.findChildByName("name");
     s != null && (s.textColor = this._friendList._r6dce2f14add5ec._rf0c5cd2a438bbf(r.selected));
     let o = r.name;
@@ -414,7 +414,7 @@ class a {
       (o.id = r),
       (o.procedure = this._r0a5dcedd4af800.bind(this)),
       (o.width = o.textWidth + 5),
-      (o.color = this._friendList._r6dce2f14add5ec._rc2e3809e8c04e6(_ia4c17117df4f10._ra8c8b3cdc9c268, i)),
+      (o.color = this._friendList._r6dce2f14add5ec._rc2e3809e8c04e6(UnkConstants_a4c171._ra8c8b3cdc9c268, i)),
       (o.visible = !0));
   }
   _r0a5dcedd4af800(e, r) {

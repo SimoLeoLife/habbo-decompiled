@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 345018.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/CenteredContainerPreset.as
-// Nome offuscato: _idf86305abdb876
+// Extracted from HabboAirLauncher.deobf.js, line 345018.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/CenteredContainerPreset.as
+// Obfuscated name: _idf86305abdb876
 
 class extends WiredUIPreset {
   static {

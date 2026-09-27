@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158984.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/events/UnseenRewardTrackRewardsCountUpdateEvent.as
-// Nome offuscato: _i498b42cc0b57ee
+// Extracted from HabboAirLauncher.deobf.js, line 158984.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/events/UnseenRewardTrackRewardsCountUpdateEvent.as
+// Obfuscated name: _i498b42cc0b57ee
 
 class a extends M {
   static {

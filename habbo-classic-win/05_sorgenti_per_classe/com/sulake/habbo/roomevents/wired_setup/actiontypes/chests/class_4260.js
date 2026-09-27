@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 365392.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/chests/class_4260.as
-// Nome offuscato: _i2cf0bc7313e50b
+// Extracted from HabboAirLauncher.deobf.js, line 365392.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/chests/class_4260.as
+// Obfuscated name: _i2cf0bc7313e50b
 
 class extends Hg {
   static {

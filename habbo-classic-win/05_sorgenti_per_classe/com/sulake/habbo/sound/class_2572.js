@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 259051.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/class_2572.as
-// Nome offuscato: _i5044ecb27b9bcd
+// Extracted from HabboAirLauncher.deobf.js, line 259051.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/class_2572.as
+// Obfuscated name: _i5044ecb27b9bcd
 
 class a {
   static {

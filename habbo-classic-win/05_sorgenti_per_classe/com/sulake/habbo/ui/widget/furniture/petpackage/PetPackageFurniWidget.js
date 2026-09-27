@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 318153.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/petpackage/PetPackageFurniWidget.as
-// Nome offuscato: _ied0a793609eae6
+// Extracted from HabboAirLauncher.deobf.js, line 318153.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/petpackage/PetPackageFurniWidget.as
+// Obfuscated name: _ied0a793609eae6
 
 class extends RoomWidgetBase {
   static {

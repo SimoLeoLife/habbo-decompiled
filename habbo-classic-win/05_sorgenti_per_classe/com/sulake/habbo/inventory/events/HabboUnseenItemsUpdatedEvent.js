@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 150751.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/events/HabboUnseenItemsUpdatedEvent.as
-// Nome offuscato: _icdd06cb3b86570
+// Extracted from HabboAirLauncher.deobf.js, line 150751.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/events/HabboUnseenItemsUpdatedEvent.as
+// Obfuscated name: _icdd06cb3b86570
 
 class a extends M {
   static {

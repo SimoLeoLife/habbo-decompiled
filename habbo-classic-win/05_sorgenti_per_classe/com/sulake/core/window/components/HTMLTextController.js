@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 137027.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/HTMLTextController.as
-// Nome offuscato: _i3ba59c2936861a
+// Extracted from HabboAirLauncher.deobf.js, line 137027.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/HTMLTextController.as
+// Obfuscated name: _i3ba59c2936861a
 
 class a extends Tp {
   static {
@@ -63,8 +63,8 @@ class a extends Tp {
       this.stage == null ||
       ((this._r1565a157f96c52 = e),
       this._r1565a157f96c52
-        ? this.stage.addEventListener(_i6d7150da12036f.LINK, this._r6415710410c89d)
-        : this.stage.removeEventListener(_i6d7150da12036f.LINK, this._r6415710410c89d));
+        ? this.stage.addEventListener(UnkClass_6d7150.LINK, this._r6415710410c89d)
+        : this.stage.removeEventListener(UnkClass_6d7150.LINK, this._r6415710410c89d));
   }
   get immediateClickMode() {
     return super.immediateClickMode;
@@ -145,7 +145,7 @@ class a extends Tp {
     super.properties = e;
   }
   initializeLinkStyle() {
-    let e = new _ib0061b42edfac2(),
+    let e = new UnkClass_b0061b(),
       r = {};
     r.color = "#0051a4";
     let t = {};
@@ -170,7 +170,7 @@ class a extends Tp {
       (r.type === u.CLICK || r.type === u.DOUBLE_CLICK)
     ) {
       let i = this.stage._rab748482ca88f4(r.localX, r.localY);
-      i != null && (this.immediateClickHandler(new _i6d7150da12036f(_i6d7150da12036f.LINK, !1, !1, i)), r.preventWindowOperation());
+      i != null && (this.immediateClickHandler(new UnkClass_6d7150(UnkClass_6d7150.LINK, !1, !1, i)), r.preventWindowOperation());
     }
     return t;
   }
@@ -178,7 +178,7 @@ class a extends Tp {
     return !1;
   }
   immediateClickHandler(e) {
-    if (e instanceof _i6d7150da12036f) {
+    if (e instanceof UnkClass_6d7150) {
       let r = kd.allocate(e.text, this, null);
       this._events && this._events.dispatchEvent(r);
       let t = !1;
@@ -204,7 +204,7 @@ class a extends Tp {
       !(e == null || e._htmlStyleSheetString === r) &&
       ((e._htmlStyleSheetString = r), (e.var_5058 = null), e._htmlStyleSheetString != null)
     ) {
-      let t = new _ib0061b42edfac2();
+      let t = new UnkClass_b0061b();
       (t.parseCSS(e._htmlStyleSheetString), (e.var_5058 = t));
     }
   }
@@ -238,7 +238,7 @@ class a extends Tp {
         } catch {}
         if (s) return;
       }
-      _i7dcfde9cf3179b(new _i636490202c0f9a(e), t);
+      _i7dcfde9cf3179b(new UnkClass_636490(e), t);
     }
   }
 }

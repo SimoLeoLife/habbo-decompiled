@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 355374.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/misc/SelfDonationToolView.as
-// Nome offuscato: _i483021024ebfe7
+// Extracted from HabboAirLauncher.deobf.js, line 355374.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/misc/SelfDonationToolView.as
+// Obfuscated name: _i483021024ebfe7
 
 class a extends AbstractUbuntuWiredUI {
   static {

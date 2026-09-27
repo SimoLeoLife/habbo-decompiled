@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 162007.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetSelectEffectMessage.as
-// Nome offuscato: _i7f14d10fdf63e0
+// Extracted from HabboAirLauncher.deobf.js, line 162007.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetSelectEffectMessage.as
+// Obfuscated name: _i7f14d10fdf63e0
 
 class extends RoomWidgetMessage {
   constructor(r, t = -1) {

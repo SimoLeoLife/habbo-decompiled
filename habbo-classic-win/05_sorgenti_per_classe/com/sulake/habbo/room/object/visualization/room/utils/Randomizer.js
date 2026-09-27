@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 281095.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/utils/Randomizer.as
-// Nome offuscato: _i6e31596d14b1fc
+// Extracted from HabboAirLauncher.deobf.js, line 281095.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/utils/Randomizer.as
+// Obfuscated name: _i6e31596d14b1fc
 
 class a {
   static {

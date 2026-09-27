@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 345185.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/AssetButtonRowPreset.as
-// Nome offuscato: _i06f0d4500d7992
+// Extracted from HabboAirLauncher.deobf.js, line 345185.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/AssetButtonRowPreset.as
+// Obfuscated name: _i06f0d4500d7992
 
 class extends WiredUIPreset {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 340736.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/phonenumber/HabboPhoneNumber.as
-// Nome offuscato: _i0791a9f13e2a90
+// Extracted from HabboAirLauncher.deobf.js, line 340736.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/phonenumber/HabboPhoneNumber.as
+// Obfuscated name: _i0791a9f13e2a90
 
 class extends ue {
   static {
@@ -70,10 +70,10 @@ class extends ue {
     this.var_36?.send(new class_2806(e, r));
   }
   _rb659858a07b8f9(e) {
-    e !== "" && this.var_36?.send(new _i124c19d85b1fd0(e.toUpperCase()));
+    e !== "" && this.var_36?.send(new UnkMessageComposer_1args_124c19(e.toUpperCase()));
   }
   _rc27b3dccda3bed() {
-    (this.var_36?.send(new _i0dfe00091c25fc(class_3585.NEVER_AGAIN)), this._ra0ba623d23c8f6());
+    (this.var_36?.send(new UnkMessageComposer_1args_0dfe00(class_3585.NEVER_AGAIN)), this._ra0ba623d23c8f6());
   }
   _r4e86c4cb44ae0c(e) {
     e
@@ -86,7 +86,7 @@ class extends ue {
       : (this._r65fa1fa08cfb8e(), this._rbdf62c2f4a939e());
   }
   _ra539dabae96329() {
-    (this._rb942b2f1428568(), this.var_36?.send(new _ib7700ceb78cad6()));
+    (this._rb942b2f1428568(), this.var_36?.send(new class_2946()));
   }
   get windowManager() {
     if (this._windowManager == null) throw new Error("Window manager is not available.");

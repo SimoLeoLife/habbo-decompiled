@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 146532.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/floorplaneditor/FloorPlanCache.as
-// Nome offuscato: _i45daa6f1b105d3
+// Extracted from HabboAirLauncher.deobf.js, line 146532.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/floorplaneditor/FloorPlanCache.as
+// Obfuscated name: _i45daa6f1b105d3
 
 class a {
   constructor(e) {

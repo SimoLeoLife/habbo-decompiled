@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 208671.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/ExpiringCatalogPageWidget.as
-// Nome offuscato: _i31a3bcac4ac13c
+// Extracted from HabboAirLauncher.deobf.js, line 208671.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/ExpiringCatalogPageWidget.as
+// Obfuscated name: _i31a3bcac4ac13c
 
 class a {
   constructor(e) {
@@ -38,7 +38,7 @@ class a {
   }
   refresh() {
     (this._lastRequestTime == null || this._lastRequestTime.getTime() + a.REFRESH_PERIOD_IN_MILLIS < Date.now()) &&
-      (this._landingView?.send(new _ib21bdbf443f89e()), (this._lastRequestTime = new Date()));
+      (this._landingView?.send(new UnkMessageComposer_0args_b21bdb()), (this._lastRequestTime = new Date()));
   }
   set settings(e) {
     ko.applyCommonWidgetSettings(this._container, e);

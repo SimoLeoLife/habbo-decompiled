@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 378625.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/HabboAir.as
+// Extracted from HabboAirLauncher.deobf.js, line 378625.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/HabboAir.as
 
 class a extends Sprite {
     static {
@@ -164,7 +164,7 @@ class a extends Sprite {
             await _if284a2026f1a67(),
             this._r179b314d9dbf3b(),
             this._r393c2c5f5b7820(),
-            _i6d74311070d9f2.init(this.stage),
+            UnkClass_6d7431.init(this.stage),
             (this._initialized = !0));
         } finally {
           this._r1d1832a497247c = !1;
@@ -254,10 +254,10 @@ class a extends Sprite {
       if (!(this._rcb81fab23899d3 || this.stage == null)) {
         this._rcb81fab23899d3 = !0;
         try {
-          let e = new _i0b91c0370ce3e9(),
+          let e = new UnkClass_0b91c0(),
             r = class_14.instantiate(
               this.stage,
-              _ic7f867ad53849e.isDebugger ? class_14._r45378a812c2e75 : class_14._rfa963bd44ad884,
+              UnkClass_c7f867.isDebugger ? class_14._r45378a812c2e75 : class_14._rfa963bd44ad884,
               e,
               _i0fb0e2716e8302(this.var_450),
             );
@@ -529,7 +529,7 @@ Details: ${o}`;
       ((d[a.ERROR_VARIABLE_CLIENT_CRASH_TIME] = String(o)),
         (d[a.ERROR_VARIABLE_IS_FATAL] = String(t)),
         (d[a.ERROR_VARIABLE_CONTEXT] = ""),
-        (d[a.ERROR_VARIABLE_FLASH_VERSION] = _ic7f867ad53849e.version),
+        (d[a.ERROR_VARIABLE_FLASH_VERSION] = UnkClass_c7f867.version),
         (d[a.ERROR_VARIABLE_AVERAGE_UPDATE_INTERVAL] = "0"),
         (d[a.ERROR_VARIABLE_DESCRIPTION] = e),
         (d[a.ERROR_VARIABLE_CATEGORY] = String(r)),

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 263379.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/NewFeatureNotification.as
-// Nome offuscato: _i2706e50e7be06d
+// Extracted from HabboAirLauncher.deobf.js, line 263379.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/NewFeatureNotification.as
+// Obfuscated name: _i2706e50e7be06d
 
 class a {
   constructor(e, r, t, i, s, o) {

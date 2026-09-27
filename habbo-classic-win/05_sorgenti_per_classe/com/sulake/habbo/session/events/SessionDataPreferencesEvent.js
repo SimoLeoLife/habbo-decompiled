@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145293.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/SessionDataPreferencesEvent.as
-// Nome offuscato: _i0ffb155911d958
+// Extracted from HabboAirLauncher.deobf.js, line 145293.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/SessionDataPreferencesEvent.as
+// Obfuscated name: _i0ffb155911d958
 
 class a extends M {
   static {

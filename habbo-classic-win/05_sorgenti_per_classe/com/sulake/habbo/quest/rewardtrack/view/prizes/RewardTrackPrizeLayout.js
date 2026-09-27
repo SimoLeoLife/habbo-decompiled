@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 266604.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/prizes/RewardTrackPrizeLayout.as
-// Nome offuscato: _i2cb96584c12179
+// Extracted from HabboAirLauncher.deobf.js, line 266604.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/prizes/RewardTrackPrizeLayout.as
+// Obfuscated name: _i2cb96584c12179
 
 class a {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 374760.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/transactions/overview/TransactionTableObject.as
-// Nome offuscato: _i030847fcef08d0
+// Extracted from HabboAirLauncher.deobf.js, line 374760.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/transactions/overview/TransactionTableObject.as
+// Obfuscated name: _i030847fcef08d0
 
 class {
   constructor(e, r) {
@@ -72,7 +72,7 @@ class {
     this.var_63.send(new class_2134(this._transactionInfo.userId, !0));
   }, "_r248add23a33123");
   _r82c8ea1b6a6622 = n(() => {
-    this.var_63.send(new _i4640617aeeb3e0(this._transactionInfo.transactionId));
+    this.var_63.send(new class_2598(this._transactionInfo.transactionId));
   }, "_r82c8ea1b6a6622");
   localize(e) {
     return this.localization.getLocalization(e);

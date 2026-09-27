@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 248114.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/UserInfoCtrl.as
-// Nome offuscato: _i748d2e67b028f0
+// Extracted from HabboAirLauncher.deobf.js, line 248114.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/UserInfoCtrl.as
+// Obfuscated name: _i748d2e67b028f0
 
 class a {
   constructor(e, r, t, i = null, s = !1) {
@@ -153,7 +153,7 @@ class a {
       this._data == null ||
       (this.trackAction("chatLog"),
       this._main._r2512b8a3ecad84.show(
-        new N1(new _i38d88376f52afe(this._data.userId), this._main, WindowTracker.const_1070, this._data.userId),
+        new N1(new UnkMessageComposer_1args_38d883(this._data.userId), this._main, WindowTracker.const_1070, this._data.userId),
         this._callerFrame,
         this._ra33a2a0b8ac807,
         !1,

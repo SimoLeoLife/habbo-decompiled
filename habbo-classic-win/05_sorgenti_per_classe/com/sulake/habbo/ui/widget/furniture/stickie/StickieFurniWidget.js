@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 319066.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/stickie/StickieFurniWidget.as
-// Nome offuscato: _i6b6a9985f61bda
+// Extracted from HabboAirLauncher.deobf.js, line 319066.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/stickie/StickieFurniWidget.as
+// Obfuscated name: _i6b6a9985f61bda
 
 class a extends RoomWidgetBase {
   static {

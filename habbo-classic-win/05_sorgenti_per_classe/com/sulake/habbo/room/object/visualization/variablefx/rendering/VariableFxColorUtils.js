@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 287337.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/rendering/VariableFxColorUtils.as
-// Nome offuscato: _i5770a10ad51569
+// Extracted from HabboAirLauncher.deobf.js, line 287337.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/rendering/VariableFxColorUtils.as
+// Obfuscated name: _i5770a10ad51569
 
 class {
   static {

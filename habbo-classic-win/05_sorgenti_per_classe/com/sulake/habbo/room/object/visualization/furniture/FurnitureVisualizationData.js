@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 276209.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureVisualizationData.as
-// Nome offuscato: _ide9637b1b21cad
+// Extracted from HabboAirLauncher.deobf.js, line 276209.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureVisualizationData.as
+// Obfuscated name: _ide9637b1b21cad
 
 class {
   static {

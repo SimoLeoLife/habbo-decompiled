@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 269485.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/QuestsList.as
-// Nome offuscato: _ibee8441775be41
+// Extracted from HabboAirLauncher.deobf.js, line 269485.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/QuestsList.as
+// Obfuscated name: _ibee8441775be41
 
 class a {
   constructor(e) {
@@ -240,7 +240,7 @@ class a {
     if (!e || t == null) return ((s.visible = !1), !1);
     if ((i ? this.refreshDelay(s, t) : this.refreshEntryDetails(s, t), t.isSeasonal)) {
       let o = this.refreshTimeLeft(s, t);
-      (!o && t.accepted && this._questEngine?.send(new _i198dc87a94b54e(t.id)), (s.visible = o));
+      (!o && t.accepted && this._questEngine?.send(new UnkMessageComposer_1args_198dc8(t.id)), (s.visible = o));
     } else s.visible = !0;
     return !1;
   }
@@ -305,10 +305,10 @@ class a {
         )));
   }
   _r53b64dc1622d33(e, r) {
-    e.type !== u.CLICK || this._questEngine == null || this._questEngine.send(new _i8f295e4bca1993(r.id));
+    e.type !== u.CLICK || this._questEngine == null || this._questEngine.send(new UnkMessageComposer_1args_8f295e(r.id));
   }
   _re93563365939cf(e, r) {
-    e.type !== u.CLICK || this._questEngine == null || this._questEngine.send(new _i198dc87a94b54e(r.id));
+    e.type !== u.CLICK || this._questEngine == null || this._questEngine.send(new UnkMessageComposer_1args_198dc8(r.id));
   }
   _r222617316a6628(e) {
     this._questEngine?.catalog?.openCatalogPage(CatalogPageName.CATALOG_PAGE_CLUB, CatalogType.NORMAL);

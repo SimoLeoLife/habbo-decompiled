@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 183267.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/marketplace/MarketplaceConfirmationDialog.as
-// Nome offuscato: _i817e9868af5052
+// Extracted from HabboAirLauncher.deobf.js, line 183267.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/marketplace/MarketplaceConfirmationDialog.as
+// Obfuscated name: _i817e9868af5052
 
 class {
   static {

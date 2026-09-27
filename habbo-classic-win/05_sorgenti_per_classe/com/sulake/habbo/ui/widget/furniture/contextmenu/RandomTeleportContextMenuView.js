@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 315973.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/contextmenu/RandomTeleportContextMenuView.as
-// Nome offuscato: _i9022b0638af3a9
+// Extracted from HabboAirLauncher.deobf.js, line 315973.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/contextmenu/RandomTeleportContextMenuView.as
+// Obfuscated name: _i9022b0638af3a9
 
 class extends FurnitureContextInfoView {
   static {

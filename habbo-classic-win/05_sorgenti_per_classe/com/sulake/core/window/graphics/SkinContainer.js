@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 141775.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/SkinContainer.as
-// Nome offuscato: _i2170a8d7969160
+// Extracted from HabboAirLauncher.deobf.js, line 141775.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/SkinContainer.as
+// Obfuscated name: _i2170a8d7969160
 
 class a {
   static {

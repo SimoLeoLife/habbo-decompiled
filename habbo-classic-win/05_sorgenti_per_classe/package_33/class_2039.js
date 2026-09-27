@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 95816.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_33/class_2039.as
+// Extracted from HabboAirLauncher.deobf.js, line 95816.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_33/class_2039.as
 
 class {
     static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 318292.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/placeholder/PlaceholderView.as
-// Nome offuscato: _ib5ef6ab1488e70
+// Extracted from HabboAirLauncher.deobf.js, line 318292.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/placeholder/PlaceholderView.as
+// Obfuscated name: _ib5ef6ab1488e70
 
 class {
   constructor(e, r) {

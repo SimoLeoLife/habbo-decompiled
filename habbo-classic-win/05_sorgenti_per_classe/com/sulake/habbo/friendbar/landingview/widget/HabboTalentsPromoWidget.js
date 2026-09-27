@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 208793.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/HabboTalentsPromoWidget.as
-// Nome offuscato: _ie417f52cca331b
+// Extracted from HabboAirLauncher.deobf.js, line 208793.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/HabboTalentsPromoWidget.as
+// Obfuscated name: _ie417f52cca331b
 
 class {
   constructor(e) {

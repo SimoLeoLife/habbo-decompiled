@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 144418.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/events/CatalogWidgetEventEnum.as
-// Nome offuscato: _ib474ebe10089bb
+// Extracted from HabboAirLauncher.deobf.js, line 144418.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/events/CatalogWidgetEventEnum.as
+// Obfuscated name: _ib474ebe10089bb
 
 class {
   static {

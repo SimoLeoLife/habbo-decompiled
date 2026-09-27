@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 176390.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/tabs/ShopTab.as
-// Nome offuscato: _id68df683738b4f
+// Extracted from HabboAirLauncher.deobf.js, line 176390.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/tabs/ShopTab.as
+// Obfuscated name: _id68df683738b4f
 
 class a {
   constructor(e, r) {
@@ -108,13 +108,13 @@ class a {
       this.buyButton?.removeEventListener(u.CLICK, this.onClickBuy));
   }
   _r7a5132a0911745() {
-    this._messageEvents = [new _icdd01d421b375d(this._rbcbb81c0ee87f7)];
+    this._messageEvents = [new UnkMessageEvent_cdd01d(this._rbcbb81c0ee87f7)];
     for (let e of this._messageEvents) this.var_195.addMessageEvent(e);
   }
   _rbcbb81c0ee87f7 = n((e) => {
     if (!this._rb3ff1802ba8b1b || (this._r97fe170259a095?.numListItems ?? 0) !== 0) return;
     this._rb3ff1802ba8b1b = !1;
-    let r = ClassUtils.getParser(e, _i71abedfbf79802);
+    let r = ClassUtils.getParser(e, UnkMessageParser_I_71abed);
     r != null &&
       ((this._r802d5ec7c44ad7 = r?._r8ada5d04f55bc7 ?? []),
       this._r602bd7376e3704(),
@@ -155,7 +155,7 @@ class a {
       (this.var_1306 = e));
   }
   addMessageEvents() {
-    (this._r1c2e26edd166d9(), (this._rb3ff1802ba8b1b = !0), this.var_195.send(new _ide44a8541ccc2e()));
+    (this._r1c2e26edd166d9(), (this._rb3ff1802ba8b1b = !0), this.var_195.send(new UnkMessageComposer_0args_de44a8()));
   }
   _r9928861dec4ed8() {
     this._rabdf6c72b858d2();
@@ -165,7 +165,7 @@ class a {
       for (let r of e) {
         let t = this._r096fd448614784?.clone();
         if (t == null) continue;
-        let i = new _i57cb33c7bd4857(this.controller, r, t, this);
+        let i = new UnkAbstractCollectibleItemRendererSubclass_57cb33(this.controller, r, t, this);
         (this.itemGrid?.addGridItem(t), this._r9cb5f682dfdc11.push(i));
       }
       this._r9cb5f682dfdc11.length > 0 && this._r669989230c0ae2(this._r9cb5f682dfdc11[0]);

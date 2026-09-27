@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 297580.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/object/logic/ObjectLogicBase.as
-// Nome offuscato: _i0d12989151372c
+// Extracted from HabboAirLauncher.deobf.js, line 297580.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/object/logic/ObjectLogicBase.as
+// Obfuscated name: _i0d12989151372c
 
 class {
   static {

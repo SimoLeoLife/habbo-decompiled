@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 315163.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/mysterybox/MysteryBoxToolbarExtension.as
-// Nome offuscato: _id1ca2613e8f036
+// Extracted from HabboAirLauncher.deobf.js, line 315163.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/mysterybox/MysteryBoxToolbarExtension.as
+// Obfuscated name: _id1ca2613e8f036
 
 class a {
   constructor(e) {

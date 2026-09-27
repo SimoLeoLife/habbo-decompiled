@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 70888.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/onBoardingHcUi/LoaderUI.as
-// Nome offuscato: _ica8df658ff5fbf
+// Extracted from HabboAirLauncher.deobf.js, line 70888.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/onBoardingHcUi/LoaderUI.as
+// Obfuscated name: _ica8df658ff5fbf
 
 class a {
   static {
@@ -98,37 +98,37 @@ class a {
     switch (o) {
       case "up":
         ((c = _i4b01ea81f74ef8("block_dark_point_up_png")),
-          (f = new _i3a5c6f457acdad(new A(e, r + c.height, !0, 860986))),
+          (f = new UnkClass_3a5c6f(new A(e, r + c.height, !0, 860986))),
           d._rc2d6cfb3d02830(f, new D(0, c.height, e, r)),
           f.bitmapData?.copyPixels(c, c.rect, new E(t, 0)));
         break;
       case "down":
         ((c = _i4b01ea81f74ef8("block_dark_point_down_png")),
-          (f = new _i3a5c6f457acdad(new A(e, r + c.height, !0, 860986))),
+          (f = new UnkClass_3a5c6f(new A(e, r + c.height, !0, 860986))),
           d._rc2d6cfb3d02830(f, new D(0, c.height, e, r)),
           f.bitmapData?.copyPixels(c, c.rect, new E(t, r + c.height)));
         break;
       case "left":
         ((c = _i4b01ea81f74ef8("block_dark_point_left_png")),
-          (f = new _i3a5c6f457acdad(new A(e + c.width, r, !0, 16777215))),
+          (f = new UnkClass_3a5c6f(new A(e + c.width, r, !0, 16777215))),
           d._rc2d6cfb3d02830(f, new D(c.width, 0, e, r)),
           f.bitmapData?.copyPixels(c, c.rect, new E(0, t - c.width)));
         break;
       case "right":
         ((c = _i4b01ea81f74ef8("block_dark_point_right_png")),
-          (f = new _i3a5c6f457acdad(new A(e + c.width, r, !0, 860986))),
+          (f = new UnkClass_3a5c6f(new A(e + c.width, r, !0, 860986))),
           d._rc2d6cfb3d02830(f, new D(0, 0, e, r)),
           f.bitmapData?.copyPixels(c, c.rect, new E(e, t - c.width)));
         break;
       case "none":
       default:
-        ((f = new _i3a5c6f457acdad(new A(e, r, !0, 860986))), d._rc2d6cfb3d02830(f, new D(0, 0, e, r)));
+        ((f = new UnkClass_3a5c6f(new A(e, r, !0, 860986))), d._rc2d6cfb3d02830(f, new D(0, 0, e, r)));
         break;
     }
     return (
       f.bitmapData?.colorTransform(
         f.bitmapData.rect,
-        new _i4210dc3239901d(((s >> 16) & 255) / 255, ((s >> 8) & 255) / 255, (s & 255) / 255),
+        new UnkClass_4210dc(((s >> 16) & 255) / 255, ((s >> 8) & 255) / 255, (s & 255) / 255),
       ),
       f
     );

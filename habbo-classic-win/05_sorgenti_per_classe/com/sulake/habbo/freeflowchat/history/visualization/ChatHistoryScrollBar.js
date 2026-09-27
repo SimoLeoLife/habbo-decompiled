@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 200674.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/history/visualization/ChatHistoryScrollBar.as
-// Nome offuscato: _i3109bcc04cb767
+// Extracted from HabboAirLauncher.deobf.js, line 200674.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/history/visualization/ChatHistoryScrollBar.as
+// Obfuscated name: _i3109bcc04cb767
 
 class {
   constructor(e, r) {
@@ -16,7 +16,7 @@ class {
       this._r8a3e798baea02b.addChild(this.var_547),
       this.var_547.addEventListener(M._scrollBar, this.onAddedToStage),
       this.var_547.addEventListener(M._r4b0396f57c9367, this._rd23ba8186ebaa0),
-      this.var_547.addEventListener(_ifd7c1208e3417e._r9001c395573374, this.mouseDownEventHandler));
+      this.var_547.addEventListener(UnkClass_fd7c12._r9001c395573374, this.mouseDownEventHandler));
   }
   static {
     n(this, "ChatHistoryScrollBar");
@@ -39,20 +39,20 @@ class {
     ((this._r563269e6e9ce1f = r.stageY),
       (this._r4a08dc4080fe78 = this._r6e13b73fe2a8d3.topY),
       this._r6e13b73fe2a8d3._r60ed6f459ec4b9(),
-      this._r34b9dbda39b609?.addEventListener(_ifd7c1208e3417e._ra93f33360c3a28, this._rba822da2af89ee),
-      this._r34b9dbda39b609?.addEventListener(_ifd7c1208e3417e.var_370, this._rba822da2af89ee),
+      this._r34b9dbda39b609?.addEventListener(UnkClass_fd7c12._ra93f33360c3a28, this._rba822da2af89ee),
+      this._r34b9dbda39b609?.addEventListener(UnkClass_fd7c12.var_370, this._rba822da2af89ee),
       e.stopImmediatePropagation());
   }, "mouseDownEventHandler");
   _rba822da2af89ee = n((e) => {
     let r = e;
     switch (r.type) {
-      case _ifd7c1208e3417e.var_370: {
+      case UnkClass_fd7c12.var_370: {
         let t = this._r6e13b73fe2a8d3._re0f3dfaef5eef2 / this._background.height,
           i = (r.stageY - this._r563269e6e9ce1f) * t;
         this._r6e13b73fe2a8d3.topY = this._r4a08dc4080fe78 + i;
         break;
       }
-      case _ifd7c1208e3417e._ra93f33360c3a28:
+      case UnkClass_fd7c12._ra93f33360c3a28:
         this._r532b0862ad5129();
         break;
       default:
@@ -99,7 +99,7 @@ class {
     (this._r562e802286af89(), this._r6e13b73fe2a8d3._r133f475a10afc6());
   }
   _r562e802286af89() {
-    (this._r34b9dbda39b609?.removeEventListener(_ifd7c1208e3417e._ra93f33360c3a28, this._rba822da2af89ee),
-      this._r34b9dbda39b609?.removeEventListener(_ifd7c1208e3417e.var_370, this._rba822da2af89ee));
+    (this._r34b9dbda39b609?.removeEventListener(UnkClass_fd7c12._ra93f33360c3a28, this._rba822da2af89ee),
+      this._r34b9dbda39b609?.removeEventListener(UnkClass_fd7c12.var_370, this._rba822da2af89ee));
   }
 }

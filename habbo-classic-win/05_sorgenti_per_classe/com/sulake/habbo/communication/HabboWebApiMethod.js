@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 72321.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/HabboWebApiMethod.as
-// Nome offuscato: _ia71d480bc6c430
+// Extracted from HabboAirLauncher.deobf.js, line 72321.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/HabboWebApiMethod.as
+// Obfuscated name: _ia71d480bc6c430
 
 class {
   static {

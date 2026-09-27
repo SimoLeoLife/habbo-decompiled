@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 62142.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/hurlant/crypto/hash/MD5.as
-// Nome offuscato: _i336c82acf32611
+// Extracted from HabboAirLauncher.deobf.js, line 62142.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/hurlant/crypto/hash/MD5.as
+// Obfuscated name: _i336c82acf32611
 
 class a {
   static {

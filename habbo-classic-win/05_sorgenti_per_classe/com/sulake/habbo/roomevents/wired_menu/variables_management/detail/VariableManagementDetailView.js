@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 358896.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/variables_management/detail/VariableManagementDetailView.as
-// Nome offuscato: _ic613dbf78cca73
+// Extracted from HabboAirLauncher.deobf.js, line 358896.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/variables_management/detail/VariableManagementDetailView.as
+// Obfuscated name: _ic613dbf78cca73
 
 class a {
   constructor(e, r) {
@@ -114,7 +114,7 @@ class a {
   }
   _r4ed121b53b9fee = n((e) => {
     let r = this.var_63.data;
-    (this.var_63.send(new _i005f5c7f12e414(r._racdc611b14035d, r.entityId)),
+    (this.var_63.send(new UnkMessageComposer_2args_005f5c(r._racdc611b14035d, r.entityId)),
       this._loadingIcon.setVisible(this.loadingIconWindow, !0));
   }, "_r4ed121b53b9fee");
   onClose = n((e) => {
@@ -129,7 +129,7 @@ class a {
       d = we.getIntFromString(t, -2147483648, !0);
     d !== -2147483648 &&
       (this.var_63.send(
-        new _i024537317bf672(o._racdc611b14035d, o.entityId, s.variableId, d, _i295cc0f54ad8ea._r012cec707c5cae),
+        new UnkMessageComposer_5args_024537(o._racdc611b14035d, o.entityId, s.variableId, d, UnkMessageComposer_5args_295cc0._r012cec707c5cae),
       ),
       this._loadingIcon.setVisible(this.loadingIconWindow, !0));
   }, "_r188c9b37d62907");
@@ -161,7 +161,7 @@ class a {
     if (!this.hasWritePermission || !t.canCreateAndDelete) return;
     let i = this.var_63.data;
     (this.var_63.send(
-      new _i024537317bf672(i._racdc611b14035d, i.entityId, t.variableId, 0, _i295cc0f54ad8ea._r4b63c66ccdba21),
+      new UnkMessageComposer_5args_024537(i._racdc611b14035d, i.entityId, t.variableId, 0, UnkMessageComposer_5args_295cc0._r4b63c66ccdba21),
     ),
       this._loadingIcon.setVisible(this.loadingIconWindow, !0));
   }, "_rba85e733a82b0c");
@@ -174,7 +174,7 @@ class a {
     r.hasValue && (t = Number(this.valueInput.text) | 0);
     let i = this.var_63.data;
     (this.var_63.send(
-      new _i024537317bf672(i._racdc611b14035d, i.entityId, r.variableId, t, _i295cc0f54ad8ea._r8bdac588a2e61f),
+      new UnkMessageComposer_5args_024537(i._racdc611b14035d, i.entityId, r.variableId, t, UnkMessageComposer_5args_295cc0._r8bdac588a2e61f),
     ),
       this._loadingIcon.setVisible(this.loadingIconWindow, !0),
       (this.createVariableBubble.visible = !1),

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 162051.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetStickieSendUpdateMessage.as
-// Nome offuscato: _iba20ab8df328dc
+// Extracted from HabboAirLauncher.deobf.js, line 162051.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetStickieSendUpdateMessage.as
+// Obfuscated name: _iba20ab8df328dc
 
 class extends RoomWidgetMessage {
   constructor(r, t, i = "", s = "") {

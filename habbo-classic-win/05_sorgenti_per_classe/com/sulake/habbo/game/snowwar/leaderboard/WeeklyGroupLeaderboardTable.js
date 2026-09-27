@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 220529.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/leaderboard/WeeklyGroupLeaderboardTable.as
-// Nome offuscato: _id0d5a7420f198c
+// Extracted from HabboAirLauncher.deobf.js, line 220529.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/leaderboard/WeeklyGroupLeaderboardTable.as
+// Obfuscated name: _id0d5a7420f198c
 
 class extends TotalGroupLeaderboardTable {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 352257.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/applications/SubVariableCreatorPreset.as
-// Nome offuscato: _i3886028cc3e20b
+// Extracted from HabboAirLauncher.deobf.js, line 352257.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/applications/SubVariableCreatorPreset.as
+// Obfuscated name: _i3886028cc3e20b
 
 class extends WiredUIPreset {
   static {

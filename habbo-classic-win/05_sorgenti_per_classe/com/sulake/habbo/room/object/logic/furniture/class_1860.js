@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 298955.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/class_1860.as
-// Nome offuscato: _if4cd418738d883
+// Extracted from HabboAirLauncher.deobf.js, line 298955.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/class_1860.as
+// Obfuscated name: _if4cd418738d883
 
 class a extends class_1859 {
   static {
@@ -27,7 +27,7 @@ class a extends class_1859 {
       r.assetName !== "loading_icon" &&
       this.object != null &&
       this.object.getModelController().setNumber(RoomObjectVariableEnum.const_901, a._r7bbb5550ce8e93);
-    let t = e instanceof _ia9a296a1d0c77f ? e : null;
+    let t = e instanceof UnkRoomObjectUpdateStateMessageSubclass_a9a296 ? e : null;
     t != null &&
       !t.selected &&
       this.object != null &&

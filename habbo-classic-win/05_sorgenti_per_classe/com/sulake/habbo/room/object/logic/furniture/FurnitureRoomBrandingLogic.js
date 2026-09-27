@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 300465.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureRoomBrandingLogic.as
-// Nome offuscato: _i0f78127ce2d941
+// Extracted from HabboAirLauncher.deobf.js, line 300465.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureRoomBrandingLogic.as
+// Obfuscated name: _i0f78127ce2d941
 
 class a extends Qr {
   static {
@@ -22,7 +22,7 @@ class a extends Qr {
     return this.getAllEventTypes(super.getEventTypes(), [gi.ROOM_AD_LOAD_IMAGE]);
   }
   processUpdateMessage(e) {
-    if ((super.processUpdateMessage(e), e instanceof _i39f7ecd6ab9902 && this._r5d69153eb100a7(), e instanceof RoomObjectRoomAdUpdateMessage))
+    if ((super.processUpdateMessage(e), e instanceof UnkRoomObjectUpdateMessageSubclass_39f7ec && this._r5d69153eb100a7(), e instanceof RoomObjectRoomAdUpdateMessage))
       switch (e.type) {
         case RoomObjectRoomAdUpdateMessage.ROOM_BILLBOARD_IMAGE_LOADED:
           this.object?.getModelController()?.setNumber(RoomObjectVariableEnum.FURNITURE_BRANDING_IMAGE_STATUS, 1, !1);
@@ -35,8 +35,8 @@ class a extends Qr {
   mouseEvent(e, r) {
     e == null ||
       r == null ||
-      e.type === _ifd7c1208e3417e.var_370 ||
-      e.type === _ifd7c1208e3417e.DOUBLE_CLICK ||
+      e.type === UnkClass_fd7c12.var_370 ||
+      e.type === UnkClass_fd7c12.DOUBLE_CLICK ||
       super.mouseEvent(e, r);
   }
   getAdClickUrl(e) {

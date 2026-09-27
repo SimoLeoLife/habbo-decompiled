@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 353982.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/presets/VariableFxPreviewPreset.as
-// Nome offuscato: _ib0d9b15328b4d7
+// Extracted from HabboAirLauncher.deobf.js, line 353982.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/presets/VariableFxPreviewPreset.as
+// Obfuscated name: _ib0d9b15328b4d7
 
 class a extends WiredUIPreset {
   static {
@@ -23,7 +23,7 @@ class a extends WiredUIPreset {
       (this.var_479.bitmapWindow.fitSizeToContents = !1),
       (this.var_479.bitmapWindow.disposesBitmap = !1),
       (this._previewStatus = new GWe()),
-      (this._rd0df026c1fc6bd = new _i05394ecc0c0c4d(a.PREVIEW_ANIMATION_INTERVAL_MS)),
+      (this._rd0df026c1fc6bd = new UnkEventDispatcherWrapperSubclass_05394e(a.PREVIEW_ANIMATION_INTERVAL_MS)),
       this._rd0df026c1fc6bd.addEventListener(DeBouncer.addEventListener, this._r0c7da324149cb3));
   }
   get zoom() {

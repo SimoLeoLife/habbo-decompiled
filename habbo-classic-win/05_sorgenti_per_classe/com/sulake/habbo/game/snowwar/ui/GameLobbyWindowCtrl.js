@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 223132.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/ui/GameLobbyWindowCtrl.as
-// Nome offuscato: _i99a9317c49d674
+// Extracted from HabboAirLauncher.deobf.js, line 223132.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/ui/GameLobbyWindowCtrl.as
+// Obfuscated name: _i99a9317c49d674
 
 class {
   constructor(e, r, t, i) {
@@ -21,7 +21,7 @@ class {
   var_1313 = new B();
   var_953 = new B();
   onClose(e) {
-    (e && this._rc48cb7ca67aee6.communication?.connection?.send(new _i6c04e8214933d7()),
+    (e && this._rc48cb7ca67aee6.communication?.connection?.send(new class_3513()),
       this._rdea373cf119a09(),
       (this.var_1632 = -1));
   }
@@ -50,7 +50,7 @@ class {
   _r43125cb4300be9(e) {
     (this._rdea373cf119a09(),
       (this._counter = e),
-      (this._r88958903546a45 = new _i05394ecc0c0c4d(1e3, e)),
+      (this._r88958903546a45 = new UnkEventDispatcherWrapperSubclass_05394e(1e3, e)),
       this._r88958903546a45.addEventListener(DeBouncer.addEventListener, this.onTick),
       this._r88958903546a45.start(),
       this.updateDialog(!1));

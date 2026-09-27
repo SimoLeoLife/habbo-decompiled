@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 177821.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconSetModel.as
-// Nome offuscato: _icfa6cbeee6f558
+// Extracted from HabboAirLauncher.deobf.js, line 177821.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconSetModel.as
+// Obfuscated name: _icfa6cbeee6f558
 
 class {
   static {

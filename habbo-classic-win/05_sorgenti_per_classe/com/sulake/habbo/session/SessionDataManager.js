@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 336592.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/SessionDataManager.as
-// Nome offuscato: _if2d5b58a0b2964
+// Extracted from HabboAirLauncher.deobf.js, line 336592.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/SessionDataManager.as
+// Obfuscated name: _if2d5b58a0b2964
 
 class a extends ue {
   static {
@@ -95,18 +95,18 @@ class a extends ue {
       (this._communication._r2e106e2349a0b6(new class_2271(this._r97aecc27368072)),
       this._communication._r2e106e2349a0b6(new class_1926(this._r6e2e75987c854e)),
       this._communication._r2e106e2349a0b6(new class_2276(this._rfb4a7fa643bdaf)),
-      this._communication._r2e106e2349a0b6(new _ic493e19be4b81c(this._r9b3a75bb1f2b44)),
-      this._communication._r2e106e2349a0b6(new _i070f79082ee244(this._r4322a6d303b99c)),
+      this._communication._r2e106e2349a0b6(new UnkMessageEvent_class_2562(this._r9b3a75bb1f2b44)),
+      this._communication._r2e106e2349a0b6(new UnkMessageEvent_070f79(this._r4322a6d303b99c)),
       this._communication._r2e106e2349a0b6(new class_2146(this._r7012a4854191ae)),
       this._communication._r2e106e2349a0b6(new class_2285(this._r46cfa1fc6a4506)),
-      this._communication._r2e106e2349a0b6(new _i70fd7bff0643dd(this._r92d5a50f4adf76)),
-      this._communication._r2e106e2349a0b6(new _i333a8da3a5d6bf(this._rc68c5eb1f835e9)),
-      this._communication._r2e106e2349a0b6(new _i225953376774e7(this._rdd24cea94414b7)),
+      this._communication._r2e106e2349a0b6(new UnkMessageEvent_70fd7b(this._r92d5a50f4adf76)),
+      this._communication._r2e106e2349a0b6(new UnkMessageEvent_333a8d(this._rc68c5eb1f835e9)),
+      this._communication._r2e106e2349a0b6(new UnkMessageEvent_225953(this._rdd24cea94414b7)),
       this._communication._r2e106e2349a0b6(new class_1783(this._r9aa5ee3c9826e5)),
       this._communication._r2e106e2349a0b6(new class_1991(this._rc6fd11febc68b8)),
       this._communication._r2e106e2349a0b6(new class_2068(this._rfb50b43dcd41ec)),
       this._communication._r2e106e2349a0b6(new class_2121(this._rc8d9b9819345aa)),
-      this._communication._r2e106e2349a0b6(new _ie9ed5c966609e8(this.onEmailStatus)),
+      this._communication._r2e106e2349a0b6(new UnkMessageEvent_e9ed5c(this.onEmailStatus)),
       this._communication._r2e106e2349a0b6(new class_2197(this._r4f905573f1b00e)),
       this._communication._r2e106e2349a0b6(new class_2286(this._r664c74f52674cd)),
       this._communication._r2e106e2349a0b6(new class_1767(this._rae282c8e86df23))),
@@ -162,10 +162,10 @@ class a extends ue {
     return dr.HasClub(this.var_3695);
   }
   get isNoob() {
-    return this.const_511 !== _ibaef792fa2c041._rc6f2b706ae8bdc;
+    return this.const_511 !== UnkConstants_baef79._rc6f2b706ae8bdc;
   }
   get isRealNoob() {
-    return this.const_511 === _ibaef792fa2c041._r48193ae23cc415;
+    return this.const_511 === UnkConstants_baef79._r48193ae23cc415;
   }
   get userId() {
     return this._id;
@@ -248,10 +248,10 @@ class a extends ue {
     this.var_3387 = e;
   }
   setFriendBarState(e) {
-    this._rac4c9be5992c71(_i5a1c5671564b8b._r373bc350e1a95e, e);
+    this._rac4c9be5992c71(UnkConstants_5a1c56._r373bc350e1a95e, e);
   }
   setRoomToolsState(e) {
-    this._rac4c9be5992c71(_i5a1c5671564b8b._rcf00a07cad041a, e);
+    this._rac4c9be5992c71(UnkConstants_5a1c56._rcf00a07cad041a, e);
   }
   refreshFurniData() {
     ((this._rfbc234a8ce8403 = new B()),
@@ -456,8 +456,8 @@ class a extends ue {
   _rdea18e25530244() {
     (this._r1bff02a088613f?.initIgnoreList(),
       this._r2e2c32210c9a6f?.initBlockList(),
-      this.send(new _i21ea3c3b179e73()),
-      this.send(new _icc7acf3f572e66()),
+      this.send(new UnkMessageComposer_0args_21ea3c()),
+      this.send(new UnkMessageComposer_0args_cc7acf()),
       this.getIncomeRewardStatus());
   }
   _r1fbba58d6fba21() {
@@ -479,10 +479,10 @@ class a extends ue {
       (this._r947686f50bf786 = !1));
   }
   _r7cab4cf1dc0be7 = n(() => {
-    this._r70751fb8821197 || ((this._r70751fb8821197 = !0), this.send(new _i258e60b63fd68d()));
+    this._r70751fb8821197 || ((this._r70751fb8821197 = !0), this.send(new UnkMessageComposer_0args_258e60()));
   }, "_r7cab4cf1dc0be7");
   _r9873b436e2ce0e = n(() => {
-    this._r70751fb8821197 && ((this._r70751fb8821197 = !1), this.send(new _i637b4a048c872d()));
+    this._r70751fb8821197 && ((this._r70751fb8821197 = !1), this.send(new UnkMessageComposer_0args_637b4a()));
   }, "_r9873b436e2ce0e");
   _r3f2c49dd8b392c = n(() => {
     if (document.visibilityState === "hidden") {
@@ -551,7 +551,7 @@ class a extends ue {
   }, "_r97aecc27368072");
   _rc6fd11febc68b8 = n((e) => {
     ((this.const_511 = e.noobnessLevel),
-      this.const_511 !== _ibaef792fa2c041._rc6f2b706ae8bdc &&
+      this.const_511 !== UnkConstants_baef79._rc6f2b706ae8bdc &&
         this.context.configuration?.setProperty("new.identity", "1"));
   }, "_rc6fd11febc68b8");
   _r6e2e75987c854e = n((e) => {
@@ -586,7 +586,7 @@ class a extends ue {
     r != null && (this._r56789d218fc9ba = [...(r._r52afff10387e2e ?? [])]);
   }, "_r4f905573f1b00e");
   _r664c74f52674cd = n((e) => {
-    let r = ClassUtils.getParser(e, _i859a756952a2bf);
+    let r = ClassUtils.getParser(e, UnkMessageParser_II_859a75);
     r != null && (this._r242978764cc59c = [...(r._r52afff10387e2e ?? [])]);
   }, "_r664c74f52674cd");
   _rae282c8e86df23 = n((e) => {
@@ -596,7 +596,7 @@ class a extends ue {
     this._r242978764cc59c.includes(t) || this._r242978764cc59c.push(t);
   }, "_rae282c8e86df23");
   _r4322a6d303b99c = n((e) => {
-    let r = ClassUtils.getParser(e, _i2c547c5aa82888);
+    let r = ClassUtils.getParser(e, UnkMessageParser_IIS_2c547c);
     r != null &&
       (r.webId === this._id && (this._name = r._r4c7340395c786f),
       this.events.dispatchEvent?.(new A8(r._r4c7340395c786f)));
@@ -633,7 +633,7 @@ class a extends ue {
     typeof r == "string" && r.length > 0 && this.context._r6b6c989018eb05?.(r);
   }, "_rfb50b43dcd41ec");
   onEmailStatus = n((e) => {
-    let r = ClassUtils.getParser(e, _i8a56acf458abaa);
+    let r = ClassUtils.getParser(e, UnkMessageParser_SBB_8a56ac);
     r != null && (this.var_4607 = r._rc18b0feae00674);
   }, "onEmailStatus");
   _r46cfa1fc6a4506 = n((e) => {
@@ -647,8 +647,8 @@ class a extends ue {
     this.var_1357 += 1;
   }, "_r92d5a50f4adf76");
   _rdd24cea94414b7 = n((e) => {
-    let r = ClassUtils.getParser(e, _ia9eaf320f747b5);
-    r != null && (this._accountSafetyLocked = r.status === _ia9eaf320f747b5._r36f17891b51516);
+    let r = ClassUtils.getParser(e, UnkMessageParser_I_a9eaf3);
+    r != null && (this._accountSafetyLocked = r.status === UnkMessageParser_I_a9eaf3._r36f17891b51516);
   }, "_rdd24cea94414b7");
   _r60ecf89ba87937(e) {
     (this._rc16e1d7e5fa209?.removeEventListener(DX.READY, this._r4900791233150a),
@@ -657,7 +657,7 @@ class a extends ue {
     this._r847a077ddfd3f0 = [];
   }
   _rc68c5eb1f835e9 = n((e) => {
-    let r = ClassUtils.getParser(e, _i283c798c024380);
+    let r = ClassUtils.getParser(e, UnkMessageParser_SI_283c79);
     r != null && r != null && Ae.roomVisited(r.roomId);
   }, "_rc68c5eb1f835e9");
   _rd24c62b76d01fb() {
@@ -672,7 +672,7 @@ class a extends ue {
       if ((this.var_810 & e) === 0) return;
       this.var_810 &= ~e;
     }
-    this._communication?.connection.send(new _id74f2e4882fbcb(this.var_810));
+    this._communication?.connection.send(new UnkMessageComposer_1args_d74f2e(this.var_810));
   }
   _ra8c79e334844d4(e, r, t) {
     let i = this._roomSessionManager?.getSession(e) ?? null;

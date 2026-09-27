@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 233901.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/cfh/registry/instantmessage/InstantMessageRegistry.as
-// Nome offuscato: _i03da6cdd9857d0
+// Extracted from HabboAirLauncher.deobf.js, line 233901.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/cfh/registry/instantmessage/InstantMessageRegistry.as
+// Obfuscated name: _i03da6cdd9857d0
 
 class a {
   static {
@@ -14,7 +14,7 @@ class a {
   _holdPurges = !1;
   addItem(e, r, t) {
     let i = this._registry.getValue(e) ?? [];
-    (i.push(new _i0c63f6b96e5f23(this.var_2996++, e, r, t)),
+    (i.push(new UnkClass_0c63f6(this.var_2996++, e, r, t)),
       this._registry.hasKey(e) && this._registry.remove(e),
       this._registry.add(e, i),
       this._r87fca79f57a752++,

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 256282.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/OfficialRoomImageLoader.as
-// Nome offuscato: _i90836f060e0e4a
+// Extracted from HabboAirLauncher.deobf.js, line 256282.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/OfficialRoomImageLoader.as
+// Obfuscated name: _i90836f060e0e4a
 
 class {
   constructor(e, r, t) {
@@ -24,7 +24,7 @@ class {
       this.setImage();
       return;
     }
-    let e = new _i636490202c0f9a(this._url),
+    let e = new UnkClass_636490(this._url),
       r = this._navigator.assets.loadAssetFromFile(this.var_2050, e, "image/gif");
     (r.addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._r66fc9d14f8c9e3),
       r.addEventListener(Le.ASSET_LOADER_EVENT_ERROR, this._rc20eaa46649236));

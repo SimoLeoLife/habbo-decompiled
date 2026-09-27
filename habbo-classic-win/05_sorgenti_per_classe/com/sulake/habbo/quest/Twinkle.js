@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 271278.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/Twinkle.as
-// Nome offuscato: _i12aa3dab2f0272
+// Extracted from HabboAirLauncher.deobf.js, line 271278.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/Twinkle.as
+// Obfuscated name: _i12aa3dab2f0272
 
 class a {
   constructor(e, r) {

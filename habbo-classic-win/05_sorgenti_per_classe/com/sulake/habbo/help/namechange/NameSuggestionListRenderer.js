@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 232247.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/namechange/NameSuggestionListRenderer.as
-// Nome offuscato: _if6a279f469e66b
+// Extracted from HabboAirLauncher.deobf.js, line 232247.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/namechange/NameSuggestionListRenderer.as
+// Obfuscated name: _if6a279f469e66b
 
 class a {
   constructor(e) {

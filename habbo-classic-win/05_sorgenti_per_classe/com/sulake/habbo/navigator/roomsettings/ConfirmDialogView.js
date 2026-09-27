@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 257172.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/roomsettings/ConfirmDialogView.as
-// Nome offuscato: _i6af06655da9686
+// Extracted from HabboAirLauncher.deobf.js, line 257172.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/roomsettings/ConfirmDialogView.as
+// Obfuscated name: _i6af06655da9686
 
 class {
   constructor(e, r, t, i) {

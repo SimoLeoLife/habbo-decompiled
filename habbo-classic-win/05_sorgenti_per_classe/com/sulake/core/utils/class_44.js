@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 50845.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/utils/class_44.as
-// Nome offuscato: _ie942a88aabebb3
+// Extracted from HabboAirLauncher.deobf.js, line 50845.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/utils/class_44.as
+// Obfuscated name: _ie942a88aabebb3
 
 class a extends M {
   constructor(r, t, i, s, o) {

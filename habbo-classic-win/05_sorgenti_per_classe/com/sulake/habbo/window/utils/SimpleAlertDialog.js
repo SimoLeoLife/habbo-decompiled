@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 146001.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/SimpleAlertDialog.as
-// Nome offuscato: _i2d5a01199c4aeb
+// Extracted from HabboAirLauncher.deobf.js, line 146001.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/SimpleAlertDialog.as
+// Obfuscated name: _i2d5a01199c4aeb
 
 class a {
   constructor(e, r, t, i, s, o, d, c, f, l) {

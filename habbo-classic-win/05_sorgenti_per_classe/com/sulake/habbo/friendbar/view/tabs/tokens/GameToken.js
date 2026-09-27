@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 211601.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/tabs/tokens/GameToken.as
-// Nome offuscato: _iff276053b5095e
+// Extracted from HabboAirLauncher.deobf.js, line 211601.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/tabs/tokens/GameToken.as
+// Obfuscated name: _iff276053b5095e
 
 class extends bl {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 128499.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/dynamicstyle/DynamicStyle.as
-// Nome offuscato: _i121bab8d60949c
+// Extracted from HabboAirLauncher.deobf.js, line 128499.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/dynamicstyle/DynamicStyle.as
+// Obfuscated name: _i121bab8d60949c
 
 class a {
   static {
@@ -54,9 +54,9 @@ class a {
   _rcc47ecc28ed21c(e) {
     let r = this.getStyleByWindowState(e),
       t = r.colorTransform;
-    if (!t) return new _i4210dc3239901d();
+    if (!t) return new UnkClass_4210dc();
     let i = r.tint ?? [255, 255, 255];
-    return new _i4210dc3239901d(
+    return new UnkClass_4210dc(
       (t[0] * i[0]) / 255,
       (t[1] * i[1]) / 255,
       (t[2] * i[2]) / 255,

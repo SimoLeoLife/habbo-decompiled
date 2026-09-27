@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 220479.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/leaderboard/TotalLeaderboardTable.as
-// Nome offuscato: _ibdbbbf08d5e743
+// Extracted from HabboAirLauncher.deobf.js, line 220479.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/leaderboard/TotalLeaderboardTable.as
+// Obfuscated name: _ibdbbbf08d5e743
 
 class extends D1 {
   static {

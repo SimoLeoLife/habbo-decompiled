@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 253761.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/raidprotection/RaidProtectionSettingsView.as
-// Nome offuscato: _iba310260543510
+// Extracted from HabboAirLauncher.deobf.js, line 253761.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/raidprotection/RaidProtectionSettingsView.as
+// Obfuscated name: _iba310260543510
 
 class a {
   constructor(e, r) {

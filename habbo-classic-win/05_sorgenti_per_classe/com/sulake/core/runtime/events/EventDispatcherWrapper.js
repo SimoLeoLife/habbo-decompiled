@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 28906.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/events/EventDispatcherWrapper.as
-// Nome offuscato: _i015dbea691c786
+// Extracted from HabboAirLauncher.deobf.js, line 28906.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/events/EventDispatcherWrapper.as
+// Obfuscated name: _i015dbea691c786
 
 class {
   constructor(e = null) {

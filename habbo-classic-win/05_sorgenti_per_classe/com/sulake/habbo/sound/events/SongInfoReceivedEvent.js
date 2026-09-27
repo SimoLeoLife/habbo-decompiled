@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 162260.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/events/SongInfoReceivedEvent.as
-// Nome offuscato: _i97362c5e0823b1
+// Extracted from HabboAirLauncher.deobf.js, line 162260.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/events/SongInfoReceivedEvent.as
+// Obfuscated name: _i97362c5e0823b1
 
 class extends M {
   constructor(r, t, i = !1, s = !1) {

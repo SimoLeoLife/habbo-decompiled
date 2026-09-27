@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 183160.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/marketplace/MarketPlaceOfferData.as
-// Nome offuscato: _i7d4d32aebf5cf4
+// Extracted from HabboAirLauncher.deobf.js, line 183160.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/marketplace/MarketPlaceOfferData.as
+// Obfuscated name: _i7d4d32aebf5cf4
 
 class {
   static {

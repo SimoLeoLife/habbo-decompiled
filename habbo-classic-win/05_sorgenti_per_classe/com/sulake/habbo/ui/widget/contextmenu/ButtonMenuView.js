@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 305611.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/contextmenu/ButtonMenuView.as
-// Nome offuscato: _i6f10aa89d93021
+// Extracted from HabboAirLauncher.deobf.js, line 305611.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/contextmenu/ButtonMenuView.as
+// Obfuscated name: _i6f10aa89d93021
 
 class a extends Dc {
   static {

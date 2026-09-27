@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 61563.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_48/JSONToken.as
-// Nome offuscato: _i864abf56625fbf
+// Extracted from HabboAirLauncher.deobf.js, line 61563.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_48/JSONToken.as
+// Obfuscated name: _i864abf56625fbf
 
 class a {
   static {

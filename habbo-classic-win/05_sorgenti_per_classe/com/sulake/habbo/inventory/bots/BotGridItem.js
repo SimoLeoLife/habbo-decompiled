@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 235371.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/bots/BotGridItem.as
-// Nome offuscato: _i7953035e5767fb
+// Extracted from HabboAirLauncher.deobf.js, line 235371.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/bots/BotGridItem.as
+// Obfuscated name: _i7953035e5767fb
 
 class a {
   constructor(e, r, t, i, s) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 325906.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/roomtools/RoomToolsHistory.as
-// Nome offuscato: _i233b553f5aa215
+// Extracted from HabboAirLauncher.deobf.js, line 325906.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/roomtools/RoomToolsHistory.as
+// Obfuscated name: _i233b553f5aa215
 
 class a {
   constructor(e, r, t) {

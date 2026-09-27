@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 257020.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/roomsettings/RoomFilterCtrl.as
-// Nome offuscato: _i84e9dc9209830e
+// Extracted from HabboAirLauncher.deobf.js, line 257020.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/roomsettings/RoomFilterCtrl.as
+// Obfuscated name: _i84e9dc9209830e
 
 class {
   constructor(e) {

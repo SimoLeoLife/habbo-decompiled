@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 196184.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/VipBuyCatalogWidget.as
-// Nome offuscato: _ifb179f54ff3292
+// Extracted from HabboAirLauncher.deobf.js, line 196184.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/VipBuyCatalogWidget.as
+// Obfuscated name: _ifb179f54ff3292
 
 class extends CatalogWidget {
   constructor(r, t, i = !1) {
@@ -29,7 +29,7 @@ class extends CatalogWidget {
         (this.var_63 = this._catalog._r5a5819a5decf89()),
         this.var_63.registerVisualization(this),
         this.var_63.requestOffers(
-          this.var_2513 ? _id2bfaa31fdabf7._r22299e8bff5824 : _id2bfaa31fdabf7._r986d1e6320967a,
+          this.var_2513 ? UnkConstants_d2bfaa._r22299e8bff5824 : UnkConstants_d2bfaa._r986d1e6320967a,
         ),
         !0)
       : !1;

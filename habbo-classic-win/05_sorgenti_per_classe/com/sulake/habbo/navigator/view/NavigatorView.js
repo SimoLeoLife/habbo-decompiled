@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 260679.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/view/NavigatorView.as
-// Nome offuscato: _if8a8c569a7f379
+// Extracted from HabboAirLauncher.deobf.js, line 260679.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/view/NavigatorView.as
+// Obfuscated name: _if8a8c569a7f379
 
 class a {
   static {
@@ -336,7 +336,7 @@ class a {
         this._lastWindowWidth,
         this.var_1397,
         this._lastLeftPaneHidden,
-        _i3fbb457a8e41b2._r038bfe744af0bc,
+        UnkConstants_3fbb45._r038bfe744af0bc,
       ),
       this._navigator.trackEventLog(
         "windowsettings",

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 72624.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/login/SsoTokenAvailableEvent.as
-// Nome offuscato: _i043124c55adbd4
+// Extracted from HabboAirLauncher.deobf.js, line 72624.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/login/SsoTokenAvailableEvent.as
+// Obfuscated name: _i043124c55adbd4
 
 class extends M {
   constructor(r, t, i = !1, s = !1) {

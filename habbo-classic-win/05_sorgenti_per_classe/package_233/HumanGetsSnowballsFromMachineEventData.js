@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 125572.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_233/HumanGetsSnowballsFromMachineEventData.as
-// Nome offuscato: _i05a9a82ad08373
+// Extracted from HabboAirLauncher.deobf.js, line 125572.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_233/HumanGetsSnowballsFromMachineEventData.as
+// Obfuscated name: _i05a9a82ad08373
 
 class extends Ma {
     static {

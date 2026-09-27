@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 187405.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/targetedoffers/OfferView.as
-// Nome offuscato: _i56dc057a89e7eb
+// Extracted from HabboAirLauncher.deobf.js, line 187405.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/targetedoffers/OfferView.as
+// Obfuscated name: _i56dc057a89e7eb
 
 class {
   constructor(e, r) {
@@ -28,7 +28,7 @@ class {
       (this._window = null));
   }
   _ra50b20a2cf6128() {
-    ((this._r65a67a0bca4899 = new _i05394ecc0c0c4d(1e3)),
+    ((this._r65a67a0bca4899 = new UnkEventDispatcherWrapperSubclass_05394e(1e3)),
       this._r65a67a0bca4899.addEventListener(DeBouncer.addEventListener, this._r74a888e08bca64),
       this._r65a67a0bca4899.start(),
       this._r617c6259dff1dd());

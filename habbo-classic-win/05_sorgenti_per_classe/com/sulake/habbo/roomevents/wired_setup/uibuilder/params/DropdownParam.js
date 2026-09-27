@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 354230.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/params/DropdownParam.as
-// Nome offuscato: _if9efaf470b34d0
+// Extracted from HabboAirLauncher.deobf.js, line 354230.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/params/DropdownParam.as
+// Obfuscated name: _if9efaf470b34d0
 
 class {
   constructor(e, r = null, t = null, i = "", s = -1) {

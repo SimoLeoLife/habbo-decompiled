@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 271351.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/HabboQuestEngine.as
-// Nome offuscato: _ia017f303fec8b9
+// Extracted from HabboAirLauncher.deobf.js, line 271351.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/HabboQuestEngine.as
+// Obfuscated name: _ia017f303fec8b9
 
 class a extends ue {
   static {
@@ -62,7 +62,7 @@ class a extends ue {
       this.queueInterface(new IIDHabboTracking(), this._r8d2aa74ca2eaeb),
       this.queueInterface(new IIDHabboUserDefinedRoomEvents(), this._r79651e40b18a93),
       (this._r1fa056abe0faef = new fge(this, e, 0, t)),
-      e?.attachComponent(this._r1fa056abe0faef, [new _i9fb5fe3bad0cf2()]),
+      e?.attachComponent(this._r1fa056abe0faef, [new UnkInterface_9fb5fe()]),
       (this._rd0ba5bf8e1b91d = new th(this, e, 0, t)),
       e?.attachComponent(this._rd0ba5bf8e1b91d, [new IIDRewardTrackController()]),
       e?._r7e43d9f4706607?.(this),
@@ -201,7 +201,7 @@ class a extends ue {
     return this._rd0ba5bf8e1b91d;
   }
   _r87051afa0fc232 = n((e = null, r = null) => {
-    ((this._communication = r), (this._incomingMessages = new _ifffc223d172097_____(this)));
+    ((this._communication = r), (this._incomingMessages = new UnkClass_fffc22____________(this)));
   }, "_r87051afa0fc232");
   _r78075dac337cf4 = n((e = null, r = null) => {
     this._windowManager = r;
@@ -366,13 +366,13 @@ class a extends ue {
     return (this._localization?.getLocalization(e, "") ?? "") !== "";
   }
   _r4ad208985d89a3() {
-    this.send(new _i67c3b66fb73094());
+    this.send(new UnkMessageComposer_0args_67c3b6());
   }
   _r9c430dd6e13502() {
-    this.send(new _if730f53b497d89());
+    this.send(new UnkMessageComposer_0args_f730f5());
   }
   _rd4aaae15d2e185(e) {
-    this.send(new _i38e25d5014ab83(e));
+    this.send(new UnkMessageComposer_1args_38e25d(e));
   }
   get linkPattern() {
     return "questengine/";

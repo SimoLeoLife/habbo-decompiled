@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 70176.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/configuration/enum/HabboConfigurationFlags.as
-// Nome offuscato: _i55bc4adc9095bc
+// Extracted from HabboAirLauncher.deobf.js, line 70176.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/configuration/enum/HabboConfigurationFlags.as
+// Obfuscated name: _i55bc4adc9095bc
 
 class {
   static {

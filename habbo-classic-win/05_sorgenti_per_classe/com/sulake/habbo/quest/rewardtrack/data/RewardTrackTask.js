@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 266143.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/data/RewardTrackTask.as
-// Nome offuscato: _i5b9b85ed2f4d9b
+// Extracted from HabboAirLauncher.deobf.js, line 266143.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/data/RewardTrackTask.as
+// Obfuscated name: _i5b9b85ed2f4d9b
 
 class {
   constructor(e, r) {
@@ -11,7 +11,7 @@ class {
       (this.var_1594 = r.progressCount),
       (this.var_3477 = r.premium),
       (this._levels = []));
-    for (let t of r._r2d5eee2e2248ea) this._levels.push(new _i141c4e0d47145a(t));
+    for (let t of r._r2d5eee2e2248ea) this._levels.push(new UnkClass_141c4e(t));
   }
   static {
     n(this, "RewardTrackTask");

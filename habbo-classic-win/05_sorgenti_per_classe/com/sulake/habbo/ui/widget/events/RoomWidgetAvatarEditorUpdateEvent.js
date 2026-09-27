@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 160004.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetAvatarEditorUpdateEvent.as
-// Nome offuscato: _i3683ec9bf62a84
+// Extracted from HabboAirLauncher.deobf.js, line 160004.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetAvatarEditorUpdateEvent.as
+// Obfuscated name: _i3683ec9bf62a84
 
 class extends RoomWidgetUpdateEvent {
   static {

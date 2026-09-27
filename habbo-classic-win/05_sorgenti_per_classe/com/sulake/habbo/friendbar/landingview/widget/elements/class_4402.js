@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 207973.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/elements/class_4402.as
-// Nome offuscato: _i10197dbdd652e8
+// Extracted from HabboAirLauncher.deobf.js, line 207973.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/elements/class_4402.as
+// Obfuscated name: _i10197dbdd652e8
 
 class a {
   static {
@@ -117,13 +117,13 @@ class a {
     e.type === u.CLICK && this._r136058f89e3ace(!1);
   }, "_r1ccaac1bad2a9f");
   _rd5df6c4167946c = n((e) => {
-    e.type === u.CLICK && this._data != null && this._landingView?.send(new _i38e25d5014ab83(this._data.id));
+    e.type === u.CLICK && this._data != null && this._landingView?.send(new UnkMessageComposer_1args_38e25d(this._data.id));
   }, "_rd5df6c4167946c");
   onNextQuest = n((e) => {
     e.type === u.CLICK && this._data != null && (this._index++, this._r136058f89e3ace(this._data.easy));
   }, "onNextQuest");
   _re93563365939cf = n((e) => {
-    e.type === u.CLICK && this._landingView?.send(new _iffad2b6e0bfc9b());
+    e.type === u.CLICK && this._landingView?.send(new UnkMessageComposer_0args_ffad2b());
   }, "_re93563365939cf");
   _r136058f89e3ace(e) {
     this._landingView?.send(new class_3384(e, this._index));

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 273194.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/avatar/additions/TypingBubble.as
-// Nome offuscato: _i5b21762ad26d73
+// Extracted from HabboAirLauncher.deobf.js, line 273194.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/avatar/additions/TypingBubble.as
+// Obfuscated name: _i5b21762ad26d73
 
 class {
   constructor(e, r) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 285684.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/rendering/class_4356.as
-// Nome offuscato: _i365aa3bdac4ac5
+// Extracted from HabboAirLauncher.deobf.js, line 285684.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/rendering/class_4356.as
+// Obfuscated name: _i365aa3bdac4ac5
 
 class {
   static {

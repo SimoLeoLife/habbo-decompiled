@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 115816.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_190/Game2GameChatMessageComposer.as
-// Nome offuscato: _i8a27c2a719f439
+// Extracted from HabboAirLauncher.deobf.js, line 115816.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_190/Game2GameChatMessageComposer.as
+// Obfuscated name: _i8a27c2a719f439
 
 class {
     static {

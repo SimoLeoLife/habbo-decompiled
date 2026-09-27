@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 109681.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_193/ChestItemType.as
-// Nome offuscato: _i5a42876e2ca09f
+// Extracted from HabboAirLauncher.deobf.js, line 109681.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_193/ChestItemType.as
+// Obfuscated name: _i5a42876e2ca09f
 
 class a {
     static {

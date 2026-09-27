@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 290473.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/events/RoomContentLoadedEvent.as
-// Nome offuscato: _i30cab1472eb473
+// Extracted from HabboAirLauncher.deobf.js, line 290473.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/events/RoomContentLoadedEvent.as
+// Obfuscated name: _i30cab1472eb473
 
 class extends M {
   constructor(r, t, i = !1, s = !1) {

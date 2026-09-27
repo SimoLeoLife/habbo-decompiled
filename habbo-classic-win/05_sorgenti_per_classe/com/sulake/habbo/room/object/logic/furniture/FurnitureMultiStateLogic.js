@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 135145.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureMultiStateLogic.as
-// Nome offuscato: _i4ba2435c63c1f2
+// Extracted from HabboAirLauncher.deobf.js, line 135145.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureMultiStateLogic.as
+// Obfuscated name: _i4ba2435c63c1f2
 
 class a {
   static {
@@ -80,7 +80,7 @@ class a {
       let o = i?.length ?? 0;
       if (o === 0)
         if (
-          t.type === _ifd7c1208e3417e.var_370 &&
+          t.type === UnkClass_fd7c12.var_370 &&
           this._raf5af63db2906f &&
           this.var_174 &&
           this._raf5af63db2906f !== this.var_174 &&
@@ -104,8 +104,8 @@ class a {
           (this._raf5af63db2906f.update(this._raf5af63db2906f, c),
             (this._raf5af63db2906f = this.var_174),
             c.recycle());
-        } else t.type === _ifd7c1208e3417e._r9001c395573374 && this.var_174._r407b94eafbeca2()?.deactivate();
-      t.type === _ifd7c1208e3417e._ra93f33360c3a28 &&
+        } else t.type === UnkClass_fd7c12._r9001c395573374 && this.var_174._r407b94eafbeca2()?.deactivate();
+      t.type === UnkClass_fd7c12._ra93f33360c3a28 &&
         this._r9e2d6f967a78a6 != null &&
         (i?.indexOf(this._r9e2d6f967a78a6) ?? -1) === -1 &&
         ((i ??= []), i.push(this._r9e2d6f967a78a6), o++);
@@ -114,8 +114,8 @@ class a {
         let c = this._rf6923bfacb903a(i[o], t);
         if (!(c == null || !c.visible)) {
           if (
-            (t.type === _ifd7c1208e3417e.var_370 && this._r3a1fc37f788929(c, t),
-            t.type === _ifd7c1208e3417e._r9001c395573374 && (this._r0f97202bd2ae02(c, t), (this._r5ed1f0888f3d61 = c)),
+            (t.type === UnkClass_fd7c12.var_370 && this._r3a1fc37f788929(c, t),
+            t.type === UnkClass_fd7c12._r9001c395573374 && (this._r0f97202bd2ae02(c, t), (this._r5ed1f0888f3d61 = c)),
             !d && !this._r293fb444c61856(c) && !D2._rac38b70f096b72(c))
           ) {
             let f = c.parent;
@@ -212,7 +212,7 @@ class a {
   }
   _rf6923bfacb903a(e, r, t = !1) {
     if (e.disposed) return null;
-    if (e.testStateFlag(class_1948.const_117) && r.type === _ifd7c1208e3417e.var_370 && e instanceof E8) return e;
+    if (e.testStateFlag(class_1948.const_117) && r.type === UnkClass_fd7c12.var_370 && e instanceof E8) return e;
     if (e.testStateFlag(class_1948.const_117)) return null;
     let i = !1,
       s = new E(r.stageX, r.stageY);
@@ -221,14 +221,14 @@ class a {
       (e.debug = !1),
       (this._renderer.debug = !1),
       !1,
-      r.type === _ifd7c1208e3417e._ra93f33360c3a28)
+      r.type === UnkClass_fd7c12._ra93f33360c3a28)
     ) {
       if (this._r9e2d6f967a78a6 == null) return ((this._r3a47f2c862dc47 = null), null);
       if (e !== this._r9e2d6f967a78a6) {
         if (this._r9e2d6f967a78a6 && !this._r9e2d6f967a78a6.disposed) {
           let f = a._r9b1bf1bb2c2180(
-            new _ifd7c1208e3417e(
-              _ifd7c1208e3417e._ra93f33360c3a28,
+            new UnkClass_fd7c12(
+              UnkClass_fd7c12._ra93f33360c3a28,
               !1,
               !0,
               r.localX,
@@ -264,20 +264,20 @@ class a {
     if (e.testParamFlag(N._rca1af0855e9da4) && e.parent != null) return this._rf6923bfacb903a(e.parent, r);
     if (!t)
       switch (r.type) {
-        case _ifd7c1208e3417e._r9001c395573374:
+        case UnkClass_fd7c12._r9001c395573374:
           ((this._r3a47f2c862dc47 = e), (this._r9e2d6f967a78a6 = e));
           break;
-        case _ifd7c1208e3417e.CLICK:
+        case UnkClass_fd7c12.CLICK:
           if (this._r3a47f2c862dc47 !== e) return ((this._r3a47f2c862dc47 = null), null);
           this._r3a47f2c862dc47 = null;
           break;
-        case _ifd7c1208e3417e.DOUBLE_CLICK:
+        case UnkClass_fd7c12.DOUBLE_CLICK:
           if (this._r3a47f2c862dc47 !== e) return ((this._r3a47f2c862dc47 = null), null);
           this._r3a47f2c862dc47 = null;
           break;
       }
     let o = [];
-    (r.type === _ifd7c1208e3417e.DOUBLE_CLICK && o.push(_ifd7c1208e3417e.CLICK), o.push(r.type));
+    (r.type === UnkClass_fd7c12.DOUBLE_CLICK && o.push(UnkClass_fd7c12.CLICK), o.push(r.type));
     let d = !1;
     for (let f of o) {
       let l = a._r9b1bf1bb2c2180(r, e, null, f);
@@ -285,7 +285,7 @@ class a {
       for (let b of this._rc2afb5cf82d836) b._r8725146839fe16(l, e);
       l.recycle();
     }
-    let c = r.type === _ifd7c1208e3417e._r8ea9e83cdee875 || r.type === _ifd7c1208e3417e._r16434e347f72e9;
+    let c = r.type === UnkClass_fd7c12._r8ea9e83cdee875 || r.type === UnkClass_fd7c12._r16434e347f72e9;
     return !d && !t && e.parent && (!c || !D2._rac38b70f096b72(e)) ? this._rf6923bfacb903a(e.parent, r) : e;
   }
   static _r9b1bf1bb2c2180(e, r, t, i = null) {
@@ -294,13 +294,13 @@ class a {
     let o = i ?? e.type,
       d;
     switch (o) {
-      case _ifd7c1208e3417e.var_370:
+      case UnkClass_fd7c12.var_370:
         d = u.MOVE;
         break;
-      case _ifd7c1208e3417e._r0f980b14ecbc94:
+      case UnkClass_fd7c12._r0f980b14ecbc94:
         d = u.OVER;
         break;
-      case _ifd7c1208e3417e._rbf5bc4e563fc08:
+      case UnkClass_fd7c12._rbf5bc4e563fc08:
         d = u.OUT;
         break;
       case "rollOut":
@@ -309,23 +309,23 @@ class a {
       case "rollOver":
         d = u.ROLL_OVER;
         break;
-      case _ifd7c1208e3417e.CLICK:
+      case UnkClass_fd7c12.CLICK:
         d = u.CLICK;
         break;
-      case _ifd7c1208e3417e.DOUBLE_CLICK:
+      case UnkClass_fd7c12.DOUBLE_CLICK:
         d = u.DOUBLE_CLICK;
         break;
-      case _ifd7c1208e3417e._r9001c395573374:
+      case UnkClass_fd7c12._r9001c395573374:
         d = u.DOWN;
         break;
-      case _ifd7c1208e3417e._ra93f33360c3a28: {
+      case UnkClass_fd7c12._ra93f33360c3a28: {
         d = s.x > -1 && s.y > -1 && s.x < r.width && s.y < r.height ? u.UP : u.UP_OUTSIDE;
         break;
       }
-      case _ifd7c1208e3417e._r8ea9e83cdee875:
+      case UnkClass_fd7c12._r8ea9e83cdee875:
         d = u.const_974;
         break;
-      case _ifd7c1208e3417e._r16434e347f72e9:
+      case UnkClass_fd7c12._r16434e347f72e9:
         d = u.WHEEL_HORIZONTAL;
         break;
       default:

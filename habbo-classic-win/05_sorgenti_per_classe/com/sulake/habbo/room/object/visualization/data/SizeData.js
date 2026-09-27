@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 275972.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/data/SizeData.as
-// Nome offuscato: _iaf5c045ab6d2d2
+// Extracted from HabboAirLauncher.deobf.js, line 275972.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/data/SizeData.as
+// Obfuscated name: _iaf5c045ab6d2d2
 
 class a {
   static {

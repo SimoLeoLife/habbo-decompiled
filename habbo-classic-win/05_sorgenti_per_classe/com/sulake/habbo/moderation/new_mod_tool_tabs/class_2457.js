@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 250846.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/new_mod_tool_tabs/class_2457.as
-// Nome offuscato: _i10e9241d87196a
+// Extracted from HabboAirLauncher.deobf.js, line 250846.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/new_mod_tool_tabs/class_2457.as
+// Obfuscated name: _i10e9241d87196a
 
 class extends class_2456 {
   static {

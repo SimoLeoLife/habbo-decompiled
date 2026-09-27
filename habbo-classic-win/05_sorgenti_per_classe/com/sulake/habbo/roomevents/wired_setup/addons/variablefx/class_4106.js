@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 362355.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/class_4106.as
-// Nome offuscato: _i757ceb20cfe0c5
+// Extracted from HabboAirLauncher.deobf.js, line 362355.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/class_4106.as
+// Obfuscated name: _i757ceb20cfe0c5
 
 class extends DefaultAddonType {
   static {

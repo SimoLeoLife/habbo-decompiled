@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 79652.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/utils/Vector3d.as
-// Nome offuscato: _i51f36a1a30d6c5
+// Extracted from HabboAirLauncher.deobf.js, line 79652.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/utils/Vector3d.as
+// Obfuscated name: _i51f36a1a30d6c5
 
 class a {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 285672.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/rendering/VariableFxIconDefinition.as
-// Nome offuscato: _icd785ec085405b
+// Extracted from HabboAirLauncher.deobf.js, line 285672.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/rendering/VariableFxIconDefinition.as
+// Obfuscated name: _icd785ec085405b
 
 class {
   constructor(e, r, t = 0, i = 0) {

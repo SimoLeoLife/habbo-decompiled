@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 217009.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/domain/FriendListTabs.as
-// Nome offuscato: _i1592a561f84451
+// Extracted from HabboAirLauncher.deobf.js, line 217009.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/domain/FriendListTabs.as
+// Obfuscated name: _i1592a561f84451
 
 class {
   static {
@@ -17,7 +17,7 @@ class {
       this._re842dacc40aa7f.push(
         new FriendListTab(
           this.var_630._r9692e4ef7c6b9f(),
-          _ia4c17117df4f10._ra8c8b3cdc9c268,
+          UnkConstants_a4c171._ra8c8b3cdc9c268,
           new zz(),
           "${friendlist.friends}",
           "friends_footer",
@@ -27,7 +27,7 @@ class {
       this._re842dacc40aa7f.push(
         new FriendListTab(
           this.var_630._r9692e4ef7c6b9f(),
-          _ia4c17117df4f10._rfadb4d8e33d276,
+          UnkConstants_a4c171._rfadb4d8e33d276,
           new class_3626(),
           "${friendlist.tab.friendrequests}",
           "friend_requests_footer",
@@ -37,7 +37,7 @@ class {
       this._re842dacc40aa7f.push(
         new FriendListTab(
           this.var_630._r9692e4ef7c6b9f(),
-          _ia4c17117df4f10.SearchView,
+          UnkConstants_a4c171.SearchView,
           new SearchView(),
           "${generic.search}",
           "search_footer",

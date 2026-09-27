@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 208292.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/elements/class_4365.as
-// Nome offuscato: _i8b5f561e68f06a
+// Extracted from HabboAirLauncher.deobf.js, line 208292.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/elements/class_4365.as
+// Obfuscated name: _i8b5f561e68f06a
 
 class a {
   static {
@@ -43,15 +43,15 @@ class a {
       case a.TITLE:
         return new TitleElementHandler();
       case a.SPACING:
-        return new _ie87bc960274d34();
+        return new UnkClass_e87bc9();
       case a.CATALOGBUTTON:
         return new CatalogButtonElementHandler();
       case a.PROMOTEDROOMBUTTON:
-        return new _i67c155a5771992();
+        return new UnkSubclassOf_class_4383_67c155();
       case a.LINK:
         return new class_4399();
       case a.const_604:
-        return new _i74de287be45990();
+        return new UnkSubclassOf_class_4383_74de28();
       case a.REQUESTBADGEBUTTON:
       case a.REQUESTBADGEBUTTONSECOND:
       case a.REQUESTBADGEBUTTONTHIRD:
@@ -59,19 +59,19 @@ class a {
       case a.REQUESTBADGEBUTTONFIFTH:
         return new class_4396();
       case a.CREDITHABBLETBUTTON:
-        return new _i07e92f695e1316();
+        return new UnkSubclassOf_class_4383_07e92f();
       case a.COMMUNITYGOALTIMER:
         return new class_4400();
       case a.CUSTOMTIMER:
         return new class_4393();
       case a.const_1328:
-        return new _i19d322bc9d159b();
+        return new UnkSubclassOf_class_4383_19d322();
       case a.const_1001:
-        return new _i9b23f8f6c1fcc4();
+        return new UnkSubclassOf_class_4383_9b23f8();
       case a.REWARDBADGE:
-        return new _i15990bb65f2b39();
+        return new UnkClass_15990b();
       case a.IMAGE:
-        return new _i9c86dd796530ca();
+        return new UnkClass_9c86dd();
       case a.SUBMITCOMPETITIONROOM:
         return new class_4387();
       case a.CONCURRENTUSERSMETER:
@@ -81,7 +81,7 @@ class a {
       case a.DAILYQUEST:
         return new o9e();
       case a.const_968:
-        return new _ib4effe08cdaeb9();
+        return new UnkSubclassOf_class_4383_b4effe();
       case a.COMMUNITYGOALSCORE:
         return new class_4391();
       case a.INTERNAL_LINK_BUTTON:

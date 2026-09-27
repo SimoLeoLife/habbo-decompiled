@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 65369.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/CommunicationUtils.as
-// Nome offuscato: _idf84de32969b2f
+// Extracted from HabboAirLauncher.deobf.js, line 65369.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/CommunicationUtils.as
+// Obfuscated name: _idf84de32969b2f
 
 class a {
   static {
@@ -106,7 +106,7 @@ class a {
           typeof navigator < "u" && navigator.plugins != null
             ? Array.from(navigator.plugins, (_) => _.name || _.filename || "").join(",")
             : "",
-        t = _ic7f867ad53849e._rfc02824d36aa13,
+        t = UnkClass_c7f867._rfc02824d36aa13,
         i = String(new Date().getTimezoneOffset()),
         s = Wd._r615ad07097b75f(!0),
         o = [];

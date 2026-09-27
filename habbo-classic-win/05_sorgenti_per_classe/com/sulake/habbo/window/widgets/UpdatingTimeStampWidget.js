@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 152084.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/UpdatingTimeStampWidget.as
-// Nome offuscato: _id3e67e47447751
+// Extracted from HabboAirLauncher.deobf.js, line 152084.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/UpdatingTimeStampWidget.as
+// Obfuscated name: _id3e67e47447751
 
 class a {
   constructor(e, r) {
@@ -23,7 +23,7 @@ class a {
   }
   static TYPE = "updating_timestamp";
   static UPDATE_TIMER = (() => {
-    let e = new _i05394ecc0c0c4d(6e4);
+    let e = new UnkEventDispatcherWrapperSubclass_05394e(6e4);
     return (e.start(), e);
   })();
   _disposed = !1;

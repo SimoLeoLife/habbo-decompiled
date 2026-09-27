@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 251745.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/GuestRoomPasswordInput.as
-// Nome offuscato: _i4b21c7d8f6275a
+// Extracted from HabboAirLauncher.deobf.js, line 251745.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/GuestRoomPasswordInput.as
+// Obfuscated name: _i4b21c7d8f6275a
 
 class {
   constructor(e) {

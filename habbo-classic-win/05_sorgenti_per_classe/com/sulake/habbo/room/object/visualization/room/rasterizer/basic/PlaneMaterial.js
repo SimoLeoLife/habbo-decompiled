@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 283054.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/rasterizer/basic/PlaneMaterial.as
-// Nome offuscato: _i551ffa6716215f
+// Extracted from HabboAirLauncher.deobf.js, line 283054.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/rasterizer/basic/PlaneMaterial.as
+// Obfuscated name: _i551ffa6716215f
 
 class a {
   static {

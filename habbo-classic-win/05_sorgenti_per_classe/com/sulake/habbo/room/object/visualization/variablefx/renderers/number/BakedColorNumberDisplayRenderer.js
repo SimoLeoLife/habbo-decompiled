@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 289914.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/number/BakedColorNumberDisplayRenderer.as
+// Extracted from HabboAirLauncher.deobf.js, line 289914.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/number/BakedColorNumberDisplayRenderer.as
 
 class a extends NumberDisplayRendererBase {
   static {

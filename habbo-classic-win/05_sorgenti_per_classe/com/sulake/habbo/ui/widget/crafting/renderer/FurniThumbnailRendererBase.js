@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 312971.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/renderer/FurniThumbnailRendererBase.as
-// Nome offuscato: _if60d86b957e459
+// Extracted from HabboAirLauncher.deobf.js, line 312971.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/renderer/FurniThumbnailRendererBase.as
+// Obfuscated name: _if60d86b957e459
 
 class a {
   constructor(e, r, t) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 71862.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/localization/GameDataResources.as
-// Nome offuscato: _i7f31fbdfa3b94e
+// Extracted from HabboAirLauncher.deobf.js, line 71862.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/localization/GameDataResources.as
+// Obfuscated name: _i7f31fbdfa3b94e
 
 class a {
   static {

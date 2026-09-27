@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 253683.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/raidprotection/RaidProtectionSettingsData.as
-// Nome offuscato: _ibf551c14125b88
+// Extracted from HabboAirLauncher.deobf.js, line 253683.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/raidprotection/RaidProtectionSettingsData.as
+// Obfuscated name: _ibf551c14125b88
 
 class a {
   constructor(e, r, t, i, s, o, d, c, f, l) {

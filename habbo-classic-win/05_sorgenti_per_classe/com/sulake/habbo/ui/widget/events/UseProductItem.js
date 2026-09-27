@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161291.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/UseProductItem.as
-// Nome offuscato: _ibff80068d96282
+// Extracted from HabboAirLauncher.deobf.js, line 161291.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/UseProductItem.as
+// Obfuscated name: _ibff80068d96282
 
 class {
   constructor(e, r, t, i, s, o = -1, d = !1) {

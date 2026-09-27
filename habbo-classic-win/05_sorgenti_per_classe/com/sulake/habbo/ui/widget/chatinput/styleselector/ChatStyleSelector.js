@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 310363.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chatinput/styleselector/ChatStyleSelector.as
-// Nome offuscato: _ic328c9027586c5
+// Extracted from HabboAirLauncher.deobf.js, line 310363.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chatinput/styleselector/ChatStyleSelector.as
+// Obfuscated name: _ic328c9027586c5
 
 class a {
   constructor(e, r) {
@@ -124,7 +124,7 @@ class a {
       (s.height = t.height + (i?.y ?? 0) + (i?.height ?? 0)),
       (s.y -= i?.y ?? 0),
       this._r508741613ce64c == null
-        ? (this._r508741613ce64c = new _ic6b6cdf3ccea3d())
+        ? (this._r508741613ce64c = new UnkClass_c6b6cd())
         : this._r508741613ce64c.graphics.clear(),
       this._r508741613ce64c.graphics.beginFill(16711680),
       this._r508741613ce64c.graphics.drawRect(0, 0, s.width - 28, s.height),

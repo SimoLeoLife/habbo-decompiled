@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 150802.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/ProductImageWidget.as
-// Nome offuscato: _iabae5a0505acfa
+// Extracted from HabboAirLauncher.deobf.js, line 150802.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/ProductImageWidget.as
+// Obfuscated name: _iabae5a0505acfa
 
 class a {
   constructor(e, r) {
@@ -139,7 +139,7 @@ class a {
           this._r44ea08ed7186b6 = e._r48777043299a0c;
           break;
         case class_3169.CHAT_STYLE: {
-          let r = new _i694584ab63ea1c();
+          let r = new UnkClass_694584();
           if (
             ((r.data =
               this._windowManager != null
@@ -226,7 +226,7 @@ class a {
         this.var_873 === 100 && (r = "Bobba filtered"),
         r.length > 0)
       ) {
-        let t = new _i694584ab63ea1c();
+        let t = new UnkClass_694584();
         return (
           (t.data =
             this._windowManager != null

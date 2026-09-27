@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 146426.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/habbopedia/HabboPagesViewer.as
-// Nome offuscato: _ic1349a2fed7f18
+// Extracted from HabboAirLauncher.deobf.js, line 146426.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/habbopedia/HabboPagesViewer.as
+// Obfuscated name: _ic1349a2fed7f18
 
 class {
   constructor(e) {
@@ -39,7 +39,7 @@ class {
       let s = this._windowManager.assets.getAssetByName(t);
       s != null && this._windowManager.assets.removeAsset(s);
     }
-    let i = this._windowManager.assets.loadAssetFromFile(t, new _i636490202c0f9a(t), "text/plain");
+    let i = this._windowManager.assets.loadAssetFromFile(t, new UnkClass_636490(t), "text/plain");
     (i.addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, (...s) => {
       this._r8b160f9c57df38(s[0] ?? null);
     }),
@@ -48,7 +48,7 @@ class {
       }));
   }
   _rffe35aa7ea6b5a() {
-    let e = new _ib0061b42edfac2(),
+    let e = new UnkClass_b0061b(),
       r = this._windowManager?.assets.getAssetByName("habbopedia_css"),
       t = typeof r?.content == "string" ? r.content : "";
     return (t.length > 0 && e.parseCSS(t), e);

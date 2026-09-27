@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 226075.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge/BadgeSelectPartCtrl.as
-// Nome offuscato: _i51057203e2f3c6
+// Extracted from HabboAirLauncher.deobf.js, line 226075.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge/BadgeSelectPartCtrl.as
+// Obfuscated name: _i51057203e2f3c6
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 173315.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/club/ClubGiftController.as
-// Nome offuscato: _i92c094a6f4d147
+// Extracted from HabboAirLauncher.deobf.js, line 173315.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/club/ClubGiftController.as
+// Obfuscated name: _i92c094a6f4d147
 
 class {
   constructor(e) {
@@ -43,7 +43,7 @@ class {
   _r538a2965d7ce36(e) {
     e === "" ||
       this._catalog?.connection == null ||
-      (this._catalog.connection.send(new _i3ec53e560b62e3(e)),
+      (this._catalog.connection.send(new class_2622(e)),
       this._r9278fc8348c641--,
       this.var_17?.update(),
       this.closeConfirmation());

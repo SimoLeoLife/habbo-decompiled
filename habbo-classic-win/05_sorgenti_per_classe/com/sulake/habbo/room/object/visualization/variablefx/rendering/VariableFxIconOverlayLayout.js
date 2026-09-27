@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 285726.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/rendering/VariableFxIconOverlayLayout.as
-// Nome offuscato: _i1753a1dd74e7fe
+// Extracted from HabboAirLauncher.deobf.js, line 285726.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/rendering/VariableFxIconOverlayLayout.as
+// Obfuscated name: _i1753a1dd74e7fe
 
 class a {
   static {
@@ -36,7 +36,7 @@ class a {
       I = Math.max(0, -Math.min(h, this.minPlacementX(w))),
       C = Math.max(0, -Math.min(m, this.minPlacementY(w)));
     ((r.var_140 = h + I), (r.var_178 = m + C));
-    for (let R of w) r.var_1907.push(new _if1185b8b04225f(R.x + I, R.y + C));
+    for (let R of w) r.var_1907.push(new UnkClass_f1185b(R.x + I, R.y + C));
     let W = r.var_1907[0];
     return (
       (r.var_2920 = W.x),
@@ -47,8 +47,8 @@ class a {
     );
   }
   static resolveDefaultIconPlacements(e, r, t, i, s, o) {
-    let d = new _if1185b8b04225f(i, s),
-      c = new _if1185b8b04225f(r + t - o - i, s);
+    let d = new UnkClass_f1185b(i, s),
+      c = new UnkClass_f1185b(r + t - o - i, s);
     switch (e) {
       case class_4078.RIGHT:
         return [c];

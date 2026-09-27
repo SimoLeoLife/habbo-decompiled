@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 136600.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/TextFieldController.as
-// Nome offuscato: _i93d18c4bf9ff5b
+// Extracted from HabboAirLauncher.deobf.js, line 136600.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/TextFieldController.as
+// Obfuscated name: _i93d18c4bf9ff5b
 
 class a extends r1 {
   static {
@@ -39,7 +39,7 @@ class a extends r1 {
       (this._r42ff457680ff2b ??= new Pf(1, 90, 16777215, 1, 0, 0)),
       (this._filters ??= []),
       h &&
-        (this.stage.addEventListener(_i6d7150da12036f.TEXT_INPUT, this._rfaccf8092999f8),
+        (this.stage.addEventListener(UnkClass_6d7150.TEXT_INPUT, this._rfaccf8092999f8),
         this.stage.addEventListener(KeyboardControl._re9c7558bf2dcfb, this._r5977127cda351f),
         this.stage.addEventListener(KeyboardControl._re93f9c3b193f77, this._r3d3521f0952f54),
         this.stage.addEventListener(M._ra3d93f66ba77c2, this._r3685bf571ee647),

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 56165.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/assets/XmlAsset.as
-// Nome offuscato: _i0bf3291838b9a7
+// Extracted from HabboAirLauncher.deobf.js, line 56165.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/assets/XmlAsset.as
+// Obfuscated name: _i0bf3291838b9a7
 
 class a {
   constructor(e, r = null) {

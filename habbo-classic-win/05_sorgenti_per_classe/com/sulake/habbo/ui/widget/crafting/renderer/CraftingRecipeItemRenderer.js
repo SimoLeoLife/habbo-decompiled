@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 313211.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/renderer/CraftingRecipeItemRenderer.as
-// Nome offuscato: _ie4cee413b7dab0
+// Extracted from HabboAirLauncher.deobf.js, line 313211.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/renderer/CraftingRecipeItemRenderer.as
+// Obfuscated name: _ie4cee413b7dab0
 
 class extends xg {
   static {

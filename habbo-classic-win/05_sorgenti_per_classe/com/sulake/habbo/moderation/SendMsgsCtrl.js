@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 248019.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/SendMsgsCtrl.as
-// Nome offuscato: _if79b6691783178
+// Extracted from HabboAirLauncher.deobf.js, line 248019.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/SendMsgsCtrl.as
+// Obfuscated name: _if79b6691783178
 
 class a {
   constructor(e, r, t, i) {
@@ -74,7 +74,7 @@ class a {
         return;
       }
       (this._main.connection?.send(
-        new _i645e3c079f9dd6(
+        new UnkMessageComposer_4args_645e3c(
           this.var_805,
           this.var_966?.text ?? "",
           a.TOPIC_ID_NOT_SELECTED,

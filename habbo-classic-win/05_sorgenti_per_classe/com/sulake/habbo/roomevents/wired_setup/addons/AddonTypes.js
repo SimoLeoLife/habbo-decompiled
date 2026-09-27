@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 362590.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/AddonTypes.as
-// Nome offuscato: _ia10fa2e70e5a60
+// Extracted from HabboAirLauncher.deobf.js, line 362590.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/AddonTypes.as
+// Obfuscated name: _ia10fa2e70e5a60
 
 class {
   static {
@@ -23,7 +23,7 @@ class {
       this._types.push(new class_3902()),
       this._types.push(new OBe()),
       this._types.push(new SBe()),
-      this._types.push(new _i8be68424e4ac2b()),
+      this._types.push(new UnkDefaultAddonTypeSubclass_8be684()),
       this._types.push(new VBe()),
       this._types.push(new class_4297()),
       this._types.push(new class_4234()),
@@ -32,8 +32,8 @@ class {
       this._types.push(new class_4046()),
       this._types.push(new NBe()),
       this._types.push(new HBe()),
-      this._types.push(new _i6f1dbce5c79cf2()),
-      this._types.push(new _i68ed21989d3006()),
+      this._types.push(new UnkSubclassOf_class_4106_6f1dbc()),
+      this._types.push(new UnkSubclassOf_class_4106_68ed21()),
       this._types.push(new class_4184()),
       this._types.push(new class_4107()),
       this._types.push(new class_4178()),
@@ -50,6 +50,6 @@ class {
     return "addon";
   }
   _r58bebf6acaa0b3(e) {
-    return e instanceof _ie39e7d82fe88f2;
+    return e instanceof UnkSubclassOf_class_2396_e39e7d;
   }
 }

@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 255765.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/MainViewCtrl.as
+// Extracted from HabboAirLauncher.deobf.js, line 255765.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/MainViewCtrl.as
 
 class a {
   constructor(e) {
@@ -9,7 +9,7 @@ class a {
       (this._officialRooms = new OfficialRoomListCtrl(this._navigator)),
       (this.var_1549 = new RoomAdListCtrl(this._navigator, 0, !1)),
       (this.var_3955 = new lme(this._navigator)),
-      (this.var_994 = new _i05394ecc0c0c4d(300, 1)),
+      (this.var_994 = new UnkEventDispatcherWrapperSubclass_05394e(300, 1)),
       this.var_994.addEventListener(DeBouncer.addEventListener, this.onResizeTimer));
   }
   static {
@@ -185,8 +185,8 @@ class a {
         c != null && s.send(c);
       } else
         i === a._r639e5f80e6edff
-          ? s.send(new _i1e2f088e7f8248())
-          : i === a.const_403 || s.send(new _ie0bcf3981c4590(s.data._rf806c62c486d4f));
+          ? s.send(new UnkMessageComposer_0args_1e2f08())
+          : i === a.const_403 || s.send(new class_3152(s.data._rf806c62c486d4f));
       (this.isOpen()
         ? (this.var_1147 = a._r85160a8ee9a86f)
         : (this.open(),
@@ -361,7 +361,7 @@ class a {
       switch ((t.sendSearchRequest(), t.id)) {
         case We.EventsTabPageDecorator:
           (this._navigator.events.dispatchEvent?.(new M(HabboNavigatorTrackingEvent.HABBO_NAVIGATOR_TRACKING_EVENT_EVENTS)),
-            this._navigator.send(new _id6e4e5ed7732d2()));
+            this._navigator.send(new UnkMessageComposer_0args_d6e4e5()));
           break;
         case We.MyRoomsTabPageDecorator:
           this._navigator.events.dispatchEvent?.(new M(HabboNavigatorTrackingEvent.HABBO_NAVIGATOR_TRACKING_EVENT_ME));

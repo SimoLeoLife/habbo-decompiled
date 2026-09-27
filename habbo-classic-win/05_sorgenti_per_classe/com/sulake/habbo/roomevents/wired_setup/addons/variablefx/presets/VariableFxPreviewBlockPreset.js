@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 353702.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/presets/VariableFxPreviewBlockPreset.as
-// Nome offuscato: _i1a6c3c871e36e7
+// Extracted from HabboAirLauncher.deobf.js, line 353702.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/presets/VariableFxPreviewBlockPreset.as
+// Obfuscated name: _i1a6c3c871e36e7
 
 class a extends WiredUIPreset {
   static {

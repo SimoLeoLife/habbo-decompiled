@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 328117.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/ChatInputWidgetHandler.as
-// Nome offuscato: _i56969680557c90
+// Extracted from HabboAirLauncher.deobf.js, line 328117.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/ChatInputWidgetHandler.as
+// Obfuscated name: _i56969680557c90
 
 class a {
   static {
@@ -229,7 +229,7 @@ class a {
         case ":tgl": {
           if (!!1) break;
           Ae.showGame(s);
-          let c = new _i05394ecc0c0c4d(15e3, 1);
+          let c = new UnkEventDispatcherWrapperSubclass_05394e(15e3, 1);
           return (c.addEventListener(DeBouncer._rf33144eac61595, () => Ae.hideGame()), c.start(), null);
         }
         case ":li": {
@@ -319,8 +319,8 @@ class a {
         case ":hidemouse":
           return (
             this._re11a1b44d778bd
-              ? (_idb4c110baa8f94.hide(), r.roomEngine?._container(r.roomEngine.activeRoomId, 0))
-              : (_idb4c110baa8f94.show(), r.roomEngine?._container(r.roomEngine.activeRoomId, 1)),
+              ? (UnkClass_db4c11.hide(), r.roomEngine?._container(r.roomEngine.activeRoomId, 0))
+              : (UnkClass_db4c11.show(), r.roomEngine?._container(r.roomEngine.activeRoomId, 1)),
             r.roomEngine != null &&
               r.roomEngine._r98e4fd7849d947(r.roomEngine.activeRoomId, !this._re11a1b44d778bd),
             (this._re11a1b44d778bd = !this._re11a1b44d778bd),
@@ -389,10 +389,10 @@ class a {
     t != null && r.events.dispatchEvent?.(t);
   }
   _r756dae6c285b52 = n((e, r) => {
-    (r.type === "WE_OK" && this._container?.connection?.send(new _i63ed097d6c2af1(!0)), e.dispose());
+    (r.type === "WE_OK" && this._container?.connection?.send(new class_3327(!0)), e.dispose());
   }, "_r756dae6c285b52");
   _rc8680c9d4d0a61 = n((e, r) => {
-    (r.type === "WE_OK" && this._container?.connection?.send(new _i63ed097d6c2af1(!1)), e.dispose());
+    (r.type === "WE_OK" && this._container?.connection?.send(new class_3327(!1)), e.dispose());
   }, "_rc8680c9d4d0a61");
   _rd671d49ed7cac2(e) {
     e.widgetType === this.type && this.var_17?.hide();

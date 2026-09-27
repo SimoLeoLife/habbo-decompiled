@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 269911.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/RoomCompetitionController.as
-// Nome offuscato: _icb8005a5b56352
+// Extracted from HabboAirLauncher.deobf.js, line 269911.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/RoomCompetitionController.as
+// Obfuscated name: _icb8005a5b56352
 
 class a {
   constructor(e) {
@@ -19,7 +19,7 @@ class a {
   _remainingVotes = 0;
   _submit = !1;
   _dontShowAgain = !1;
-  _hideTimer = new _i05394ecc0c0c4d(3e3, 1);
+  _hideTimer = new UnkEventDispatcherWrapperSubclass_05394e(3e3, 1);
   var_1241 = 0;
   _r3334a4efb42a59 = new B();
   dispose() {
@@ -40,7 +40,7 @@ class a {
     let t = r._re5afdd33fdee01,
       i = r.var_1827;
     (this.refreshContent(r._r60d0785b4a5490, !1, r.goalCode, `${i}`),
-      this._r5ea8c9c17deaf6(i === _i9010cc11faf5ce._ra7df71aa048699 ? this._r3fa251cabe9891 : this._reada2a6dc3b165),
+      this._r5ea8c9c17deaf6(i === UnkConstants_9010cc._ra7df71aa048699 ? this._r3fa251cabe9891 : this._reada2a6dc3b165),
       this.getActionButton != null &&
         ((this.getActionButton.procedure = this._r77fec00f04fc76),
         (this.getActionButton.visible = this._remainingVotes > 0 && t)),
@@ -109,15 +109,15 @@ class a {
     let t =
       this._questEngine?.getInteger("new.identity", 0) === 0 ||
       !this._questEngine?.getBoolean("new.identity.hide.ui");
-    !this._dontShowAgain && t && ((this._submit = r.owner), this._questEngine?.send(new _i86ce8246ea4c2b()));
+    !this._dontShowAgain && t && ((this._submit = r.owner), this._questEngine?.send(new UnkMessageComposer_0args_86ce82()));
   }
   _r7b256b00b1d95e() {
-    this._questEngine?.send(new _i86ce8246ea4c2b());
+    this._questEngine?.send(new UnkMessageComposer_0args_86ce82());
   }
   _r17909e021af2d1() {
     this._window?.visible &&
       this._submit &&
-      this._questEngine?.send(new _i501038fc0f426f(this._goalCode, _i501038fc0f426f._r67f92b4ec50a26));
+      this._questEngine?.send(new UnkMessageComposer_2args_501038(this._goalCode, UnkMessageComposer_2args_501038._r67f92b4ec50a26));
   }
   set dontShowAgain(e) {
     this._dontShowAgain = e;
@@ -237,16 +237,16 @@ class a {
       this._questEngine.send(new class_2687(this._questEngine.sessionDataManager.currentTalentTrack)));
   }, "_r3fa251cabe9891");
   _r7e9a0ce1254dde = n((e) => {
-    e.type === u.CLICK && this._questEngine?.send(new _i501038fc0f426f(this._goalCode, _i501038fc0f426f._r24987a904b796f));
+    e.type === u.CLICK && this._questEngine?.send(new UnkMessageComposer_2args_501038(this._goalCode, UnkMessageComposer_2args_501038._r24987a904b796f));
   }, "_r7e9a0ce1254dde");
   _r9932eb1a427f5a = n((e) => {
-    e.type === u.CLICK && this._questEngine?.send(new _i501038fc0f426f(this._goalCode, _i501038fc0f426f._rc2fbd4b2cdb3aa));
+    e.type === u.CLICK && this._questEngine?.send(new UnkMessageComposer_2args_501038(this._goalCode, UnkMessageComposer_2args_501038._rc2fbd4b2cdb3aa));
   }, "_r9932eb1a427f5a");
   _r15770df497942b = n((e) => {
-    e.type === u.CLICK && this._questEngine?.send(new _i501038fc0f426f(this._goalCode, _i501038fc0f426f._r4aeb1069bd9e7c));
+    e.type === u.CLICK && this._questEngine?.send(new UnkMessageComposer_2args_501038(this._goalCode, UnkMessageComposer_2args_501038._r4aeb1069bd9e7c));
   }, "_r15770df497942b");
   _r77fec00f04fc76 = n((e) => {
-    e.type === u.CLICK && this._questEngine?.send(new _i51137a269b2e9f(this._goalCode));
+    e.type === u.CLICK && this._questEngine?.send(new UnkMessageComposer_1args_51137a(this._goalCode));
   }, "_r77fec00f04fc76");
   onClose = n((e) => {
     if (e.type !== u.CLICK || this._window == null || this._questEngine == null) return;

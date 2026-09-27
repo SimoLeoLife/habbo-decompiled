@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 142785.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/BitmapFillSkinRenderer.as
-// Nome offuscato: _i6998bccc1c94e5
+// Extracted from HabboAirLauncher.deobf.js, line 142785.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/BitmapFillSkinRenderer.as
+// Obfuscated name: _i6998bccc1c94e5
 
 class a extends SkinRenderer {
   static {
@@ -9,9 +9,9 @@ class a extends SkinRenderer {
   static R = 0.212671;
   static G = 0.71516;
   static B = 0.072169;
-  static SHAPE = new _ic6b6cdf3ccea3d();
+  static SHAPE = new UnkClass_c6b6cd();
   static MATRIX = new Pe();
-  static COLOR_TRANSFORM = new _i4210dc3239901d();
+  static COLOR_TRANSFORM = new UnkClass_4210dc();
   static GREYSCALE_FILTER = new ColorMatrixFilter_();
   static ZERO_POINT = new E();
   var_164 = null;

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 346045.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/HtmlPreset.as
-// Nome offuscato: _id99ce0f7d4575f
+// Extracted from HabboAirLauncher.deobf.js, line 346045.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/HtmlPreset.as
+// Obfuscated name: _id99ce0f7d4575f
 
 class extends TextPreset {
   static {

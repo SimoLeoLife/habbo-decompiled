@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 169384.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/Animation.as
-// Nome offuscato: _i854ad0adf527a0
+// Extracted from HabboAirLauncher.deobf.js, line 169384.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/Animation.as
+// Obfuscated name: _i854ad0adf527a0
 
 class a {
   static {

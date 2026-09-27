@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 224988.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/ExtendedProfileWindowCtrl.as
-// Nome offuscato: _ia0ab39c85fef69
+// Extracted from HabboAirLauncher.deobf.js, line 224988.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/ExtendedProfileWindowCtrl.as
+// Obfuscated name: _ia0ab39c85fef69
 
 class a {
   static {
@@ -57,7 +57,7 @@ class a {
       (this._data.guilds.length > 0
         ? ((this.var_433 = this._data.guilds[0].groupId), (t = this._data.guilds[0]))
         : (this.var_433 = 0)),
-      this.var_433 > 0 && this.var_41?.send(new _i494540f04bf21d(this.var_433, !1)),
+      this.var_433 > 0 && this.var_41?.send(new class_1949(this.var_433, !1)),
       this.refresh(r),
       this._window != null &&
         ((this._window.visible = !0), this._rd523729a11ac98 || this._window.activate()),
@@ -507,19 +507,19 @@ class a {
   _rffb03fc4ee8358 = n((e, r) => {
     e.type === u.CLICK &&
       ((this.var_433 = r.id),
-      this.var_41?.send(new _i494540f04bf21d(this.var_433, !1)),
+      this.var_41?.send(new class_1949(this.var_433, !1)),
       this.var_41?.send(new class_2154(a.GROUPS_TRACKING_CATEGORY, String(r.id), "select")),
       this.refreshGroupListSelection());
   }, "_rffb03fc4ee8358");
   _r3888682b891ede = n((e, r) => {
     e.type === u.CLICK &&
-      (this.var_41?.send(new _iec45f45ee775ab(r.id)),
+      (this.var_41?.send(new UnkMessageComposer_1args_ec45f4(r.id)),
       this.var_41?.send(new class_2154(a.GROUPS_TRACKING_CATEGORY, String(r.parent?.id ?? r.id), "make favourite")),
       (this.var_433 = r.id));
   }, "_r3888682b891ede");
   _r691a76ed92c713 = n((e, r) => {
     e.type === u.CLICK &&
-      (this.var_41?.send(new _i17f2164582ac32(r.id)),
+      (this.var_41?.send(new UnkMessageComposer_1args_17f216(r.id)),
       this.var_41?.send(
         new class_2154(a.GROUPS_TRACKING_CATEGORY, String(r.parent?.id ?? r.id), "clear favourite"),
       ),

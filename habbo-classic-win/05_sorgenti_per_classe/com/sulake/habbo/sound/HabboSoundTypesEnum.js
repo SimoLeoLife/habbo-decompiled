@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 162192.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/HabboSoundTypesEnum.as
-// Nome offuscato: _i84bacb6a01b95d
+// Extracted from HabboAirLauncher.deobf.js, line 162192.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/HabboSoundTypesEnum.as
+// Obfuscated name: _i84bacb6a01b95d
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 67610.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/pets/class_3447.as
-// Nome offuscato: _i4b7c673b25668f
+// Extracted from HabboAirLauncher.deobf.js, line 67610.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/pets/class_3447.as
+// Obfuscated name: _i4b7c673b25668f
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 191576.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/NewPetsCatalogWidget.as
-// Nome offuscato: _i2e49d9857ab96f
+// Extracted from HabboAirLauncher.deobf.js, line 191576.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/NewPetsCatalogWidget.as
+// Obfuscated name: _i2e49d9857ab96f
 
 class a extends CatalogWidget {
   constructor(r, t) {
@@ -71,9 +71,9 @@ class a extends CatalogWidget {
   imageFailed(r) {}
   _rd886c8bcbe0933 = n((r = null) => {
     if (this._rc63b0340e99313) return;
-    this.events?.dispatchEvent?.(new _i121d99a7e32a38(this._r7f47dd305b3bb7));
+    this.events?.dispatchEvent?.(new UnkClass_121d99(this._r7f47dd305b3bb7));
     let t = this._offers?.getWithIndex(0) ?? null;
-    (t != null && this.events?.dispatchEvent?.(new _idfee6137b0eb86(t)), this.initializePaletteSelection());
+    (t != null && this.events?.dispatchEvent?.(new UnkClass_dfee61(t)), this.initializePaletteSelection());
   }, "_rd886c8bcbe0933");
   initializePaletteSelection() {
     if (this._r54a43947bb7f54 == null) return;

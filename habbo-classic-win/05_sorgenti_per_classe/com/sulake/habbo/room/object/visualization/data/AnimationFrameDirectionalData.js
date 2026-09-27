@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 275423.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/data/AnimationFrameDirectionalData.as
-// Nome offuscato: _ifefa50c339c68e
+// Extracted from HabboAirLauncher.deobf.js, line 275423.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/data/AnimationFrameDirectionalData.as
+// Obfuscated name: _ifefa50c339c68e
 
 class extends AnimationFrameData {
   constructor(r, t, i, s, o, d, c) {

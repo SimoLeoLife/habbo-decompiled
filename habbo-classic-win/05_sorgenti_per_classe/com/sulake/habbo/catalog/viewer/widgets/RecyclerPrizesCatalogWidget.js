@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 194484.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/RecyclerPrizesCatalogWidget.as
-// Nome offuscato: _i9cff5a83918bc0
+// Extracted from HabboAirLauncher.deobf.js, line 194484.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/RecyclerPrizesCatalogWidget.as
+// Obfuscated name: _i9cff5a83918bc0
 
 class a extends CatalogWidget {
   static {

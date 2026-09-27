@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 355662.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_chests/TransactionPreviewTableObject.as
-// Nome offuscato: _i11e0babef7ba3c
+// Extracted from HabboAirLauncher.deobf.js, line 355662.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_chests/TransactionPreviewTableObject.as
+// Obfuscated name: _i11e0babef7ba3c
 
 class {
   constructor(e, r) {

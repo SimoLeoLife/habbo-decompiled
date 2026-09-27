@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 209111.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/RoomHopperNetworkWidget.as
-// Nome offuscato: _i7a51171b535c07
+// Extracted from HabboAirLauncher.deobf.js, line 209111.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/RoomHopperNetworkWidget.as
+// Obfuscated name: _i7a51171b535c07
 
 class {
   constructor(e) {

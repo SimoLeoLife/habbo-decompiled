@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 249015.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/OpenRoomTool.as
-// Nome offuscato: _i65b93a88820a33
+// Extracted from HabboAirLauncher.deobf.js, line 249015.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/OpenRoomTool.as
+// Obfuscated name: _i65b93a88820a33
 
 class {
   constructor(e, r, t, i) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 266283.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/data/RewardTrack.as
-// Nome offuscato: _ide29040a1e3d12
+// Extracted from HabboAirLauncher.deobf.js, line 266283.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/data/RewardTrack.as
+// Obfuscated name: _ide29040a1e3d12
 
 class {
   static {

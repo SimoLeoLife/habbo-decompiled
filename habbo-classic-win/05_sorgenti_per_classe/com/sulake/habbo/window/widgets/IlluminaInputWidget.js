@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 149824.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/IlluminaInputWidget.as
-// Nome offuscato: _i0624c5c3f065a4
+// Extracted from HabboAirLauncher.deobf.js, line 149824.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/IlluminaInputWidget.as
+// Obfuscated name: _i0624c5c3f065a4
 
 class a {
   constructor(e, r) {

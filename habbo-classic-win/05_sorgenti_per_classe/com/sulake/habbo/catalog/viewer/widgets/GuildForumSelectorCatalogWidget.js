@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 192601.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/GuildForumSelectorCatalogWidget.as
-// Nome offuscato: _ia3976122ea3d24
+// Extracted from HabboAirLauncher.deobf.js, line 192601.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/GuildForumSelectorCatalogWidget.as
+// Obfuscated name: _ia3976122ea3d24
 
 class extends Ez {
   static {

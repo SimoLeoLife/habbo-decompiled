@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 229699.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/guidehelp/HelpController.as
-// Nome offuscato: _i8b04e8d294f3e0
+// Extracted from HabboAirLauncher.deobf.js, line 229699.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/guidehelp/HelpController.as
+// Obfuscated name: _i8b04e8d294f3e0
 
 class {
   constructor(e) {
@@ -49,14 +49,14 @@ class {
     if (e._r8adee34c738777) r = "pending_guide_session";
     else
       switch (e.type) {
-        case _id64457360695fc._rb6595d1a1fe905:
-        case _id64457360695fc._rba379f7c9c44bb:
+        case UnkConstants_d64457._rb6595d1a1fe905:
+        case UnkConstants_d64457._rba379f7c9c44bb:
           r = "pending_tour_request";
           break;
-        case _id64457360695fc._r5c4ffc3b81a5d4:
+        case UnkConstants_d64457._r5c4ffc3b81a5d4:
           r = "pending_instructions_request";
           break;
-        case _id64457360695fc._r5ec251b1280db0:
+        case UnkConstants_d64457._r5ec251b1280db0:
           r = "pending_bully_request";
           break;
         default:
@@ -70,12 +70,12 @@ class {
         !e._r8adee34c738777))
     )
       switch (e.type) {
-        case _id64457360695fc._r5c4ffc3b81a5d4:
+        case UnkConstants_d64457._r5c4ffc3b81a5d4:
           ((this.var_654.findChildByName("description").caption = e.description ?? ""),
             ((this.var_654.findChildByName("timestamp")?.widget).timeStamp =
               Date.now() - e._r83f0646adec737 * 1e3));
           break;
-        case _id64457360695fc._r5ec251b1280db0:
+        case UnkConstants_d64457._r5ec251b1280db0:
           ((this.var_654.findChildByName("user_name").caption = e._rf9d7691c8d6183 ?? ""),
             ((this.var_654.findChildByName("user_avatar")?.widget).figure =
               e._r121475978b61a8 ?? ""),
@@ -107,7 +107,7 @@ class {
           break;
         case "tour_button":
           (this._r81763b91025ebb?.onInput(
-            t.newIdentity ? _id64457360695fc._rb6595d1a1fe905 : _id64457360695fc._rba379f7c9c44bb,
+            t.newIdentity ? UnkConstants_d64457._rb6595d1a1fe905 : UnkConstants_d64457._rba379f7c9c44bb,
           ),
             t.trackGoogle("helpWindow", "click_userTour"),
             this.closeWindow());
@@ -116,7 +116,7 @@ class {
           (this.closeWindow(), t._rcc22aff4331642(), t.trackGoogle("helpWindow", "click_reportBully"));
           break;
         case "instructions_button":
-          (this._r81763b91025ebb?.onInput(_id64457360695fc._r5c4ffc3b81a5d4),
+          (this._r81763b91025ebb?.onInput(UnkConstants_d64457._r5c4ffc3b81a5d4),
             t.trackGoogle("helpWindow", "click_instructions"),
             this.closeWindow());
           break;
@@ -165,7 +165,7 @@ class {
           this.closeTourPopup());
         break;
       case "take_tour":
-        (this._r81763b91025ebb?.onInput(_id64457360695fc._rb6595d1a1fe905),
+        (this._r81763b91025ebb?.onInput(UnkConstants_d64457._rb6595d1a1fe905),
           t.tracking?.trackEventLog("Help", "", "tour.new_user.accept", "", i),
           t.trackGoogle("newbieTourWindow", "click_acceptTour"),
           this.closeTourPopup());

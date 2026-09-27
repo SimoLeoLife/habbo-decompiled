@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 129092.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/WindowController.as
-// Nome offuscato: _i7242511bfdd190
+// Extracted from HabboAirLauncher.deobf.js, line 129092.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/WindowController.as
+// Obfuscated name: _i7242511bfdd190
 
 class a extends Zue {
     static {
@@ -1631,8 +1631,8 @@ class a extends Zue {
         let r = this.getGraphicContext(!1);
         r &&
           (this._r1565a157f96c52
-            ? ((r.mouse = !0), r.addEventListener?.(_ifd7c1208e3417e.CLICK, this._r6990cf80e52d01))
-            : ((r.mouse = !1), r.removeEventListener?.(_ifd7c1208e3417e.CLICK, this._r6990cf80e52d01)));
+            ? ((r.mouse = !0), r.addEventListener?.(UnkClass_fd7c12.CLICK, this._r6990cf80e52d01))
+            : ((r.mouse = !1), r.removeEventListener?.(UnkClass_fd7c12.CLICK, this._r6990cf80e52d01)));
       }
     }
     immediateClickHandler(e) {

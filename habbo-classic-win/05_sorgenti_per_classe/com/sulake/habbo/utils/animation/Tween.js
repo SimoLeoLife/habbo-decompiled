@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 69101.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/animation/Tween.as
-// Nome offuscato: _i1644d161fa104f
+// Extracted from HabboAirLauncher.deobf.js, line 69101.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/animation/Tween.as
+// Obfuscated name: _i1644d161fa104f
 
 class a extends EventDispatcherWrapper {
   static {

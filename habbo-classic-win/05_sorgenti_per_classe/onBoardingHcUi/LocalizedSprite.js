@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 71049.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/onBoardingHcUi/LocalizedSprite.as
-// Nome offuscato: _ide2e6c877ee0d8
+// Extracted from HabboAirLauncher.deobf.js, line 71049.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/onBoardingHcUi/LocalizedSprite.as
+// Obfuscated name: _ide2e6c877ee0d8
 
 class a extends Sprite {
   static {

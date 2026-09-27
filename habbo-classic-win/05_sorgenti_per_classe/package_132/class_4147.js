@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 126803.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_132/class_4147.as
-// Nome offuscato: _ic622e2c838997e
+// Extracted from HabboAirLauncher.deobf.js, line 126803.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_132/class_4147.as
+// Obfuscated name: _ic622e2c838997e
 
 class {
     static {
@@ -23,7 +23,7 @@ class {
         (this.var_3477 = e.readBoolean()),
         (this.class_4246 = []));
       let r = e.readInteger();
-      for (let t = 0; t < r; t++) this.class_4246.push(new _ia8ceca3c0b0f1e(e));
+      for (let t = 0; t < r; t++) this.class_4246.push(new UnkClass_a8ceca(e));
     }
     get id() {
       return this._id;

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 141062.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/TabButtonController.as
-// Nome offuscato: _ie09dfc29b34183
+// Extracted from HabboAirLauncher.deobf.js, line 141062.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/TabButtonController.as
+// Obfuscated name: _ie09dfc29b34183
 
 class a extends SelectableController {
   static {

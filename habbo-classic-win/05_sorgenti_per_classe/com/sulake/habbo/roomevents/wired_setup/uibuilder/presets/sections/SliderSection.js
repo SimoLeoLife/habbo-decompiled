@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 350870.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/sections/SliderSection.as
-// Nome offuscato: _i4734d8a125de31
+// Extracted from HabboAirLauncher.deobf.js, line 350870.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/sections/SliderSection.as
+// Obfuscated name: _i4734d8a125de31
 
 class extends AbstractSectionPreset {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 66111.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/events/WindowTouchEvent.as
-// Nome offuscato: _i7896fc47d7f527
+// Extracted from HabboAirLauncher.deobf.js, line 66111.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/events/WindowTouchEvent.as
+// Obfuscated name: _i7896fc47d7f527
 
 class a extends y {
   static {

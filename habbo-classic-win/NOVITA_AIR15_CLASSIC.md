@@ -59,7 +59,7 @@ emulazione. Quelli propri del client sono pochi:
 
 ## Connessione: WebSocket al posto del socket TCP
 
-La classe che in AS3 era il socket (`_i28a7b58ffe1ff6`, erede di
+La classe che in AS3 era il socket (`_i28a7b58ffe1ff6`, nome segnaposto `UnkEventDispatcherWrapperSubclass_28a7b5`, erede di
 `EventDispatcherWrapper`) ne riproduce l'interfaccia (`readInt`, `readShort`,
 `writeBytes`, `endian`, `bytesAvailable`) ma usa un **WebSocket binario**:
 
@@ -151,8 +151,8 @@ essere riconosciute.
 
 ## Evidenze navigabili
 
-- Connessione: `05_sorgenti_per_classe/_non_abbinate/_i28a7b58ffe1ff6.js`.
+- Connessione: `05_sorgenti_per_classe/_unmatched/UnkEventDispatcherWrapperSubclass_28a7b5.js`.
 - Avvio, renderer e sessione: `04_sorgenti_js/HabboAirLauncher.deobf.js`, funzioni
   `productionStartupArguments`, `initializeGraphicsApplication`,
   `installRendererSettings`, `showRendererFallbackNotice`, classe `HabboAirLaunchStage`.
-- Corrispondenze complete JS ↔ AIR 15: `06_report/classi.csv`, `06_report/membri.csv`.
+- Corrispondenze complete JS ↔ AIR 15: `06_report/classes.csv`, `06_report/members.csv`.

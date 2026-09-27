@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 160752.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetPlayListEditorEvent.as
-// Nome offuscato: _ie386e16be415c5
+// Extracted from HabboAirLauncher.deobf.js, line 160752.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetPlayListEditorEvent.as
+// Obfuscated name: _ie386e16be415c5
 
 class extends RoomWidgetUpdateEvent {
   constructor(r, t = -1, i = !1, s = !1) {

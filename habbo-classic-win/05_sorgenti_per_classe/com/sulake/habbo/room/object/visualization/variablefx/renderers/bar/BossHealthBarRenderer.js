@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 287075.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/bar/BossHealthBarRenderer.as
+// Extracted from HabboAirLauncher.deobf.js, line 287075.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/bar/BossHealthBarRenderer.as
 
 class a extends j1 {
   static {

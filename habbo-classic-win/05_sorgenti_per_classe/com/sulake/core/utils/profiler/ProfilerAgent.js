@@ -1,8 +1,8 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 59654.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/utils/profiler/ProfilerAgent.as
-// Nome offuscato: _i907b5b803dddfa
+// Extracted from HabboAirLauncher.deobf.js, line 59654.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/utils/profiler/ProfilerAgent.as
+// Obfuscated name: _i907b5b803dddfa
 
-class extends _ib37ab1aa45cc9f {
+class extends UnkClass_b37ab1 {
   constructor(r) {
     let t = r != null ? _iad1dc21ca35e21(r) : "UnknownReceiver";
     super(t.slice(t.lastIndexOf(":") + 1));

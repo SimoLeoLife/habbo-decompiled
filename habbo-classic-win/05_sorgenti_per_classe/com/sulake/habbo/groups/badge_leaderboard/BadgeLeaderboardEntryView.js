@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 227800.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge_leaderboard/BadgeLeaderboardEntryView.as
-// Nome offuscato: _i65ecebb38489a5
+// Extracted from HabboAirLauncher.deobf.js, line 227800.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge_leaderboard/BadgeLeaderboardEntryView.as
+// Obfuscated name: _i65ecebb38489a5
 
 class {
   constructor(e, r = !0, t = "rank_number") {

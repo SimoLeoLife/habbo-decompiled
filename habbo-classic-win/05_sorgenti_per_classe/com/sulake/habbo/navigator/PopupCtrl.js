@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 254789.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/PopupCtrl.as
-// Nome offuscato: _i5916e83de6ced6
+// Extracted from HabboAirLauncher.deobf.js, line 254789.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/PopupCtrl.as
+// Obfuscated name: _i5916e83de6ced6
 
 class {
   constructor(e, r, t, i) {
@@ -14,8 +14,8 @@ class {
   static {
     n(this, "PopupCtrl");
   }
-  _r2954510bdcbbdc = new _i05394ecc0c0c4d(500, 1);
-  _hideTimer = new _i05394ecc0c0c4d(100, 1);
+  _r2954510bdcbbdc = new UnkEventDispatcherWrapperSubclass_05394e(500, 1);
+  _hideTimer = new UnkEventDispatcherWrapperSubclass_05394e(100, 1);
   _popup = null;
   get navigator() {
     return this._navigator;

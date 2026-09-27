@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 160297.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetFurniInfoUpdateEvent.as
-// Nome offuscato: _idc1039edd6cd0f
+// Extracted from HabboAirLauncher.deobf.js, line 160297.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetFurniInfoUpdateEvent.as
+// Obfuscated name: _idc1039edd6cd0f
 
 class extends RoomWidgetUpdateEvent {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 338325.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/trax/TraxSample.as
-// Nome offuscato: _i1f262830f4a4e6
+// Extracted from HabboAirLauncher.deobf.js, line 338325.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/trax/TraxSample.as
+// Obfuscated name: _i1f262830f4a4e6
 
 class a {
   constructor(e, r, t = a.SAMPLE_FREQUENCY_44KHZ, i = a.SAMPLE_SCALE_16BIT) {

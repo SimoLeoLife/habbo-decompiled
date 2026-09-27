@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 306356.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/BreedMonsterPlantsConfirmationView.as
-// Nome offuscato: _ib449dd467f115e
+// Extracted from HabboAirLauncher.deobf.js, line 306356.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/BreedMonsterPlantsConfirmationView.as
+// Obfuscated name: _ib449dd467f115e
 
 class a {
   constructor(e) {

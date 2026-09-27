@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145564.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/ConfirmDialog.as
-// Nome offuscato: _ia78d790d70bb2a
+// Extracted from HabboAirLauncher.deobf.js, line 145564.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/ConfirmDialog.as
+// Obfuscated name: _ia78d790d70bb2a
 
 class extends c0 {
   static {

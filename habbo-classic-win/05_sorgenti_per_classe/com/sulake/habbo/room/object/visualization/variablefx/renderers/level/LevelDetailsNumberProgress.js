@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 288907.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/level/LevelDetailsNumberProgress.as
-// Nome offuscato: _i570c5c44a0830d
+// Extracted from HabboAirLauncher.deobf.js, line 288907.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/level/LevelDetailsNumberProgress.as
+// Obfuscated name: _i570c5c44a0830d
 
 class a {
   static {

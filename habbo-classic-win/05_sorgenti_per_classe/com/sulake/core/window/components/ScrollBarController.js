@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 140242.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/ScrollBarController.as
-// Nome offuscato: _i6aecf95d73a416
+// Extracted from HabboAirLauncher.deobf.js, line 140242.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/ScrollBarController.as
+// Obfuscated name: _i6aecf95d73a416
 
 class a extends Ci {
   static {

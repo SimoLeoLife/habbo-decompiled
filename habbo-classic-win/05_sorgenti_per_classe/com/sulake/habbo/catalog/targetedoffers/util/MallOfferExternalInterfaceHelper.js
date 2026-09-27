@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 187789.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/targetedoffers/util/MallOfferExternalInterfaceHelper.as
-// Nome offuscato: _ia6eddae2cee010
+// Extracted from HabboAirLauncher.deobf.js, line 187789.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/targetedoffers/util/MallOfferExternalInterfaceHelper.as
+// Obfuscated name: _ia6eddae2cee010
 
 class a {
   constructor(e) {

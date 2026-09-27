@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 335419.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/BadgeImageManager.as
-// Nome offuscato: _iea7eec089a9432
+// Extracted from HabboAirLauncher.deobf.js, line 335419.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/BadgeImageManager.as
+// Obfuscated name: _iea7eec089a9432
 
 class a {
   constructor(e, r, t) {
@@ -65,7 +65,7 @@ class a {
         return null;
     }
     return (
-      (this._assets?.loadAssetFromFile(i, new _i636490202c0f9a(s), "image/png") ?? null)?.addEventListener(
+      (this._assets?.loadAssetFromFile(i, new UnkClass_636490(s), "image/png") ?? null)?.addEventListener(
         Le.ASSET_LOADER_EVENT_COMPLETE,
         this._r919c0ab2a93eac,
       ),

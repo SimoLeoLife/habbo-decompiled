@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 221336.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/class_2527.as
-// Nome offuscato: _i063eadf76af6a8
+// Extracted from HabboAirLauncher.deobf.js, line 221336.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/class_2527.as
+// Obfuscated name: _i063eadf76af6a8
 
 class a extends class_2526 {
   static {

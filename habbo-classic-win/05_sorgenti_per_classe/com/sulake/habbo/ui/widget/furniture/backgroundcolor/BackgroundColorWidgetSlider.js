@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 314630.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/backgroundcolor/BackgroundColorWidgetSlider.as
-// Nome offuscato: _i226e02bd3d4093
+// Extracted from HabboAirLauncher.deobf.js, line 314630.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/backgroundcolor/BackgroundColorWidgetSlider.as
+// Obfuscated name: _i226e02bd3d4093
 
 class a {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 165068.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/view/AvatarEditorNameChangeView.as
-// Nome offuscato: _i97b65d24f5d16a
+// Extracted from HabboAirLauncher.deobf.js, line 165068.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/view/AvatarEditorNameChangeView.as
+// Obfuscated name: _i97b65d24f5d16a
 
 class a {
   static {

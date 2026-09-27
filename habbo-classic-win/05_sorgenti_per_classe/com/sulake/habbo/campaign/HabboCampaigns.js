@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 339676.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/campaign/HabboCampaigns.as
-// Nome offuscato: _i8a76ef9fa8555c
+// Extracted from HabboAirLauncher.deobf.js, line 339676.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/campaign/HabboCampaigns.as
+// Obfuscated name: _i8a76ef9fa8555c
 
 class extends ue {
   static {
@@ -43,7 +43,7 @@ class extends ue {
       r = n((t) => this._r177b0914e42555(t), "_i177b0914e42555");
     (!1,
       this._r6358b2bd53ae19 != null &&
-        ((this._r31913058cb5ad8 = new _ieef5e9e4651fc7(e)),
+        ((this._r31913058cb5ad8 = new UnkMessageEvent_eef5e9(e)),
         (this._r9b4a7402b05726 = new class_2616(r)),
         this._r6358b2bd53ae19._r2e106e2349a0b6(this._r31913058cb5ad8),
         this._r6358b2bd53ae19._r2e106e2349a0b6(this._r9b4a7402b05726)),
@@ -68,13 +68,13 @@ class extends ue {
     ((this._r4a0c02da105664 = e),
       !1,
       this._re98069f3afba99 != null &&
-        this._r6358b2bd53ae19?.connection?.send(new _i8704fcb55b80b0(this._re98069f3afba99.campaignName, e)));
+        this._r6358b2bd53ae19?.connection?.send(new UnkMessageComposer_2args_8704fc(this._re98069f3afba99.campaignName, e)));
   }
   _rdd72155a261595(e) {
     ((this._r4a0c02da105664 = e),
       !1,
       this._re98069f3afba99 != null &&
-        this._r6358b2bd53ae19?.connection?.send(new _i21c19f3567d2a4(this._re98069f3afba99.campaignName, e)));
+        this._r6358b2bd53ae19?.connection?.send(new UnkMessageComposer_2args_21c19f(this._re98069f3afba99.campaignName, e)));
   }
   get linkPattern() {
     return "openView/";

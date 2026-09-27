@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 310667.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chatinput/habbiconselector/HabbiconSelector.as
-// Nome offuscato: _ib6eee109c4c5b5
+// Extracted from HabboAirLauncher.deobf.js, line 310667.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chatinput/habbiconselector/HabbiconSelector.as
+// Obfuscated name: _ib6eee109c4c5b5
 
 class a {
   constructor(e, r, t) {
@@ -309,7 +309,7 @@ class a {
     return e == null ||
       (e._rf4d14ad73f880a !== HabbiconState.const_101 && e._rf4d14ad73f880a !== HabbiconState.const_893)
       ? null
-      : new _i0122c3c29c9fb0(
+      : new UnkClass_0122c3(
           e.habbiconId,
           this.resolveEntryName(e.habbiconId),
           this.seededColor((e.habbiconId * 37) | 0),
@@ -478,7 +478,7 @@ class a {
       e.shiftKey || this.hide(!1));
   }, "_r2e88de9405dd26");
   _r3e64271c1d43ed(e) {
-    this.var_159.widget.handler.container.connection.send(new _iedbb78e14cd78e(e));
+    this.var_159.widget.handler.container.connection.send(new UnkMessageComposer_1args_edbb78(e));
   }
   isUnseen(e) {
     return this.var_63?._rd94b5da83c889e(e) ?? !1;

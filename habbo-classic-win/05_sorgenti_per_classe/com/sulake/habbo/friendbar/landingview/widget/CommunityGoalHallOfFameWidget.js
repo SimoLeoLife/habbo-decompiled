@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 207096.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/CommunityGoalHallOfFameWidget.as
-// Nome offuscato: _i110317aabcb052
+// Extracted from HabboAirLauncher.deobf.js, line 207096.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/CommunityGoalHallOfFameWidget.as
+// Obfuscated name: _i110317aabcb052
 
 class extends UserListWidget {
   static {
@@ -50,7 +50,7 @@ class extends UserListWidget {
     return this.landingView.getBoolean("landing.view.communitygoalhof.hasroomlink");
   }
   _r5d4733d09209ab(e) {
-    this._data != null && this.landingView.send(new _i4f56aec2b8b737(this._data.goalCode, e.userId));
+    this._data != null && this.landingView.send(new class_3211(this._data.goalCode, e.userId));
   }
   onCommunityGoalHallOfFame(e) {
     ((this._data = e.getParser()?.data ?? null), this.refreshContent());

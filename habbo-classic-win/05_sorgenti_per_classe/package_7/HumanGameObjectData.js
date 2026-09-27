@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 125758.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_7/HumanGameObjectData.as
-// Nome offuscato: _iec54fc03e150b5
+// Extracted from HabboAirLauncher.deobf.js, line 125758.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_7/HumanGameObjectData.as
+// Obfuscated name: _iec54fc03e150b5
 
 class a extends Xa {
     static {

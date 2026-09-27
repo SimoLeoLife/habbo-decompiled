@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 347590.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/SimpleListViewPreset.as
-// Nome offuscato: _i8d0d248c3bfd40
+// Extracted from HabboAirLauncher.deobf.js, line 347590.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/SimpleListViewPreset.as
+// Obfuscated name: _i8d0d248c3bfd40
 
 class extends WiredUIPreset {
   static {

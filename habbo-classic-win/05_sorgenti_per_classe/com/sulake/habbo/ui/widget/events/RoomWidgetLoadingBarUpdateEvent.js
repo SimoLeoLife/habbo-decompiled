@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 160347.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetLoadingBarUpdateEvent.as
-// Nome offuscato: _ie04757924958d7
+// Extracted from HabboAirLauncher.deobf.js, line 160347.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetLoadingBarUpdateEvent.as
+// Obfuscated name: _ie04757924958d7
 
 class extends RoomWidgetUpdateEvent {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 210322.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/talent/TalentLevelUpController.as
-// Nome offuscato: _ia3e4831a2119e4
+// Extracted from HabboAirLauncher.deobf.js, line 210322.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/talent/TalentLevelUpController.as
+// Obfuscated name: _ia3e4831a2119e4
 
 class {
   static {

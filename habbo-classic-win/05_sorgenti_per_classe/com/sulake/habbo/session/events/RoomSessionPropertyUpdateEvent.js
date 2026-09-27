@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 159603.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionPropertyUpdateEvent.as
-// Nome offuscato: _i75c6a0b0833706
+// Extracted from HabboAirLauncher.deobf.js, line 159603.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionPropertyUpdateEvent.as
+// Obfuscated name: _i75c6a0b0833706
 
 class extends RoomSessionEvent {
   static {

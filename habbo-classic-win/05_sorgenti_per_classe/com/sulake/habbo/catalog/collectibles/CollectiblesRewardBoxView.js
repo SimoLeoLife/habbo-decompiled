@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 174072.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/CollectiblesRewardBoxView.as
-// Nome offuscato: _ic14aafed7de9bd
+// Extracted from HabboAirLauncher.deobf.js, line 174072.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/CollectiblesRewardBoxView.as
+// Obfuscated name: _ic14aafed7de9bd
 
 class a {
   constructor(e, r) {

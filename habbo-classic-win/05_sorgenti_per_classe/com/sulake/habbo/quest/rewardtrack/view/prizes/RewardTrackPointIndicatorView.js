@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 266835.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/prizes/RewardTrackPointIndicatorView.as
-// Nome offuscato: _i27f430edfb62d2
+// Extracted from HabboAirLauncher.deobf.js, line 266835.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/prizes/RewardTrackPointIndicatorView.as
+// Obfuscated name: _i27f430edfb62d2
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 325760.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/roomtools/RoomToolsInfoCtrl.as
-// Nome offuscato: _id442b9f2ff4cc7
+// Extracted from HabboAirLauncher.deobf.js, line 325760.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/roomtools/RoomToolsInfoCtrl.as
+// Obfuscated name: _id442b9f2ff4cc7
 
 class a extends RoomToolsCtrlBase {
   static {
@@ -73,9 +73,9 @@ class a extends RoomToolsCtrlBase {
       this.var_17._rcf65342580ee18() +
       a.MARGIN;
     (this._r29ee9e5815d628(),
-      (this._r47db2bfc974a3b = new _iebb480f306747f(
-        new _i7dc350c0d8a790(new _i67c9fd08696d20(this._window, RoomToolsCtrlBase.const_1320, r, this._window.y), 1),
-        new _ic903bebd8997c3(this._r0043e7291c3eaf),
+      (this._r47db2bfc974a3b = new UnkMotionSubclass_ebb480(
+        new UnkClass_7dc350(new UnkClass_67c9fd(this._window, RoomToolsCtrlBase.const_1320, r, this._window.y), 1),
+        new UnkMotionSubclass_c903be(this._r0043e7291c3eaf),
       )),
       us.DropBounce(this._r47db2bfc974a3b));
   }
@@ -83,8 +83,8 @@ class a extends RoomToolsCtrlBase {
     this._window != null &&
       (this.setCollapsed(e),
       this._r29ee9e5815d628(),
-      (this._r47db2bfc974a3b = new _i7dc350c0d8a790(
-        new _i67c9fd08696d20(
+      (this._r47db2bfc974a3b = new UnkClass_7dc350(
+        new UnkClass_67c9fd(
           this._window,
           RoomToolsCtrlBase.const_1320,
           this.var_17._rcf65342580ee18() + a.MARGIN,

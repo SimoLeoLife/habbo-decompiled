@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 279371.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurniturePlanetSystemVisualization.as
-// Nome offuscato: _ib279aee77b21e2
+// Extracted from HabboAirLauncher.deobf.js, line 279371.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurniturePlanetSystemVisualization.as
+// Obfuscated name: _ib279aee77b21e2
 
 class extends Pa {
   static {

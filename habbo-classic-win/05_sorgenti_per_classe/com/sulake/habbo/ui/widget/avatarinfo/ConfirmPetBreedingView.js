@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 306996.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/ConfirmPetBreedingView.as
-// Nome offuscato: _ia489d58983a255
+// Extracted from HabboAirLauncher.deobf.js, line 306996.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/ConfirmPetBreedingView.as
+// Obfuscated name: _ia489d58983a255
 
 class a {
   constructor(e) {

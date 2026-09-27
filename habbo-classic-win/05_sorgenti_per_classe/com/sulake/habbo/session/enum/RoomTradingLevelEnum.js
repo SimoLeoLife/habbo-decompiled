@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 159021.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/enum/RoomTradingLevelEnum.as
-// Nome offuscato: _ifce84d7444f35e
+// Extracted from HabboAirLauncher.deobf.js, line 159021.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/enum/RoomTradingLevelEnum.as
+// Obfuscated name: _ifce84d7444f35e
 
 class a {
   static {

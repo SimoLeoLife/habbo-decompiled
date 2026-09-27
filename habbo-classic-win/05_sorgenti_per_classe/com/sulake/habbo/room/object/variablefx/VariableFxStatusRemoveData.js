@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 82724.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/variablefx/VariableFxStatusRemoveData.as
-// Nome offuscato: _if1c9cad2234570
+// Extracted from HabboAirLauncher.deobf.js, line 82724.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/variablefx/VariableFxStatusRemoveData.as
+// Obfuscated name: _if1c9cad2234570
 
 class {
   constructor(e) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 366605.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/FurnisHaveNoAvatars.as
-// Nome offuscato: _if8d49f2360cf03
+// Extracted from HabboAirLauncher.deobf.js, line 366605.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/FurnisHaveNoAvatars.as
+// Obfuscated name: _if8d49f2360cf03
 
 class extends FurnisHaveAvatars {
   static {

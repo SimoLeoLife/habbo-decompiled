@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 132299.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/SelectableController.as
-// Nome offuscato: _i6f907ea8b030f8
+// Extracted from HabboAirLauncher.deobf.js, line 132299.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/SelectableController.as
+// Obfuscated name: _i6f907ea8b030f8
 
 class extends Ci {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 375313.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/WiredVariablesSynchronizer.as
-// Nome offuscato: _iac2e0801cee853
+// Extracted from HabboAirLauncher.deobf.js, line 375313.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/WiredVariablesSynchronizer.as
+// Obfuscated name: _iac2e0801cee853
 
 class a {
   static {
@@ -46,7 +46,7 @@ class a {
             : ((this.var_927 = _ia411d8d8194a3a()),
               (this._status = a.STATUS_AWAIT_HASH),
               this.addListener(e),
-              t !== 0 ? this._r2a4ee0d149624f(t) : this._events.send(new _i2ab1df6991b4d0()),
+              t !== 0 ? this._r2a4ee0d149624f(t) : this._events.send(new UnkMessageComposer_0args_2ab1df()),
               !1)
     );
   }
@@ -104,7 +104,7 @@ class a {
       }
       ((this._allVariablesHash = e),
         (this._status = a.STATUS_AWAIT_DIFFS),
-        this._events.send(new _if2cae551890679(this._variableIdToHash)));
+        this._events.send(new UnkMessageComposer_1args_f2cae5(this._variableIdToHash)));
     }
   }
   _r9e7f77424139bd = n((e) => {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 351840.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/applications/FloorDrawingPreset.as
-// Nome offuscato: _i11dd7f30d6b093
+// Extracted from HabboAirLauncher.deobf.js, line 351840.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/applications/FloorDrawingPreset.as
+// Obfuscated name: _i11dd7f30d6b093
 
 class a extends WiredUIPreset {
   static {
@@ -45,12 +45,12 @@ class a extends WiredUIPreset {
       (this._rb75f204c42402a = this._rd3d72220d23bb8.clone()),
       this._rb75f204c42402a.colorTransform(
         this._rd3d72220d23bb8.rect,
-        new _i4210dc3239901d(a._r1b9cbec25e87e7[0], a._r1b9cbec25e87e7[1], a._r1b9cbec25e87e7[2]),
+        new UnkClass_4210dc(a._r1b9cbec25e87e7[0], a._r1b9cbec25e87e7[1], a._r1b9cbec25e87e7[2]),
       ),
       (this._raaa3f8555860a8 = this._rd3d72220d23bb8.clone()),
       this._raaa3f8555860a8.colorTransform(
         this._rd3d72220d23bb8.rect,
-        new _i4210dc3239901d(a._r8ad628657f684d[0], a._r8ad628657f684d[1], a._r8ad628657f684d[2]),
+        new UnkClass_4210dc(a._r8ad628657f684d[0], a._r8ad628657f684d[1], a._r8ad628657f684d[2]),
       ));
   }
   setFloor(e) {

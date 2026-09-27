@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 162305.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/phonenumber/class_3585.as
-// Nome offuscato: _i5ec2a9fb851458
+// Extracted from HabboAirLauncher.deobf.js, line 162305.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/phonenumber/class_3585.as
+// Obfuscated name: _i5ec2a9fb851458
 
 class {
   static {

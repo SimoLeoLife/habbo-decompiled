@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 217777.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/utils/AbstractAStarNode.as
-// Nome offuscato: _i767d5f89546306
+// Extracted from HabboAirLauncher.deobf.js, line 217777.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/utils/AbstractAStarNode.as
+// Obfuscated name: _i767d5f89546306
 
 class {
   static {

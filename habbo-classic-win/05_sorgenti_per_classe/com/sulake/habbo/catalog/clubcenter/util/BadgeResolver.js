@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 173735.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/clubcenter/util/BadgeResolver.as
-// Nome offuscato: _i09fc94cd5111ee
+// Extracted from HabboAirLauncher.deobf.js, line 173735.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/clubcenter/util/BadgeResolver.as
+// Obfuscated name: _i09fc94cd5111ee
 
 class a {
   static {

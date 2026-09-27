@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 132404.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/DisplayObjectWrapperController.as
-// Nome offuscato: _icea3f8bfc40648
+// Extracted from HabboAirLauncher.deobf.js, line 132404.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/DisplayObjectWrapperController.as
+// Obfuscated name: _icea3f8bfc40648
 
 class extends st {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 271052.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/seasonalcalendar/RareTeaser.as
-// Nome offuscato: _ib7024c44f27105
+// Extracted from HabboAirLauncher.deobf.js, line 271052.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/seasonalcalendar/RareTeaser.as
+// Obfuscated name: _ib7024c44f27105
 
 class {
   constructor(e) {

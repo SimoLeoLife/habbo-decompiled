@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 144120.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/event/CatalogEvent.as
-// Nome offuscato: _iadac0fa58eb9b6
+// Extracted from HabboAirLauncher.deobf.js, line 144120.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/event/CatalogEvent.as
+// Obfuscated name: _iadac0fa58eb9b6
 
 class extends M {
   static {

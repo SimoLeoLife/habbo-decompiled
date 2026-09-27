@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 355264.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/UbuntuPresetManager.as
-// Nome offuscato: _i4c5af94826f5fe
+// Extracted from HabboAirLauncher.deobf.js, line 355264.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/UbuntuPresetManager.as
+// Obfuscated name: _i4c5af94826f5fe
 
 class extends PresetManager {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158506.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/class_2751.as
-// Nome offuscato: _i2a4ad8de562e4e
+// Extracted from HabboAirLauncher.deobf.js, line 158506.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/class_2751.as
+// Obfuscated name: _i2a4ad8de562e4e
 
 class {
   static {

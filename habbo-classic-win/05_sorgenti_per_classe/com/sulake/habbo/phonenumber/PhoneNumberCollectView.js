@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 340196.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/phonenumber/PhoneNumberCollectView.as
-// Nome offuscato: _ibde46d4ad54bb0
+// Extracted from HabboAirLauncher.deobf.js, line 340196.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/phonenumber/PhoneNumberCollectView.as
+// Obfuscated name: _ibde46d4ad54bb0
 
 class a {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 180914.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectSamplePlaybackEvent.as
-// Nome offuscato: _ie8ed8cfac2bf75
+// Extracted from HabboAirLauncher.deobf.js, line 180914.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectSamplePlaybackEvent.as
+// Obfuscated name: _ie8ed8cfac2bf75
 
 class extends RoomObjectFurnitureActionEvent {
   constructor(r, t, i, s = 1, o = !1, d = !1) {

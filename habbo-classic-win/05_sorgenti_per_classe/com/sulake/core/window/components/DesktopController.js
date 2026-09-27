@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 134334.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/DesktopController.as
-// Nome offuscato: _ic29cc2776ffbf9
+// Extracted from HabboAirLauncher.deobf.js, line 134334.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/DesktopController.as
+// Obfuscated name: _ic29cc2776ffbf9
 
 class extends ActivatorController {
     static {

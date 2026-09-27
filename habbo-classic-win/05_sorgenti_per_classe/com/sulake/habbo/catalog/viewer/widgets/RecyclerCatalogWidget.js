@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 194188.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/RecyclerCatalogWidget.as
-// Nome offuscato: _id3510786569e02
+// Extracted from HabboAirLauncher.deobf.js, line 194188.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/RecyclerCatalogWidget.as
+// Obfuscated name: _id3510786569e02
 
 class extends CatalogWidget {
   static {
@@ -148,7 +148,7 @@ class extends CatalogWidget {
     return !1;
   }
   startTimer() {
-    ((this._r296a04323547dc = new _i05394ecc0c0c4d(1e3)),
+    ((this._r296a04323547dc = new UnkEventDispatcherWrapperSubclass_05394e(1e3)),
       this._r296a04323547dc.addEventListener(DeBouncer.addEventListener, this._re072be5b77c307),
       this._r296a04323547dc.start());
   }

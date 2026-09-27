@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 181686.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/messages/RoomObjectRoomPlaneVisibilityUpdateMessage.as
-// Nome offuscato: _i6bcdd287114f73
+// Extracted from HabboAirLauncher.deobf.js, line 181686.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/messages/RoomObjectRoomPlaneVisibilityUpdateMessage.as
+// Obfuscated name: _i6bcdd287114f73
 
 class extends RoomObjectUpdateMessage {
   constructor(r, t) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 322161.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/InfoStandUserView.as
-// Nome offuscato: _ibfa878a79cbe40
+// Extracted from HabboAirLauncher.deobf.js, line 322161.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/InfoStandUserView.as
+// Obfuscated name: _ibfa878a79cbe40
 
 class a {
   static {
@@ -478,7 +478,7 @@ class a {
   _rbd50241c036b40(e, r, t) {
     if ((this.clearBadges(), r != null && r.length > 0)) {
       for (let i of r)
-        !(i instanceof _i6e70f7261361b5) ||
+        !(i instanceof UnkClass_6e70f7) ||
           i._r3d8be6b2a8461a < 0 ||
           i._r3d8be6b2a8461a > 4 ||
           this.setBadge(i._r3d8be6b2a8461a, i._rc9fc89e7eb27a7, i, t);

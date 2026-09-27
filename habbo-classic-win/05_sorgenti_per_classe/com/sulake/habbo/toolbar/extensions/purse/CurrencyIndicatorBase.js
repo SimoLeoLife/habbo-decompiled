@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 342428.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/purse/CurrencyIndicatorBase.as
-// Nome offuscato: _i7ec5bd3102cda2
+// Extracted from HabboAirLauncher.deobf.js, line 342428.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/purse/CurrencyIndicatorBase.as
+// Obfuscated name: _i7ec5bd3102cda2
 
 class a {
   static {
@@ -51,7 +51,7 @@ class a {
   constructor(e, r) {
     ((this._windowManager = e),
       (this._assets = r),
-      (this._r67f329cb7abfe7 = new _i05394ecc0c0c4d(40)),
+      (this._r67f329cb7abfe7 = new UnkEventDispatcherWrapperSubclass_05394e(40)),
       this._r67f329cb7abfe7.addEventListener(DeBouncer.addEventListener, this._r9af2f3cef65336));
   }
   get window() {
@@ -95,7 +95,7 @@ class a {
         this._r6abfd093ceb4c9.length > 0 &&
         ((this._r7b7d0e1fc49041 =
           this._rac1c6910fdc186 === a.const_1401 ? 0 : this._r6abfd093ceb4c9.length - 1),
-        (this._rcaf99c2dce245b = new _i05394ecc0c0c4d(this._r3ec4f4e70ae9e2, this._r6abfd093ceb4c9.length)),
+        (this._rcaf99c2dce245b = new UnkEventDispatcherWrapperSubclass_05394e(this._r3ec4f4e70ae9e2, this._r6abfd093ceb4c9.length)),
         this._rcaf99c2dce245b.addEventListener(DeBouncer.addEventListener, this._r0c7da324149cb3),
         this._rcaf99c2dce245b.addEventListener(DeBouncer._rf33144eac61595, this._rb62b9bb802b1c4),
         this._rcaf99c2dce245b.start(),

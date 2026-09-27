@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 376271.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/onBoardingHcUi/NineSplitSprite.as
-// Nome offuscato: _if399f2635b00ae
+// Extracted from HabboAirLauncher.deobf.js, line 376271.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/onBoardingHcUi/NineSplitSprite.as
+// Obfuscated name: _if399f2635b00ae
 
 class {
   static {

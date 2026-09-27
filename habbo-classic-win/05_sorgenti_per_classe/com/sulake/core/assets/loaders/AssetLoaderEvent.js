@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 55668.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/assets/loaders/AssetLoaderEvent.as
-// Nome offuscato: _i531dc2f354082e
+// Extracted from HabboAirLauncher.deobf.js, line 55668.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/assets/loaders/AssetLoaderEvent.as
+// Obfuscated name: _i531dc2f354082e
 
 class a extends M {
   constructor(r, t) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 358114.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/WiredMenuTabConfigs.as
-// Nome offuscato: _i2662b284d20f4e
+// Extracted from HabboAirLauncher.deobf.js, line 358114.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/WiredMenuTabConfigs.as
+// Obfuscated name: _i2662b284d20f4e
 
 class a {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 251461.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/CutToWidth.as
-// Nome offuscato: _i5c97d0b4f1a424
+// Extracted from HabboAirLauncher.deobf.js, line 251461.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/CutToWidth.as
+// Obfuscated name: _i5c97d0b4f1a424
 
 class {
   static {

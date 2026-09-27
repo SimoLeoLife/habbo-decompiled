@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 170095.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/structure/animation/AnimationAction.as
-// Nome offuscato: _ifdb56e79d73225
+// Extracted from HabboAirLauncher.deobf.js, line 170095.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/structure/animation/AnimationAction.as
+// Obfuscated name: _ifdb56e79d73225
 
 class a {
   static {
@@ -15,7 +15,7 @@ class a {
   constructor(e) {
     this._id = _ifdbe20062cc5b0(e, "id");
     for (let t of _ib5ee1bd09422e6(e, "part")) {
-      let i = new _i85993f180b5982(t);
+      let i = new UnkClass_85993f(t);
       (this.var_3239.set(_ifdbe20062cc5b0(t, "set-type"), i),
         (this.var_939 = Math.max(this.var_939, i.frames.length)));
     }

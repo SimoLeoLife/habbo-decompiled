@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 76436.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/collectibles/CollectibleItemClaim.as
-// Nome offuscato: _iefd06e177f01d5
+// Extracted from HabboAirLauncher.deobf.js, line 76436.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/collectibles/CollectibleItemClaim.as
+// Obfuscated name: _iefd06e177f01d5
 
 class {
     static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 163484.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/effects/EffectsView.as
-// Nome offuscato: _ia58e1e57a8ccd2
+// Extracted from HabboAirLauncher.deobf.js, line 163484.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/effects/EffectsView.as
+// Obfuscated name: _ia58e1e57a8ccd2
 
 class extends CategoryBaseView {
   static {

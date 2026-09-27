@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 162350.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/HabboToolbarEnum.as
-// Nome offuscato: _ieecda0d7d465c5
+// Extracted from HabboAirLauncher.deobf.js, line 162350.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/HabboToolbarEnum.as
+// Obfuscated name: _ieecda0d7d465c5
 
 class {
   static {

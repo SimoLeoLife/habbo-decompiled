@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 66178.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/motion/Motion.as
-// Nome offuscato: _ic14d10cddd8a7d
+// Extracted from HabboAirLauncher.deobf.js, line 66178.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/motion/Motion.as
+// Obfuscated name: _ic14d10cddd8a7d
 
 class {
   static {

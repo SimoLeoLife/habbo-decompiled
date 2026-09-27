@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 203216.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/visualization/style/ChatStyleLibrary.as
-// Nome offuscato: _ic8d39cbda79f5d
+// Extracted from HabboAirLauncher.deobf.js, line 203216.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/visualization/style/ChatStyleLibrary.as
+// Obfuscated name: _ic8d39cbda79f5d
 
 class a {
   static {
@@ -95,7 +95,7 @@ class a {
       de = this._r3f57c20b07a318(l, "linkActiveColorRGB")
         ? Number(this.getConfigCSV(l, "linkActiveColorRGB")[0] ?? ye)
         : ye,
-      Be = new _ib0061b42edfac2();
+      Be = new UnkClass_b0061b();
     (Be._r14e5354d420daf("a:link", { textDecoration: "underline", color: this.toHexString(wr) }),
       Be._r14e5354d420daf("a:active", { color: this.toHexString(de) }),
       Be._r14e5354d420daf("a:hover", { color: this.toHexString(q) }));

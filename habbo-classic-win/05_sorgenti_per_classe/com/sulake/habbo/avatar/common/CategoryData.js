@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 163986.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/common/CategoryData.as
-// Nome offuscato: _i6686d1368d44b6
+// Extracted from HabboAirLauncher.deobf.js, line 163986.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/common/CategoryData.as
+// Obfuscated name: _i6686d1368d44b6
 
 class a {
   static {

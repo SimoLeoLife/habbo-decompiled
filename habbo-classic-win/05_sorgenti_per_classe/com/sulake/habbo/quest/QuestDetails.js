@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 268922.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/QuestDetails.as
+// Extracted from HabboAirLauncher.deobf.js, line 268922.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/QuestDetails.as
 
 class a {
   constructor(e) {
@@ -182,8 +182,8 @@ class a {
       this._questEngine == null ||
       this.var_142 == null ||
       (this._questEngine.currentlyInRoom
-        ? this._questEngine.send(new _i8f295e4bca1993(this.var_142.id))
-        : this._questEngine.send(new _i38e25d5014ab83(this.var_142.id)),
+        ? this._questEngine.send(new UnkMessageComposer_1args_8f295e(this.var_142.id))
+        : this._questEngine.send(new UnkMessageComposer_1args_38e25d(this.var_142.id)),
       this._window != null && (this._window.visible = !1),
       this._questEngine._rd4042d1a6a05a1._rab30f8aab18f93?.close(),
       this.var_4172 &&
@@ -194,6 +194,6 @@ class a {
     e.type !== u.CLICK ||
       this._questEngine == null ||
       this.var_142 == null ||
-      this._questEngine.send(new _i198dc87a94b54e(this.var_142.id));
+      this._questEngine.send(new UnkMessageComposer_1args_198dc8(this.var_142.id));
   }
 }

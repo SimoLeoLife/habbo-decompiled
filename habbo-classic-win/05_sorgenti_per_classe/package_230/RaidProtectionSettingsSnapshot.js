@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 127304.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_230/RaidProtectionSettingsSnapshot.as
-// Nome offuscato: _i4f4962cdbf6038
+// Extracted from HabboAirLauncher.deobf.js, line 127304.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_230/RaidProtectionSettingsSnapshot.as
+// Obfuscated name: _i4f4962cdbf6038
 
 class a {
     static {

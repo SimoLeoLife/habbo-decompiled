@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 350673.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/sections/BorderSection.as
-// Nome offuscato: _if0c296b5abd8de
+// Extracted from HabboAirLauncher.deobf.js, line 350673.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/sections/BorderSection.as
+// Obfuscated name: _if0c296b5abd8de
 
 class extends AbstractSectionPreset {
   static {

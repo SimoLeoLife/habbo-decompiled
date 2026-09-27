@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 240406.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/trading/namescam/TradingNameScamWarningController.as
-// Nome offuscato: _iacaffd5c35ea1a
+// Extracted from HabboAirLauncher.deobf.js, line 240406.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/trading/namescam/TradingNameScamWarningController.as
+// Obfuscated name: _iacaffd5c35ea1a
 
 class {
   constructor(e, r, t, i) {

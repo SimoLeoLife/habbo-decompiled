@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 340585.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/phonenumber/VerificationCodeInputMinimizedView.as
-// Nome offuscato: _i5d5c447f22aee9
+// Extracted from HabboAirLauncher.deobf.js, line 340585.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/phonenumber/VerificationCodeInputMinimizedView.as
+// Obfuscated name: _i5d5c447f22aee9
 
 class a {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 107501.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_217/SharedVariable.as
-// Nome offuscato: _i712ffddbb768c5
+// Extracted from HabboAirLauncher.deobf.js, line 107501.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_217/SharedVariable.as
+// Obfuscated name: _i712ffddbb768c5
 
 class {
     static {

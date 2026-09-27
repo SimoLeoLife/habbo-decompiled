@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 314951.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/contextmenu/FurnitureContextInfoView.as
-// Nome offuscato: _i2b2d1e5d121c0d
+// Extracted from HabboAirLauncher.deobf.js, line 314951.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/contextmenu/FurnitureContextInfoView.as
+// Obfuscated name: _i2b2d1e5d121c0d
 
 class extends mX {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 317433.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/friendfurni/FriendFurniConfirmWidget.as
-// Nome offuscato: _ibc4a604f9f0a51
+// Extracted from HabboAirLauncher.deobf.js, line 317433.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/friendfurni/FriendFurniConfirmWidget.as
+// Obfuscated name: _ibc4a604f9f0a51
 
 class extends RoomWidgetBase {
   static {

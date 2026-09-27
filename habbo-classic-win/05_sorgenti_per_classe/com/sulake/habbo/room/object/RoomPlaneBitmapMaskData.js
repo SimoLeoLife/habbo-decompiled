@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 80465.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/RoomPlaneBitmapMaskData.as
-// Nome offuscato: _i7dd4c6b000788f
+// Extracted from HabboAirLauncher.deobf.js, line 80465.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/RoomPlaneBitmapMaskData.as
+// Obfuscated name: _i7dd4c6b000788f
 
 class {
   static {

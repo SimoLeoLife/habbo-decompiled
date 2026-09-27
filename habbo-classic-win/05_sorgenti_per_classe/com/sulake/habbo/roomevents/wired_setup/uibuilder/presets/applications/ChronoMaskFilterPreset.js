@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 351649.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/applications/ChronoMaskFilterPreset.as
-// Nome offuscato: _i8f5f15dd11feb6
+// Extracted from HabboAirLauncher.deobf.js, line 351649.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/applications/ChronoMaskFilterPreset.as
+// Obfuscated name: _i8f5f15dd11feb6
 
 class extends WiredUIPreset {
   static {

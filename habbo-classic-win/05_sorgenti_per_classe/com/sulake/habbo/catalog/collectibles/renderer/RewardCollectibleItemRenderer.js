@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 175927.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/renderer/RewardCollectibleItemRenderer.as
-// Nome offuscato: _i4d51f6040bfebc
+// Extracted from HabboAirLauncher.deobf.js, line 175927.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/renderer/RewardCollectibleItemRenderer.as
+// Obfuscated name: _i4d51f6040bfebc
 
 class extends AbstractCollectibleItemRenderer {
   constructor(r, t, i, s) {

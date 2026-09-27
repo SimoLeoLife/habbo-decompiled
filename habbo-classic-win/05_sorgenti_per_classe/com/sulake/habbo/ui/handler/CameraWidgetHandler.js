@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 327945.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/CameraWidgetHandler.as
-// Nome offuscato: _i8aa60cf7752841
+// Extracted from HabboAirLauncher.deobf.js, line 327945.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/CameraWidgetHandler.as
+// Obfuscated name: _i8aa60cf7752841
 
 class {
   constructor(e) {
@@ -103,7 +103,7 @@ class {
   }
   _r486c2530d8d4a8() {
     this._container?.sessionDataManager?.isPerkAllowed(class_2156.CAMERA) &&
-      this._container.connection?.send(new _i5cbd2b4196a1c0());
+      this._container.connection?.send(new UnkMessageComposer_0args_5cbd2b());
   }
   get linkPattern() {
     return "camera/";
@@ -154,13 +154,13 @@ class {
       this.var_17?.startTakingPhoto(r.iconName);
   }, "onCameraRequested");
   _r5b93e1b5d387c3() {
-    this._container?.connection?.send(new _ie4a895b3b8acb3());
+    this._container?.connection?.send(new UnkMessageComposer_0args_e4a895());
   }
   _r1d5051665d83b8() {
-    this._container?.connection?.send(new _ibd28e43fec77ad());
+    this._container?.connection?.send(new UnkMessageComposer_0args_bd28e4());
   }
   _rfaf96754f00688() {
-    this._container?.connection?.send(new _icaa89fdd44fb00());
+    this._container?.connection?.send(new UnkMessageComposer_0args_caa89f());
   }
   _ra7635edf007435() {
     return this.var_1263 == null

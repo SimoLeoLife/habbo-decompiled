@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 192373.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/ColourGridCatalogWidget.as
-// Nome offuscato: _ie37beda1ff8b98
+// Extracted from HabboAirLauncher.deobf.js, line 192373.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/ColourGridCatalogWidget.as
+// Obfuscated name: _ie37beda1ff8b98
 
 class extends CatalogWidget {
   static {
@@ -140,13 +140,13 @@ class extends CatalogWidget {
       i = 255,
       s = 255;
     (r >= 0 && ((t = (r >> 16) & 255), (i = (r >> 8) & 255), (s = r & 255)),
-      e.colorTransform(e.rect, new _i4210dc3239901d(t / 255, i / 255, s / 255)));
+      e.colorTransform(e.rect, new UnkClass_4210dc(t / 255, i / 255, s / 255)));
   }
   onClick = n((e) => {
     let r = e.target;
     if (r == null || this._colourGrid == null) return;
     this.select(r);
     let t = this._colourGrid._r76bcf89cad2fb2(r);
-    this.events?.dispatchEvent?.(new _iae266fbe26d028(t));
+    this.events?.dispatchEvent?.(new UnkClass_ae266f(t));
   }, "onClick");
 }

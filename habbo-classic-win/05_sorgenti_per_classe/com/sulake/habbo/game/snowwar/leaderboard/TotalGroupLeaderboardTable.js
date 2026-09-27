@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 220457.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/leaderboard/TotalGroupLeaderboardTable.as
-// Nome offuscato: _i6b95585d807ac2
+// Extracted from HabboAirLauncher.deobf.js, line 220457.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/leaderboard/TotalGroupLeaderboardTable.as
+// Obfuscated name: _i6b95585d807ac2
 
 class extends D1 {
   static {
@@ -21,6 +21,6 @@ class extends D1 {
     return (this._ownEntry != null && e.push(this._ownEntry), e);
   }
   getMessageComposer(e, r, t) {
-    return new _ife5f8c1b91fcd5(e, r, t, this.var_244, this.var_1042);
+    return new Game2GetTotalGroupLeaderboardComposer(e, r, t, this.var_244, this.var_1042);
   }
 }

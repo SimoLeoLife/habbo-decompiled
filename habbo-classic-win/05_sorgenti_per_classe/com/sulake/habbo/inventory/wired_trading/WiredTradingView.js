@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 244327.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/wired_trading/WiredTradingView.as
-// Nome offuscato: _i12b3d4e0273d39
+// Extracted from HabboAirLauncher.deobf.js, line 244327.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/wired_trading/WiredTradingView.as
+// Obfuscated name: _i12b3d4e0273d39
 
 class {
   constructor(e, r, t, i, s, o) {
@@ -56,7 +56,7 @@ class {
   }
   startConfirmCountdown() {
     (this.var_382 == null &&
-      ((this.var_382 = new _i05394ecc0c0c4d(1e3, 3)),
+      ((this.var_382 = new UnkEventDispatcherWrapperSubclass_05394e(1e3, 3)),
       this.var_382.addEventListener(DeBouncer.addEventListener, this._r97644bb91fd095)),
       this.var_382.reset(),
       (this.var_382.repeatCount = 3),
@@ -65,7 +65,7 @@ class {
   }
   _ra59f122e8b8737() {
     (this.var_755 == null &&
-      ((this.var_755 = new _i05394ecc0c0c4d(1e3)),
+      ((this.var_755 = new UnkEventDispatcherWrapperSubclass_05394e(1e3)),
       this.var_755.addEventListener(DeBouncer.addEventListener, this._r2e64c1b92afcab)),
       this.var_755.reset(),
       this.var_755.start(),

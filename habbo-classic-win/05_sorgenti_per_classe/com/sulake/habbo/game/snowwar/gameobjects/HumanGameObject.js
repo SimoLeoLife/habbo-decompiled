@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 218687.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/gameobjects/HumanGameObject.as
-// Nome offuscato: _id28af6dd8ebaf3
+// Extracted from HabboAirLauncher.deobf.js, line 218687.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/gameobjects/HumanGameObject.as
+// Obfuscated name: _id28af6dd8ebaf3
 
 class a extends SnowWarGameObject {
   constructor(r, t, i, s) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 317656.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/friendfurni/FriendFurniEngravingWidget.as
-// Nome offuscato: _i77fad838e3a1bf
+// Extracted from HabboAirLauncher.deobf.js, line 317656.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/friendfurni/FriendFurniEngravingWidget.as
+// Obfuscated name: _i77fad838e3a1bf
 
 class extends RoomWidgetBase {
   static {
@@ -19,17 +19,17 @@ class extends RoomWidgetBase {
   }
   open(e, r, t) {
     switch ((this.close(this._stuffId), (this._stuffId = e), r)) {
-      case _icf8611d0b0b385._r09e2b3a379adb1:
+      case UnkConstants_cf8611._r09e2b3a379adb1:
         this.var_1151 = new LoveLockEngravingView(this, t);
         break;
-      case _icf8611d0b0b385._r6a53e431a49b30:
+      case UnkConstants_cf8611._r6a53e431a49b30:
         this.var_1151 = new WildWestEngravingView(this, t);
         break;
-      case _icf8611d0b0b385._r4ffb99039fcbb4:
+      case UnkConstants_cf8611._r4ffb99039fcbb4:
         this.var_1151 = new HabboweenEngravingView(this, t);
         break;
-      case _icf8611d0b0b385._r58d599d14f50f5:
-      case _icf8611d0b0b385._rccbe8790407b9c:
+      case UnkConstants_cf8611._r58d599d14f50f5:
+      case UnkConstants_cf8611._rccbe8790407b9c:
       default:
         this.var_1151 = null;
         break;

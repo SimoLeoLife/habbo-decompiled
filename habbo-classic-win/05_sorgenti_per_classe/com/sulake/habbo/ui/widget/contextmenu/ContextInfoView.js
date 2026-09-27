@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 305397.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/contextmenu/ContextInfoView.as
-// Nome offuscato: _i4a9600a7ed365d
+// Extracted from HabboAirLauncher.deobf.js, line 305397.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/contextmenu/ContextInfoView.as
+// Obfuscated name: _i4a9600a7ed365d
 
 class a {
   static {
@@ -25,7 +25,7 @@ class a {
   static _isMinimized = !1;
   var_17;
   var_199 = !1;
-  var_2209 = new _i5ebf87fd288769(a.const_378);
+  var_2209 = new UnkClass_5ebf87(a.const_378);
   var_3030 = -1e6;
   _disposed = !1;
   var_849 = null;
@@ -73,7 +73,7 @@ class a {
       (e.var_199 = !1),
       e.var_231 &&
         (e.var_849 == null &&
-          ((e.var_849 = new _i05394ecc0c0c4d(e.var_4275, 1)),
+          ((e.var_849 = new UnkEventDispatcherWrapperSubclass_05394e(e.var_4275, 1)),
           e.var_849.addEventListener(DeBouncer._rf33144eac61595, e._rb370b0a4937d61)),
         e.var_849.reset(),
         e.var_849.start()),

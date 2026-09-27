@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 356528.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_inspection/WiredMenuInspectionTab.as
-// Nome offuscato: _ia246ab0c4548de
+// Extracted from HabboAirLauncher.deobf.js, line 356528.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_inspection/WiredMenuInspectionTab.as
+// Obfuscated name: _ia246ab0c4548de
 
 class a extends WiredMenuDefaultTab {
   static {
@@ -36,7 +36,7 @@ class a extends WiredMenuDefaultTab {
       this.createCreateVariableBubble(),
       this.updateTableUI(),
       this._rc988afb7ff02bf(),
-      this.addMessageEvent(new _i96d2438960f2e6((t) => this._r3f6971c676a679(t))),
+      this.addMessageEvent(new UnkMessageEvent_96d243((t) => this._r3f6971c676a679(t))),
       this.addMessageEvent(new class_2746((t) => this.class_2746(t))),
       this.highlightWiredButton.addEventListener(u.CLICK, this._r2589fd8b373420),
       this.deleteVariableButton.addEventListener(u.CLICK, this._rba85e733a82b0c),
@@ -161,7 +161,7 @@ class a extends WiredMenuDefaultTab {
     let o = we.getIntFromString(t, -2147483648, !0);
     o !== -2147483648 &&
       this.controller.send(
-        new _i295cc0f54ad8ea(s.variableTarget, this._r7c2944444690c9(), s.variableId, o, _i295cc0f54ad8ea._r012cec707c5cae),
+        new UnkMessageComposer_5args_295cc0(s.variableTarget, this._r7c2944444690c9(), s.variableId, o, UnkMessageComposer_5args_295cc0._r012cec707c5cae),
       );
   }, "_r188c9b37d62907");
   _r3e6369d6ab2ee0 = n((e) => {
@@ -190,7 +190,7 @@ class a extends WiredMenuDefaultTab {
       !t.canCreateAndDelete ||
       ((this._reb86f766f3f3ba = this.var_505._rad1ace3d4ce07c(r)),
       this.controller.send(
-        new _i295cc0f54ad8ea(t.variableTarget, this._r7c2944444690c9(), t.variableId, 0, _i295cc0f54ad8ea._r4b63c66ccdba21),
+        new UnkMessageComposer_5args_295cc0(t.variableTarget, this._r7c2944444690c9(), t.variableId, 0, UnkMessageComposer_5args_295cc0._r4b63c66ccdba21),
       ));
   }, "_rba85e733a82b0c");
   onCreateVariableClicked = n((e) => {
@@ -201,7 +201,7 @@ class a extends WiredMenuDefaultTab {
     let t = 0;
     (r.hasValue && (t = Number(this.valueInput.text) | 0),
       this.controller.send(
-        new _i295cc0f54ad8ea(r.variableTarget, this._r7c2944444690c9(), r.variableId, t, _i295cc0f54ad8ea._r8bdac588a2e61f),
+        new UnkMessageComposer_5args_295cc0(r.variableTarget, this._r7c2944444690c9(), r.variableId, t, UnkMessageComposer_5args_295cc0._r8bdac588a2e61f),
       ),
       (this.createVariableBubble.visible = !1),
       (this.valueInput.text = "0"));
@@ -346,7 +346,7 @@ class a extends WiredMenuDefaultTab {
       this.updateButtonsUI());
   }, "onSelectVariableType");
   requestVariablesForObject(e, r) {
-    ((this.var_4508 = _ia411d8d8194a3a()), this.controller.send(new _id12462c0dbfe2d(e, r)));
+    ((this.var_4508 = _ia411d8d8194a3a()), this.controller.send(new UnkMessageComposer_2args_d12462(e, r)));
   }
   variableFilter = n((e) => {
     (we.disableSection(this.valueSettingContainer, e != null && !e.hasValue),

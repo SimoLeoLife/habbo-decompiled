@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 189774.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/ItemGridCatalogWidget.as
-// Nome offuscato: _i9b23c0631523e5
+// Extracted from HabboAirLauncher.deobf.js, line 189774.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/ItemGridCatalogWidget.as
+// Obfuscated name: _i9b23c0631523e5
 
 class extends CatalogWidget {
   constructor(r, t, i) {
@@ -66,7 +66,7 @@ class extends CatalogWidget {
     let i = this.populateItemGrid();
     return (
       this.var_5875
-        ? ((this.var_382 = new _i05394ecc0c0c4d(25)),
+        ? ((this.var_382 = new UnkEventDispatcherWrapperSubclass_05394e(25)),
           (this._r5896b7a3fdd842 = (s) => this._r68e7071635a8f2(s, i)),
           this.var_382.addEventListener(DeBouncer.addEventListener, this._r5896b7a3fdd842),
           this.var_382.start())
@@ -83,7 +83,7 @@ class extends CatalogWidget {
     let s = r;
     if (s == null || s.isLazy) return;
     let o = s.offer;
-    (this.events?.dispatchEvent?.(new _idfee6137b0eb86(o)),
+    (this.events?.dispatchEvent?.(new UnkClass_dfee61(o)),
       o.product?.productType === class_1803.PRODUCT_TYPE_ITEM &&
         this.events?.dispatchEvent?.(new SetExtraPurchaseParameterEvent(o.product.extraParam)),
       t &&
@@ -107,7 +107,7 @@ class extends CatalogWidget {
     );
   }
   _r953e33111bd217(r, t) {
-    this.disposed || !r || this.events?.dispatchEvent?.(new _i402cad4748bdc2(!1, t));
+    this.disposed || !r || this.events?.dispatchEvent?.(new UnkClass_402cad(!1, t));
   }
   populateItemGrid() {
     let r = this.page?._rf3871e54af1151 === "default_3x3_color_grouping",

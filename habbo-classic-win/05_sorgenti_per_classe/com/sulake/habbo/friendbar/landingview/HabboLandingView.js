@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 209977.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/HabboLandingView.as
-// Nome offuscato: _i9ff68e425f4619
+// Extracted from HabboAirLauncher.deobf.js, line 209977.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/HabboLandingView.as
+// Obfuscated name: _i9ff68e425f4619
 
 class extends AbstractView {
   static {
@@ -194,10 +194,10 @@ class extends AbstractView {
     return this._sessionDataManager?.loadProductData(r) ? this._sessionDataManager.getProductData(e) : null;
   }
   _r81aa7f3af9edbc(e) {
-    this.send(new _i6c3581b43177e9(e));
+    this.send(new UnkMessageComposer_1args_6c3581(e));
   }
   _rd4ea6e6c4ae178(e) {
-    this.send(new _i0c6eab3864085a(e));
+    this.send(new UnkMessageComposer_1args_0c6eab(e));
   }
   tryInitialize() {
     try {

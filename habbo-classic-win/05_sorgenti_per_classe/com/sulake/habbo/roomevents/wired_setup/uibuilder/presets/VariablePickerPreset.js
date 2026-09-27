@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 349257.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/VariablePickerPreset.as
-// Nome offuscato: _i9d7a0216df26bd
+// Extracted from HabboAirLauncher.deobf.js, line 349257.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/VariablePickerPreset.as
+// Obfuscated name: _i9d7a0216df26bd
 
 class extends WiredUIPreset {
   static {

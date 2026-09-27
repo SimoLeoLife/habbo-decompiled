@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 79257.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/RoomObjectLogicEnum.as
-// Nome offuscato: _i7c6e9402e38b3b
+// Extracted from HabboAirLauncher.deobf.js, line 79257.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/RoomObjectLogicEnum.as
+// Obfuscated name: _i7c6e9402e38b3b
 
 class {
   static {

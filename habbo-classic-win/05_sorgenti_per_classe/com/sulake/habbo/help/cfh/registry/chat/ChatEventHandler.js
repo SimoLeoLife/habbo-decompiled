@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 200448.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/cfh/registry/chat/ChatEventHandler.as
-// Nome offuscato: _i73351c72dc710a
+// Extracted from HabboAirLauncher.deobf.js, line 200448.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/cfh/registry/chat/ChatEventHandler.as
+// Obfuscated name: _i73351c72dc710a
 
 class a {
   constructor(e) {

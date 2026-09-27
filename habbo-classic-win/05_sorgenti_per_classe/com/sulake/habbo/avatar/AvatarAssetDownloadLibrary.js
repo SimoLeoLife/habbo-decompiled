@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 168588.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/AvatarAssetDownloadLibrary.as
-// Nome offuscato: _i42af3b35c045a6
+// Extracted from HabboAirLauncher.deobf.js, line 168588.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/AvatarAssetDownloadLibrary.as
+// Obfuscated name: _i42af3b35c045a6
 
 class a extends Ft {
   static {
@@ -32,7 +32,7 @@ class a extends Ft {
   }
   startDownloading() {
     this._state = a.STATE_DOWNLOADING;
-    let e = new _i636490202c0f9a(this._downloadUrl),
+    let e = new UnkClass_636490(this._downloadUrl),
       r = new Bl();
     (this._assets.loadFromFile(r, !0),
       r.addEventListener(ht.LIBRARY_LOADER_EVENT_COMPLETE, this._r734a53d9b6eebf),

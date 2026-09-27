@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 350830.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/params/NumberInputParam.as
-// Nome offuscato: _id666daf215557e
+// Extracted from HabboAirLauncher.deobf.js, line 350830.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/params/NumberInputParam.as
+// Obfuscated name: _id666daf215557e
 
 class {
   constructor(e, r, t, i = 45, s = 0, o = !1, d = !1, c = null) {

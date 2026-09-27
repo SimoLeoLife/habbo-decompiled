@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 287194.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/bar/MaskedHeartFillFramePrebake.as
-// Nome offuscato: _ibd01b8c7c90da6
+// Extracted from HabboAirLauncher.deobf.js, line 287194.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/bar/MaskedHeartFillFramePrebake.as
+// Obfuscated name: _ibd01b8c7c90da6
 
 class a {
   constructor(e) {

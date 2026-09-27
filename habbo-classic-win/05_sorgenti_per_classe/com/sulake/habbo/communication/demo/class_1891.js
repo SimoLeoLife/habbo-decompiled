@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 199311.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/demo/class_1891.as
-// Nome offuscato: _ia38770f7bf9920
+// Extracted from HabboAirLauncher.deobf.js, line 199311.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/demo/class_1891.as
+// Obfuscated name: _ia38770f7bf9920
 
 class a extends Ft {
     constructor(r, t, i) {
@@ -177,7 +177,7 @@ class a extends Ft {
       return this.var_1881?.getProperty(r, t) ?? "";
     }
     _r59896b455b1d35() {
-      return new _ie76d34577a6dfb();
+      return new UnkClass_e76d34();
     }
     _rf5d09494f78486() {}
     static getModalXmlWindow(r, t, i, s = "_xml") {

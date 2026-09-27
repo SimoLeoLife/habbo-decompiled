@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 350713.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/sections/UsageWarningSection.as
-// Nome offuscato: _iadd4b4e55d032c
+// Extracted from HabboAirLauncher.deobf.js, line 350713.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/sections/UsageWarningSection.as
+// Obfuscated name: _iadd4b4e55d032c
 
 class extends AbstractSectionPreset {
   static {

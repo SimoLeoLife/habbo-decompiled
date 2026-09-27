@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 189561.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/FeaturedItemsCatalogWidget.as
-// Nome offuscato: _i355653ba20ab27
+// Extracted from HabboAirLauncher.deobf.js, line 189561.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/FeaturedItemsCatalogWidget.as
+// Obfuscated name: _i355653ba20ab27
 
 class extends CatalogWidget {
   constructor(r, t) {

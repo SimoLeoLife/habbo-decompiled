@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 252273.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/tabpagedecorators/MyRoomsTabPageDecorator.as
-// Nome offuscato: _id0057c73eaaa21
+// Extracted from HabboAirLauncher.deobf.js, line 252273.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/tabpagedecorators/MyRoomsTabPageDecorator.as
+// Obfuscated name: _id0057c73eaaa21
 
 class a {
   constructor(e) {
@@ -53,7 +53,7 @@ class a {
     return e;
   }
   onCreateRoomClick = n((e) => {
-    this._navigator.send(new _i2d3a5a2748f7f4());
+    this._navigator.send(new UnkMessageComposer_0args_2d3a5a());
   }, "onCreateRoomClick");
   _r9625cdd21dac97() {
     this.var_150 == null ||

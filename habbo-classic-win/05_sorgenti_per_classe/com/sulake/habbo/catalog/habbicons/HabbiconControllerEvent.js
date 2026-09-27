@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 144754.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconControllerEvent.as
-// Nome offuscato: _i79c76fa3be9826
+// Extracted from HabboAirLauncher.deobf.js, line 144754.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconControllerEvent.as
+// Obfuscated name: _i79c76fa3be9826
 
 class a extends M {
   static {

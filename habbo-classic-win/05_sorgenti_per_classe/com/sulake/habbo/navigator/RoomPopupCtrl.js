@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 254886.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/RoomPopupCtrl.as
-// Nome offuscato: _ie398ce0f2a1fc1
+// Extracted from HabboAirLauncher.deobf.js, line 254886.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/RoomPopupCtrl.as
+// Obfuscated name: _ie398ce0f2a1fc1
 
 class extends PopupCtrl {
   constructor(r, t, i) {

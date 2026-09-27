@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 177655.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconAlbumHeaderView.as
-// Nome offuscato: _id7b7a81e254e5a
+// Extracted from HabboAirLauncher.deobf.js, line 177655.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconAlbumHeaderView.as
+// Obfuscated name: _id7b7a81e254e5a
 
 class {
   constructor(e, r) {

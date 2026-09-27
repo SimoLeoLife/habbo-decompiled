@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 353879.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/model/VariableFxPreviewStatus.as
-// Nome offuscato: _i537a732dae0aa1
+// Extracted from HabboAirLauncher.deobf.js, line 353879.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/model/VariableFxPreviewStatus.as
+// Obfuscated name: _i537a732dae0aa1
 
 class a {
   static {
@@ -17,10 +17,10 @@ class a {
   _overrideMinValue = null;
   _overrideMaxValue = null;
   randomize(e) {
-    (e._r5b3d4f00714e69 === _i3b0b1a104db30e._r5a9e777e5dc9ee(class_3649.DYNAMIC_TEAM_COLOR) &&
+    (e._r5b3d4f00714e69 === UnkClass_3b0b1a._r5a9e777e5dc9ee(class_3649.DYNAMIC_TEAM_COLOR) &&
       (this._delegatedColor = a.TEAM_COLORS[Math.floor(Math.random() * a.TEAM_COLORS.length)]),
       this._r074fdf4613be34(e),
-      e.categoryId === _i3b0b1a104db30e._r09950f0f2ac684 ? this._red980cf84d4bb1(e) : this._rc995c93933b9f9(e),
+      e.categoryId === UnkClass_3b0b1a._r09950f0f2ac684 ? this._red980cf84d4bb1(e) : this._rc995c93933b9f9(e),
       (this.var_2997 = !0));
   }
   _rc995c93933b9f9(e) {
@@ -76,7 +76,7 @@ class a {
         (a.copyExtra(e.currentStyle()._radcbdacfc8a881, r),
         this._r074fdf4613be34(e),
         this._delegatedColor === "#ffffff" &&
-          e._r5b3d4f00714e69 === _i3b0b1a104db30e._r5a9e777e5dc9ee(class_3649.DYNAMIC_TEAM_COLOR) &&
+          e._r5b3d4f00714e69 === UnkClass_3b0b1a._r5a9e777e5dc9ee(class_3649.DYNAMIC_TEAM_COLOR) &&
           (this._delegatedColor = a.TEAM_COLORS[0])),
       (this.var_2997 || r.getValue("current_level") == null) &&
         r.setProperty("current_level", a._rbd631958ebb609.currentLevel(this._value)),
@@ -90,7 +90,7 @@ class a {
     );
   }
   _r074fdf4613be34(e) {
-    e.categoryId === _i3b0b1a104db30e._r83e0ad2ab352d0 &&
+    e.categoryId === UnkClass_3b0b1a._r83e0ad2ab352d0 &&
       (e.rendererId === class_2881.STACKED_HEALTH_POINTS_ID
         ? this._r64f4b58b6e1625(e)
         : ((this._overrideMinValue = null), (this._overrideMaxValue = null)));
@@ -98,7 +98,7 @@ class a {
   _r64f4b58b6e1625(e) {
     let r = e._r5e470edbfdddac - e._r528f4963a1a948;
     ((this._overrideMinValue = 0),
-      (this._overrideMaxValue = e.var_954 === _i3b0b1a104db30e._r66b57669726ccd(VariableFxWidth.MEDIUM) ? 9 : 15),
+      (this._overrideMaxValue = e.var_954 === UnkClass_3b0b1a._r66b57669726ccd(VariableFxWidth.MEDIUM) ? 9 : 15),
       (this._overrideMaxValue = In.clamp(Number(this._overrideMaxValue), 1, r)));
   }
   static copyExtra(e, r) {

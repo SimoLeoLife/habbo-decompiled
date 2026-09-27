@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 323276.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/memenu/MeMenuMainView.as
-// Nome offuscato: _ia8a8bd0c654777
+// Extracted from HabboAirLauncher.deobf.js, line 323276.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/memenu/MeMenuMainView.as
+// Obfuscated name: _ia8a8bd0c654777
 
 class a {
   static {
@@ -33,7 +33,7 @@ class a {
       ["guide_icon", ["lighthouse_white", "lighthouse_color"]],
     ])),
       (this.var_17 = e),
-      (this.communication = new _i2c7b489ce44a85(this._r773ce30a57f0a5)),
+      (this.communication = new UnkMessageEvent_class_2880(this._r773ce30a57f0a5)),
       this.var_17.handler.container?.connection?.addMessageEvent(this.communication),
       this.createWindow(r));
   }

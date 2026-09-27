@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 365543.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/ActionTypes.as
-// Nome offuscato: _i2d0495274d7868
+// Extracted from HabboAirLauncher.deobf.js, line 365543.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/ActionTypes.as
+// Obfuscated name: _i2d0495274d7868
 
 class {
   static {
@@ -27,8 +27,8 @@ class {
       this._types.push(new class_4121()),
       this._types.push(new KickFromRoom()),
       this._types.push(new class_3994()),
-      this._types.push(new _i2fe20cf05799ab()),
-      this._types.push(new _ia4fd956db02ec2()),
+      this._types.push(new UnkSubclassOf_class_3976_2fe20c()),
+      this._types.push(new UnkSubclassOf_class_3976_a4fd95()),
       this._types.push(new tAe()),
       this._types.push(new eAe()),
       this._types.push(new class_4276()),
@@ -38,7 +38,7 @@ class {
       this._types.push(new SetFurniAltitude()),
       this._types.push(new SendSignal()),
       this._types.push(new class_4028()),
-      this._types.push(new _i81edc44b305119()),
+      this._types.push(new UnkDefaultActionTypeSubclass_81edc4()),
       this._types.push(new SAe()),
       this._types.push(new class_4112()),
       this._types.push(new class_3937()),
@@ -59,7 +59,7 @@ class {
       this._types.push(new class_4043()),
       this._types.push(new class_3984()),
       this._types.push(new kAe()),
-      this._types.push(new _i8faadd511676a3()),
+      this._types.push(new UnkDefaultActionTypeSubclass_8faadd()),
       this._types.push(new wAe()),
       this._types.push(new RAe()),
       this._types.push(new PAe()));

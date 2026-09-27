@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 171790.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/club/ClubBuyConfirmationDialog.as
-// Nome offuscato: _i0e36a18c4a460a
+// Extracted from HabboAirLauncher.deobf.js, line 171790.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/club/ClubBuyConfirmationDialog.as
+// Obfuscated name: _i0e36a18c4a460a
 
 class {
   constructor(e, r, t) {

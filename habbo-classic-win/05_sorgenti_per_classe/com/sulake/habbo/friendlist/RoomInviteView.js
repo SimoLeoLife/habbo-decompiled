@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 215586.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/RoomInviteView.as
-// Nome offuscato: _i85b8bb13c55f88
+// Extracted from HabboAirLauncher.deobf.js, line 215586.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/RoomInviteView.as
+// Obfuscated name: _i85b8bb13c55f88
 
 class extends jm {
   static {

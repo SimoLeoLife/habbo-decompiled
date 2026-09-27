@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 234013.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/HabboHelp.as
-// Nome offuscato: _i632965d35979f1
+// Extracted from HabboAirLauncher.deobf.js, line 234013.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/HabboHelp.as
+// Obfuscated name: _i632965d35979f1
 
 class a extends ue {
   static {
@@ -210,22 +210,22 @@ class a extends ue {
   }
   initComponent() {
     (this.addMessageEvent(new class_2114(this.onUsers)),
-      this.addMessageEvent(new _i333a8da3a5d6bf(this._rc68c5eb1f835e9)),
+      this.addMessageEvent(new UnkMessageEvent_333a8d(this._rc68c5eb1f835e9)),
       this.addMessageEvent(new class_2027(this._ra43f6ebc8ffe33)),
       this.addMessageEvent(new class_2220(this._r8aae5137a099c1)),
       this.addMessageEvent(new class_2212(this._rc2eff326f83fc7)),
-      this.addMessageEvent(new _i0acb510f063690(this._r9b472edeafa4c7)),
-      this.addMessageEvent(new _i741270ac161d9f(this._rcda6913b0fd5b3)),
-      this.addMessageEvent(new _iacffa79a4f9052(this._r848177b8826dda)),
+      this.addMessageEvent(new UnkMessageEvent_0acb51(this._r9b472edeafa4c7)),
+      this.addMessageEvent(new UnkMessageEvent_741270(this._rcda6913b0fd5b3)),
+      this.addMessageEvent(new UnkMessageEvent_acffa7(this._r848177b8826dda)),
       this.addMessageEvent(new class_2117(this.onRoomEnter)),
       this.addMessageEvent(new class_1939(this._r09330674c979c8)),
-      this.addMessageEvent(new _ieb5a37a133d35f(this._rdfe52c97da3eb7)),
-      this.addMessageEvent(new _i85dbfb33814d2d(this._r716ebe46b183a9)),
+      this.addMessageEvent(new UnkMessageEvent_eb5a37(this._rdfe52c97da3eb7)),
+      this.addMessageEvent(new UnkMessageEvent_85dbfb(this._r716ebe46b183a9)),
       (this._r3d6c0e226ef51d = new ChatEventHandler(this)),
       (this._r94698e7f61b594 = new GuideHelpManager(this)),
       (this.var_44 = new h7e(this)),
       (this._r7045cb34a6ab81 = new NameChangeController(this)),
-      (this._rbb0f81ab328093 = new _i3239af07c4ae5b(this)),
+      (this._rbb0f81ab328093 = new UnkClass_3239af(this)),
       (this._rc3e8c430541fc2 = new W7e(this)),
       (this._r9ee2842df2bf2d = new SanctionInfo(this)),
       (this._r7ac5646e3ec2da = new u5(this)),
@@ -292,7 +292,7 @@ class a extends ue {
     this._r6358b2bd53ae19?.connection?.send(e);
   }
   requestGuide() {
-    this.getBoolean("guides.enabled") && this._r94698e7f61b594?.onInput(_id64457360695fc._rb6595d1a1fe905);
+    this.getBoolean("guides.enabled") && this._r94698e7f61b594?.onInput(UnkConstants_d64457._rb6595d1a1fe905);
   }
   _r19b752804a82d0(e) {
     this.var_44 != null && this.var_44._r19b752804a82d0(e, this.var_19);
@@ -392,10 +392,10 @@ class a extends ue {
     this._rc3e8c430541fc2?._r383c01d7789bff();
   }
   _r41eeaae23311a4(e) {
-    ((this.var_375 = e), this._rb13ed3a89b85ae(new _i199680adb683cf()));
+    ((this.var_375 = e), this._rb13ed3a89b85ae(new UnkMessageComposer_0args_199680()));
   }
   _rffc8f5d59666ad(e) {
-    ((this._r0642d4a7c247e9 = e), this._rb13ed3a89b85ae(new class_2182()), this._rb13ed3a89b85ae(new _ib141ad27f9cd59()));
+    ((this._r0642d4a7c247e9 = e), this._rb13ed3a89b85ae(new class_2182()), this._rb13ed3a89b85ae(new UnkMessageComposer_0args_b141ad()));
   }
   _r68cfb8aa6393cc(e) {
     let r = this.var_44?.reportedUserId ?? 0;
@@ -408,10 +408,10 @@ class a extends ue {
     }
   }
   requestSanctionInfo(e) {
-    this._rb13ed3a89b85ae(new _ia0cb16b5bb16d1());
+    this._rb13ed3a89b85ae(new UnkMessageComposer_0args_a0cb16());
   }
   _re969b30350bde4() {
-    this._rb13ed3a89b85ae(new _iabfc904dc09eee());
+    this._rb13ed3a89b85ae(new UnkMessageComposer_0args_abfc90());
   }
   _r9ca83c8ade6879() {
     let e = this.context.configuration?.getProperty("cfh.faq.url") ?? "";
@@ -509,7 +509,7 @@ class a extends ue {
     this._rc90ed3e86804b8.registerRoom(t, i);
   }, "_r8aae5137a099c1");
   _rc68c5eb1f835e9 = n((e) => {
-    let r = ClassUtils.getParser(e, _i283c798c024380);
+    let r = ClassUtils.getParser(e, UnkMessageParser_SI_283c79);
     r != null && this._rc90ed3e86804b8.registerRoom(r.roomId, "");
   }, "_rc68c5eb1f835e9");
   _ra43f6ebc8ffe33 = n((e) => {

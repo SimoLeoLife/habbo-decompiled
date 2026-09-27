@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 180725.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectBadgeAssetEvent.as
-// Nome offuscato: _i8648eb6df0e7e4
+// Extracted from HabboAirLauncher.deobf.js, line 180725.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectBadgeAssetEvent.as
+// Obfuscated name: _i8648eb6df0e7e4
 
 class extends RoomObjectEvent {
   constructor(r, t, i, s = !0, o = !1, d = !1) {

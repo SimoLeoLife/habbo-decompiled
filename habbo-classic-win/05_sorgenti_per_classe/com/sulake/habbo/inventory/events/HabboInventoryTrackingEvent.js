@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 150737.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/events/HabboInventoryTrackingEvent.as
-// Nome offuscato: _id794d52b298f18
+// Extracted from HabboAirLauncher.deobf.js, line 150737.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/events/HabboInventoryTrackingEvent.as
+// Obfuscated name: _id794d52b298f18
 
 class {
   static {

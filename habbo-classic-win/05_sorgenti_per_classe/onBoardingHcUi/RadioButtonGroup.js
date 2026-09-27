@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 214169.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/onBoardingHcUi/RadioButtonGroup.as
-// Nome offuscato: _i4a576b64885f7b
+// Extracted from HabboAirLauncher.deobf.js, line 214169.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/onBoardingHcUi/RadioButtonGroup.as
+// Obfuscated name: _i4a576b64885f7b
 
 class {
   constructor(e) {

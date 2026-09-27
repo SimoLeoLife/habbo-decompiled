@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 313605.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/doorbell/DoorbellWidget.as
-// Nome offuscato: _i0722d7723e5457
+// Extracted from HabboAirLauncher.deobf.js, line 313605.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/doorbell/DoorbellWidget.as
+// Obfuscated name: _i0722d7723e5457
 
 class a extends RoomWidgetBase {
   static {

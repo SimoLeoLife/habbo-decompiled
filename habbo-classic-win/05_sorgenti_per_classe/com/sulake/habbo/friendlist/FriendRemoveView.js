@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 215490.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/FriendRemoveView.as
-// Nome offuscato: _iede55c4a384997
+// Extracted from HabboAirLauncher.deobf.js, line 215490.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/FriendRemoveView.as
+// Obfuscated name: _iede55c4a384997
 
 class extends jm {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 68235.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/class_21.as
-// Nome offuscato: _i1f364b3a0afead
+// Extracted from HabboAirLauncher.deobf.js, line 68235.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/class_21.as
+// Obfuscated name: _i1f364b3a0afead
 
 class a {
   static {
@@ -36,22 +36,22 @@ class a {
     return a.var_4574;
   }
   static get _re97114380dfab6() {
-    return Math.max(_ic7f867ad53849e._r07af885b748f48, _ic7f867ad53849e._rd4b507212bb7db) < 1600 ? !1 : a.scale > 0.75;
+    return Math.max(UnkClass_c7f867._r07af885b748f48, UnkClass_c7f867._rd4b507212bb7db) < 1600 ? !1 : a.scale > 0.75;
   }
   static get _r5171a487aad6f9() {
     return !a._re97114380dfab6 || a.isPhone();
   }
   static get _rb76918d6c2dc3e() {
-    let e = Math.max(_ic7f867ad53849e._r07af885b748f48, _ic7f867ad53849e._rd4b507212bb7db),
-      r = Math.max(1, Math.min(_ic7f867ad53849e._r07af885b748f48, _ic7f867ad53849e._rd4b507212bb7db));
+    let e = Math.max(UnkClass_c7f867._r07af885b748f48, UnkClass_c7f867._rd4b507212bb7db),
+      r = Math.max(1, Math.min(UnkClass_c7f867._r07af885b748f48, UnkClass_c7f867._rd4b507212bb7db));
     return e / r > 2;
   }
   static get _r499153643e71dc() {
     return a._re3f9e9a27da9be;
   }
   static get _re3f9e9a27da9be() {
-    let e = Math.max(_ic7f867ad53849e._r07af885b748f48, _ic7f867ad53849e._rd4b507212bb7db),
-      r = Math.min(_ic7f867ad53849e._r07af885b748f48, _ic7f867ad53849e._rd4b507212bb7db);
+    let e = Math.max(UnkClass_c7f867._r07af885b748f48, UnkClass_c7f867._rd4b507212bb7db),
+      r = Math.min(UnkClass_c7f867._r07af885b748f48, UnkClass_c7f867._rd4b507212bb7db);
     return a.isIos() && e === 2436 && r === 1125;
   }
   static get _r952e7c9f4ea7d8() {
@@ -101,7 +101,7 @@ class a {
     return (a.init(), a._r9df599424438dc);
   }
   static isIOSSimulator() {
-    return a.isIos() && _ic7f867ad53849e.os.includes("x86");
+    return a.isIos() && UnkClass_c7f867.os.includes("x86");
   }
   static getDeviceStringForLogging() {
     let e = "";
@@ -114,7 +114,7 @@ class a {
   }
   static initOs() {
     let e = typeof navigator > "u" ? "" : navigator.userAgent.toLowerCase(),
-      r = _ic7f867ad53849e.version.toLowerCase();
+      r = UnkClass_c7f867.version.toLowerCase();
     if (r.includes("ios") || /(iphone|ipad|ipod|ios)/.test(e)) {
       a._rb5c1c87ed3543e = a._r28c8e3b1e43659;
       return;
@@ -157,10 +157,10 @@ class a {
           "iPad2,7",
           "iPod5,1",
         ],
-        r = _ic7f867ad53849e.os;
+        r = UnkClass_c7f867.os;
       a._r1f0bcabd727119 = e.some((t) => r.includes(t));
       return;
     }
-    a._r1f0bcabd727119 = !(Math.max(_ic7f867ad53849e._r07af885b748f48, _ic7f867ad53849e._rd4b507212bb7db) >= 1600 && a._scale > 0.75);
+    a._r1f0bcabd727119 = !(Math.max(UnkClass_c7f867._r07af885b748f48, UnkClass_c7f867._rd4b507212bb7db) >= 1600 && a._scale > 0.75);
   }
 }

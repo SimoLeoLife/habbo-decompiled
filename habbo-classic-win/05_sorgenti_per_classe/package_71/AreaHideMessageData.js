@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 100239.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_71/AreaHideMessageData.as
-// Nome offuscato: _i1af4710be441e8
+// Extracted from HabboAirLauncher.deobf.js, line 100239.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_71/AreaHideMessageData.as
+// Obfuscated name: _i1af4710be441e8
 
 class {
     static {

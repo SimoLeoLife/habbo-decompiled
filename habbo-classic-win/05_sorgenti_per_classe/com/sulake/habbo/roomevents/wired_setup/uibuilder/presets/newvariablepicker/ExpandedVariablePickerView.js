@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 348862.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/newvariablepicker/ExpandedVariablePickerView.as
-// Nome offuscato: _ia6882b207ee06a
+// Extracted from HabboAirLauncher.deobf.js, line 348862.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/newvariablepicker/ExpandedVariablePickerView.as
+// Obfuscated name: _ia6882b207ee06a
 
 class {
   constructor(e, r) {

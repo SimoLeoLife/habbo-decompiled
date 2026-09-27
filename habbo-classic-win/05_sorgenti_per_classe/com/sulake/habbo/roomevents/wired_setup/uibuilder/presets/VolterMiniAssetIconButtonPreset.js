@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 349442.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/VolterMiniAssetIconButtonPreset.as
-// Nome offuscato: _i015b170543ce89
+// Extracted from HabboAirLauncher.deobf.js, line 349442.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/VolterMiniAssetIconButtonPreset.as
+// Obfuscated name: _i015b170543ce89
 
 class a extends Tg {
   static {

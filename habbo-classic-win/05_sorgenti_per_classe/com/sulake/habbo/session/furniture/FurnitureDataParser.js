@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 335972.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/furniture/FurnitureDataParser.as
-// Nome offuscato: _ifce5f118c136d0
+// Extracted from HabboAirLauncher.deobf.js, line 335972.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/furniture/FurnitureDataParser.as
+// Obfuscated name: _ifce5f118c136d0
 
 class a extends Ft {
   constructor(r, t, i, s, o, d = !0) {
@@ -36,7 +36,7 @@ class a extends Ft {
   requestData(r) {
     let t = this.URLRequest?.getAssetByName("furnidata") ?? null;
     t != null && (this.URLRequest?.removeAsset(t) ?? null)?.dispose();
-    let i = this.URLRequest?.loadAssetFromFile("furnidata", new _i636490202c0f9a(r), "text/plain") ?? null;
+    let i = this.URLRequest?.loadAssetFromFile("furnidata", new UnkClass_636490(r), "text/plain") ?? null;
     i != null &&
       (i.addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._rba4dcacb65a77e),
       i.addEventListener(Le.ASSET_LOADER_EVENT_ERROR, this._r3ea5090b7b9316));
@@ -137,8 +137,8 @@ class a extends Ft {
       _ = a._rd13735678592b7(r, "canputstuffon") === "1",
       h = Number(a._rd13735678592b7(r, "height") || "0"),
       p = (a._rd13735678592b7(r, "recyclable") || "1") === "1";
-    return new _i232051de556d65_(
-      _i232051de556d65_.const_1234,
+    return new UnkClass_232051__(
+      UnkClass_232051__.const_1234,
       t,
       s,
       d,
@@ -178,8 +178,8 @@ class a extends Ft {
       s = i[0] ?? "",
       o = i.length > 1 ? a._r9b25849cc8356c(i[1], 0) : 0,
       d = i.length > 1;
-    return new _i232051de556d65_(
-      _i232051de556d65_.const_1234,
+    return new UnkClass_232051__(
+      UnkClass_232051__.const_1234,
       a._r9b25849cc8356c(r.id),
       t,
       s,
@@ -215,8 +215,8 @@ class a extends Ft {
   }
   _r43aec110c06534(r) {
     let t = (a._rd13735678592b7(r, "recyclable") || "1") === "1";
-    return new _i232051de556d65_(
-      _i232051de556d65_.const_320,
+    return new UnkClass_232051__(
+      UnkClass_232051__.const_320,
       Number.parseInt(a.getAttribute(r, "id") || "0", 10),
       a.getAttribute(r, "classname"),
       a.getAttribute(r, "classname"),
@@ -251,8 +251,8 @@ class a extends Ft {
     );
   }
   parseFurnitureData(r) {
-    return new _i232051de556d65_(
-      _i232051de556d65_.const_320,
+    return new UnkClass_232051__(
+      UnkClass_232051__.const_320,
       a._r9b25849cc8356c(r.id),
       a._r2bb782be179832(r.classname),
       a._r2bb782be179832(r.classname),
@@ -332,7 +332,7 @@ class a extends Ft {
           ye = !oe && d[19] === "1",
           ir = !oe && d[20] === "1",
           pe = oe ? d[18] === "1" : d[21] === "1",
-          lr = new _i232051de556d65_(
+          lr = new UnkClass_232051__(
             c,
             f,
             l,
@@ -374,9 +374,9 @@ class a extends Ft {
   _r4097837d8a8898(r) {
     let t = null;
     if (
-      (r.type === _i232051de556d65_.const_1234
+      (r.type === UnkClass_232051__.const_1234
         ? (this._rfbc234a8ce8403?.add(r.id, r), (t = this.var_3742))
-        : r.type === _i232051de556d65_.const_320 &&
+        : r.type === UnkClass_232051__.const_320 &&
           (this._wallItems?.add(r.id, r), (t = this.var_1091)),
       t == null)
     )
@@ -393,12 +393,12 @@ class a extends Ft {
   }, "_r3ea5090b7b9316");
   registerFurnitureLocalization(r) {
     if (this._localization != null) {
-      if (r.type === _i232051de556d65_.const_1234) {
+      if (r.type === UnkClass_232051__.const_1234) {
         (this._localization.updateLocalization(`roomItem.name.${r.id}`, r.localizedName),
           this._localization.updateLocalization(`roomItem.desc.${r.id}`, r.description));
         return;
       }
-      r.type === _i232051de556d65_.const_320 &&
+      r.type === UnkClass_232051__.const_320 &&
         (this._localization.updateLocalization(`wallItem.name.${r.id}`, r.localizedName),
         this._localization.updateLocalization(`wallItem.desc.${r.id}`, r.description));
     }

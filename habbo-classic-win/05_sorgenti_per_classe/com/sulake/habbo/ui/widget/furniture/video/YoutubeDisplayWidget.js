@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 319571.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/video/YoutubeDisplayWidget.as
-// Nome offuscato: _iabdfb93a7546d4
+// Extracted from HabboAirLauncher.deobf.js, line 319571.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/video/YoutubeDisplayWidget.as
+// Obfuscated name: _iabdfb93a7546d4
 
 class extends RoomWidgetBase {
   static {

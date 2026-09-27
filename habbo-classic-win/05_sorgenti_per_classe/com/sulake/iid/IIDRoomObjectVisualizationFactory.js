@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 290496.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/iid/IIDRoomObjectVisualizationFactory.as
+// Extracted from HabboAirLauncher.deobf.js, line 290496.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/iid/IIDRoomObjectVisualizationFactory.as
 
 class {
   static {

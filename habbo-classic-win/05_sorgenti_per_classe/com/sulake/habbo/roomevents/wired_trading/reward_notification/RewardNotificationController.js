@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 374138.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/reward_notification/RewardNotificationController.as
-// Nome offuscato: _ib6b9d084266e47
+// Extracted from HabboAirLauncher.deobf.js, line 374138.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/reward_notification/RewardNotificationController.as
+// Obfuscated name: _ib6b9d084266e47
 
 class a extends ue {
   static {
@@ -17,7 +17,7 @@ class a extends ue {
     (super(r, t, i),
       (this._roomEvents = e),
       (this._messageEvents = []),
-      this._messageEvents.push(new _i6e59e343aa7447((s) => this.onTransactionSuccess(s))));
+      this._messageEvents.push(new UnkMessageEvent_6e59e3((s) => this.onTransactionSuccess(s))));
     for (let s of this._messageEvents) this.addMessageEvent(s);
     ((this.var_2492 = new B()), (this.var_411 = []), (this.var_102 = new UbuntuPresetManager(e)));
   }

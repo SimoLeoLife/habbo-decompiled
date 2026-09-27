@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 372977.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/subcontrollers/views/FurniChestView.as
-// Nome offuscato: _i4279ecd77b414d
+// Extracted from HabboAirLauncher.deobf.js, line 372977.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/subcontrollers/views/FurniChestView.as
+// Obfuscated name: _i4279ecd77b414d
 
 class a {
   constructor(e) {
@@ -206,7 +206,7 @@ class a {
     (we.disableSection(this.viewLogsButton, !this.var_63._r4b0f4dcd9b6c6f),
       we.disableSection(this.withdrawButton, !this.var_63.canWithdraw),
       (this.previewFurniName.text = this._r42d2437fb67ca7(r)),
-      e != null && (e.productInfo = new _i27028f939050ee_(r.type)));
+      e != null && (e.productInfo = new UnkClass_27028f__(r.type)));
   }
   _r42d2437fb67ca7(e) {
     return a.getChestBasedItemName(

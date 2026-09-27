@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 308104.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/PetMenuView.as
-// Nome offuscato: _icc48ccf7af3cf5
+// Extracted from HabboAirLauncher.deobf.js, line 308104.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/PetMenuView.as
+// Obfuscated name: _icc48ccf7af3cf5
 
 class a extends AvatarContextInfoButtonView {
   static {

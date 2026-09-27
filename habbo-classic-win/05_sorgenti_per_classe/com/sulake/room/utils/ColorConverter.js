@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 79740.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/utils/ColorConverter.as
-// Nome offuscato: _i41c0129447cb9b
+// Extracted from HabboAirLauncher.deobf.js, line 79740.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/utils/ColorConverter.as
+// Obfuscated name: _i41c0129447cb9b
 
 class a {
   static {

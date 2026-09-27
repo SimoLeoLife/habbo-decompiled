@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 141508.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/TextLinkController.as
-// Nome offuscato: _iad0416cbc42992
+// Extracted from HabboAirLauncher.deobf.js, line 141508.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/TextLinkController.as
+// Obfuscated name: _iad0416cbc42992
 
 class extends r1 {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 67465.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/enum/RenderMode.as
-// Nome offuscato: _i276a6afb0c5fce
+// Extracted from HabboAirLauncher.deobf.js, line 67465.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/enum/RenderMode.as
+// Obfuscated name: _i276a6afb0c5fce
 
 class {
   static {

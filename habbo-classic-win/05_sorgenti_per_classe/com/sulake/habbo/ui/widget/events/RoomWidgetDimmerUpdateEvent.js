@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 160199.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetDimmerUpdateEvent.as
-// Nome offuscato: _icb250839cc48c7
+// Extracted from HabboAirLauncher.deobf.js, line 160199.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetDimmerUpdateEvent.as
+// Obfuscated name: _icb250839cc48c7
 
 class extends RoomWidgetUpdateEvent {
   static {

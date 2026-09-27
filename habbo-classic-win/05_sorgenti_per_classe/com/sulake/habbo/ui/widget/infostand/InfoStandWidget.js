@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 322656.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/InfoStandWidget.as
-// Nome offuscato: _ib70b793bc60aff
+// Extracted from HabboAirLauncher.deobf.js, line 322656.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/InfoStandWidget.as
+// Obfuscated name: _ib70b793bc60aff
 
 class a extends RoomWidgetBase {
   static {
@@ -46,7 +46,7 @@ class a extends RoomWidgetBase {
       (this.var_86 = new InfoStandFurniData()),
       (this._r7982e3490a9f12 = new InfoStandPetData()),
       (this._r0b6c6f5456c4ed = new InfoStandRentableBotData()),
-      (this._r65a67a0bca4899 = new _i05394ecc0c0c4d(a.UPDATE_INTERVAL_MS)),
+      (this._r65a67a0bca4899 = new UnkEventDispatcherWrapperSubclass_05394e(a.UPDATE_INTERVAL_MS)),
       this._r65a67a0bca4899.addEventListener(DeBouncer.addEventListener, this._r74a888e08bca64),
       (this.mainContainer.visible = !1));
     let o = this._handler;
@@ -246,7 +246,7 @@ class a extends RoomWidgetBase {
       return;
     }
     let t = this.roomControllerLevel?.connection ?? null;
-    t != null && this.furniData.id > 0 && t.send(new _i825701823414ca(this.furniData.id, e));
+    t != null && this.furniData.id > 0 && t.send(new UnkMessageComposer_2args_825701(this.furniData.id, e));
   }
   close() {
     (this.hideChildren(), this._r65a67a0bca4899?.stop());
@@ -479,7 +479,7 @@ class a extends RoomWidgetBase {
           e.badgeRarityId === r.badgeRarityId;
   }
   _r06f3297b564192(e, r) {
-    for (let t of e ?? []) if (t instanceof _i6e70f7261361b5 && t._r3d8be6b2a8461a === r) return t;
+    for (let t of e ?? []) if (t instanceof UnkClass_6e70f7 && t._r3d8be6b2a8461a === r) return t;
     return null;
   }
 }

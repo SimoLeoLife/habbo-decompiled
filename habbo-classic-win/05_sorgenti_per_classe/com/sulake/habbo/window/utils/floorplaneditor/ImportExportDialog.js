@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 147064.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/floorplaneditor/ImportExportDialog.as
-// Nome offuscato: _ic256081df290f4
+// Extracted from HabboAirLauncher.deobf.js, line 147064.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/floorplaneditor/ImportExportDialog.as
+// Obfuscated name: _ic256081df290f4
 
 class {
   constructor(e, r) {
@@ -46,7 +46,7 @@ class {
         case "save": {
           let t = this._window.findChildByName("data")?.caption ?? "";
           this._bcFloorPlanEditor.windowManager.communication?.connection?.send(
-            new _ib4ef788e38c114(
+            new class_2506(
               t,
               this._bcFloorPlanEditor._r223f1e7a35055c.entryPoint.x,
               this._bcFloorPlanEditor._r223f1e7a35055c.entryPoint.y,

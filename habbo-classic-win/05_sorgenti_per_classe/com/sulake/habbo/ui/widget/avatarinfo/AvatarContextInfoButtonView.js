@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 305696.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/AvatarContextInfoButtonView.as
-// Nome offuscato: _ifa71026768d42e
+// Extracted from HabboAirLauncher.deobf.js, line 305696.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/AvatarContextInfoButtonView.as
+// Obfuscated name: _ifa71026768d42e
 
 class extends mX {
   static {

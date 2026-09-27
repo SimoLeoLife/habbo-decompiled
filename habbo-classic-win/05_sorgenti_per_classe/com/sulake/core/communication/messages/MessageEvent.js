@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 72718.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/communication/messages/MessageEvent.as
-// Nome offuscato: _i1070e2d2504fbd
+// Extracted from HabboAirLauncher.deobf.js, line 72718.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/communication/messages/MessageEvent.as
+// Obfuscated name: _i1070e2d2504fbd
 
 class {
   static {

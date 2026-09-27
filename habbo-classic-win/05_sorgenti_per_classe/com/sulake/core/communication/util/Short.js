@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 109990.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/communication/util/Short.as
-// Nome offuscato: _i019fdccd097c1d
+// Extracted from HabboAirLauncher.deobf.js, line 109990.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/communication/util/Short.as
+// Obfuscated name: _i019fdccd097c1d
 
 class {
   static {

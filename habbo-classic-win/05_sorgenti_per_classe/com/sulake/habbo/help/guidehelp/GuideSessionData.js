@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 229912.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/guidehelp/GuideSessionData.as
-// Nome offuscato: _i4810d97c46cebd
+// Extracted from HabboAirLauncher.deobf.js, line 229912.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/guidehelp/GuideSessionData.as
+// Obfuscated name: _i4810d97c46cebd
 
 class a {
   static {

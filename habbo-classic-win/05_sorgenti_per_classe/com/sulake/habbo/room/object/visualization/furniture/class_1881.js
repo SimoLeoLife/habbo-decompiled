@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 277827.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/class_1881.as
-// Nome offuscato: _i69a55e47af5570
+// Extracted from HabboAirLauncher.deobf.js, line 277827.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/class_1881.as
+// Obfuscated name: _i69a55e47af5570
 
 class a extends Pa {
   static {
@@ -94,7 +94,7 @@ class a extends Pa {
     }
     if (this.var_5556) {
       let d = new A(r.width + 2, r.height + 2, !0, 0),
-        c = new _i4210dc3239901d(0, 0, 0, 1);
+        c = new UnkClass_4210dc(0, 0, 0, 1);
       return (
         d.draw(e, i, c),
         (i.tx += 1),

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 109331.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_228/WiredVariableStorageParameter.as
-// Nome offuscato: _ibacce806f616ce
+// Extracted from HabboAirLauncher.deobf.js, line 109331.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_228/WiredVariableStorageParameter.as
+// Obfuscated name: _ibacce806f616ce
 
 class {
     static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161871.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetPetCommandMessage.as
-// Nome offuscato: _icc997f75e3dd02
+// Extracted from HabboAirLauncher.deobf.js, line 161871.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetPetCommandMessage.as
+// Obfuscated name: _icc997f75e3dd02
 
 class extends RoomWidgetMessage {
   constructor(r, t, i = null) {

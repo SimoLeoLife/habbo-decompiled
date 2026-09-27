@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 347122.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/inputsources/SourceTypePicker.as
-// Nome offuscato: _i16eef2d5aa511c
+// Extracted from HabboAirLauncher.deobf.js, line 347122.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/inputsources/SourceTypePicker.as
+// Obfuscated name: _i16eef2d5aa511c
 
 class {
   constructor(e, r, t) {

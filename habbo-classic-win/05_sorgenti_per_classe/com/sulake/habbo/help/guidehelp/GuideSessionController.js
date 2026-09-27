@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 230022.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/guidehelp/GuideSessionController.as
-// Nome offuscato: _ib45ea61ac6e4d5
+// Extracted from HabboAirLauncher.deobf.js, line 230022.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/guidehelp/GuideSessionController.as
+// Obfuscated name: _ib45ea61ac6e4d5
 
 class a {
   constructor(e) {
@@ -12,26 +12,26 @@ class a {
       (this._r1b47c2fa331776 = r?.getXmlWindow("chat_msg")),
       (this._r44f3576337a894 = r?.getXmlWindow("chat_msg_notification")),
       (this._r156b50d52b6e36 = r?.getXmlWindow("chat_msg_reminder")),
-      r?.context?.dispatchEvent?.stage?.addEventListener(_ifd7c1208e3417e.var_370, this._r49c67624b0b5e3),
+      r?.context?.dispatchEvent?.stage?.addEventListener(UnkClass_fd7c12.var_370, this._r49c67624b0b5e3),
       (this._r32ac70b3dd2f21 = setInterval(this._rc3d8a577dc4b7c, a.const_613)),
       (this._r2af29eeee23e4c = _ia411d8d8194a3a()),
       (this._rbb7bcfd08d52c1 = setInterval(this._r3437fd45ecdce0, 5e3)),
       r?._rf3db13932bfb60?._r2e106e2349a0b6(new class_2391(this._r8d00d687c63193)),
-      r?._rf3db13932bfb60?._r2e106e2349a0b6(new _ibca29e50529564(this._r79a1c6a71e3149)),
+      r?._rf3db13932bfb60?._r2e106e2349a0b6(new UnkMessageEvent_bca29e(this._r79a1c6a71e3149)),
       r?._rf3db13932bfb60?._r2e106e2349a0b6(new class_2940(this._re7e0d94d2ea961)),
       r?._rf3db13932bfb60?._r2e106e2349a0b6(new class_2844(this._rc3d159747f4984)),
       r?._rf3db13932bfb60?._r2e106e2349a0b6(new class_3525(this._r4f7e580f2edab6)),
       r?._rf3db13932bfb60?._r2e106e2349a0b6(new class_3129(this._r63e3797d508f91)),
-      r?._rf3db13932bfb60?._r2e106e2349a0b6(new _ice77737aeb5e73(this._r4ce6fbec1150e9)),
+      r?._rf3db13932bfb60?._r2e106e2349a0b6(new UnkMessageEvent_ce7773(this._r4ce6fbec1150e9)),
       r?._rf3db13932bfb60?._r2e106e2349a0b6(new class_3607(this._re334bffbb2a5eb)),
       r?._rf3db13932bfb60?._r2e106e2349a0b6(new class_3408(this._rcc8a5b86f77167)),
       r?._rf3db13932bfb60?._r2e106e2349a0b6(new class_3761(this._r662128b71f9927)),
-      r?._rf3db13932bfb60?._r2e106e2349a0b6(new _i2c7b489ce44a85(this._r773ce30a57f0a5)),
-      r?._rf3db13932bfb60?._r2e106e2349a0b6(new _i7d9fe50ce66b98(this._ra2afa1adf65f89)),
-      r?._rf3db13932bfb60?._r2e106e2349a0b6(new _if3384a62ff50a2(this._ra939ff62d9b427)),
+      r?._rf3db13932bfb60?._r2e106e2349a0b6(new UnkMessageEvent_class_2880(this._r773ce30a57f0a5)),
+      r?._rf3db13932bfb60?._r2e106e2349a0b6(new UnkMessageEvent_7d9fe5(this._ra2afa1adf65f89)),
+      r?._rf3db13932bfb60?._r2e106e2349a0b6(new UnkMessageEvent_f3384a(this._ra939ff62d9b427)),
       r?._rf3db13932bfb60?._r2e106e2349a0b6(new class_2453(this._rcd8d501cc456ad)),
       r?._rf3db13932bfb60?._r2e106e2349a0b6(new class_3556(this._rbe4e203e0770e7)),
-      r?._rf3db13932bfb60?._r2e106e2349a0b6(new _i40e2d1bafd240b(this._r2f1ec6da5b727c)));
+      r?._rf3db13932bfb60?._r2e106e2349a0b6(new UnkMessageEvent_40e2d1(this._r2f1ec6da5b727c)));
   }
   static {
     n(this, "GuideSessionController");
@@ -89,7 +89,7 @@ class a {
       this._r156b50d52b6e36?.dispose(),
       (this._r156b50d52b6e36 = null),
       this._r81763b91025ebb?.habboHelp.context?.dispatchEvent?.stage?.removeEventListener(
-        _ifd7c1208e3417e.var_370,
+        UnkClass_fd7c12.var_370,
         this._r49c67624b0b5e3,
       ),
       (this._r81763b91025ebb = null),
@@ -101,12 +101,12 @@ class a {
   onInput(e) {
     let r = this._r81763b91025ebb?.habboHelp;
     if (!(r == null || this._sessionData._rcc8a3bda444523())) {
-      if (e === _id64457360695fc._rb6595d1a1fe905 || e === _id64457360695fc._rba379f7c9c44bb) {
+      if (e === UnkConstants_d64457._rb6595d1a1fe905 || e === UnkConstants_d64457._rba379f7c9c44bb) {
         ((this._sessionData.role = B0._r711573a6873f8a),
           (this._sessionData._ra25c446b9c70b2 = GuideSessionStateEnum.USER_CREATE),
           (this._sessionData._r703d0531e0e84c = e),
           r._rb13ed3a89b85ae(
-            new _i7ffaea7ce81ce5(e, r.localization?.getLocalization("guide.help.request.tour.description") ?? ""),
+            new class_3326(e, r.localization?.getLocalization("guide.help.request.tour.description") ?? ""),
           ));
         return;
       }
@@ -115,7 +115,7 @@ class a {
   }
   _racc3c0ed238b27() {
     this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(
-      new _ifbe8d1f78e21ac(this._onDuty, this._ra04b70583892ab, this._r88adb5d7427f16, this._r5b2432060614d0),
+      new UnkMessageComposer_4args_fbe8d1(this._onDuty, this._ra04b70583892ab, this._r88adb5d7427f16, this._r5b2432060614d0),
     );
   }
   openReportWindow() {
@@ -138,7 +138,7 @@ class a {
   }
   _r64e450f8ad70fb(e, r) {
     if (r.length === 0) return;
-    this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _i241f2a71dc6d05(r));
+    this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_1args_241f2a(r));
     let t = e.widget;
     (t != null && (t.message = ""), this._raac1aff35315f6());
   }
@@ -259,7 +259,7 @@ class a {
   }, "_r63e3797d508f91");
   _r4ce6fbec1150e9 = n((e) => {
     if (this._disposed || !this._sessionData._r3309318e1639a0()) return;
-    let r = ClassUtils.getParser(e, _i92089c972ac89d);
+    let r = ClassUtils.getParser(e, UnkMessageParser_I_92089c);
     if (r == null) return;
     let t = r._r403ddeaed316d6();
     if (t > 0) {
@@ -327,15 +327,15 @@ class a {
       ((ClassUtils.getParser(e, class_2880)?.isPerkAllowed(class_2156.USE_GUIDE_TOOL) ?? !0) ||
         (this._onDuty &&
           (this._r80de93f1654c7a(!1),
-          this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _ifbe8d1f78e21ac(!1, !1, !1, !1))),
+          this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_4args_fbe8d1(!1, !1, !1, !1))),
         this._r0581d37d4fed57(!1)));
   }, "_r773ce30a57f0a5");
   _ra2afa1adf65f89 = n((e) => {
-    let r = ClassUtils.getParser(e, _i33fbfd88c26ec6);
+    let r = ClassUtils.getParser(e, UnkMessageParser_I_33fbfd);
     r != null && this._r4a5301db508d0e(r._re88016f07cf2e9);
   }, "_ra2afa1adf65f89");
   _ra939ff62d9b427 = n((e) => {
-    let r = ClassUtils.getParser(e, _i62ab493751d5f5);
+    let r = ClassUtils.getParser(e, UnkMessageParser_IS_62ab49);
     r != null && this._rb05265bc6cce69(r._ra69a2838852932, r._rc99187437356a9 ?? "");
   }, "_ra939ff62d9b427");
   _rcd8d501cc456ad = n((e) => {
@@ -414,8 +414,8 @@ class a {
           "",
         ) ?? "",
       ),
-      this._sessionData._r703d0531e0e84c === _id64457360695fc._rb6595d1a1fe905 ||
-      this._sessionData._r703d0531e0e84c === _id64457360695fc._rba379f7c9c44bb
+      this._sessionData._r703d0531e0e84c === UnkConstants_d64457._rb6595d1a1fe905 ||
+      this._sessionData._r703d0531e0e84c === UnkConstants_d64457._rba379f7c9c44bb
         ? this.addSystemMessage(
             a.var_4862,
             this._r81763b91025ebb?.habboHelp.localization?.getLocalization(
@@ -463,7 +463,7 @@ class a {
         (this._sessionData._ra25c446b9c70b2 = GuideSessionStateEnum.GUIDE_ACCEPT),
         this.openWindow(this._rebbb2d8afa399f, !1),
         this._r81763b91025ebb?.habboHelp.musicController?.playSound(HabboSoundTypesEnum.SOUND_GUIDE_REQUEST),
-        e === _id64457360695fc._rba379f7c9c44bb || e === _id64457360695fc._rb6595d1a1fe905)
+        e === UnkConstants_d64457._rba379f7c9c44bb || e === UnkConstants_d64457._rb6595d1a1fe905)
       ) {
         let i = this._window?.findChildByName("frank_greeting"),
           s = this._window?.findChildByName("request_title"),
@@ -530,8 +530,8 @@ class a {
         (e._r4c2336e24c69cc =
           this._r81763b91025ebb?.habboHelp.getInteger("guide.help.request.max.chat.message.length", 150) ??
           150)),
-      this._sessionData._r703d0531e0e84c === _id64457360695fc._rba379f7c9c44bb ||
-        this._sessionData._r703d0531e0e84c === _id64457360695fc._rb6595d1a1fe905)
+      this._sessionData._r703d0531e0e84c === UnkConstants_d64457._rba379f7c9c44bb ||
+        this._sessionData._r703d0531e0e84c === UnkConstants_d64457._rb6595d1a1fe905)
     ) {
       let r = "${guide.help.request.join.room.title}",
         t =
@@ -543,7 +543,7 @@ class a {
           ) ?? "";
       this._r81763b91025ebb?.habboHelp.windowManager?.confirm(r, t, 0, (i, s) => {
         (i.dispose(),
-          s.type === y.const_1300 && this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _ib9e29bb5d8d15c()));
+          s.type === y.const_1300 && this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_0args_b9e29b()));
       });
     }
   }
@@ -647,8 +647,8 @@ class a {
     (this._r80de93f1654c7a(!1),
       (this._sessionData._ra25c446b9c70b2 = GuideSessionStateEnum.REJECTED),
       this.openWindow(this._r6d1dc6decaeba7, !0),
-      (this._sessionData._r703d0531e0e84c === _id64457360695fc._rb6595d1a1fe905 ||
-        this._sessionData._r703d0531e0e84c === _id64457360695fc._rba379f7c9c44bb) &&
+      (this._sessionData._r703d0531e0e84c === UnkConstants_d64457._rb6595d1a1fe905 ||
+        this._sessionData._r703d0531e0e84c === UnkConstants_d64457._rba379f7c9c44bb) &&
         (this._window &&
           (this._window.caption = "${guide.help.request.no_tour_guides.title}"),
         this.setCaption("heading", "${guide.help.request.no_tour_guides.heading}"),
@@ -676,7 +676,7 @@ class a {
           if (e.type === u.CLICK) {
             let t = this._r81763b91025ebb?.habboHelp.getInteger("guide.help.alpha.groupid", 0) ?? 0;
             t > 0 &&
-              (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _i494540f04bf21d(t, !0)),
+              (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new class_1949(t, !0)),
               this._r81763b91025ebb?.habboHelp.trackGoogle(
                 "guideHelp",
                 `${this._window.name}_groupProfile`,
@@ -719,7 +719,7 @@ class a {
                 return;
               }
               (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(
-                new _ifbe8d1f78e21ac(!0, this._ra04b70583892ab, this._r88adb5d7427f16, this._r5b2432060614d0),
+                new UnkMessageComposer_4args_fbe8d1(!0, this._ra04b70583892ab, this._r88adb5d7427f16, this._r5b2432060614d0),
               ),
                 this._r81763b91025ebb?.habboHelp.trackGoogle(
                   "guideHelp",
@@ -729,7 +729,7 @@ class a {
             }
             case y.const_1217:
               (this.setOnDutyStatus(!1),
-                this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _ifbe8d1f78e21ac(!1, !1, !1, !1)),
+                this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_4args_fbe8d1(!1, !1, !1, !1)),
                 this._r81763b91025ebb?.habboHelp.trackGoogle(
                   "guideHelp",
                   `${this._window.name}_offDuty`,
@@ -767,7 +767,7 @@ class a {
               this._window.findChildByName("list")?.arrangeListItems());
             return;
           }
-          (t._rb13ed3a89b85ae(new _i7ffaea7ce81ce5(this._sessionData._r703d0531e0e84c, i)),
+          (t._rb13ed3a89b85ae(new class_3326(this._sessionData._r703d0531e0e84c, i)),
             t.trackGoogle("guideHelp", `${this._window.name}_clickCreate`),
             this.closeWindow());
           break;
@@ -788,7 +788,7 @@ class a {
     ))
       switch (r.name) {
         case "accept_button":
-          (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _ie52ad3675cef64(!0)),
+          (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_1args_e52ad3(!0)),
             this._r81763b91025ebb?.habboHelp.trackGoogle(
               "guideHelp",
               `${this._window.name}_clickAccept`,
@@ -796,7 +796,7 @@ class a {
             this.closeWindow());
           break;
         case "skip_link":
-          (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _ie52ad3675cef64(!1)),
+          (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_1args_e52ad3(!1)),
             this._r81763b91025ebb?.habboHelp.trackGoogle(
               "guideHelp",
               `${this._window.name}_clickSkip`,
@@ -816,18 +816,18 @@ class a {
     ))
       switch (r.name) {
         case "visit_button":
-          (t._rb13ed3a89b85ae(new _ib9e29bb5d8d15c()),
+          (t._rb13ed3a89b85ae(new UnkMessageComposer_0args_b9e29b()),
             t.trackGoogle("guideHelp", `${this._window.name}_clickVisit`));
           break;
         case "invite_button":
-          (t._rb13ed3a89b85ae(new _ic4056f39ab9d5a()),
+          (t._rb13ed3a89b85ae(new UnkMessageComposer_0args_c4056f()),
             t.trackGoogle("guideHelp", `${this._window.name}_clickInvite`));
           break;
         case "report_link":
           (this._rfbb86caf695e65(), t.trackGoogle("guideHelp", `${this._window.name}_clickReport`));
           break;
         case "close_link":
-          (t._rb13ed3a89b85ae(new _i1f252eaa5e02e0()),
+          (t._rb13ed3a89b85ae(new UnkMessageComposer_0args_1f252e()),
             t.trackGoogle("guideHelp", `${this._window.name}_clickClose`),
             this.closeWindow());
           break;
@@ -851,7 +851,7 @@ class a {
           (this._rfbb86caf695e65(), t.trackGoogle("guideHelp", `${this._window.name}_clickReport`));
           break;
         case "close_link":
-          (t._rb13ed3a89b85ae(new _i1f252eaa5e02e0()),
+          (t._rb13ed3a89b85ae(new UnkMessageComposer_0args_1f252e()),
             t.trackGoogle("guideHelp", `${this._window.name}_clickClose`),
             this.closeWindow());
           break;
@@ -863,7 +863,7 @@ class a {
       this._window.name !== GuideSessionStateEnum.USER_PENDING ||
       e.type !== u.CLICK ||
       (r.name === "cancel_button" &&
-        (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _id8a83c8e155fd7()),
+        (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_0args_d8a83c()),
         this._r81763b91025ebb?.habboHelp.trackGoogle(
           "guideHelp",
           `${this._window.name}_clickCancel`,
@@ -880,7 +880,7 @@ class a {
       switch (r.name) {
         case "close_button":
         case "header_button_close":
-          (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _ib9c7adb098da4a(!0)), this.closeWindow());
+          (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_1args_b9c7ad(!0)), this.closeWindow());
           break;
         case "report_link":
           (this._rfbb86caf695e65(),
@@ -914,7 +914,7 @@ class a {
             ));
           break;
         case "positive_button":
-          (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _ib9c7adb098da4a(!0)),
+          (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_1args_b9c7ad(!0)),
             this._r81763b91025ebb?.habboHelp.trackGoogle(
               "guideHelp",
               `${this._window.name}_clickPositiveFeedback`,
@@ -922,7 +922,7 @@ class a {
             this.closeWindow());
           break;
         case "negative_button":
-          (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _ib9c7adb098da4a(!1)),
+          (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_1args_b9c7ad(!1)),
             this._r81763b91025ebb?.habboHelp.trackGoogle(
               "guideHelp",
               `${this._window.name}_clickNegativeFeedback`,
@@ -940,7 +940,7 @@ class a {
     ))
       switch (r.name) {
         case "header_button_close":
-          (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _ib9c7adb098da4a(!1)), this.closeWindow());
+          (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_1args_b9c7ad(!1)), this.closeWindow());
           break;
         case "guide_name_link":
           (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new class_2134(this._sessionData._re37dbc09670180)),
@@ -958,7 +958,7 @@ class a {
           break;
         case "resubmit_button":
           ((this._r278ca634a0b41a = !0),
-            this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _ib9c7adb098da4a(!1)),
+            this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_1args_b9c7ad(!1)),
             this._r81763b91025ebb?.habboHelp.trackGoogle(
               "guideHelp",
               `${this._window.name}_clickResubmit`,
@@ -1002,10 +1002,10 @@ class a {
     if (!(this.disposed || this._window == null || e.type !== u.CLICK))
       switch (r.name) {
         case "skip_link":
-          (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _i8f877f6063d9ec(!1)), this._r0581d37d4fed57(!0));
+          (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_1args_8f877f(!1)), this._r0581d37d4fed57(!0));
           break;
         case "accept_button":
-          (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _i8f877f6063d9ec(!0)), this.setStateGuardianChatReviewWaitForOtherVoters());
+          (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_1args_8f877f(!0)), this.setStateGuardianChatReviewWaitForOtherVoters());
           break;
       }
   }, "_r46a71955a774e0");
@@ -1014,18 +1014,18 @@ class a {
       if (e.type === u.CLICK) {
         switch (r.name) {
           case "close_link":
-            (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _i20939e6d310fb1()), this._r0581d37d4fed57(!0));
+            (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_0args_20939e()), this._r0581d37d4fed57(!0));
             break;
           case "vote_ok":
-            (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _ic73ebf6b748666(a._r13d12122ff5a32)),
+            (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_1args_c73ebf(a._r13d12122ff5a32)),
               this._r01dc6bd18f217c(a._r13d12122ff5a32));
             break;
           case "vote_bad":
-            (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _ic73ebf6b748666(a._rcefad3a825d45c)),
+            (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_1args_c73ebf(a._rcefad3a825d45c)),
               this._r01dc6bd18f217c(a._rcefad3a825d45c));
             break;
           case "vote_very_bad":
-            (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _ic73ebf6b748666(a._r3f2e63591782d7)),
+            (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_1args_c73ebf(a._r3f2e63591782d7)),
               this._r01dc6bd18f217c(a._r3f2e63591782d7));
             break;
         }
@@ -1071,21 +1071,21 @@ class a {
       this._window == null ||
       e.type !== u.CLICK ||
       (r.name === "close_link" &&
-        (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _i20939e6d310fb1()), this._r0581d37d4fed57(!0)));
+        (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_0args_20939e()), this._r0581d37d4fed57(!0)));
   }, "onGuardianChatReviewWaitForOtherVotersEvent");
   _rbd734a5becb2e6 = n((e, r) => {
     this.disposed ||
       this._window == null ||
       e.type !== u.CLICK ||
       ((r.name === "close_button" || r.name === "header_button_close") &&
-        (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _i20939e6d310fb1()), this._r0581d37d4fed57(!0)));
+        (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_0args_20939e()), this._r0581d37d4fed57(!0)));
   }, "_rbd734a5becb2e6");
   onGuardianChatReviewResultsEvent = n((e, r) => {
     this.disposed ||
       this._window == null ||
       e.type !== u.CLICK ||
       ((r.name === "close_button" || r.name === "header_button_close") &&
-        (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _i20939e6d310fb1()), this._r0581d37d4fed57(!0)));
+        (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_0args_20939e()), this._r0581d37d4fed57(!0)));
   }, "onGuardianChatReviewResultsEvent");
   var_393 = n((e, r) => {
     let t = this._r81763b91025ebb?.habboHelp;
@@ -1103,7 +1103,7 @@ class a {
               this._ra1e08ee4b56f6d.findChildByName("list")?.arrangeListItems());
             return;
           }
-          (t._rb13ed3a89b85ae(new _if95bdecb9283fe(s)),
+          (t._rb13ed3a89b85ae(new UnkMessageComposer_1args_f95bde(s)),
             t.trackGoogle("guideHelp", `${this._ra1e08ee4b56f6d.name}_clickReport`),
             this._rc2a1d655b2b6e6(),
             this.closeWindow());
@@ -1166,7 +1166,7 @@ class a {
   }
   getRequestTypeCaption(e) {
     return (
-      e === _id64457360695fc._rba379f7c9c44bb && (e = _id64457360695fc._rb6595d1a1fe905),
+      e === UnkConstants_d64457._rba379f7c9c44bb && (e = UnkConstants_d64457._rb6595d1a1fe905),
       this._r81763b91025ebb?.habboHelp.localization?.getLocalization(`guide.help.request.type.${e}`, "") ??
         ""
     );
@@ -1296,7 +1296,7 @@ class a {
     let e = this.messageLength,
       r = this._r8b3b50c87f2490 !== e;
     (this._r1ad9f85a4167f1 !== r &&
-      (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new _icbf4ea4986b279(r)), (this._r1ad9f85a4167f1 = r)),
+      (this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(new UnkMessageComposer_1args_cbf4ea(r)), (this._r1ad9f85a4167f1 = r)),
       (this._r8b3b50c87f2490 = e));
   }, "_r269b36fc91b25c");
   _ra28678def3eb1d(e) {
@@ -1424,7 +1424,7 @@ ${p}`);
   }, "_rc3d8a577dc4b7c");
   startWaitingAnimation(e, r, t) {
     if (this._window == null || e == null) return;
-    let i = new _ib6e3512f89dd7e_(e, r, t);
+    let i = new UnkClass_b6e351___(e, r, t);
     (this.setAnimationFrame(i), this._rff022b5e7355bb.push(i));
   }
   setAnimationFrame(e) {
@@ -1442,7 +1442,7 @@ ${p}`);
     this._onDuty &&
       _ia411d8d8194a3a() - this._r2af29eeee23e4c > e &&
       this._r81763b91025ebb?.habboHelp._rb13ed3a89b85ae(
-        new _ifbe8d1f78e21ac(!1, this._ra04b70583892ab, this._r88adb5d7427f16, this._r5b2432060614d0),
+        new UnkMessageComposer_4args_fbe8d1(!1, this._ra04b70583892ab, this._r88adb5d7427f16, this._r5b2432060614d0),
       );
   }, "_r3437fd45ecdce0");
   _r0edce956b3db3f() {

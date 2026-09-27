@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 254652.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/UserCountRenderer.as
-// Nome offuscato: _i2813a92184edc7
+// Extracted from HabboAirLauncher.deobf.js, line 254652.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/UserCountRenderer.as
+// Obfuscated name: _i2813a92184edc7
 
 class a {
   constructor(e) {

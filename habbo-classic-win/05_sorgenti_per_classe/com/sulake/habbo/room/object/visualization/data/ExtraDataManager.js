@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 277760.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/data/ExtraDataManager.as
-// Nome offuscato: _i131a92b7e084dd
+// Extracted from HabboAirLauncher.deobf.js, line 277760.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/data/ExtraDataManager.as
+// Obfuscated name: _i131a92b7e084dd
 
 class a {
   static {

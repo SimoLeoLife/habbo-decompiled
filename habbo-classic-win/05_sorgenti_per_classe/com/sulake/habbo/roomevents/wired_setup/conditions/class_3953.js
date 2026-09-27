@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 365841.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/class_3953.as
-// Nome offuscato: _i301c59dbc08295
+// Extracted from HabboAirLauncher.deobf.js, line 365841.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/class_3953.as
+// Obfuscated name: _i301c59dbc08295
 
 class a extends DefaultConditionType {
   static {
@@ -45,7 +45,7 @@ class a extends DefaultConditionType {
   _rabd0908fce4e71() {
     let e = Date.now();
     e > this.var_4837 + 1e3 * a.REQUEST_TIMEOUT &&
-      ((this.var_4837 = e), this._r41f5cc7d3516ce.send(new _i7e48847e87b1ec()));
+      ((this.var_4837 = e), this._r41f5cc7d3516ce.send(new UnkMessageComposer_0args_7e4884()));
   }
   _r59ccf8a09e0742(e) {
     let r = [];

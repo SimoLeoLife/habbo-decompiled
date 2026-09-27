@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 77258.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_200/class_3913.as
-// Nome offuscato: _i949428e2b17d26
+// Extracted from HabboAirLauncher.deobf.js, line 77258.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_200/class_3913.as
+// Obfuscated name: _i949428e2b17d26
 
 class {
     static {
@@ -32,7 +32,7 @@ class {
       return this._goalCode;
     }
     get _re5afdd33fdee01() {
-      return this._r03f2910fbe9c48 === _i9010cc11faf5ce._ree3b7971d5fdf1;
+      return this._r03f2910fbe9c48 === UnkConstants_9010cc._ree3b7971d5fdf1;
     }
     get _r08a0173f580ae8() {
       return this.var_5638;

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 176231.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/renderer/collections/ShopNavigationNodeRenderer.as
-// Nome offuscato: _i345395b49b24c6
+// Extracted from HabboAirLauncher.deobf.js, line 176231.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/renderer/collections/ShopNavigationNodeRenderer.as
+// Obfuscated name: _i345395b49b24c6
 
 class {
   constructor(e, r) {

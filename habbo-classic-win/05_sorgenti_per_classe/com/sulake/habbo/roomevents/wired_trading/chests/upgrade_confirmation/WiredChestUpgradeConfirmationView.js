@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 371863.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/upgrade_confirmation/WiredChestUpgradeConfirmationView.as
-// Nome offuscato: _i87323be12e8dd0
+// Extracted from HabboAirLauncher.deobf.js, line 371863.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/upgrade_confirmation/WiredChestUpgradeConfirmationView.as
+// Obfuscated name: _i87323be12e8dd0
 
 class {
   constructor(e) {
@@ -47,7 +47,7 @@ class {
   }
   onBuyClicked = n(() => {
     (this.buyButton.disable(),
-      this.var_63.send(new _i19cc0bbaf51bb3(this._chestId, this.amountSelection.selection + 1)));
+      this.var_63.send(new class_3667(this._chestId, this.amountSelection.selection + 1)));
   }, "onBuyClicked");
   initialize(e, r, t, i) {
     ((this._chestId = e),

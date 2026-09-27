@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 186157.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/recycler/DealPrizeContainer.as
-// Nome offuscato: _i6a14a62a6c7f8f
+// Extracted from HabboAirLauncher.deobf.js, line 186157.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/recycler/DealPrizeContainer.as
+// Obfuscated name: _i6a14a62a6c7f8f
 
 class extends PrizeContainer {
   static {

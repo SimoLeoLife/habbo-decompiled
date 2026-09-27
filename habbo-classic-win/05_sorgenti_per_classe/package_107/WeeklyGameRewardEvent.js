@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 85481.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_107/WeeklyGameRewardEvent.as
-// Nome offuscato: _i559e79f2e01ad0
+// Extracted from HabboAirLauncher.deobf.js, line 85481.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_107/WeeklyGameRewardEvent.as
+// Obfuscated name: _i559e79f2e01ad0
 
 class extends MessageEvent {
     static {

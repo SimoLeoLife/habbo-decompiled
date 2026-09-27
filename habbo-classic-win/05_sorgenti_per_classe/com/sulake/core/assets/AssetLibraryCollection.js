@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 58080.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/assets/AssetLibraryCollection.as
-// Nome offuscato: _i95bb49644c599c
+// Extracted from HabboAirLauncher.deobf.js, line 58080.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/assets/AssetLibraryCollection.as
+// Obfuscated name: _i95bb49644c599c
 
 class extends Ft {
   static {

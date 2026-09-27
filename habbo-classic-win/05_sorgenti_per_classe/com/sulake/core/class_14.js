@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 60322.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/class_14.as
-// Nome offuscato: _i8c3ad067892bc3
+// Extracted from HabboAirLauncher.deobf.js, line 60322.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/class_14.as
+// Obfuscated name: _i8c3ad067892bc3
 
 class {
   static {
@@ -39,7 +39,7 @@ class {
   }
   static instantiate(e, r, t = null, i = null) {
     return (
-      this.var_325 == null && (this.var_325 = new C2(e, t ?? new _i22937e6f5f27b8(), r, i)),
+      this.var_325 == null && (this.var_325 = new C2(e, t ?? new UnkClass_22937e(), r, i)),
       this.var_325
     );
   }

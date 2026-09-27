@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 223640.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/SnowWarEngine.as
-// Nome offuscato: _id7b2dcd9eb76ec
+// Extracted from HabboAirLauncher.deobf.js, line 223640.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/SnowWarEngine.as
+// Obfuscated name: _id7b2dcd9eb76ec
 
 class a extends ue {
   constructor(r, t, i = 0, s = null) {
@@ -238,7 +238,7 @@ class a extends ue {
   _r7cfbe41b0ceb68(r, t, i, s) {
     this._r5d7d673467ca15 == null &&
       ((this._r5d7d673467ca15 = new SynchronizedGameArena()),
-      this._r5d7d673467ca15._re41653a4ececf1(new _i4d368dfb05f536()),
+      this._r5d7d673467ca15._re41653a4ececf1(new UnkClass_4d368d()),
       this._r5d7d673467ca15.initialize(this, i),
       (this._r816ca6027ab712 = new j4e(this)),
       this._roomSessionManager?._re05ee4884dc3e6(-1, !1),
@@ -310,7 +310,7 @@ class a extends ue {
     ((this._windowManager = t), this._windowManager != null && je.init(this.assets, this._windowManager));
   }, "_r78075dac337cf4");
   _r6448fe5924274c = n((r = null, t = null) => {
-    ((this._communication = t), (this._incomingMessages = new _ifffc223d172097__(this)));
+    ((this._communication = t), (this._incomingMessages = new UnkClass_fffc22_________(this)));
   }, "_r6448fe5924274c");
   _r7ff816f6be0771 = n((r = null, t = null) => {
     ((this._configuration = t),
@@ -459,7 +459,7 @@ class a extends ue {
     this._r89f41e93fcd235?.playerRematches(r);
   }
   _rb6dbaea9bc19ab() {
-    ((this._rf8e319c83f5e85 = !0), this.send(new _i42ab1490f71b7a()));
+    ((this._rf8e319c83f5e85 = !0), this.send(new UnkMessageComposer_0args_42ab14()));
   }
   _rbda5cb55b7cbf2(r, t, i = !1) {
     let s = this._players.get(r) ?? null;
@@ -479,7 +479,7 @@ class a extends ue {
       this._r5d7d673467ca15?.dispose(),
       (this._r5d7d673467ca15 = null),
       a.stopSound(HabboSoundTypesEnum.GAMES_SW_WALK),
-      this.send(new _i5dd11c8c1c20f0(class_3666.SNOWWAR)));
+      this.send(new Game2GetAccountGameStatusMessageComposer(class_3666.SNOWWAR)));
   }
   _r9dc8d3eeed7972() {
     (this._roomSessionManager?._r261a804b1fa605(),
@@ -536,7 +536,7 @@ class a extends ue {
       o = t * ti.TILE_WIDTH;
     this._re20c98e536caa8() != null &&
       (this.send(
-        new _i79a63e6c277902(s, o, this._r5d7d673467ca15._r83122f67bd84e4(), this._r5d7d673467ca15.subturn),
+        new UnkMessageComposer_4args_79a63e(s, o, this._r5d7d673467ca15._r83122f67bd84e4(), this._r5d7d673467ca15.subturn),
       ),
       this._rfd86c5862d7961(i, s, o));
   }
@@ -544,7 +544,7 @@ class a extends ue {
     if (this.var_67 !== a.STATE_STAGE_RUNNING) return !1;
     let r = this._r0774e628edf810();
     return r != null && r._r6d4287435f29f1() && this._r5d7d673467ca15 != null
-      ? (this.send(new _i7e7c592b72dcca(this._r5d7d673467ca15._r83122f67bd84e4(), this._r5d7d673467ca15.subturn)),
+      ? (this.send(new UnkMessageComposer_2args_7e7c59(this._r5d7d673467ca15._r83122f67bd84e4(), this._r5d7d673467ca15.subturn)),
         this._rbea00cba04a2d8(),
         !0)
       : !1;
@@ -560,7 +560,7 @@ class a extends ue {
         this._r98bccf4b8abc79 && this._r2765c9b59a37df()?._ra453f655136d7a(this._rc4e807f00239c5)));
   }
   _r7cd6ef7ff7fe75(r) {
-    this.send(new _if967ff62fdb963(r));
+    this.send(new UnkMessageComposer_1args_f967ff(r));
   }
   alert(r) {
     (this._r87a91a9bc531e9(),
@@ -635,7 +635,7 @@ class a extends ue {
     (t._rcd39fca6b6f83a(s?.content ?? null), t._r569e2311495896());
   }, "_r8251e07745957b");
   onRoomObjectsInitialized = n((r) => {
-    this._r5d7d673467ca15 != null && this.send(new _i9c6de6db05d388(100));
+    this._r5d7d673467ca15 != null && this.send(new UnkMessageComposer_1args_9c6de6(100));
   }, "onRoomObjectsInitialized");
   _r9d8a83a2f57c04 = n((r) => {
     (r.dispose(), (this._r6042e632d6ac0c = null));
@@ -646,7 +646,7 @@ class a extends ue {
       i._r15e0fb701bf1ae() &&
       this._r5d7d673467ca15 != null &&
       (this.send(
-        new _i263d9886677b96(r, t, this._r5d7d673467ca15._r83122f67bd84e4(), this._r5d7d673467ca15.subturn),
+        new UnkMessageComposer_4args_263d98(r, t, this._r5d7d673467ca15._r83122f67bd84e4(), this._r5d7d673467ca15.subturn),
       ),
       this._rbea00cba04a2d8());
   }
@@ -656,7 +656,7 @@ class a extends ue {
       let o = r * ti.TILE_WIDTH,
         d = t * ti.TILE_WIDTH;
       (this.send(
-        new _iaeffcadf896430(o, d, i, this._r5d7d673467ca15._r83122f67bd84e4(), this._r5d7d673467ca15.subturn),
+        new UnkMessageComposer_5args_aeffca(o, d, i, this._r5d7d673467ca15._r83122f67bd84e4(), this._r5d7d673467ca15.subturn),
       ),
         this._rbea00cba04a2d8());
     }
@@ -678,7 +678,7 @@ class a extends ue {
     let s = r.posture !== ve.POSTURE_SNOWWAR_DIE_BACK && r.posture !== ve.POSTURE_SNOWWAR_DIE_FRONT,
       o = this._r2765c9b59a37df();
     if (o == null || !s) return;
-    let d = new _i1fdc4e34ee6db8(o, t, i);
+    let d = new UnkClass_1fdc4e(o, t, i);
     this._rde5ad42d1ae6dc
       ? d.apply(this._r5d7d673467ca15._re20c98e536caa8())
       : this._r5d7d673467ca15.addGameEvent(

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 160675.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetPetLevelUpdateEvent.as
-// Nome offuscato: _i7647a6d0b52f13
+// Extracted from HabboAirLauncher.deobf.js, line 160675.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetPetLevelUpdateEvent.as
+// Obfuscated name: _i7647a6d0b52f13
 
 class a extends RoomWidgetUpdateEvent {
   constructor(r, t, i = !1, s = !1) {

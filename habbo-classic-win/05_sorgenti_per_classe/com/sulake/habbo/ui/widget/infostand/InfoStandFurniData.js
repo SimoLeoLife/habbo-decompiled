@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 319866.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/InfoStandFurniData.as
-// Nome offuscato: _i69a99f9e7c6e7e
+// Extracted from HabboAirLauncher.deobf.js, line 319866.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/InfoStandFurniData.as
+// Obfuscated name: _i69a99f9e7c6e7e
 
 class {
   static {

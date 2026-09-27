@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 227645.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge_leaderboard/server/BadgeLeaderboardDataServerContext.as
-// Nome offuscato: _i6f95d432543885
+// Extracted from HabboAirLauncher.deobf.js, line 227645.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge_leaderboard/server/BadgeLeaderboardDataServerContext.as
+// Obfuscated name: _i6f95d432543885
 
 class {
   constructor(e, r, t) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 313341.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/CraftingWidget.as
-// Nome offuscato: _i6e791c446e0c07
+// Extracted from HabboAirLauncher.deobf.js, line 313341.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/CraftingWidget.as
+// Obfuscated name: _i6e791c446e0c07
 
 class a extends RoomWidgetBase {
   constructor(r, t, i) {

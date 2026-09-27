@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 253387.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/TextFieldManager.as
-// Nome offuscato: _i8d256e2ef99201
+// Extracted from HabboAirLauncher.deobf.js, line 253387.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/TextFieldManager.as
+// Obfuscated name: _i8d256e2ef99201
 
 class {
   constructor(e, r, t = 1e3, i = null, s = null) {

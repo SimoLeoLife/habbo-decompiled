@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 107398.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_217/WiredVariable.as
-// Nome offuscato: _if06537ece4db30
+// Extracted from HabboAirLauncher.deobf.js, line 107398.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_217/WiredVariable.as
+// Obfuscated name: _if06537ece4db30
 
 class {
     static {

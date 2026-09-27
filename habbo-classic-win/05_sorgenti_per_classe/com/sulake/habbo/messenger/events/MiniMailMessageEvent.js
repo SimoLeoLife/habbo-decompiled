@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158782.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/messenger/events/MiniMailMessageEvent.as
-// Nome offuscato: _i9ce61a1b7f2d72
+// Extracted from HabboAirLauncher.deobf.js, line 158782.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/messenger/events/MiniMailMessageEvent.as
+// Obfuscated name: _i9ce61a1b7f2d72
 
 class extends M {
   constructor(r, t) {

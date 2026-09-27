@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 372708.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/subcontrollers/CoinChestSubController.as
-// Nome offuscato: _i670b609d82d317
+// Extracted from HabboAirLauncher.deobf.js, line 372708.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/subcontrollers/CoinChestSubController.as
+// Obfuscated name: _i670b609d82d317
 
 class a extends AbstractChestSubController {
   static {
@@ -26,7 +26,7 @@ class a extends AbstractChestSubController {
   }
   onWithdrawClick = n(() => {
     let e = Number.parseInt(this.withdrawInput.text, 10);
-    Number.isNaN(e) || this.getFloorItemData.send(new _i40e6572ee8180d(this._r154af520fc218d, e));
+    Number.isNaN(e) || this.getFloorItemData.send(new UnkMessageComposer_2args_40e657(this._r154af520fc218d, e));
   }, "onWithdrawClick");
   onCoinsMessage(e) {
     let r = ClassUtils.getParser(e, class_4293);

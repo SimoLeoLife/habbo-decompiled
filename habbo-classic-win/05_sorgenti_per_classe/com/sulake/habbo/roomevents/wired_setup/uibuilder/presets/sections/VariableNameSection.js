@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 351068.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/sections/VariableNameSection.as
-// Nome offuscato: _if91a771c301fa3
+// Extracted from HabboAirLauncher.deobf.js, line 351068.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/sections/VariableNameSection.as
+// Obfuscated name: _if91a771c301fa3
 
 class extends AbstractSectionPreset {
   static {

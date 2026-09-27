@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 316838.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/ecotronbox/EcotronBoxFurniWidget.as
-// Nome offuscato: _i89745755cb7a5e
+// Extracted from HabboAirLauncher.deobf.js, line 316838.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/ecotronbox/EcotronBoxFurniWidget.as
+// Obfuscated name: _i89745755cb7a5e
 
 class a extends RoomWidgetBase {
   static {

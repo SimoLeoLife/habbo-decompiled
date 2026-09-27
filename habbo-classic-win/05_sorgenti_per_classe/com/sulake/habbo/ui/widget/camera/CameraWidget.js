@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 305122.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/camera/CameraWidget.as
-// Nome offuscato: _i39943ef30a7b9b
+// Extracted from HabboAirLauncher.deobf.js, line 305122.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/camera/CameraWidget.as
+// Obfuscated name: _i39943ef30a7b9b
 
 class extends RoomWidgetBase {
   constructor(r, t, i, s, o, d) {

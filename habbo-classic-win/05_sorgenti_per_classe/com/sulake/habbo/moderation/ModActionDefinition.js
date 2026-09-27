@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 247522.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/ModActionDefinition.as
-// Nome offuscato: _i646bad3c10dda5
+// Extracted from HabboAirLauncher.deobf.js, line 247522.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/ModActionDefinition.as
+// Obfuscated name: _i646bad3c10dda5
 
 class {
   constructor(e, r, t, i, s) {

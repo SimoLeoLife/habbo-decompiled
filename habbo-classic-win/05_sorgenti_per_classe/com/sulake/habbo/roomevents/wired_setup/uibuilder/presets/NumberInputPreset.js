@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 346163.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/NumberInputPreset.as
-// Nome offuscato: _i7a1832ad618dde
+// Extracted from HabboAirLauncher.deobf.js, line 346163.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/NumberInputPreset.as
+// Obfuscated name: _i7a1832ad618dde
 
 class a extends WiredUIPreset {
   static {

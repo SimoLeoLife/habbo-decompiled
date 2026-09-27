@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 152761.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/tableview/CellTemplate.as
-// Nome offuscato: _i7cf244ea644be1
+// Extracted from HabboAirLauncher.deobf.js, line 152761.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/tableview/CellTemplate.as
+// Obfuscated name: _i7cf244ea644be1
 
 class {
   static {

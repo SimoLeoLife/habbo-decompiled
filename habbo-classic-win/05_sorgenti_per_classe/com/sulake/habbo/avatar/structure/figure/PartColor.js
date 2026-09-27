@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 170176.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/structure/figure/PartColor.as
-// Nome offuscato: _if9120b8cf86723
+// Extracted from HabboAirLauncher.deobf.js, line 170176.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/structure/figure/PartColor.as
+// Obfuscated name: _if9120b8cf86723
 
 class {
   static {
@@ -31,7 +31,7 @@ class {
       (this.var_4163 = this._r / 255),
       (this.var_3965 = this._g / 255),
       (this.var_4269 = this._b / 255),
-      (this.var_536 = new _i4210dc3239901d(this.var_4163, this.var_3965, this.var_4269)));
+      (this.var_536 = new UnkClass_4210dc(this.var_4163, this.var_3965, this.var_4269)));
   }
   get colorTransform() {
     return this.var_536;

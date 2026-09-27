@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 367956.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/selectors/class_4203.as
-// Nome offuscato: _idf1780b35a355e
+// Extracted from HabboAirLauncher.deobf.js, line 367956.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/selectors/class_4203.as
+// Obfuscated name: _idf1780b35a355e
 
 class a extends DefaultSelectorType {
   static {

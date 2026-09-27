@@ -1,12 +1,12 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 278703.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/class_1820.as
-// Nome offuscato: _i551491f2661da2
+// Extracted from HabboAirLauncher.deobf.js, line 278703.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/class_1820.as
+// Obfuscated name: _i551491f2661da2
 
 class a extends VQ {
   static {
     n(this, "class_1820");
   }
-  static _r6582b116475021 = [new _ibaf84c0aa91c5d(16777215, 1, 2, 2, 10, 1, !1, !1)];
+  static _r6582b116475021 = [new UnkClass_baf84c(16777215, 1, 2, 2, 10, 1, !1, !1)];
   static FLOATING_ICON_TAG_PREFIX = "floating_icon_";
   static const_299 = 4;
   static FLOATING_PIXELS = 2;

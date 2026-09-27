@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 169883.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/geometry/Matrix4x4.as
-// Nome offuscato: _i9755326c535286
+// Extracted from HabboAirLauncher.deobf.js, line 169883.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/geometry/Matrix4x4.as
+// Obfuscated name: _i9755326c535286
 
 class a {
   static {

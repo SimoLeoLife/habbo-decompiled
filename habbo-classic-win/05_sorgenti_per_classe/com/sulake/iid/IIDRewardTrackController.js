@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158997.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/iid/IIDRewardTrackController.as
-// Nome offuscato: _iecc214afd33629
+// Extracted from HabboAirLauncher.deobf.js, line 158997.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/iid/IIDRewardTrackController.as
+// Obfuscated name: _iecc214afd33629
 
 class {
   static {

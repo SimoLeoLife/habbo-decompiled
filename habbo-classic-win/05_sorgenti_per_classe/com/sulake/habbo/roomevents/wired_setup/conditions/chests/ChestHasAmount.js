@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 366176.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/chests/ChestHasAmount.as
-// Nome offuscato: _ib0f25832634114
+// Extracted from HabboAirLauncher.deobf.js, line 366176.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/chests/ChestHasAmount.as
+// Obfuscated name: _ib0f25832634114
 
 class extends DefaultConditionType {
   static {

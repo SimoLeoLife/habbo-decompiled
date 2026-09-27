@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 272876.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/avatar/additions/FloatingIdleZ.as
-// Nome offuscato: _i4902c6922dcd81
+// Extracted from HabboAirLauncher.deobf.js, line 272876.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/avatar/additions/FloatingIdleZ.as
+// Obfuscated name: _i4902c6922dcd81
 
 class a {
   constructor(e, r) {

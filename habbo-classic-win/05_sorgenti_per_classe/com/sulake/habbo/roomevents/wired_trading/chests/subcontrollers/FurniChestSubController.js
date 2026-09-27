@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 373269.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/subcontrollers/FurniChestSubController.as
-// Nome offuscato: _i2b53b8ce57a08f
+// Extracted from HabboAirLauncher.deobf.js, line 373269.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/subcontrollers/FurniChestSubController.as
+// Obfuscated name: _i2b53b8ce57a08f
 
 class extends AbstractChestSubController {
   static {

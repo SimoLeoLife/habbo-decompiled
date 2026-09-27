@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 233964.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/cfh/registry/user/UserRegistry.as
-// Nome offuscato: _i349c7aeb8063d2
+// Extracted from HabboAirLauncher.deobf.js, line 233964.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/cfh/registry/user/UserRegistry.as
+// Obfuscated name: _i349c7aeb8063d2
 
 class a {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 368735.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/triggerconfs/ClockReachTime.as
-// Nome offuscato: _i65872c91f1ba0b
+// Extracted from HabboAirLauncher.deobf.js, line 368735.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/triggerconfs/ClockReachTime.as
+// Obfuscated name: _i65872c91f1ba0b
 
 class extends DefaultTriggerConf {
   static {

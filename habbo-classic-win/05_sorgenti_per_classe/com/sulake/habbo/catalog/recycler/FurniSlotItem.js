@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 144383.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/recycler/FurniSlotItem.as
-// Nome offuscato: _i63ce985bed5207
+// Extracted from HabboAirLauncher.deobf.js, line 144383.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/recycler/FurniSlotItem.as
+// Obfuscated name: _i63ce985bed5207
 
 class {
   static {

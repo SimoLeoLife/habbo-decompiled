@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 188939.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/bundlepurchaseinfodisplay/ExtraInfoViewManager.as
-// Nome offuscato: _i80599614188089
+// Extracted from HabboAirLauncher.deobf.js, line 188939.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/bundlepurchaseinfodisplay/ExtraInfoViewManager.as
+// Obfuscated name: _i80599614188089
 
 class a {
   constructor(e, r) {
@@ -47,10 +47,10 @@ class a {
         t = new I5e(r, e, this._catalog);
         break;
       case ExtraInfoItemData.TYPE_BONUS_BADGE:
-        t = new _i22efa99496357d(r, e, this._catalog);
+        t = new UnkClass_22efa9(r, e, this._catalog);
         break;
       case ExtraInfoItemData.const_1373:
-        t = new _ib7a5b3dd8a203f(r, e, this._catalog);
+        t = new UnkClass_b7a5b3(r, e, this._catalog);
         break;
     }
     if (t == null) return -1;

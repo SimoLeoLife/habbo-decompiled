@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145306.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/SessionDataToWidgetEvent.as
-// Nome offuscato: _i835e769c0fa13a
+// Extracted from HabboAirLauncher.deobf.js, line 145306.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/SessionDataToWidgetEvent.as
+// Obfuscated name: _i835e769c0fa13a
 
 class extends SessionDataEvent {
   static {

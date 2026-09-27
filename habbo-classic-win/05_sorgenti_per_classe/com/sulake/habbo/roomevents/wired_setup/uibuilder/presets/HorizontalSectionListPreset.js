@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 346068.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/HorizontalSectionListPreset.as
-// Nome offuscato: _ic0cba71da4f003
+// Extracted from HabboAirLauncher.deobf.js, line 346068.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/HorizontalSectionListPreset.as
+// Obfuscated name: _ic0cba71da4f003
 
 class extends WiredUIPreset {
   static {

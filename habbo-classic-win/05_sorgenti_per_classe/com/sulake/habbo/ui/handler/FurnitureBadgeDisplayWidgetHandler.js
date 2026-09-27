@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 329327.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/FurnitureBadgeDisplayWidgetHandler.as
-// Nome offuscato: _i3ddf16498bf9dc
+// Extracted from HabboAirLauncher.deobf.js, line 329327.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/FurnitureBadgeDisplayWidgetHandler.as
+// Obfuscated name: _i3ddf16498bf9dc
 
 class a {
   static {
@@ -107,7 +107,7 @@ class a {
       (this._r7ec9eca71c232d = i.getLocalization("widget.furni.badge_display.title", "Badge Display")),
       this._container?.connection != null)
     ) {
-      this._container.connection.send(new _i3e8d2318872e79(s));
+      this._container.connection.send(new UnkMessageComposer_1args_3e8d23(s));
       return;
     }
     (this.dispatchTrophyDataUpdate(

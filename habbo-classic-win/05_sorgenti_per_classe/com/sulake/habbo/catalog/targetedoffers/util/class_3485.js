@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 187734.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/targetedoffers/util/class_3485.as
-// Nome offuscato: _ib26334c435e209
+// Extracted from HabboAirLauncher.deobf.js, line 187734.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/targetedoffers/util/class_3485.as
+// Obfuscated name: _ib26334c435e209
 
 class {
   static {

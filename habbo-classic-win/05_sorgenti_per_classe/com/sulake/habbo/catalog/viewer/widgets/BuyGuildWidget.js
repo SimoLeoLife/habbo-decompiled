@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 189222.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/BuyGuildWidget.as
-// Nome offuscato: _i2034d9f66a97bc
+// Extracted from HabboAirLauncher.deobf.js, line 189222.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/BuyGuildWidget.as
+// Obfuscated name: _i2034d9f66a97bc
 
 class extends CatalogWidget {
   static {
@@ -25,7 +25,7 @@ class extends CatalogWidget {
   onButtonClicked = n((e) => {
     let r = this.page?.viewer.catalog;
     (ll.getInstance()?.trackGoogle("groupPurchase", "catalogBuyClicked"),
-      r?.connection?.send(new _idfd43e03d67b49()),
+      r?.connection?.send(new class_3754()),
       r?.buildersClubEnabled(CatalogType.NORMAL));
   }, "onButtonClicked");
 }

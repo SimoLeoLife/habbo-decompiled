@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 72518.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/enum/HabboConnectionType.as
-// Nome offuscato: _i45fe4df55554c5
+// Extracted from HabboAirLauncher.deobf.js, line 72518.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/enum/HabboConnectionType.as
+// Obfuscated name: _i45fe4df55554c5
 
 class {
   static {

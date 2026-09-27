@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 76680.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/collectibles/class_3880.as
-// Nome offuscato: _i22fe7172ee937f
+// Extracted from HabboAirLauncher.deobf.js, line 76680.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/collectibles/class_3880.as
+// Obfuscated name: _i22fe7172ee937f
 
 class {
     static {

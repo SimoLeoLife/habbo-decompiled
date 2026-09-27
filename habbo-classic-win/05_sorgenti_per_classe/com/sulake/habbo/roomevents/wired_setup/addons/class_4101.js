@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 360554.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/class_4101.as
-// Nome offuscato: _ied69211cf6dd77
+// Extracted from HabboAirLauncher.deobf.js, line 360554.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/class_4101.as
+// Obfuscated name: _ied69211cf6dd77
 
 class extends aY {
   static {

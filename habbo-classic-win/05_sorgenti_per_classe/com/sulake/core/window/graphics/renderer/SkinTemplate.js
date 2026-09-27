@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 137346.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/SkinTemplate.as
-// Nome offuscato: _i89c194f87562d6
+// Extracted from HabboAirLauncher.deobf.js, line 137346.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/SkinTemplate.as
+// Obfuscated name: _i89c194f87562d6
 
 class extends ChildEntityArray {
   static {

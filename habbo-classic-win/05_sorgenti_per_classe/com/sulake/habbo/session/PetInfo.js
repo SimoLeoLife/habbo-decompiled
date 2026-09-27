@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 301552.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/PetInfo.as
-// Nome offuscato: _i1e1e30c5c148cd
+// Extracted from HabboAirLauncher.deobf.js, line 301552.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/PetInfo.as
+// Obfuscated name: _i1e1e30c5c148cd
 
 class {
   static {

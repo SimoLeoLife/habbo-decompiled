@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 357351.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_settings/WiredMenuSettingsTab.as
-// Nome offuscato: _i11371175bee782
+// Extracted from HabboAirLauncher.deobf.js, line 357351.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_settings/WiredMenuSettingsTab.as
+// Obfuscated name: _i11371175bee782
 
 class extends WiredMenuDefaultTab {
   static {
@@ -73,10 +73,10 @@ class extends WiredMenuDefaultTab {
     )._r3d7b1775b50b97 = 13909337;
   }, "_rdf8addbe2fa51c");
   _r756dae6c285b52 = n((e, r) => {
-    (r.type === y.const_1300 && this.controller.send(new _i63ed097d6c2af1(!0)), e.dispose());
+    (r.type === y.const_1300 && this.controller.send(new class_3327(!0)), e.dispose());
   }, "_r756dae6c285b52");
   _r418dda960baf71 = n((e) => {
-    this.controller.send(new _i63ed097d6c2af1(!1));
+    this.controller.send(new class_3327(!1));
   }, "_r418dda960baf71");
   _r07ff59de43e6c7(e) {
     let r = e.getParser();
@@ -103,7 +103,7 @@ class extends WiredMenuDefaultTab {
         : (this.var_949 &= ~(1 << t)),
       this._r9585274a497801(),
       this.updateTimezoneUI(),
-      this.controller.send(new _id9833b3ff80004(this.var_930, this.var_949, this.var_872)));
+      this.controller.send(new class_3634(this.var_930, this.var_949, this.var_872)));
   }, "_r78ea73ed129903");
   _r8b620ce8799fa8 = n((e) => {
     if (this._r29693ec40a0622) return;
@@ -111,7 +111,7 @@ class extends WiredMenuDefaultTab {
     (r < 0 || r >= this.timezoneDropdown.numMenuItems
       ? (this.var_872 = "")
       : (this.var_872 = this.timezoneDropdown.enumerateSelection()[r]),
-      this.controller.send(new _id9833b3ff80004(this.var_930, this.var_949, this.var_872)));
+      this.controller.send(new class_3634(this.var_930, this.var_949, this.var_872)));
   }, "_r8b620ce8799fa8");
   updateButtonsUI() {
     let e = this.controller._r7443e8b7432aa8(),

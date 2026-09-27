@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 353373.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/presets/VariableFxVariableOverrideRowPreset.as
-// Nome offuscato: _ia66007fd54d1d8
+// Extracted from HabboAirLauncher.deobf.js, line 353373.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/presets/VariableFxVariableOverrideRowPreset.as
+// Obfuscated name: _ia66007fd54d1d8
 
 class a extends WiredUIPreset {
   static {

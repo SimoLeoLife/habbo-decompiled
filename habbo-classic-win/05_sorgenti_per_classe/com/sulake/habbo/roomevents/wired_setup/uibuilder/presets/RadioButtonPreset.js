@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 346479.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/RadioButtonPreset.as
-// Nome offuscato: _i606600d13b0b83
+// Extracted from HabboAirLauncher.deobf.js, line 346479.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/RadioButtonPreset.as
+// Obfuscated name: _i606600d13b0b83
 
 class a extends WiredUIPreset {
   static {

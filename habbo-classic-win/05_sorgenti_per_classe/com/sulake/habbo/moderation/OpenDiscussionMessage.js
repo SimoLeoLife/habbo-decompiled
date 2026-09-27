@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 248419.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/OpenDiscussionMessage.as
-// Nome offuscato: _i2cad9628752fc9
+// Extracted from HabboAirLauncher.deobf.js, line 248419.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/OpenDiscussionMessage.as
+// Obfuscated name: _i2cad9628752fc9
 
 class {
   constructor(e, r, t, i, s) {

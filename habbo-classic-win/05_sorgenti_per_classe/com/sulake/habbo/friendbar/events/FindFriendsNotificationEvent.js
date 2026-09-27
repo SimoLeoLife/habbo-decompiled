@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158436.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/events/FindFriendsNotificationEvent.as
-// Nome offuscato: _i846b725b9ecc27
+// Extracted from HabboAirLauncher.deobf.js, line 158436.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/events/FindFriendsNotificationEvent.as
+// Obfuscated name: _i846b725b9ecc27
 
 class a extends M {
   constructor(r) {

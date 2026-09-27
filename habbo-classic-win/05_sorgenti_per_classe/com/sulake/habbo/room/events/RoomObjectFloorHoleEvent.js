@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 180781.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectFloorHoleEvent.as
-// Nome offuscato: _i90916ccb5add94
+// Extracted from HabboAirLauncher.deobf.js, line 180781.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectFloorHoleEvent.as
+// Obfuscated name: _i90916ccb5add94
 
 class extends RoomObjectEvent {
   static {

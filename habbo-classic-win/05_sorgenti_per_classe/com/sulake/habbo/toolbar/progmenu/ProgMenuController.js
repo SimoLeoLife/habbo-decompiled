@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 341277.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/progmenu/ProgMenuController.as
-// Nome offuscato: _i71e2148633d9a0
+// Extracted from HabboAirLauncher.deobf.js, line 341277.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/progmenu/ProgMenuController.as
+// Obfuscated name: _i71e2148633d9a0
 
 class extends AbstractSubMenuController {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 262732.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/HabboAlertDialogManager.as
-// Nome offuscato: _i119355bc0e7458
+// Extracted from HabboAirLauncher.deobf.js, line 262732.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/HabboAlertDialogManager.as
+// Obfuscated name: _i119355bc0e7458
 
 class a {
   static {

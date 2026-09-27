@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 207646.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/elements/class_4391.as
-// Nome offuscato: _i67de10f0eb499f
+// Extracted from HabboAirLauncher.deobf.js, line 207646.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/elements/class_4391.as
+// Obfuscated name: _i67de10f0eb499f
 
 class {
   static {
@@ -40,7 +40,7 @@ class {
           this.onCommunityGoalProgress(l);
         }),
       ),
-      (this.var_1174 = new _i05394ecc0c0c4d(d)),
+      (this.var_1174 = new UnkEventDispatcherWrapperSubclass_05394e(d)),
       this.var_1174.addEventListener(DeBouncer.addEventListener, this.onPollTimer));
   }
   disable() {

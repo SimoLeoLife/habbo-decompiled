@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158475.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/events/FriendRequestUpdateEvent.as
-// Nome offuscato: _i4f2713b920ea1a
+// Extracted from HabboAirLauncher.deobf.js, line 158475.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/events/FriendRequestUpdateEvent.as
+// Obfuscated name: _i4f2713b920ea1a
 
 class a extends M {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 365001.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/SetFurniAltitude.as
-// Nome offuscato: _ib2000d52a9d7a6
+// Extracted from HabboAirLauncher.deobf.js, line 365001.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/SetFurniAltitude.as
+// Obfuscated name: _ib2000d52a9d7a6
 
 class extends DefaultActionType {
   static {

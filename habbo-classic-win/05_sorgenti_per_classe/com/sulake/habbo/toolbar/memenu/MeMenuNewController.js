@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 341179.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/memenu/MeMenuNewController.as
-// Nome offuscato: _i0b3f8b77a65efb
+// Extracted from HabboAirLauncher.deobf.js, line 341179.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/memenu/MeMenuNewController.as
+// Obfuscated name: _i0b3f8b77a65efb
 
 class a extends AbstractSubMenuController {
   static {

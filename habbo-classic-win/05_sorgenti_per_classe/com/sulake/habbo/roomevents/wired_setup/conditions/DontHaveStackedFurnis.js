@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 366523.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/DontHaveStackedFurnis.as
-// Nome offuscato: _ie18681b2065aca
+// Extracted from HabboAirLauncher.deobf.js, line 366523.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/DontHaveStackedFurnis.as
+// Obfuscated name: _ie18681b2065aca
 
 class extends DefaultConditionType {
   static {

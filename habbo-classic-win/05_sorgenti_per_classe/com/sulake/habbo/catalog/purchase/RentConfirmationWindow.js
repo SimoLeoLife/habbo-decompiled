@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 185932.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purchase/RentConfirmationWindow.as
-// Nome offuscato: _i9df63e77cf2591
+// Extracted from HabboAirLauncher.deobf.js, line 185932.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purchase/RentConfirmationWindow.as
+// Obfuscated name: _i9df63e77cf2591
 
 class a {
   constructor(e) {
@@ -43,7 +43,7 @@ class a {
         ? (this._mode = a.MODE_CATALOGUE)
         : (this._mode = this.var_4081 > -1 ? a.MODE_INFOSTAND : a.MODE_INVENTORY));
     let o = e.type === class_1803.PRODUCT_TYPE_ITEM;
-    this._catalog.connection?.send(new _i39ec6ea3d05a02(o, e.fullName, r));
+    this._catalog.connection?.send(new UnkMessageComposer_3args_39ec6e(o, e.fullName, r));
   }
   imageReady(e, r) {
     this._window != null &&
@@ -124,7 +124,7 @@ class a {
           switch (this._mode) {
             case a.MODE_INFOSTAND:
               this._catalog.connection?.send(
-                new _i36153760447fe6(
+                new UnkMessageComposer_3args_361537(
                   this.var_86?.type === class_1803.PRODUCT_TYPE_ITEM,
                   this.var_4081,
                   this._rbc127a8636f18d,
@@ -132,7 +132,7 @@ class a {
               );
               break;
             case a.MODE_INVENTORY:
-              this._catalog.connection?.send(new _id8a23b05942664(this.var_5104, this._rbc127a8636f18d));
+              this._catalog.connection?.send(new UnkMessageComposer_2args_d8a23b(this.var_5104, this._rbc127a8636f18d));
               break;
             case a.MODE_CATALOGUE:
               this.var_86 != null &&

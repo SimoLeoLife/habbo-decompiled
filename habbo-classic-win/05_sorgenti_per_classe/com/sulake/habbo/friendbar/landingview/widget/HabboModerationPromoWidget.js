@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 208770.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/HabboModerationPromoWidget.as
-// Nome offuscato: _i067f8259e4c175
+// Extracted from HabboAirLauncher.deobf.js, line 208770.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/HabboModerationPromoWidget.as
+// Obfuscated name: _i067f8259e4c175
 
 class {
   constructor(e) {

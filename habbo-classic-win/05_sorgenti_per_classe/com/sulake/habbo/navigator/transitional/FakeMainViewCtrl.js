@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 259188.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/transitional/FakeMainViewCtrl.as
-// Nome offuscato: _i947765933f9978
+// Extracted from HabboAirLauncher.deobf.js, line 259188.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/transitional/FakeMainViewCtrl.as
+// Obfuscated name: _i947765933f9978
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 205299.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/GroupForumView.as
-// Nome offuscato: _iac4c9b18dc8954
+// Extracted from HabboAirLauncher.deobf.js, line 205299.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/GroupForumView.as
+// Obfuscated name: _iac4c9b18dc8954
 
 class a {
   static {

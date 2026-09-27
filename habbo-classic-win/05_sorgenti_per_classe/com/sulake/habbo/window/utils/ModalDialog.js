@@ -1,13 +1,13 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145798.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/ModalDialog.as
-// Nome offuscato: _i6258f4c74076de
+// Extracted from HabboAirLauncher.deobf.js, line 145798.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/ModalDialog.as
+// Obfuscated name: _i6258f4c74076de
 
 class a {
   static {
     n(this, "ModalDialog");
   }
   static MODAL_DIALOG_LAYER = 3;
-  static COLOR_TRANSFORM = new _i4210dc3239901d(0.25, 0.25, 0.25);
+  static COLOR_TRANSFORM = new UnkClass_4210dc(0.25, 0.25, 0.25);
   static _windowManager = null;
   static _container = null;
   static _r0063c217a6ca1e = 0;

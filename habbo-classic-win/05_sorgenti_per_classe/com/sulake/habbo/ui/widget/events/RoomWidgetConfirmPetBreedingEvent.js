@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 160071.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetConfirmPetBreedingEvent.as
-// Nome offuscato: _i045216e688f3a2
+// Extracted from HabboAirLauncher.deobf.js, line 160071.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetConfirmPetBreedingEvent.as
+// Obfuscated name: _i045216e688f3a2
 
 class a extends RoomWidgetUpdateEvent {
   constructor(r, t, i, s, o, d = !1, c = !1) {

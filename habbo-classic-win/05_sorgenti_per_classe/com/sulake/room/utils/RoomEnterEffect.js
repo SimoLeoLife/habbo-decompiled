@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 80011.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/utils/RoomEnterEffect.as
-// Nome offuscato: _i8ca2d48f761c7f
+// Extracted from HabboAirLauncher.deobf.js, line 80011.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/utils/RoomEnterEffect.as
+// Obfuscated name: _i8ca2d48f761c7f
 
 class a {
   static {

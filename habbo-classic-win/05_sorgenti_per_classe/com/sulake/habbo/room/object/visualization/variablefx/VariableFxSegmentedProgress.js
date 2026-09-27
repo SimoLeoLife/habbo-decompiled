@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 285431.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/VariableFxSegmentedProgress.as
-// Nome offuscato: _i86d979200501e4
+// Extracted from HabboAirLauncher.deobf.js, line 285431.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/VariableFxSegmentedProgress.as
+// Obfuscated name: _i86d979200501e4
 
 class {
   static {

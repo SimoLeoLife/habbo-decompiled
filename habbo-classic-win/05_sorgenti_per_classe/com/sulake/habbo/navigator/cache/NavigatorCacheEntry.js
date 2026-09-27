@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 259030.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/cache/NavigatorCacheEntry.as
-// Nome offuscato: _i7cf8d1352301f2
+// Extracted from HabboAirLauncher.deobf.js, line 259030.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/cache/NavigatorCacheEntry.as
+// Obfuscated name: _i7cf8d1352301f2
 
 class {
   static {

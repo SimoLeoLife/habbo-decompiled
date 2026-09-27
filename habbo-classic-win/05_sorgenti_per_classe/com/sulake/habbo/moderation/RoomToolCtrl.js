@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 248760.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/RoomToolCtrl.as
-// Nome offuscato: _ie3e4bc2c9e3cf0
+// Extracted from HabboAirLauncher.deobf.js, line 248760.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/RoomToolCtrl.as
+// Obfuscated name: _ie3e4bc2c9e3cf0
 
 class a {
   constructor(e, r) {
@@ -30,7 +30,7 @@ class a {
     ((this.var_4123 = r?.findChildByName("room_data")),
       this.var_4123 && r?.removeChild(this.var_4123),
       this._main.messageHandler._rb133fda49c12e1(this),
-      this._main.connection?.send(new _ic7a0c32ff5642b(this._flatId)));
+      this._main.connection?.send(new UnkMessageComposer_1args_c7a0c3(this._flatId)));
   }
   getType() {
     return WindowTracker.TYPE_ROOMINFO;
@@ -176,7 +176,7 @@ class a {
       this._data != null &&
       this._main._r2512b8a3ecad84.show(
         new N1(
-          new _i671071d9a891e5(0, this._data.flatId),
+          new class_2523(0, this._data.flatId),
           this._main,
           WindowTracker.const_1136,
           this._data.flatId,

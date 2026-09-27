@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 231953.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/reportstatus/ReportStatusTableObject.as
-// Nome offuscato: _ie8472a9d6b140a
+// Extracted from HabboAirLauncher.deobf.js, line 231953.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/reportstatus/ReportStatusTableObject.as
+// Obfuscated name: _ie8472a9d6b140a
 
 class {
   constructor(e, r) {

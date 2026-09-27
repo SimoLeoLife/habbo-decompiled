@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 116200.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_89/Game2GetWeeklyGroupLeaderboardComposer.as
-// Nome offuscato: _ie562585d80a083
+// Extracted from HabboAirLauncher.deobf.js, line 116200.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_89/Game2GetWeeklyGroupLeaderboardComposer.as
+// Obfuscated name: _ie562585d80a083
 
 class {
     static {

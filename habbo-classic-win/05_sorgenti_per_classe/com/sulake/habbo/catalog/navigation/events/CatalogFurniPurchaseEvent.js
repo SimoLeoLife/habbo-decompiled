@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 144236.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/navigation/events/CatalogFurniPurchaseEvent.as
-// Nome offuscato: _iaf2265046dddcc
+// Extracted from HabboAirLauncher.deobf.js, line 144236.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/navigation/events/CatalogFurniPurchaseEvent.as
+// Obfuscated name: _iaf2265046dddcc
 
 class a extends M {
   static {

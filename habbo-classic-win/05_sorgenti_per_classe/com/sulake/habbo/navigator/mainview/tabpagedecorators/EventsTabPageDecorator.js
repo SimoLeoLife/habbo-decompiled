@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 252199.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/tabpagedecorators/EventsTabPageDecorator.as
-// Nome offuscato: _if0813cc86e12d5
+// Extracted from HabboAirLauncher.deobf.js, line 252199.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/tabpagedecorators/EventsTabPageDecorator.as
+// Obfuscated name: _if0813cc86e12d5
 
 class {
   constructor(e) {

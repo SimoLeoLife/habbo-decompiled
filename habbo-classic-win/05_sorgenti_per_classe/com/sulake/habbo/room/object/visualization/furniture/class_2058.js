@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 279018.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/class_2058.as
-// Nome offuscato: _i91f324b2523c67
+// Extracted from HabboAirLauncher.deobf.js, line 279018.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/class_2058.as
+// Obfuscated name: _i91f324b2523c67
 
 class a extends VI {
   static {

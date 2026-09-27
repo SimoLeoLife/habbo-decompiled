@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158739.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/enum/HabboHelpTutorialEvent.as
-// Nome offuscato: _ib1db848f3f55d9
+// Extracted from HabboAirLauncher.deobf.js, line 158739.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/enum/HabboHelpTutorialEvent.as
+// Obfuscated name: _ib1db848f3f55d9
 
 class extends M {
   static {

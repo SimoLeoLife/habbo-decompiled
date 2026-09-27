@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 211306.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/domain/Tab.as
+// Extracted from HabboAirLauncher.deobf.js, line 211306.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/domain/Tab.as
 
 class a {
   static {

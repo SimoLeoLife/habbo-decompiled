@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 187496.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/targetedoffers/TargetedOfferDialogView.as
-// Nome offuscato: _i98aba72cdd5888
+// Extracted from HabboAirLauncher.deobf.js, line 187496.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/targetedoffers/TargetedOfferDialogView.as
+// Obfuscated name: _i98aba72cdd5888
 
 class a extends OfferView {
   static {
@@ -139,7 +139,7 @@ class a extends OfferView {
     ((this.var_1205 = t), this.updatePriceText(), this.updateButtonStates());
   }, "_r5d6c22900316ee");
   setLinkStyle(e) {
-    new _ib0061b42edfac2()._r14e5354d420daf("a:link", { textDecoration: "underline" });
+    new UnkClass_b0061b()._r14e5354d420daf("a:link", { textDecoration: "underline" });
   }
   _rf7279e98e382e0(e) {
     return this.var_63?.catalog.getProperty(`targeted.offer.override.preview_image.${e.id}`) ?? "";

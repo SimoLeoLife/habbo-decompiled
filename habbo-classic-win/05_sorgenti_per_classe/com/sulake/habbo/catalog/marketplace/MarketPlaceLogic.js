@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 183426.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/marketplace/MarketPlaceLogic.as
-// Nome offuscato: _i49f48a48f819f3
+// Extracted from HabboAirLauncher.deobf.js, line 183426.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/marketplace/MarketPlaceLogic.as
+// Obfuscated name: _i49f48a48f819f3
 
 class a {
   constructor(e, r, t) {
@@ -248,7 +248,7 @@ class a {
     }
   }
   onClearOwnHistoryResult(e) {
-    let r = ClassUtils.getParser(e, _i02c3155ff27183);
+    let r = ClassUtils.getParser(e, UnkMessageParser_B_02c315);
     if (r == null) return;
     let t = this.var_3683;
     if (((this.var_3683 = 0), r.success)) {

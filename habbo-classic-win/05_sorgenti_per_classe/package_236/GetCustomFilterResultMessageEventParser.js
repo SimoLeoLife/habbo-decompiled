@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 77692.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_236/GetCustomFilterResultMessageEventParser.as
-// Nome offuscato: _i7310bb38c5f1db
+// Extracted from HabboAirLauncher.deobf.js, line 77692.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_236/GetCustomFilterResultMessageEventParser.as
+// Obfuscated name: _i7310bb38c5f1db
 
 class {
     static {

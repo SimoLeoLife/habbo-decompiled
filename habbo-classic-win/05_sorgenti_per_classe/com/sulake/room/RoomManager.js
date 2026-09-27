@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 375946.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/RoomManager.as
-// Nome offuscato: _i67894ae9383239
+// Extracted from HabboAirLauncher.deobf.js, line 375946.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/RoomManager.as
+// Obfuscated name: _i67894ae9383239
 
 class a extends ue {
   static {
@@ -28,7 +28,7 @@ class a extends ue {
   }
   get dependencies() {
     return super.dependencies.concat([
-      new ComponentDependency(new _i2446cc4d501775(), (e) => {
+      new ComponentDependency(new UnkInterface_2446cc(), (e) => {
         this.createRoomObjectLogic = e;
       }),
       new ComponentDependency(new IIDRoomObjectVisualizationFactory(), (e) => {

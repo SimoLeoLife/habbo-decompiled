@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 259290.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/transitional/LegacyNavigator.as
-// Nome offuscato: _i82f5362d5f6c51
+// Extracted from HabboAirLauncher.deobf.js, line 259290.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/transitional/LegacyNavigator.as
+// Obfuscated name: _i82f5362d5f6c51
 
 class {
   static {

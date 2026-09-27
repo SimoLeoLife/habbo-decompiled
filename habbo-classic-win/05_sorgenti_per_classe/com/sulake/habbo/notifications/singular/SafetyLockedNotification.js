@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 263561.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/SafetyLockedNotification.as
-// Nome offuscato: _i80a8bc82ca9c71
+// Extracted from HabboAirLauncher.deobf.js, line 263561.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/SafetyLockedNotification.as
+// Obfuscated name: _i80a8bc82ca9c71
 
 class a {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 313122.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/renderer/CraftingMixerItemRenderer.as
-// Nome offuscato: _if5400bfec99bca
+// Extracted from HabboAirLauncher.deobf.js, line 313122.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/renderer/CraftingMixerItemRenderer.as
+// Obfuscated name: _if5400bfec99bca
 
 class extends xg {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 177577.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconProgressBarView.as
-// Nome offuscato: _i45071396a0cc39
+// Extracted from HabboAirLauncher.deobf.js, line 177577.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconProgressBarView.as
+// Obfuscated name: _i45071396a0cc39
 
 class a {
   constructor(e) {

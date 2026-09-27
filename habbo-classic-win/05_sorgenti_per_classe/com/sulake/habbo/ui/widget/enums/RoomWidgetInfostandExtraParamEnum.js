@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 159908.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/enums/RoomWidgetInfostandExtraParamEnum.as
-// Nome offuscato: _i13fd7fd09b6ecb
+// Extracted from HabboAirLauncher.deobf.js, line 159908.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/enums/RoomWidgetInfostandExtraParamEnum.as
+// Obfuscated name: _i13fd7fd09b6ecb
 
 class {
   static {

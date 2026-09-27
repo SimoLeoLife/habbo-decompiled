@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 257353.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/roomsettings/RoomSettingsCtrl.as
-// Nome offuscato: _if2c2be65fbf244
+// Extracted from HabboAirLauncher.deobf.js, line 257353.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/roomsettings/RoomSettingsCtrl.as
+// Obfuscated name: _if2c2be65fbf244
 
 class a {
   constructor(e) {
@@ -110,7 +110,7 @@ class a {
     (this.close(),
       (this._flatId = e),
       (this._groupId = this._navigator?.data._rd27e27c96c37cd?.habboGroupId ?? 0),
-      this._navigator?.send(new _i29fde5f30c747f(this._flatId)),
+      this._navigator?.send(new UnkMessageComposer_1args_29fde5(this._flatId)),
       this._navigator?.tracking._rff30e139de703a("Tutorial", "interaction", "viewed.room.settings"),
       this._navigator?.events.dispatchEvent?.(new M(HabboRoomSettingsTrackingEvent.HABBO_ROOM_SETTINGS_TRACKING_EVENT_DEFAULT)));
   }
@@ -118,7 +118,7 @@ class a {
     (this.close(),
       (this._flatId = e),
       (this._groupId = r),
-      this._navigator?.send(new _i29fde5f30c747f(this._flatId)),
+      this._navigator?.send(new UnkMessageComposer_1args_29fde5(this._flatId)),
       this._navigator?.tracking._rff30e139de703a("Tutorial", "interaction", "viewed.room.settings"),
       this._navigator?.events.dispatchEvent?.(new M(HabboRoomSettingsTrackingEvent.HABBO_ROOM_SETTINGS_TRACKING_EVENT_DEFAULT)));
   }
@@ -639,7 +639,7 @@ class a {
     if (this.controllersById == null || this._window == null || this._window.disposed)
       return;
     this.clearErrors();
-    let e = new _i2cfc2b787c0c44();
+    let e = new UnkClass_2cfc2b();
     ((e.roomId = this.controllersById.roomId),
       (e.name = this._r2259ac88d6e4be?.getText() ?? ""),
       (e.description = this._r046b76e5cb19c7?.getText() ?? ""));
@@ -729,7 +729,7 @@ class a {
         (e.idleSleepTimeoutSeconds = this.controllersById.idleSleepTimeoutSeconds),
         (e._r1058fab0daff8c = this.controllersById._r1058fab0daff8c),
         (e.idleAutokickTimeoutSeconds = this.controllersById.idleAutokickTimeoutSeconds));
-    ((this._savedFlatId = e.roomId), this._navigator?.send(new _i9b8b50b47a24b1(e)));
+    ((this._savedFlatId = e.roomId), this._navigator?.send(new UnkMessageComposer_1args_9b8b50(e)));
   }
   _r6c4f433d63e47d() {
     let e = this._r88186512df38ac();
@@ -882,7 +882,7 @@ class a {
   _r66baee1896fee6 = n(() => {
     if (
       !(this._navigator == null || this.controllersById == null) &&
-      (this._navigator.send(new _id0e50c04990840(this.controllersById.roomId)),
+      (this._navigator.send(new UnkMessageComposer_1args_d0e50c(this.controllersById.roomId)),
       this.close(),
       this._navigator.data._rf09e8697962ff2 != null)
     ) {
@@ -922,7 +922,7 @@ class a {
     let e;
     this.controllersById._originalData == null
       ? ((this.controllersById._originalData = new Map()),
-        this._navigator.send(new _i9833fa914bec89(this.controllersById.roomId)),
+        this._navigator.send(new UnkMessageComposer_1args_9833fa(this.controllersById.roomId)),
         (e = []))
       : (e = this.controllersById._r6cc9aac3e542f2);
     let r = (this._window.findChildByName("filter_users_input")?.text ?? "").toLowerCase(),
@@ -962,7 +962,7 @@ class a {
       return;
     let e;
     (this.controllersById._r148e5b11edf482 == null
-      ? (this._navigator.send(new _i1e382bf8b33232(this.controllersById.roomId)), (e = []))
+      ? (this._navigator.send(new UnkMessageComposer_1args_1e382b(this.controllersById.roomId)), (e = []))
       : (e = this.controllersById.bannedUsersList),
       this._rca0555b3d9fb88.refresh(
         this._window.findChildByName("moderation_banned_users"),
@@ -990,7 +990,7 @@ class a {
       )));
   }, "_r4182d1bfeb43a3");
   _rd7bbeaa0a504c2 = n(() => {
-    this._navigator?.send(new _ic4eacbe96fa0b1(this._flatId));
+    this._navigator?.send(new UnkMessageComposer_1args_c4eacb(this._flatId));
   }, "_rd7bbeaa0a504c2");
   _re18ed06774f63c = n((e, r) => {
     e.type === u.CLICK &&
@@ -1018,7 +1018,7 @@ class a {
         .findChildByName("moderation_banned_users")
         ?.getListItemAt(this._rca0555b3d9fb88.selectedRow)
         ?.findChildByName("user_info_region")?.id ?? 0;
-    s > 0 && this._navigator.send(new _i5ad8ab28093e10(s, this._flatId));
+    s > 0 && this._navigator.send(new UnkMessageComposer_2args_5ad8ab(s, this._flatId));
   }, "_r8fadd4ffb630d4");
   getHelpPageWithTab(e) {
     return e === a.TAB_CLUB_AND_CHAT ? "chat/options" : "";

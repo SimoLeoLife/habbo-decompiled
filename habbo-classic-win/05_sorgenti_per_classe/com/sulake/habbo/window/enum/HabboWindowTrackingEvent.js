@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 144971.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/enum/HabboWindowTrackingEvent.as
-// Nome offuscato: _i32ebe460f88134
+// Extracted from HabboAirLauncher.deobf.js, line 144971.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/enum/HabboWindowTrackingEvent.as
+// Obfuscated name: _i32ebe460f88134
 
 class {
   static {

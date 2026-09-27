@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 169789.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/geometry/GeometryItem.as
-// Nome offuscato: _i9cf08a11423103
+// Extracted from HabboAirLauncher.deobf.js, line 169789.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/geometry/GeometryItem.as
+// Obfuscated name: _i9cf08a11423103
 
 class extends Node3D {
   static {

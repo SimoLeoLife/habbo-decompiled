@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 208868.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/NextLimitedRareCountdownWidget.as
-// Nome offuscato: _i994f2e99c17bd8
+// Extracted from HabboAirLauncher.deobf.js, line 208868.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/NextLimitedRareCountdownWidget.as
+// Obfuscated name: _i994f2e99c17bd8
 
 class a {
   constructor(e) {
@@ -55,7 +55,7 @@ class a {
   }
   _rd2b477367fa56c = n((e) => {
     (this._landingView?.getBoolean("next.limited.rare.countdown.widget.disabled") ?? !1) ||
-      this._landingView?._rf3db13932bfb60?.connection.send(new _i7baf13eee858fc());
+      this._landingView?._rf3db13932bfb60?.connection.send(new UnkMessageComposer_0args_7baf13());
   }, "_rd2b477367fa56c");
   refreshContent() {
     if (this.disposed || this._container == null) return;
@@ -79,7 +79,7 @@ class a {
   _rcc601b2adde9c2(e) {
     e <= 0 ||
       (this._r1b76e803eb876e?.stop(),
-      (this._r1b76e803eb876e = new _i05394ecc0c0c4d((e + 1) * 1e3, 1)),
+      (this._r1b76e803eb876e = new UnkEventDispatcherWrapperSubclass_05394e((e + 1) * 1e3, 1)),
       this._r1b76e803eb876e.addEventListener(DeBouncer.addEventListener, this._rd2b477367fa56c),
       this._r1b76e803eb876e.start());
   }

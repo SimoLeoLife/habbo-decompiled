@@ -1,8 +1,8 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 128469.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/iterators/ContainerIterator.as
-// Nome offuscato: _i760f0b3c844f8d
+// Extracted from HabboAirLauncher.deobf.js, line 128469.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/iterators/ContainerIterator.as
+// Obfuscated name: _i760f0b3c844f8d
 
-class extends _i6e5afb6abd5bbb {
+class extends UnkInterface_6e5afb {
   static {
     n(this, "ContainerIterator");
   }

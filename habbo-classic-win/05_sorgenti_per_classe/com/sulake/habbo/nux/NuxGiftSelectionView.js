@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 339813.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/nux/NuxGiftSelectionView.as
-// Nome offuscato: _i438aa56552b2e3
+// Extracted from HabboAirLauncher.deobf.js, line 339813.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/nux/NuxGiftSelectionView.as
+// Obfuscated name: _i438aa56552b2e3
 
 class {
   static {

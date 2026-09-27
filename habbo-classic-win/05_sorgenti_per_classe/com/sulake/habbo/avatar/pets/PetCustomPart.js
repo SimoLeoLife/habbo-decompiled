@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 67474.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/pets/PetCustomPart.as
-// Nome offuscato: _i1c9a407cdb6f4e
+// Extracted from HabboAirLauncher.deobf.js, line 67474.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/pets/PetCustomPart.as
+// Obfuscated name: _i1c9a407cdb6f4e
 
 class {
   constructor(e, r, t) {

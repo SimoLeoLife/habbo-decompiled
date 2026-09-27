@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 189635.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/GuildSelectorCatalogWidget.as
-// Nome offuscato: _i65008cd54be2f4
+// Extracted from HabboAirLauncher.deobf.js, line 189635.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/GuildSelectorCatalogWidget.as
+// Obfuscated name: _i65008cd54be2f4
 
 class a extends CatalogWidget {
   constructor(r, t) {
@@ -54,7 +54,7 @@ class a extends CatalogWidget {
     let t = -1;
     this._rd5b367ea59c3c1 = this.filterGroupMemberships(r);
     let i = r.length > 0;
-    (this.events?.dispatchEvent?.(new _i51916ae7f9a707(CatalogWidgetEnum.PURCHASE, i)),
+    (this.events?.dispatchEvent?.(new UnkClass_51916a(CatalogWidgetEnum.PURCHASE, i)),
       this.var_2184 != null && (this.var_2184.visible = i),
       this._membersOnlyInfo != null && (this._membersOnlyInfo.visible = !i));
     let s = this._r4af4e5ed5e9980?.numMenuItems ?? 0;
@@ -83,13 +83,13 @@ class a extends CatalogWidget {
       new StringArrayStuffData(r.groupId, r.primaryColor, r.secondaryColor, r._rc9fc89e7eb27a7),
     ),
       this.page?.dispatchWidgetEvent?.(
-        new _iaea7174beb96ef(this.getPreviewerStuffData(r.groupId, r.primaryColor, r.secondaryColor, r._rc9fc89e7eb27a7)),
+        new UnkClass_aea717(this.getPreviewerStuffData(r.groupId, r.primaryColor, r.secondaryColor, r._rc9fc89e7eb27a7)),
       ),
       this.events?.dispatchEvent?.(new SetExtraPurchaseParameterEvent(r.groupId.toString())));
   }
   _rd886c8bcbe0933 = n((r) => {
     (this.var_1438?._r496e7e01380f03(this),
-      this.events?.dispatchEvent?.(new _ic4d6c8d627ab4e(CatalogWidgetEventEnum.EXTRA_PARAM_REQUIRED_FOR_BUY)));
+      this.events?.dispatchEvent?.(new UnkClass_c4d6c8(CatalogWidgetEventEnum.EXTRA_PARAM_REQUIRED_FOR_BUY)));
   }, "_rd886c8bcbe0933");
   _r484ab8a0be82b5 = n((r, t) => {
     r.type === y.const_238 &&

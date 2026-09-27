@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 199859.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/demo/class_64.as
-// Nome offuscato: _ie72bf603454f2a
+// Extracted from HabboAirLauncher.deobf.js, line 199859.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/demo/class_64.as
+// Obfuscated name: _ie72bf603454f2a
 
 class extends ue {
     static {
@@ -83,7 +83,7 @@ class extends ue {
         (this._disconnected = !1),
         this._incomingMessages != null &&
           (this._incomingMessages.dispose(), this._communication?._ra45deb8bd2f43c()),
-        this._communication != null && (this._incomingMessages = new _ifffc223d172097(this, this._communication)),
+        this._communication != null && (this._incomingMessages = new UnkClass_fffc22_______(this, this._communication)),
         this.context.events.addEventListener?.(HabboHotelViewEvent.ERROR, this.getBoundCallback("onHotelViewError")),
         this.prepareProperties(),
         (Ae.baseUrl = this.getProperty(HabboProperty.URL_PREFIX)),
@@ -129,15 +129,15 @@ class extends ue {
       (i == null &&
         (this._communication?.initConnection(HabboConnectionType.HABBO_MAIN),
         (i = this._communication?.connection ?? null)),
-        i?.send(new _i6275f924016756(e, r, t)));
+        i?.send(new UnkMessageComposer_3args_6275f9(e, r, t)));
     }
     sendConnectionParameters(e) {
-      e.send(new _i6b253e2d925f0c(401, this._flashClientUrl, this._externalVariablesUrl));
+      e.send(new UnkMessageComposer_3args_6b253e(401, this._flashClientUrl, this._externalVariablesUrl));
       let r = gr.readSOLString(gr.SOL_PROPERTY_MACHINE_ID) ?? "",
         t = gr._re11841038745b7(),
-        i = _ic7f867ad53849e.version.split(" ");
+        i = UnkClass_c7f867.version.split(" ");
       if ((e.send(new class_1906(r, t, i.join("/"))), this._ssoTicket.length > 0)) {
-        e.send(new _i28dbaba3435a60(this._ssoTicket));
+        e.send(new UnkMessageComposer_1args_28dbab(this._ssoTicket));
         return;
       }
     }
@@ -161,7 +161,7 @@ class extends ue {
         this.debugAutoHotelLoginEnabled && !this._debugAutoHotelAccountSelected && e.length > 0)
       ) {
         this._debugAutoHotelAccountSelected = !0;
-        let r = new _i05394ecc0c0c4d(1e3, 1);
+        let r = new UnkEventDispatcherWrapperSubclass_05394e(1e3, 1);
         (r.addEventListener(DeBouncer._rf33144eac61595, () => {
           this._loginView?._r4cf0beedf7d012(this.debugAutoHotelAccountName);
         }),
@@ -171,7 +171,7 @@ class extends ue {
       if (this._autoLogin) {
         let r = gr.readSOLString(gr.SOL_PROPERTY_CHARACTER_UNIQUE_ID);
         if (this.userExists(e, r)) {
-          let t = new _i05394ecc0c0c4d(500, 1);
+          let t = new UnkEventDispatcherWrapperSubclass_05394e(500, 1);
           (t.addEventListener(DeBouncer._rf33144eac61595, this.getBoundCallback("onAutoSendLogin")), t.start());
         }
       }

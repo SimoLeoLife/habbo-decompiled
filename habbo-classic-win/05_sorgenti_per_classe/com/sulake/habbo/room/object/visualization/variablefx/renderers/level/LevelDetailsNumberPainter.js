@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 288715.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/level/LevelDetailsNumberPainter.as
-// Nome offuscato: _i6994f7e62f42e0
+// Extracted from HabboAirLauncher.deobf.js, line 288715.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/level/LevelDetailsNumberPainter.as
+// Obfuscated name: _i6994f7e62f42e0
 
 class a {
   static {

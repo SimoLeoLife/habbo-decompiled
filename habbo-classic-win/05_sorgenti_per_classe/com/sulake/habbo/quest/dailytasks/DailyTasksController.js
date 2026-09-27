@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 265925.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/dailytasks/DailyTasksController.as
-// Nome offuscato: _ic57bbe60602571
+// Extracted from HabboAirLauncher.deobf.js, line 265925.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/dailytasks/DailyTasksController.as
+// Obfuscated name: _ic57bbe60602571
 
 class a extends ue {
   constructor(r, t, i = 0, s = null) {
@@ -8,8 +8,8 @@ class a extends ue {
     this._questEngine = r;
     ((this._tasks = []),
       (this._messageEvents = [
-        new _i602c5f9885df25(this._r4f1367250a8f94),
-        new _i447a8f96f655ed(this._r95301342340511),
+        new UnkMessageEvent_602c5f(this._r4f1367250a8f94),
+        new UnkMessageEvent_447a8f(this._r95301342340511),
         new class_3314(this._r272994f6e39680),
       ]));
     for (let o of this._messageEvents) this.addMessageEvent(o);
@@ -65,10 +65,10 @@ class a extends ue {
     return this._tasks;
   }
   _ra8fdc669971bc2() {
-    _ia411d8d8194a3a() <= this._lastRequestTime + a.REQUEST_TASKS_TIMEOUT_MS || ((this._lastRequestTime = _ia411d8d8194a3a()), this.send(new _icc7acf3f572e66()));
+    _ia411d8d8194a3a() <= this._lastRequestTime + a.REQUEST_TASKS_TIMEOUT_MS || ((this._lastRequestTime = _ia411d8d8194a3a()), this.send(new UnkMessageComposer_0args_cc7acf()));
   }
   _ra7c70effe3f061(r) {
-    this.send(new _i4224c672ee4d07(r));
+    this.send(new UnkMessageComposer_1args_4224c6(r));
   }
   update(r) {
     this._view?.update(r);
@@ -142,7 +142,7 @@ class a extends ue {
     this._view?._r0833496b983d9f();
   }
   _r4f1367250a8f94 = n((r) => {
-    let t = ClassUtils.getParser(r, _i46888fbb8658c2);
+    let t = ClassUtils.getParser(r, UnkMessageParser_I_46888f);
     if (t != null) {
       this._r58c503104bc972();
       for (let i of t.tasks ?? []) i._rb5a86d311e998e || this._r0cc7b3f785069f(i);
@@ -151,7 +151,7 @@ class a extends ue {
     }
   }, "_r4f1367250a8f94");
   _r95301342340511 = n((r) => {
-    let t = ClassUtils.getParser(r, _i29fa5727974527);
+    let t = ClassUtils.getParser(r, UnkMessageParser_I_29fa57);
     if (t != null) {
       for (let i of t.tasks ?? []) this._r0cc7b3f785069f(i);
       ((t.tasks?.length ?? 0) > 0 &&

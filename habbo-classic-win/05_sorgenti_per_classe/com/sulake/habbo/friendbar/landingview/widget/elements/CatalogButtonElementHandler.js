@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 207631.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/elements/CatalogButtonElementHandler.as
-// Nome offuscato: _i3dccb769edfdb1
+// Extracted from HabboAirLauncher.deobf.js, line 207631.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/elements/CatalogButtonElementHandler.as
+// Obfuscated name: _i3dccb769edfdb1
 
 class extends class_4383 {
   static {

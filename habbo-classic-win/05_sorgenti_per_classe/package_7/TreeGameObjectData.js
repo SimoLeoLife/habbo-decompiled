@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 125964.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_7/TreeGameObjectData.as
-// Nome offuscato: _iec859129ca264c
+// Extracted from HabboAirLauncher.deobf.js, line 125964.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_7/TreeGameObjectData.as
+// Obfuscated name: _iec859129ca264c
 
 class a extends Xa {
     static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 212062.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/data/FriendEntity.as
-// Nome offuscato: _ic5de4c9d811f8a
+// Extracted from HabboAirLauncher.deobf.js, line 212062.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/data/FriendEntity.as
+// Obfuscated name: _ic5de4c9d811f8a
 
 class a {
   constructor(e, r, t, i, s, o, d, c, f, l) {

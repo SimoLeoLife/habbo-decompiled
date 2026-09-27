@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 178027.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconTileView.as
-// Nome offuscato: _i89a85e8e42538d
+// Extracted from HabboAirLauncher.deobf.js, line 178027.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconTileView.as
+// Obfuscated name: _i89a85e8e42538d
 
 class a {
   static {
@@ -19,7 +19,7 @@ class a {
   static NOT_OWNED_OUTLINE_IDLE = 13944493;
   static NOT_OWNED_OUTLINE_HOVER = 15129800;
   static NOT_OWNED_OUTLINE_ACTIVE = 15392717;
-  static _r5320adcb04e0c5 = new _i4210dc3239901d(0.35, 0.35, 0.35, 0.65, 90, 85, 80, 0);
+  static _r5320adcb04e0c5 = new UnkClass_4210dc(0.35, 0.35, 0.35, 0.65, 90, 85, 80, 0);
   _window;
   var_63 = null;
   var_183 = null;

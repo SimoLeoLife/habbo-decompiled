@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 144873.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/enum/HabboAlertDialogFlag.as
-// Nome offuscato: _i179f8748fb7181
+// Extracted from HabboAirLauncher.deobf.js, line 144873.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/enum/HabboAlertDialogFlag.as
+// Obfuscated name: _i179f8748fb7181
 
 class {
   static {

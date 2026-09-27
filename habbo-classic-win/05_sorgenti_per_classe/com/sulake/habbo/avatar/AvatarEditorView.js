@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 165248.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/AvatarEditorView.as
-// Nome offuscato: _ic4f18ac7675c85
+// Extracted from HabboAirLauncher.deobf.js, line 165248.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/AvatarEditorView.as
+// Obfuscated name: _ic4f18ac7675c85
 
 class a {
   static {
@@ -37,7 +37,7 @@ class a {
   _ref42b17e53a2b0 = null;
   constructor(e, r) {
     ((this._editor = e),
-      (this.var_851 = new _i05394ecc0c0c4d(a.SAVE_TIMEOUT_MS, 1)),
+      (this.var_851 = new UnkEventDispatcherWrapperSubclass_05394e(a.SAVE_TIMEOUT_MS, 1)),
       this.var_851.addEventListener(DeBouncer.addEventListener, this.onUpdate),
       e.manager.getBoolean("effects.in.avatar.editor") && this._allCategories.push(class_1962.const_65),
       e.manager.getBoolean("clothing.misc.tab.enabled") && this._allCategories.push(class_1962.MISC),

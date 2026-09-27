@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 294077.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/utils/RoomAreaSelectionManager.as
-// Nome offuscato: _i18d93dd01b076c
+// Extracted from HabboAirLauncher.deobf.js, line 294077.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/utils/RoomAreaSelectionManager.as
+// Obfuscated name: _i18d93dd01b076c
 
 class a {
   static {

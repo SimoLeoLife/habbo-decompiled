@@ -1,8 +1,8 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 376646.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/renderer/utils/class_4296.as
-// Nome offuscato: _ic0a8a254a0f670
+// Extracted from HabboAirLauncher.deobf.js, line 376646.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/renderer/utils/class_4296.as
+// Obfuscated name: _ic0a8a254a0f670
 
-class a extends _i3a5c6f457acdad {
+class a extends UnkClass_3a5c6f {
   static {
     n(this, "class_4296");
   }

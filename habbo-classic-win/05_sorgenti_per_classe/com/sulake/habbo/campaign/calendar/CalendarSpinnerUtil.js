@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 339487.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/campaign/calendar/CalendarSpinnerUtil.as
-// Nome offuscato: _i2b8b57f763b8bd
+// Extracted from HabboAirLauncher.deobf.js, line 339487.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/campaign/calendar/CalendarSpinnerUtil.as
+// Obfuscated name: _i2b8b57f763b8bd
 
 class {
   static {

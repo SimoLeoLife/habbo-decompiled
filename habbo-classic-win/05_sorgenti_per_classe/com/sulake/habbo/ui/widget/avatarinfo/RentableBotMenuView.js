@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 308368.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/RentableBotMenuView.as
-// Nome offuscato: _ia990e9b9b98ae3
+// Extracted from HabboAirLauncher.deobf.js, line 308368.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/RentableBotMenuView.as
+// Obfuscated name: _ia990e9b9b98ae3
 
 class extends AvatarContextInfoButtonView {
   static {
@@ -109,7 +109,7 @@ class extends AvatarContextInfoButtonView {
         let i = r.parent?.name ?? "";
         switch (((t = !0), i)) {
           case "pick":
-            this.widget?.handler?.container?.connection?.send(new _ia6b0c0a7ea7024(this._data.id));
+            this.widget?.handler?.container?.connection?.send(new class_2983(this._data.id));
             break;
           case "setup_chat":
             this._r5d9a76e135764b(this._data.id, class_2965.CHATTER_MARKOV);
@@ -211,7 +211,7 @@ class extends AvatarContextInfoButtonView {
     this.widget?._r5d9a76e135764b(this._data?.id ?? 0, r, s);
   }
   _r2c48ace71a1eef(e, r = "") {
-    this._data != null && this.widget?.handler?.container?.connection?.send(new _ib33ce9cf2a1c34(this._data.id, e, r));
+    this._data != null && this.widget?.handler?.container?.connection?.send(new class_2823(this._data.id, e, r));
   }
   get widget() {
     return this.var_17;

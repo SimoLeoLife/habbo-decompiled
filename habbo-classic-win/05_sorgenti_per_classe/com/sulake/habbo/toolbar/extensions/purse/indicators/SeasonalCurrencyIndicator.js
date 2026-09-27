@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 343739.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/purse/indicators/SeasonalCurrencyIndicator.as
-// Nome offuscato: _ia0b696a4f4206b
+// Extracted from HabboAirLauncher.deobf.js, line 343739.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/purse/indicators/SeasonalCurrencyIndicator.as
+// Obfuscated name: _ia0b696a4f4206b
 
 class a extends kg {
   static {

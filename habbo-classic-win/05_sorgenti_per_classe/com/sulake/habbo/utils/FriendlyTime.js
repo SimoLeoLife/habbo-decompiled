@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 67798.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/FriendlyTime.as
-// Nome offuscato: _i3a4999cedfaea6
+// Extracted from HabboAirLauncher.deobf.js, line 67798.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/FriendlyTime.as
+// Obfuscated name: _i3a4999cedfaea6
 
 class a {
   static {

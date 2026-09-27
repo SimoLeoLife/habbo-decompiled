@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 280964.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/RoomPlaneBitmapMask.as
-// Nome offuscato: _i3f83df98af9a52
+// Extracted from HabboAirLauncher.deobf.js, line 280964.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/RoomPlaneBitmapMask.as
+// Obfuscated name: _i3f83df98af9a52
 
 class {
   constructor(e, r, t) {

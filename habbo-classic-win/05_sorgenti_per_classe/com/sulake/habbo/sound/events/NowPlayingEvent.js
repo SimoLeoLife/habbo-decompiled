@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 162218.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/events/NowPlayingEvent.as
-// Nome offuscato: _iec87e93f7897ef
+// Extracted from HabboAirLauncher.deobf.js, line 162218.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/events/NowPlayingEvent.as
+// Obfuscated name: _iec87e93f7897ef
 
 class extends M {
   constructor(r, t, i, s, o = !1, d = !1) {

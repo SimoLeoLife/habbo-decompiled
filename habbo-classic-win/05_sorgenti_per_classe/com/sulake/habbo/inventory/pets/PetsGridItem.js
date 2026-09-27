@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 242534.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/pets/PetsGridItem.as
-// Nome offuscato: _ic9081651d99fa7
+// Extracted from HabboAirLauncher.deobf.js, line 242534.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/pets/PetsGridItem.as
+// Obfuscated name: _ic9081651d99fa7
 
 class a {
   constructor(e, r, t, i, s) {

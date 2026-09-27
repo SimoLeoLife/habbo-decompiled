@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 216748.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/view/search/SearchView.as
-// Nome offuscato: _i5334802f4cc3b6
+// Extracted from HabboAirLauncher.deobf.js, line 216748.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/view/search/SearchView.as
+// Obfuscated name: _i5334802f4cc3b6
 
 class {
   static {
@@ -81,7 +81,7 @@ class {
         let r = this.var_122.getListItemAt(e);
         r != null &&
           (r.color = this._friendList._r6dce2f14add5ec._rc2e3809e8c04e6(
-            _ia4c17117df4f10.SearchView,
+            UnkConstants_a4c171.SearchView,
             e % 2 === 1,
           ));
       }
@@ -206,6 +206,6 @@ class {
   }
   _r5b07904da32236() {
     let e = this._searchStr?.text ?? "";
-    e !== "" && this._friendList?.send(new _i469f4bbfad3d9a(e));
+    e !== "" && this._friendList?.send(new class_3851(e));
   }
 }

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 184572.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/offers/OfferCenter.as
-// Nome offuscato: _ia161e2c03e4887
+// Extracted from HabboAirLauncher.deobf.js, line 184572.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/offers/OfferCenter.as
+// Obfuscated name: _ia161e2c03e4887
 
 class a {
   constructor(e, r, t) {
@@ -11,7 +11,7 @@ class a {
       this._catalog?.connection?.addMessageEvent(this._offerRewardDeliveredMessageEvent),
       (this._r10b40ac216ac3e = [new F8e(this), new O8e(this)]),
       (this.var_2771 = []),
-      (this.var_1174 = new _i05394ecc0c0c4d(a.PROVIDER_POLLING_FREQUENCY)),
+      (this.var_1174 = new UnkEventDispatcherWrapperSubclass_05394e(a.PROVIDER_POLLING_FREQUENCY)),
       this.var_1174.addEventListener(DeBouncer.addEventListener, this.onPollTimer),
       this.var_1174.start(),
       this.onPollTimer());

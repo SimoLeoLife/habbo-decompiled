@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 125727.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_233/NewMoveTargetEventData.as
-// Nome offuscato: _i35fd2ef3530f8d
+// Extracted from HabboAirLauncher.deobf.js, line 125727.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_233/NewMoveTargetEventData.as
+// Obfuscated name: _i35fd2ef3530f8d
 
 class extends Ma {
     static {

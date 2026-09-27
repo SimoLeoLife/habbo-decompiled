@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 359415.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/variables_management/overview/VariableManagementOverviewView.as
-// Nome offuscato: _ifd27e341d1a12b
+// Extracted from HabboAirLauncher.deobf.js, line 359415.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/variables_management/overview/VariableManagementOverviewView.as
+// Obfuscated name: _ifd27e341d1a12b
 
 class a extends rY {
   constructor(r, t) {
@@ -34,7 +34,7 @@ class a extends rY {
       (this._r3181daa34e39d3 = r._rcf5cc4e95fbddd),
       this.onPageLoaded());
     let s = [];
-    for (let o of r.elements) s.push(new _i578ed57463cf67(this.var_63, o, i));
+    for (let o of r.elements) s.push(new UnkClass_578ed5(this.var_63, o, i));
     (this.var_778._rb800e4dd98c360(s),
       this.var_778.setObjects(),
       this._window.activate());
@@ -63,7 +63,7 @@ class a extends rY {
   calculateLastPage() {
     return this.var_63.page == null
       ? -1
-      : Math.trunc(Math.max(this.var_63.page.totalEntries - 1, 0) / _i50108c33681996.PAGE_SIZE + 1);
+      : Math.trunc(Math.max(this.var_63.page.totalEntries - 1, 0) / UnkConstants_50108c.PAGE_SIZE + 1);
   }
   currentPage() {
     return this.var_63.page?.currentPage ?? -1;
@@ -87,7 +87,7 @@ class a extends rY {
       ? !1
       : (t === a._r46fbf8ff75b31b && (t = s._rcf5cc4e95fbddd),
         i === a._r46fbf8ff75b31b && (i = s._ra69d4ed121104a),
-        this.var_63.send(new _icb14348d6e5af0(s.variableId, r, _i50108c33681996.PAGE_SIZE, t, i)),
+        this.var_63.send(new UnkMessageComposer_5args_cb1434(s.variableId, r, UnkConstants_50108c.PAGE_SIZE, t, i)),
         this.onPageLoaded(),
         !0);
   }

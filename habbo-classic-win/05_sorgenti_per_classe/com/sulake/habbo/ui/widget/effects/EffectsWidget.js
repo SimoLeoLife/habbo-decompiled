@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 313839.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/effects/EffectsWidget.as
-// Nome offuscato: _icc92bbe42723f1
+// Extracted from HabboAirLauncher.deobf.js, line 313839.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/effects/EffectsWidget.as
+// Obfuscated name: _icc92bbe42723f1
 
 class a extends RoomWidgetBase {
   static {

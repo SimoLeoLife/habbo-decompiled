@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 372838.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/subcontrollers/views/FurniChestItemView.as
-// Nome offuscato: _ibcdf8492d286d9
+// Extracted from HabboAirLauncher.deobf.js, line 372838.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/subcontrollers/views/FurniChestItemView.as
+// Obfuscated name: _ibcdf8492d286d9
 
 class a {
   static {
@@ -68,7 +68,7 @@ class a {
       d != null && (d.rarityLevel = t.rarityLevel);
     }
     let o = e.furniIcon.widget;
-    o != null && (o.productInfo = new _i27028f939050ee_(r.type));
+    o != null && (o.productInfo = new UnkClass_27028f__(r.type));
   }
   updateUI() {
     this._re80f488ae2de85 > 1

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 149469.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/IlluminaChatBubbleWidget.as
-// Nome offuscato: _i6ef7c23a0c037b
+// Extracted from HabboAirLauncher.deobf.js, line 149469.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/IlluminaChatBubbleWidget.as
+// Obfuscated name: _i6ef7c23a0c037b
 
 class a {
   constructor(e, r) {
@@ -180,7 +180,7 @@ class a {
     if (e !== this.var_5468) {
       for (let r = 0; r < this.createMessageWindow.numListItems; r += 1) {
         let t = this.createMessageWindow.getListItemAt(r),
-          i = _ib619bfd98fe9f2.as({ value: t, guard: _iad8cb2b2a86b68 });
+          i = UnkClass_b619bf.as({ value: t, guard: _iad8cb2b2a86b68 });
         i != null
           ? (i.width = this.var_1635.width - 5)
           : ((t.width = a.const_677), (t.height = a.const_677));
@@ -189,7 +189,7 @@ class a {
     }
     ((this.createMessageWindow.width = this.var_1635.width),
       (this._r4dc31c01e0d19c.width = this.var_1635.width),
-      (this._avatarWidget.direction = this._rb993e7589932e1 ? _i6c0c96c1d5cea5._r14fa2ce68e577a : _i6c0c96c1d5cea5._r20a7fb2cb94dc0),
+      (this._avatarWidget.direction = this._rb993e7589932e1 ? UnkConstants_6c0c96._r14fa2ce68e577a : UnkConstants_6c0c96._r20a7fb2cb94dc0),
       this._rb993e7589932e1
         ? ((this._r7627d55c763fff.x = this._rf8f9fc25599fa4.width - this._r7627d55c763fff.width),
           (this._r30d18039c39cb9.zoomX = 1),
@@ -343,7 +343,7 @@ class a {
   }, "_r10a570e6c32773");
   _ree6633f67d8275(e, r) {
     let t = this.createMessageWindow.getListItemAt(e),
-      i = _ib619bfd98fe9f2.as({ value: t, guard: _iad8cb2b2a86b68 }),
+      i = UnkClass_b619bf.as({ value: t, guard: _iad8cb2b2a86b68 }),
       s = r > 0 ? a.PENDING_MESSAGE_BLEND : 1;
     i != null
       ? (i.textColor = r > 0 ? 9079434 : 0)

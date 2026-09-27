@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 138320.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/IconController.as
-// Nome offuscato: _i24b6606232a289
+// Extracted from HabboAirLauncher.deobf.js, line 138320.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/IconController.as
+// Obfuscated name: _i24b6606232a289
 
 class extends st {
   static {

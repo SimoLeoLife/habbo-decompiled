@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 166488.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/bootstrap/HabboAvatarEditorManagerBootstrap.as
+// Extracted from HabboAirLauncher.deobf.js, line 166488.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/bootstrap/HabboAvatarEditorManagerBootstrap.as
 
 class extends b6e {
   static {

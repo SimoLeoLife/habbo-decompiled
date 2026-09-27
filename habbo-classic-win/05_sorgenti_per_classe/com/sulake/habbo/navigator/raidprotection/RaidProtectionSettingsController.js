@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 253971.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/raidprotection/RaidProtectionSettingsController.as
-// Nome offuscato: _idc80ea2de7c365
+// Extracted from HabboAirLauncher.deobf.js, line 253971.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/raidprotection/RaidProtectionSettingsController.as
+// Obfuscated name: _idc80ea2de7c365
 
 class a extends EventDispatcherWrapper {
   constructor(r, t) {
@@ -57,7 +57,7 @@ class a extends EventDispatcherWrapper {
       !this.isCurrentEnteredRoom(i) ||
       !this.canManage(i) ||
       this._r3322eabf4dfbf4 === i ||
-      ((this._r3322eabf4dfbf4 = i), this._view?.hide(), this.send(new _i94bac7601f451c(i)));
+      ((this._r3322eabf4dfbf4 = i), this._view?.hide(), this.send(new UnkMessageComposer_1args_94bac7(i)));
   }
   requestSave(r) {
     let t = r === null ? null : (this.var_837.get(r.roomId) ?? null);
@@ -111,7 +111,7 @@ class a extends EventDispatcherWrapper {
     ((this.var_965 = r.roomId),
       this._view?._r24d4adb825b7d2(!0),
       this.send(
-        new _i0904d659df733d(
+        new UnkMessageComposer_9args_0904d6(
           r.roomId,
           r.enabled,
           r._rd072b6d8e46ea7,

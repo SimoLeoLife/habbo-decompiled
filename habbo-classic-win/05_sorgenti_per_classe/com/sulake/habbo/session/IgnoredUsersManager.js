@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 335692.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/IgnoredUsersManager.as
-// Nome offuscato: _i0c57a95900ea88
+// Extracted from HabboAirLauncher.deobf.js, line 335692.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/IgnoredUsersManager.as
+// Obfuscated name: _i0c57a95900ea88
 
 class {
   constructor(e) {

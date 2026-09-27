@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 159920.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/enums/class_3668.as
-// Nome offuscato: _ic40476df330c82
+// Extracted from HabboAirLauncher.deobf.js, line 159920.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/enums/class_3668.as
+// Obfuscated name: _ic40476df330c82
 
 class {
   static {

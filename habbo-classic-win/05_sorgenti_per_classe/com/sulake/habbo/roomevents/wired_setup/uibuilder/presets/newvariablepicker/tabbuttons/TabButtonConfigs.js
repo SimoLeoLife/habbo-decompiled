@@ -1,27 +1,27 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 348685.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/newvariablepicker/tabbuttons/TabButtonConfigs.as
-// Nome offuscato: _i7ed019c28ab2de
+// Extracted from HabboAirLauncher.deobf.js, line 348685.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/newvariablepicker/tabbuttons/TabButtonConfigs.as
+// Obfuscated name: _i7ed019c28ab2de
 
 class a {
   constructor(e) {
     this._r6cb66fd1bf03f7 = e;
     this.var_2124 = [
-      new _ie9b036cbdb0a9d(a.ALL_TAB_ID, "var_picker_all", "wiredfurni.variable_picker.tab.all", () =>
+      new UnkClass_e9b036(a.ALL_TAB_ID, "var_picker_all", "wiredfurni.variable_picker.tab.all", () =>
         this._r440d2730e59e5f(),
       ),
-      new _ie9b036cbdb0a9d(a.RECENT_TAB_ID, "var_picker_recent", "wiredfurni.variable_picker.tab.recent", () =>
+      new UnkClass_e9b036(a.RECENT_TAB_ID, "var_picker_recent", "wiredfurni.variable_picker.tab.recent", () =>
         this._r3bf1c595f093f6(),
       ),
-      new _ie9b036cbdb0a9d(a.USER_CREATED_TAB_ID, "var_picker_usermade", "wiredfurni.variable_picker.tab.user_created", () =>
+      new UnkClass_e9b036(a.USER_CREATED_TAB_ID, "var_picker_usermade", "wiredfurni.variable_picker.tab.user_created", () =>
         this._r5a3757a82f5618(),
       ),
-      new _ie9b036cbdb0a9d(a.DYNAMIC_TAB_ID, "var_picker_smart", "wiredfurni.variable_picker.tab.dynamic", () =>
+      new UnkClass_e9b036(a.DYNAMIC_TAB_ID, "var_picker_smart", "wiredfurni.variable_picker.tab.dynamic", () =>
         this._ree9635b865ccf3(),
       ),
-      new _ie9b036cbdb0a9d(a.INTERNAL_TAB_ID, "var_picker_internal", "wiredfurni.variable_picker.tab.internal", () =>
+      new UnkClass_e9b036(a.INTERNAL_TAB_ID, "var_picker_internal", "wiredfurni.variable_picker.tab.internal", () =>
         this._ra5fe5ae55d6736(),
       ),
-      new _ie9b036cbdb0a9d(a.var_4803, "var_picker_search", "wiredfurni.variable_picker.tab.search", () =>
+      new UnkClass_e9b036(a.var_4803, "var_picker_search", "wiredfurni.variable_picker.tab.search", () =>
         this.searchFilter(),
       ),
     ];
@@ -40,7 +40,7 @@ class a {
     return this.var_2124;
   }
   nodesFromVector(e, r = !1) {
-    let t = new _ia3fbb4075934db(null, null);
+    let t = new UnkClass_a3fbb4(null, null);
     for (let i of e) {
       let s = we.splitName(i),
         o = t;
@@ -48,7 +48,7 @@ class a {
         let c = s[d],
           f = d === s.length - 1,
           l = o._r96efd6bcfb9bd2(c);
-        (l == null && ((l = new _ia3fbb4075934db(f ? i : null, c)), o._r0db14f6f7b27c4(l)), (o = l));
+        (l == null && ((l = new UnkClass_a3fbb4(f ? i : null, c)), o._r0db14f6f7b27c4(l)), (o = l));
       }
     }
     if (r) for (let i of t.children) i.flatten(!0);

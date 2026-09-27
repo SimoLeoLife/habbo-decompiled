@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 280395.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/game/SnowSplashVisualization.as
-// Nome offuscato: _i37726337c7aa7b
+// Extracted from HabboAirLauncher.deobf.js, line 280395.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/game/SnowSplashVisualization.as
+// Obfuscated name: _i37726337c7aa7b
 
 class a extends bb {
   static {
@@ -13,7 +13,7 @@ class a extends bb {
     return this._frameNumber >= a.FRAME_ASSET_NAMES.length;
   }
   initialize(e) {
-    return e instanceof _i66eb785a68df77
+    return e instanceof UnkClass_66eb78
       ? ((this._r9425ff6094578f = e), this._r68dbc243d37d4a(1), this.updateFrame(), !0)
       : !1;
   }

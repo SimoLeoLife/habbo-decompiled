@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161381.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetChangePostureMessage.as
-// Nome offuscato: _i9656bf7acfc73e
+// Extracted from HabboAirLauncher.deobf.js, line 161381.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetChangePostureMessage.as
+// Obfuscated name: _i9656bf7acfc73e
 
 class a extends RoomWidgetMessage {
   static {

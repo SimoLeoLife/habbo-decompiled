@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 351783.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/common/NeighborhoodFloor.as
-// Nome offuscato: _ida2bf348f24bff
+// Extracted from HabboAirLauncher.deobf.js, line 351783.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/common/NeighborhoodFloor.as
+// Obfuscated name: _ida2bf348f24bff
 
 class a {
   constructor(e, r, t) {

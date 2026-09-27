@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 377857.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/renderer/class_2225.as
-// Nome offuscato: _iaac3202013ec7d
+// Extracted from HabboAirLauncher.deobf.js, line 377857.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/renderer/class_2225.as
+// Obfuscated name: _iaac3202013ec7d
 
 class {
   constructor(e) {

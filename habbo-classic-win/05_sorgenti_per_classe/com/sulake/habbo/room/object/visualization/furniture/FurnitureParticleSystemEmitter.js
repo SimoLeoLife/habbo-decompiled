@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 278245.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureParticleSystemEmitter.as
-// Nome offuscato: _i99695989e9aff3
+// Extracted from HabboAirLauncher.deobf.js, line 278245.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureParticleSystemEmitter.as
+// Obfuscated name: _i99695989e9aff3
 
 class a extends FurnitureParticleSystemParticle {
   constructor(r = "", t = -1) {

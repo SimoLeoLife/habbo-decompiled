@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 255679.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/TextSearchInputs.as
-// Nome offuscato: _i2a0c570095003b
+// Extracted from HabboAirLauncher.deobf.js, line 255679.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/TextSearchInputs.as
+// Obfuscated name: _i2a0c570095003b
 
 class {
   constructor(e, r) {

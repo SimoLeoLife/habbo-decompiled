@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 178565.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconCollectionTrayView.as
-// Nome offuscato: _iaa6ad0f651e0df
+// Extracted from HabboAirLauncher.deobf.js, line 178565.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconCollectionTrayView.as
+// Obfuscated name: _iaa6ad0f651e0df
 
 class {
   constructor(e, r, t, i, s) {

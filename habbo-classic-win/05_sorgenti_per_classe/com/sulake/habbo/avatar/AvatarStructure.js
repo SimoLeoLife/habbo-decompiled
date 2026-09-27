@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 170606.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/AvatarStructure.as
-// Nome offuscato: _i3fe91d088edba1
+// Extracted from HabboAirLauncher.deobf.js, line 170606.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/AvatarStructure.as
+// Obfuscated name: _i3fe91d088edba1
 
 class extends Ft {
   static {
@@ -20,9 +20,9 @@ class extends Ft {
     (super(),
       (this.var_789 = e),
       (this.var_748 = new FigureSetData()),
-      (this.getPartDefinition = new _ia45b6ff1e92c6e()),
-      (this._r47a40efdf7a1d9 = new _ib6e3512f89dd7e()),
-      (this.getAnimation = new _ibffd1c88b59848()));
+      (this.getPartDefinition = new UnkClass_a45b6f()),
+      (this._r47a40efdf7a1d9 = new UnkClass_b6e351__()),
+      (this.getAnimation = new UnkClass_bffd1c()));
   }
   dispose() {
     this.disposed ||
@@ -42,7 +42,7 @@ class extends Ft {
   }
   _re6b7e7ea8a3895(e, r) {
     r != null &&
-      ((this._rae7b83e2110f94 = new _i9ccc9abf9a7065(e, r)),
+      ((this._rae7b83e2110f94 = new UnkClass_9ccc9a(e, r)),
       (this._r45c95f8cc0a732 = this._rae7b83e2110f94._ra5d8add229f4fa()),
       (this.ActiveActionData = this._rae7b83e2110f94._r540d0ec15d9bc6()));
   }
@@ -301,7 +301,7 @@ class extends Ft {
   }
   displayGeometry(e) {
     let r = new A(960, 540, !1, 4294967295),
-      t = new _i3a5c6f457acdad();
+      t = new UnkClass_3a5c6f();
     ((t.bitmapData = r), e.addChild(t));
     let i = r.width / 2,
       s = r.height / 2,
@@ -312,7 +312,7 @@ class extends Ft {
       let f = c.location.x * o,
         l = c.location.z * o,
         b = c.radius * o,
-        _ = new _ic6b6cdf3ccea3d();
+        _ = new UnkClass_c6b6cd();
       (_.graphics.lineStyle(1, 4294901760, 1),
         _.graphics.drawRect(0, 0, Math.max(2, b), Math.max(2, b)),
         (_.x = i + f),

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 179872.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconController.as
-// Nome offuscato: _if53b4e41cd4dfc
+// Extracted from HabboAirLauncher.deobf.js, line 179872.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconController.as
+// Obfuscated name: _if53b4e41cd4dfc
 
 class a extends ue {
   static {
@@ -75,9 +75,9 @@ class a extends ue {
         this.addMessageEvent(new class_3794((e) => this._r55a2cc9c67769e(e))),
         this.addMessageEvent(new class_3826((e) => this._r42fecbb6e6773e(e))),
         this.addMessageEvent(new class_2735((e) => this._rc35fe79180d63c(e))),
-        this.addMessageEvent(new _i747af906850f2d((e) => this._r6d4e06caa59a48(e))),
-        this.addMessageEvent(new _i7a147ec87c5d87((e) => this._r0f423f57a6a9f1(e))),
-        this.addMessageEvent(new _if762d29ee5d513((e) => this._r0f423f57a6a9f1(e))),
+        this.addMessageEvent(new UnkMessageEvent_747af9((e) => this._r6d4e06caa59a48(e))),
+        this.addMessageEvent(new UnkMessageEvent_7a147e((e) => this._r0f423f57a6a9f1(e))),
+        this.addMessageEvent(new UnkMessageEvent_f762d2((e) => this._r0f423f57a6a9f1(e))),
         Dr.configure(this._configurationManager),
         Dr.addEventListener(Dr.ASSETS_LOADED, this._r90cce2b1934e7c),
         Dr.preload()));
@@ -132,11 +132,11 @@ class a extends ue {
         this.var_356.dispatchEvent(new Mt(Mt.SHOP_DATA_UPDATED));
         return;
       }
-      this._rc3929092824af9 || (this._rc3929092824af9 = this.send(new _if24fdc485aeaf9()));
+      this._rc3929092824af9 || (this._rc3929092824af9 = this.send(new UnkMessageComposer_0args_f24fdc()));
     }
   }
   _r9b697375e236ac(e) {
-    this.habbiconsEnabled() && this.send(new _i052e0c6eb1e12a(e));
+    this.habbiconsEnabled() && this.send(new UnkMessageComposer_1args_052e0c(e));
   }
   _r59b8bf5acaaf2f(e) {
     !this.habbiconsEnabled() ||
@@ -154,10 +154,10 @@ class a extends ue {
     this._inventory?._r349ca5f2f69601?._r76597cac57aa73($t.const_134);
   }
   _r1340b4edf8b8a0(e) {
-    this.habbiconsEnabled() && ((this._rc43bb5de14f4fb = !0), this.send(new _ifec17d30d39976(e)));
+    this.habbiconsEnabled() && ((this._rc43bb5de14f4fb = !0), this.send(new UnkMessageComposer_1args_fec17d(e)));
   }
   _rc5f8c7ff92815c(e) {
-    this.habbiconsEnabled() && ((this._rc43bb5de14f4fb = !0), this.send(new _i5684371a7646fd(e)));
+    this.habbiconsEnabled() && ((this._rc43bb5de14f4fb = !0), this.send(new UnkMessageComposer_1args_568437(e)));
   }
   _r0b05c7dd52d654(e) {
     !this.habbiconsEnabled() ||
@@ -181,13 +181,13 @@ class a extends ue {
     this._rf300aac2b58d77 != null && (this._rf300aac2b58d77.dispose(), (this._rf300aac2b58d77 = null));
   }
   _r3834000326cc68(e) {
-    this.habbiconsEnabled() && ((this._rc43bb5de14f4fb = !0), this.send(new _ife672a4e8f8bec(e)));
+    this.habbiconsEnabled() && ((this._rc43bb5de14f4fb = !0), this.send(new UnkMessageComposer_1args_fe672a(e)));
   }
   _r3a275f7c15d08a(e) {
-    this.habbiconsEnabled() && this.send(new _i43f6637a747191(e));
+    this.habbiconsEnabled() && this.send(new UnkMessageComposer_1args_43f663(e));
   }
   _rf55a4b18db56fb(e) {
-    this.habbiconsEnabled() && this.send(new _i2f9a6b5a181f37(e));
+    this.habbiconsEnabled() && this.send(new UnkMessageComposer_1args_2f9a6b(e));
   }
   _rb8fc3312c1481b(e) {
     return this.var_545.get(e) ?? null;

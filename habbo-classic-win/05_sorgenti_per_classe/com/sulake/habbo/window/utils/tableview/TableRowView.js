@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 153229.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/tableview/TableRowView.as
-// Nome offuscato: _i218d0577d62298
+// Extracted from HabboAirLauncher.deobf.js, line 153229.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/tableview/TableRowView.as
+// Obfuscated name: _i218d0577d62298
 
 class a {
   constructor(e, r) {

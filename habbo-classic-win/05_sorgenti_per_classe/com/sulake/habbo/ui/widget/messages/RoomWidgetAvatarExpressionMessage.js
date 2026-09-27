@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161355.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetAvatarExpressionMessage.as
-// Nome offuscato: _ib208f969fda319
+// Extracted from HabboAirLauncher.deobf.js, line 161355.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetAvatarExpressionMessage.as
+// Obfuscated name: _ib208f969fda319
 
 class a extends RoomWidgetMessage {
   static {

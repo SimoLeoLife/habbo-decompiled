@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 210202.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/popup/HabboEpicPopupView.as
-// Nome offuscato: _i18019ad5461956
+// Extracted from HabboAirLauncher.deobf.js, line 210202.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/popup/HabboEpicPopupView.as
+// Obfuscated name: _i18019ad5461956
 
 class extends AbstractView {
   static {

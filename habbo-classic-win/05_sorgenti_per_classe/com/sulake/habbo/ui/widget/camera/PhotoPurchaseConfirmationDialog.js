@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 303990.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/camera/PhotoPurchaseConfirmationDialog.as
-// Nome offuscato: _i7d90d9a4a248d7
+// Extracted from HabboAirLauncher.deobf.js, line 303990.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/camera/PhotoPurchaseConfirmationDialog.as
+// Obfuscated name: _i7d90d9a4a248d7
 
 class a {
   constructor(e, r) {
@@ -100,7 +100,7 @@ class a {
       (this._rf28ba968bf9736 = new StringUtil("image/png")),
       this._rf28ba968bf9736.addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._rf309bbcc5112ed),
       this._rf28ba968bf9736.addEventListener(Le.ASSET_LOADER_EVENT_ERROR, this._ra189ddc9cb67d6),
-      this._rf28ba968bf9736.load(new _i636490202c0f9a(r)));
+      this._rf28ba968bf9736.load(new UnkClass_636490(r)));
   }
   _r1268cc63ab99a5() {
     if (this._window == null) return;
@@ -155,7 +155,7 @@ class a {
       (this.var_17?.windowManager?.alert("${generic.alert.title}", s, 0, null),
         (this._window.findChildByName("status_info").caption = ""),
         this.var_523 == null
-          ? ((this.var_523 = new _i05394ecc0c0c4d(t * 1e3, 1)),
+          ? ((this.var_523 = new UnkEventDispatcherWrapperSubclass_05394e(t * 1e3, 1)),
             this.var_523.addEventListener(DeBouncer._rf33144eac61595, this._rdb346768164414))
           : (this.var_523.reset(), (this.var_523.delay = t * 1e3)),
         this.var_523.start());
@@ -197,7 +197,7 @@ class a {
       );
       (i?._r3fecca3423f155(
         HabboAlertDialogFlag.const_427,
-        new _iada4b60c6952bf(
+        new UnkClass_ada4b6(
           this.var_17?.localizations?.getLocalization("email.settings", "email.settings") ?? "",
           "",
           !0,
@@ -205,7 +205,7 @@ class a {
       ),
         i?._r3fecca3423f155(
           HabboAlertDialogFlag.const_688,
-          new _iada4b60c6952bf(
+          new UnkClass_ada4b6(
             this.var_17?.localizations?.getLocalization(
               "groupforum.settings.cancel",
               "groupforum.settings.cancel",
@@ -321,7 +321,7 @@ class a {
     let r = e.target;
     if (!(r == null || r !== this._rf28ba968bf9736))
       try {
-        let t = new _ifdd92074c780c7().decode(r.bytes);
+        let t = new UnkClass_fdd920().decode(r.bytes);
         if (t != null) {
           this.setImage(t);
           let i = this._window?.findChildByName("status_info");
@@ -367,7 +367,7 @@ class a {
       let t = this.var_17?.component?.getProperty("email.verification.url") ?? "";
       if (!ua.isEmpty(t)) {
         let i = (this.var_17?.component?.getInteger("spaweb", 0) ?? 0) === 1 ? "" : "_blank";
-        _i7dcfde9cf3179b(new _i636490202c0f9a(t), i);
+        _i7dcfde9cf3179b(new UnkClass_636490(t), i);
       }
     }
     e.dispose();

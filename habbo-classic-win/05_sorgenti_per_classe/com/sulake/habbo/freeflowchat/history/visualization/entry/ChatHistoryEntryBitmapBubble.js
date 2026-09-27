@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 201503.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/history/visualization/entry/ChatHistoryEntryBitmapBubble.as
-// Nome offuscato: _ib15910b44066e4
+// Extracted from HabboAirLauncher.deobf.js, line 201503.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/history/visualization/entry/ChatHistoryEntryBitmapBubble.as
+// Obfuscated name: _ib15910b44066e4
 
 class {
   static {

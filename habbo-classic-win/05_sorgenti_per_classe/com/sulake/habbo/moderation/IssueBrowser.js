@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 249564.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/IssueBrowser.as
-// Nome offuscato: _i47e4df8f6d37a4
+// Extracted from HabboAirLauncher.deobf.js, line 249564.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/IssueBrowser.as
+// Obfuscated name: _i47e4df8f6d37a4
 
 class a {
   constructor(e, r, t) {

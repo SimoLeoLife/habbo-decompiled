@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 132924.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/DropMenuController.as
-// Nome offuscato: _ic88cb2bccacb48
+// Extracted from HabboAirLauncher.deobf.js, line 132924.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/DropMenuController.as
+// Obfuscated name: _ic88cb2bccacb48
 
 class a extends C8 {
   static {

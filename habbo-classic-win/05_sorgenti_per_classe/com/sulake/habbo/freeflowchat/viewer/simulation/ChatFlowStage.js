@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 201877.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/simulation/ChatFlowStage.as
-// Nome offuscato: _i8f2f265ef1ef61
+// Extracted from HabboAirLauncher.deobf.js, line 201877.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/simulation/ChatFlowStage.as
+// Obfuscated name: _i8f2f265ef1ef61
 
 class a {
   static {
@@ -155,7 +155,7 @@ class a {
       let r = [];
       for (let t of this._bubbles) {
         t.resetSimulationStep();
-        for (let i of this._bubbles) t !== i && t.intersectsWith(i) && r.push(new _i94929b1b534b80(t, i));
+        for (let i of this._bubbles) t !== i && t.intersectsWith(i) && r.push(new UnkClass_94929b(t, i));
       }
       if (r.length === 0) break;
       if (this._lineByLineMode)

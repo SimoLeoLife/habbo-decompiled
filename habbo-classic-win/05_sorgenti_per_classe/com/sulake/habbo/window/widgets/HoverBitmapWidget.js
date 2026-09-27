@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 148926.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/HoverBitmapWidget.as
-// Nome offuscato: _if289f7c7d518e9
+// Extracted from HabboAirLauncher.deobf.js, line 148926.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/HoverBitmapWidget.as
+// Obfuscated name: _if289f7c7d518e9
 
 class a {
   constructor(e, r) {

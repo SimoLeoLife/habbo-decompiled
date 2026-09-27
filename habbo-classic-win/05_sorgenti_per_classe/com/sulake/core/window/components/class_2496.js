@@ -1,13 +1,13 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 132851.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/class_2496.as
-// Nome offuscato: _i42926f96aa6604
+// Extracted from HabboAirLauncher.deobf.js, line 132851.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/class_2496.as
+// Obfuscated name: _i42926f96aa6604
 
 class extends C8 {
   static {
     n(this, "class_2496");
   }
   get iterator() {
-    return new _i13f61e920bd6b9(this);
+    return new UnkClass_13f61e(this);
   }
   addMenuItem(e) {
     return this.addMenuItemAt(e, (this._itemArray ?? (this._itemArray = [])).length);

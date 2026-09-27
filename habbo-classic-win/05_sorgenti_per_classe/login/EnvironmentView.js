@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 156894.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/login/EnvironmentView.as
-// Nome offuscato: _i4fed3af11e97f2
+// Extracted from HabboAirLauncher.deobf.js, line 156894.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/login/EnvironmentView.as
+// Obfuscated name: _i4fed3af11e97f2
 
 class a extends Sprite {
   constructor(r) {
@@ -60,16 +60,16 @@ class a extends Sprite {
     ((this._environmentTypes = (this._context?.getProperty("live.environment.list") ?? "")
       .split("/")
       .filter((r) => r !== "")),
-      this._environmentImages.push(new _i3a5c6f457acdad(_i4406f2f280a16f("flag_icons_en_png"))),
-      this._environmentImages.push(new _i3a5c6f457acdad(_i4406f2f280a16f("flag_icons_pt_png"))),
-      this._environmentImages.push(new _i3a5c6f457acdad(_i4406f2f280a16f("flag_icons_de_png"))),
-      this._environmentImages.push(new _i3a5c6f457acdad(_i4406f2f280a16f("flag_icons_es_png"))),
-      this._environmentImages.push(new _i3a5c6f457acdad(_i4406f2f280a16f("flag_icons_fi_png"))),
-      this._environmentImages.push(new _i3a5c6f457acdad(_i4406f2f280a16f("flag_icons_fr_png"))),
-      this._environmentImages.push(new _i3a5c6f457acdad(_i4406f2f280a16f("flag_icons_it_png"))),
-      this._environmentImages.push(new _i3a5c6f457acdad(_i4406f2f280a16f("flag_icons_nl_png"))),
-      this._environmentImages.push(new _i3a5c6f457acdad(_i4406f2f280a16f("flag_icons_tr_png"))),
-      this._environmentImages.push(new _i3a5c6f457acdad(_i4406f2f280a16f("flag_icons_dev_png"))));
+      this._environmentImages.push(new UnkClass_3a5c6f(_i4406f2f280a16f("flag_icons_en_png"))),
+      this._environmentImages.push(new UnkClass_3a5c6f(_i4406f2f280a16f("flag_icons_pt_png"))),
+      this._environmentImages.push(new UnkClass_3a5c6f(_i4406f2f280a16f("flag_icons_de_png"))),
+      this._environmentImages.push(new UnkClass_3a5c6f(_i4406f2f280a16f("flag_icons_es_png"))),
+      this._environmentImages.push(new UnkClass_3a5c6f(_i4406f2f280a16f("flag_icons_fi_png"))),
+      this._environmentImages.push(new UnkClass_3a5c6f(_i4406f2f280a16f("flag_icons_fr_png"))),
+      this._environmentImages.push(new UnkClass_3a5c6f(_i4406f2f280a16f("flag_icons_it_png"))),
+      this._environmentImages.push(new UnkClass_3a5c6f(_i4406f2f280a16f("flag_icons_nl_png"))),
+      this._environmentImages.push(new UnkClass_3a5c6f(_i4406f2f280a16f("flag_icons_tr_png"))),
+      this._environmentImages.push(new UnkClass_3a5c6f(_i4406f2f280a16f("flag_icons_dev_png"))));
   }
   initView() {
     (this.addTitleField(),
@@ -78,7 +78,7 @@ class a extends Sprite {
       this.addChild(this.var_2333),
       (this.var_1931 = new Sprite()),
       this.addChild(this.var_1931),
-      (this.var_1033 = new _i3a5c6f457acdad(_i4406f2f280a16f("flags_icon_selected_png"))),
+      (this.var_1033 = new UnkClass_3a5c6f(_i4406f2f280a16f("flags_icon_selected_png"))),
       this.var_1931.addChild(this.var_1033),
       (this.var_1931.scaleX = a.THUMB_SCALE),
       (this.var_1931.scaleY = a.THUMB_SCALE));
@@ -90,7 +90,7 @@ class a extends Sprite {
         this.addChild(i),
         this._rdcaf3c124b707a.push(i),
         (i.name = String(t)),
-        i.addEventListener(_ifd7c1208e3417e.CLICK, this._r3723cdd9acc947),
+        i.addEventListener(UnkClass_fd7c12.CLICK, this._r3723cdd9acc947),
         (i.scaleX = a.THUMB_SCALE),
         (i.scaleY = a.THUMB_SCALE));
       let o = a.THUMB_SCALE * a.THUMB_SIZE,
@@ -163,7 +163,7 @@ class a extends Sprite {
       this._context?._r515644ef0606ec(cf.SCREEN_SSO_TOKEN));
   }, "_re4b82a40e45f0b");
   ChatHistoryScrollBar = n((r) => {
-    let t = new _i05394ecc0c0c4d(20, 1);
+    let t = new UnkEventDispatcherWrapperSubclass_05394e(20, 1);
     (t.addEventListener(DeBouncer._rf33144eac61595, this._r3652bb4f2af925), t.start());
   }, "ChatHistoryScrollBar");
   _r3652bb4f2af925 = n((r = null) => {

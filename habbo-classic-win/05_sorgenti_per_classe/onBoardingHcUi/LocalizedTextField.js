@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 70746.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/onBoardingHcUi/LocalizedTextField.as
-// Nome offuscato: _i635cba25c0fa14
+// Extracted from HabboAirLauncher.deobf.js, line 70746.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/onBoardingHcUi/LocalizedTextField.as
+// Obfuscated name: _i635cba25c0fa14
 
 class a extends Pt {
   static {

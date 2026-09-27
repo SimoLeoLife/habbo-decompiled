@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 144607.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/events/CatalogWidgetSpinnerEvent.as
-// Nome offuscato: _i40ea7a3aa53cbd
+// Extracted from HabboAirLauncher.deobf.js, line 144607.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/events/CatalogWidgetSpinnerEvent.as
+// Obfuscated name: _i40ea7a3aa53cbd
 
 class extends M {
   constructor(r, t = 1, i = null) {

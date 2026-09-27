@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 181785.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/messages/RoomObjectVariableFxStatusRemoveMessage.as
-// Nome offuscato: _i8cf2bb16e51768
+// Extracted from HabboAirLauncher.deobf.js, line 181785.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/messages/RoomObjectVariableFxStatusRemoveMessage.as
+// Obfuscated name: _i8cf2bb16e51768
 
 class extends RoomObjectUpdateMessage {
   constructor(r, t) {

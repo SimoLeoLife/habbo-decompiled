@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 341115.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/memenu/MeMenuNewIconLoader.as
-// Nome offuscato: _idd8d99f55a58d4
+// Extracted from HabboAirLauncher.deobf.js, line 341115.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/memenu/MeMenuNewIconLoader.as
+// Obfuscated name: _idd8d99f55a58d4
 
 class {
   static {

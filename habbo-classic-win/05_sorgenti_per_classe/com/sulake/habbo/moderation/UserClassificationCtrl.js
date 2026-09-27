@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 249285.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/UserClassificationCtrl.as
-// Nome offuscato: _i1aac1079950aa3
+// Extracted from HabboAirLauncher.deobf.js, line 249285.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/UserClassificationCtrl.as
+// Obfuscated name: _i1aac1079950aa3
 
 class a {
   constructor(e, r) {
@@ -23,7 +23,7 @@ class a {
     return this._disposed;
   }
   show() {
-    ((this.var_994 = new _i05394ecc0c0c4d(300, 1)),
+    ((this.var_994 = new UnkEventDispatcherWrapperSubclass_05394e(300, 1)),
       this.var_994.addEventListener(DeBouncer.addEventListener, this.onResizeTimer),
       this._main.messageHandler._rd692b381641435(this),
       (this._frame = this._main.getXmlWindow("userclassification_frame")),
@@ -88,10 +88,10 @@ class a {
         ((d.visible = !1), (o.visible = !1)),
       this.addClassificationRowToList(t, this.var_122),
       this._main.isModerator &&
-        (s != null && new _i38eebeab0dc4fe(this._frame, this._main, s, e.userId),
+        (s != null && new UnkClass_38eebe(this._frame, this._main, s, e.userId),
         o != null &&
           (o.procedure = (c, f) => {
-            (this._main.connection?.send(new _i31de52d25b43de(e.username)),
+            (this._main.connection?.send(new UnkMessageComposer_1args_31de52(e.username)),
               f?.removeEventListener?.(u.CLICK, null));
           })));
   }

@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 189291.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/ClubBuyCatalogWidget.as
+// Extracted from HabboAirLauncher.deobf.js, line 189291.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/ClubBuyCatalogWidget.as
 
 class extends CatalogWidget {
   static {
@@ -27,7 +27,7 @@ class extends CatalogWidget {
       ? !1
       : ((this.var_63 = e._r5a5819a5decf89()),
         this.var_63.registerVisualization(this),
-        this.var_63.requestOffers(_id2bfaa31fdabf7._r3499229c907005),
+        this.var_63.requestOffers(UnkConstants_d2bfaa._r3499229c907005),
         !0);
   }
   reset() {

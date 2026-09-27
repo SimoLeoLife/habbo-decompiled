@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 374059.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/reward_notification/RewardNotificationView.as
-// Nome offuscato: _i7991d24f82103d
+// Extracted from HabboAirLauncher.deobf.js, line 374059.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/reward_notification/RewardNotificationView.as
+// Obfuscated name: _i7991d24f82103d
 
 class a extends AbstractUbuntuWiredUI {
   static {

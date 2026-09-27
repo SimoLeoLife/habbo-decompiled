@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 316241.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/credit/CreditFurniWidget.as
-// Nome offuscato: _i8ef1c1be6a1569
+// Extracted from HabboAirLauncher.deobf.js, line 316241.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/credit/CreditFurniWidget.as
+// Obfuscated name: _i8ef1c1be6a1569
 
 class a extends RoomWidgetBase {
   static {

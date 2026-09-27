@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 347207.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/inputsources/newpicker/NewSourceTypeOption.as
-// Nome offuscato: _ia9d78e89df1b6e
+// Extracted from HabboAirLauncher.deobf.js, line 347207.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/inputsources/newpicker/NewSourceTypeOption.as
+// Obfuscated name: _ia9d78e89df1b6e
 
 class {
   constructor(e, r, t) {

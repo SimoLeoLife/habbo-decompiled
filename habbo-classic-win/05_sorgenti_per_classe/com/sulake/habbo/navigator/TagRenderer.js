@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 253615.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/TagRenderer.as
-// Nome offuscato: _i6715abaa3e9744
+// Extracted from HabboAirLauncher.deobf.js, line 253615.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/TagRenderer.as
+// Obfuscated name: _i6715abaa3e9744
 
 class {
   constructor(e, r = null) {

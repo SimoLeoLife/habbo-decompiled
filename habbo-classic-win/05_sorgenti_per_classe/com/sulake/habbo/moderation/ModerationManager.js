@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 251301.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/ModerationManager.as
-// Nome offuscato: _i4753a518ce8846
+// Extracted from HabboAirLauncher.deobf.js, line 251301.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/ModerationManager.as
+// Obfuscated name: _i4753a518ce8846
 
 class extends ue {
   static {
@@ -14,7 +14,7 @@ class extends ue {
     (super(e, r, t),
       (this._reffc4eb7a1c4e9 = new StartPanelCtrl(this)),
       (this._rd9161a8af7a1d8 = new WindowTracker()),
-      e.attachComponent(new Ype(e, r, t), [new _id868ab4785b05f()]));
+      e.attachComponent(new Ype(e, r, t), [new UnkInterface_d868ab()]));
   }
   get dependencies() {
     return super.dependencies.concat([

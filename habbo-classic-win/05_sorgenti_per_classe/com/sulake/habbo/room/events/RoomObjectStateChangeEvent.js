@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 180934.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectStateChangeEvent.as
-// Nome offuscato: _i937d60b3d579a1
+// Extracted from HabboAirLauncher.deobf.js, line 180934.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectStateChangeEvent.as
+// Obfuscated name: _i937d60b3d579a1
 
 class extends RoomObjectEvent {
   constructor(r, t, i = 0, s = !1, o = !1) {

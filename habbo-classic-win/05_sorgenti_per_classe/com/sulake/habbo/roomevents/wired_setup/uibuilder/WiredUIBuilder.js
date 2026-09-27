@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 369381.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/WiredUIBuilder.as
-// Nome offuscato: _id303686a94bf12
+// Extracted from HabboAirLauncher.deobf.js, line 369381.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/WiredUIBuilder.as
+// Obfuscated name: _id303686a94bf12
 
 class {
   constructor(e, r, t, i, s = !1) {
@@ -25,7 +25,7 @@ class {
   }
   build(e = 1, r = !1) {
     let t = null;
-    (r && (t = new ListScrollParams(!1, 0, _ic7f867ad53849e._rd4b507212bb7db / 1.8, !0, !0)),
+    (r && (t = new ListScrollParams(!1, 0, UnkClass_c7f867._rd4b507212bb7db / 1.8, !0, !0)),
       (this._frame = this.var_102._r2c9ac233cf1a70(
         this.var_2686,
         this.var_2897,

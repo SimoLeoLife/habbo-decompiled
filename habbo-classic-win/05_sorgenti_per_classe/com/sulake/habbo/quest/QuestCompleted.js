@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 268751.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/QuestCompleted.as
-// Nome offuscato: _i58ce58b5fd2199
+// Extracted from HabboAirLauncher.deobf.js, line 268751.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/QuestCompleted.as
+// Obfuscated name: _i58ce58b5fd2199
 
 class a {
   constructor(e) {
@@ -148,7 +148,7 @@ class a {
       this._questEngine == null ||
       (this._window != null && (this._window.visible = !1),
       this._questEngine._rd4042d1a6a05a1._rddd2ff4cc28b1a._r672bd5d2fddac8(),
-      this._questEngine.send(new _if730f53b497d89()));
+      this._questEngine.send(new UnkMessageComposer_0args_f730f5()));
   }
   setWindowTitle(e) {
     this._questEngine == null ||

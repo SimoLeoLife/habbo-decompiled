@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 163013.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/common/TabUtils.as
-// Nome offuscato: _i15778776e8d498
+// Extracted from HabboAirLauncher.deobf.js, line 163013.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/common/TabUtils.as
+// Obfuscated name: _i15778776e8d498
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 68878.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/WindowToggle.as
-// Nome offuscato: _ibc1b926f30bff1
+// Extracted from HabboAirLauncher.deobf.js, line 68878.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/WindowToggle.as
+// Obfuscated name: _ibc1b926f30bff1
 
 class a {
   static {

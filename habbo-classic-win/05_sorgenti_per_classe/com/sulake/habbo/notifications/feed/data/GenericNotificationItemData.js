@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 261874.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/feed/data/GenericNotificationItemData.as
-// Nome offuscato: _ia8d7f83cabbae8
+// Extracted from HabboAirLauncher.deobf.js, line 261874.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/feed/data/GenericNotificationItemData.as
+// Obfuscated name: _ia8d7f83cabbae8
 
 class {
   static {

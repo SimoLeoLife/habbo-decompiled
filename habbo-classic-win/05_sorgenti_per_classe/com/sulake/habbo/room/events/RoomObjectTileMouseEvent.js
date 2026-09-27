@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 180948.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectTileMouseEvent.as
-// Nome offuscato: _ib6f39ea0caf1c9
+// Extracted from HabboAirLauncher.deobf.js, line 180948.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectTileMouseEvent.as
+// Obfuscated name: _ib6f39ea0caf1c9
 
 class extends RoomObjectMouseEvent {
   constructor(r, t, i, s, o, d, c = !1, f = !1, l = !1, b = !1, _ = !1, h = !1) {

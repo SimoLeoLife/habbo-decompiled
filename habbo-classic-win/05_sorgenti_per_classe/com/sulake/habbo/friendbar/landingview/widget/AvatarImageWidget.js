@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 147584.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/AvatarImageWidget.as
-// Nome offuscato: _i855faa876ca501
+// Extracted from HabboAirLauncher.deobf.js, line 147584.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/AvatarImageWidget.as
+// Obfuscated name: _i855faa876ca501
 
 class a {
   constructor(e, r) {
@@ -51,7 +51,7 @@ class a {
   static _read75edbf4d8df = new ne(a._rfcf9ee2d19f69a, 1, ne.NUMBER);
   static _r87a0401cf950ad = new ne(
     a._r24a400a53a6839,
-    a._rca58edc720ff52[_i6c0c96c1d5cea5._r20a7fb2cb94dc0],
+    a._rca58edc720ff52[UnkConstants_6c0c96._r20a7fb2cb94dc0],
     ne.STRING,
     !1,
     a._rca58edc720ff52,

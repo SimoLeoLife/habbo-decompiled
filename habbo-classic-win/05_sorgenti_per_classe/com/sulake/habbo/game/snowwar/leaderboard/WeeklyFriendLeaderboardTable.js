@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 220504.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/leaderboard/WeeklyFriendLeaderboardTable.as
-// Nome offuscato: _ic367e57e81c8e3
+// Extracted from HabboAirLauncher.deobf.js, line 220504.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/leaderboard/WeeklyFriendLeaderboardTable.as
+// Obfuscated name: _ic367e57e81c8e3
 
 class extends D1 {
   static {

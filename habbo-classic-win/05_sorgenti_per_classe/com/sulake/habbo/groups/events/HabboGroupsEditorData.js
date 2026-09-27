@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 225739.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/events/HabboGroupsEditorData.as
-// Nome offuscato: _idd4df60085ac06
+// Extracted from HabboAirLauncher.deobf.js, line 225739.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/events/HabboGroupsEditorData.as
+// Obfuscated name: _idd4df60085ac06
 
 class a extends M {
   static {

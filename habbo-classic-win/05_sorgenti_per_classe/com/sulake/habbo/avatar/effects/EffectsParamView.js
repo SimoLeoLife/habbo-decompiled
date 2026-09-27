@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 163393.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/effects/EffectsParamView.as
-// Nome offuscato: _i44b8785e749ba8
+// Extracted from HabboAirLauncher.deobf.js, line 163393.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/effects/EffectsParamView.as
+// Obfuscated name: _i44b8785e749ba8
 
 class {
   static {
@@ -18,7 +18,7 @@ class {
       (this._re8f4e7845696e0 = e.controller.manager.getProperty(
         "avatareditor.effects.buy.button.catalog.page.name",
       )),
-      (this.var_1302 = new _i05394ecc0c0c4d(1e3)),
+      (this.var_1302 = new UnkEventDispatcherWrapperSubclass_05394e(1e3)),
       this.var_1302.addEventListener(DeBouncer.addEventListener, this._rd3761468195ac5),
       this._container.findChildByName("get_more_button")?.addEventListener(u.CLICK, this.onBuyButtonClick),
       this.updateView(null));

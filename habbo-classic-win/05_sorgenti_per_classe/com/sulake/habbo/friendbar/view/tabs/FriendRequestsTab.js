@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 212293.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/tabs/FriendRequestsTab.as
-// Nome offuscato: _i40950a8922808f
+// Extracted from HabboAirLauncher.deobf.js, line 212293.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/tabs/FriendRequestsTab.as
+// Obfuscated name: _i40950a8922808f
 
 class a extends br {
   static {

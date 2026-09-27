@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 253257.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/inroom/RoomEventInfoCtrl.as
-// Nome offuscato: _i4f2b80bf9a9f32
+// Extracted from HabboAirLauncher.deobf.js, line 253257.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/inroom/RoomEventInfoCtrl.as
+// Obfuscated name: _i4f2b80bf9a9f32
 
 class a {
   constructor(e) {

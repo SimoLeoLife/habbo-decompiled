@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 357006.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_monitor/WiredErrorInfoView.as
-// Nome offuscato: _ib12f3521ec35e9
+// Extracted from HabboAirLauncher.deobf.js, line 357006.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_monitor/WiredErrorInfoView.as
+// Obfuscated name: _ib12f3521ec35e9
 
 class {
   constructor(e) {

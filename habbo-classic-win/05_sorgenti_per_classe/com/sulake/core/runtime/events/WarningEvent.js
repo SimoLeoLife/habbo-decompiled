@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 59161.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/events/WarningEvent.as
-// Nome offuscato: _i4ccc8a3b2bfcec
+// Extracted from HabboAirLauncher.deobf.js, line 59161.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/events/WarningEvent.as
+// Obfuscated name: _i4ccc8a3b2bfcec
 
 class extends M {
   constructor(r, t) {

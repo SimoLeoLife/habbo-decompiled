@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 367715.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/selectors/InNeighborhood.as
-// Nome offuscato: _i2c535a8880e615
+// Extracted from HabboAirLauncher.deobf.js, line 367715.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/selectors/InNeighborhood.as
+// Obfuscated name: _i2c535a8880e615
 
 class a extends DefaultSelectorType {
   static {
@@ -113,10 +113,10 @@ class a extends DefaultSelectorType {
   }, "onDrawingChanged");
   buildInputs(e, r, t) {
     let i = [
-        new _i8ebb1d0e29ed4d("add", "", () => {
+        new UnkClass_8ebb1d("add", "", () => {
           this.setMode(a.DRAW_MODES[0]);
         }),
-        new _i8ebb1d0e29ed4d(
+        new UnkClass_8ebb1d(
           "remove",
           "",
           () => {
@@ -124,10 +124,10 @@ class a extends DefaultSelectorType {
           },
           !0,
         ),
-        new _i8ebb1d0e29ed4d("reference", "", () => {
+        new UnkClass_8ebb1d("reference", "", () => {
           this.setMode(a.DRAW_MODES[2]);
         }),
-        new _i8ebb1d0e29ed4d("enlarge_image", "", this._re814115e822ac1, !1, !0),
+        new UnkClass_8ebb1d("enlarge_image", "", this._re814115e822ac1, !1, !0),
       ],
       s = e._r9ae51d526980e2(i);
     ((this._rcd7f54f35d3a27 = e._rdf116322ff7c88(this._r07e271363ac1a7)),

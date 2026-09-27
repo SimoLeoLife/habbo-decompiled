@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 88630.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/help/class_4059.as
-// Nome offuscato: _if552b2bdc480c2
+// Extracted from HabboAirLauncher.deobf.js, line 88630.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/help/class_4059.as
+// Obfuscated name: _if552b2bdc480c2
 
 class a {
     static {

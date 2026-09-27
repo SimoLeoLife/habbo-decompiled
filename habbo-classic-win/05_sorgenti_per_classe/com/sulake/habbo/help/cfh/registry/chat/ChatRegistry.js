@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 233814.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/cfh/registry/chat/ChatRegistry.as
-// Nome offuscato: _idb27b2f46e0e2a
+// Extracted from HabboAirLauncher.deobf.js, line 233814.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/cfh/registry/chat/ChatRegistry.as
+// Obfuscated name: _idb27b2f46e0e2a
 
 class a {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 160259.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetEcotronBoxDataUpdateEvent.as
-// Nome offuscato: _i4eaef1184f81f2
+// Extracted from HabboAirLauncher.deobf.js, line 160259.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetEcotronBoxDataUpdateEvent.as
+// Obfuscated name: _i4eaef1184f81f2
 
 class extends RoomWidgetUpdateEvent {
   constructor(r, t, i, s, o = !1, d = null, c = !1, f = !1) {

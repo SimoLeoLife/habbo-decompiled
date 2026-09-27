@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 371686.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/settings/ChestSettingsUI.as
-// Nome offuscato: _i635ff64ac26954
+// Extracted from HabboAirLauncher.deobf.js, line 371686.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/settings/ChestSettingsUI.as
+// Obfuscated name: _i635ff64ac26954
 
 class extends AbstractUbuntuWiredUI {
   constructor(r, t) {
@@ -59,7 +59,7 @@ class extends AbstractUbuntuWiredUI {
       (this.var_5000 = t.createSimpleListView(!1, [this.var_1816, this.var_2320], !0)));
     let I = t.createBorderSection("${wiredchests.settings.wired}", this.var_5000),
       C = 420,
-      W = _ic7f867ad53849e._rd4b507212bb7db / 2.4,
+      W = UnkClass_c7f867._rd4b507212bb7db / 2.4,
       R = new ListScrollParams(!1, C, W, !0);
     ((this.framePreset = t._r2c9ac233cf1a70(
       [o, l, v, I, this._r43e1962e8d351e],
@@ -153,7 +153,7 @@ class extends AbstractUbuntuWiredUI {
   }
   _rf7f875b488f891 = n(() => {
     this.var_2898.send(
-      new _id700d3804bea17(
+      new class_3057(
         this._chestId,
         this._chestName.text,
         this._chestDesc.text,

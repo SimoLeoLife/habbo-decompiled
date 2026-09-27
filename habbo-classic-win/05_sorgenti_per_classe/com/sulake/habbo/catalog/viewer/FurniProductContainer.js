@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 196719.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/FurniProductContainer.as
-// Nome offuscato: _ic1fe91acd85cf9
+// Extracted from HabboAirLauncher.deobf.js, line 196719.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/FurniProductContainer.as
+// Obfuscated name: _ic1fe91acd85cf9
 
 class extends I0 {
   constructor(r, t, i, s) {

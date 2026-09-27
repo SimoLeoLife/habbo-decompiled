@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 246571.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/messenger/MainView.as
-// Nome offuscato: _ic5ff0108d6ce3d
+// Extracted from HabboAirLauncher.deobf.js, line 246571.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/messenger/MainView.as
+// Obfuscated name: _ic5ff0108d6ce3d
 
 class a {
   constructor(e) {
@@ -197,8 +197,8 @@ class a {
       if (this._r92424657a18b86.has(o.messageId)) continue;
       let d = o.senderId | 0;
       i.push(
-        new _i24f5eb0f99123f(
-          d === t ? _i24f5eb0f99123f._ra5a0fb67f250a1 : _i24f5eb0f99123f._rb11fd70417dcc4,
+        new UnkClass_24f5eb(
+          d === t ? UnkClass_24f5eb._ra5a0fb67f250a1 : UnkClass_24f5eb._rb11fd70417dcc4,
           e,
           this._r8bce5dc2d2071b(o.messageType, o.message, o.habbiconId),
           o._r672f7777815dd8,
@@ -218,11 +218,11 @@ class a {
   _r64e450f8ad70fb(e, r) {
     if (r === "" || this._messenger == null) return;
     let t = this.var_1727++;
-    this._messenger.send(new _i50dadeb8467fa3(this._r90e8f4039357b6, r, t));
+    this._messenger.send(new UnkMessageComposer_3args_50dade(this._r90e8f4039357b6, r, t));
     let i = e.widget;
     i != null && (i.message = "");
     let s = this._r4ae6066593aa2e.get(this._r90e8f4039357b6) ?? [];
-    ((s.length === 0 || (s.length === 1 && s[0]?.type === _i24f5eb0f99123f._r0b67f3f4892a4a)) &&
+    ((s.length === 0 || (s.length === 1 && s[0]?.type === UnkClass_24f5eb._r0b67f3f4892a4a)) &&
       this._messenger._rbfd2dc01eae8da(),
       this._r80120980bee624(
         this._r90e8f4039357b6,
@@ -280,10 +280,10 @@ class a {
   }
   _r80120980bee624(e, r, t, i, s, o, d, c = "", f = 0) {
     if (t) {
-      this._r62c17d7b0523b8(e, new _i24f5eb0f99123f(_i24f5eb0f99123f._rb11fd70417dcc4, e, r, i, s, o, d, c), !0);
+      this._r62c17d7b0523b8(e, new UnkClass_24f5eb(UnkClass_24f5eb._rb11fd70417dcc4, e, r, i, s, o, d, c), !0);
       return;
     }
-    let l = new _i24f5eb0f99123f(_i24f5eb0f99123f._ra5a0fb67f250a1, e, r, i, s, o, d, c, f);
+    let l = new UnkClass_24f5eb(UnkClass_24f5eb._ra5a0fb67f250a1, e, r, i, s, o, d, c, f);
     (f > 0 && this._re7a7fa95338c5a.set(f, l), this._r62c17d7b0523b8(e, l));
   }
   _r0c0259ad99efd4(e, r, t) {
@@ -305,13 +305,13 @@ class a {
     this._re7a7fa95338c5a.delete(t);
   }
   _r47662a2cdaaad2(e, r) {
-    this._r62c17d7b0523b8(e, new _i24f5eb0f99123f(_i24f5eb0f99123f._r0b67f3f4892a4a, 0, no.text(r), 0));
+    this._r62c17d7b0523b8(e, new UnkClass_24f5eb(UnkClass_24f5eb._r0b67f3f4892a4a, 0, no.text(r), 0));
   }
   _r4917cff436e46d(e, r, t = !1) {
-    this._r62c17d7b0523b8(e, new _i24f5eb0f99123f(_i24f5eb0f99123f._r09781670a88dc4, 0, no.text(r), 0), t);
+    this._r62c17d7b0523b8(e, new UnkClass_24f5eb(UnkClass_24f5eb._r09781670a88dc4, 0, no.text(r), 0), t);
   }
   _r08444b91424bf1(e, r, t = !1) {
-    this._r62c17d7b0523b8(e, new _i24f5eb0f99123f(_i24f5eb0f99123f._r50e18e0efc3142, 0, no.text(r), 0), t);
+    this._r62c17d7b0523b8(e, new UnkClass_24f5eb(UnkClass_24f5eb._r50e18e0efc3142, 0, no.text(r), 0), t);
   }
   _r62c17d7b0523b8(e, r, t = !1) {
     if (this._messenger == null) return;
@@ -320,7 +320,7 @@ class a {
       this._r92424657a18b86.set(r.messageId, !0);
     }
     if (!this._r4ae6066593aa2e.has(e))
-      if (e > 0) this.startConversation(e, !1, r.type === _i24f5eb0f99123f._rb11fd70417dcc4 ? r : null);
+      if (e > 0) this.startConversation(e, !1, r.type === UnkClass_24f5eb._rb11fd70417dcc4 ? r : null);
       else return;
     let i = this._r4ae6066593aa2e.get(e);
     if (i == null) return;
@@ -340,19 +340,19 @@ class a {
     if (e > 0)
       return (
         r.type === t.type &&
-        (r.type === _i24f5eb0f99123f._ra5a0fb67f250a1 || r.type === _i24f5eb0f99123f._rb11fd70417dcc4) &&
+        (r.type === UnkClass_24f5eb._ra5a0fb67f250a1 || r.type === UnkClass_24f5eb._rb11fd70417dcc4) &&
         r._r8d58063461d151() < t._r8d58063461d151() + a._r33838dc7cb2c82
       );
-    let i = r.type === _i24f5eb0f99123f._rb11fd70417dcc4 && t.senderId === r.senderId;
+    let i = r.type === UnkClass_24f5eb._rb11fd70417dcc4 && t.senderId === r.senderId;
     return (
       r.type === t.type &&
-      (r.type === _i24f5eb0f99123f._ra5a0fb67f250a1 || i) &&
+      (r.type === UnkClass_24f5eb._ra5a0fb67f250a1 || i) &&
       r._r8d58063461d151() < t._r8d58063461d151() + a._r33838dc7cb2c82
     );
   }
   _rca42691fc43aab(e, r = !1) {
     switch (e.type) {
-      case _i24f5eb0f99123f._r09781670a88dc4: {
+      case UnkClass_24f5eb._r09781670a88dc4: {
         let t = this._ra099a987cb915f?.clone(),
           i = t?.findChildByName("content");
         return (
@@ -363,23 +363,23 @@ class a {
           t
         );
       }
-      case _i24f5eb0f99123f._r0b67f3f4892a4a:
-      case _i24f5eb0f99123f._r50e18e0efc3142: {
-        let i = (e.type === _i24f5eb0f99123f._r0b67f3f4892a4a ? this._r5a0296f27d6b3c : this._r63839e1cddcce4)?.clone(),
+      case UnkClass_24f5eb._r0b67f3f4892a4a:
+      case UnkClass_24f5eb._r50e18e0efc3142: {
+        let i = (e.type === UnkClass_24f5eb._r0b67f3f4892a4a ? this._r5a0296f27d6b3c : this._r63839e1cddcce4)?.clone(),
           s = i?.findChildByName("content");
         return (
           s != null && ((s.width = this._rcf8a9ba98c0413 - a.NOTIFICATION_ICON_WIDTH), (s.caption = e.messageText)),
           i
         );
       }
-      case _i24f5eb0f99123f._rb11fd70417dcc4:
-      case _i24f5eb0f99123f._ra5a0fb67f250a1: {
+      case UnkClass_24f5eb._rb11fd70417dcc4:
+      case UnkClass_24f5eb._ra5a0fb67f250a1: {
         let t = this._rd1a97c939c8851?.clone();
         if (t == null) return null;
         t.width = this._rcf8a9ba98c0413;
         let i = t.widget;
         if (i == null) return t;
-        if (e.type === _i24f5eb0f99123f._rb11fd70417dcc4)
+        if (e.type === UnkClass_24f5eb._rb11fd70417dcc4)
           ((i.flipped = !0),
             i.appendMessage(e.message),
             (i.timeStamp = e._r8d58063461d151()),
@@ -435,7 +435,7 @@ class a {
       i = _ia411d8d8194a3a(),
       s = this._r0a085a45eff8e3.get(e);
     (s != null && s.messageId === t && s.time + a.const_482 > i) ||
-      (this._r0a085a45eff8e3.set(e, { messageId: t, time: i }), this._messenger?.send(new _i7654b6ff1d4042(e, t)));
+      (this._r0a085a45eff8e3.set(e, { messageId: t, time: i }), this._messenger?.send(new UnkMessageComposer_2args_7654b6(e, t)));
   }
   _r6991a4eae77cf6() {
     ((this._r9fd37cc267009a = !0),
@@ -593,14 +593,14 @@ class a {
                 this._messenger?.send(new class_2154("Navigation", "IM", "go.im")))
               : this._r90e8f4039357b6 < 0 &&
                 (this._messenger != null && (this._messenger.followingToGroupRoom = !0),
-                this._messenger?.send(new _i494540f04bf21d(Math.abs(this._r90e8f4039357b6), !1)));
+                this._messenger?.send(new class_1949(Math.abs(this._r90e8f4039357b6), !1)));
             break;
           case "profile_button":
             this._r90e8f4039357b6 > 0
               ? (this._messenger?.send(new class_2134(this._r90e8f4039357b6)),
                 this._messenger?.trackGoogle("extendedProfile", "messenger_conversation"))
               : this._r90e8f4039357b6 < 0 &&
-                (this._messenger?.send(new _i494540f04bf21d(Math.abs(this._r90e8f4039357b6), !0)),
+                (this._messenger?.send(new class_1949(Math.abs(this._r90e8f4039357b6), !0)),
                 this._messenger?.trackGoogle("extendedProfile", "messenger_conversation"));
             break;
           case "report_button":
@@ -668,9 +668,9 @@ class a {
   _r1897b8469d192f = n((e, r) => {
     if (this._r90e8f4039357b6 === a._r43944bcc97b6ea || e <= 0 || this._messenger == null) return;
     let t = this.var_1727++;
-    this._messenger.send(new _ib8c93bf3254201(this._r90e8f4039357b6, e, t));
+    this._messenger.send(new UnkMessageComposer_3args_b8c93b(this._r90e8f4039357b6, e, t));
     let i = this._r4ae6066593aa2e.get(this._r90e8f4039357b6) ?? [];
-    ((i.length === 0 || (i.length === 1 && i[0]?.type === _i24f5eb0f99123f._r0b67f3f4892a4a)) &&
+    ((i.length === 0 || (i.length === 1 && i[0]?.type === UnkClass_24f5eb._r0b67f3f4892a4a)) &&
       this._messenger._rbfd2dc01eae8da(),
       this._r80120980bee624(
         this._r90e8f4039357b6,

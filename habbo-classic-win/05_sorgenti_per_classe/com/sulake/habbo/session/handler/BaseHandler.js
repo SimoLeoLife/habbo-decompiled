@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 302227.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/handler/BaseHandler.as
-// Nome offuscato: _ib5b587c5c8d999
+// Extracted from HabboAirLauncher.deobf.js, line 302227.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/handler/BaseHandler.as
+// Obfuscated name: _ib5b587c5c8d999
 
 class {
   static {

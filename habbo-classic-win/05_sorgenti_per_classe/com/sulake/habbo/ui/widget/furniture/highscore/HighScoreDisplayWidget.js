@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 317696.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/highscore/HighScoreDisplayWidget.as
-// Nome offuscato: _i816d1c5f1eb067
+// Extracted from HabboAirLauncher.deobf.js, line 317696.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/highscore/HighScoreDisplayWidget.as
+// Obfuscated name: _i816d1c5f1eb067
 
 class a extends RoomWidgetBase {
   static {

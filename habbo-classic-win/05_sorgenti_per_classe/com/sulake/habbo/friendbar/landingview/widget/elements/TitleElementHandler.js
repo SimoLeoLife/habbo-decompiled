@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 207572.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/elements/TitleElementHandler.as
-// Nome offuscato: _ia456f77227c0bd
+// Extracted from HabboAirLauncher.deobf.js, line 207572.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/elements/TitleElementHandler.as
+// Obfuscated name: _ia456f77227c0bd
 
 class {
   static {

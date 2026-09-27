@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 254701.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/CategoryListCtrl.as
-// Nome offuscato: _id99151c551e279
+// Extracted from HabboAirLauncher.deobf.js, line 254701.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/CategoryListCtrl.as
+// Obfuscated name: _id99151c551e279
 
 class a {
   constructor(e) {

@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 287841.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/bar/ThermometerHealthPointsRenderer.as
+// Extracted from HabboAirLauncher.deobf.js, line 287841.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/bar/ThermometerHealthPointsRenderer.as
 
 class a extends hb {
   static {
@@ -101,7 +101,7 @@ class a extends hb {
       this._rf4c37706bc9118(s, r, t),
       this._r4baf04dd6d58e0(o, r, t),
       this._r30305455895b8a(d, r, t),
-      new _i011e37bea19c9d(
+      new UnkClass_011e37(
         { backgroundPrebake: i, barPrebake: s, darkeningPrebake: o, layout: t, splittersPrebake: d },
         () => {
           (i.dispose(), s.dispose(), o.dispose(), d.dispose());

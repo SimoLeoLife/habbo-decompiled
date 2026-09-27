@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 150728.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/events/HabboInventoryHabboClubEvent.as
-// Nome offuscato: _i104ed259dbb969
+// Extracted from HabboAirLauncher.deobf.js, line 150728.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/events/HabboInventoryHabboClubEvent.as
+// Obfuscated name: _i104ed259dbb969
 
 class extends M {
   static {

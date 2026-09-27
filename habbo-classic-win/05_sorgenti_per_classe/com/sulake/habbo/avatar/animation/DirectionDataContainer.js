@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 169317.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/animation/DirectionDataContainer.as
-// Nome offuscato: _ib52d59b932d209
+// Extracted from HabboAirLauncher.deobf.js, line 169317.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/animation/DirectionDataContainer.as
+// Obfuscated name: _ib52d59b932d209
 
 class {
   static {

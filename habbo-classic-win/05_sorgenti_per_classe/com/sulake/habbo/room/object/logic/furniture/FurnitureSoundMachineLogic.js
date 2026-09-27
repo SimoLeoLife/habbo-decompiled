@@ -1,8 +1,8 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 300802.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureSoundMachineLogic.as
-// Nome offuscato: _i3267fa15a4e78d
+// Extracted from HabboAirLauncher.deobf.js, line 300802.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureSoundMachineLogic.as
+// Obfuscated name: _i3267fa15a4e78d
 
-class extends _ieead78a21202a2 {
+class extends UnkClass_eead78 {
   static {
     n(this, "FurnitureSoundMachineLogic");
   }
@@ -25,7 +25,7 @@ class extends _ieead78a21202a2 {
       (super.processUpdateMessage(e),
       this.object == null ||
         this.object.getModelController()._ra3dc9a405b5c73(RoomObjectVariableEnum.const_420) !== 1 ||
-        (this.var_217 || this._rbc6c6d54772e95(), !(e instanceof _i39f7ecd6ab9902)))
+        (this.var_217 || this._rbc6c6d54772e95(), !(e instanceof UnkRoomObjectUpdateMessageSubclass_39f7ec)))
     )
       return;
     let r = this.object.getState(0);

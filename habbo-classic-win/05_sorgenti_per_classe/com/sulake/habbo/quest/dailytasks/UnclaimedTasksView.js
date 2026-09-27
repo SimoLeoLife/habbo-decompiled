@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 265659.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/dailytasks/UnclaimedTasksView.as
-// Nome offuscato: _i523ef231f0415f
+// Extracted from HabboAirLauncher.deobf.js, line 265659.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/dailytasks/UnclaimedTasksView.as
+// Obfuscated name: _i523ef231f0415f
 
 class {
   constructor(e, r) {

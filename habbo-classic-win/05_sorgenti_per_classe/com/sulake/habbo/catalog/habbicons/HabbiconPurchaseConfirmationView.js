@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 179581.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconPurchaseConfirmationView.as
-// Nome offuscato: _i41862e398fb81e
+// Extracted from HabboAirLauncher.deobf.js, line 179581.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconPurchaseConfirmationView.as
+// Obfuscated name: _i41862e398fb81e
 
 class a {
   constructor(e, r) {
@@ -54,7 +54,7 @@ class a {
     (this.var_512 != null &&
       (this.var_512.stop(),
       this.var_512.removeEventListener(DeBouncer._rf33144eac61595, this._rb5487cd997da9f)),
-      (this.var_512 = new _i05394ecc0c0c4d(a.RETRY_ENABLE_DELAY_MS, 1)),
+      (this.var_512 = new UnkEventDispatcherWrapperSubclass_05394e(a.RETRY_ENABLE_DELAY_MS, 1)),
       this.var_512.addEventListener(DeBouncer._rf33144eac61595, this._rb5487cd997da9f),
       this.var_512.start());
   }

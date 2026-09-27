@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 330636.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/FurnitureRoomLinkHandler.as
-// Nome offuscato: _ic55260dbbeb5f1
+// Extracted from HabboAirLauncher.deobf.js, line 330636.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/FurnitureRoomLinkHandler.as
+// Obfuscated name: _ic55260dbbeb5f1
 
 class a {
   static {

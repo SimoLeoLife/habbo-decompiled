@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 159502.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionPollEvent.as
-// Nome offuscato: _i2f86606dba7d59
+// Extracted from HabboAirLauncher.deobf.js, line 159502.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionPollEvent.as
+// Obfuscated name: _i2f86606dba7d59
 
 class extends RoomSessionEvent {
   constructor(r, t, i) {

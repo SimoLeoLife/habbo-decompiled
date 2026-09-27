@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 260371.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/view/search/results/RoomEntryElementFactory.as
-// Nome offuscato: _ic909d72f5f75ce
+// Extracted from HabboAirLauncher.deobf.js, line 260371.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/view/search/results/RoomEntryElementFactory.as
+// Obfuscated name: _ic909d72f5f75ce
 
 class {
   static {
@@ -80,7 +80,7 @@ class {
       (d.id = r.flatId),
       d.addEventListener(u.CLICK, this._ra15d96930b149e(this._r2b55688a30d438.bind(this))),
       d.addEventListener(u.OVER, this._ra15d96930b149e(this._rf9a0326c053a65.bind(this))),
-      (this._r2d49dcb9e13606(e, "room_info_usercount_border").color = _ibbd7d859e63c97._rccac1f9055f4ea(
+      (this._r2d49dcb9e13606(e, "room_info_usercount_border").color = UnkClass_bbd7d8._rccac1f9055f4ea(
         r.userCount,
         r._ra66356507ed6a4,
       )),

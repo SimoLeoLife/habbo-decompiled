@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 218209.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/Tile.as
-// Nome offuscato: _i468b5ff7ac08d9
+// Extracted from HabboAirLauncher.deobf.js, line 218209.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/Tile.as
+// Obfuscated name: _i468b5ff7ac08d9
 
 class a extends AbstractAStarNode {
   static {

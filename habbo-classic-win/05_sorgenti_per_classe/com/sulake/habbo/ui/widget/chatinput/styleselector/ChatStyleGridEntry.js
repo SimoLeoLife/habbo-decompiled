@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 310304.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chatinput/styleselector/ChatStyleGridEntry.as
-// Nome offuscato: _i90d8dda96b4ee3
+// Extracted from HabboAirLauncher.deobf.js, line 310304.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chatinput/styleselector/ChatStyleGridEntry.as
+// Obfuscated name: _i90d8dda96b4ee3
 
 class {
   constructor(e, r) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 243964.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/wired_trading/requirements/WiredTradeRequirementsView.as
-// Nome offuscato: _ic26873ce75a80d
+// Extracted from HabboAirLauncher.deobf.js, line 243964.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/wired_trading/requirements/WiredTradeRequirementsView.as
+// Obfuscated name: _ic26873ce75a80d
 
 class a {
   constructor(e) {
@@ -254,7 +254,7 @@ class a {
       (e.blend = 0),
       this._transitionTimer != null
         ? this._transitionTimer.reset()
-        : ((this._transitionTimer = new _i05394ecc0c0c4d(t, i)),
+        : ((this._transitionTimer = new UnkEventDispatcherWrapperSubclass_05394e(t, i)),
           this._transitionTimer.addEventListener(DeBouncer.addEventListener, this._r3e4619ebf51059),
           this._transitionTimer.addEventListener(DeBouncer._rf33144eac61595, this._r732fd02dded7b6)),
       this._transitionTimer.start());

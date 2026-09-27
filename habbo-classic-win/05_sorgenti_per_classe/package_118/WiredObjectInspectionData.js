@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 108870.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_118/WiredObjectInspectionData.as
-// Nome offuscato: _id182275584a7f2
+// Extracted from HabboAirLauncher.deobf.js, line 108870.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_118/WiredObjectInspectionData.as
+// Obfuscated name: _id182275584a7f2
 
 class a {
     static {

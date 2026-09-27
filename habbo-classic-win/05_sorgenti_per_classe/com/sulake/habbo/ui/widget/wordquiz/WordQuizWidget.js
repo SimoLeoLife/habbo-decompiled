@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 327114.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/wordquiz/WordQuizWidget.as
-// Nome offuscato: _i72c36f26e55b6a
+// Extracted from HabboAirLauncher.deobf.js, line 327114.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/wordquiz/WordQuizWidget.as
+// Obfuscated name: _i72c36f26e55b6a
 
 class a extends RoomWidgetBase {
   static {
@@ -40,16 +40,16 @@ class a extends RoomWidgetBase {
   }
   registerUpdateEvents(e) {
     e != null &&
-      (e.addEventListener?.(_idd32139e158d6b._rc081ce8a57e812, this._re48c6da7d6cd7a),
-      e.addEventListener?.(_idd32139e158d6b._r18420565440e28, this._r00baf39daa5f3d),
-      e.addEventListener?.(_idd32139e158d6b.FINISHED, this._r0674af92a131ef),
+      (e.addEventListener?.(UnkRoomWidgetUpdateEventSubclass_dd3213._rc081ce8a57e812, this._re48c6da7d6cd7a),
+      e.addEventListener?.(UnkRoomWidgetUpdateEventSubclass_dd3213._r18420565440e28, this._r00baf39daa5f3d),
+      e.addEventListener?.(UnkRoomWidgetUpdateEventSubclass_dd3213.FINISHED, this._r0674af92a131ef),
       super.registerUpdateEvents(e));
   }
   unregisterUpdateEvents(e) {
     e != null &&
-      (e.removeEventListener?.(_idd32139e158d6b._rc081ce8a57e812, this._re48c6da7d6cd7a),
-      e.removeEventListener?.(_idd32139e158d6b._r18420565440e28, this._r00baf39daa5f3d),
-      e.removeEventListener?.(_idd32139e158d6b.FINISHED, this._r0674af92a131ef),
+      (e.removeEventListener?.(UnkRoomWidgetUpdateEventSubclass_dd3213._rc081ce8a57e812, this._re48c6da7d6cd7a),
+      e.removeEventListener?.(UnkRoomWidgetUpdateEventSubclass_dd3213._r18420565440e28, this._r00baf39daa5f3d),
+      e.removeEventListener?.(UnkRoomWidgetUpdateEventSubclass_dd3213.FINISHED, this._r0674af92a131ef),
       super.unregisterUpdateEvents(e));
   }
   dispose() {
@@ -111,7 +111,7 @@ class a extends RoomWidgetBase {
     let c = this._r284a648384c334(r);
     (c != null && ((d.x = c.left + 20), (d.y = c.top - 20)),
       this._ra78b47cb8be4c4 == null &&
-        ((this._ra78b47cb8be4c4 = new _i05394ecc0c0c4d(a.UPDATE_FREQUENCY)),
+        ((this._ra78b47cb8be4c4 = new UnkEventDispatcherWrapperSubclass_05394e(a.UPDATE_FREQUENCY)),
         this._ra78b47cb8be4c4.addEventListener(DeBouncer.addEventListener, this._rce32ab2d981feb),
         this._ra78b47cb8be4c4.start()));
     let f = d.getChildByName("colored");
@@ -180,11 +180,11 @@ class a extends RoomWidgetBase {
       (this._view?.createWindow(TX._rbb850c7d21b06e, String(e.content ?? "")),
       (this._countdown = 4),
       r > 0 &&
-        ((this.var_432 = new _i05394ecc0c0c4d(1e3)),
+        ((this.var_432 = new UnkEventDispatcherWrapperSubclass_05394e(1e3)),
         (this._countdown = Math.floor(r / 1e3)),
         this.var_432.addEventListener(DeBouncer.addEventListener, this._r547af5cf81c686),
         this.var_432.start(),
-        (this._ra78b47cb8be4c4 = new _i05394ecc0c0c4d(a.UPDATE_FREQUENCY)),
+        (this._ra78b47cb8be4c4 = new UnkEventDispatcherWrapperSubclass_05394e(a.UPDATE_FREQUENCY)),
         this._ra78b47cb8be4c4.addEventListener(DeBouncer.addEventListener, this._rce32ab2d981feb),
         this._ra78b47cb8be4c4.start(),
         this._view?.updateCounter(String(this._countdown))));

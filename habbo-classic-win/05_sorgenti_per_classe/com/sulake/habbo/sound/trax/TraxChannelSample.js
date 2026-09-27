@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 338728.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/trax/TraxChannelSample.as
-// Nome offuscato: _ia62f79decb5f48
+// Extracted from HabboAirLauncher.deobf.js, line 338728.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/trax/TraxChannelSample.as
+// Obfuscated name: _ia62f79decb5f48
 
 class {
   constructor(e, r) {

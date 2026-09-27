@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 171377.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/structure/AvatarStructureDownload.as
-// Nome offuscato: _i0ea2873ff2489e
+// Extracted from HabboAirLauncher.deobf.js, line 171377.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/structure/AvatarStructureDownload.as
+// Obfuscated name: _i0ea2873ff2489e
 
 class a extends Ft {
   static {
@@ -10,7 +10,7 @@ class a extends Ft {
   _r7a016ae4b40385;
   constructor(e, r, t) {
     (super(), (this._r7a016ae4b40385 = t));
-    let i = e.loadAssetFromFile(r, new _i636490202c0f9a(r), "text/plain");
+    let i = e.loadAssetFromFile(r, new UnkClass_636490(r), "text/plain");
     (i.addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._rbdde361f4b8af4),
       i.addEventListener(Le.ASSET_LOADER_EVENT_ERROR, this._r0d4746527356fc));
   }

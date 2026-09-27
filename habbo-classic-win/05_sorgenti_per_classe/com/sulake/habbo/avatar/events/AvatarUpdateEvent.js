@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158407.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/events/AvatarUpdateEvent.as
-// Nome offuscato: _ic225682705604e
+// Extracted from HabboAirLauncher.deobf.js, line 158407.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/events/AvatarUpdateEvent.as
+// Obfuscated name: _ic225682705604e
 
 class a extends M {
   static {

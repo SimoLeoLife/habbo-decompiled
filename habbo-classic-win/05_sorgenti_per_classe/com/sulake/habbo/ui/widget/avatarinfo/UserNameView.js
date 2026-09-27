@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 309258.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/UserNameView.as
-// Nome offuscato: _iaca8ba9a335502
+// Extracted from HabboAirLauncher.deobf.js, line 309258.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/UserNameView.as
+// Obfuscated name: _iaca8ba9a335502
 
 class a extends AvatarContextInfoView {
   static {

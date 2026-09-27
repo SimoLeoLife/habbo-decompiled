@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 54283.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/structure/animation/AnimationActionPart.as
+// Extracted from HabboAirLauncher.deobf.js, line 54283.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/structure/animation/AnimationActionPart.as
 
 class extends Wv {
   static {

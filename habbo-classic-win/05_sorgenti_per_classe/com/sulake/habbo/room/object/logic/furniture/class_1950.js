@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 300661.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/class_1950.as
-// Nome offuscato: _i2094e5e2955149
+// Extracted from HabboAirLauncher.deobf.js, line 300661.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/class_1950.as
+// Obfuscated name: _i2094e5e2955149
 
 class a extends Qr {
   static {
@@ -12,7 +12,7 @@ class a extends Qr {
   _lastUpdate = 0;
   _r433cb8869b77b1 = a.UPDATE_INTERVAL;
   processUpdateMessage(e) {
-    let r = e instanceof _i39f7ecd6ab9902 ? e : null;
+    let r = e instanceof UnkRoomObjectUpdateMessageSubclass_39f7ec ? e : null;
     if (r != null) {
       this._r3a65fb33b0319a(r.state);
       return;

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 159061.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionChatEvent.as
-// Nome offuscato: _i2ba5a6e5c8c678
+// Extracted from HabboAirLauncher.deobf.js, line 159061.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionChatEvent.as
+// Obfuscated name: _i2ba5a6e5c8c678
 
 class a extends RoomSessionEvent {
   constructor(r, t, i, s, o = a.CHAT_TYPE_SPEAK, d = 0, c = null, f = -1, l = at.const_1293) {

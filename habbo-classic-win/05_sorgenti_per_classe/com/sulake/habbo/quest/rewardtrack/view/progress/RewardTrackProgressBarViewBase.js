@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 266505.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/progress/RewardTrackProgressBarViewBase.as
-// Nome offuscato: _i7223902fc9f378
+// Extracted from HabboAirLauncher.deobf.js, line 266505.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/progress/RewardTrackProgressBarViewBase.as
+// Obfuscated name: _i7223902fc9f378
 
 class a {
   constructor(e, r = !1) {

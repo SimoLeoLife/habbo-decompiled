@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 148589.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/CountdownWidget.as
-// Nome offuscato: _i91e7df017c9907
+// Extracted from HabboAirLauncher.deobf.js, line 148589.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/CountdownWidget.as
+// Obfuscated name: _i91e7df017c9907
 
 class a {
   constructor(e, r) {

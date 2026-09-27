@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 162407.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/ToolbarDisplayExtensionIds.as
-// Nome offuscato: _ibd303bd75190c6
+// Extracted from HabboAirLauncher.deobf.js, line 162407.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/ToolbarDisplayExtensionIds.as
+// Obfuscated name: _ibd303bd75190c6
 
 class {
   static {

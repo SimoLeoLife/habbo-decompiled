@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 282774.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/rasterizer/basic/PlaneMaterialCellMatrix.as
-// Nome offuscato: _i8599bf34b0dac1
+// Extracted from HabboAirLauncher.deobf.js, line 282774.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/rasterizer/basic/PlaneMaterialCellMatrix.as
+// Obfuscated name: _i8599bf34b0dac1
 
 class a {
   constructor(

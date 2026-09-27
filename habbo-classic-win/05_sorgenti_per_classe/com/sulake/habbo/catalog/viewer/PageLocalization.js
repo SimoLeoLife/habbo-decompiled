@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 190034.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/PageLocalization.as
-// Nome offuscato: _ic2efb71277bc3c
+// Extracted from HabboAirLauncher.deobf.js, line 190034.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/PageLocalization.as
+// Obfuscated name: _ic2efb71277bc3c
 
 class a {
   constructor(e, r) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 84036.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_234/Game2GameDirectoryStatusMessageParser.as
-// Nome offuscato: _ib7d7c1bebc73bf
+// Extracted from HabboAirLauncher.deobf.js, line 84036.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_234/Game2GameDirectoryStatusMessageParser.as
+// Obfuscated name: _ib7d7c1bebc73bf
 
 class {
     static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 273237.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/avatar/additions/HabbiconBubble.as
-// Nome offuscato: _ib72d79d3bd953e
+// Extracted from HabboAirLauncher.deobf.js, line 273237.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/avatar/additions/HabbiconBubble.as
+// Obfuscated name: _ib72d79d3bd953e
 
 class a {
   constructor(e, r, t, i) {
@@ -404,7 +404,7 @@ class a {
     return (
       i.copyChannel(e, e.rect, new E(), On.ALPHA, On.ALPHA),
       t.copyPixels(i, i.rect, o, null, null, !0),
-      t.colorTransform(t.rect, new _i4210dc3239901d(1, 1, 1, this.BACKGROUND_SHADOW_ALPHA)),
+      t.colorTransform(t.rect, new UnkClass_4210dc(1, 1, 1, this.BACKGROUND_SHADOW_ALPHA)),
       r.applyFilter(t, t.rect, new E(), s),
       i.dispose(),
       t.dispose(),
@@ -418,7 +418,7 @@ class a {
       return;
     }
     let o = new Pe();
-    (o.translate(t, i), e.draw(r, o, new _i4210dc3239901d(1, 1, 1, s / 255)));
+    (o.translate(t, i), e.draw(r, o, new UnkClass_4210dc(1, 1, 1, s / 255)));
   }
   seededColor(e) {
     switch (e % 6) {

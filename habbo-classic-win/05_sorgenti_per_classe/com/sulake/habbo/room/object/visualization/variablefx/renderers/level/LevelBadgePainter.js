@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 288471.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/level/LevelBadgePainter.as
-// Nome offuscato: _i67b765ce4118ce
+// Extracted from HabboAirLauncher.deobf.js, line 288471.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/level/LevelBadgePainter.as
+// Obfuscated name: _i67b765ce4118ce
 
 class a {
   static {

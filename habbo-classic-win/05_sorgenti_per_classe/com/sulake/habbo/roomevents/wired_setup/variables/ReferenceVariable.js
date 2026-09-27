@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 370227.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/variables/ReferenceVariable.as
-// Nome offuscato: _ia42ceac54e120e
+// Extracted from HabboAirLauncher.deobf.js, line 370227.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/variables/ReferenceVariable.as
+// Obfuscated name: _ia42ceac54e120e
 
 class extends class_3947 {
   static {

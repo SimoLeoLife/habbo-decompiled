@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 221264.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/arena/class_2526.as
-// Nome offuscato: _icd3b336425aff8
+// Extracted from HabboAirLauncher.deobf.js, line 221264.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/arena/class_2526.as
+// Obfuscated name: _icd3b336425aff8
 
 class extends DefaultGameStage {
   static {
@@ -52,7 +52,7 @@ class extends DefaultGameStage {
     }
   }
   _r03ffaa5bb698f3(e) {
-    let r = _ieb99a8ffc41b78._r0080f43aacb4f3(e);
+    let r = UnkClass_eb99a8._r0080f43aacb4f3(e);
     for (let t of this.var_215.getValues()) {
       if (t._rba12f0325cedd5 && t instanceof _l) {
         t._ra453f655136d7a(e);

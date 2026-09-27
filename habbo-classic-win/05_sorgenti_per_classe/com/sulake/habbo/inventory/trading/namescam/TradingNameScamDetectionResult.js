@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 240077.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/trading/namescam/TradingNameScamDetectionResult.as
-// Nome offuscato: _i21eb7d755ced95
+// Extracted from HabboAirLauncher.deobf.js, line 240077.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/trading/namescam/TradingNameScamDetectionResult.as
+// Obfuscated name: _i21eb7d755ced95
 
 class a {
   static {

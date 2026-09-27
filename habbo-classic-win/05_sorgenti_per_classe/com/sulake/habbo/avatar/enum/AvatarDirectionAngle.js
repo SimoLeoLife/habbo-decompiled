@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 67366.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/enum/AvatarDirectionAngle.as
-// Nome offuscato: _i2d67d3b2b4de27
+// Extracted from HabboAirLauncher.deobf.js, line 67366.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/enum/AvatarDirectionAngle.as
+// Obfuscated name: _i2d67d3b2b4de27
 
 class {
   static {

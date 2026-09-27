@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 286009.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/bar/BarVariableFxRendererBase.as
-// Nome offuscato: _ica159a57a288c6
+// Extracted from HabboAirLauncher.deobf.js, line 286009.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/bar/BarVariableFxRendererBase.as
+// Obfuscated name: _ica159a57a288c6
 
 class a {
   constructor(e) {
@@ -11,7 +11,7 @@ class a {
   }
   static FILL_COLOR_TRANSITION_MS = 300;
   _fillColor = new swe(a.FILL_COLOR_TRANSITION_MS);
-  _frame = new _i5ec3143bd5c7df();
+  _frame = new UnkClass_5ec314();
   _initialized = !1;
   _r5467d5853bd2e6 = -1;
   value = -1;

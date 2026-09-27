@@ -1,5 +1,7 @@
 # Habbo Classic (Windows): decompilazione e deoffuscamento
 
+> Documentazione completa e aggiornata in inglese nel README alla radice del repository.
+
 Estratto il 27 settembre 2026 da `HabboClassicWin.zip`
 (SHA-256 `5fe2d203ec900f056bb65ecbd0ae8ffdff4d9bb7bf2fb95a858ead5be95b1696`).
 
@@ -31,7 +33,7 @@ L'offuscamento è diverso da quello di AIR:
 | `03_asset_hab/` | I 38 bundle `.hab` decodificati: 3.920 asset (2.813 PNG, 943 XML, 21 MP3, 9 TTF...) più l'indice `_index.json` di ciascuno. |
 | `04_sorgenti_js/` | Il bundle in tre stadi: `min` (originale), `pretty` (formattato), `deobf` (nomi recuperati). |
 | `05_sorgenti_per_classe/` | Un file per classe, collocato nel percorso del sorgente AS3 corrispondente. È il punto di partenza per leggere il client. |
-| `06_report/` | Mappa dei nomi, tabelle CSV di classi e membri, hash dei file originali. |
+| `06_report/` | Mappa dei nomi (`name_map.json`), CSV di classi e membri (`classes.csv`, `members.csv`), tabella del protocollo (`PROTOCOL.md`), hash dei file originali. |
 | `tools/` | Gli script usati, rieseguibili (`npm install` in `tools/` per le dipendenze). |
 
 ## Come è stata fatta
@@ -75,12 +77,12 @@ L'offuscamento è diverso da quello di AIR:
 | | Valore |
 |---|---|
 | Classi nel bundle | 5.222 (4.888 con nome hash, 334 in chiaro) |
-| Classi abbinate a un sorgente AIR 15 | 3.277 |
-| Nomi di classe hash sostituiti | 3.170 |
+| Classi abbinate a un sorgente AIR 15 | 3.335 |
+| Nomi di classe hash sostituiti | 3.228 con nome recuperato, 1.616 con nome segnaposto `Unk…` |
 | Hash di membro distinti | 27.326 |
-| Hash di membro risolti | 13.564 (9.585 con nome reale, 3.979 con l'etichetta FFDec `var_N`/`method_N`/`const_N` di AIR 15) |
-| Occorrenze di hash `_r` nel codice | da 196.763 a 75.144 (−62%) |
-| Eventi / parser / composer di rete abbinati | 348 su 609 / 338 su 579 / 120 su 586 |
+| Hash di membro risolti | 13.573 (9.586 con nome reale, 3.987 con l'etichetta FFDec `var_N`/`method_N`/`const_N` di AIR 15) |
+| Occorrenze di hash `_r` nel codice | da 196.763 a 75.112 (−62%) |
+| Eventi / parser / composer di rete abbinati | 347 su 602 / 334 su 572 / 183 su 580 |
 
 **Verifica di precisione.** Su 1.921 classi abbinate con almeno 3 membri risolti, 1.909
 hanno più della metà dei membri presenti con lo stesso nome nella classe AS3 (99,4%).
@@ -88,12 +90,12 @@ Il filtro automatico di `finalize.py` ha scartato 11 abbinamenti incoerenti; non
 
 ### Dove sono i file in `05_sorgenti_per_classe/`
 
-- `com/...`, `package_N/...`: 3.308 classi abbinate, allo stesso percorso di AIR 15
+- `com/...`, `package_N/...`: 3.366 classi abbinate, allo stesso percorso di AIR 15
   (quindi `package_N` e `class_N` sono le etichette FFDec di AIR 15, utili per il
   confronto diretto con quei sorgenti);
-- `_runtime_e_librerie/`: 225 classi con nome in chiaro non presenti in AS3 (Pixi.js e
+- `_runtime_and_libraries/`: 225 classi con nome in chiaro non presenti in AS3 (Pixi.js e
   lo strato che emula le API Flash: `BitmapData`, `Sprite`, `Air32NativeTextRenderer`...);
-- `_non_abbinate/`: 1.689 classi con nome hash senza corrispondenza. Sono soprattutto
+- `_unmatched/`: 1.631 classi senza corrispondenza, con nome segnaposto `Unk…` (vedi il README principale in inglese). Sono soprattutto
   composer di rete (molto piccoli e privi di tratti distintivi) e classi riscritte
   nel porting.
 

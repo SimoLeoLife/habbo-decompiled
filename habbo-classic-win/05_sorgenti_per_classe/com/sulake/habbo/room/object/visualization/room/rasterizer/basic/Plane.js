@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 282696.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/rasterizer/basic/Plane.as
-// Nome offuscato: _i9de2a0b833c85a
+// Extracted from HabboAirLauncher.deobf.js, line 282696.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/rasterizer/basic/Plane.as
+// Obfuscated name: _i9de2a0b833c85a
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 343820.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/offers/OfferExtension.as
-// Nome offuscato: _ia41927851e178c
+// Extracted from HabboAirLauncher.deobf.js, line 343820.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/offers/OfferExtension.as
+// Obfuscated name: _ia41927851e178c
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 209490.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/layout/backgroundobjects/RandomWalkMovingBackgroundObject.as
-// Nome offuscato: _iacd2ef4dfaf876
+// Extracted from HabboAirLauncher.deobf.js, line 209490.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/layout/backgroundobjects/RandomWalkMovingBackgroundObject.as
+// Obfuscated name: _iacd2ef4dfaf876
 
 class extends BackgroundObject {
   static {

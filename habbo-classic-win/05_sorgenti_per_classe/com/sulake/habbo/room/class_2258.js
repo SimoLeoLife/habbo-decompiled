@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 290506.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/class_2258.as
-// Nome offuscato: _i74ecb5612bff51
+// Extracted from HabboAirLauncher.deobf.js, line 290506.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/class_2258.as
+// Obfuscated name: _i74ecb5612bff51
 
 class a {
   constructor(e) {
@@ -391,7 +391,7 @@ class a {
     if (this.var_1279 == null || o.length === 0) return !1;
     for (let d of o)
       this.var_1279
-        .loadAssetFromFile([r, t].join("_"), new _i636490202c0f9a(d), "image/png", e)
+        .loadAssetFromFile([r, t].join("_"), new UnkClass_636490(d), "image/png", e)
         .addEventListener?.(Le.ASSET_LOADER_EVENT_COMPLETE, this._r46a97efc77ddaf);
     return !0;
   }
@@ -412,7 +412,7 @@ class a {
       let d = new Bl();
       (i.loadFromFile(d, !0),
         d.addEventListener?.(ht.LIBRARY_LOADER_EVENT_ERROR, this._r441f094831fd6c),
-        d.load(new _i636490202c0f9a(o)));
+        d.load(new UnkClass_636490(o)));
     }
     return !0;
   }
@@ -429,7 +429,7 @@ class a {
   }, "_r441f094831fd6c");
   _r46a97efc77ddaf = n((e) => {
     if (this.disposed || !(e instanceof M)) return;
-    if (e.target instanceof _i747e83453460e9) {
+    if (e.target instanceof UnkClass_747e83) {
       let t = e.target;
       this._re1a2ca83379c74?._r9bad3da3da4431(t._r7ea1029131e026.id, t.assetName, !0);
       return;

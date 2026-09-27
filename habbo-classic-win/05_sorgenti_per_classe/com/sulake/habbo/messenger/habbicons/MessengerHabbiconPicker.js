@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 246060.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/messenger/habbicons/MessengerHabbiconPicker.as
-// Nome offuscato: _i4bc10bc6fe4592
+// Extracted from HabboAirLauncher.deobf.js, line 246060.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/messenger/habbicons/MessengerHabbiconPicker.as
+// Obfuscated name: _i4bc10bc6fe4592
 
 class a {
   constructor(e, r, t, i, s) {
@@ -105,7 +105,7 @@ class a {
     return this._disposed;
   }
   _rb170ab7fd99dde = n((e) => {
-    let r = _ib619bfd98fe9f2.as({ value: e, _r35f8c7df03c28f: Mt });
+    let r = UnkClass_b619bf.as({ value: e, _r35f8c7df03c28f: Mt });
     if (r != null && r.habbiconId > 0 && !this._ra5e17c7134cfba && !this.var_449) {
       this.visible ? this._r27443434556d0f() : this._r983c31b7cedde8();
       return;
@@ -351,7 +351,7 @@ class a {
     let r = e._rf4d14ad73f880a;
     return r !== HabbiconState.const_101 && r !== HabbiconState.const_893
       ? null
-      : new _i0630dd238e5c3b(e.habbiconId, this.resolveEntryName(e.habbiconId), r === HabbiconState.const_893);
+      : new UnkClass_0630dd(e.habbiconId, this.resolveEntryName(e.habbiconId), r === HabbiconState.const_893);
   }
   resolveEntryName(e) {
     let r = Dr.getHabbiconNameKey(e);

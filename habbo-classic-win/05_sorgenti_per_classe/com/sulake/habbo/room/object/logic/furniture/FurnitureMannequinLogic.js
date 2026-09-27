@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 299987.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureMannequinLogic.as
-// Nome offuscato: _i73c3ea79070c14
+// Extracted from HabboAirLauncher.deobf.js, line 299987.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureMannequinLogic.as
+// Obfuscated name: _i73c3ea79070c14
 
 class a extends Qr {
   static {
@@ -14,7 +14,7 @@ class a extends Qr {
   }
   processUpdateMessage(e) {
     super.processUpdateMessage(e);
-    let r = e instanceof _i39f7ecd6ab9902 ? e : null;
+    let r = e instanceof UnkRoomObjectUpdateMessageSubclass_39f7ec ? e : null;
     r != null &&
       r.data != null &&
       this.object != null &&
@@ -22,7 +22,7 @@ class a extends Qr {
   }
   mouseEvent(e, r) {
     if (!(e == null || r == null || this.object == null)) {
-      if (e.type === _ifd7c1208e3417e.DOUBLE_CLICK) {
+      if (e.type === UnkClass_fd7c12.DOUBLE_CLICK) {
         this._rce2b5eb85a79e0();
         return;
       }

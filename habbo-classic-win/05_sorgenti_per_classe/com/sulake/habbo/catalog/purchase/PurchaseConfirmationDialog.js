@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 185092.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purchase/PurchaseConfirmationDialog.as
-// Nome offuscato: _i3ab0482f2fd256
+// Extracted from HabboAirLauncher.deobf.js, line 185092.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purchase/PurchaseConfirmationDialog.as
+// Obfuscated name: _i3ab0482f2fd256
 
 class a {
   constructor(e, r) {
@@ -133,7 +133,7 @@ class a {
     (e != null && (e.visible = !0),
       (this._r074e161940145d = 1),
       this.updateDots(),
-      (this.var_556 = new _i05394ecc0c0c4d(150)),
+      (this.var_556 = new UnkEventDispatcherWrapperSubclass_05394e(150)),
       this.var_556.addEventListener(DeBouncer.addEventListener, this._r1c2995b7d00c9f),
       this.var_556.start());
   }
@@ -230,7 +230,7 @@ class a {
     let d = this._window.findChildByName("nft_image"),
       c = d?.widget;
     if (e instanceof E1) {
-      c.productInfo = new _i959c13e9526cbb(e.productInfo);
+      c.productInfo = new UnkClass_959c13(e.productInfo);
       return;
     } else (d != null && (d.visible = !1), c?.clearPreviewer());
     if (this.getIconWrapper() == null) return;
@@ -566,7 +566,7 @@ class a {
                   this.var_1530,
                   this.var_1205,
                 ),
-                this._catalog.currentPage?.dispatchWidgetEvent(new _ic4d6c8d627ab4e(CatalogWidgetEventEnum.PURCHASE))));
+                this._catalog.currentPage?.dispatchWidgetEvent(new UnkClass_c4d6c8(CatalogWidgetEventEnum.PURCHASE))));
     }
   }, "onBuyButtonClick");
   _rc47b690d70e04d = n((e) => {

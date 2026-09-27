@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 199160.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/demo/class_2626.as
-// Nome offuscato: _ibccba20d9ef3fb
+// Extracted from HabboAirLauncher.deobf.js, line 199160.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/demo/class_2626.as
+// Obfuscated name: _ibccba20d9ef3fb
 
 class a extends Ft {
   constructor(r, t, i, s) {
@@ -89,9 +89,9 @@ class a extends Ft {
         (c.removeEventListener?.(M.CONNECT, _),
           c.removeEventListener?.(M.ComponentDependency, h),
           c.removeEventListener?.(M._r8922581ea8bc6e, p),
-          c.removeEventListener?.(_ie40b9435ae07b7._r49a1f77b743ca2, m),
-          c.removeEventListener?.(_i30cc549f9371ef._r5ff5ea8eb8799e, v),
-          c.removeEventListener?.(_i207e0270849f6a._rb9739f8a5177c3, w),
+          c.removeEventListener?.(UnkClass_e40b94._r49a1f77b743ca2, m),
+          c.removeEventListener?.(UnkErrorEventSubclass_30cc54._r5ff5ea8eb8799e, v),
+          c.removeEventListener?.(UnkErrorEventSubclass_207e02._rb9739f8a5177c3, w),
           this._rfd7ff6ff927040 === l && (this._rfd7ff6ff927040 = null),
           this._r01aecd3d7cc142 === c && (this._r01aecd3d7cc142 = null));
       }, "cleanup"),
@@ -119,9 +119,9 @@ class a extends Ft {
     (c.addEventListener(M.CONNECT, _),
       c.addEventListener(M.ComponentDependency, h),
       c.addEventListener(M._r8922581ea8bc6e, p),
-      c.addEventListener(_ie40b9435ae07b7._r49a1f77b743ca2, m),
-      c.addEventListener(_i30cc549f9371ef._r5ff5ea8eb8799e, v),
-      c.addEventListener(_i207e0270849f6a._rb9739f8a5177c3, w),
+      c.addEventListener(UnkClass_e40b94._r49a1f77b743ca2, m),
+      c.addEventListener(UnkErrorEventSubclass_30cc54._r5ff5ea8eb8799e, v),
+      c.addEventListener(UnkErrorEventSubclass_207e02._rb9739f8a5177c3, w),
       (this._rfd7ff6ff927040 = l),
       c.connect(s, d));
   }

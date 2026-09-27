@@ -1,0 +1,22 @@
+// Extracted from HabboAirLauncher.deobf.js, line 118455.
+// Placeholder name: no AIR 15 match was found, the original name is unknown.
+// Obfuscated name: _idf297adeaf6432
+
+class {
+    static {
+      n(this, "UnkMessageComposer_0args_df297a");
+    }
+    static {
+      Y3t(this, "UnkMessageComposer_0args_df297a");
+    }
+    _array = [];
+    getMessageArray() {
+      return this._array ?? [];
+    }
+    dispose() {
+      this._array = null;
+    }
+    get disposed() {
+      return !1;
+    }
+  }

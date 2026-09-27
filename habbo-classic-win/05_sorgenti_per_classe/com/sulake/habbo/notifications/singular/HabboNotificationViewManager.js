@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 263226.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/HabboNotificationViewManager.as
-// Nome offuscato: _ib45a26d490a227
+// Extracted from HabboAirLauncher.deobf.js, line 263226.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/HabboNotificationViewManager.as
+// Obfuscated name: _ib45a26d490a227
 
 class a {
   constructor(e, r, t, i, s, o) {

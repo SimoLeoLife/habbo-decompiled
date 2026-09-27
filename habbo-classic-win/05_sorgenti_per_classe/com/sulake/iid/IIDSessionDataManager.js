@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145338.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/iid/IIDSessionDataManager.as
-// Nome offuscato: _i2ab8ae7fbe3f31
+// Extracted from HabboAirLauncher.deobf.js, line 145338.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/iid/IIDSessionDataManager.as
+// Obfuscated name: _i2ab8ae7fbe3f31
 
 class {
   static {

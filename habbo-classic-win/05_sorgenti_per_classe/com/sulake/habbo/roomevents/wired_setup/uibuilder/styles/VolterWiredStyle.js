@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 369666.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/styles/VolterWiredStyle.as
-// Nome offuscato: _i5cfb5c3f07bc71
+// Extracted from HabboAirLauncher.deobf.js, line 369666.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/styles/VolterWiredStyle.as
+// Obfuscated name: _i5cfb5c3f07bc71
 
 class a extends WiredStyle {
   static {

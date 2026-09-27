@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 323794.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/memenu/soundsettings/MeMenuSoundSettingsView.as
-// Nome offuscato: _i885a2f84c1c472
+// Extracted from HabboAirLauncher.deobf.js, line 323794.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/memenu/soundsettings/MeMenuSoundSettingsView.as
+// Obfuscated name: _i885a2f84c1c472
 
 class {
   static {

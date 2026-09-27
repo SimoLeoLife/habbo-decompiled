@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 56077.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/assets/TextAsset.as
-// Nome offuscato: _i6b7266a02f3ed3
+// Extracted from HabboAirLauncher.deobf.js, line 56077.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/assets/TextAsset.as
+// Obfuscated name: _i6b7266a02f3ed3
 
 class a {
   constructor(e, r = null) {

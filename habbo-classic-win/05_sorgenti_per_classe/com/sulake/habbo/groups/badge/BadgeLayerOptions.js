@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 225874.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge/BadgeLayerOptions.as
-// Nome offuscato: _i47b3ac57e00bb8
+// Extracted from HabboAirLauncher.deobf.js, line 225874.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge/BadgeLayerOptions.as
+// Obfuscated name: _i47b3ac57e00bb8
 
 class a {
   static {

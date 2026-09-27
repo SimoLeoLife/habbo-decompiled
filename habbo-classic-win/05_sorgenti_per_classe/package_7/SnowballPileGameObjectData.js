@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 125931.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_7/SnowballPileGameObjectData.as
-// Nome offuscato: _i2a45a00da4a809
+// Extracted from HabboAirLauncher.deobf.js, line 125931.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_7/SnowballPileGameObjectData.as
+// Obfuscated name: _i2a45a00da4a809
 
 class a extends Xa {
     static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 339059.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/HabboSoundManagerFlash10.as
-// Nome offuscato: _i598ce0fe1eeee6
+// Extracted from HabboAirLauncher.deobf.js, line 339059.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/HabboSoundManagerFlash10.as
+// Obfuscated name: _i598ce0fe1eeee6
 
 class a extends ue {
   static {
@@ -221,7 +221,7 @@ class a extends ue {
       this._roomEngine.events.addEventListener?.(RoomEngineObjectPlaySoundEvent.PLAY_SOUND, this._r70479ca7d36762),
       this._roomEngine.events.addEventListener?.(RoomEngineObjectPlaySoundEvent.PLAY_SOUND_AT_PITCH, this._r70479ca7d36762),
       this.var_36.addMessageEvent(new class_2121(a.onSoundSettingsEvent(this._r87c087366306ff))),
-      this.var_36.send(new _if27b6c280bca60()));
+      this.var_36.send(new UnkMessageComposer_0args_f27b6c()));
   }
   _r0b47bc517df6d9(e) {
     this._r8976fb174e3935 = e;
@@ -237,7 +237,7 @@ class a extends ue {
   _r599b7cc2f03b01() {
     this.var_36 != null &&
       this.var_36.send(
-        new _i8c8542dd18e45a(
+        new UnkMessageComposer_3args_8c8542(
           Math.floor(this._ref047be92111d7 * 100),
           Math.floor(this._r70a2e859308b8c * 100),
           Math.floor(this._genericVolume * 100),

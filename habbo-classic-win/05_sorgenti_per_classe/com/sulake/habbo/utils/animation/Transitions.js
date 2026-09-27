@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 68977.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/animation/Transitions.as
-// Nome offuscato: _id2a264f92bac15
+// Extracted from HabboAirLauncher.deobf.js, line 68977.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/animation/Transitions.as
+// Obfuscated name: _id2a264f92bac15
 
 class a {
   static {

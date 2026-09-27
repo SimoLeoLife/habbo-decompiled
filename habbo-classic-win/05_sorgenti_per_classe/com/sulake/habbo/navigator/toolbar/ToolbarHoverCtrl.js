@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 258439.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/toolbar/ToolbarHoverCtrl.as
-// Nome offuscato: _i2623d462349c2d
+// Extracted from HabboAirLauncher.deobf.js, line 258439.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/toolbar/ToolbarHoverCtrl.as
+// Obfuscated name: _i2623d462349c2d
 
 class a {
   constructor(e) {
@@ -74,7 +74,7 @@ class a {
   }
   _r885e4ddc9d00ff() {
     if (this._r47808c1711e81e == null) {
-      ((this._r47808c1711e81e = new _i05394ecc0c0c4d(500, 1)),
+      ((this._r47808c1711e81e = new UnkEventDispatcherWrapperSubclass_05394e(500, 1)),
         this._r47808c1711e81e.addEventListener(DeBouncer._rf33144eac61595, this._red3043a24f00c2),
         this._r47808c1711e81e.start());
       return;
@@ -97,7 +97,7 @@ class a {
     (this._navigator?.showFavouriteRooms(), this._re0d292f8d798ae());
   }, "onFavouritesClick");
   onCreateRoomClick = n(() => {
-    (this._navigator?.send(new _i2d3a5a2748f7f4()), this._re0d292f8d798ae());
+    (this._navigator?.send(new UnkMessageComposer_0args_2d3a5a()), this._re0d292f8d798ae());
   }, "onCreateRoomClick");
   onHistoryClick = n(() => {
     (this._navigator?.showHistoryRooms(), this._re0d292f8d798ae());

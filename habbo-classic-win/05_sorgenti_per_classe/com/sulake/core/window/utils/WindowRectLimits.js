@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 128792.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/utils/WindowRectLimits.as
-// Nome offuscato: _icab678974b870b
+// Extracted from HabboAirLauncher.deobf.js, line 128792.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/utils/WindowRectLimits.as
+// Obfuscated name: _icab678974b870b
 
 class a {
   static {

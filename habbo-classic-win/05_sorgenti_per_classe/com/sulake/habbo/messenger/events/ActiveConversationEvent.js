@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158771.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/messenger/events/ActiveConversationEvent.as
-// Nome offuscato: _idbdba57ee3b03f
+// Extracted from HabboAirLauncher.deobf.js, line 158771.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/messenger/events/ActiveConversationEvent.as
+// Obfuscated name: _idbdba57ee3b03f
 
 class extends M {
   constructor(r, t, i) {

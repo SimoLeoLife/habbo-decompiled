@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 264216.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/AchievementCategory.as
+// Extracted from HabboAirLauncher.deobf.js, line 264216.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/AchievementCategory.as
 
 class {
   constructor(e) {

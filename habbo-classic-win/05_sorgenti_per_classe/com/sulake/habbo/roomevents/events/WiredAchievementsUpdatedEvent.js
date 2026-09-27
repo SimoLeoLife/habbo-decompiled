@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 162486.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/events/WiredAchievementsUpdatedEvent.as
-// Nome offuscato: _ia2a7cc74990b7e
+// Extracted from HabboAirLauncher.deobf.js, line 162486.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/events/WiredAchievementsUpdatedEvent.as
+// Obfuscated name: _ia2a7cc74990b7e
 
 class extends M {
   static {

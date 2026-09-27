@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 217976.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/utils/Direction360.as
-// Nome offuscato: _ia3fa615a06af04
+// Extracted from HabboAirLauncher.deobf.js, line 217976.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/utils/Direction360.as
+// Obfuscated name: _ia3fa615a06af04
 
 class a {
   static {

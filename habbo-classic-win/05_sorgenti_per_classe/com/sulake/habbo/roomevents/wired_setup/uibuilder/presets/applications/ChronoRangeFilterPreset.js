@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 351708.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/applications/ChronoRangeFilterPreset.as
-// Nome offuscato: _i6741935e2591cc
+// Extracted from HabboAirLauncher.deobf.js, line 351708.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/applications/ChronoRangeFilterPreset.as
+// Obfuscated name: _i6741935e2591cc
 
 class a extends WiredUIPreset {
   static {

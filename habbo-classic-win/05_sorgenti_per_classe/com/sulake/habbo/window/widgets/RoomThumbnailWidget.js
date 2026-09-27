@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 151745.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/RoomThumbnailWidget.as
-// Nome offuscato: _ic1bbe24340ab1b
+// Extracted from HabboAirLauncher.deobf.js, line 151745.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/RoomThumbnailWidget.as
+// Obfuscated name: _ic1bbe24340ab1b
 
 class a {
   constructor(e, r) {

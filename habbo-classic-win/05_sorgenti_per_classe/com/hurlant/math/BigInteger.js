@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 62763.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/hurlant/math/BigInteger.as
-// Nome offuscato: _i08068ca61e1619
+// Extracted from HabboAirLauncher.deobf.js, line 62763.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/hurlant/math/BigInteger.as
+// Obfuscated name: _i08068ca61e1619
 
 class a {
   static {

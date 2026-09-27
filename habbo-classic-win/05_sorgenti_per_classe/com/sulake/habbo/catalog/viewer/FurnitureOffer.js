@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 196753.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/FurnitureOffer.as
-// Nome offuscato: _ib0fa5dbb7b4686
+// Extracted from HabboAirLauncher.deobf.js, line 196753.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/FurnitureOffer.as
+// Obfuscated name: _ib0fa5dbb7b4686
 
 class a {
   constructor(e, r, t = -1, i = !1, s = null) {

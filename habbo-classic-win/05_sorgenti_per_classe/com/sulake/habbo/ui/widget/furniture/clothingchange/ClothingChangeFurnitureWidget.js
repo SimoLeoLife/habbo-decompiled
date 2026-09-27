@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 314798.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/clothingchange/ClothingChangeFurnitureWidget.as
-// Nome offuscato: _ia165be8f33be85
+// Extracted from HabboAirLauncher.deobf.js, line 314798.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/clothingchange/ClothingChangeFurnitureWidget.as
+// Obfuscated name: _ia165be8f33be85
 
 class a extends RoomWidgetBase {
   static {

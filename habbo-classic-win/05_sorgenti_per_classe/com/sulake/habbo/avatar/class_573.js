@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 171446.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/class_573.as
+// Extracted from HabboAirLauncher.deobf.js, line 171446.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/class_573.as
 
 class a extends ue {
   static {
@@ -76,7 +76,7 @@ class a extends ue {
   requestActions() {
     let e = `${this.getProperty("flash.dynamic.avatar.download.url")}HabboAvatarActions.xml`;
     this.assets
-      .loadAssetFromFile("HabboAvatarActions", new _i636490202c0f9a(e), "text/xml")
+      .loadAssetFromFile("HabboAvatarActions", new UnkClass_636490(e), "text/xml")
       .addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._r6c7ed74dd84e33);
   }
   _r6c7ed74dd84e33 = n((e = null) => {

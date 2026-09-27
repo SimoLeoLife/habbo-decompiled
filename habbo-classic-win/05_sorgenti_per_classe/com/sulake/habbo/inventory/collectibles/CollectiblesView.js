@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 176836.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/collectibles/CollectiblesView.as
-// Nome offuscato: _ief83b391928b90
+// Extracted from HabboAirLauncher.deobf.js, line 176836.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/collectibles/CollectiblesView.as
+// Obfuscated name: _ief83b391928b90
 
 class a {
   constructor(e, r) {
@@ -124,7 +124,7 @@ class a {
           this._walletAddresses.length > 0 ? (this._walletAddresses[e] ?? null) : null),
         this._r0e76420db1dec9 != null && (this._r0e76420db1dec9.activeWallet = this._r5fd6902729ad9f),
         this.var_374 != null && (this.var_374.activeWallet = this._r5fd6902729ad9f),
-        this._r5fd6902729ad9f != null && this.var_63.send(new _i845dac8fb8244e(this._r5fd6902729ad9f))));
+        this._r5fd6902729ad9f != null && this.var_63.send(new UnkMessageComposer_1args_845dac(this._r5fd6902729ad9f))));
   }
   dispose() {
     this._disposed ||
@@ -216,7 +216,7 @@ class a {
       this._rf6d89d6f64f203(0));
   }, "_r99200cdef2a13d");
   _rfb25032c9aed9e() {
-    this._r719fa2a113ef76 || ((this._r719fa2a113ef76 = !0), this.var_63.send(new _idadf93c63efd20()));
+    this._r719fa2a113ef76 || ((this._r719fa2a113ef76 = !0), this.var_63.send(new UnkMessageComposer_0args_dadf93()));
   }
   refresh() {
     switch (

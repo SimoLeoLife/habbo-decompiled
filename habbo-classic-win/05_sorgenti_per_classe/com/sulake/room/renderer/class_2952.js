@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 376942.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/renderer/class_2952.as
-// Nome offuscato: _iaec9cffdf671e6
+// Extracted from HabboAirLauncher.deobf.js, line 376942.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/renderer/class_2952.as
+// Obfuscated name: _iaec9cffdf671e6
 
 class a {
   constructor(e, r, t, i, s) {
@@ -24,7 +24,7 @@ class a {
       (this.display.mouseEnabled = !0),
       (this.display.doubleClickEnabled = !0),
       (this._geometry = new Rd(s, new k(-135, 30, 0), new k(11, 11, 5), new k(-135, 0.5, 0))),
-      (this.addBitmapData = new _i1e2b1f95f153b2(16, 32, 1)),
+      (this.addBitmapData = new UnkClass_1e2b1f(16, 32, 1)),
       (this._rff7d22ebefde6d = new mRe(this.container?.roomObjectVariableAccurateZ ?? null)),
       this.initialize(t, i));
   }
@@ -49,7 +49,7 @@ class a {
   class_4296 = [];
   _r2e755d32aa7f1f = new Map();
   _r679d11891b4e44 = new Set();
-  var_536 = new _i4210dc3239901d();
+  var_536 = new UnkClass_4210dc();
   _r2ca2d50b47823e;
   _red039010e53471 = null;
   beginFill = null;
@@ -282,17 +282,17 @@ class a {
       (r -= this.var_429),
       (this._r95a6acca6906d4.x = e / this.displayScale),
       (this._r95a6acca6906d4.y = r / this.displayScale),
-      this._rcec791eb6b8812 > 0 && t === _ifd7c1208e3417e.var_370)
+      this._rcec791eb6b8812 > 0 && t === UnkClass_fd7c12.var_370)
     )
       return this._rfcd780d5bab040;
     this.var_4049++;
     let c = !1;
     return (
-      (t === _ifd7c1208e3417e.CLICK || t === _ifd7c1208e3417e.DOUBLE_CLICK) &&
+      (t === UnkClass_fd7c12.CLICK || t === UnkClass_fd7c12.DOUBLE_CLICK) &&
         (c = this._r9a0ebe97c6f135(
           e / this.displayScale,
           r / this.displayScale,
-          t === _ifd7c1208e3417e.DOUBLE_CLICK,
+          t === UnkClass_fd7c12.DOUBLE_CLICK,
           i,
           s,
           o,
@@ -517,7 +517,7 @@ class a {
               ? `ping: ${this._r1db4388683b9dd}ms
 `
               : "",
-          o = _if28e28c93a63c8.host;
+          o = UnkClass_f28e28.host;
         ((s += `render fps: ${o == null ? "unavailable" : o._rb2f1d35b2f6874.toFixed(1)}`),
           (s += `
 room update fps: ${t}
@@ -759,7 +759,7 @@ halted ${this._r3c97f92a5ebde6}ms`),
   _r9a0ebe97c6f135(e, r, t, i = !1, s = !1, o = !1, d = !1) {
     let c = !1,
       f = [],
-      l = t ? _ifd7c1208e3417e.DOUBLE_CLICK : _ifd7c1208e3417e.CLICK;
+      l = t ? UnkClass_fd7c12.DOUBLE_CLICK : UnkClass_fd7c12.CLICK;
     for (let b = this._r8a5dce952bf073 - 1; b >= 0; b--) {
       let _ = this.getSprite(b);
       if (!(_ == null || !_.clickHandling) && _.hitTest(e - _.x, r - _.y)) {
@@ -783,7 +783,7 @@ halted ${this._r3c97f92a5ebde6}ms`),
         _ == null ||
         !_.hitTest(e - _.x, r - _.y, l) ||
         _.skipMouseHandling ||
-        (_.clickHandling && (t === _ifd7c1208e3417e.CLICK || t === _ifd7c1208e3417e.DOUBLE_CLICK))
+        (_.clickHandling && (t === UnkClass_fd7c12.CLICK || t === UnkClass_fd7c12.DOUBLE_CLICK))
       )
         continue;
       let h = this._rfb74824eefcfd8(_);
@@ -796,18 +796,18 @@ halted ${this._r3c97f92a5ebde6}ms`),
       m != null &&
         m.RoomObjectStateChangeEvent !== p &&
         this._rc3ae3eb7437e05(
-          this.createMouseEvent(0, 0, 0, 0, _ifd7c1208e3417e.ROLL_OUT, m.RoomObjectStateChangeEvent, i, s, o, d),
+          this.createMouseEvent(0, 0, 0, 0, UnkClass_fd7c12.ROLL_OUT, m.RoomObjectStateChangeEvent, i, s, o, d),
           h,
         );
       let v =
-        t === _ifd7c1208e3417e.var_370 && (m == null || m.RoomObjectStateChangeEvent !== p)
-          ? this.createMouseEvent(e, r, e - _.x, r - _.y, _ifd7c1208e3417e.ROLL_OVER, p, i, s, o, d)
+        t === UnkClass_fd7c12.var_370 && (m == null || m.RoomObjectStateChangeEvent !== p)
+          ? this.createMouseEvent(e, r, e - _.x, r - _.y, UnkClass_fd7c12.ROLL_OVER, p, i, s, o, d)
           : this.createMouseEvent(e, r, e - _.x, r - _.y, t, p, i, s, o, d);
       ((v._r4667d782ad64ed = _.offsetRefX),
         (v._r4694aaf1f688a5 = _.offsetRefY),
-        m == null && ((m = new _iafec61dbc949c5()), (m.objectId = h), this._r4d449a27d1b881.set(h, m)),
+        m == null && ((m = new UnkClass_afec61()), (m.objectId = h), this._r4d449a27d1b881.set(h, m)),
         (m.RoomObjectStateChangeEvent = p),
-        (t !== _ifd7c1208e3417e.var_370 || e !== this._rc643d6ffa06ea6 || r !== this._r01bee0a289f0a2) &&
+        (t !== UnkClass_fd7c12.var_370 || e !== this._rc643d6ffa06ea6 || r !== this._r01bee0a289f0a2) &&
           this._rc3ae3eb7437e05(v, h),
         f.push(h),
         (c = !0));
@@ -818,7 +818,7 @@ halted ${this._r3c97f92a5ebde6}ms`),
       _ != null &&
         (this._r4d449a27d1b881.delete(b),
         this._rc3ae3eb7437e05(
-          this.createMouseEvent(0, 0, 0, 0, _ifd7c1208e3417e.ROLL_OUT, _.RoomObjectStateChangeEvent, i, s, o, d),
+          this.createMouseEvent(0, 0, 0, 0, UnkClass_fd7c12.ROLL_OUT, _.RoomObjectStateChangeEvent, i, s, o, d),
           b,
         ));
     }

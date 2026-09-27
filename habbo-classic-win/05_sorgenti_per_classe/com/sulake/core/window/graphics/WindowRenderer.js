@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 142315.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/WindowRenderer.as
-// Nome offuscato: _i3170bf254548ee
+// Extracted from HabboAirLauncher.deobf.js, line 142315.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/WindowRenderer.as
+// Obfuscated name: _i3170bf254548ee
 
 class a {
   static {
@@ -200,7 +200,7 @@ class a {
     let s = e.getGraphicContext(!1);
     if (s != null && ((s.visible = e.visible), s instanceof Un)) {
       let c = s.getDisplayObject();
-      c instanceof _i3a5c6f457acdad && (c.visible = !e.testParamFlag(N.const_421));
+      c instanceof UnkClass_3a5c6f && (c.visible = !e.testParamFlag(N.const_421));
     }
     if (!e.visible) return (s instanceof Un && s._r18f2e8d6843ef0(), i);
     if (

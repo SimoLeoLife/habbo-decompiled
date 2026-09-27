@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 264445.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/AchievementController.as
-// Nome offuscato: _i20a0e4d41c9bbf
+// Extracted from HabboAirLauncher.deobf.js, line 264445.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/AchievementController.as
+// Obfuscated name: _i20a0e4d41c9bbf
 
 class a {
   constructor(e) {

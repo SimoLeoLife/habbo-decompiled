@@ -1,8 +1,8 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 299512.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/class_1977.as
-// Nome offuscato: _i295c6334a9d747
+// Extracted from HabboAirLauncher.deobf.js, line 299512.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/class_1977.as
+// Obfuscated name: _i295c6334a9d747
 
-class a extends _ieead78a21202a2 {
+class a extends UnkClass_eead78 {
   static {
     n(this, "class_1977");
   }
@@ -20,7 +20,7 @@ class a extends _ieead78a21202a2 {
   }
   processUpdateMessage(e) {
     if ((super.processUpdateMessage(e), this.object != null)) {
-      (e instanceof _i39f7ecd6ab9902 ? e : null) != null && this._r97a419040ede42(this.object.getState(0));
+      (e instanceof UnkRoomObjectUpdateMessageSubclass_39f7ec ? e : null) != null && this._r97a419040ede42(this.object.getState(0));
       let t = this.object.getLocation();
       t != null &&
         (this.var_232 == null

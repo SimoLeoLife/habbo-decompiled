@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 353102.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/main_layout/VolterHeaderPreset.as
-// Nome offuscato: _ic6c93f8e3dc9c9
+// Extracted from HabboAirLauncher.deobf.js, line 353102.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/main_layout/VolterHeaderPreset.as
+// Obfuscated name: _ic6c93f8e3dc9c9
 
 class extends Lc {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 239420.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/trading/TradingView.as
-// Nome offuscato: _i09789c2d6b65b1
+// Extracted from HabboAirLauncher.deobf.js, line 239420.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/trading/TradingView.as
+// Obfuscated name: _i09789c2d6b65b1
 
 class a {
   constructor(e, r, t, i, s, o) {
@@ -254,7 +254,7 @@ class a {
   }
   startConfirmCountdown() {
     (this.var_382 == null &&
-      ((this.var_382 = new _i05394ecc0c0c4d(1e3, 3)),
+      ((this.var_382 = new UnkEventDispatcherWrapperSubclass_05394e(1e3, 3)),
       this.var_382.addEventListener(DeBouncer.addEventListener, this._r97644bb91fd095)),
       this.var_382.reset(),
       (this.var_382.repeatCount = 3),

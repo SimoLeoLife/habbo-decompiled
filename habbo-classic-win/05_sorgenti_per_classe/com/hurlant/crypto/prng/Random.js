@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 62548.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/hurlant/crypto/prng/Random.as
-// Nome offuscato: _ie4f2620020e446
+// Extracted from HabboAirLauncher.deobf.js, line 62548.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/hurlant/crypto/prng/Random.as
+// Obfuscated name: _ie4f2620020e446
 
 class {
   static {

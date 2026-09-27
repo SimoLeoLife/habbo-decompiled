@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 94157.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_52/class_2420.as
-// Nome offuscato: _i4589808de514fa
+// Extracted from HabboAirLauncher.deobf.js, line 94157.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_52/class_2420.as
+// Obfuscated name: _i4589808de514fa
 
 class extends MessageEvent {
     static {

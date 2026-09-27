@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161916.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetPollMessage.as
-// Nome offuscato: _i2b5fc8d2a3e644
+// Extracted from HabboAirLauncher.deobf.js, line 161916.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetPollMessage.as
+// Obfuscated name: _i2b5fc8d2a3e644
 
 class extends RoomWidgetMessage {
   constructor(r, t) {

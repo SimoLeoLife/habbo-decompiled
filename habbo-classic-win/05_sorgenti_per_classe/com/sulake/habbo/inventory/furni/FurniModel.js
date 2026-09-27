@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 238411.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/furni/FurniModel.as
-// Nome offuscato: _i3a19c4e25517aa
+// Extracted from HabboAirLauncher.deobf.js, line 238411.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/furni/FurniModel.as
+// Obfuscated name: _i3a19c4e25517aa
 
 class {
   constructor(e, r, t, i, s, o, d, c) {
@@ -288,7 +288,7 @@ class {
     if (i == null || (i.isRented && i.flatId > -1)) return !1;
     if (i.category === class_1901.WALL_PAPER || i.category === class_1901.FLOOR || i.category === class_1901.LANDSCAPE) {
       if (e) return !1;
-      this._communication?.connection.send(new _idc6ac4c1b9aa02(i.id));
+      this._communication?.connection.send(new class_2293(i.id));
     } else this._r50430888e52269(i);
     return (this._view?.updateActionView(), !0);
   }
@@ -352,7 +352,7 @@ class {
     let e = this.getSelectedItem()?.peek() ?? null;
     e == null ||
       this._communication?.connection == null ||
-      (this._communication.connection.send(new _if635b6d25e2848(e.flatId)), (this._r6a0bbd21c7687c = e));
+      (this._communication.connection.send(new class_1959(e.flatId)), (this._r6a0bbd21c7687c = e));
   }
   _r0d46ac32fd030a() {
     let e = this.getSelectedItem()?.peek() ?? null;

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 309009.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/UseProductView.as
-// Nome offuscato: _ia2d7f49d61d7d0
+// Extracted from HabboAirLauncher.deobf.js, line 309009.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/UseProductView.as
+// Obfuscated name: _ia2d7f49d61d7d0
 
 class a extends AvatarContextInfoButtonView {
   static {

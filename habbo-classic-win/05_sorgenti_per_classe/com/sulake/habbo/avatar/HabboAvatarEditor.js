@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 165908.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/HabboAvatarEditor.as
-// Nome offuscato: _iebf3ec4c001c8f
+// Extracted from HabboAirLauncher.deobf.js, line 165908.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/HabboAvatarEditor.as
+// Obfuscated name: _iebf3ec4c001c8f
 
 class a {
   static {
@@ -140,10 +140,10 @@ class a {
       ? this.var_1805.saveFigure(e, r)
       : (this.var_41.communication != null &&
           (this._r4d294ea9342c1a != null
-            ? (this.var_41.communication.connection?.send(new _i3b334c840d7acd(this._r4d294ea9342c1a.id)),
+            ? (this.var_41.communication.connection?.send(new UnkMessageComposer_1args_3b334c(this._r4d294ea9342c1a.id)),
               this._r6305f24e0e4dbd(),
               (this._r4d294ea9342c1a = null))
-            : this.var_41.communication.connection?.send(new _i4a93efd1b68d0b(e, r))),
+            : this.var_41.communication.connection?.send(new UnkMessageComposer_2args_4a93ef(e, r))),
         this._r8af0d93e259a36() && (this.var_2361 = null),
         this.var_41.events.dispatchEvent?.(new m1e(e)),
         this._r4e0f825c6aaad8 &&
@@ -323,7 +323,7 @@ class a {
     this.var_41.catalog?.openClubCenter();
   }
   _rbe34c96e95ae2b() {
-    return this.var_3974 === _ic723960da8d613._r565a0d8736f4c5;
+    return this.var_3974 === UnkConstants_c72396._r565a0d8736f4c5;
   }
   init(e = null) {
     this.var_217 ||
@@ -344,11 +344,11 @@ class a {
         .get(Ra.const_140)
         ?.loadAvatarData(a.DEFAULT_FEMALE_FIGURE, Ra.const_140),
       this._categories.add(class_1962.GENERIC, new BodyModel(this)),
-      this._categories.add(class_1962.HEAD, new _i0d9384304fee3f(this)),
-      this._categories.add(class_1962.TORSO, new _i2b6b9bb6456430(this)),
-      this._categories.add(class_1962.const_94, new _i6a786085638bcc(this)),
+      this._categories.add(class_1962.HEAD, new UnkCategoryBaseModelSubclass_0d9384(this)),
+      this._categories.add(class_1962.TORSO, new UnkCategoryBaseModelSubclass_2b6b9b(this)),
+      this._categories.add(class_1962.const_94, new UnkCategoryBaseModelSubclass_6a7860(this)),
       this.var_41.getBoolean("clothing.misc.tab.enabled") &&
-        this._categories.add(class_1962.MISC, new _i96bce6165e38ba(this)),
+        this._categories.add(class_1962.MISC, new UnkCategoryBaseModelSubclass_96bce6(this)),
       (e == null || e.indexOf(class_1962.const_99) > -1) &&
         this._categories.add(class_1962.const_99, new Y1e(this)),
       this.var_41.getBoolean("effects.in.avatar.editor") &&
@@ -357,7 +357,7 @@ class a {
       (this.var_217 = !0));
   }
   _r6305f24e0e4dbd() {
-    this.var_41.communication?.connection?.send(new _i56dae50eda62b0());
+    this.var_41.communication?.connection?.send(new UnkMessageComposer_0args_56dae5());
   }
   _rdb751caff0731b(e, r = class_1962.GENERIC) {
     let t = e != null && e.length > 0;

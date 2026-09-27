@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 232782.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/SanctionInfo.as
-// Nome offuscato: _if25a784c1f6d60
+// Extracted from HabboAirLauncher.deobf.js, line 232782.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/SanctionInfo.as
+// Obfuscated name: _if25a784c1f6d60
 
 class {
   constructor(e) {
@@ -27,7 +27,7 @@ class {
     )
       return;
     (this._window.center(), (this._window.procedure = this._r4d2fcea4870df2));
-    let r = ClassUtils.getParser(e, ITextWindow);
+    let r = ClassUtils.getParser(e, UnkMessageParser_ISBI_90029f);
     if (r == null) return;
     let t = this._window.findChildByName("main_contents_list"),
       i = this._window.findChildByName("sanction_info"),

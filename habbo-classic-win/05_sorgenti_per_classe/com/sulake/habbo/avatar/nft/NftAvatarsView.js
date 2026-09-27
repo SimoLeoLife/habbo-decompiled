@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 164262.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/nft/NftAvatarsView.as
-// Nome offuscato: _i5e6876725b605e
+// Extracted from HabboAirLauncher.deobf.js, line 164262.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/nft/NftAvatarsView.as
+// Obfuscated name: _i5e6876725b605e
 
 class {
   static {

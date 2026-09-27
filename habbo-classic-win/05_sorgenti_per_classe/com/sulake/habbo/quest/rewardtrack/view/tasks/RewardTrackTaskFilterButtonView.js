@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 267391.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/tasks/RewardTrackTaskFilterButtonView.as
-// Nome offuscato: _ie7014d5bff503d
+// Extracted from HabboAirLauncher.deobf.js, line 267391.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/tasks/RewardTrackTaskFilterButtonView.as
+// Obfuscated name: _ie7014d5bff503d
 
 class a {
   constructor(e, r, t, i, s) {

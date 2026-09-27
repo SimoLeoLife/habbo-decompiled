@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 361344.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/levelupper/InterpolateLevelUpper.as
-// Nome offuscato: _i6de5fcecbb17bd
+// Extracted from HabboAirLauncher.deobf.js, line 361344.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/levelupper/InterpolateLevelUpper.as
+// Obfuscated name: _i6de5fcecbb17bd
 
 class a extends AbstractLevelUpConfig {
     static {
@@ -62,11 +62,11 @@ class a extends AbstractLevelUpConfig {
       return this.findProgressInfo(e).isMaxed;
     }
     findProgressInfoForMax() {
-      if (this._rcec3d37edd2258.length === 0) return new _i7034338af1423c(1, 1, 0, 0, 0, !0);
+      if (this._rcec3d37edd2258.length === 0) return new UnkClass_703433(1, 1, 0, 0, 0, !0);
       let e = this._r9303c7b124137f(),
         r = Number(this._rcec3d37edd2258.getValue(e)),
         t = Number(e);
-      return new _i7034338af1423c(r, r, t, t, t, !0);
+      return new UnkClass_703433(r, r, t, t, t, !0);
     }
     findProgressInfo(e) {
       e = this.boundedValue(e);
@@ -94,7 +94,7 @@ class a extends AbstractLevelUpConfig {
             : ((m = i + _ + 1),
               (v = s + ((l * (_ + 1)) | 0)),
               I && b + s >= v && (_++, (h = i + _), (p = s + ((l * _) | 0)), (w = !0), (I = !1))));
-      return new _i7034338af1423c(h, m, p, e, v, !1);
+      return new UnkClass_703433(h, m, p, e, v, !1);
     }
     static generateTree(e) {
       let r = new B();

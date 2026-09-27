@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 367413.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/ConditionTypes.as
-// Nome offuscato: _i49b7bc6a3e6df5
+// Extracted from HabboAirLauncher.deobf.js, line 367413.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/ConditionTypes.as
+// Obfuscated name: _i49b7bc6a3e6df5
 
 class {
   static {
@@ -34,7 +34,7 @@ class {
       this._types.push(new FurniHasAltitude()),
       this._types.push(new class_4157()),
       this._types.push(new class_4090()),
-      this._types.push(new _i948b45545f126f()),
+      this._types.push(new UnkDefaultConditionTypeSubclass_948b45()),
       this._types.push(new pke()),
       this._types.push(new Ake()),
       this._types.push(new Bke()),

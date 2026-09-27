@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 315597.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/contextmenu/MonsterPlantSeedConfirmationView.as
-// Nome offuscato: _ic6e943c372520c
+// Extracted from HabboAirLauncher.deobf.js, line 315597.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/contextmenu/MonsterPlantSeedConfirmationView.as
+// Obfuscated name: _ic6e943c372520c
 
 class a {
   constructor(e) {

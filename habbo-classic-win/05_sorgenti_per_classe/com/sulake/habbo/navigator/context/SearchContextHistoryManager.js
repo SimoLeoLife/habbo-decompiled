@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 259127.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/context/SearchContextHistoryManager.as
-// Nome offuscato: _i81ccbd7640280c
+// Extracted from HabboAirLauncher.deobf.js, line 259127.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/context/SearchContextHistoryManager.as
+// Obfuscated name: _i81ccbd7640280c
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 313045.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/renderer/CraftingInventoryItemRenderer.as
-// Nome offuscato: _i438ecf5cc0af85
+// Extracted from HabboAirLauncher.deobf.js, line 313045.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/renderer/CraftingInventoryItemRenderer.as
+// Obfuscated name: _i438ecf5cc0af85
 
 class extends xg {
   static {

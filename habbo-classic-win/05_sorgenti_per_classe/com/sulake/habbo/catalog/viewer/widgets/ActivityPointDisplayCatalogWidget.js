@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 188059.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/ActivityPointDisplayCatalogWidget.as
-// Nome offuscato: _i1ba974d768d000
+// Extracted from HabboAirLauncher.deobf.js, line 188059.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/ActivityPointDisplayCatalogWidget.as
+// Obfuscated name: _i1ba974d768d000
 
 class extends CatalogWidget {
   static {

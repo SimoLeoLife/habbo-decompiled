@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 364584.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/ProgressRewardTrack.as
-// Nome offuscato: _iff55de1e3f8d60
+// Extracted from HabboAirLauncher.deobf.js, line 364584.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/ProgressRewardTrack.as
+// Obfuscated name: _iff55de1e3f8d60
 
 class a extends DefaultActionType {
   static {

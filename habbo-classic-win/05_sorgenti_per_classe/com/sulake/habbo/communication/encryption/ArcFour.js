@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 153820.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/encryption/ArcFour.as
-// Nome offuscato: _i24b36eb1576e5c
+// Extracted from HabboAirLauncher.deobf.js, line 153820.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/encryption/ArcFour.as
+// Obfuscated name: _i24b36eb1576e5c
 
 class {
     static {

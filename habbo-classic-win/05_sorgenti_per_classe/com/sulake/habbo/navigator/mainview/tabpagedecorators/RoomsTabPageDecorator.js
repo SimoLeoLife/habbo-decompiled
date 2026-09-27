@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 252390.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/tabpagedecorators/RoomsTabPageDecorator.as
-// Nome offuscato: _i972d8a1ed8b495
+// Extracted from HabboAirLauncher.deobf.js, line 252390.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/tabpagedecorators/RoomsTabPageDecorator.as
+// Obfuscated name: _i972d8a1ed8b495
 
 class {
   constructor(e) {

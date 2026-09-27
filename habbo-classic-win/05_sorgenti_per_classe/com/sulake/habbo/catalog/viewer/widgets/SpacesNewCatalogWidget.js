@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 195203.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/SpacesNewCatalogWidget.as
-// Nome offuscato: _i97b46b97727201
+// Extracted from HabboAirLauncher.deobf.js, line 195203.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/SpacesNewCatalogWidget.as
+// Obfuscated name: _i97b46b97727201
 
 class extends ItemGridCatalogWidget {
   static {
@@ -69,7 +69,7 @@ class extends ItemGridCatalogWidget {
       r?.product == null ||
       t?.product == null ||
       this.events?.dispatchEvent?.(
-        new _iacdd97f5df962a(r.product.extraParam, e.product.extraParam, t.product.extraParam, 64),
+        new UnkClass_acdd97(r.product.extraParam, e.product.extraParam, t.product.extraParam, 64),
       );
   }
   _r36f3aadc688563() {

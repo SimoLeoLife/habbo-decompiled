@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 255385.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/PromotedRoomsListCtrl.as
-// Nome offuscato: _icbb1ceacd6378d
+// Extracted from HabboAirLauncher.deobf.js, line 255385.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/PromotedRoomsListCtrl.as
+// Obfuscated name: _icbb1ceacd6378d
 
 class a {
   constructor(e) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 307845.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/OwnPetMenuView.as
-// Nome offuscato: _i4860900e82cb4c
+// Extracted from HabboAirLauncher.deobf.js, line 307845.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/OwnPetMenuView.as
+// Obfuscated name: _i4860900e82cb4c
 
 class a extends AvatarContextInfoButtonView {
   static {
@@ -98,7 +98,7 @@ class a extends AvatarContextInfoButtonView {
           (this.showButton("mount"),
             (e.configuration?.getBoolean("sharedhorseriding.enabled") ?? !1) &&
               (this.showButton("toggle_riding_permission"),
-              this.enableCheckbox("toggle_riding_permission", r.accessRights === _i638841bac35cab._r84b81bed702e7e)),
+              this.enableCheckbox("toggle_riding_permission", r.accessRights === UnkConstants_638841._r84b81bed702e7e)),
             this.showButton("respect", r.petRespectLeft > 0),
             this.showButton("train"),
             this.showButton("pick_up"),

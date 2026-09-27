@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 323192.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/memenu/MeMenuDanceView.as
-// Nome offuscato: _i45d9a48612e977
+// Extracted from HabboAirLauncher.deobf.js, line 323192.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/memenu/MeMenuDanceView.as
+// Obfuscated name: _i45d9a48612e977
 
 class {
   static {

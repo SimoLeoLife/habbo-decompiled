@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 313225.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/utils/CraftingFurnitureItem.as
-// Nome offuscato: _i535c15d86e72c4
+// Extracted from HabboAirLauncher.deobf.js, line 313225.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/utils/CraftingFurnitureItem.as
+// Obfuscated name: _i535c15d86e72c4
 
 class extends EventDispatcherWrapper {
   constructor(r, t, i) {

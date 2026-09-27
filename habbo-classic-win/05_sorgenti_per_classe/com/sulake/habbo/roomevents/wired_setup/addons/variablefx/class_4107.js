@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 362579.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/class_4107.as
-// Nome offuscato: _i9741e74755cae8
+// Extracted from HabboAirLauncher.deobf.js, line 362579.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/class_4107.as
+// Obfuscated name: _i9741e74755cae8
 
 class extends class_4106 {
   static {
@@ -10,6 +10,6 @@ class extends class_4106 {
     return AddonCodes.VARIABLE_FX_STATUS_BAR;
   }
   get categoryId() {
-    return _i3b0b1a104db30e._r410243f6615947;
+    return UnkClass_3b0b1a._r410243f6615947;
   }
 }

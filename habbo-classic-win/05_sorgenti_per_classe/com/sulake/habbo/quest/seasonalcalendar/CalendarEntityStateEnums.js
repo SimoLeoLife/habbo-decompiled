@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 270370.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/seasonalcalendar/CalendarEntityStateEnums.as
-// Nome offuscato: _i7082c4e0fc8d19
+// Extracted from HabboAirLauncher.deobf.js, line 270370.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/seasonalcalendar/CalendarEntityStateEnums.as
+// Obfuscated name: _i7082c4e0fc8d19
 
 class {
   static {

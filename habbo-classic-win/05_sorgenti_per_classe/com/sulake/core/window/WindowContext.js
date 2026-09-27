@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 136321.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/WindowContext.as
-// Nome offuscato: _iea99651c71c4eb
+// Extracted from HabboAirLauncher.deobf.js, line 136321.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/WindowContext.as
+// Obfuscated name: _iea99651c71c4eb
 
 class a {
   static {
@@ -44,7 +44,7 @@ class a {
       return;
     let r, t;
     if (
-      (this._rootDisplayObject instanceof _i92a395bc65c707
+      (this._rootDisplayObject instanceof UnkClass_92a395
         ? ((r = this._rootDisplayObject.stageWidth), (t = this._rootDisplayObject._rcc0ac91bd808af))
         : ((r = this._rootDisplayObject.width), (t = this._rootDisplayObject.height)),
       r >= 10 && t >= 10)
@@ -65,15 +65,15 @@ class a {
       e)
     ) {
       case a._re51310ac390e88:
-        ((a.inputEventQueue = new _i20e983eb328e5d(a._r448919959a600d)), (a._r073aebdea43aa3 = new Kf()));
+        ((a.inputEventQueue = new UnkGenericEventQueueSubclass_20e983(a._r448919959a600d)), (a._r073aebdea43aa3 = new Kf()));
         try {
-          _ifee827f8b3708c.inputMode = bC.NONE;
+          UnkConstants_fee827.inputMode = bC.NONE;
         } catch {}
         break;
       case a._rf5c8841e021831:
-        ((a.inputEventQueue = new _i0602f791b47aa4(a._r448919959a600d)), (a._r073aebdea43aa3 = new _i894ecd1ad8fcc4()));
+        ((a.inputEventQueue = new UnkGenericEventQueueSubclass_0602f7(a._r448919959a600d)), (a._r073aebdea43aa3 = new UnkClass_894ecd()));
         try {
-          _ifee827f8b3708c.inputMode = bC._r0b623989063195;
+          UnkConstants_fee827.inputMode = bC._r0b623989063195;
         } catch {}
         break;
       default:
@@ -89,7 +89,7 @@ class a {
       (this._localization = o),
       (this._configuration = d),
       (this._rootDisplayObject = c),
-      (this._windowServices = new _i28b908ccf099f0(this, c)),
+      (this._windowServices = new UnkClass_28b908(this, c)),
       (this.var_3437 = t),
       (this.var_3511 = i),
       (this._ra5f7db0ff0fdf5 = s),
@@ -97,7 +97,7 @@ class a {
       (this.inputEventTrackers = []),
       (this._linkEventTrackers = l),
       a._r448919959a600d === null &&
-        (this._rootDisplayObject instanceof _i92a395bc65c707
+        (this._rootDisplayObject instanceof UnkClass_92a395
           ? (a._r448919959a600d = this._rootDisplayObject)
           : this._rootDisplayObject.stage !== null && (a._r448919959a600d = this._rootDisplayObject.stage)),
       Classes.init());
@@ -122,7 +122,7 @@ class a {
       this._rootDisplayObject.addChild(this.var_174.getDisplayObject()),
       (this._rootDisplayObject.doubleClickEnabled = !0),
       this._rootDisplayObject.addEventListener(M.RESIZE, this.EventProcessorState),
-      (this.var_343 = new _if3971757e97a90(
+      (this.var_343 = new UnkClass_f39717(
         r,
         this.var_174,
         this.var_174,

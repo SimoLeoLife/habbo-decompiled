@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 332642.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/PetPackageFurniWidgetHandler.as
-// Nome offuscato: _i71b57f6149e2ea
+// Extracted from HabboAirLauncher.deobf.js, line 332642.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/PetPackageFurniWidgetHandler.as
+// Obfuscated name: _i71b57f6149e2ea
 
 class {
   static {

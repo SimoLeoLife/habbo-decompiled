@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 165018.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/view/AvatarEditorNameSuggestionListRenderer.as
-// Nome offuscato: _i203ee4cd704cbd
+// Extracted from HabboAirLauncher.deobf.js, line 165018.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/view/AvatarEditorNameSuggestionListRenderer.as
+// Obfuscated name: _i203ee4cd704cbd
 
 class a {
   static {

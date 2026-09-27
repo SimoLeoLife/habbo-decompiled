@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 361879.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/VariablesWebApiAddon.as
-// Nome offuscato: _i41fbeebab15a87
+// Extracted from HabboAirLauncher.deobf.js, line 361879.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/VariablesWebApiAddon.as
+// Obfuscated name: _i41fbeebab15a87
 
 class a extends DefaultAddonType {
   static {
@@ -75,10 +75,10 @@ class a extends DefaultAddonType {
     return this._r41f5cc7d3516ce.presetManager._r136c3ce595ddcf();
   }
   onClickGeneratedReadKey = n(() => {
-    this._r41f5cc7d3516ce.send(new _ib367058c952aed(this._r1a43057ed75c77, !0));
+    this._r41f5cc7d3516ce.send(new UnkMessageComposer_2args_b36705(this._r1a43057ed75c77, !0));
   }, "onClickGeneratedReadKey");
   onClickGeneratedWriteKey = n(() => {
-    this._r41f5cc7d3516ce.send(new _ib367058c952aed(this._r1a43057ed75c77, !1));
+    this._r41f5cc7d3516ce.send(new UnkMessageComposer_2args_b36705(this._r1a43057ed75c77, !1));
   }, "onClickGeneratedWriteKey");
   _r1f5e743de4180d = n((e) => {
     let r = e.getParser();

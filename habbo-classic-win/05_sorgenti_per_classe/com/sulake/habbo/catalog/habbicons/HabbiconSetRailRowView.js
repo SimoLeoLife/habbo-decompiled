@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 177846.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconSetRailRowView.as
-// Nome offuscato: _i673fbc0939999f
+// Extracted from HabboAirLauncher.deobf.js, line 177846.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconSetRailRowView.as
+// Obfuscated name: _i673fbc0939999f
 
 class a {
   constructor(e, r) {

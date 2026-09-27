@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 216339.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/domain/FriendCategories.as
-// Nome offuscato: _i0b7d3518a2f21e
+// Extracted from HabboAirLauncher.deobf.js, line 216339.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/domain/FriendCategories.as
+// Obfuscated name: _i0b7d3518a2f21e
 
 class a {
   static {
@@ -52,7 +52,7 @@ class a {
     return null;
   }
   _re2d4f827ef2413(e) {
-    let r = ClassUtils.getParser(e, _i7720fd48030002);
+    let r = ClassUtils.getParser(e, UnkMessageParser_IIII_7720fd);
     if (r != null) {
       this._rf8dcb7f97deeb7(r._r78d655af73c8d5);
       for (let t of r._r4c37a8f59cd58b) this.removeFriend(t, !0);

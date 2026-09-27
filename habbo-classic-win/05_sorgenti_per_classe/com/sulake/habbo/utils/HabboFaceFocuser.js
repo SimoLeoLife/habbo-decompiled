@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 67869.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/HabboFaceFocuser.as
-// Nome offuscato: _i157831f1e5a5f1
+// Extracted from HabboAirLauncher.deobf.js, line 67869.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/HabboFaceFocuser.as
+// Obfuscated name: _i157831f1e5a5f1
 
 class a {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 314129.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/CustomStackHeightWidget.as
-// Nome offuscato: _i84e266c8cad221
+// Extracted from HabboAirLauncher.deobf.js, line 314129.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/CustomStackHeightWidget.as
+// Obfuscated name: _i84e266c8cad221
 
 class a extends RoomWidgetBase {
   static {
@@ -25,7 +25,7 @@ class a extends RoomWidgetBase {
   constructor(e, r, t = null, i = null) {
     (super(e, r, t, i),
       (this.handler.widget = this),
-      (this._raa925653a25cd0 = new _i05394ecc0c0c4d(a.SLIDER_LIVE_UPDATE_INTERVAL_MS, 1)),
+      (this._raa925653a25cd0 = new UnkEventDispatcherWrapperSubclass_05394e(a.SLIDER_LIVE_UPDATE_INTERVAL_MS, 1)),
       this._raa925653a25cd0.addEventListener?.(DeBouncer._rf33144eac61595, this._r284666bb52a93a));
   }
   dispose() {
@@ -93,7 +93,7 @@ class a extends RoomWidgetBase {
   _r7f07ae11b3855e = n((e) => {
     this._rd569aafdd01299 ||
       this.handler.container?.connection?.send(
-        new _i7da07d2b22cc2b([this.var_2287, this._rb094ae94b89318, this._rc13ceeff967ddc]),
+        new UnkMessageComposer_1args_7da07d([this.var_2287, this._rb094ae94b89318, this._rc13ceeff967ddc]),
       );
   }, "_r7f07ae11b3855e");
   destroyWindow() {
@@ -119,7 +119,7 @@ class a extends RoomWidgetBase {
           case "button_above_stack":
             (this._r386c662dd3e301(),
               this._r5d04eee7a9afba(),
-              this.handler.container?.connection?.send(new _i7da07d2b22cc2b([this.var_2287, -100])));
+              this.handler.container?.connection?.send(new UnkMessageComposer_1args_7da07d([this.var_2287, -100])));
             break;
           case "button_move_down":
             (this._r386c662dd3e301(), this._r5d04eee7a9afba(), this._r617c5c0c2345ed(!0));
@@ -176,10 +176,10 @@ class a extends RoomWidgetBase {
           this._re90cf7fc4cc7f8());
   }, "windowProcedure");
   _re90cf7fc4cc7f8() {
-    this.handler.container?.connection?.send(new _i7da07d2b22cc2b([this.var_2287, this._rb094ae94b89318]));
+    this.handler.container?.connection?.send(new UnkMessageComposer_1args_7da07d([this.var_2287, this._rb094ae94b89318]));
   }
   _r617c5c0c2345ed(e) {
-    this.handler.container?.connection?.send(new _i5ddae5b249cc8f(this.var_2287, e));
+    this.handler.container?.connection?.send(new UnkMessageComposer_2args_5ddae5(this.var_2287, e));
   }
   get _rb094ae94b89318() {
     return (this._rdac18630f7edc5 * 100) | 0;

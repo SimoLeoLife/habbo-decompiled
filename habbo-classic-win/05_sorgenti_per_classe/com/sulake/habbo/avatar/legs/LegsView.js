@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 163910.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/legs/LegsView.as
-// Nome offuscato: _ib352ddc298c246
+// Extracted from HabboAirLauncher.deobf.js, line 163910.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/legs/LegsView.as
+// Obfuscated name: _ib352ddc298c246
 
 class extends CategoryBaseView {
   static {

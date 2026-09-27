@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 356343.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_inspection/VariableValueTableObject.as
-// Nome offuscato: _i0bce42e5015b29
+// Extracted from HabboAirLauncher.deobf.js, line 356343.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_inspection/VariableValueTableObject.as
+// Obfuscated name: _i0bce42e5015b29
 
 class a {
   constructor(e, r, t, i, s) {

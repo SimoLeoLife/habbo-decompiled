@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 343899.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/HabboToolbar.as
-// Nome offuscato: _if21c3927bcc2ec
+// Extracted from HabboAirLauncher.deobf.js, line 343899.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/HabboToolbar.as
+// Obfuscated name: _if21c3927bcc2ec
 
 class extends ue {
   static {
@@ -171,7 +171,7 @@ class extends ue {
       if (
         (r > 0 &&
           this._r9b9bbd7d027096 == null &&
-          ((this._r9b9bbd7d027096 = new _i05394ecc0c0c4d(r, 1)),
+          ((this._r9b9bbd7d027096 = new UnkEventDispatcherWrapperSubclass_05394e(r, 1)),
           this._r9b9bbd7d027096.addEventListener(DeBouncer._rf33144eac61595, this._ra4f755ebb8e157),
           this._r9b9bbd7d027096.start()),
         e === class_2104.SOCIAL ||
@@ -182,7 +182,7 @@ class extends ue {
         let t = this.getInteger("new.user.promo.room.delay", 180) * 1e3;
         t > 0 &&
           this._rdcad35b725efa7 == null &&
-          ((this._rdcad35b725efa7 = new _i05394ecc0c0c4d(t, 1)),
+          ((this._rdcad35b725efa7 = new UnkEventDispatcherWrapperSubclass_05394e(t, 1)),
           this._rdcad35b725efa7.addEventListener(DeBouncer._rf33144eac61595, this._rd23458e5fe52e7),
           this._rdcad35b725efa7.start());
       }
@@ -433,7 +433,7 @@ class extends ue {
       (Jn.init(e, r),
         this._view != null && this._rdb88b9ead33b4f(this._view.window),
         this._r7033dba2401e76 == null &&
-          ((this._r7033dba2401e76 = new _i05394ecc0c0c4d(e + r, 1)),
+          ((this._r7033dba2401e76 = new UnkEventDispatcherWrapperSubclass_05394e(e + r, 1)),
           this._r7033dba2401e76.addEventListener(DeBouncer._rf33144eac61595, this._r172fd9dbb36c70),
           this._r7033dba2401e76.start()));
     }

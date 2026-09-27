@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 150715.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/events/HabboInventoryFurniListParsedEvent.as
-// Nome offuscato: _ide59efc4916f7d
+// Extracted from HabboAirLauncher.deobf.js, line 150715.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/events/HabboInventoryFurniListParsedEvent.as
+// Obfuscated name: _ide59efc4916f7d
 
 class a extends M {
   constructor(r, t = !1, i = !1) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 277396.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurniturePlane.as
-// Nome offuscato: _i3624ef38ef7f9b
+// Extracted from HabboAirLauncher.deobf.js, line 277396.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurniturePlane.as
+// Obfuscated name: _i3624ef38ef7f9b
 
 class {
   static {

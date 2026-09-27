@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 372637.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/subcontrollers/AbstractChestSubController.as
-// Nome offuscato: _ic6c99b403dede5
+// Extracted from HabboAirLauncher.deobf.js, line 372637.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/subcontrollers/AbstractChestSubController.as
+// Obfuscated name: _ic6c99b403dede5
 
 class {
   static {

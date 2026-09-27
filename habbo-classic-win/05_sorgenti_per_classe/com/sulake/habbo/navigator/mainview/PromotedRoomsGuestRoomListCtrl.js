@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 255365.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/PromotedRoomsGuestRoomListCtrl.as
-// Nome offuscato: _i2fccd50df58084
+// Extracted from HabboAirLauncher.deobf.js, line 255365.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/PromotedRoomsGuestRoomListCtrl.as
+// Obfuscated name: _i2fccd50df58084
 
 class extends GuestRoomListCtrl {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 273074.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/avatar/additions/MutedBubble.as
-// Nome offuscato: _ie3e46b47c57e8d
+// Extracted from HabboAirLauncher.deobf.js, line 273074.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/avatar/additions/MutedBubble.as
+// Obfuscated name: _ie3e46b47c57e8d
 
 class {
   constructor(e, r) {

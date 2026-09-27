@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 159681.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionUserFigureUpdateEvent.as
-// Nome offuscato: _i84ecaed147b483
+// Extracted from HabboAirLauncher.deobf.js, line 159681.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionUserFigureUpdateEvent.as
+// Obfuscated name: _i84ecaed147b483
 
 class a extends RoomSessionEvent {
   constructor(r, t, i, s, o, d, c = -1, f = !1, l = !1) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 132179.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/ButtonController.as
-// Nome offuscato: _ie1dfea1e537f2f
+// Extracted from HabboAirLauncher.deobf.js, line 132179.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/ButtonController.as
+// Obfuscated name: _ie1dfea1e537f2f
 
 class a extends Ci {
   static {

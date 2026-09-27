@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 271147.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/seasonalcalendar/MainWindow.as
-// Nome offuscato: _i2b00a80b91ec07
+// Extracted from HabboAirLauncher.deobf.js, line 271147.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/seasonalcalendar/MainWindow.as
+// Obfuscated name: _i2b00a80b91ec07
 
 class {
   constructor(e) {

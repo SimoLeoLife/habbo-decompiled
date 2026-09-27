@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 163850.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/hotlooks/HotLooksModel.as
-// Nome offuscato: _i56622745f30543
+// Extracted from HabboAirLauncher.deobf.js, line 163850.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/hotlooks/HotLooksModel.as
+// Obfuscated name: _i56622745f30543
 
 class a extends CategoryBaseModel {
   static {
@@ -46,7 +46,7 @@ class a extends CategoryBaseModel {
     let r = e.manager.communication;
     if (r == null) return;
     ((this._r8798a47ecb9edc = new class_2711(this._rc727bbea23336c)), r._r2e106e2349a0b6(this._r8798a47ecb9edc));
-    let t = new _ic25925ab3f16cf(a.MAXIMUM_HOT_LOOKS);
+    let t = new UnkMessageComposer_1args_c25925(a.MAXIMUM_HOT_LOOKS);
     (r.connection?.send(t), t.dispose());
   }
   _rc727bbea23336c = n((e) => {

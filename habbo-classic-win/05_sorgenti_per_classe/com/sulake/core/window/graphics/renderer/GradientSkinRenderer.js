@@ -1,12 +1,12 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 143065.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/GradientSkinRenderer.as
-// Nome offuscato: _ic9f8c0da247b6d
+// Extracted from HabboAirLauncher.deobf.js, line 143065.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/GradientSkinRenderer.as
+// Obfuscated name: _ic9f8c0da247b6d
 
 class a extends SkinRenderer {
   static {
     n(this, "GradientSkinRenderer");
   }
-  static SHAPE = new _ic6b6cdf3ccea3d();
+  static SHAPE = new UnkClass_c6b6cd();
   static MATRIX = new Pe();
   static _r22bde844bd148a(e) {
     switch (Qb._r99ce61d7783423(e)) {

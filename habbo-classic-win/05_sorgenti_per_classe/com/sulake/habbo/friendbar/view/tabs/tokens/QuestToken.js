@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 211616.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/tabs/tokens/QuestToken.as
-// Nome offuscato: _i2cbb00d171b2fc
+// Extracted from HabboAirLauncher.deobf.js, line 211616.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/tabs/tokens/QuestToken.as
+// Obfuscated name: _i2cbb00d171b2fc
 
 class extends bl {
   static {

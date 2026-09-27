@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 278107.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureParticleSystemParticle.as
-// Nome offuscato: _i07d560c92130db
+// Extracted from HabboAirLauncher.deobf.js, line 278107.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureParticleSystemParticle.as
+// Obfuscated name: _i07d560c92130db
 
 class {
   static {

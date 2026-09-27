@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 280690.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/pet/AnimatedPetVisualization.as
-// Nome offuscato: _i10ea9725fdaead
+// Extracted from HabboAirLauncher.deobf.js, line 280690.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/pet/AnimatedPetVisualization.as
+// Obfuscated name: _i10ea9725fdaead
 
 class a extends Pa {
   static {

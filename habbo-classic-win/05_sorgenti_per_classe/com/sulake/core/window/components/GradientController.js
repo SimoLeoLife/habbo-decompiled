@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 134184.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/GradientController.as
-// Nome offuscato: _ic4d4c879e18e88
+// Extracted from HabboAirLauncher.deobf.js, line 134184.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/GradientController.as
+// Obfuscated name: _ic4d4c879e18e88
 
 class a extends st {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 187681.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/targetedoffers/TargetedOfferPurchaseConfirmationView.as
-// Nome offuscato: _ie0f5889a8cadaa
+// Extracted from HabboAirLauncher.deobf.js, line 187681.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/targetedoffers/TargetedOfferPurchaseConfirmationView.as
+// Obfuscated name: _ie0f5889a8cadaa
 
 class extends OfferView {
   constructor(r, t, i) {

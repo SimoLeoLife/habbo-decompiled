@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 245994.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/messenger/habbicons/MessengerHabbiconPickerSectionView.as
-// Nome offuscato: _ie4ec59dcabcbda
+// Extracted from HabboAirLauncher.deobf.js, line 245994.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/messenger/habbicons/MessengerHabbiconPickerSectionView.as
+// Obfuscated name: _ie4ec59dcabcbda
 
 class a {
   constructor(e, r, t, i, s, o, d, c, f) {

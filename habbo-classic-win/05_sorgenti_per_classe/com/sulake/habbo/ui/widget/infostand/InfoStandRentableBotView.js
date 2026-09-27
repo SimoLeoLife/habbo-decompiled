@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 321695.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/InfoStandRentableBotView.as
-// Nome offuscato: _i829a4b39d5b110
+// Extracted from HabboAirLauncher.deobf.js, line 321695.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/InfoStandRentableBotView.as
+// Obfuscated name: _i829a4b39d5b110
 
 class a {
   static {
@@ -178,7 +178,7 @@ class a {
         t = new RoomWidgetFurniActionMessage(RoomWidgetFurniActionMessage.ROTATE, this.var_4258, RoomObjectCategoryEnum.OBJECT_CATEGORY_USER);
         break;
       case "pick":
-        this.var_17?.roomControllerLevel?.connection?.send(new _ia6b0c0a7ea7024(this.var_1817));
+        this.var_17?.roomControllerLevel?.connection?.send(new class_2983(this.var_1817));
         break;
       default:
         return;

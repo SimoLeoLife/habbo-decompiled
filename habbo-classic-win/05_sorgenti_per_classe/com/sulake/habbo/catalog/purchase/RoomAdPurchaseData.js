@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 194594.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purchase/RoomAdPurchaseData.as
-// Nome offuscato: _i03f8a8bb40f693
+// Extracted from HabboAirLauncher.deobf.js, line 194594.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purchase/RoomAdPurchaseData.as
+// Obfuscated name: _i03f8a8bb40f693
 
 class {
   static {

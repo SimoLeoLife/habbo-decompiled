@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158861.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/NotificationExtraDataKey.as
-// Nome offuscato: _i524b489eaec50c
+// Extracted from HabboAirLauncher.deobf.js, line 158861.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/NotificationExtraDataKey.as
+// Obfuscated name: _i524b489eaec50c
 
 class {
   static {

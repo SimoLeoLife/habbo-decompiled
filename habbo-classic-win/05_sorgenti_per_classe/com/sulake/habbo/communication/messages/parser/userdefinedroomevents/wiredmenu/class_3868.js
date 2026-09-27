@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 109090.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/userdefinedroomevents/wiredmenu/class_3868.as
-// Nome offuscato: _i5e7e870d4d3322
+// Extracted from HabboAirLauncher.deobf.js, line 109090.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/userdefinedroomevents/wiredmenu/class_3868.as
+// Obfuscated name: _i5e7e870d4d3322
 
 class {
     static {

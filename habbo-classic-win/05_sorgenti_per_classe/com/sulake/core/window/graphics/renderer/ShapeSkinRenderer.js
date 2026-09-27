@@ -1,12 +1,12 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 143206.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/ShapeSkinRenderer.as
-// Nome offuscato: _ice64ff55039033
+// Extracted from HabboAirLauncher.deobf.js, line 143206.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/ShapeSkinRenderer.as
+// Obfuscated name: _ice64ff55039033
 
 class a extends SkinRenderer {
   static {
     n(this, "ShapeSkinRenderer");
   }
-  static SHAPE = new _ic6b6cdf3ccea3d();
+  static SHAPE = new UnkClass_c6b6cd();
   static alphaFromColor(e) {
     let r = (e >>> 24) & 255;
     return r === 0 ? 1 : r / 255;

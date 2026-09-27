@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 370450.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/WiredConfigurationCache.as
-// Nome offuscato: _i5c407d1021aa91
+// Extracted from HabboAirLauncher.deobf.js, line 370450.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/WiredConfigurationCache.as
+// Obfuscated name: _i5c407d1021aa91
 
 class {
   constructor(e, r, t, i, s, o, d, c, f, l) {

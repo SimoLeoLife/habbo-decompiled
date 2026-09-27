@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 208969.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/PromoArticleWidget.as
-// Nome offuscato: _i9ee91d89a6a997
+// Extracted from HabboAirLauncher.deobf.js, line 208969.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/PromoArticleWidget.as
+// Obfuscated name: _i9ee91d89a6a997
 
 class a {
   constructor(e) {
@@ -27,14 +27,14 @@ class a {
     ((this._container = this._landingView?.getXmlWindow("promo_article")),
       (this._container.procedure = this._r622b90012afaf3),
       this._landingView?._rf3db13932bfb60?._r2e106e2349a0b6(
-        new _i1e9bcb2c9b9557((e) => {
+        new UnkMessageEvent_1e9bcb((e) => {
           this._r00d81bd5bd670a(e);
         }),
       ));
   }
   refresh() {
     this._lastRequestTime == null || this._lastRequestTime.getTime() + a.REFRESH_PERIOD_IN_MILLIS < Date.now()
-      ? (this._landingView?.send(new _i96e8617361a17f()), (this._lastRequestTime = new Date()))
+      ? (this._landingView?.send(new UnkMessageComposer_0args_96e861()), (this._lastRequestTime = new Date()))
       : this._r332303f814b0e9(this.var_901);
   }
   dispose() {
@@ -133,7 +133,7 @@ class a {
     t != null && (t.assetUri = "progress_disk_flat_" + (r ? "on" : "off"));
   }
   _r00d81bd5bd670a(e) {
-    let r = ClassUtils.getParser(e, _i0cbfc08e84842c);
+    let r = ClassUtils.getParser(e, UnkMessageParser_I_0cbfc0);
     r != null && ((this._r84bb29e42ffe06 = r?._r444b83e39f0578 ?? []), this.refresh());
   }
   setBlend(e) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145276.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/PerksUpdatedEvent.as
-// Nome offuscato: _i0c6f2d34549ee1
+// Extracted from HabboAirLauncher.deobf.js, line 145276.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/PerksUpdatedEvent.as
+// Obfuscated name: _i0c6f2d34549ee1
 
 class a extends M {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 355424.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/misc/SelfDonationTool.as
-// Nome offuscato: _ic27a20e22b5c65
+// Extracted from HabboAirLauncher.deobf.js, line 355424.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/misc/SelfDonationTool.as
+// Obfuscated name: _ic27a20e22b5c65
 
 class a extends ue {
   static {

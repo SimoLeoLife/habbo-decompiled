@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 184810.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purchase/GiftWrappingConfiguration.as
-// Nome offuscato: _i244071ff3d6929
+// Extracted from HabboAirLauncher.deobf.js, line 184810.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purchase/GiftWrappingConfiguration.as
+// Obfuscated name: _i244071ff3d6929
 
 class {
   static {

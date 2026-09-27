@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 249183.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/IssueCategoryNames.as
-// Nome offuscato: _i06a65cfb54e6aa
+// Extracted from HabboAirLauncher.deobf.js, line 249183.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/IssueCategoryNames.as
+// Obfuscated name: _i06a65cfb54e6aa
 
 class {
   static {

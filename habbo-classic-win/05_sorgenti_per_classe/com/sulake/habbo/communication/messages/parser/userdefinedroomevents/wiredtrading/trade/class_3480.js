@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 110515.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/userdefinedroomevents/wiredtrading/trade/class_3480.as
-// Nome offuscato: _ib7ededf06bdea2
+// Extracted from HabboAirLauncher.deobf.js, line 110515.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/userdefinedroomevents/wiredtrading/trade/class_3480.as
+// Obfuscated name: _ib7ededf06bdea2
 
 class {
     static {

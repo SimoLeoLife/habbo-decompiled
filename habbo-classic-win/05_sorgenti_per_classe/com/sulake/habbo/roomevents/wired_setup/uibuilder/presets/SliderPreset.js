@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 349376.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/SliderPreset.as
-// Nome offuscato: _i06979cb8998f90
+// Extracted from HabboAirLauncher.deobf.js, line 349376.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/SliderPreset.as
+// Obfuscated name: _i06979cb8998f90
 
 class extends WiredUIPreset {
   static {
@@ -15,7 +15,7 @@ class extends WiredUIPreset {
   _re7a03a855dfd32(e = 0, r = 1, t = 0) {
     this._container = this.var_102._rd65848eed931f7("container_view");
     let i = this.var_40.createSlider();
-    ((this.var_1324 = new _i07892605d121d3(i, e, r, t)),
+    ((this.var_1324 = new UnkClass_078926(i, e, r, t)),
       (this.var_295 = this.var_102.createSimpleListView(
         !1,
         [

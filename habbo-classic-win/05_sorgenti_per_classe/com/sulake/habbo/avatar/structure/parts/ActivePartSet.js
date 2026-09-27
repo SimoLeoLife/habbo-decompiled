@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 170508.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/structure/parts/ActivePartSet.as
-// Nome offuscato: _ibdbcb98261ec17
+// Extracted from HabboAirLauncher.deobf.js, line 170508.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/structure/parts/ActivePartSet.as
+// Obfuscated name: _ibdbcb98261ec17
 
 class {
   static {

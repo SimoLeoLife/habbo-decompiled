@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 157376.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/login/LoginFlow.as
-// Nome offuscato: _i5695b26dc75860
+// Extracted from HabboAirLauncher.deobf.js, line 157376.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/login/LoginFlow.as
+// Obfuscated name: _i5695b26dc75860
 
 class a extends Sprite {
   static {
@@ -77,19 +77,19 @@ class a extends Sprite {
   }
   init() {
     (this.stage?.addEventListener(M.RESIZE, this._r588b2eaeb4bbc6),
-      (this._background = new _ie651c9eb502c8d()),
+      (this._background = new UnkSpriteSubclass_e651c9()),
       this.addChild(this._background),
-      (this.var_1502 = new _i3a5c6f457acdad()),
+      (this.var_1502 = new UnkClass_3a5c6f()),
       (this.var_1502.visible = !1),
       (this.var_1502.alpha = 0),
       this.addChild(this.var_1502),
-      (this.var_1204 = new _i3a5c6f457acdad()),
+      (this.var_1204 = new UnkClass_3a5c6f()),
       (this.var_1204.visible = !1),
       (this.var_1204.alpha = 0),
       this.addChild(this.var_1204),
       (this._mainSprite = new Sprite()),
       this.addChild(this._mainSprite));
-    let e = new _i3a5c6f457acdad(_i4406f2f280a16f("logo_new_png"));
+    let e = new UnkClass_3a5c6f(_i4406f2f280a16f("logo_new_png"));
     ((e.x = 40),
       (e.y = 40),
       this._mainSprite.addChild(e),
@@ -178,9 +178,9 @@ class a extends Sprite {
         this._r421d24ba625fb2.addChild(this.var_298),
         (this.var_298.x = 300),
         (this.var_298.y = 300),
-        (this.var_298.filters = [new _ibaf84c0aa91c5d(0, 0.24, 6, 6)]));
+        (this.var_298.filters = [new UnkClass_baf84c(0, 0.24, 6, 6)]));
     }
-    let r = new _i05394ecc0c0c4d(3e3, 1);
+    let r = new UnkEventDispatcherWrapperSubclass_05394e(3e3, 1);
     (r.addEventListener(DeBouncer._rf33144eac61595, this._r106b2b823d02dc),
       r.start(),
       (this.var_298.visible = !0));

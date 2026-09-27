@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 66671.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/utils/PropertyStruct.as
-// Nome offuscato: _ide8f943fa9d728
+// Extracted from HabboAirLauncher.deobf.js, line 66671.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/utils/PropertyStruct.as
+// Obfuscated name: _ide8f943fa9d728
 
 class a {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 345389.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/CheckboxGroupPreset.as
-// Nome offuscato: _i7e920d97f8f502
+// Extracted from HabboAirLauncher.deobf.js, line 345389.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/CheckboxGroupPreset.as
+// Obfuscated name: _i7e920d97f8f502
 
 class extends WiredUIPreset {
   static {

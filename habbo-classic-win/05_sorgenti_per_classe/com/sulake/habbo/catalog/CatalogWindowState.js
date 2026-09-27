@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 173431.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/CatalogWindowState.as
-// Nome offuscato: _i48e7560160014c
+// Extracted from HabboAirLauncher.deobf.js, line 173431.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/CatalogWindowState.as
+// Obfuscated name: _i48e7560160014c
 
 class {
   constructor(e) {

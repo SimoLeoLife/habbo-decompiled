@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 163735.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/wardrobe/Outfit.as
+// Extracted from HabboAirLauncher.deobf.js, line 163735.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/wardrobe/Outfit.as
 
 class a {
   static {

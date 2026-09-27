@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 131817.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/BubbleController.as
-// Nome offuscato: _ide4ab5cc23fc08
+// Extracted from HabboAirLauncher.deobf.js, line 131817.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/BubbleController.as
+// Obfuscated name: _ide4ab5cc23fc08
 
 class extends oj {
     static {

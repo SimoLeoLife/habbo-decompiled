@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 243620.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/wired_trading/requirements/offerings/OfferingNodeView.as
-// Nome offuscato: _iecb8bc72b6c8e8
+// Extracted from HabboAirLauncher.deobf.js, line 243620.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/wired_trading/requirements/offerings/OfferingNodeView.as
+// Obfuscated name: _iecb8bc72b6c8e8
 
 class {
   constructor(e) {
@@ -56,7 +56,7 @@ class {
       e.type === xn.TYPE_FURNI && e.itemType != null)
     ) {
       let r = this.furniIcon?.widget;
-      r != null && (r.productInfo = new _i27028f939050ee(e.itemType));
+      r != null && (r.productInfo = new UnkClass_27028f_(e.itemType));
     }
   }
   get andText() {

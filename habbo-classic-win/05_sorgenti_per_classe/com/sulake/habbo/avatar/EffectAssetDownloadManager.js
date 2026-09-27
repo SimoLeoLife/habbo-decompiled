@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 171090.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/EffectAssetDownloadManager.as
-// Nome offuscato: _i423e47e91528fd
+// Extracted from HabboAirLauncher.deobf.js, line 171090.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/EffectAssetDownloadManager.as
+// Obfuscated name: _i423e47e91528fd
 
 class a extends Ft {
   static {
@@ -33,7 +33,7 @@ class a extends Ft {
       (this._r2750dc1950553f = r),
       (this._r53b60ca050aed0 = t),
       (this._raeb8256c532c88 = s));
-    let o = new _i636490202c0f9a(this._r2750dc1950553f),
+    let o = new UnkClass_636490(this._r2750dc1950553f),
       d = this._assets.getAssetByName("effectmap");
     if (d == null)
       ((this.getAssetByName = this._assets.loadAssetFromFile("effectmap", o, "text/xml")),
@@ -42,7 +42,7 @@ class a extends Ft {
       let f = d;
       this._r944ae0381929d5(_i2de4077bf0631e_(f.content));
     }
-    ((this._rd952d4671036f6 = new _i05394ecc0c0c4d(a.DOWNLOAD_TIMEOUT, 1)),
+    ((this._rd952d4671036f6 = new UnkEventDispatcherWrapperSubclass_05394e(a.DOWNLOAD_TIMEOUT, 1)),
       this._rd952d4671036f6.addEventListener(DeBouncer._rf33144eac61595, this._r8e407fc9562407));
     let c = _i95c9afafe85a6a_(this.var_71._r298e6c07107d27);
     c != null &&
@@ -78,7 +78,7 @@ class a extends Ft {
       ? `${this._r2750dc1950553f}&retry=${this.var_2504}`
       : `${this._r2750dc1950553f}?retry=${this.var_2504}`;
     (this._r9eec9c715ab41c(),
-      (this.getAssetByName = this._assets.loadAssetFromFile("effectmap", new _i636490202c0f9a(r), "text/xml")),
+      (this.getAssetByName = this._assets.loadAssetFromFile("effectmap", new UnkClass_636490(r), "text/xml")),
       this._rb7b5799dd17338());
   }, "onConfigurationError");
   _r944ae0381929d5(e) {
@@ -119,7 +119,7 @@ class a extends Ft {
       }
     for (let s of i) this._rd27a2c0426c752.delete(s);
     ((this._rb520fb44401706 = this._rb520fb44401706.filter((s) => s.name !== r.name)),
-      i.length > 0 && this.dispatchEvent(new _i370608800c92e4(a.LIBRARY_LOADED, r.name)),
+      i.length > 0 && this.dispatchEvent(new UnkClass_370608(a.LIBRARY_LOADED, r.name)),
       this._rd952d4671036f6.start());
   }, "_r311242dd72a3c4");
   isReady(e) {

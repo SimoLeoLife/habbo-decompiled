@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 218142.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/utils/Location3D.as
-// Nome offuscato: _i6dea7346fe87fa
+// Extracted from HabboAirLauncher.deobf.js, line 218142.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/utils/Location3D.as
+// Obfuscated name: _i6dea7346fe87fa
 
 class a {
   constructor(e, r, t) {

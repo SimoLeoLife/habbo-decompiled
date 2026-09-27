@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 356055.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_variable_overview/VariableInfoBubbleView.as
-// Nome offuscato: _i50e092fba08e38
+// Extracted from HabboAirLauncher.deobf.js, line 356055.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_variable_overview/VariableInfoBubbleView.as
+// Obfuscated name: _i50e092fba08e38
 
 class a {
   constructor(e) {
@@ -26,7 +26,7 @@ class a {
   var_5708 = !1;
   _window;
   var_3030 = 0;
-  var_2209 = new _i5ebf87fd288769(a.const_378);
+  var_2209 = new UnkClass_5ebf87(a.const_378);
   get disposed() {
     return this._disposed;
   }

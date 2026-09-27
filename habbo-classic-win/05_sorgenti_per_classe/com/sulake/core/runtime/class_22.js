@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 59236.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/class_22.as
+// Extracted from HabboAirLauncher.deobf.js, line 59236.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/class_22.as
 
 class extends ue {
   static {
@@ -104,7 +104,7 @@ class extends ue {
       for (let I of v.toArray()) {
         let C = String(I.attribute("iid")),
           W = i._r4e63c263d0980d(C) ?? _i7f1bba5bd96056(C);
-        if (W == null) throw new _i430720d696adff(`Identifier class defined in manifest not found: ${C}`);
+        if (W == null) throw new UnkInterface_430720(`Identifier class defined in manifest not found: ${C}`);
         let R = new W();
         (m.interfaceStructList.find(R) == null && m.interfaceStructList.insert(new InterfaceStruct(R, m)), w.push(R));
       }
@@ -203,7 +203,7 @@ class extends ue {
   }
   _r857f8cd3b5d604(e, r) {
     let t = this._rb9d97a001fb579(e);
-    (t == null && ((t = new _ibe1a06f8d5008c(e)), this.IUnknown.push(t)), t._rdf05bff2ee8312.unshift(r));
+    (t == null && ((t = new UnkClass_be1a06(e)), this.IUnknown.push(t)), t._rdf05bff2ee8312.unshift(r));
   }
   hasQueueForInterface(e) {
     return this._rb9d97a001fb579(e) != null;

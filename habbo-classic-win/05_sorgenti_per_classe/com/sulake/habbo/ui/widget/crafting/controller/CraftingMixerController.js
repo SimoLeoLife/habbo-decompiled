@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 313156.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/controller/CraftingMixerController.as
-// Nome offuscato: _i1195931c9dfcca
+// Extracted from HabboAirLauncher.deobf.js, line 313156.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/controller/CraftingMixerController.as
+// Obfuscated name: _i1195931c9dfcca
 
 class a extends CraftingGridControllerBase {
   static {

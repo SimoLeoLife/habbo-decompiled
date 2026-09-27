@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 181634.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/messages/RoomObjectRoomMaskUpdateMessage.as
-// Nome offuscato: _ib431640e8dfe73
+// Extracted from HabboAirLauncher.deobf.js, line 181634.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/messages/RoomObjectRoomMaskUpdateMessage.as
+// Obfuscated name: _ib431640e8dfe73
 
 class a extends RoomObjectUpdateMessage {
   constructor(r, t, i = null, s = null, o = a.MASK_CATEGORY_WINDOW) {

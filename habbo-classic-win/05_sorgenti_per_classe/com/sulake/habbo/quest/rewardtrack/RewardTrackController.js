@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 268181.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/RewardTrackController.as
-// Nome offuscato: _ia19d659f55b043
+// Extracted from HabboAirLauncher.deobf.js, line 268181.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/RewardTrackController.as
+// Obfuscated name: _ia19d659f55b043
 
 class a extends ue {
   constructor(r, t, i = 0, s = null) {
@@ -70,10 +70,10 @@ class a extends ue {
       (this.var_990 = s));
   }
   _rdac072a48a0313(r, t) {
-    this.send(new _i47dc6f879948bc(r, t));
+    this.send(new UnkMessageComposer_2args_47dc6f(r, t));
   }
   _r5f3759470c78bf(r) {
-    this.send(new _i1bfda9f3049c99(r));
+    this.send(new UnkMessageComposer_1args_1bfda9(r));
   }
   get _ra5fbf8bddad7bd() {
     return (

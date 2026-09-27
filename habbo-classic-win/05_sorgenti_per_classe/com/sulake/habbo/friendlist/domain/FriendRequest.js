@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 213268.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/domain/FriendRequest.as
-// Nome offuscato: _i6b3f2f1d33d729
+// Extracted from HabboAirLauncher.deobf.js, line 213268.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/domain/FriendRequest.as
+// Obfuscated name: _i6b3f2f1d33d729
 
 class {
   constructor(e, r, t) {

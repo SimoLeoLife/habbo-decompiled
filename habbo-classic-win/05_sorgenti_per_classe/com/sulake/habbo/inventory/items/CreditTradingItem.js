@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 237220.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/items/CreditTradingItem.as
-// Nome offuscato: _i8bd67609db18c3
+// Extracted from HabboAirLauncher.deobf.js, line 237220.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/items/CreditTradingItem.as
+// Obfuscated name: _i8bd67609db18c3
 
 class a extends cQ {
   constructor(r, t, i, s) {

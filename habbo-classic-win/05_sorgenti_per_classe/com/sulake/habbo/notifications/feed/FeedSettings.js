@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 261847.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/feed/FeedSettings.as
-// Nome offuscato: _i8ee8ccf6cafba7
+// Extracted from HabboAirLauncher.deobf.js, line 261847.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/feed/FeedSettings.as
+// Obfuscated name: _i8ee8ccf6cafba7
 
 class a {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 163568.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/head/HeadView.as
-// Nome offuscato: _if8e508155bce7a
+// Extracted from HabboAirLauncher.deobf.js, line 163568.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/head/HeadView.as
+// Obfuscated name: _if8e508155bce7a
 
 class extends CategoryBaseView {
   static {

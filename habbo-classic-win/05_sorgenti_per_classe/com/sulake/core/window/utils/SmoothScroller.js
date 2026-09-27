@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 138404.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/utils/SmoothScroller.as
-// Nome offuscato: _i1635eb591ccb31
+// Extracted from HabboAirLauncher.deobf.js, line 138404.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/utils/SmoothScroller.as
+// Obfuscated name: _i1635eb591ccb31
 
 class a {
   static {
@@ -49,7 +49,7 @@ class a {
       (this.var_3244 = t));
     let l = 1e3 / s;
     ((this._r06cc16a865bd86 = l),
-      (this._r0239e60d39b45b = new _i05394ecc0c0c4d(l)),
+      (this._r0239e60d39b45b = new UnkEventDispatcherWrapperSubclass_05394e(l)),
       this._r0239e60d39b45b.addEventListener(DeBouncer.addEventListener, this._r50327d02f32b1a));
   }
   dispose() {

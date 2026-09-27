@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 251897.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/domain/NavigatorData.as
-// Nome offuscato: _i70590f4ef2a6de
+// Extracted from HabboAirLauncher.deobf.js, line 251897.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/domain/NavigatorData.as
+// Obfuscated name: _i70590f4ef2a6de
 
 class {
   constructor(e) {
@@ -36,7 +36,7 @@ class {
   _rbd5056f74cdce6 = 0;
   _r61b8f1c4cb1248 = null;
   _rec5aece80b807b = null;
-  _friendList = new _i844c8afb8fa2f2();
+  _friendList = new UnkClass_844c8a();
   _r1f79efdc17b8a0 = null;
   _r88ae272e237517 = null;
   get _r88d864d5d2406e() {
@@ -74,10 +74,10 @@ class {
     return this._r0aa5250451451e instanceof class_2979;
   }
   get _r2f1b8d0154c68e() {
-    return this._r0aa5250451451e instanceof _idb49467932f555;
+    return this._r0aa5250451451e instanceof UnkClass_db4946;
   }
   get _r9096f7d9d00725() {
-    return this._r0aa5250451451e instanceof _i058c8fa2782593;
+    return this._r0aa5250451451e instanceof UnkClass_058c8f;
   }
   set _rf09e8697962ff2(e) {
     (this._rab759f6049bfa3(),

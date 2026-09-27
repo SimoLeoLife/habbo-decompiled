@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 150426.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/PixelLimitWidget.as
-// Nome offuscato: _i4f79d3ef333a5e
+// Extracted from HabboAirLauncher.deobf.js, line 150426.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/PixelLimitWidget.as
+// Obfuscated name: _i4f79d3ef333a5e
 
 class a {
   constructor(e, r) {

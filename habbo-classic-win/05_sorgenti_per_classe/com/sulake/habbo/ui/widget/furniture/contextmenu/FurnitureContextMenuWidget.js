@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 316025.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/contextmenu/FurnitureContextMenuWidget.as
-// Nome offuscato: _i487e6e30b32bd2
+// Extracted from HabboAirLauncher.deobf.js, line 316025.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/contextmenu/FurnitureContextMenuWidget.as
+// Obfuscated name: _i487e6e30b32bd2
 
 class extends RoomWidgetBase {
   constructor(r, t, i, s, o, d, c, f) {

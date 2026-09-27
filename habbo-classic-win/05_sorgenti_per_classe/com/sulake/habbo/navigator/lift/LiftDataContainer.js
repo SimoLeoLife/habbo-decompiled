@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 259164.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/lift/LiftDataContainer.as
-// Nome offuscato: _if790d16aadf797
+// Extracted from HabboAirLauncher.deobf.js, line 259164.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/lift/LiftDataContainer.as
+// Obfuscated name: _if790d16aadf797
 
 class a {
   static {

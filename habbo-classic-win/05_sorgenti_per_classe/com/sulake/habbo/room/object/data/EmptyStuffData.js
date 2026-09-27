@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 82328.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/data/EmptyStuffData.as
-// Nome offuscato: _ie1761d79957a32
+// Extracted from HabboAirLauncher.deobf.js, line 82328.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/data/EmptyStuffData.as
+// Obfuscated name: _ie1761d79957a32
 
 class extends class_1944 {
   static {

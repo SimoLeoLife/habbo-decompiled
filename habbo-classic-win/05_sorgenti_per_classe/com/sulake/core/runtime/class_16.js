@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 58899.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/class_16.as
+// Extracted from HabboAirLauncher.deobf.js, line 58899.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/class_16.as
 
 class a {
   static {
@@ -172,7 +172,7 @@ class a {
     this._locked = !0;
   }
   unlock() {
-    this._locked && ((this._locked = !1), this._events.dispatchEvent(new _if13968b73ff406(a.INTERNAL_EVENT_UNLOCKED, this)));
+    this._locked && ((this._locked = !1), this._events.dispatchEvent(new UnkClass_f13968(a.INTERNAL_EVENT_UNLOCKED, this)));
   }
   injectDependency(e, r, t, i) {
     t && (this._requiredDependencyCount += 1);

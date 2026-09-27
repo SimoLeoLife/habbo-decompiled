@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 214937.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/FriendListTabsView.as
-// Nome offuscato: _i13a68c8bca97be
+// Extracted from HabboAirLauncher.deobf.js, line 214937.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/FriendListTabsView.as
+// Obfuscated name: _i13a68c8bca97be
 
 class {
   static {
@@ -36,7 +36,7 @@ class {
     ((this._content.height = t + 1), r != null && (r.height = this._content.height));
   }
   isTabVisible(e) {
-    return e !== _ia4c17117df4f10._rfadb4d8e33d276 ? !0 : this._friendList.friendRequests.requests.length > 0;
+    return e !== UnkConstants_a4c171._rfadb4d8e33d276 ? !0 : this._friendList.friendRequests.requests.length > 0;
   }
   refreshTabContent(e, r) {
     e.selected
@@ -50,7 +50,7 @@ class {
     ((t.width = this._friendList.tabs._rd21db78adaafd6),
       this.showBgImage(t, e.newMessageArrived, "hdr_hilite"),
       this.showBgImage(t, !e.newMessageArrived, e.headerPicName));
-    let i = e.id === _ia4c17117df4f10._ra8c8b3cdc9c268 && !e.newMessageArrived;
+    let i = e.id === UnkConstants_a4c171._ra8c8b3cdc9c268 && !e.newMessageArrived;
     return (
       this.refreshArrowIcon(t, "arrow_down_black", e.selected && i, 12),
       this.refreshArrowIcon(t, "arrow_right_black", !e.selected && i, 15),
@@ -101,13 +101,13 @@ class {
         t.selected)
       )
         switch (t.id) {
-          case _ia4c17117df4f10._ra8c8b3cdc9c268:
+          case UnkConstants_a4c171._ra8c8b3cdc9c268:
             this._friendList._rb80d77cf35b167(HabboFriendListTrackingEvent.HABBO_FRIENDLIST_TRACKING_EVENT_FRIENDS);
             break;
-          case _ia4c17117df4f10.SearchView:
+          case UnkConstants_a4c171.SearchView:
             this._friendList._rb80d77cf35b167(HabboFriendListTrackingEvent.HABBO_FRIENDLIST_TRACKING_EVENT_SEARCH);
             break;
-          case _ia4c17117df4f10._rfadb4d8e33d276:
+          case UnkConstants_a4c171._rfadb4d8e33d276:
             this._friendList._rb80d77cf35b167(HabboFriendListTrackingEvent.HABBO_FRIENDLIST_TRACKING_EVENT_REQUEST);
             break;
         }

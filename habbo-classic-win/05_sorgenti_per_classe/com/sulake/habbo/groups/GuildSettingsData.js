@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 226460.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/GuildSettingsData.as
-// Nome offuscato: _i6c8daec45d46d8
+// Extracted from HabboAirLauncher.deobf.js, line 226460.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/GuildSettingsData.as
+// Obfuscated name: _i6c8daec45d46d8
 
 class a {
   static {

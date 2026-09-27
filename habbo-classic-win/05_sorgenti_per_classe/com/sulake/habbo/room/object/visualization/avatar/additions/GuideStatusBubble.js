@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 273032.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/avatar/additions/GuideStatusBubble.as
-// Nome offuscato: _ie98f7f86fd3c3a
+// Extracted from HabboAirLauncher.deobf.js, line 273032.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/avatar/additions/GuideStatusBubble.as
+// Obfuscated name: _ie98f7f86fd3c3a
 
 class {
   constructor(e, r, t) {
@@ -29,7 +29,7 @@ class {
     let t = -19,
       i = -120,
       s = 64,
-      o = this._status === _i3dbacb638b8f29.GUIDE ? "user_guide_bubble_png" : "user_guide_requester_bubble_png";
+      o = this._status === UnkConstants_3dbacb.GUIDE ? "user_guide_bubble_png" : "user_guide_requester_bubble_png";
     (r < 48
       ? ((this._asset = this.var_204.getAvatarRendererAsset(o)), (i = -80), (s = 32))
       : (this._asset = this.var_204.getAvatarRendererAsset(o)),

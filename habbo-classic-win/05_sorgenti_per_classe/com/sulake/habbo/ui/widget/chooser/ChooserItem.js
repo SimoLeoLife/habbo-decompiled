@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 330960.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chooser/ChooserItem.as
-// Nome offuscato: _i45b84ce927bac1
+// Extracted from HabboAirLauncher.deobf.js, line 330960.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chooser/ChooserItem.as
+// Obfuscated name: _i45b84ce927bac1
 
 class {
   constructor(e, r, t, i = null, s = Number.NaN) {

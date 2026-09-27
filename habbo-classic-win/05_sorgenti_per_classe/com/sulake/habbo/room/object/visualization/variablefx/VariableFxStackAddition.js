@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 274194.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/VariableFxStackAddition.as
-// Nome offuscato: _i82e02fb29d8d0f
+// Extracted from HabboAirLauncher.deobf.js, line 274194.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/VariableFxStackAddition.as
+// Obfuscated name: _i82e02fb29d8d0f
 
 class a {
   constructor(e, r, t, i, s) {

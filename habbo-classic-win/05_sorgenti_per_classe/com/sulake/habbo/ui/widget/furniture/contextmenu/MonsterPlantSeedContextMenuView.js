@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 315764.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/contextmenu/MonsterPlantSeedContextMenuView.as
-// Nome offuscato: _i9a000fc5ada44f
+// Extracted from HabboAirLauncher.deobf.js, line 315764.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/contextmenu/MonsterPlantSeedContextMenuView.as
+// Obfuscated name: _i9a000fc5ada44f
 
 class extends FurnitureContextInfoView {
   static {

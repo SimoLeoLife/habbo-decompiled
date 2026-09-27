@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 166979.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/cache/AvatarImageCache.as
-// Nome offuscato: _i7c398bc4617959
+// Extracted from HabboAirLauncher.deobf.js, line 166979.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/cache/AvatarImageCache.as
+// Obfuscated name: _i7c398bc4617959
 
 class a {
   static {
@@ -32,7 +32,7 @@ class a {
   _disposed = !1;
   _rc604edc1dba7c1 = "";
   _r683aa0c86003b5 = [];
-  var_536 = new _i4210dc3239901d();
+  var_536 = new UnkClass_4210dc();
   _matrix = new Pe();
   _rd292a995e4fb4f = [];
   _rcd2100b71df583 = !1;
@@ -157,7 +157,7 @@ class a {
     }
     let _ = d ?? c,
       h = i.getActionCache(_);
-    (h == null || t) && ((h = new _i14a6ddc910d740()), i.updateActionCache(_, h));
+    (h == null || t) && ((h = new UnkClass_14a6dd()), i.updateActionCache(_, h));
     let p = h.getDirectionCache(s);
     if (p == null || t) {
       let w =
@@ -228,7 +228,7 @@ class a {
     }
     let _ = d ?? c,
       h = i.getActionCache(_);
-    (h == null || t) && ((h = new _i14a6ddc910d740()), i.updateActionCache(_, h));
+    (h == null || t) && ((h = new UnkClass_14a6dd()), i.updateActionCache(_, h));
     let p = h.getDirectionCache(s);
     if (p == null || t) {
       let w =
@@ -334,7 +334,7 @@ class a {
       let Y = S.offset.clone();
       T && (Y.x += this._scale === fr.LARGE ? 65 : 31);
       let oe = null;
-      if (($ && ((oe = new _i4210dc3239901d()), oe.concat(this.var_536)), s)) {
+      if (($ && ((oe = new UnkClass_4210dc()), oe.concat(this.var_536)), s)) {
         let be = new RoomObjectSpriteData();
         ((be.name = this._assets?.getAssetName(z) ?? z),
           (be.x = -Y.x - 33),
@@ -499,7 +499,7 @@ class a {
       (r.length = 0),
       r._re022be858f506c(e),
       (this._r3f8675978142d5 = r.toString()),
-      (this._rf34a761d5c74f6 = _ib619bfd98fe9f2.as({
+      (this._rf34a761d5c74f6 = UnkClass_b619bf.as({
         value: this._assets?.getAssetByName(this._r3f8675978142d5) ?? null,
         _r35f8c7df03c28f: Qt,
       })),

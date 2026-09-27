@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 166310.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/HabboAvatarEditorManager.as
-// Nome offuscato: _i30bead01dcfe00
+// Extracted from HabboAirLauncher.deobf.js, line 166310.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/HabboAvatarEditorManager.as
+// Obfuscated name: _i30bead01dcfe00
 
 class a extends ue {
   static {
@@ -113,17 +113,17 @@ class a extends ue {
     let r = this._editors.get(e) ?? null;
     if (r != null)
       switch (
-        (e !== _ic723960da8d613._r565a0d8736f4c5 &&
+        (e !== UnkConstants_c72396._r565a0d8736f4c5 &&
           (r.figureData.isDevelopmentEditor = this._inventory?._rdfb32624fb120f() ?? -1),
         e)
       ) {
-        case _ic723960da8d613._r4a110ddb22fcf1:
+        case UnkConstants_c72396._r4a110ddb22fcf1:
           r.hide();
           break;
-        case _ic723960da8d613._r774d79858ea450:
+        case UnkConstants_c72396._r774d79858ea450:
           (r.hide(), r.dispose(), this._editors.delete(e));
           break;
-        case _ic723960da8d613._r4f1413f491072c:
+        case UnkConstants_c72396._r4f1413f491072c:
           break;
         default:
           (r.dispose(), this._editors.delete(e));
@@ -170,8 +170,8 @@ class a extends ue {
     if (!(r.length < 2))
       switch (r[1]) {
         case "open":
-          (this._rdaf967f79ea08a(_ic723960da8d613._r4a110ddb22fcf1, null, null, !0),
-            this._rb825ef6be7b35c(_ic723960da8d613._r4a110ddb22fcf1));
+          (this._rdaf967f79ea08a(UnkConstants_c72396._r4a110ddb22fcf1, null, null, !0),
+            this._rb825ef6be7b35c(UnkConstants_c72396._r4a110ddb22fcf1));
           break;
       }
   }

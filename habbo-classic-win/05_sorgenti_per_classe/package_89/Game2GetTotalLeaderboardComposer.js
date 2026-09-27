@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 116155.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_89/Game2GetTotalLeaderboardComposer.as
-// Nome offuscato: _i309273511a430e
+// Extracted from HabboAirLauncher.deobf.js, line 116155.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_89/Game2GetTotalLeaderboardComposer.as
+// Obfuscated name: _i309273511a430e
 
 class {
     static {

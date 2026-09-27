@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 169964.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/geometry/AvatarModelGeometry.as
-// Nome offuscato: _i4348b05dcf4229
+// Extracted from HabboAirLauncher.deobf.js, line 169964.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/geometry/AvatarModelGeometry.as
+// Obfuscated name: _i4348b05dcf4229
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 164516.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/wardrobe/WardrobeSlot.as
-// Nome offuscato: _i8fd91e4e86cace
+// Extracted from HabboAirLauncher.deobf.js, line 164516.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/wardrobe/WardrobeSlot.as
+// Obfuscated name: _i8fd91e4e86cace
 
 class a {
   static {

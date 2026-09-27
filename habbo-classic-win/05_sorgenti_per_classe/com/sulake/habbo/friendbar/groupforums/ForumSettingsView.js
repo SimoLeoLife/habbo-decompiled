@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 204747.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/ForumSettingsView.as
-// Nome offuscato: _ib94d9beacd8e1f
+// Extracted from HabboAirLauncher.deobf.js, line 204747.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/ForumSettingsView.as
+// Obfuscated name: _ib94d9beacd8e1f
 
 class a {
   static {

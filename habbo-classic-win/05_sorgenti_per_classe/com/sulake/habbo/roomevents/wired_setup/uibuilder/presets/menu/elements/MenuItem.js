@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 352461.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/menu/elements/MenuItem.as
-// Nome offuscato: _ibdaa08d0b75d60
+// Extracted from HabboAirLauncher.deobf.js, line 352461.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/menu/elements/MenuItem.as
+// Obfuscated name: _ibdaa08d0b75d60
 
 class {
   constructor(e, r, t = "", i = !1, s = null) {

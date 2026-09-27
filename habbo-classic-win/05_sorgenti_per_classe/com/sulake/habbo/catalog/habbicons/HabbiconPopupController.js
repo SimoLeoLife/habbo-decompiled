@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 178712.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconPopupController.as
-// Nome offuscato: _i926aed7e9b3be6
+// Extracted from HabboAirLauncher.deobf.js, line 178712.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconPopupController.as
+// Obfuscated name: _i926aed7e9b3be6
 
 class a {
   constructor(e, r, t, i, s, o, d) {
@@ -74,15 +74,15 @@ class a {
     !r ||
       !r.stage ||
       ((this._r448919959a600d = r.stage),
-      this._r448919959a600d.addEventListener(_ifd7c1208e3417e._r9001c395573374, this._r7f8d9b7004c633, !1, 0, !0),
-      this._r448919959a600d.addEventListener(_ifd7c1208e3417e._r8ea9e83cdee875, this._r7bc2ddb4199ad4, !0, 0, !0),
+      this._r448919959a600d.addEventListener(UnkClass_fd7c12._r9001c395573374, this._r7f8d9b7004c633, !1, 0, !0),
+      this._r448919959a600d.addEventListener(UnkClass_fd7c12._r8ea9e83cdee875, this._r7bc2ddb4199ad4, !0, 0, !0),
       (this._re5c7638865acc2 = !0));
   }
   _re1efbc43736f2a() {
     (this._re5c7638865acc2 &&
       this._r448919959a600d &&
-      (this._r448919959a600d.removeEventListener(_ifd7c1208e3417e._r9001c395573374, this._r7f8d9b7004c633),
-      this._r448919959a600d.removeEventListener(_ifd7c1208e3417e._r8ea9e83cdee875, this._r7bc2ddb4199ad4, !0)),
+      (this._r448919959a600d.removeEventListener(UnkClass_fd7c12._r9001c395573374, this._r7f8d9b7004c633),
+      this._r448919959a600d.removeEventListener(UnkClass_fd7c12._r8ea9e83cdee875, this._r7bc2ddb4199ad4, !0)),
       (this._re5c7638865acc2 = !1),
       (this._r448919959a600d = null));
   }

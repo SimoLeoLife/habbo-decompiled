@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 373666.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/contracts/subcontrollers/util/AbstractContract.as
-// Nome offuscato: _id248c3e337ca31
+// Extracted from HabboAirLauncher.deobf.js, line 373666.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/contracts/subcontrollers/util/AbstractContract.as
+// Obfuscated name: _id248c3e337ca31
 
 class extends AbstractUbuntuWiredUI {
   static {

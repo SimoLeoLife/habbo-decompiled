@@ -278,12 +278,97 @@ def parser_round(rnd):
             match[lst[0]] = ga[f][0]; why[lst[0]] = 'parser r%d' % rnd; n += 1
     return n
 
+GENERIC = {'getMessageArray', 'dispose', 'disposed', 'constructor', '_data'}
+def comp_fp(c, side):
+    ms = c['members']
+    if not any(m['name'] == 'getMessageArray' for m in ms): return None
+    if side == 'js':
+        ct = [m for m in ms if m['name'] == 'constructor']
+        tr = lambda x: MPX.get(x, x)
+    else:
+        ct = [m for m in ms if m['name'] == c['name'] and m['t'] == 'm']
+        tr = lambda x: x
+    np_ = ct[0]['np'] if ct else 0
+    nreq = ct[0].get('nreq', np_) if ct else 0
+    push = bool(ct) and 'push' in ct[0].get('ids', [])
+    fields = [tr(m['name']) for m in ms if m['t'] == 'f' and not m['static']]
+    if side == 'as3' and push:  # l'array accumulatore AS3 diventa _data in JS
+        fields = [f for f, m in zip(fields, [m for m in ms if m['t'] == 'f' and not m['static']]) if m.get('type') != 'Array']
+    fields = [f for f in fields if f not in GENERIC]
+    known = frozenset(f for f in fields if f in KNOWN or (f in PLAIN and not HASH_M.match(f)))
+    return (np_, nreq, push, len(fields), known, any(m['name'] == 'disposed' for m in ms))
+
+def composer_round(rnd):
+    taken = set(match.values()); gj, ga = defaultdict(list), defaultdict(list)
+    for j, c in enumerate(JS):
+        if j in match: continue
+        f = comp_fp(c, 'js')
+        if f: gj[f].append(j)
+    for i, c in enumerate(AS3):
+        if i in taken: continue
+        f = comp_fp(c, 'as3')
+        if f: ga[f].append(i)
+    n = 0
+    for f, lst in gj.items():
+        if len(lst) == 1 and len(ga.get(f, [])) == 1:
+            match[lst[0]] = ga[f][0]; why[lst[0]] = 'composer r%d' % rnd; n += 1
+    return n
+
+NEWS = defaultdict(list)
+for b, enc, types in json.load(open('work/js_news.json', encoding='utf-8')): NEWS[b].append((enc, types))
+AS3_REFS = [set(r for m in c['members'] for r in m.get('crefs', [])) for c in AS3]
+REFD_BY = defaultdict(set)
+for i, rs in enumerate(AS3_REFS):
+    for r in rs: REFD_BY[r].add(i)
+TMAP = {'int': 'n', 'uint': 'n', 'Number': 'n', 'String': 's', 'Boolean': 'b', 'Array': 'a'}
+def ctor_of(c, side):
+    ct = [m for m in c['members'] if (m['name'] == 'constructor' if side == 'js' else (m['name'] == c['name'] and m['t'] == 'm'))]
+    return ct[0] if ct else None
+
+def callsite_round(rnd):
+    # composer (e classi con getMessageArray) abbinati dai punti in cui vengono creati
+    taken = set(match.values())
+    comp_as3 = [i for i, c in enumerate(AS3) if i not in taken and any(m['name'] == 'getMessageArray' for m in c['members'])]
+    comp_as3_set = set(comp_as3)
+    cand = {}
+    for j, c in enumerate(JS):
+        if j in match or not c['binding'] or not any(m['name'] == 'getMessageArray' for m in c['members']): continue
+        calls = NEWS.get(c['binding'], [])
+        if not calls: continue
+        ct = ctor_of(c, 'js'); np_ = ct['np'] if ct else 0
+        obs = ['?'] * np_
+        ok = True
+        for enc, types in calls:
+            for k, t in enumerate(types[:np_]):
+                if t == '?': continue
+                if obs[k] not in ('?', t): ok = False
+                obs[k] = t
+        if not ok: continue
+        encs = {match[JS_BY_BINDING[e]] for e, _ in calls if e in JS_BY_BINDING and JS_BY_BINDING[e] in match}
+        if not encs: continue
+        pool = set()
+        for e in encs: pool |= {as3_by_q[q] for q in AS3_REFS[e] if q in as3_by_q}
+        pool &= comp_as3_set
+        res = []
+        for i in pool:
+            act = ctor_of(AS3[i], 'as3'); ap = act['ptypes'] if act else []
+            if len(ap) != np_: continue
+            if all(o == '?' or TMAP.get(t.split('.')[-1], 'o') == o for o, t in zip(obs, ap)): res.append(i)
+        if len(res) == 1: cand[j] = res[0]
+    back = defaultdict(list)
+    for j, i in cand.items(): back[i].append(j)
+    n = 0
+    for i, js_ in back.items():
+        if len(js_) == 1:
+            match[js_[0]] = i; why[js_[0]] = 'callsite r%d' % rnd; n += 1
+    return n
+
 matched_pairs = {}
 for rnd in range(1, 16):
     added = class_round(rnd)
     if matched_pairs: added += cref_round(rnd)
     added += link_round(rnd) + reverse_link_round(rnd)
-    if rnd > 1: added += parser_round(rnd)
+    if rnd > 1: added += parser_round(rnd) + composer_round(rnd) + callsite_round(rnd)
     matched_pairs = {j: pair_members(JS[j], AS3[i]) for j, i in match.items()}
     votes.clear()
     for j, prs in matched_pairs.items():

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 363792.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/KickFromRoom.as
-// Nome offuscato: _i4f38f32150dd76
+// Extracted from HabboAirLauncher.deobf.js, line 363792.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/KickFromRoom.as
+// Obfuscated name: _i4f38f32150dd76
 
 class extends DefaultActionType {
   static {

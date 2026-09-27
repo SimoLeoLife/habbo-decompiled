@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 31267.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/TextSkinRenderer.as
+// Extracted from HabboAirLauncher.deobf.js, line 31267.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/TextSkinRenderer.as
 
 class {
     static {

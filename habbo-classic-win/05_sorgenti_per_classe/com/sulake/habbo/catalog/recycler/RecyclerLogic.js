@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 186229.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/recycler/RecyclerLogic.as
-// Nome offuscato: _id1ad0c5605e2cc
+// Extracted from HabboAirLauncher.deobf.js, line 186229.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/recycler/RecyclerLogic.as
+// Obfuscated name: _id1ad0c5605e2cc
 
 class a {
   constructor(e, r) {
@@ -181,7 +181,7 @@ class a {
     (e || (this.empty(), this.verifyRoomSessionStatus()), this.updateRecyclerButton());
   }
   _r017b617c0a77a3(e) {
-    ((this._prizes = e.map((r) => new _i1dfe4febbaf8ea(r, this._catalog))),
+    ((this._prizes = e.map((r) => new UnkClass_1dfe4f(r, this._catalog))),
       this._r092732aae1fa2f != null &&
         (this._r092732aae1fa2f(this._prizes), (this._r092732aae1fa2f = null)));
   }

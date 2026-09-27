@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145928.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/ResourceManager.as
-// Nome offuscato: _if989dd810bf53b
+// Extracted from HabboAirLauncher.deobf.js, line 145928.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/ResourceManager.as
+// Obfuscated name: _if989dd810bf53b
 
 class {
   constructor(e) {
@@ -28,7 +28,7 @@ class {
     }
     if (!(!t.startsWith("http://") && !t.startsWith("https://")))
       try {
-        let s = this._windowManager.assets.loadAssetFromFile(t, new _i636490202c0f9a(t));
+        let s = this._windowManager.assets.loadAssetFromFile(t, new UnkClass_636490(t));
         if (s != null && !s.disposed) {
           let o = this._r8713fea9cbb1cf.get(t) ?? [];
           (r != null && o.push(r),

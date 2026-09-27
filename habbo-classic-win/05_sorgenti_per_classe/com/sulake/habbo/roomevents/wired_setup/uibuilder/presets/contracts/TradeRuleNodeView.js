@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 350216.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/contracts/TradeRuleNodeView.as
-// Nome offuscato: _i2f4c4ae7eb4c75
+// Extracted from HabboAirLauncher.deobf.js, line 350216.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/contracts/TradeRuleNodeView.as
+// Obfuscated name: _i2f4c4ae7eb4c75
 
 class a {
   static {
@@ -51,7 +51,7 @@ class a {
     if (this._node.type === xn.TYPE_FURNI) {
       this.iconWidget.visible = !0;
       let r = null;
-      (this._node.itemType != null && (r = new _i27028f939050ee(this._node.itemType)),
+      (this._node.itemType != null && (r = new UnkClass_27028f_(this._node.itemType)),
         (e.productInfo = r),
         (this.coinsIcon.visible = !1));
     } else

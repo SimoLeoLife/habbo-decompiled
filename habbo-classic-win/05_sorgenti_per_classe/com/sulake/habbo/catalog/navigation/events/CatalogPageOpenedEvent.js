@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 144249.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/navigation/events/CatalogPageOpenedEvent.as
-// Nome offuscato: _i1d5b872bc8af38
+// Extracted from HabboAirLauncher.deobf.js, line 144249.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/navigation/events/CatalogPageOpenedEvent.as
+// Obfuscated name: _i1d5b872bc8af38
 
 class a extends M {
   constructor(r, t, i = !1, s = !1) {

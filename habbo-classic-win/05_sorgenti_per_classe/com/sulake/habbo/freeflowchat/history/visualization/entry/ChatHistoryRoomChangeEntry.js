@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 201563.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/history/visualization/entry/ChatHistoryRoomChangeEntry.as
-// Nome offuscato: _i1ebfe190e14cde
+// Extracted from HabboAirLauncher.deobf.js, line 201563.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/history/visualization/entry/ChatHistoryRoomChangeEntry.as
+// Obfuscated name: _i1ebfe190e14cde
 
 class a {
   static {

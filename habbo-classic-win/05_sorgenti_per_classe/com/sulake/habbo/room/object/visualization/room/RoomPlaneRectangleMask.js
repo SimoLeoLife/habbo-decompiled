@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 280974.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/RoomPlaneRectangleMask.as
-// Nome offuscato: _if941dcf7ed892a
+// Extracted from HabboAirLauncher.deobf.js, line 280974.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/RoomPlaneRectangleMask.as
+// Obfuscated name: _if941dcf7ed892a
 
 class {
   constructor(e, r, t, i) {

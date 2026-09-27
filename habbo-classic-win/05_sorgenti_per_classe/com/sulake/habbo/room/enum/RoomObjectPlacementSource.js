@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 70327.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/enum/RoomObjectPlacementSource.as
-// Nome offuscato: _i4260eb3d3a0d52
+// Extracted from HabboAirLauncher.deobf.js, line 70327.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/enum/RoomObjectPlacementSource.as
+// Obfuscated name: _i4260eb3d3a0d52
 
 class {
   static {

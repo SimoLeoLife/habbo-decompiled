@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 79631.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/events/RoomSpriteMouseEvent.as
-// Nome offuscato: _i2f4ffb5824d7bc
+// Extracted from HabboAirLauncher.deobf.js, line 79631.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/events/RoomSpriteMouseEvent.as
+// Obfuscated name: _i2f4ffb5824d7bc
 
 class {
   constructor(e, r, t, i, s, o, d = 0, c = 0, f = !1, l = !1, b = !1, _ = !1) {

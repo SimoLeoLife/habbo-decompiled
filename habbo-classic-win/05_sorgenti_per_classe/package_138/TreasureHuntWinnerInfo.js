@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 107022.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_138/TreasureHuntWinnerInfo.as
-// Nome offuscato: _ifab16ca476093a
+// Extracted from HabboAirLauncher.deobf.js, line 107022.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_138/TreasureHuntWinnerInfo.as
+// Obfuscated name: _ifab16ca476093a
 
 class {
     static {

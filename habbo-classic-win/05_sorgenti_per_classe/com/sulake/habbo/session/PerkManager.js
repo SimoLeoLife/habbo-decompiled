@@ -1,13 +1,13 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 335757.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/PerkManager.as
-// Nome offuscato: _ibae911be0a4b7c
+// Extracted from HabboAirLauncher.deobf.js, line 335757.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/PerkManager.as
+// Obfuscated name: _ibae911be0a4b7c
 
 class {
   constructor(e) {
     this._sessionDataManager = e;
     this._sessionDataManager?.communication != null &&
       (this.communication = this._sessionDataManager.communication._r2e106e2349a0b6(
-        new _i2c7b489ce44a85(this._r773ce30a57f0a5),
+        new UnkMessageEvent_class_2880(this._r773ce30a57f0a5),
       ));
   }
   static {

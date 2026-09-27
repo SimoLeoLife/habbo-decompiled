@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 323615.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/memenu/soundsettings/MeMenuSoundSettingsSlider.as
-// Nome offuscato: _ieb0bad0ad93dbe
+// Extracted from HabboAirLauncher.deobf.js, line 323615.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/memenu/soundsettings/MeMenuSoundSettingsSlider.as
+// Obfuscated name: _ieb0bad0ad93dbe
 
 class {
   static {

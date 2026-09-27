@@ -1,12 +1,12 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 82282.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/data/class_3336.as
-// Nome offuscato: _ib8b9b1d595271d
+// Extracted from HabboAirLauncher.deobf.js, line 82282.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/data/class_3336.as
+// Obfuscated name: _ib8b9b1d595271d
 
 class a extends class_1944 {
   static {
     n(this, "class_3336");
   }
-  static FORMAT_KEY = _iae7a134fea2fc8._r5f45ac3988c93d;
+  static FORMAT_KEY = UnkConstants_ae7a13._r5f45ac3988c93d;
   static INTERNAL_STATE_KEY = "furniture_crackable_state";
   static INTERNAL_HIT_KEY = "furniture_crackable_hits";
   static INTERNAL_TARGET_KEY = "furniture_crackable_target";

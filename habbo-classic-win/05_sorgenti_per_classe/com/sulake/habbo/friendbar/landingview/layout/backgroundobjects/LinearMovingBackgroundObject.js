@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 209449.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/layout/backgroundobjects/LinearMovingBackgroundObject.as
-// Nome offuscato: _iab490f2c705391
+// Extracted from HabboAirLauncher.deobf.js, line 209449.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/layout/backgroundobjects/LinearMovingBackgroundObject.as
+// Obfuscated name: _iab490f2c705391
 
 class extends BackgroundObject {
   static {

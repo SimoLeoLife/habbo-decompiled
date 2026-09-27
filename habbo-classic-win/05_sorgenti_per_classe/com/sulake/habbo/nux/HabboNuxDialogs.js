@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 339984.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/nux/HabboNuxDialogs.as
-// Nome offuscato: _i0a806489fb4a2e
+// Extracted from HabboAirLauncher.deobf.js, line 339984.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/nux/HabboNuxDialogs.as
+// Obfuscated name: _i0a806489fb4a2e
 
 class extends ue {
   static {
@@ -87,7 +87,7 @@ class extends ue {
       }
   }
   _r9b5c37381dd410() {
-    this.var_36?.send(new _i0dfe00091c25fc(class_3585.NON_EXISTING));
+    this.var_36?.send(new UnkMessageComposer_1args_0dfe00(class_3585.NON_EXISTING));
   }
   onReject() {
     this._windowManager?.confirm(
@@ -98,7 +98,7 @@ class extends ue {
     );
   }
   _r6ade54c31a1b86(e) {
-    (this._rb4b9e7c0ae7ae7(), this.var_36?.send(new _i40b48b3aaac8f3(e)));
+    (this._rb4b9e7c0ae7ae7(), this.var_36?.send(new UnkMessageComposer_1args_40b48b(e)));
   }
   get windowManager() {
     if (this._windowManager == null) throw new Error("Window manager is not available.");
@@ -122,7 +122,7 @@ class extends ue {
   _rfd8dc7027132cd = n((e, r) => {
     (e.dispose(),
       r.type === y.const_1300 &&
-        (this._r523c87ecb4d389(), this.var_36?.send(new _i0dfe00091c25fc(class_3585.NEVER_AGAIN))));
+        (this._r523c87ecb4d389(), this.var_36?.send(new UnkMessageComposer_1args_0dfe00(class_3585.NEVER_AGAIN))));
   }, "_rfd8dc7027132cd");
   _rc3bf9b1e3719b1 = n((e) => {
     this._r29e67f0bc11047();
@@ -138,7 +138,7 @@ class extends ue {
         e.session.roomId === this._navigator?._r3dfd89b26af6cd
       ) {
         let r = this.getInteger("nux.noob.lobby.popup.delay", 70) * 1e3;
-        ((this.var_1770 = new _i05394ecc0c0c4d(r, 1)),
+        ((this.var_1770 = new UnkEventDispatcherWrapperSubclass_05394e(r, 1)),
           this.var_1770.addEventListener(DeBouncer.addEventListener, this.createNoobRoomOfferView),
           this.var_1770.start());
       } else this.destroyNoobRoomOfferView();

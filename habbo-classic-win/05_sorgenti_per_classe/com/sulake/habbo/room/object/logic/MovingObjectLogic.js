@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 297653.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/MovingObjectLogic.as
-// Nome offuscato: _i075b9cb5a4bd74
+// Extracted from HabboAirLauncher.deobf.js, line 297653.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/MovingObjectLogic.as
+// Obfuscated name: _i075b9cb5a4bd74
 
 class a extends ObjectLogicBase {
   static {
@@ -70,7 +70,7 @@ class a extends ObjectLogicBase {
   processUpdateMessage(e) {
     if (e == null) return;
     super.processUpdateMessage(e);
-    let r = e instanceof _i1234264269422e ? e : null;
+    let r = e instanceof UnkRoomObjectUpdateMessageSubclass_123426 ? e : null;
     if (
       r?._rd42ca276af45f8 ||
       (e.loc != null && (this.var_190.assign(e.loc), this.helper_vector.assign(new k())),
@@ -96,7 +96,7 @@ class a extends ObjectLogicBase {
       let r = _ia411d8d8194a3a();
       return (
         this._r7303d9170f229c(
-          new _i5cd1753188af5f(
+          new UnkClass_5cd175(
             e.configId,
             e.variableId,
             e.value,

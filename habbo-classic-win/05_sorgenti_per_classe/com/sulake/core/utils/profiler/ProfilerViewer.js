@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 58670.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/utils/profiler/ProfilerViewer.as
-// Nome offuscato: _i5e761c6c8ad1c5
+// Extracted from HabboAirLauncher.deobf.js, line 58670.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/utils/profiler/ProfilerViewer.as
+// Obfuscated name: _i5e761c6c8ad1c5
 
 class a extends Pt {
   static {

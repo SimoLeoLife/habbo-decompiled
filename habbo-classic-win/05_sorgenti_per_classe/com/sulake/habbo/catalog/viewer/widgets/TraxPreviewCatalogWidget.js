@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 195674.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/TraxPreviewCatalogWidget.as
-// Nome offuscato: _i7c99ed282f2378
+// Extracted from HabboAirLauncher.deobf.js, line 195674.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/TraxPreviewCatalogWidget.as
+// Obfuscated name: _i7c99ed282f2378
 
 class extends CatalogWidget {
   constructor(r, t) {
@@ -24,13 +24,13 @@ class extends CatalogWidget {
   dispose() {
     (this.var_1064 != null &&
       this.var_1064.removeEventListener(u.CLICK, this._r36ca3f8f0859a9),
-      this._soundManager?.soundManager?.stop(_ia57980bbc2be8f._r12a36356ec1cd6),
+      this._soundManager?.soundManager?.stop(UnkConstants_a57980._r12a36356ec1cd6),
       (this._soundManager = null),
       (this.var_1064 = null),
       super.dispose());
   }
   closed() {
-    (super.closed(), this._soundManager?.soundManager?.stop(_ia57980bbc2be8f._r12a36356ec1cd6));
+    (super.closed(), this._soundManager?.soundManager?.stop(UnkConstants_a57980._r12a36356ec1cd6));
   }
   _rae8e17ddaeb413 = n((r) => {
     if (r.offer == null) return;
@@ -44,11 +44,11 @@ class extends CatalogWidget {
   }, "_rae8e17ddaeb413");
   _r36ca3f8f0859a9 = n((r) => {
     this._soundManager?.soundManager != null &&
-      (this._rd6a41a4c205e28(_ia57980bbc2be8f._r91444358db0d2d),
-      this._rd6a41a4c205e28(_ia57980bbc2be8f._r12a36356ec1cd6),
+      (this._rd6a41a4c205e28(UnkConstants_a57980._r91444358db0d2d),
+      this._rd6a41a4c205e28(UnkConstants_a57980._r12a36356ec1cd6),
       this._soundManager.soundManager._r327803e778efff(
         this.var_1046,
-        _ia57980bbc2be8f._r12a36356ec1cd6,
+        UnkConstants_a57980._r12a36356ec1cd6,
         15,
         40,
         0,

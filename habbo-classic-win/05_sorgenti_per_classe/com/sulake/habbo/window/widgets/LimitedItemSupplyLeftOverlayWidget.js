@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 150142.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/LimitedItemSupplyLeftOverlayWidget.as
-// Nome offuscato: _i977166746ce1f5
+// Extracted from HabboAirLauncher.deobf.js, line 150142.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/LimitedItemSupplyLeftOverlayWidget.as
+// Obfuscated name: _i977166746ce1f5
 
 class {
   constructor(e, r) {

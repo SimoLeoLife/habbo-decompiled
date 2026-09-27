@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 279456.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureQueueTileVisualization.as
-// Nome offuscato: _i06a3ad8c061434
+// Extracted from HabboAirLauncher.deobf.js, line 279456.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureQueueTileVisualization.as
+// Obfuscated name: _i06a3ad8c061434
 
 class a extends AnimatedFurnitureVisualization {
   static {

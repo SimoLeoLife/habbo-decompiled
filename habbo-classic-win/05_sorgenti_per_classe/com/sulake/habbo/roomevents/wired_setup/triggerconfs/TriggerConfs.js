@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 369330.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/triggerconfs/TriggerConfs.as
-// Nome offuscato: _ifaad8f2a50a04e
+// Extracted from HabboAirLauncher.deobf.js, line 369330.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/triggerconfs/TriggerConfs.as
+// Obfuscated name: _ifaad8f2a50a04e
 
 class {
   static {
@@ -25,13 +25,13 @@ class {
       this.var_113.push(new class_3970()),
       this.var_113.push(new ClockReachTime()),
       this.var_113.push(new lTe()),
-      this.var_113.push(new _id7663a4229fa80()),
-      this.var_113.push(new _i1dfa1f19908a1c()),
+      this.var_113.push(new UnkDefaultTriggerConfSubclass_d7663a()),
+      this.var_113.push(new UnkDefaultTriggerConfSubclass_1dfa1f()),
       this.var_113.push(new class_4229()),
       this.var_113.push(new class_4202()),
-      this.var_113.push(new _ic017f2433cf59c()),
+      this.var_113.push(new UnkDefaultTriggerConfSubclass_c017f2()),
       this.var_113.push(new ETe()),
-      this.var_113.push(new _i2bacdb239c23c5()),
+      this.var_113.push(new UnkDefaultTriggerConfSubclass_2bacdb()),
       this.var_113.push(new class_4091()),
       this.var_113.push(new class_4187()),
       this.var_113.push(new class_3954()));
@@ -47,7 +47,7 @@ class {
     return this._r16aab10eee08a6(e);
   }
   _r58bebf6acaa0b3(e) {
-    return e instanceof _i273ff567809acd;
+    return e instanceof UnkSubclassOf_class_2396_273ff5;
   }
   getKey() {
     return "trigger";

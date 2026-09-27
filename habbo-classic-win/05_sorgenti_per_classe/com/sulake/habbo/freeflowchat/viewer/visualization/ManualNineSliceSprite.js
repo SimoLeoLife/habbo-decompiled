@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 15304.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/visualization/ManualNineSliceSprite.as
+// Extracted from HabboAirLauncher.deobf.js, line 15304.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/visualization/ManualNineSliceSprite.as
 
 class {
       static {

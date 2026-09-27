@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 176652.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/tabs/TransferNftsTab.as
-// Nome offuscato: _i3355e6f0aa627d
+// Extracted from HabboAirLauncher.deobf.js, line 176652.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/tabs/TransferNftsTab.as
+// Obfuscated name: _i3355e6f0aa627d
 
 class {
   constructor(e, r) {
@@ -56,7 +56,7 @@ class {
       (this._r67c9ca10cdf031 = null));
   }
   _r7a5132a0911745() {
-    this._messageEvents = [new _i0dcf7a058fc778(this._r923c5e7046457b), new _if13c155905c50d(this._r19e31ef99dafa2)];
+    this._messageEvents = [new UnkMessageEvent_0dcf7a(this._r923c5e7046457b), new UnkMessageEvent_f13c15(this._r19e31ef99dafa2)];
     for (let e of this._messageEvents) this.var_195.addMessageEvent(e);
   }
   _rbe24c6c0422913 = n((e) => {
@@ -71,7 +71,7 @@ class {
   }, "_rbe24c6c0422913");
   _r923c5e7046457b = n((e) => {
     this.var_3212 = !1;
-    let r = ClassUtils.getParser(e, _if482a8cf63b323);
+    let r = ClassUtils.getParser(e, UnkMessageParser_I_f482a8);
     r != null &&
       ((this._rdf3f2e5378094f = r?._r9ed6426f18a3ff ?? 0),
       this._rcb085ac538dc7b != null &&
@@ -109,12 +109,12 @@ class {
         this.updateTransferButtonState();
         return;
       }
-      ((this._r32b387c7ead574 = !0), this.var_195.send(new _ied320fb3c7fd86(t)));
+      ((this._r32b387c7ead574 = !0), this.var_195.send(new class_2660(t)));
     }
     this.updateTransferButtonState();
   }, "_rf376fbd73a45b3");
   _r19e31ef99dafa2 = n((e) => {
-    let r = ClassUtils.getParser(e, _ib5b4c59dd912ff);
+    let r = ClassUtils.getParser(e, UnkMessageParser_H_b5b4c5);
     r != null &&
       (this.var_195.notifications.addItem(
         r?.success
@@ -151,7 +151,7 @@ class {
     return e < 0 || e >= this._r67c9ca10cdf031.length ? null : (this._r67c9ca10cdf031[e] ?? null);
   }
   initializeData() {
-    ((this.var_3212 = !0), this.var_195.send(new _i002bddafff0e01()));
+    ((this.var_3212 = !0), this.var_195.send(new class_3623()));
     let e = this.var_1128._r92a93dee6650d9;
     (e != null && this._r9b0949a0321348(e), (this._waitingForAddresses = e == null));
   }

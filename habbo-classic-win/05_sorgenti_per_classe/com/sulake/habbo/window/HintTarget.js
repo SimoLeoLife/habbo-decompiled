@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145587.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/HintTarget.as
-// Nome offuscato: _iba77ca6e66414e
+// Extracted from HabboAirLauncher.deobf.js, line 145587.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/HintTarget.as
+// Obfuscated name: _iba77ca6e66414e
 
 class {
   constructor(e, r, t) {

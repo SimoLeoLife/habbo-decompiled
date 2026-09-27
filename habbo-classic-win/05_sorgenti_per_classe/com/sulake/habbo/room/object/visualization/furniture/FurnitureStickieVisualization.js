@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 279762.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureStickieVisualization.as
-// Nome offuscato: _i71f4b1413bb906
+// Extracted from HabboAirLauncher.deobf.js, line 279762.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureStickieVisualization.as
+// Obfuscated name: _i71f4b1413bb906
 
 class extends Pc {
   static {

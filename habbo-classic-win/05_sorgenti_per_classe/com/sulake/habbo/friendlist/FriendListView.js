@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 215160.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/FriendListView.as
-// Nome offuscato: _if804c2db33ecc1
+// Extracted from HabboAirLauncher.deobf.js, line 215160.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/FriendListView.as
+// Obfuscated name: _if804c2db33ecc1
 
 class a {
   static {

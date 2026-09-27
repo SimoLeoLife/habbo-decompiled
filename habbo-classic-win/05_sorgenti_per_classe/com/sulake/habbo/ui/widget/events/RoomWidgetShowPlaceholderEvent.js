@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161096.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetShowPlaceholderEvent.as
-// Nome offuscato: _idfa4f229d2d7c5
+// Extracted from HabboAirLauncher.deobf.js, line 161096.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetShowPlaceholderEvent.as
+// Obfuscated name: _idfa4f229d2d7c5
 
 class extends RoomWidgetUpdateEvent {
   static {

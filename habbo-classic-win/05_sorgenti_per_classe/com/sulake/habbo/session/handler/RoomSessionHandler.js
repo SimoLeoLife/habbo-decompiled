@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 302611.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/handler/RoomSessionHandler.as
-// Nome offuscato: _ie71d04bf9880a8
+// Extracted from HabboAirLauncher.deobf.js, line 302611.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/handler/RoomSessionHandler.as
+// Obfuscated name: _ie71d04bf9880a8
 
 class a extends BaseHandler {
   static {
@@ -13,7 +13,7 @@ class a extends BaseHandler {
     (super(e, r),
       e.addMessageEvent(new class_3106((t) => this._r88cd1a9fbe059e(t))),
       e.addMessageEvent(new class_3481((t) => this._rb50685f3abfa0e(t))),
-      e.addMessageEvent(new _i333a8da3a5d6bf((t) => this._rc68c5eb1f835e9(t))),
+      e.addMessageEvent(new UnkMessageEvent_333a8d((t) => this._rc68c5eb1f835e9(t))),
       e.addMessageEvent(new class_1929((t) => this.onRoomDisconnected(t))),
       e.addMessageEvent(new class_2420((t) => this._re8f0b93b86b23e(t))),
       e.addMessageEvent(new class_3292((t) => this._r2eb2080a374ad7(t))),

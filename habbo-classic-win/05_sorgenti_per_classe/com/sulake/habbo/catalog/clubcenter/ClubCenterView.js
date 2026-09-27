@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 173464.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/clubcenter/ClubCenterView.as
-// Nome offuscato: _i7097d913eb08dd
+// Extracted from HabboAirLauncher.deobf.js, line 173464.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/clubcenter/ClubCenterView.as
+// Obfuscated name: _i7097d913eb08dd
 
 class {
   constructor(e, r, t) {

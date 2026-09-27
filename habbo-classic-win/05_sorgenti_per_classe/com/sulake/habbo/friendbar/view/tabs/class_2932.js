@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 211379.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/tabs/class_2932.as
-// Nome offuscato: _icd6fee137df1fb
+// Extracted from HabboAirLauncher.deobf.js, line 211379.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/tabs/class_2932.as
+// Obfuscated name: _icd6fee137df1fb
 
 class a extends br {
   static {
@@ -49,9 +49,9 @@ class a extends br {
     if (!this.selected && this._window != null) {
       (e && br._rd5514a58d31e07 && us.runMotion(this._window) == null
         ? us.DropBounce(
-            new _i5f3e1b1e9c65b7(
-              new _i7dc350c0d8a790(
-                new _iffb4fbee2ed4e7(
+            new UnkMotionSubclass_5f3e1b(
+              new UnkClass_7dc350(
+                new UnkClass_ffb4fb(
                   this._window,
                   br._MOTION_TIME,
                   this._window.width,
@@ -59,8 +59,8 @@ class a extends br {
                 ),
                 br.const_509,
               ),
-              new _i7dc350c0d8a790(
-                new _i4663cb047d4511(
+              new UnkClass_7dc350(
+                new UnkClass_4663cb(
                   this._window,
                   br._MOTION_TIME,
                   this._window.x,

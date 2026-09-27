@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 270911.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/seasonalcalendar/CatalogPromo.as
-// Nome offuscato: _i49ec19652f828e
+// Extracted from HabboAirLauncher.deobf.js, line 270911.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/seasonalcalendar/CatalogPromo.as
+// Obfuscated name: _i49ec19652f828e
 
 class {
   constructor(e) {
@@ -48,11 +48,11 @@ class {
       r != null && (r.procedure = this.onBuyButton),
       (this.var_36 = this._questEngine?.communication?.connection ?? null),
       this.var_36 != null &&
-        ((this._r8a5bfd603cf4e0 = new _i9bce940520b924(this._r860543b2d5d3ca)),
-        (this._r06443185331902 = new _i34805531355e08(this._re56e1750c0b414)),
+        ((this._r8a5bfd603cf4e0 = new UnkMessageEvent_9bce94(this._r860543b2d5d3ca)),
+        (this._r06443185331902 = new UnkMessageEvent_348055(this._re56e1750c0b414)),
         this.var_36.addMessageEvent(this._r8a5bfd603cf4e0),
         this.var_36.addMessageEvent(this._r06443185331902),
-        this.var_36.send(new _i549f2779a06aa8())));
+        this.var_36.send(new class_3729())));
   }
   refresh() {
     let e = this._window?.findChildByName("your_balance_txt"),
@@ -140,6 +140,6 @@ class {
       (r.bitmap = t));
   }
   _re56e1750c0b414 = n((e) => {
-    this.var_36?.send(new _i549f2779a06aa8());
+    this.var_36?.send(new class_3729());
   }, "_re56e1750c0b414");
 }

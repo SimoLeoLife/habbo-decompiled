@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 363573.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/GiveScore.as
-// Nome offuscato: _ia6316d6c2148bd
+// Extracted from HabboAirLauncher.deobf.js, line 363573.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/GiveScore.as
+// Obfuscated name: _ia6316d6c2148bd
 
 class a extends DefaultActionType {
   static {
@@ -29,7 +29,7 @@ class a extends DefaultActionType {
       (this.var_2360 = e.createSliderSection(
         "wiredfurni.params.settimesingame",
         "times",
-        new _ia221c060ea16cd(a.var_2977),
+        new UnkClass_a221c0(a.var_2977),
         1,
         a.var_2977,
         1,

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 304404.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/camera/CameraPhotoLab.as
-// Nome offuscato: _i3ee8177d1a400b
+// Extracted from HabboAirLauncher.deobf.js, line 304404.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/camera/CameraPhotoLab.as
+// Obfuscated name: _i3ee8177d1a400b
 
 class a {
   constructor(e) {
@@ -215,7 +215,7 @@ class a {
             break;
           }
         }
-        let c = new _i3a5c6f457acdad();
+        let c = new UnkClass_3a5c6f();
         ((c.bitmapData = r), s.bitmap.draw(c, d, null, void 0, void 0, !0));
       }
       i.procedure = this.effectButtonClick;
@@ -291,7 +291,7 @@ class a {
   _r1bbb9a3c6fbf82() {
     let e = this.var_257?.bitmap?.clone();
     if (e == null || typeof document > "u" || typeof URL > "u") return;
-    let t = _i5497c416442b2b.encode(e).toUint8Array(),
+    let t = UnkClass_5497c4.encode(e).toUint8Array(),
       i = new Uint8Array(t.length);
     i.set(t);
     let s = new Blob([i], { type: "image/png" }),
@@ -383,7 +383,7 @@ class a {
         else if (r.type === Xo.const_469) {
           let t = E5._rb09602dca8db26(r.name);
           if (t != null) {
-            let i = new _i4210dc3239901d(1, 1, 1, r.getEffectStrength());
+            let i = new UnkClass_4210dc(1, 1, 1, r.getEffectStrength());
             e.draw(t, void 0, i, r._r1f60835f66e03b ?? ie.NORMAL);
           }
         }

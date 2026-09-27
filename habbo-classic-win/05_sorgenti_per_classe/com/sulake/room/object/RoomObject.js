@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 297409.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/object/RoomObject.as
-// Nome offuscato: _i6739f2d927a4f7
+// Extracted from HabboAirLauncher.deobf.js, line 297409.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/object/RoomObject.as
+// Obfuscated name: _i6739f2d927a4f7
 
 class a {
   constructor(e, r, t) {
@@ -94,7 +94,7 @@ class a {
   setEventHandler(e) {
     if (e === this._r29104bcda0b8ef) return;
     let r = this._r29104bcda0b8ef,
-      t = _ib619bfd98fe9f2.as({
+      t = UnkClass_b619bf.as({
         value: e,
         guard: n((i) => i != null && typeof i.transferStateFrom == "function", "guard"),
       });

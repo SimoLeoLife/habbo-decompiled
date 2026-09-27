@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 328557.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/CraftingWidgetHandler.as
-// Nome offuscato: _i76099cd02223e2
+// Extracted from HabboAirLauncher.deobf.js, line 328557.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/CraftingWidgetHandler.as
+// Obfuscated name: _i76099cd02223e2
 
 class {
   constructor(e) {
@@ -57,10 +57,10 @@ class {
   _r7a5132a0911745() {
     if (this._container?.connection != null) {
       this._messageEvents = [
-        new _ie8c30e3f7339c9(this._rbd67862b0f8c28),
-        new _ibd224616b4ce29(this._r60c39cb1ff4995),
+        new UnkMessageEvent_e8c30e(this._rbd67862b0f8c28),
+        new UnkMessageEvent_bd2246(this._r60c39cb1ff4995),
         new class_2703(this._rb7833db035f2a8),
-        new _i37d86de6645bc1(this._r7e26569a916469),
+        new UnkMessageEvent_37d86d(this._r7e26569a916469),
       ];
       for (let e of this._messageEvents) this._container.connection.addMessageEvent(e);
     }
@@ -82,7 +82,7 @@ class {
     this._r2d3b7e89c486fa && r?.category === class_2106.FURNITURE && this._r45a4471dc4da6d();
   }, "_rce290efe88d2bd");
   _r45a4471dc4da6d() {
-    this._container?.connection?.send(new _ib058384eff53f4(this._r3937e2bef147fa));
+    this._container?.connection?.send(new class_3258(this._r3937e2bef147fa));
   }
   _rbd67862b0f8c28 = n((e) => {
     let t = e.getParser();
@@ -113,7 +113,7 @@ class {
     this.var_17?._r556b3abec6f096(r.getParser()._re260ed8e0c1afa);
   }, "_r60c39cb1ff4995");
   _r83815d236b153e(e) {
-    this._container?.connection?.send(new _ibfcc88bd37e593(this._r3937e2bef147fa, e));
+    this._container?.connection?.send(new UnkMessageComposer_2args_bfcc88(this._r3937e2bef147fa, e));
   }
   _r7e26569a916469 = n((e) => {
     let t = e.getParser();
@@ -124,12 +124,12 @@ class {
       this.var_2527 == null ||
       (this.var_17?._r358ab1645ce8ea?.setState(class_2920.STATE_WORKING),
       this._r4c69a15bf77ded(),
-      this._container?.connection?.send(new _if914b3161943a3(this._r3937e2bef147fa, this.var_2527)));
+      this._container?.connection?.send(new UnkMessageComposer_2args_f914b3(this._r3937e2bef147fa, this.var_2527)));
   }
   _r086379c6bd0b16() {
     this.var_17?._r358ab1645ce8ea?.setState(class_2920.STATE_WORKING);
     let e = this.var_17?._r3f6ee5b99d3df0() ?? [];
-    (this._r4c69a15bf77ded(), this._container?.connection?.send(new _if6b08dd932b8a3(this._r3937e2bef147fa, e)));
+    (this._r4c69a15bf77ded(), this._container?.connection?.send(new UnkMessageComposer_2args_f6b08d(this._r3937e2bef147fa, e)));
   }
   _rb7833db035f2a8 = n((e) => {
     let t = e.getParser();
@@ -150,12 +150,12 @@ class {
     ((this._rd912b9ebf91ce9 = !0),
       this._r9fe271dc5e4639 == null &&
         this._container?.connection != null &&
-        ((this._r9fe271dc5e4639 = new _i8f6c202c9a982a(this._rd9f559c42aef2f)),
+        ((this._r9fe271dc5e4639 = new UnkMessageEvent_8f6c20(this._rd9f559c42aef2f)),
         this._container.connection.addMessageEvent(this._r9fe271dc5e4639)));
   }
   _rd9f559c42aef2f = n((e) => {
     (this._container?.connection?.send(new class_3710()),
-      this._container?.connection?.send(new _ib058384eff53f4(this._r3937e2bef147fa)),
+      this._container?.connection?.send(new class_3258(this._r3937e2bef147fa)),
       this._re3ea3eb2a306be());
   }, "_rd9f559c42aef2f");
   _re3ea3eb2a306be() {

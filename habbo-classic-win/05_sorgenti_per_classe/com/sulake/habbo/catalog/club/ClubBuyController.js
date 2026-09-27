@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 172806.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/club/ClubBuyController.as
-// Nome offuscato: _icd4a8314baf91f
+// Extracted from HabboAirLauncher.deobf.js, line 172806.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/club/ClubBuyController.as
+// Obfuscated name: _icd4a8314baf91f
 
 class {
   constructor(e) {

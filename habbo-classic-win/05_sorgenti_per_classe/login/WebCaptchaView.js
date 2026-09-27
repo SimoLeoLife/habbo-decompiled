@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 157311.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/login/WebCaptchaView.as
-// Nome offuscato: _i9c4762047416b3
+// Extracted from HabboAirLauncher.deobf.js, line 157311.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/login/WebCaptchaView.as
+// Obfuscated name: _i9c4762047416b3
 
 class a extends Sprite {
   constructor(r) {

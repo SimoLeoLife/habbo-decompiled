@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 146727.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/floorplaneditor/FloorPlanPreviewer.as
-// Nome offuscato: _i18feeffd292276
+// Extracted from HabboAirLauncher.deobf.js, line 146727.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/floorplaneditor/FloorPlanPreviewer.as
+// Obfuscated name: _i18feeffd292276
 
 class a {
   constructor(e) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 107528.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_124/SharedVariableList.as
-// Nome offuscato: _ie49a4fb58ac6a7
+// Extracted from HabboAirLauncher.deobf.js, line 107528.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_124/SharedVariableList.as
+// Obfuscated name: _ie49a4fb58ac6a7
 
 class extends l7 {
     static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 368919.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/triggerconfs/ScoreAchieved.as
-// Nome offuscato: _ib3c460de01524f
+// Extracted from HabboAirLauncher.deobf.js, line 368919.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/triggerconfs/ScoreAchieved.as
+// Obfuscated name: _ib3c460de01524f
 
 class extends DefaultTriggerConf {
   static {

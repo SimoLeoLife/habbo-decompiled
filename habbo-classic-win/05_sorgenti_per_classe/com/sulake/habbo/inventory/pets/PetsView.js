@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 242644.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/pets/PetsView.as
-// Nome offuscato: _ifa901c1e4497c0
+// Extracted from HabboAirLauncher.deobf.js, line 242644.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/pets/PetsView.as
+// Obfuscated name: _ifa901c1e4497c0
 
 class a {
   constructor(e, r, t, i) {

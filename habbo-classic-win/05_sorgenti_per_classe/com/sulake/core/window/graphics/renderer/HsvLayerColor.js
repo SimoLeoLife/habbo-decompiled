@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 137789.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/HsvLayerColor.as
-// Nome offuscato: _i320ddba428c1bd
+// Extracted from HabboAirLauncher.deobf.js, line 137789.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/HsvLayerColor.as
+// Obfuscated name: _i320ddba428c1bd
 
 class {
   static {

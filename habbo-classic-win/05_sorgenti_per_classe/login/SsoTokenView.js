@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 157178.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/login/SsoTokenView.as
-// Nome offuscato: _i55124e2029b352
+// Extracted from HabboAirLauncher.deobf.js, line 157178.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/login/SsoTokenView.as
+// Obfuscated name: _i55124e2029b352
 
 class extends Sprite {
   constructor(r) {
@@ -48,7 +48,7 @@ class extends Sprite {
       this.addChild(this.var_1402));
   }
   addInputFields() {
-    ((this.var_1051 = new _i6db332a459ba52(
+    ((this.var_1051 = new UnkSpriteSubclass_6db332(
       this._context,
       this._loginAreaWidth,
       "${connection.login.code.prompt}",
@@ -119,7 +119,7 @@ class extends Sprite {
     this._context._r515644ef0606ec(cf.SCREEN_ENVIRONMENT);
   }, "onCancel");
   ChatHistoryScrollBar = n((r) => {
-    let t = new _i05394ecc0c0c4d(20, 1);
+    let t = new UnkEventDispatcherWrapperSubclass_05394e(20, 1);
     (t.addEventListener(DeBouncer._rf33144eac61595, this._r3652bb4f2af925), t.start());
   }, "ChatHistoryScrollBar");
   _r3652bb4f2af925 = n((r) => {

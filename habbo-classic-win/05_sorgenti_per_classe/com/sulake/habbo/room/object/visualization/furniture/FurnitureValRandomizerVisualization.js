@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 279776.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureValRandomizerVisualization.as
-// Nome offuscato: _i4e3149c5d515ba
+// Extracted from HabboAirLauncher.deobf.js, line 279776.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureValRandomizerVisualization.as
+// Obfuscated name: _i4e3149c5d515ba
 
 class a extends Pa {
   static {

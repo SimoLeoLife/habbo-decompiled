@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 368096.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/selectors/class_4204.as
-// Nome offuscato: _iec1350f0d7657d
+// Extracted from HabboAirLauncher.deobf.js, line 368096.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/selectors/class_4204.as
+// Obfuscated name: _iec1350f0d7657d
 
 class extends lY {
   static {

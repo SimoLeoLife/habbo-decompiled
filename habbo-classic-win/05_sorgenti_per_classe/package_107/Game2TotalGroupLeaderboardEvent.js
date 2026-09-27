@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 85221.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_107/Game2TotalGroupLeaderboardEvent.as
-// Nome offuscato: _if827dff373e2e9
+// Extracted from HabboAirLauncher.deobf.js, line 85221.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_107/Game2TotalGroupLeaderboardEvent.as
+// Obfuscated name: _if827dff373e2e9
 
 class extends MessageEvent {
     static {

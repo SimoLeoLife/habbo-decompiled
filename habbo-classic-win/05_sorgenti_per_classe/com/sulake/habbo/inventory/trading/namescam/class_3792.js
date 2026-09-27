@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 240098.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/trading/namescam/class_3792.as
-// Nome offuscato: _i724a0e1e424244
+// Extracted from HabboAirLauncher.deobf.js, line 240098.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/trading/namescam/class_3792.as
+// Obfuscated name: _i724a0e1e424244
 
 class a {
   static {

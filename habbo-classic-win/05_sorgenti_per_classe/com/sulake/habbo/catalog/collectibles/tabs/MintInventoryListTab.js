@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 175500.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/tabs/MintInventoryListTab.as
-// Nome offuscato: _i6fc46af739130d
+// Extracted from HabboAirLauncher.deobf.js, line 175500.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/tabs/MintInventoryListTab.as
+// Obfuscated name: _i6fc46af739130d
 
 class a {
   constructor(e, r) {
@@ -128,10 +128,10 @@ class a {
   }
   _r7a5132a0911745() {
     this._messageEvents = [
-      new _i73ae2149b50892(this._r0b1e324e021f21),
-      new _ifa0c37dc3667f4(this._r40a30ca6791007),
-      new _i390f9c2ead4c93(this._rc8d2a3c15f7595),
-      new _i5bf33746155f34(this._r1238e1a55be0aa),
+      new UnkMessageEvent_73ae21(this._r0b1e324e021f21),
+      new UnkMessageEvent_fa0c37(this._r40a30ca6791007),
+      new UnkMessageEvent_390f9c(this._rc8d2a3c15f7595),
+      new UnkMessageEvent_5bf337(this._r1238e1a55be0aa),
       new class_3032(this._r5ee322d45e9aa0),
     ];
     for (let e of this._messageEvents) this.var_195.addMessageEvent(e);
@@ -152,7 +152,7 @@ class a {
       this.loadingContainer != null && (this.loadingContainer.visible = !this.var_1306));
   }
   _r0b1e324e021f21 = n((e) => {
-    let r = ClassUtils.getParser(e, _i572a713b9b76d3);
+    let r = ClassUtils.getParser(e, UnkMessageParser_I_572a71);
     r != null &&
       ((this._r79e10543b32138 = !1),
       (this.var_4027 = r?._rfef50809b5ead3 ?? 0),
@@ -160,19 +160,19 @@ class a {
       this.updateReadyState(!0));
   }, "_r0b1e324e021f21");
   _r40a30ca6791007 = n((e) => {
-    let r = ClassUtils.getParser(e, _i28fc31db2fd741);
+    let r = ClassUtils.getParser(e, UnkMessageParser_B_28fc31);
     r != null &&
       ((this._r8dfd32753873a2 = !1), (this._r0bf6ba54a4dd30 = r?.enabled ?? !1), this.updateReadyState(!0));
   }, "_r40a30ca6791007");
   _rc8d2a3c15f7595 = n((e) => {
-    let r = ClassUtils.getParser(e, _i81aa8987d4c146);
+    let r = ClassUtils.getParser(e, UnkMessageParser_I_81aa89);
     r != null &&
       ((this._r74221d1a67dedd = !1),
       (this._rc94fb5359654d6 = r?._rd0d7bda27edc47 ?? []),
       this.updateReadyState(!0));
   }, "_rc8d2a3c15f7595");
   _r1238e1a55be0aa = n((e) => {
-    let r = ClassUtils.getParser(e, _ib908ea818851a4);
+    let r = ClassUtils.getParser(e, UnkMessageParser_I_b908ea);
     if (r == null) return;
     this._r7c672c2c86fd35 = r?._r181febaf49bc70 ?? [];
     let t = this._r7c672c2c86fd35.map((i) => `${i._rea86a7ddc10b61}`);
@@ -202,21 +202,21 @@ class a {
   }, "_r5843e5c0fb5770");
   initializeData() {
     ((this._r74221d1a67dedd = !0),
-      this.var_195.send(new _idceb00bbba29ab()),
+      this.var_195.send(new UnkMessageComposer_0args_dceb00()),
       (this._r8dfd32753873a2 = !0),
-      this.var_195.send(new _i457c9897429adb()),
+      this.var_195.send(new UnkMessageComposer_0args_457c98()),
       this.var_195.inventory._r9fc90ede19317b(class_2106.FURNITURE) || (this._r5e735d956ebc86 = !0),
       (this._r6621953877a37d = !0),
       this.var_1128._red81b0edd20110() &&
         (this.activeWallet = this.var_1128.activeWallet),
       this.stampBuyButton?.disable(),
-      this.var_195.send(new _i5b94ad0d410410()));
+      this.var_195.send(new UnkMessageComposer_0args_5b94ad()));
   }
   _r087addae775989(e) {
     for (let r of e) {
       let t = this._r52409b274fdc60?.clone();
       if (t == null) continue;
-      let i = new _if5b8f9b1f268a9(this.var_195, r, t, this, this._r39d569dc247ac7(r).length);
+      let i = new UnkAbstractCollectibleItemRendererSubclass_f5b8f9(this.var_195, r, t, this, this._r39d569dc247ac7(r).length);
       (this._re6367ccae57a8f?.addGridItem(t), this._items.push(i));
     }
     ((this._ra0c0ee5826ca8c = !0),
@@ -282,7 +282,7 @@ class a {
       if (this.var_154 == null || t == null) return;
       let i = this._r39d569dc247ac7(this.var_154.item);
       if (i.length === 0) return;
-      ((this._r9dea337958ffae = !0), this.var_195.send(new _i355926e34de17b(i[0], t)));
+      ((this._r9dea337958ffae = !0), this.var_195.send(new UnkMessageComposer_2args_355926(i[0], t)));
     }
     this.reloadPreview();
   }, "_r74221dc3e0539a");

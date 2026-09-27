@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 70431.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomEngineAreaHideStateWidgetEvent.as
-// Nome offuscato: _i5a96d5bd72efb6
+// Extracted from HabboAirLauncher.deobf.js, line 70431.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomEngineAreaHideStateWidgetEvent.as
+// Obfuscated name: _i5a96d5bd72efb6
 
 class a extends RoomEngineToWidgetEvent {
   constructor(r, t, i, s) {

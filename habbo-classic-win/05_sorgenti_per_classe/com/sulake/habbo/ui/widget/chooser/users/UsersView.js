@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 312523.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chooser/users/UsersView.as
-// Nome offuscato: _ic77b6caa41c3ef
+// Extracted from HabboAirLauncher.deobf.js, line 312523.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chooser/users/UsersView.as
+// Obfuscated name: _ic77b6caa41c3ef
 
 class a {
   constructor(e, r) {

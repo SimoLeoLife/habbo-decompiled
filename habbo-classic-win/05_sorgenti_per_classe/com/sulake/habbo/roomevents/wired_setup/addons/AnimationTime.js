@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 360178.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/AnimationTime.as
-// Nome offuscato: _ifc8bde7cbd8eac
+// Extracted from HabboAirLauncher.deobf.js, line 360178.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/AnimationTime.as
+// Obfuscated name: _ifc8bde7cbd8eac
 
 class extends DefaultAddonType {
   static {

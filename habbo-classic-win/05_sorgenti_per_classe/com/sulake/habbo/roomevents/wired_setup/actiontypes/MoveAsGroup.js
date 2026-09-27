@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 363830.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/MoveAsGroup.as
-// Nome offuscato: _i1fb25e584533e1
+// Extracted from HabboAirLauncher.deobf.js, line 363830.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/MoveAsGroup.as
+// Obfuscated name: _i1fb25e584533e1
 
 class a extends DefaultActionType {
   static {

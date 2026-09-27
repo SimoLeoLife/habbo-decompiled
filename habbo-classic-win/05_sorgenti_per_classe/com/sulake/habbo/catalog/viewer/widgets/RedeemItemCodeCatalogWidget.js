@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 192521.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/RedeemItemCodeCatalogWidget.as
-// Nome offuscato: _i09277bbfc3a185
+// Extracted from HabboAirLauncher.deobf.js, line 192521.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/RedeemItemCodeCatalogWidget.as
+// Obfuscated name: _i09277bbfc3a185
 
 class extends CatalogWidget {
   constructor(r, t) {

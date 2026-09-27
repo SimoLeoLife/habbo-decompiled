@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 150691.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/enum/class_1799.as
+// Extracted from HabboAirLauncher.deobf.js, line 150691.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/enum/class_1799.as
 
 class a {
   static {

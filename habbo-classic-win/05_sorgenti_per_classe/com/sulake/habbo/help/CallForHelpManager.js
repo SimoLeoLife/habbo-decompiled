@@ -1,12 +1,12 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 229122.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/CallForHelpManager.as
-// Nome offuscato: _ie387a73a75c026
+// Extracted from HabboAirLauncher.deobf.js, line 229122.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/CallForHelpManager.as
+// Obfuscated name: _ie387a73a75c026
 
 class a {
   constructor(e) {
     this._habboHelp = e;
     ((this._rfc9a24dda15882 = new u7e(this._habboHelp, this._recd2d3a776f58b)),
-      this._habboHelp?._rf3db13932bfb60?._r2e106e2349a0b6(new _i1e7c703a9c139c(this._r5bc4d36558a73c)),
+      this._habboHelp?._rf3db13932bfb60?._r2e106e2349a0b6(new UnkMessageEvent_1e7c70(this._r5bc4d36558a73c)),
       this._habboHelp?._rf3db13932bfb60?._r2e106e2349a0b6(new class_3000(this._rebf636f3ddea21)),
       this._habboHelp?._rf3db13932bfb60?._r2e106e2349a0b6(new class_2395(this.onIssueClose)));
   }
@@ -132,10 +132,10 @@ class a {
       this._habboHelp?._r41eeaae23311a4(jt.REPORT_TYPE_MESSAGE));
   }
   reportSelfie(e, r, t, i, s) {
-    this._habboHelp?._rb13ed3a89b85ae(new _i7d43746c1cd8c8(e, t, i, r, s));
+    this._habboHelp?._rb13ed3a89b85ae(new UnkMessageComposer_5args_7d4374(e, t, i, r, s));
   }
   reportPhoto(e, r, t, i, s) {
-    (this._habboHelp?._r78bbaeb8e25778(new _i558888606ccb6a(e, t, i, r, s, "", "")),
+    (this._habboHelp?._r78bbaeb8e25778(new UnkMessageComposer_7args_558888(e, t, i, r, s, "", "")),
       this._habboHelp?._r41eeaae23311a4(jt.REPORT_TYPE_PHOTO));
   }
   _r6f5fdec0692988() {
@@ -269,7 +269,7 @@ class a {
         case "submit_button":
           this.var_138 > 0
             ? (this._habboHelp?._rb13ed3a89b85ae(new class_1807(this.var_138)),
-              this._habboHelp?._rb13ed3a89b85ae(new _i99629c68f7a80e(this.var_138, this.var_399)),
+              this._habboHelp?._rb13ed3a89b85ae(new UnkMessageComposer_2args_99629c(this.var_138, this.var_399)),
               this.closeWindow())
             : this._habboHelp?.windowManager?.alert(
                 "${generic.alert.title}",
@@ -428,7 +428,7 @@ class a {
             ? this.var_399
             : (this._rfc9a24dda15882?.reportedRoomId ?? this.var_399);
         this._habboHelp?._rb13ed3a89b85ae(
-          new _i894d4d6a00b70e(
+          new class_2472(
             this.var_1065,
             this._re84e965de7d181,
             this.var_138,
@@ -442,7 +442,7 @@ class a {
       }
       case jt.REPORT_TYPE_IM:
         this._habboHelp?._rb13ed3a89b85ae(
-          new _i826cee1cafa171(
+          new UnkMessageComposer_6args_826cee(
             this.var_1065,
             this._re84e965de7d181,
             this.var_138,
@@ -454,7 +454,7 @@ class a {
         break;
       case jt.REPORT_TYPE_THREAD:
         this._habboHelp?._rb13ed3a89b85ae(
-          new _i0c6cfe2f5218c7(
+          new UnkMessageComposer_6args_0c6cfe(
             this._r01af1378c9dfea,
             this._r65de4fd5dcded4,
             this._re84e965de7d181,
@@ -466,7 +466,7 @@ class a {
         break;
       case jt.REPORT_TYPE_MESSAGE:
         this._habboHelp?._rb13ed3a89b85ae(
-          new _i30b02d832f72c5(
+          new UnkMessageComposer_7args_30b02d(
             this._r01af1378c9dfea,
             this._r65de4fd5dcded4,
             this._r18274c63f929d5,
@@ -496,7 +496,7 @@ class a {
       }
   }, "_r7ad0a0bf832508");
   _r5bc4d36558a73c = n((e) => {
-    let r = ClassUtils.getParser(e, _i9e0797094fc378);
+    let r = ClassUtils.getParser(e, UnkMessageParser_S_9e0797);
     r != null &&
       this._habboHelp?.windowManager?.alert("${help.cfh.reply.title}", r.message ?? "", 0, null);
   }, "_r5bc4d36558a73c");
@@ -517,6 +517,6 @@ class a {
     return e === 1 ? "useless" : e === 2 ? "abusive" : "resolved";
   }
   _r7a4d897bf6475b() {
-    this._habboHelp?._rb13ed3a89b85ae(new _i590efe792305dc());
+    this._habboHelp?._rb13ed3a89b85ae(new UnkMessageComposer_0args_590efe());
   }
 }

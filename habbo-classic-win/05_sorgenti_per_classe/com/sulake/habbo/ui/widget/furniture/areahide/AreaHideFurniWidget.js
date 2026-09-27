@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 314409.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/areahide/AreaHideFurniWidget.as
-// Nome offuscato: _ie4a34d39626df4
+// Extracted from HabboAirLauncher.deobf.js, line 314409.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/areahide/AreaHideFurniWidget.as
+// Obfuscated name: _ie4a34d39626df4
 
 class a extends RoomWidgetBase {
   static {
@@ -165,7 +165,7 @@ class a extends RoomWidgetBase {
   }
   updateData() {
     (this.handler.container?.connection?.send(
-      new _i8f7de2cb7af146(
+      new UnkMessageComposer_8args_8f7de2(
         this.var_2196,
         this.var_1811,
         this.var_1980,

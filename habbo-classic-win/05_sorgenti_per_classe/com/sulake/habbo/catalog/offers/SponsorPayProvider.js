@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 184390.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/offers/SponsorPayProvider.as
-// Nome offuscato: _i4310779b617fa6
+// Extracted from HabboAirLauncher.deobf.js, line 184390.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/offers/SponsorPayProvider.as
+// Obfuscated name: _i4310779b617fa6
 
 class a {
   constructor(e) {
@@ -11,7 +11,7 @@ class a {
       ur._r77b8521b16f762(a.NO_OFFERS_CALLBACK, this.sponsorPayNoOffers),
       ur._r77b8521b16f762(a.ON_CLOSE_CALLBACK, this.sponsorPayOnClose),
       ur._r77b8521b16f762(a.ON_CONVERSION_CALLBACK, this.sponsorPayOnConversion),
-      (this._r300acd1025a107 = new _i05394ecc0c0c4d(a.const_798, 1)),
+      (this._r300acd1025a107 = new UnkEventDispatcherWrapperSubclass_05394e(a.const_798, 1)),
       this._r300acd1025a107.addEventListener(DeBouncer.addEventListener, this._rd5589bc990d006));
   }
   static {

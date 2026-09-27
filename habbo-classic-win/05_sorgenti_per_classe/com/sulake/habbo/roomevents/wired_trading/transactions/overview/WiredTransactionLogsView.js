@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 374855.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/transactions/overview/WiredTransactionLogsView.as
-// Nome offuscato: _i574a3acb09cd90
+// Extracted from HabboAirLauncher.deobf.js, line 374855.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/transactions/overview/WiredTransactionLogsView.as
+// Obfuscated name: _i574a3acb09cd90
 
 class a {
   constructor(e, r) {
@@ -139,9 +139,9 @@ class a {
       (this.var_4191 = r),
       this.var_63.logs._rebc2df37e3490e === class_3240.var_5748
         ? this.var_63.send(
-            new _ic9dcc5b7c1f3de(this.var_63.logs._r33058b88a88edd, TransactionConfig.PAGE_SIZE, e),
+            new UnkMessageComposer_3args_c9dcc5(this.var_63.logs._r33058b88a88edd, TransactionConfig.PAGE_SIZE, e),
           )
-        : this.var_63.send(new _i7be3e6378eefce(TransactionConfig.PAGE_SIZE, e)),
+        : this.var_63.send(new UnkMessageComposer_2args_7be3e6(TransactionConfig.PAGE_SIZE, e)),
       this._loadingIcon.setVisible(this.loadingIconWindow, !0));
   }
   onClose = n((e) => {

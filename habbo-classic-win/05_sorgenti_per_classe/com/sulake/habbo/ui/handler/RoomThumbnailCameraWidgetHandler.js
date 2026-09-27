@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 333083.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/RoomThumbnailCameraWidgetHandler.as
-// Nome offuscato: _i9c74f73f094a9f
+// Extracted from HabboAirLauncher.deobf.js, line 333083.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/RoomThumbnailCameraWidgetHandler.as
+// Obfuscated name: _i9c74f73f094a9f
 
 class {
   constructor(e) {

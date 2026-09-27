@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 164878.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/effects/AvatarEditorGridItemEffect.as
-// Nome offuscato: _i17c5851d19d086
+// Extracted from HabboAirLauncher.deobf.js, line 164878.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/effects/AvatarEditorGridItemEffect.as
+// Obfuscated name: _i17c5851d19d086
 
 class {
   static {

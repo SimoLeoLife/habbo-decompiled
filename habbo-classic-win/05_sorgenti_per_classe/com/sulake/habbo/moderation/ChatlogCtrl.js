@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 248466.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/ChatlogCtrl.as
-// Nome offuscato: _i6e1e7baccbc442
+// Extracted from HabboAirLauncher.deobf.js, line 248466.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/ChatlogCtrl.as
+// Obfuscated name: _i6e1e7baccbc442
 
 class a {
   constructor(e, r, t, i, s = null, o = null, d = null, c = !1) {
@@ -41,7 +41,7 @@ class a {
     ((this.var_2207 = r?.getListItemAt(0)),
       (this.var_1440 = r?.getListItemAt(1)),
       r?.removeListItems(),
-      (this.var_994 = new _i05394ecc0c0c4d(1e3, 1)),
+      (this.var_994 = new UnkEventDispatcherWrapperSubclass_05394e(1e3, 1)),
       this.var_994.addEventListener(DeBouncer.addEventListener, this.onResizeTimer),
       this._embedded
         ? e.dispose()
@@ -156,7 +156,7 @@ class a {
             new OpenDiscussionMessage(this._main, s, e.groupId, e.threadId, e.messageIndex)),
           i != null &&
             ((i.caption = "Delete"),
-            new _i0b67bba163784c(this._main, this, i, e.groupId, e.threadId, e.messageId)));
+            new UnkClass_0b67bb(this._main, this, i, e.groupId, e.threadId, e.messageId)));
         break;
       case class_4250.TYPE_SELFIE:
         (t && (t.caption = "Selfie report"),

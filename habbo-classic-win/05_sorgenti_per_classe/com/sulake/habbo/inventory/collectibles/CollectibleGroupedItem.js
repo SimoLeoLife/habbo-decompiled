@@ -1,11 +1,11 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 235813.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/collectibles/CollectibleGroupedItem.as
-// Nome offuscato: _iaddbcec7e28b6b
+// Extracted from HabboAirLauncher.deobf.js, line 235813.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/collectibles/CollectibleGroupedItem.as
+// Obfuscated name: _iaddbcec7e28b6b
 
 class a {
   constructor(e, r, t) {
     this.var_38 = t;
-    this._rde374a9e2a45dd = new _i1b60011614647b(e);
+    this._rde374a9e2a45dd = new UnkClass_1b6001(e);
     for (let o of r) this._rfeccac7a88f728.set(o, !1);
     let s = this.var_38?.controller.assets.getAssetByName("inventory_thumb_nft_xml")?.content;
     (s != null &&

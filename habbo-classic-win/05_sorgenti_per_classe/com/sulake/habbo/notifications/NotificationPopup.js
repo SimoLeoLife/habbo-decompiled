@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 262580.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/NotificationPopup.as
-// Nome offuscato: _ifa5d6d31b765cb
+// Extracted from HabboAirLauncher.deobf.js, line 262580.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/NotificationPopup.as
+// Obfuscated name: _ifa5d6d31b765cb
 
 class a {
   static {

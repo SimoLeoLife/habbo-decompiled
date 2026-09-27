@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 360240.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/class_3959.as
-// Nome offuscato: _i35fa8f392ae143
+// Extracted from HabboAirLauncher.deobf.js, line 360240.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/class_3959.as
+// Obfuscated name: _i35fa8f392ae143
 
 class a extends DefaultAddonType {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 341325.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/BottomBarLeft.as
-// Nome offuscato: _ibc1f178303963c
+// Extracted from HabboAirLauncher.deobf.js, line 341325.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/BottomBarLeft.as
+// Obfuscated name: _ibc1f178303963c
 
 class a {
   static {
@@ -91,7 +91,7 @@ class a {
     (_ != null && b != null && (b.text = _.value ?? ""),
       (this.var_425.visible = !1),
       (this._rf6ec6bcaa7fd6d = this.isNewItemsNotificationEnabled()),
-      (this._rd0df026c1fc6bd = new _i05394ecc0c0c4d(1e3 / a.COLLAPSE_ANIMATION_FPS)),
+      (this._rd0df026c1fc6bd = new UnkEventDispatcherWrapperSubclass_05394e(1e3 / a.COLLAPSE_ANIMATION_FPS)),
       this._rd0df026c1fc6bd.addEventListener(DeBouncer.addEventListener, this._r0c7da324149cb3),
       this._r34d6ef942f7d11(),
       e.context._r7e43d9f4706607(this));
@@ -329,8 +329,8 @@ class a {
       I = `ToolBarBouncing[ ${f} ]`;
     return (
       us._r3cc4a1049d7ad8(I) == null &&
-        (us.DropBounce(new _iebb480f306747f(new _ia15deea422b46b(v + 8), new _i506da2e7e190eb(l, 400, 12))).tag = I),
-      us.DropBounce(new _iebb480f306747f(new _i7dc350c0d8a790(new _i6612e5201ece1d(c, v, _.x - b.x + w, _.y - b.y, 100, 1), 1), new _ib89a7271eb572f(c)))
+        (us.DropBounce(new UnkMotionSubclass_ebb480(new UnkMotionSubclass_a15dee(v + 8), new UnkClass_506da2(l, 400, 12))).tag = I),
+      us.DropBounce(new UnkMotionSubclass_ebb480(new UnkClass_7dc350(new UnkClass_6612e5(c, v, _.x - b.x + w, _.y - b.y, 100, 1), 1), new UnkMotionSubclass_b89a72(c)))
     );
   }
   set onDuty(e) {

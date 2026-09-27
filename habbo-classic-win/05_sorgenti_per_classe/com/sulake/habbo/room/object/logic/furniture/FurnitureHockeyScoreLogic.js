@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 299801.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureHockeyScoreLogic.as
-// Nome offuscato: _i8240c31fcb03d1
+// Extracted from HabboAirLauncher.deobf.js, line 299801.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureHockeyScoreLogic.as
+// Obfuscated name: _i8240c31fcb03d1
 
 class extends Qr {
   static {
@@ -13,10 +13,10 @@ class extends Qr {
     if (e == null || r == null || this.object == null) return;
     let t = null;
     switch (e.type) {
-      case _ifd7c1208e3417e.DOUBLE_CLICK:
+      case UnkClass_fd7c12.DOUBLE_CLICK:
         e.RoomObjectStateChangeEvent === "off" && (t = 3);
         break;
-      case _ifd7c1208e3417e.CLICK:
+      case UnkClass_fd7c12.CLICK:
         e.RoomObjectStateChangeEvent === "inc" ? (t = 2) : e.RoomObjectStateChangeEvent === "dec" && (t = 1);
         break;
     }

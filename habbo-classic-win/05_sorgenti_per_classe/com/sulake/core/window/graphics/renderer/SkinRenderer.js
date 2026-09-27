@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 137869.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/SkinRenderer.as
-// Nome offuscato: _i905e2e58f4262d
+// Extracted from HabboAirLauncher.deobf.js, line 137869.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/SkinRenderer.as
+// Obfuscated name: _i905e2e58f4262d
 
 class {
   static {

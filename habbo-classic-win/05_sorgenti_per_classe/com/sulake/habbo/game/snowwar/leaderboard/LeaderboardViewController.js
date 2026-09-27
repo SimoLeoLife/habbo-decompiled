@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 220579.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/leaderboard/LeaderboardViewController.as
-// Nome offuscato: _icb6c3f6125836a
+// Extracted from HabboAirLauncher.deobf.js, line 220579.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/leaderboard/LeaderboardViewController.as
+// Obfuscated name: _icb6c3f6125836a
 
 class a {
   constructor(e) {
@@ -201,7 +201,7 @@ class a {
       (this.var_1386 = null));
   }
   startWeeklyResetTimer(e) {
-    ((this.var_1386 = new _i05394ecc0c0c4d(6e4, e)),
+    ((this.var_1386 = new UnkEventDispatcherWrapperSubclass_05394e(6e4, e)),
       this.var_1386.addEventListener(DeBouncer.addEventListener, this.onTick),
       this.var_1386.start());
   }

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 303912.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/camera/CameraFxStrengthSlider.as
-// Nome offuscato: _i3f410f62fc4912
+// Extracted from HabboAirLauncher.deobf.js, line 303912.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/camera/CameraFxStrengthSlider.as
+// Obfuscated name: _i3f410f62fc4912
 
 class {
   constructor(e, r, t) {

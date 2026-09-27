@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 279317.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurniturePlanetSystemVisualizationPlanetObject.as
-// Nome offuscato: _i2acdb34b9f83b6
+// Extracted from HabboAirLauncher.deobf.js, line 279317.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurniturePlanetSystemVisualizationPlanetObject.as
+// Obfuscated name: _i2acdb34b9f83b6
 
 class a {
   constructor(e, r, t, i, s, o) {

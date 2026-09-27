@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 199017.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/bootstrap/HabboCatalogBootstrap.as
+// Extracted from HabboAirLauncher.deobf.js, line 199017.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/bootstrap/HabboCatalogBootstrap.as
 
 class extends m2e {
   static {

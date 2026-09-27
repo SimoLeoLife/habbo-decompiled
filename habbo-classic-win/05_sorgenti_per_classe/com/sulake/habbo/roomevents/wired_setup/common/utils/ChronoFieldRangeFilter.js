@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 351681.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/common/utils/ChronoFieldRangeFilter.as
-// Nome offuscato: _i371aa12b02f2a8
+// Extracted from HabboAirLauncher.deobf.js, line 351681.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/common/utils/ChronoFieldRangeFilter.as
+// Obfuscated name: _i371aa12b02f2a8
 
 class {
   constructor(e, r, t, i, s = 0) {

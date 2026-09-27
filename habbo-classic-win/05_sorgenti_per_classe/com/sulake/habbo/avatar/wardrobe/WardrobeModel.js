@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 164701.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/wardrobe/WardrobeModel.as
-// Nome offuscato: _i065cedc390c7b2
+// Extracted from HabboAirLauncher.deobf.js, line 164701.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/wardrobe/WardrobeModel.as
+// Obfuscated name: _i065cedc390c7b2
 
 class {
   static {

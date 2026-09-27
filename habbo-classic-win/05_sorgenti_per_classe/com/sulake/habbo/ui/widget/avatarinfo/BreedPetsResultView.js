@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 306667.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/BreedPetsResultView.as
-// Nome offuscato: _ibd90a20027bec8
+// Extracted from HabboAirLauncher.deobf.js, line 306667.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/BreedPetsResultView.as
+// Obfuscated name: _ibd90a20027bec8
 
 class a {
   constructor(e) {

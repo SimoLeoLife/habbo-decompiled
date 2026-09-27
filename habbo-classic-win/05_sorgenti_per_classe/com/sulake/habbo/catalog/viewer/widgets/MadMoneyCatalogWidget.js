@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 190515.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/MadMoneyCatalogWidget.as
-// Nome offuscato: _i12694e0b7ed736
+// Extracted from HabboAirLauncher.deobf.js, line 190515.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/MadMoneyCatalogWidget.as
+// Obfuscated name: _i12694e0b7ed736
 
 class extends CatalogWidget {
   constructor(r, t) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 366580.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/FurnisHaveAvatars.as
-// Nome offuscato: _i5f0b5a1692af5a
+// Extracted from HabboAirLauncher.deobf.js, line 366580.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/FurnisHaveAvatars.as
+// Obfuscated name: _i5f0b5a1692af5a
 
 class extends DefaultConditionType {
   static {

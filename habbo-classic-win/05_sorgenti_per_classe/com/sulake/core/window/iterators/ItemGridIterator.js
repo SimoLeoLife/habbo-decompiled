@@ -1,8 +1,8 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 138342.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/iterators/ItemGridIterator.as
-// Nome offuscato: _i465593e0f7a32a
+// Extracted from HabboAirLauncher.deobf.js, line 138342.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/iterators/ItemGridIterator.as
+// Obfuscated name: _i465593e0f7a32a
 
-class extends _i6e5afb6abd5bbb {
+class extends UnkInterface_6e5afb {
   static {
     n(this, "ItemGridIterator");
   }

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 84339.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_95/Game2StartingGameFailedMessageEvent.as
-// Nome offuscato: _i1a3d335c882fc1
+// Extracted from HabboAirLauncher.deobf.js, line 84339.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_95/Game2StartingGameFailedMessageEvent.as
+// Obfuscated name: _i1a3d335c882fc1
 
 class extends MessageEvent {
     static {

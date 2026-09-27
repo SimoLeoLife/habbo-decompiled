@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 152825.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/tableview/TableCell.as
-// Nome offuscato: _i3960298574f675
+// Extracted from HabboAirLauncher.deobf.js, line 152825.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/tableview/TableCell.as
+// Obfuscated name: _i3960298574f675
 
 class {
   static {

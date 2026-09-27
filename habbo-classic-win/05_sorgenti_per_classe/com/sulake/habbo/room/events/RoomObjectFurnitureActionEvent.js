@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 180812.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectFurnitureActionEvent.as
-// Nome offuscato: _icdd807e9445b6d
+// Extracted from HabboAirLauncher.deobf.js, line 180812.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectFurnitureActionEvent.as
+// Obfuscated name: _icdd807e9445b6d
 
 class extends RoomObjectEvent {
   static {

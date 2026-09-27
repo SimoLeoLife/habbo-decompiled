@@ -1,12 +1,12 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 82476.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/data/MapStuffData.as
-// Nome offuscato: _i3ee6653a5eb90e
+// Extracted from HabboAirLauncher.deobf.js, line 82476.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/data/MapStuffData.as
+// Obfuscated name: _i3ee6653a5eb90e
 
 class a extends class_1944 {
   static {
     n(this, "MapStuffData");
   }
-  static FORMAT_KEY = _iae7a134fea2fc8._r8947632530aca0;
+  static FORMAT_KEY = UnkConstants_ae7a13._r8947632530aca0;
   static STATE_DEFAULT_KEY = "state";
   static const_1221 = "rarity";
   _data = null;

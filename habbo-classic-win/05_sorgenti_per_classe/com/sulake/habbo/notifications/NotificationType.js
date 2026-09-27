@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158873.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/NotificationType.as
-// Nome offuscato: _ia19bb93dcbc94a
+// Extracted from HabboAirLauncher.deobf.js, line 158873.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/NotificationType.as
+// Obfuscated name: _ia19bb93dcbc94a
 
 class {
   static {

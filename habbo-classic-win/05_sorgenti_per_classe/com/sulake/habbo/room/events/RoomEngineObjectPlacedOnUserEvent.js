@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 70570.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomEngineObjectPlacedOnUserEvent.as
-// Nome offuscato: _i1f48dc3292e1be
+// Extracted from HabboAirLauncher.deobf.js, line 70570.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomEngineObjectPlacedOnUserEvent.as
+// Obfuscated name: _i1f48dc3292e1be
 
 class extends RoomEngineObjectEvent {
   static {

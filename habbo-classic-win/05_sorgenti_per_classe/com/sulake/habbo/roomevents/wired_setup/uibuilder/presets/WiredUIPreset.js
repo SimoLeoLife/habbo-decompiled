@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 344816.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/WiredUIPreset.as
-// Nome offuscato: _ic88d6d9c8eaf36
+// Extracted from HabboAirLauncher.deobf.js, line 344816.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/WiredUIPreset.as
+// Obfuscated name: _ic88d6d9c8eaf36
 
 class {
   constructor(e, r, t) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 156323.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/login/WebApiLoginProvider.as
-// Nome offuscato: _i5f52e06808bfdb
+// Extracted from HabboAirLauncher.deobf.js, line 156323.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/login/WebApiLoginProvider.as
+// Obfuscated name: _i5f52e06808bfdb
 
 class a extends EventDispatcherWrapper {
   static {
@@ -139,7 +139,7 @@ class a extends EventDispatcherWrapper {
         break;
       case HabboWebApiMethod._r152a985fb751a5:
         if (this._r5a79f627fb2834 !== a.const_1267 && r instanceof Array) {
-          let o = r.map((d) => new _ia711992974f44d(d));
+          let o = r.map((d) => new UnkClass_a71199(d));
           o.length === 1
             ? (gr._r7f62dd3441fb83(gr.SOL_PROPERTY_CHARACTER_UNIQUE_ID, o[0]?.uniqueId ?? ""),
               t.selectAvatar(o[0]?.uniqueId ?? ""))

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 184371.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/offers/OfferReward.as
-// Nome offuscato: _ie77c6441483e2f
+// Extracted from HabboAirLauncher.deobf.js, line 184371.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/offers/OfferReward.as
+// Obfuscated name: _ie77c6441483e2f
 
 class {
   constructor(e, r, t) {

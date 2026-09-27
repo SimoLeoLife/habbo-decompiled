@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 269118.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/QuestTracker.as
+// Extracted from HabboAirLauncher.deobf.js, line 269118.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/QuestTracker.as
 
 class a {
   constructor(e) {
@@ -310,7 +310,7 @@ class a {
       }
       ((this._questEngine._rd4042d1a6a05a1._r2b4bfddbe77cb9.openForNextQuest =
         this._questEngine.getBoolean("questing.showDetailsForNextQuest")),
-        this._questEngine.send(new _id3ca6e96fb5cb2(this._questEngine._rd4042d1a6a05a1.getDefaultCampaign())));
+        this._questEngine.send(new class_2922(this._questEngine._rd4042d1a6a05a1.getDefaultCampaign())));
     }
   }
   _r0f34c48e6caa57() {

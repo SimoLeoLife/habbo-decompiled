@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 314695.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/backgroundcolor/BackgroundColorFurniWidget.as
-// Nome offuscato: _i8c319734d71aaf
+// Extracted from HabboAirLauncher.deobf.js, line 314695.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/backgroundcolor/BackgroundColorFurniWidget.as
+// Obfuscated name: _i8c319734d71aaf
 
 class a extends RoomWidgetBase {
   static {
@@ -93,7 +93,7 @@ class a extends RoomWidgetBase {
       switch (r.name) {
         case "apply_button":
           this.handler.container?.connection?.send(
-            new _ib2c61fc0e0aecc(this.var_2287, this._hue, this.var_2419, this.var_2379),
+            new UnkMessageComposer_4args_b2c61f(this.var_2287, this._hue, this.var_2419, this.var_2379),
           );
           break;
         case "on_off_button":

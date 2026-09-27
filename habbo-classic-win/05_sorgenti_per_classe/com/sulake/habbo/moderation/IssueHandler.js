@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 249978.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/IssueHandler.as
-// Nome offuscato: _i0db7641922cd55
+// Extracted from HabboAirLauncher.deobf.js, line 249978.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/IssueHandler.as
+// Obfuscated name: _i0db7641922cd55
 
 class a {
   constructor(e, r, t, i, s, o, d) {
@@ -119,7 +119,7 @@ class a {
       (this.var_1469 = this._window.findChildByName("chat_cont")),
       (this.var_1705 = this.var_1469?.findChildByName("evidence_list")),
       (this._r93903df8d2e25b = new N1(
-        new _i2f07f95651d352(this._rafca564117549f.issueId),
+        new UnkMessageComposer_1args_2f07f9(this._rafca564117549f.issueId),
         this._moderationManager,
         WindowTracker.const_1236,
         this._rafca564117549f.issueId,
@@ -178,7 +178,7 @@ class a {
         this.var_1397,
       ),
       this._moderationManager.connection?.send(
-        new _i7274f8467d765d(this._rb5492f91f9202c, this._r664196a53167df, this._lastWindowWidth, this.var_1397),
+        new UnkMessageComposer_4args_7274f8(this._rb5492f91f9202c, this._r664196a53167df, this._lastWindowWidth, this.var_1397),
       ));
   }
   _r49a8517384def2() {
@@ -333,7 +333,7 @@ class a {
           (this._r6dd9016264f83f?.dispose(),
           (this._r6dd9016264f83f = new Km(this._window, this._moderationManager, r, this)),
           this._r6dd9016264f83f.load(this._window?.findChildByName("caller_user_info"), t),
-          this._moderationManager.connection?.send(new _i2f07f95651d352(r.issueId)),
+          this._moderationManager.connection?.send(new UnkMessageComposer_1args_2f07f9(r.issueId)),
           this._r93903df8d2e25b?._rebd7c11478f60d(r.issueId),
           this._moderationManager.messageHandler._r9b93271554b3b6(this._r93903df8d2e25b));
         break;

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 263620.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/SingularNotificationController.as
-// Nome offuscato: _ifdfc0a6345a61e
+// Extracted from HabboAirLauncher.deobf.js, line 263620.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/SingularNotificationController.as
+// Obfuscated name: _ifdfc0a6345a61e
 
 class a {
   constructor(e) {
@@ -133,7 +133,7 @@ class a {
   _r6eb2f4f9c37e01() {
     if (Jn.isRunning())
       this._r4e7477eee5adff == null &&
-        ((this._r4e7477eee5adff = new _i05394ecc0c0c4d(Jn.totalRunningTime + a.MODERATION_DISCLAIMER_DELAY_MS, 1)),
+        ((this._r4e7477eee5adff = new UnkEventDispatcherWrapperSubclass_05394e(Jn.totalRunningTime + a.MODERATION_DISCLAIMER_DELAY_MS, 1)),
         this._r4e7477eee5adff.addEventListener(DeBouncer._rf33144eac61595, this._r832e2938e9e9c6),
         this._r4e7477eee5adff.start());
     else if (!this._r9052fc730fe4de) {

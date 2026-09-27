@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 88358.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/help/class_4002.as
-// Nome offuscato: _ib5e6eb23d170c3
+// Extracted from HabboAirLauncher.deobf.js, line 88358.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/help/class_4002.as
+// Obfuscated name: _ib5e6eb23d170c3
 
 class {
     static {

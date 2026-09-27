@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 83799.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_234/Game2AccountGameStatusMessageParser.as
-// Nome offuscato: _icb5db5382c20c1
+// Extracted from HabboAirLauncher.deobf.js, line 83799.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_234/Game2AccountGameStatusMessageParser.as
+// Obfuscated name: _icb5db5382c20c1
 
 class {
     static {

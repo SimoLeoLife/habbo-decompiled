@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 221464.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/arena/SynchronizedGameArena.as
-// Nome offuscato: _i44a138495f3ef4
+// Extracted from HabboAirLauncher.deobf.js, line 221464.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/arena/SynchronizedGameArena.as
+// Obfuscated name: _i44a138495f3ef4
 
 class {
   static {

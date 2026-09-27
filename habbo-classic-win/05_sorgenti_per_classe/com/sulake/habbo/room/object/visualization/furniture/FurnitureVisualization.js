@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 276417.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureVisualization.as
-// Nome offuscato: _id8cbc56f599d85
+// Extracted from HabboAirLauncher.deobf.js, line 276417.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureVisualization.as
+// Obfuscated name: _id8cbc56f599d85
 
 class a extends bb {
   static {
@@ -257,7 +257,7 @@ class a extends bb {
           (this._r2783d264c76417 = r._ra3dc9a405b5c73(RoomObjectVariableEnum.const_1137)));
       }
       let d = this._r05043aaa722877(
-        _ib619bfd98fe9f2.as({ value: r.getObject(RoomObjectVariableEnum.VARIABLE_FX_STATUSES), _r35f8c7df03c28f: U6 }),
+        UnkClass_b619bf.as({ value: r.getObject(RoomObjectVariableEnum.VARIABLE_FX_STATUSES), _r35f8c7df03c28f: U6 }),
       );
       return ((this._r1a0817d476ba8a = t), (this.var_302 = i), d || s);
     }

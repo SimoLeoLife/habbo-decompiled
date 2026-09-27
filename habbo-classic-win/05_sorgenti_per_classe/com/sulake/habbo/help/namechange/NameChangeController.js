@@ -1,13 +1,13 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 232571.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/namechange/NameChangeController.as
-// Nome offuscato: _ie278fed0589375
+// Extracted from HabboAirLauncher.deobf.js, line 232571.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/namechange/NameChangeController.as
+// Obfuscated name: _ie278fed0589375
 
 class {
   constructor(e) {
     this._habboHelp = e;
     let r = this._habboHelp?._rf3db13932bfb60;
     (r?._r2e106e2349a0b6(new class_1926(this._r6e2e75987c854e)),
-      r?._r2e106e2349a0b6(new _i070f79082ee244(this._r4322a6d303b99c)),
+      r?._r2e106e2349a0b6(new UnkMessageEvent_070f79(this._r4322a6d303b99c)),
       r?._r2e106e2349a0b6(new class_2146(this._r7012a4854191ae)),
       r?._r2e106e2349a0b6(new class_3463(this._r0fc93f01455ee6)));
   }
@@ -69,10 +69,10 @@ class {
     e.type === u.CLICK && r.name === "header_button_close" && this.disposeView();
   }
   _raf88edb5b4add5(e) {
-    this._habboHelp?._rb13ed3a89b85ae(new _i35156ddcc38f98(e));
+    this._habboHelp?._rb13ed3a89b85ae(new UnkMessageComposer_1args_35156d(e));
   }
   _r22f28f976760b8(e) {
-    this._habboHelp?._rb13ed3a89b85ae(new _i643860b2a2f5a4(e));
+    this._habboHelp?._rb13ed3a89b85ae(new UnkMessageComposer_1args_643860(e));
   }
   onUserNameChanged(e) {
     let r = this._habboHelp?.localization,
@@ -106,7 +106,7 @@ class {
     r != null && ((this.var_4278 = r.id), (this._r26304bc3f25c85 = r.name));
   }, "_r6e2e75987c854e");
   _r4322a6d303b99c = n((e) => {
-    let r = ClassUtils.getParser(e, _i2c547c5aa82888);
+    let r = ClassUtils.getParser(e, UnkMessageParser_IIS_2c547c);
     r != null && this.var_4278 === r.webId && (this._r26304bc3f25c85 = r._r4c7340395c786f);
   }, "_r4322a6d303b99c");
 }

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 162560.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/advertisement/AdImageRequest.as
-// Nome offuscato: _i9c7cec161ab2fa
+// Extracted from HabboAirLauncher.deobf.js, line 162560.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/advertisement/AdImageRequest.as
+// Obfuscated name: _i9c7cec161ab2fa
 
 class {
   constructor(e, r = null, t = null, i = -1, s = -1) {

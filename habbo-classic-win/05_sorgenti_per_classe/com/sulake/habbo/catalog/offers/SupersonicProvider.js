@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 184502.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/offers/SupersonicProvider.as
-// Nome offuscato: _ic717edd973de1a
+// Extracted from HabboAirLauncher.deobf.js, line 184502.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/offers/SupersonicProvider.as
+// Obfuscated name: _ic717edd973de1a
 
 class a {
   constructor(e) {

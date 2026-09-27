@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 354869.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/PresetManager.as
-// Nome offuscato: _i92ed2c8b2a0d70
+// Extracted from HabboAirLauncher.deobf.js, line 354869.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/PresetManager.as
+// Obfuscated name: _i92ed2c8b2a0d70
 
 class {
   constructor(e) {
@@ -15,7 +15,7 @@ class {
     return (t._re7a03a855dfd32(...r), t);
   }
   _ra6e545ffa959b0() {
-    return this._r0ab20465555e47(_ia56bd560817792);
+    return this._r0ab20465555e47(UnkWiredUIPresetSubclass_a56bd5);
   }
   createSpacer(e) {
     return this._r0ab20465555e47(SpacerPreset, e);
@@ -30,10 +30,10 @@ class {
     return this._r0ab20465555e47(AlignRightWrapperPreset, e);
   }
   _rfc1cf96cd0e480(e) {
-    return this._r0ab20465555e47(_i5e830860c36106, e);
+    return this._r0ab20465555e47(UnkWiredUIPresetSubclass_5e8308, e);
   }
   _r73f3ef8811b6bb(e, r) {
-    return this._r0ab20465555e47(_ib3e0676c249ed8, e, r);
+    return this._r0ab20465555e47(UnkWiredUIPresetSubclass_b3e067, e, r);
   }
   _r352f8eb89f25af(e) {
     return this._r0ab20465555e47(FloatVerticallyPreset, e);
@@ -123,7 +123,7 @@ class {
     return this._r0ab20465555e47(AvatarImagePreset);
   }
   _rd2781d694b92e9(e, r) {
-    return this._r0ab20465555e47(_i33f39459006001, e, r);
+    return this._r0ab20465555e47(UnkWiredUIPresetSubclass_33f394, e, r);
   }
   _r3ab83a89e25169(e, r, t) {
     return this.wiredStyle._r22e5f52e5a4bd4
@@ -224,7 +224,7 @@ class {
   }
   _r2c9ac233cf1a70(e, r, t = null, i = -1, s = !1, o = !1, d = null) {
     return this.wiredStyle._raa005026a78275
-      ? this._r0ab20465555e47(_i8fa8f12a4ba3a5, e, r, t, i, s)
+      ? this._r0ab20465555e47(UnkClass_8fa8f1, e, r, t, i, s)
       : this._r0ab20465555e47(YX, e, r, t, i, s, o, d);
   }
   createValueOrVariableSection(e, r, t, i, s) {
@@ -267,7 +267,7 @@ class {
     return this._r0ab20465555e47(ItemTypeSelectionSection);
   }
   createNodeOverviewPreset(e, r = null) {
-    return this._r0ab20465555e47(_i5d656ac3bec052, e, r);
+    return this._r0ab20465555e47(UnkClass_5d656a, e, r);
   }
   get wiredStyle() {
     return this._roomEvents.presetManager.wiredStyle;

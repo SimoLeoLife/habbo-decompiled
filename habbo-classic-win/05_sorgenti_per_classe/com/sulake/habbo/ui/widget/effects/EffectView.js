@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 313667.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/effects/EffectView.as
-// Nome offuscato: _ie84ecdd93597f7
+// Extracted from HabboAirLauncher.deobf.js, line 313667.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/effects/EffectView.as
+// Obfuscated name: _ie84ecdd93597f7
 
 class a {
   static {
@@ -18,7 +18,7 @@ class a {
   constructor(e, r) {
     ((this._re4a60c8cec49dc = r),
       (this.var_17 = e),
-      (this.var_382 = new _i05394ecc0c0c4d(a.UPDATE_TIMER_MS)),
+      (this.var_382 = new UnkEventDispatcherWrapperSubclass_05394e(a.UPDATE_TIMER_MS)),
       this.var_382.addEventListener(DeBouncer.addEventListener, this.onUpdate),
       this.update());
   }

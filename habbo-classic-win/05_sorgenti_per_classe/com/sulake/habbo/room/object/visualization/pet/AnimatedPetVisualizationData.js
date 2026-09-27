@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 280536.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/pet/AnimatedPetVisualizationData.as
-// Nome offuscato: _ic235894631ff9c
+// Extracted from HabboAirLauncher.deobf.js, line 280536.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/pet/AnimatedPetVisualizationData.as
+// Obfuscated name: _ic235894631ff9c
 
 class extends AnimatedFurnitureVisualizationData {
   static {

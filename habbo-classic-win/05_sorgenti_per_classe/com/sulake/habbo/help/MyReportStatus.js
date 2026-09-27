@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 232034.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/MyReportStatus.as
-// Nome offuscato: _i381836e1bfde2b
+// Extracted from HabboAirLauncher.deobf.js, line 232034.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/MyReportStatus.as
+// Obfuscated name: _i381836e1bfde2b
 
 class a {
   constructor(e) {
@@ -50,7 +50,7 @@ class a {
       this._window.center(),
       (this._window.procedure = this._r4d2fcea4870df2),
       this.createTable());
-    let r = ClassUtils.getParser(e, _i8af71596138e4f);
+    let r = ClassUtils.getParser(e, UnkMessageParser_I_8af715);
     r != null && this.setTableObjects(r?.messages ?? null);
   }
   createTable() {
@@ -163,7 +163,7 @@ class a {
   }, "_r49fad46cbd1c25");
   _rf9fcd99ec514f3 = n((e) => {
     this._shownObject != null &&
-      (this._habboHelp?._rb13ed3a89b85ae(new _iec400ba3827765(this._shownObject.message.id)),
+      (this._habboHelp?._rb13ed3a89b85ae(new UnkMessageComposer_1args_ec400b(this._shownObject.message.id)),
       this.appealButton?.disable());
   }, "_rf9fcd99ec514f3");
   getActionExplanation(e, r, t) {

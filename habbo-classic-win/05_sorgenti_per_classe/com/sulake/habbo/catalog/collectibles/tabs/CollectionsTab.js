@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 175020.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/tabs/CollectionsTab.as
-// Nome offuscato: _ifc66690c58aba6
+// Extracted from HabboAirLauncher.deobf.js, line 175020.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/tabs/CollectionsTab.as
+// Obfuscated name: _ifc66690c58aba6
 
 class a {
   constructor(e, r) {
@@ -131,9 +131,9 @@ class a {
   }
   _r7a5132a0911745() {
     this._messageEvents = [
-      new _i563d8510bc6917(this._rb09394cfcacd4b),
-      new _icc80836214d321(this._r4b671d5458b7ce),
-      new _i40791aa2e4482e(this._r99f9af73e910ea),
+      new UnkMessageEvent_563d85(this._rb09394cfcacd4b),
+      new UnkMessageEvent_cc8083(this._r4b671d5458b7ce),
+      new UnkMessageEvent_40791a(this._r99f9af73e910ea),
     ];
     for (let e of this._messageEvents) this.var_195.addMessageEvent(e);
   }
@@ -198,7 +198,7 @@ class a {
   _rb09394cfcacd4b = n((e) => {
     if (!this._rbbaf717d855fdd || (this._r97fe170259a095?.numListItems ?? 0) !== 0) return;
     this._rbbaf717d855fdd = !1;
-    let r = ClassUtils.getParser(e, _i364e8aaecd03bc);
+    let r = ClassUtils.getParser(e, UnkMessageParser_I_364e8a);
     r != null &&
       ((this._rfa899312d4ac20 = r?._r57eb0612ffa97a ?? []),
       this.sortSelection != null && (this.sortSelection.selection = 0),
@@ -229,7 +229,7 @@ class a {
     );
   }
   _r4b671d5458b7ce = n((e) => {
-    let r = ClassUtils.getParser(e, _id6320ace570069);
+    let r = ClassUtils.getParser(e, UnkMessageParser_SSB_d6320a);
     if (
       r == null ||
       (this._r5904be70af550d(r.success ?? !1), this.var_1128.activeWallet !== r._r01d9e6a2e3c716)
@@ -242,7 +242,7 @@ class a {
         this._rc526b917cfc22a?._rfb113a5fc45e65(!0, r.success ?? !1));
   }, "_r4b671d5458b7ce");
   _r99f9af73e910ea = n((e) => {
-    let r = ClassUtils.getParser(e, _ifaca0f4bf9d4ed);
+    let r = ClassUtils.getParser(e, UnkMessageParser_SSB_faca0f);
     if (
       r == null ||
       (this._r5904be70af550d(r.success ?? !1), this.var_1128.activeWallet !== r._r01d9e6a2e3c716)
@@ -265,7 +265,7 @@ class a {
       (this.var_1306 = e));
   }
   _r76eaaf235150d3(e) {
-    (this._r1c2e26edd166d9(), (this._rbbaf717d855fdd = !0), this.var_195.send(new _i75bee1e5164159(e ?? "")));
+    (this._r1c2e26edd166d9(), (this._rbbaf717d855fdd = !0), this.var_195.send(new UnkMessageComposer_1args_75bee1(e ?? "")));
   }
   _r1c2e26edd166d9() {
     ((this._r9abb6e339b7a78 = null), this._r97fe170259a095?.removeListItems());

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 210591.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/talent/TalentProgressMeter.as
-// Nome offuscato: _i7cc4acb8292ecd
+// Extracted from HabboAirLauncher.deobf.js, line 210591.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/talent/TalentProgressMeter.as
+// Obfuscated name: _i7cc4acb8292ecd
 
 class a {
   static {

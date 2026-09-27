@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 164432.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/torso/TorsoView.as
-// Nome offuscato: _i57e27dd676879e
+// Extracted from HabboAirLauncher.deobf.js, line 164432.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/torso/TorsoView.as
+// Obfuscated name: _i57e27dd676879e
 
 class extends CategoryBaseView {
   static {

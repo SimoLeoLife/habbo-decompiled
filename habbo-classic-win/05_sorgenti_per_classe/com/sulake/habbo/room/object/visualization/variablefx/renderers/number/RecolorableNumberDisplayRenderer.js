@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 290030.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/number/RecolorableNumberDisplayRenderer.as
+// Extracted from HabboAirLauncher.deobf.js, line 290030.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/number/RecolorableNumberDisplayRenderer.as
 
 class a extends NumberDisplayRendererBase {
   static {
@@ -40,7 +40,7 @@ class a extends NumberDisplayRendererBase {
     this._r2b0a3ccef7fa3c = this.var_2458;
   }
   createPrebake(e, r) {
-    return new _ia27cd49e2ca324(this._r83ed36d9c6626c(e, r));
+    return new UnkClass_a27cd4(this._r83ed36d9c6626c(e, r));
   }
   _r83ed36d9c6626c(e, r) {
     return {

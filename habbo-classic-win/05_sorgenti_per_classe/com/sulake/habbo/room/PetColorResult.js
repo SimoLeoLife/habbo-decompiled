@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 70264.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/PetColorResult.as
-// Nome offuscato: _i1339b056da8f68
+// Extracted from HabboAirLauncher.deobf.js, line 70264.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/PetColorResult.as
+// Obfuscated name: _i1339b056da8f68
 
 class a {
   static {

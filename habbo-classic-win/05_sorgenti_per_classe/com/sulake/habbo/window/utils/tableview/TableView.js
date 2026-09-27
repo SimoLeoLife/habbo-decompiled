@@ -1,11 +1,11 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 153359.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/tableview/TableView.as
-// Nome offuscato: _i2ffec14d4a7361
+// Extracted from HabboAirLauncher.deobf.js, line 153359.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/tableview/TableView.as
+// Obfuscated name: _i2ffec14d4a7361
 
 class a {
   constructor(e, r, t = !1, i = !1) {
     this._parent = r;
-    ((this._r46cd05da8ea54b = new _i3360c59467e33f(150, 300, () => {
+    ((this._r46cd05da8ea54b = new UnkClass_3360c5(150, 300, () => {
       this._r83e0ce56ff07df();
     })),
       (this._r5b1555ea499a17 = i),

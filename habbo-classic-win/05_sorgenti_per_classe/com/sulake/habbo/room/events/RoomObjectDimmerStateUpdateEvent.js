@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 180752.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectDimmerStateUpdateEvent.as
-// Nome offuscato: _i0b05b553fd9d92
+// Extracted from HabboAirLauncher.deobf.js, line 180752.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectDimmerStateUpdateEvent.as
+// Obfuscated name: _i0b05b553fd9d92
 
 class a extends RoomObjectEvent {
   constructor(r, t, i, s, o, d, c = !1, f = !1) {

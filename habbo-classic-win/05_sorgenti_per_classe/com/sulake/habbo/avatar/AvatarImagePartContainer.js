@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 169552.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/AvatarImagePartContainer.as
-// Nome offuscato: _i06e34bce61e8da
+// Extracted from HabboAirLauncher.deobf.js, line 169552.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/AvatarImagePartContainer.as
+// Obfuscated name: _i06e34bce61e8da
 
 class {
   static {
@@ -28,19 +28,19 @@ class {
       (this._paletteMapId = c),
       (this._flippedPartType = f),
       (this._isBlendable = l),
-      (this._blendTransform = new _i4210dc3239901d(1, 1, 1, b)),
+      (this._blendTransform = new UnkClass_4210dc(1, 1, 1, b)),
       this._partType === "ey" && (this._isColorable = !1));
   }
   getFrameIndex(e) {
     if (this._frames.length === 0) return 0;
     let r = e % this._frames.length,
       t = this._frames[r];
-    return t instanceof _i4c2be2d686eb96 ? t.number : r;
+    return t instanceof UnkClass_4c2be2_ ? t.number : r;
   }
   getFrameDefinition(e) {
     let r = e % this._frames.length,
       t = this._frames[r];
-    return t instanceof _i4c2be2d686eb96 ? t : null;
+    return t instanceof UnkClass_4c2be2_ ? t : null;
   }
   getCacheableKey(e) {
     let r = this.getFrameDefinition(e);

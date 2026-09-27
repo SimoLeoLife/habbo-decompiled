@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 184709.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purse/Purse.as
-// Nome offuscato: _iac4662ba2a1804
+// Extracted from HabboAirLauncher.deobf.js, line 184709.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purse/Purse.as
+// Obfuscated name: _iac4662ba2a1804
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 261450.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/HabboNewNavigator.as
-// Nome offuscato: _ic54658da6eb483
+// Extracted from HabboAirLauncher.deobf.js, line 261450.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/HabboNewNavigator.as
+// Obfuscated name: _ic54658da6eb483
 
 class a extends ue {
   static {
@@ -143,11 +143,11 @@ class a extends ue {
     ((this._incomingMessages = new class_2184(this)),
       this.context._r7e43d9f4706607(this),
       (this.var_205 = new Ome(this)),
-      (this._r93616eb4c6570d = new _i2cf5f62c71f608(this)),
+      (this._r93616eb4c6570d = new UnkClass_2cf5f6(this)),
       (this._ra8574b7a1b1b6a = new SearchContextHistoryManager(this)),
       (this._r8c86f94bd19298 = new kme(this)),
       (this._r0ed3433e10fc97 = new Wme()),
-      this.communication.connection.send(new _i104bceecbdd90f()),
+      this.communication.connection.send(new UnkMessageComposer_0args_104bce()),
       (this._initialized = !0));
   }
   dispose() {
@@ -216,7 +216,7 @@ class a extends ue {
       ? this._rc5e08d1ba0be95(i)
       : ((this._r9737016bcc49d2 = e),
         (this._r8dce9f2932e020 = r),
-        this.communication.connection.send(new _idc4ebaaeb6fc2f(e, r)),
+        this.communication.connection.send(new UnkMessageComposer_2args_dc4eba(e, r)),
         this.trackEventLog("search", "Search", a.getEventLogExtraStringFromSearch(e, r))),
       this.open());
   }
@@ -224,7 +224,7 @@ class a extends ue {
     this.performSearch(e.searchCode, e.filtering);
   }
   addSavedSearch(e, r) {
-    (this._currentResults != null && this.communication.connection.send(new _i93dfd5fdbe959d(e, r)),
+    (this._currentResults != null && this.communication.connection.send(new UnkMessageComposer_2args_93dfd5(e, r)),
       this.trackEventLog("savedsearch.add", "SavedSearch", a.getEventLogExtraStringFromSearch(e, r)),
       this.var_205?.setLeftPaneVisibility(!0));
   }
@@ -252,7 +252,7 @@ class a extends ue {
                 let t = Number(r[2]);
                 t > 0
                   ? this._r75d6f0b19b56c3()._r32d169e0ccf735(t)
-                  : this.communication.connection.send(new _id30c13571de965(r[2]));
+                  : this.communication.connection.send(new UnkMessageComposer_1args_d30c13(r[2]));
               }
             }
           break;
@@ -333,13 +333,13 @@ class a extends ue {
     this.communication.connection.send(new class_2097(e, r, t, i, s, o));
   }
   getGuildInfo(e, r = !0) {
-    this.communication.connection.send(new _i494540f04bf21d(e, r));
+    this.communication.connection.send(new class_1949(e, r));
   }
   _rb7aa5df54dedd5(e) {
-    this.communication.connection.send(new _i2a0f86a73b0c16(e));
+    this.communication.connection.send(new UnkMessageComposer_1args_2a0f86(e));
   }
   _rec774b9a9ac62d(e) {
-    this.communication.connection.send(new _if2374ffb1f6bf4(e));
+    this.communication.connection.send(new UnkMessageComposer_1args_f2374f(e));
   }
   goToHomeRoom() {
     this.goToRoom(this._r75d6f0b19b56c3().data._r3dfd89b26af6cd, "external");

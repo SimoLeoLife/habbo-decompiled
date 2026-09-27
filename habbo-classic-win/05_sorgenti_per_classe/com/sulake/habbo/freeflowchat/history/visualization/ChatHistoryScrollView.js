@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 200775.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/history/visualization/ChatHistoryScrollView.as
-// Nome offuscato: _ic3378ac2c66a26
+// Extracted from HabboAirLauncher.deobf.js, line 200775.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/history/visualization/ChatHistoryScrollView.as
+// Obfuscated name: _ic3378ac2c66a26
 
 class a {
   constructor(e, r) {
@@ -13,7 +13,7 @@ class a {
       this._rootDisplayObject.addChild(this._r50e36871229e81),
       this._rootDisplayObject.addEventListener(M._scrollBar, this.ChatHistoryScrollBar),
       (this._r3a16d13c26d3e1 = new ChatHistoryScrollBar(this, this.var_82)),
-      (this._ignore = new _i3a5c6f457acdad()),
+      (this._ignore = new UnkClass_3a5c6f()),
       (this._ignore.bitmapData = this.var_82.assets?.getAssetByName("close_x")?.content),
       (this._r0ed784c89cea2b = new a1(
         this._r090934b6b457cf,
@@ -124,16 +124,16 @@ class a {
   activateScrolling() {
     (this.deactivateScrolling(),
       this._rootDisplayObject != null &&
-        (this._rootDisplayObject.addEventListener(_ifd7c1208e3417e._r9001c395573374, this._r2c9f236b2f27a5),
-        this._rootDisplayObject.addEventListener(_ifd7c1208e3417e._r8ea9e83cdee875, this._r62c79b46cbe6ef),
+        (this._rootDisplayObject.addEventListener(UnkClass_fd7c12._r9001c395573374, this._r2c9f236b2f27a5),
+        this._rootDisplayObject.addEventListener(UnkClass_fd7c12._r8ea9e83cdee875, this._r62c79b46cbe6ef),
         (this._r34b9dbda39b609 = this._rootDisplayObject.stage),
         this._r34b9dbda39b609?.addEventListener(M.RESIZE, this._r7bfc585669c39c)));
   }
   deactivateScrolling() {
-    (this._rootDisplayObject?.removeEventListener(_ifd7c1208e3417e._r9001c395573374, this._r2c9f236b2f27a5),
-      this._rootDisplayObject?.removeEventListener(_ifd7c1208e3417e._r8ea9e83cdee875, this._r62c79b46cbe6ef),
-      this._r34b9dbda39b609?.removeEventListener(_ifd7c1208e3417e.var_370, this._r2c9f236b2f27a5),
-      this._r34b9dbda39b609?.removeEventListener(_ifd7c1208e3417e._ra93f33360c3a28, this._r2c9f236b2f27a5),
+    (this._rootDisplayObject?.removeEventListener(UnkClass_fd7c12._r9001c395573374, this._r2c9f236b2f27a5),
+      this._rootDisplayObject?.removeEventListener(UnkClass_fd7c12._r8ea9e83cdee875, this._r62c79b46cbe6ef),
+      this._r34b9dbda39b609?.removeEventListener(UnkClass_fd7c12.var_370, this._r2c9f236b2f27a5),
+      this._r34b9dbda39b609?.removeEventListener(UnkClass_fd7c12._ra93f33360c3a28, this._r2c9f236b2f27a5),
       this._r34b9dbda39b609?.removeEventListener(M.RESIZE, this._r7bfc585669c39c),
       (this._r402d0c2c517435 = !1),
       this.stopScrollWheel());
@@ -316,7 +316,7 @@ class a {
       return;
     let r = e;
     switch (r.type) {
-      case _ifd7c1208e3417e._r9001c395573374:
+      case UnkClass_fd7c12._r9001c395573374:
         r.stageY < this._rootDisplayObject.y + this._r45dd73c52ebc56.height &&
           r.stageX < this._r3a16d13c26d3e1.displayObject.x &&
           (this._r60ed6f459ec4b9(),
@@ -324,17 +324,17 @@ class a {
           (this._r563269e6e9ce1f = r.stageY),
           (this._r48665daa4b0ddd = this.topY),
           (this._r402d0c2c517435 = !0),
-          this._r34b9dbda39b609.addEventListener(_ifd7c1208e3417e.var_370, this._r2c9f236b2f27a5),
-          this._r34b9dbda39b609.addEventListener(_ifd7c1208e3417e._ra93f33360c3a28, this._r2c9f236b2f27a5));
+          this._r34b9dbda39b609.addEventListener(UnkClass_fd7c12.var_370, this._r2c9f236b2f27a5),
+          this._r34b9dbda39b609.addEventListener(UnkClass_fd7c12._ra93f33360c3a28, this._r2c9f236b2f27a5));
         break;
-      case _ifd7c1208e3417e.var_370: {
+      case UnkClass_fd7c12.var_370: {
         let t = r.stageY - this._r563269e6e9ce1f;
         ((this.topY = this._r48665daa4b0ddd - t), e.stopImmediatePropagation());
         break;
       }
-      case _ifd7c1208e3417e._ra93f33360c3a28: {
-        (this._r34b9dbda39b609.removeEventListener(_ifd7c1208e3417e.var_370, this._r2c9f236b2f27a5),
-          this._r34b9dbda39b609.removeEventListener(_ifd7c1208e3417e._ra93f33360c3a28, this._r2c9f236b2f27a5),
+      case UnkClass_fd7c12._ra93f33360c3a28: {
+        (this._r34b9dbda39b609.removeEventListener(UnkClass_fd7c12.var_370, this._r2c9f236b2f27a5),
+          this._r34b9dbda39b609.removeEventListener(UnkClass_fd7c12._ra93f33360c3a28, this._r2c9f236b2f27a5),
           (this._r402d0c2c517435 = !1));
         let t = r.stageY - this._r563269e6e9ce1f;
         if (t < 1 && t > -1) {

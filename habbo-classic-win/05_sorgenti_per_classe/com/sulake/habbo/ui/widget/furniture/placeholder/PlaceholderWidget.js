@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 318347.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/placeholder/PlaceholderWidget.as
-// Nome offuscato: _i12c58bc80d1a99
+// Extracted from HabboAirLauncher.deobf.js, line 318347.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/placeholder/PlaceholderWidget.as
+// Obfuscated name: _i12c58bc80d1a99
 
 class extends RoomWidgetBase {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 221641.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/ui/SnowWarUI.as
-// Nome offuscato: _ice0d113fd58981
+// Extracted from HabboAirLauncher.deobf.js, line 221641.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/ui/SnowWarUI.as
+// Obfuscated name: _ice0d113fd58981
 
 class a {
     constructor(e) {
@@ -10,7 +10,7 @@ class a {
         (this.var_2862 =
           this._rc48cb7ca67aee6.sessionDataManager?.hasSecurity(class_1794.EMPLOYEE) === !0),
         this.var_2862 &&
-          ((this.var_4670 = new _i66142e2954d529()), (this.tweenTo = new _i66142e2954d529(16777215))));
+          ((this.var_4670 = new UnkClass_66142e()), (this.tweenTo = new UnkClass_66142e(16777215))));
     }
     static {
       n(this, "SnowWarUI");
@@ -180,7 +180,7 @@ class a {
           e > 0 &&
           (xs.playSound(HabboSoundTypesEnum.SOUND_CALL_FOR_HELP),
           this.var_1048 == null &&
-            ((this.var_1048 = new _i05394ecc0c0c4d(500, 1)),
+            ((this.var_1048 = new UnkEventDispatcherWrapperSubclass_05394e(500, 1)),
             this.var_1048.addEventListener(DeBouncer._rf33144eac61595, this._r77a53efbf39679)),
           this.var_1048.reset(),
           this.var_1048.start()));
@@ -246,7 +246,7 @@ class a {
     }, "onExit");
     _re3c827d4983bf7 = n((e) => {
       if (e.window?.name === "yes") {
-        (this._rc48cb7ca67aee6.send(new _ied976cfb0cf69f()),
+        (this._rc48cb7ca67aee6.send(new Game2ExitGameMessageComposer()),
           this._rc48cb7ca67aee6._rd75f76fa5c0d05(),
           this._rc48cb7ca67aee6._r9dc8d3eeed7972());
         return;

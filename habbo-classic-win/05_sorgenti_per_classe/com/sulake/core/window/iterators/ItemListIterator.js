@@ -1,8 +1,8 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 138373.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/iterators/ItemListIterator.as
-// Nome offuscato: _i47b42f933720cc
+// Extracted from HabboAirLauncher.deobf.js, line 138373.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/iterators/ItemListIterator.as
+// Obfuscated name: _i47b42f933720cc
 
-class extends _i6e5afb6abd5bbb {
+class extends UnkInterface_6e5afb {
   static {
     n(this, "ItemListIterator");
   }

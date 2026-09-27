@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 211143.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/talent/HabboTalent.as
-// Nome offuscato: _i36017fc4b1e989
+// Extracted from HabboAirLauncher.deobf.js, line 211143.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/talent/HabboTalent.as
+// Obfuscated name: _i36017fc4b1e989
 
 class extends AbstractView {
   static {

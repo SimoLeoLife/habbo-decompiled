@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 350731.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/params/SourceTypeSelectorParam.as
-// Nome offuscato: _i17d811ef5ce00c
+// Extracted from HabboAirLauncher.deobf.js, line 350731.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/params/SourceTypeSelectorParam.as
+// Obfuscated name: _i17d811ef5ce00c
 
 class {
   constructor(e, r, t = 0) {

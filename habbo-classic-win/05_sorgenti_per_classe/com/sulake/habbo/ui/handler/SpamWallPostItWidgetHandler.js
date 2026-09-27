@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 333277.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/SpamWallPostItWidgetHandler.as
-// Nome offuscato: _i8a1f54468ce118
+// Extracted from HabboAirLauncher.deobf.js, line 333277.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/SpamWallPostItWidgetHandler.as
+// Obfuscated name: _i8a1f54468ce118
 
 class {
   static {
@@ -33,7 +33,7 @@ class {
       case RoomWidgetSpamWallPostItFinishEditingMessage.SEND_POSTIT_DATA: {
         if (!(e instanceof RoomWidgetSpamWallPostItFinishEditingMessage)) break;
         let r = e;
-        this._container?.connection?.send(new _i2684a10ba70286(r.objectId, r.location, r._r90e16a8c48c219, r.text));
+        this._container?.connection?.send(new class_3503(r.objectId, r.location, r._r90e16a8c48c219, r.text));
         break;
       }
     }

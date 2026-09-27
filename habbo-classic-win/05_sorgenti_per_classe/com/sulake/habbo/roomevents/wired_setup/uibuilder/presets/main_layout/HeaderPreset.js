@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 352691.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/main_layout/HeaderPreset.as
-// Nome offuscato: _i8cdb190f070733
+// Extracted from HabboAirLauncher.deobf.js, line 352691.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/main_layout/HeaderPreset.as
+// Obfuscated name: _i8cdb190f070733
 
 class a extends WiredUIPreset {
   static {

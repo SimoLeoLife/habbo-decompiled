@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 348784.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/newvariablepicker/tabbuttons/TabButtonView.as
-// Nome offuscato: _ibd071328082405
+// Extracted from HabboAirLauncher.deobf.js, line 348784.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/newvariablepicker/tabbuttons/TabButtonView.as
+// Obfuscated name: _ibd071328082405
 
 class a {
   constructor(e, r, t) {

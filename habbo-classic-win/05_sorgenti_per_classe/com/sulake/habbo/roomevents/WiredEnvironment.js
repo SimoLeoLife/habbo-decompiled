@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 375158.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/WiredEnvironment.as
-// Nome offuscato: _i6697a29606b5ec
+// Extracted from HabboAirLauncher.deobf.js, line 375158.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/WiredEnvironment.as
+// Obfuscated name: _i6697a29606b5ec
 
 class a {
   static {

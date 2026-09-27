@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 321141.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/InfoStandPetView.as
-// Nome offuscato: _i4579a074802588
+// Extracted from HabboAirLauncher.deobf.js, line 321141.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/InfoStandPetView.as
+// Obfuscated name: _i4579a074802588
 
 class a {
   static {

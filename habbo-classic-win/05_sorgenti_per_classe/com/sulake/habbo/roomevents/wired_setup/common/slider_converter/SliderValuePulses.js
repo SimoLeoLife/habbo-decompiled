@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 350812.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/common/slider_converter/SliderValuePulses.as
-// Nome offuscato: _ic112cebaf59223
+// Extracted from HabboAirLauncher.deobf.js, line 350812.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/common/slider_converter/SliderValuePulses.as
+// Obfuscated name: _ic112cebaf59223
 
 class {
   static {

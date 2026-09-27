@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 163522.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/effects/EffectsModel.as
-// Nome offuscato: _i9d707f89d96ae5
+// Extracted from HabboAirLauncher.deobf.js, line 163522.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/effects/EffectsModel.as
+// Obfuscated name: _i9d707f89d96ae5
 
 class extends CategoryBaseModel {
   static {

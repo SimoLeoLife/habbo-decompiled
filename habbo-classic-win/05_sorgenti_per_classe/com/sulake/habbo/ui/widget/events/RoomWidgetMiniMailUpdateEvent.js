@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 160357.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetMiniMailUpdateEvent.as
-// Nome offuscato: _i0ab21c1c90d052
+// Extracted from HabboAirLauncher.deobf.js, line 160357.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetMiniMailUpdateEvent.as
+// Obfuscated name: _i0ab21c1c90d052
 
 class extends RoomWidgetUpdateEvent {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 349912.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/contracts/ChestItemIconPreviewerPreset.as
-// Nome offuscato: _iee639c9c9b110a
+// Extracted from HabboAirLauncher.deobf.js, line 349912.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/contracts/ChestItemIconPreviewerPreset.as
+// Obfuscated name: _iee639c9c9b110a
 
 class extends WiredUIPreset {
   static {
@@ -18,7 +18,7 @@ class extends WiredUIPreset {
   set item(e) {
     this.var_183 = e;
     let r = null;
-    (e != null && (r = new _i27028f939050ee(e)), (this.widgetWindow.widget.productInfo = r));
+    (e != null && (r = new UnkClass_27028f_(e)), (this.widgetWindow.widget.productInfo = r));
   }
   get item() {
     return this.var_183;

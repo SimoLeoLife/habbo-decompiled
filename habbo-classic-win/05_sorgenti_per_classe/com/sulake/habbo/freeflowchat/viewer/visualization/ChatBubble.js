@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 202169.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/visualization/ChatBubble.as
+// Extracted from HabboAirLauncher.deobf.js, line 202169.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/visualization/ChatBubble.as
 
 class a extends Sprite {
   constructor(r, t, i, s, o, d, c = -1, f = !1, l = -1) {
@@ -9,7 +9,7 @@ class a extends Sprite {
     this.var_82 = d;
     this._r1324c0d98ac9ba = f;
     ((this._background = this._style._r3abb3c4d9f4245(o)),
-      (this.var_596 = this._style.alpha ? null : new _i3a5c6f457acdad()),
+      (this.var_596 = this._style.alpha ? null : new UnkClass_3a5c6f()),
       this.var_596 != null && (this.var_596.bitmapData = this._style.pointer));
     let b = Math.trunc(a.MAX_HEIGHT * this.var_82._re843269b33bec5),
       _ = a.MAX_WIDTH_DEFAULT;
@@ -34,7 +34,7 @@ class a extends Sprite {
     let p = this._reaf5b87f0cad4a(this._style._r39fa5000b657f2, this.var_82._re843269b33bec5);
     ((this.var_73.defaultTextFormat = p),
       (this.var_73.styleSheet = this._style.styleSheet),
-      this.var_73.addEventListener(_i6d7150da12036f.LINK, this.onTextLinkEvent));
+      this.var_73.addEventListener(UnkClass_6d7150.LINK, this.onTextLinkEvent));
     let m = this.var_198.chatType === xr.CHAT_TYPE_SPEAK,
       v = this.var_198.chatType === xr.CHAT_TYPE_SHOUT,
       w = !m && !v && !this._style.alpha;
@@ -79,7 +79,7 @@ class a extends Sprite {
     if (
       (T != null &&
         S != null &&
-        ((this.var_1173 = new _i3a5c6f457acdad()),
+        ((this.var_1173 = new UnkClass_3a5c6f()),
         (this.var_1173.bitmapData = T),
         (this.var_1173.x = S.x),
         (this.var_1173.y = S.y),
@@ -96,7 +96,7 @@ class a extends Sprite {
       let z = i;
       (i.height > W &&
         ((z = new A(i.width, W, !0, 0)), z.copyPixels(i, new D(0, i.height - W, i.width, W), new E(0, 0))),
-        (this.var_440 = new _i3a5c6f457acdad()),
+        (this.var_440 = new UnkClass_3a5c6f()),
         (this.var_440.bitmapData = z),
         (this.var_440.x = this._style.max.x - z.width / 2),
         (this.var_440.y = Math.max(1, this._style.max.y - z.height / 2)),
@@ -162,7 +162,7 @@ class a extends Sprite {
   _r6a38b6a2c10c12 = !1;
   _rd3f248527b7263 = null;
   onAddedToStage = n((r) => {
-    this.addEventListener(_ifd7c1208e3417e.CLICK, this.var_734);
+    this.addEventListener(UnkClass_fd7c12.CLICK, this.var_734);
   }, "onAddedToStage");
   onTextLinkEvent = n((r) => {
     r.text.length > 0 && this.var_82._r6b6c989018eb05(r.text);
@@ -174,9 +174,9 @@ class a extends Sprite {
   }, "var_734");
   dispose() {
     (this.removeEventListener(M._scrollBar, this.onAddedToStage),
-      this.removeEventListener(_ifd7c1208e3417e.CLICK, this.var_734),
+      this.removeEventListener(UnkClass_fd7c12.CLICK, this.var_734),
       this._rd3f248527b7263?.parent === this && this.removeChild(this._rd3f248527b7263),
-      this.var_73.removeEventListener(_i6d7150da12036f.LINK, this.onTextLinkEvent),
+      this.var_73.removeEventListener(UnkClass_6d7150.LINK, this.onTextLinkEvent),
       this.var_73.parent === this && this.removeChild(this.var_73),
       this.var_73.dispose(),
       this.var_440?.parent === this && this.removeChild(this.var_440),
@@ -253,7 +253,7 @@ class a extends Sprite {
     return this._r6112356986fc40;
   }
   set readyToRecycle(r) {
-    ((this._r6112356986fc40 = r), r && this.removeEventListener(_ifd7c1208e3417e.CLICK, this.var_734));
+    ((this._r6112356986fc40 = r), r && this.removeEventListener(UnkClass_fd7c12.CLICK, this.var_734));
   }
   get timeStamp() {
     return this.var_198.timeStamp;

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 144061.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/enum/HabboCatalogTrackingEvent.as
-// Nome offuscato: _iec25cb4b2ae965
+// Extracted from HabboAirLauncher.deobf.js, line 144061.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/enum/HabboCatalogTrackingEvent.as
+// Obfuscated name: _iec25cb4b2ae965
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 281713.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/rasterizer/basic/PlaneVisualizationLayer.as
-// Nome offuscato: _id172d31764c7f1
+// Extracted from HabboAirLauncher.deobf.js, line 281713.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/rasterizer/basic/PlaneVisualizationLayer.as
+// Obfuscated name: _id172d31764c7f1
 
 class a {
   constructor(e, r, t, i = a.DEFAULT_OFFSET) {

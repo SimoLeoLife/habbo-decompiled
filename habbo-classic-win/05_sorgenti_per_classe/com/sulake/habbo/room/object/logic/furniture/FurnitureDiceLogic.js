@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 299299.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureDiceLogic.as
-// Nome offuscato: _i6dfc79a91f7142
+// Extracted from HabboAirLauncher.deobf.js, line 299299.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureDiceLogic.as
+// Obfuscated name: _i6dfc79a91f7142
 
 class extends Qr {
   static {
@@ -17,7 +17,7 @@ class extends Qr {
   }
   mouseEvent(e, r) {
     if (!(e == null || r == null || this.object == null)) {
-      if (e.type === _ifd7c1208e3417e.DOUBLE_CLICK) {
+      if (e.type === UnkClass_fd7c12.DOUBLE_CLICK) {
         let t = null;
         (this.allspritesactivate
           ? !this._rd8215627177cba || this.object.getState(0) === 0 || this.object.getState(0) === 100

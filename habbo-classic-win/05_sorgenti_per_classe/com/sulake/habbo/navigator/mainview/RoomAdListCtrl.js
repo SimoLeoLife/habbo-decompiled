@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 255615.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/RoomAdListCtrl.as
-// Nome offuscato: _i4f1eef10abef39
+// Extracted from HabboAirLauncher.deobf.js, line 255615.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/RoomAdListCtrl.as
+// Obfuscated name: _i4f1eef10abef39
 
 class extends GuestRoomListCtrl {
   static {
@@ -62,7 +62,7 @@ class extends GuestRoomListCtrl {
   onMouseClick(e) {
     let r = e.target,
       t = r == null ? null : this.getRooms()[r.id];
-    (t != null && this.navigator?.send(new _i3f015a31ca62f9(t.flatId, t.roomAdName, t._r92fc4be8b2592f)),
+    (t != null && this.navigator?.send(new class_2552(t.flatId, t.roomAdName, t._r92fc4be8b2592f)),
       super.onMouseClick(e));
   }
 }

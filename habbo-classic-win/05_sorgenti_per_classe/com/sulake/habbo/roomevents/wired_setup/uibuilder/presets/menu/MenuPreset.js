@@ -1,12 +1,12 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 352590.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/menu/MenuPreset.as
-// Nome offuscato: _i14c4a30707b854
+// Extracted from HabboAirLauncher.deobf.js, line 352590.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/menu/MenuPreset.as
+// Obfuscated name: _i14c4a30707b854
 
 class extends WiredUIPreset {
   static {
     n(this, "MenuPreset");
   }
-  static SPACER = new _i39cf834c6e26f9();
+  static SPACER = new UnkInterface_39cf83();
   _container;
   _rae90ea214a7da9;
   _r86987cea8ca066;
@@ -26,7 +26,7 @@ class extends WiredUIPreset {
     let o = 0;
     for (let d of e) {
       let c = d instanceof MenuItem ? d : null,
-        f = d instanceof _i39cf834c6e26f9 ? d : null;
+        f = d instanceof UnkInterface_39cf83 ? d : null;
       if (c != null) {
         let l = new MenuItemView(this, c);
         (this.var_1158.push(l),

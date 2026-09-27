@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 178687.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconPopupMode.as
-// Nome offuscato: _i574ea976cf85f7
+// Extracted from HabboAirLauncher.deobf.js, line 178687.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconPopupMode.as
+// Obfuscated name: _i574ea976cf85f7
 
 class {
   static {

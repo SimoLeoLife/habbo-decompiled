@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 258565.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/HabboNavigator.as
+// Extracted from HabboAirLauncher.deobf.js, line 258565.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/HabboNavigator.as
 
 class extends ue {
   static {
@@ -79,7 +79,7 @@ class extends ue {
       (this.var_2435 ??= new gQ(this)),
       (this._r8f0a81b34c4fd5 ??= new RoomFilterCtrl(this)),
       (this._r4f1b55aaf19d1b ??= new EnforceCategoryCtrl(this)),
-      (this._incomingMessages = new _ifffc223d172097____(this)));
+      (this._incomingMessages = new UnkClass_fffc22___________(this)));
     let e = this._roomSessionManager?.events;
     ((this._r51a3d93f53aeb6 ??= (t) => this._rca2c89b6ba6752(t)),
       e?.addEventListener?.(RoomSessionEvent.const_481, this._r51a3d93f53aeb6),
@@ -208,7 +208,7 @@ class extends ue {
     return "navigator/";
   }
   enterRoomWebRequest = n((e, r = !1, t = null) => {
-    ((this._rb0c4c647f984db = r), (this._r55ff3d78d3b221 = t), this.send(new _i299bf932cfbc24(e)));
+    ((this._rb0c4c647f984db = r), (this._r55ff3d78d3b221 = t), this.send(new UnkMessageComposer_1args_299bf9(e)));
   }, "enterRoomWebRequest");
   _r545ad49cf926cc() {
     this._passwordInput?.show();
@@ -217,7 +217,7 @@ class extends ue {
     this.send(new class_2142(e, !1, !0));
   }
   _r37e55c511f5b0e(e) {
-    this.send(new _i4ee8fc56f28855(e));
+    this.send(new UnkMessageComposer_1args_4ee8fc(e));
   }
   _r251807bd7fb8c9(e) {
     let r = this._roomSessionManager?.getSession(e) ?? null;
@@ -375,7 +375,7 @@ class extends ue {
             ? this.goToHomeRoom()
             : (Number(r[2]) || 0) > 0
               ? this._r32d169e0ccf735(Number(r[2]))
-              : r[2] != null && this.send(new _id30c13571de965(r[2]));
+              : r[2] != null && this.send(new UnkMessageComposer_1args_d30c13(r[2]));
           break;
         case "search":
           r[2] != null && this.performTextSearch(r[2]);

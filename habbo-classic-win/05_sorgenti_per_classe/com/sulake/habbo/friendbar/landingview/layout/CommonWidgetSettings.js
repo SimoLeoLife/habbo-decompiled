@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 206432.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/layout/CommonWidgetSettings.as
-// Nome offuscato: _i9f038d24de89b8
+// Extracted from HabboAirLauncher.deobf.js, line 206432.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/layout/CommonWidgetSettings.as
+// Obfuscated name: _i9f038d24de89b8
 
 class a {
   static {

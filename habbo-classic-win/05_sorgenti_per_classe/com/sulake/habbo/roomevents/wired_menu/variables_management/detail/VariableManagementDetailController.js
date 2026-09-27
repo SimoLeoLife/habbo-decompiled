@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 359206.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/variables_management/detail/VariableManagementDetailController.as
-// Nome offuscato: _i563c4539cc84ba
+// Extracted from HabboAirLauncher.deobf.js, line 359206.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/variables_management/detail/VariableManagementDetailController.as
+// Obfuscated name: _i563c4539cc84ba
 
 class extends ue {
   static {
@@ -16,8 +16,8 @@ class extends ue {
     (super(r, t, i),
       (this._roomEvents = e),
       (this._messageEvents = [
-        new _i54a032e9dd8c0a((s) => this._re71b167730cec9(s)),
-        new _i2e47b0596384b3((s) => this.onGetResult(s)),
+        new UnkMessageEvent_54a032((s) => this._re71b167730cec9(s)),
+        new UnkMessageEvent_2e47b0((s) => this.onGetResult(s)),
       ]));
     for (let s of this._messageEvents) this.addMessageEvent(s);
   }
@@ -97,7 +97,7 @@ class extends ue {
     }
   }
   _re71b167730cec9(e) {
-    let r = ClassUtils.getParser(e, _i651f4f3ee6004d);
+    let r = ClassUtils.getParser(e, UnkMessageParser_empty_651f4f);
     if (r == null) return;
     let t = r.list;
     t != null && this._roomEvents._rf5e384520bc525.getAllVariables((i) => this.initializeData(i, t));
@@ -113,7 +113,7 @@ class extends ue {
       this._view.isShowing() || this._view.show());
   }
   onGetResult(e) {
-    let r = ClassUtils.getParser(e, _i19fbbf9b01a076);
+    let r = ClassUtils.getParser(e, UnkMessageParser_B_19fbbf);
     r != null &&
       (r.success ||
         this._roomEvents.notifications.addItem(

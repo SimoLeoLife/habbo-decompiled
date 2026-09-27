@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161639.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetFriendRequestMessage.as
-// Nome offuscato: _i4b690e0f8214a9
+// Extracted from HabboAirLauncher.deobf.js, line 161639.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetFriendRequestMessage.as
+// Obfuscated name: _i4b690e0f8214a9
 
 class extends RoomWidgetMessage {
   static {

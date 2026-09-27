@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 181119.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/messages/RoomObjectAvatarDanceUpdateMessage.as
-// Nome offuscato: _ic226be3facdd8b
+// Extracted from HabboAirLauncher.deobf.js, line 181119.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/messages/RoomObjectAvatarDanceUpdateMessage.as
+// Obfuscated name: _ic226be3facdd8b
 
 class extends RoomObjectUpdateStateMessage {
   constructor(r = 0) {

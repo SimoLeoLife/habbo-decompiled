@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 70236.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/localization/enum/class_2079.as
-// Nome offuscato: _i60b6bb7f7c62ea
+// Extracted from HabboAirLauncher.deobf.js, line 70236.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/localization/enum/class_2079.as
+// Obfuscated name: _i60b6bb7f7c62ea
 
 class {
   static {

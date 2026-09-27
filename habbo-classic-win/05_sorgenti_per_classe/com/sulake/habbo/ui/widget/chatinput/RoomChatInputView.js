@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 311221.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chatinput/RoomChatInputView.as
-// Nome offuscato: _ia8fe3d69367e35
+// Extracted from HabboAirLauncher.deobf.js, line 311221.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chatinput/RoomChatInputView.as
+// Obfuscated name: _ia8fe3d69367e35
 
 class a {
   constructor(e) {
@@ -12,9 +12,9 @@ class a {
         this.widget.localizations?.getLocalization("widgets.chatinput.mode.shout", ":shout") ?? ":shout"),
       (this._r3a73151f982bf8 =
         this.widget.localizations?.getLocalization("widgets.chatinput.mode.speak", ":speak") ?? ":speak"),
-      (this.onTypingTimerComplete = new _i05394ecc0c0c4d(1e3, 1)),
+      (this.onTypingTimerComplete = new UnkEventDispatcherWrapperSubclass_05394e(1e3, 1)),
       this.onTypingTimerComplete.addEventListener(DeBouncer._rf33144eac61595, this._rcbb63185e6cc42),
-      (this.var_670 = new _i05394ecc0c0c4d(1e4, 1)),
+      (this.var_670 = new UnkEventDispatcherWrapperSubclass_05394e(1e4, 1)),
       this.var_670.addEventListener(DeBouncer._rf33144eac61595, this._r7c2665a72b8ed8),
       (this._rb5b16ec9d74b01 =
         this.sessionDataManager?.isNoob === !0 || this.sessionDataManager?.isRealNoob === !0),
@@ -23,7 +23,7 @@ class a {
       let r = this.widget.handler.container?.config;
       if (r?.getProperty("nux.chat.reminder.shown") !== "1") {
         let t = r?.getInteger?.("nux.noob.chat.reminder.delay", 240) ?? 240;
-        ((this._re846245872291b = new _i05394ecc0c0c4d(t * 1e3, 1)),
+        ((this._re846245872291b = new UnkEventDispatcherWrapperSubclass_05394e(t * 1e3, 1)),
           this._re846245872291b.addEventListener(DeBouncer._rf33144eac61595, this.var_389),
           this._re846245872291b.start());
       }
@@ -336,7 +336,7 @@ class a {
       this._rca9f463f873d38.addChild(e),
       this._rca9f463f873d38.invalidate(),
       this._r7033dba2401e76 == null &&
-        ((this._r7033dba2401e76 = new _i05394ecc0c0c4d(Jn.totalRunningTime, 1)),
+        ((this._r7033dba2401e76 = new UnkEventDispatcherWrapperSubclass_05394e(Jn.totalRunningTime, 1)),
         this._r7033dba2401e76.addEventListener(DeBouncer._rf33144eac61595, this._r2d92872d088c26),
         this._r7033dba2401e76.start()));
   }
@@ -473,7 +473,7 @@ class a {
     this.var_30 != null &&
       ((this.var_30.text =
         this.widget.localizations?.getLocalization("widgets.chatinput.mode.remind.noobie") ?? ""),
-      (this._ref54786a311fc4 = new _i05394ecc0c0c4d(500)),
+      (this._ref54786a311fc4 = new UnkEventDispatcherWrapperSubclass_05394e(500)),
       this._ref54786a311fc4.addEventListener(DeBouncer.addEventListener, this.var_544),
       this._ref54786a311fc4.start(),
       this.widget.windowManager?._rfbca05ed7fc2ff("nux_chat_reminder", this.var_30),
@@ -805,7 +805,7 @@ class a {
   }
   _r40eea2775c3757() {
     (this.stopHelpButtonHideTimer(),
-      (this._rc878587f8b551a = new _i05394ecc0c0c4d(400, 1)),
+      (this._rc878587f8b551a = new UnkEventDispatcherWrapperSubclass_05394e(400, 1)),
       this._rc878587f8b551a.addEventListener(DeBouncer.addEventListener, this._r22d042ce94150a),
       this._rc878587f8b551a.start());
   }

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145533.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/AlertDialogWithLink.as
-// Nome offuscato: _i82471c54383cae
+// Extracted from HabboAirLauncher.deobf.js, line 145533.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/AlertDialogWithLink.as
+// Obfuscated name: _i82471c54383cae
 
 class extends c0 {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 248400.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/HideDiscussionThread.as
-// Nome offuscato: _i9ea0ebd2bb50e2
+// Extracted from HabboAirLauncher.deobf.js, line 248400.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/HideDiscussionThread.as
+// Obfuscated name: _i9ea0ebd2bb50e2
 
 class {
   constructor(e, r, t, i, s) {
@@ -17,7 +17,7 @@ class {
     e.type === u.CLICK &&
       (this._popup.dispose(),
       this._main.connection?.send(
-        new _i1d41947217e2e8(this._groupId, this.var_2523, class_2751.PERMANENTLY_HIDDEN_BY_MOD),
+        new class_2638(this._groupId, this.var_2523, class_2751.PERMANENTLY_HIDDEN_BY_MOD),
       ));
   }, "onClick");
 }

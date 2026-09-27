@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 184849.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purchase/PlacedObjectPurchaseData.as
-// Nome offuscato: _i4c7de87b1264c6
+// Extracted from HabboAirLauncher.deobf.js, line 184849.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purchase/PlacedObjectPurchaseData.as
+// Obfuscated name: _i4c7de87b1264c6
 
 class {
   constructor(e, r, t, i, s, o, d, c) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 174175.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/renderer/collections/class_4367.as
-// Nome offuscato: _ib130e0ed7be04a
+// Extracted from HabboAirLauncher.deobf.js, line 174175.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/renderer/collections/class_4367.as
+// Obfuscated name: _ib130e0ed7be04a
 
 class a {
   static {

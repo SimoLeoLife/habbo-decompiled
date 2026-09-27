@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 135901.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/utils/XMLPropertyArrayParser.as
-// Nome offuscato: _i8ae1494ec4b1c2
+// Extracted from HabboAirLauncher.deobf.js, line 135901.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/utils/XMLPropertyArrayParser.as
+// Obfuscated name: _i8ae1494ec4b1c2
 
 class extends class_3122 {
   static {

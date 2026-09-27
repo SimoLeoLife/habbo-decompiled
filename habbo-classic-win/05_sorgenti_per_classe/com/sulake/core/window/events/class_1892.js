@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 65823.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/events/class_1892.as
-// Nome offuscato: _ia2c5ee8f4842b0
+// Extracted from HabboAirLauncher.deobf.js, line 65823.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/events/class_1892.as
+// Obfuscated name: _ia2c5ee8f4842b0
 
 class a {
   static {

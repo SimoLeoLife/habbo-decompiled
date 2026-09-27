@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 203360.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/ChatBubbleFactory.as
-// Nome offuscato: _ie7c3942a34e4a9
+// Extracted from HabboAirLauncher.deobf.js, line 203360.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/ChatBubbleFactory.as
+// Obfuscated name: _ie7c3942a34e4a9
 
 class a {
   constructor(e) {

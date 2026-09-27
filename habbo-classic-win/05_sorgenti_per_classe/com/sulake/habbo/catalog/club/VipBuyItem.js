@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 190376.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/club/VipBuyItem.as
-// Nome offuscato: _i8b19b21dd60240
+// Extracted from HabboAirLauncher.deobf.js, line 190376.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/club/VipBuyItem.as
+// Obfuscated name: _i8b19b21dd60240
 
 class {
   constructor(e, r, t) {

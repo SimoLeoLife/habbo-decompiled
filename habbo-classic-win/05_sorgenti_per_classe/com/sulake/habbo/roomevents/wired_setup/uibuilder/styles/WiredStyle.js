@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 348112.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/styles/WiredStyle.as
-// Nome offuscato: _ide5b1bd84cddf1
+// Extracted from HabboAirLauncher.deobf.js, line 348112.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/styles/WiredStyle.as
+// Obfuscated name: _ide5b1bd84cddf1
 
 class {
   constructor(e) {

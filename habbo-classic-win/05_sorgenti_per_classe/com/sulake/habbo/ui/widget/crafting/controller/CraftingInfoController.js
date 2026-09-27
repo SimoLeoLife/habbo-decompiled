@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 312782.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/controller/CraftingInfoController.as
-// Nome offuscato: _i206ea1af068d0a
+// Extracted from HabboAirLauncher.deobf.js, line 312782.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/controller/CraftingInfoController.as
+// Obfuscated name: _i206ea1af068d0a
 
 class a {
   constructor(e) {

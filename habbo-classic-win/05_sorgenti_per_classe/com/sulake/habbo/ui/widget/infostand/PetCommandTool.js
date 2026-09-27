@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 320900.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/PetCommandTool.as
-// Nome offuscato: _i9392c374560138
+// Extracted from HabboAirLauncher.deobf.js, line 320900.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/PetCommandTool.as
+// Obfuscated name: _i9392c374560138
 
 class a {
   static {
@@ -26,7 +26,7 @@ class a {
   _ra90ce3bebd61fb;
   constructor(e) {
     ((this.var_17 = e),
-      (this._ra90ce3bebd61fb = new _i05394ecc0c0c4d(a.BUTTONS_DISABLED_MS)),
+      (this._ra90ce3bebd61fb = new UnkEventDispatcherWrapperSubclass_05394e(a.BUTTONS_DISABLED_MS)),
       this._ra90ce3bebd61fb.addEventListener(DeBouncer.addEventListener, this._re373f2428fc67e));
   }
   dispose() {

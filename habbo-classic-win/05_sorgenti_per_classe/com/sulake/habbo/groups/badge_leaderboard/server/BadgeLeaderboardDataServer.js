@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 227670.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge_leaderboard/server/BadgeLeaderboardDataServer.as
-// Nome offuscato: _i867289b10619da
+// Extracted from HabboAirLauncher.deobf.js, line 227670.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge_leaderboard/server/BadgeLeaderboardDataServer.as
+// Obfuscated name: _i867289b10619da
 
 class a {
   constructor(e) {
@@ -40,7 +40,7 @@ class a {
       this._r0c403a83098513(s, d)
         ? this._r6a4d6372838ad7(s, d)
         : this._re4a11f391c868d(
-            new _if4302c201d51fd(new BadgeLeaderboardDataServerChunk(e, r, t, s.totalEntries, [], s.ownEntry), d, -1, !1),
+            new UnkClass_f4302c(new BadgeLeaderboardDataServerChunk(e, r, t, s.totalEntries, [], s.ownEntry), d, -1, !1),
           );
     }
     this.prefetchAroundPage(s, t);
@@ -49,7 +49,7 @@ class a {
     if (this._disposed || e == null || e.size !== a.const_148) return;
     let r = this.getContext(e.type, e.rarity),
       t = _ia411d8d8194a3a(),
-      i = new _id6bf71fdb5ed61(
+      i = new UnkClass_d6bf71(
         e.page,
         e.totalEntries,
         e.entries == null ? [] : e.entries.concat(),
@@ -99,7 +99,7 @@ class a {
     for (let b = 0; b < c; b++) d.push(i.entries[o + b]);
     let f = i.ownEntry ?? e.ownEntry,
       l = _ia411d8d8194a3a() - i._rce812ca560e25f > a._rb86ae144774021;
-    return new _if4302c201d51fd(new BadgeLeaderboardDataServerChunk(e.type, e.rarity, r, i.totalEntries, d, f), t, i._rce812ca560e25f, l);
+    return new UnkClass_f4302c(new BadgeLeaderboardDataServerChunk(e.type, e.rarity, r, i.totalEntries, d, f), t, i._rce812ca560e25f, l);
   }
   prefetchAroundPage(e, r) {
     let t = this._rb2197e996d5306(r);
@@ -115,7 +115,7 @@ class a {
       this._r36688ac5c2359f == null ||
       !this._r0c403a83098513(e, r) ||
       (e._r421eada3383525.get(r) ?? !1) ||
-      (e._r421eada3383525.set(r, !0), this._r36688ac5c2359f(new _i86258ff7bd9dc1(e.type, e.rarity, r, a.const_148)));
+      (e._r421eada3383525.set(r, !0), this._r36688ac5c2359f(new UnkMessageComposer_4args_86258f(e.type, e.rarity, r, a.const_148)));
   }
   _r0c403a83098513(e, r) {
     return r < 0 ? !1 : e.totalEntries < 0 ? !0 : r * a.const_148 < e.totalEntries;

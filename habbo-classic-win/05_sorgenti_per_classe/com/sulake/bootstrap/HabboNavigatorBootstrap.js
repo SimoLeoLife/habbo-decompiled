@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 259012.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/bootstrap/HabboNavigatorBootstrap.as
+// Extracted from HabboAirLauncher.deobf.js, line 259012.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/bootstrap/HabboNavigatorBootstrap.as
 
 class extends HabboNavigator {
   static {

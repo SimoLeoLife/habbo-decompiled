@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 199035.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/demo/ErrorPopupCtrl.as
-// Nome offuscato: _i85076ee6779a7f
+// Extracted from HabboAirLauncher.deobf.js, line 199035.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/demo/ErrorPopupCtrl.as
+// Obfuscated name: _i85076ee6779a7f
 
 class extends ue {
   static {

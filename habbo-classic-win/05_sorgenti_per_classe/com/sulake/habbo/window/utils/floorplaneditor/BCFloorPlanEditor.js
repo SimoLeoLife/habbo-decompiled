@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 147122.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/floorplaneditor/BCFloorPlanEditor.as
-// Nome offuscato: _i47c35d9523844d
+// Extracted from HabboAirLauncher.deobf.js, line 147122.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/floorplaneditor/BCFloorPlanEditor.as
+// Obfuscated name: _i47c35d9523844d
 
 class a {
   constructor(e) {
@@ -8,11 +8,11 @@ class a {
     ((this._r81ff317dd809f8 = new S3e(this)),
       this._windowManager?.communication != null &&
         ((this._r21570811df2433 = new class_3534(this._rb42cb61cf01165)),
-        (this._rc382236ecc8eeb = new _i7bf684929835b9(this._r7a796d23c3c738)),
+        (this._rc382236ecc8eeb = new UnkMessageEvent_class_2771(this._r7a796d23c3c738)),
         (this._r2d2a6a3025eef7 = new class_2533(this._r07e11cc34e0825)),
-        (this._re54087122d7a13 = new _i4ac32cf75005a5(this._r7c9f7c3649fea5)),
+        (this._re54087122d7a13 = new UnkMessageEvent_4ac32c(this._r7c9f7c3649fea5)),
         (this._rda0ff5912c97ce = new class_2086(this._r954b3e8139214d)),
-        (this.communication = new _i2c7b489ce44a85(this._r773ce30a57f0a5)),
+        (this.communication = new UnkMessageEvent_class_2880(this._r773ce30a57f0a5)),
         this._windowManager.communication._r2e106e2349a0b6(this._r21570811df2433),
         this._windowManager.communication._r2e106e2349a0b6(this._rda0ff5912c97ce),
         this._windowManager.communication._r2e106e2349a0b6(this._rc382236ecc8eeb),
@@ -93,8 +93,8 @@ class a {
     }
     ((this._editorWindow.visible = e),
       e
-        ? (this._windowManager?.communication?.connection?.send(new _idaee125ca566cc()),
-          this._windowManager?.communication?.connection?.send(new _i56b3ff5fd5bb97()),
+        ? (this._windowManager?.communication?.connection?.send(new UnkMessageComposer_0args_daee12()),
+          this._windowManager?.communication?.connection?.send(new UnkMessageComposer_0args_56b3ff()),
           this.updateThicknessSelection(),
           this.centerScrollableViews(),
           this.updateWallHeight(this._fixedWallsHeight))
@@ -207,7 +207,7 @@ class a {
   _r954b3e8139214d = n((e) => {
     ((this._ree16f1bb203e19 = e.getParser().secondsLeft),
       this._recdc100766f0eb == null &&
-        ((this._recdc100766f0eb = new _i05394ecc0c0c4d(1e4)),
+        ((this._recdc100766f0eb = new UnkEventDispatcherWrapperSubclass_05394e(1e4)),
         this._recdc100766f0eb.addEventListener(DeBouncer.addEventListener, this._r35b0cf57c65de7),
         this._recdc100766f0eb.start()));
   }, "_r954b3e8139214d");
@@ -260,7 +260,7 @@ class a {
             (this._r60833824467646 =
               this._editorWindow.findChildByName("wall_thickness_drop")?.selection ?? 0),
             this._windowManager?.communication?.connection?.send(
-              new _ib4ef788e38c114(
+              new class_2506(
                 this._r81ff317dd809f8.getData(),
                 this._r81ff317dd809f8.entryPoint.x,
                 this._r81ff317dd809f8.entryPoint.y,
@@ -275,8 +275,8 @@ class a {
           (this._r81ff317dd809f8._rb42cb61cf01165(this._r8a121c3f36e9a5),
             this._r88c18c849ebd3b?.updatePreview(),
             this._r86bd8f167e968b?._rf8367813562f1c(),
-            this._windowManager?.communication?.connection?.send(new _i56b3ff5fd5bb97()),
-            this._windowManager?.communication?.connection?.send(new _idaee125ca566cc()));
+            this._windowManager?.communication?.connection?.send(new UnkMessageComposer_0args_56b3ff()),
+            this._windowManager?.communication?.connection?.send(new UnkMessageComposer_0args_daee12()));
           break;
         case "import_export":
           this._recc69d85bf283b != null && (this._recc69d85bf283b.visible = !this._recc69d85bf283b.visible);

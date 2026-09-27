@@ -1,20 +1,20 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 201261.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/history/visualization/ChatHistoryTray.as
-// Nome offuscato: _i5de1fd90567d39
+// Extracted from HabboAirLauncher.deobf.js, line 201261.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/history/visualization/ChatHistoryTray.as
+// Obfuscated name: _i5de1fd90567d39
 
 class a {
   constructor(e, r) {
     this.var_82 = e;
     this._r6e13b73fe2a8d3 = r;
     ((this._rootDisplayObject = new Sprite()),
-      (this._r186c4149c9b825 = new _i3a5c6f457acdad()),
+      (this._r186c4149c9b825 = new UnkClass_3a5c6f()),
       (this._r186c4149c9b825.bitmapData =
         this.var_82.assets?.getAssetByName("tray_bar")?.content ?? new A(8, 8, !0, 4278190080)),
       (this._r186c4149c9b825.width = this._r186c4149c9b825.bitmapData.width),
       (this._r186c4149c9b825.height = 0),
       (this._r186c4149c9b825.scaleX = 1),
       (this._r186c4149c9b825.x = -this._r186c4149c9b825.bitmapData.width),
-      (this.var_229 = new _i3a5c6f457acdad()),
+      (this.var_229 = new UnkClass_3a5c6f()),
       (this.var_229.bitmapData =
         this.var_82.assets?.getAssetByName("tray_handle_open")?.content ??
         new A(8, 8, !0, 4294967295)),
@@ -25,7 +25,7 @@ class a {
       (this.var_229.visible = !1),
       (this.tabHandleClickedEventHandler = new Sprite()),
       (this.tabHandleClickedEventHandler.visible = !1),
-      this.tabHandleClickedEventHandler.addEventListener(_ifd7c1208e3417e.CLICK, this._rab294aa988a337),
+      this.tabHandleClickedEventHandler.addEventListener(UnkClass_fd7c12.CLICK, this._rab294aa988a337),
       this.Sprite(),
       (this._r7de1e0de5a533b = new Sprite()),
       (this._r7de1e0de5a533b.scaleX = 1),
@@ -35,7 +35,7 @@ class a {
       this._r7de1e0de5a533b.addChild(this.var_229),
       this._r7de1e0de5a533b.addChild(this.tabHandleClickedEventHandler),
       this._rootDisplayObject.addChild(this._r7de1e0de5a533b),
-      (this._r31a067639b75c5 = new _i3a5c6f457acdad()),
+      (this._r31a067639b75c5 = new UnkClass_3a5c6f()),
       (this._r31a067639b75c5.bitmapData = new A(1, 1, !0, 2720277278)),
       (this._r31a067639b75c5.width = 0),
       (this._r31a067639b75c5.height = 0),
@@ -78,7 +78,7 @@ class a {
       this._rootDisplayObject != null &&
         (this._rootDisplayObject.removeEventListener(M._scrollBar, this.onAddedToStage),
         this._r6e13b73fe2a8d3.deactivateScrolling(),
-        this.tabHandleClickedEventHandler.removeEventListener(_ifd7c1208e3417e.CLICK, this._rab294aa988a337)),
+        this.tabHandleClickedEventHandler.removeEventListener(UnkClass_fd7c12.CLICK, this._rab294aa988a337)),
       this._isRegisteredForUpdates && this.var_82.removeUpdateReceiver(this),
       (this.var_576 = !1),
       (this._isRegisteredForUpdates = !1),

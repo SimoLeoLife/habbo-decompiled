@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 80704.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/RoomWallData.as
-// Nome offuscato: _i61db516a5a98f0
+// Extracted from HabboAirLauncher.deobf.js, line 80704.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/RoomWallData.as
+// Obfuscated name: _i61db516a5a98f0
 
 class a {
   static {

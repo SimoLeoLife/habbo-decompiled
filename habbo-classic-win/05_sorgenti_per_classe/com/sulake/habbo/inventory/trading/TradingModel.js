@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 240483.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/trading/TradingModel.as
-// Nome offuscato: _icae9f1daf0df7e
+// Extracted from HabboAirLauncher.deobf.js, line 240483.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/trading/TradingModel.as
+// Obfuscated name: _icae9f1daf0df7e
 
 class a {
   constructor(e, r, t, i, s, o, d, c) {
@@ -371,17 +371,17 @@ class a {
     this._state === a.TRADING_STATE_COUNTDOWN && (this.state = a.TRADING_STATE_CONFIRMING);
   }
   _rbe5d031608a6eb(e) {
-    if (e instanceof _i77aa81f5649add)
+    if (e instanceof UnkMessageEvent_77aa81)
       e.getParser().reason === class_3644.const_1237 || e.getParser().reason === class_3644.const_354
         ? this._rda580f0e3148d1?.alertPopup(L1.ALERT_ALREADY_OPEN)
         : this._rda580f0e3148d1?.alertTradeOpenFailed(e);
-    else if (e instanceof _i7d769ef2e2262e)
+    else if (e instanceof UnkMessageEvent_7d769e)
       (e.userID === this._r1ddfe4476e5d1f
         ? (this.var_1346 = e._r22db0312772e45)
         : (this._r292f3140350b99 = e._r22db0312772e45),
         this._rda580f0e3148d1?.updateUserInterface());
-    else if (e instanceof _ie0ed71f2dadfde) this.state = a.TRADING_STATE_COUNTDOWN;
-    else if (e instanceof _i3a233dda94e81c)
+    else if (e instanceof UnkMessageEvent_e0ed71) this.state = a.TRADING_STATE_COUNTDOWN;
+    else if (e instanceof UnkMessageEvent_3a233d)
       (this._r893fde6d3c3593() &&
         this._notifications?.addItem(
           this._localization?.getLocalization("tradingdialog.done_messsage") ??
@@ -390,7 +390,7 @@ class a {
           "icon_curator_stamp_large_png",
         ),
         (this.state = a.TRADING_STATE_COMPLETED));
-    else if (e instanceof _i1285515765b0f7) {
+    else if (e instanceof UnkMessageEvent_128551) {
       if (!this.running) return;
       (e.getParser().reason === class_3498.const_1280
         ? (this._inventory?.getBoolean("trading.commiterror.enabled") ?? !1) &&
@@ -402,18 +402,18 @@ class a {
         : e.getParser().userID !== this._r1ddfe4476e5d1f &&
           this._rda580f0e3148d1?.alertPopup(L1.ALERT_OTHER_CANCELLED),
         this.close());
-    } else if (e instanceof _i70e8bc355971df)
+    } else if (e instanceof UnkMessageEvent_70e8bc)
       this._rda580f0e3148d1?.showOtherUserNotification("${inventory.trading.warning.others_account_disabled}");
-    else if (e instanceof _i46c62027044726)
+    else if (e instanceof UnkMessageEvent_46c620)
       this._rda580f0e3148d1?.showOwnUserNotification("${inventory.trading.warning.own_account_disabled}");
-    else if (e instanceof _ied33e722835efb) {
+    else if (e instanceof UnkMessageEvent_ed33e7) {
       let r = e.getParser();
       ((this._r04e2d742e2ada0 = r._r6153f7218b625e),
         (this._r5a6a3441934cb5 = r._r87e7818b304030),
         this._rda580f0e3148d1?.updateUserInterface());
-    } else if (e instanceof _i7d64a17887e3a5)
+    } else if (e instanceof UnkMessageEvent_7d64a1)
       ((this._rcb37597c02ab71 = e.getParser()._r32d3d5c6ff55d8), this._rda580f0e3148d1?.updateUserInterface());
-    else if (e instanceof _i21cd6f57b655eb || e instanceof _i4548075efc9292) return;
+    else if (e instanceof UnkMessageEvent_21cd6f || e instanceof UnkMessageEvent_454807) return;
   }
   enable() {
     return this._r04e2d742e2ada0 + this._r5a6a3441934cb5 >= this._rcb37597c02ab71;
@@ -422,7 +422,7 @@ class a {
     this._inventory?._rf93ea073fdcb45(class_2106.FURNITURE);
   }
   _r375d3c506536b7(e) {
-    this._communication?.connection.send(new _i85b5fd8fd7b890(e));
+    this._communication?.connection.send(new UnkMessageComposer_1args_85b5fd(e));
   }
   requestAddItemsToTrading(e, r, t, i, s, o) {
     if (!s && e.length > 0) {
@@ -436,7 +436,7 @@ class a {
       : d.length > 1 && this._communication?.connection.send(new class_3171(d));
   }
   _rd81a68895835ba(e) {
-    this._communication?.connection.send(new _i1f682e97fee556(e.map((r) => Math.trunc(r))));
+    this._communication?.connection.send(new UnkMessageComposer_1args_1f682e(e.map((r) => Math.trunc(r))));
   }
   canAddItemToTrade(e, r, t, i, s) {
     return this.var_1346 || this._ownUserNumItems == null
@@ -454,30 +454,30 @@ class a {
       let s = this._otherUserNftItems.getWithIndex(e - r);
       if (s != null) {
         let o = s.pop(1);
-        o.length === 1 && this._communication?.connection.send(new _ibfc07441a05e77(o[0]));
+        o.length === 1 && this._communication?.connection.send(new UnkMessageComposer_1args_bfc074(o[0]));
       }
       return;
     }
     let i = this._ownUserNumItems.getWithIndex(e)?.peek() ?? null;
-    i != null && this._communication?.connection.send(new _i18a3bec9bb8eea(i.id));
+    i != null && this._communication?.connection.send(new UnkMessageComposer_1args_18a3be(i.id));
   }
   _r1766979fae73bd() {
-    this._communication?.connection.send(new _i5d4c8592e4af12());
+    this._communication?.connection.send(new UnkMessageComposer_0args_5d4c85());
   }
   _rf3bf5595d038ca() {
-    this._communication?.connection.send(new _i9b50c0a2664562());
+    this._communication?.connection.send(new UnkMessageComposer_0args_9b50c0());
   }
   _r9c156c5de4c687() {
-    ((this.state = a.TRADING_STATE_CONFIRMED), this._communication?.connection.send(new _i2bfae339b75ebe()));
+    ((this.state = a.TRADING_STATE_CONFIRMED), this._communication?.connection.send(new UnkMessageComposer_0args_2bfae3()));
   }
   _r0c9c3af8b909a6() {
-    this._communication?.connection.send(new _i8f3e95ae3d4c7d());
+    this._communication?.connection.send(new UnkMessageComposer_0args_8f3e95());
   }
   _r1718fce2f8e038() {
-    this._r893fde6d3c3593() || this._communication?.connection.send(new _i670dedbbf6b136());
+    this._r893fde6d3c3593() || this._communication?.connection.send(new UnkMessageComposer_0args_670ded());
   }
   _r3a3fc773d8c6a7(e) {
-    this._communication?.connection.send(new _i4f047f2557116b(e));
+    this._communication?.connection.send(new UnkMessageComposer_1args_4f047f(e));
   }
   _rdd580b35b4c224() {
     return this._r6f81b1b7685616 > 0 || this._rd74a468b98e06f > 0;

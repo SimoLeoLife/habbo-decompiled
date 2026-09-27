@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 364895.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/SendSignal.as
-// Nome offuscato: _i0f98dc25570958
+// Extracted from HabboAirLauncher.deobf.js, line 364895.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/SendSignal.as
+// Obfuscated name: _i0f98dc25570958
 
 class extends DefaultActionType {
   static {

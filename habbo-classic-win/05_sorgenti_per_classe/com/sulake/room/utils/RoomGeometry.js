@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 80061.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/utils/RoomGeometry.as
-// Nome offuscato: _i63abf815960a3c
+// Extracted from HabboAirLauncher.deobf.js, line 80061.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/utils/RoomGeometry.as
+// Obfuscated name: _i63abf815960a3c
 
 class a {
   static {

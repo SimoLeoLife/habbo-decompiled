@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 180836.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectHSLColorEnableEvent.as
-// Nome offuscato: _ia94bd85b25a7ce
+// Extracted from HabboAirLauncher.deobf.js, line 180836.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectHSLColorEnableEvent.as
+// Obfuscated name: _ia94bd85b25a7ce
 
 class extends RoomObjectEvent {
   constructor(r, t, i, s, o, d, c = !1, f = !1) {

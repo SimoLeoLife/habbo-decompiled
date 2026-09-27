@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 216122.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/domain/AvatarSearchResults.as
-// Nome offuscato: _i9652dbec46c048
+// Extracted from HabboAirLauncher.deobf.js, line 216122.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/domain/AvatarSearchResults.as
+// Obfuscated name: _i9652dbec46c048
 
 class {
   static {

@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 61577.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_48/JSONParseError.as
+// Extracted from HabboAirLauncher.deobf.js, line 61577.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_48/JSONParseError.as
 
 class extends Error {
   static {

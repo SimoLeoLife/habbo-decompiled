@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 352434.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/params/ListScrollParams.as
-// Nome offuscato: _ib5e253911f41f2
+// Extracted from HabboAirLauncher.deobf.js, line 352434.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/params/ListScrollParams.as
+// Obfuscated name: _ib5e253911f41f2
 
 class {
   constructor(e, r, t, i = !1, s = !1) {

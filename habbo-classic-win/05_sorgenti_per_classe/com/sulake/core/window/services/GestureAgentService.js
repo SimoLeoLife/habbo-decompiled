@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 134522.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/services/GestureAgentService.as
-// Nome offuscato: _i06824d0c2c49dc
+// Extracted from HabboAirLauncher.deobf.js, line 134522.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/services/GestureAgentService.as
+// Obfuscated name: _i06824d0c2c49dc
 
 class {
   static {
@@ -42,7 +42,7 @@ class {
         (this._working = !0),
         (this.var_2203 = i),
         (this.var_2327 = s),
-        (this.var_382 = new _i05394ecc0c0c4d(40, 0)),
+        (this.var_382 = new UnkEventDispatcherWrapperSubclass_05394e(40, 0)),
         this.var_382.addEventListener(DeBouncer.addEventListener, this.operate),
         this.var_382.start()),
       o

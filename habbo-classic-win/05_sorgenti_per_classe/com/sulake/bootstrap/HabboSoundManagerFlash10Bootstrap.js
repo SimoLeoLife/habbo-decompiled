@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 339350.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/bootstrap/HabboSoundManagerFlash10Bootstrap.as
+// Extracted from HabboAirLauncher.deobf.js, line 339350.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/bootstrap/HabboSoundManagerFlash10Bootstrap.as
 
 class extends LEe {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 72062.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/localization/CoreLocalizationManager.as
-// Nome offuscato: _ib1d9669a7036e0
+// Extracted from HabboAirLauncher.deobf.js, line 72062.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/localization/CoreLocalizationManager.as
+// Obfuscated name: _ib1d9669a7036e0
 
 class a extends ue {
   static {
@@ -39,7 +39,7 @@ class a extends ue {
     let s = this._r7ae0c21c1ea9d6?.getProperty(e) ?? null;
     s == null &&
       this._r7ae0c21c1ea9d6 != null &&
-      ((s = new _ia01480e0ec6c4c(i, r, t)), this._r7ae0c21c1ea9d6.setProperty(e, s));
+      ((s = new UnkClass_a01480(i, r, t)), this._r7ae0c21c1ea9d6.setProperty(e, s));
   }
   _r9d0f61ef4bf78d(e) {
     let r = this._r7ae0c21c1ea9d6?.getProperty(e) ?? null;
@@ -67,7 +67,7 @@ class a extends ue {
       this.events.dispatchEvent?.(new M(class_2079_.const_76));
       return;
     }
-    let i = new _ib182ac399b1881(new _i636490202c0f9a(e));
+    let i = new UnkEventDispatcherWrapperSubclass_b182ac(new UnkClass_636490(e));
     (i.addEventListener(M.ComponentDependency, (s) => {
       let o = String(s.currentTarget.data ?? "");
       if (!o) {
@@ -88,7 +88,7 @@ class a extends ue {
         }
         ((this._acceptEmptyMap = r), this._r600df465a0c061?.remove(c), this._r600df465a0c061?.add(c, t));
         let l = `${d.getExternalTextsHash()}/${d._rb1fc593caca19f()}`,
-          b = this.assets.loadAssetFromFile(c, new _i636490202c0f9a(l), "text/plain");
+          b = this.assets.loadAssetFromFile(c, new UnkClass_636490(l), "text/plain");
         (b.addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._rfa1fabaee7b6f1),
           b.addEventListener(Le.ASSET_LOADER_EVENT_ERROR, this._red1491058ae029));
       } catch {
@@ -98,7 +98,7 @@ class a extends ue {
       i.addEventListener(ErrorEvent_.ERROR, () => {
         this.events.dispatchEvent?.(new M(class_2079_.const_76));
       }),
-      i.addEventListener(_i207e0270849f6a._rb9739f8a5177c3, () => {
+      i.addEventListener(UnkErrorEventSubclass_207e02._rb9739f8a5177c3, () => {
         this.events.dispatchEvent?.(new M(class_2079_.const_76));
       }));
   }
@@ -172,7 +172,7 @@ class a extends ue {
   }, "_rfa1fabaee7b6f1");
   _red1491058ae029 = n((e) => {
     let t = e.target._r7ea1029131e026.url ?? "",
-      i = this.assets.loadAssetFromFile(t, new _i636490202c0f9a(t), "text/plain");
+      i = this.assets.loadAssetFromFile(t, new UnkClass_636490(t), "text/plain");
     (i.addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._rfa1fabaee7b6f1),
       i.addEventListener(Le.ASSET_LOADER_EVENT_ERROR, this._rb2c6a5144bb8e5));
   }, "_red1491058ae029");

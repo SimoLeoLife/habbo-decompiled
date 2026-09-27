@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 144773.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconState.as
-// Nome offuscato: _id75eace94e920c
+// Extracted from HabboAirLauncher.deobf.js, line 144773.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconState.as
+// Obfuscated name: _id75eace94e920c
 
 class {
   static {

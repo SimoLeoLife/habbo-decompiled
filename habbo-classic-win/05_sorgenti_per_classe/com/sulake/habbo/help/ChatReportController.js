@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 228933.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/ChatReportController.as
-// Nome offuscato: _i5844b03221b5d3
+// Extracted from HabboAirLauncher.deobf.js, line 228933.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/ChatReportController.as
+// Obfuscated name: _i5844b03221b5d3
 
 class a {
   constructor(e, r) {

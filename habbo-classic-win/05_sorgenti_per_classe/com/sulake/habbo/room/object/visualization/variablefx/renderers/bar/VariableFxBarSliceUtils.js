@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 286137.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/bar/VariableFxBarSliceUtils.as
-// Nome offuscato: _ia5e0dd9af591c3
+// Extracted from HabboAirLauncher.deobf.js, line 286137.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/bar/VariableFxBarSliceUtils.as
+// Obfuscated name: _ia5e0dd9af591c3
 
 class {
   static {

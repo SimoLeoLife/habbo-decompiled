@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 127564.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/localization/BadgeBaseAndLevel.as
-// Nome offuscato: _i139f091a4569ee
+// Extracted from HabboAirLauncher.deobf.js, line 127564.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/localization/BadgeBaseAndLevel.as
+// Obfuscated name: _i139f091a4569ee
 
 class {
   static {

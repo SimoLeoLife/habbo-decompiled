@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 339946.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/nux/NuxOfferOldUserView.as
-// Nome offuscato: _ief27c0efcbe509
+// Extracted from HabboAirLauncher.deobf.js, line 339946.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/nux/NuxOfferOldUserView.as
+// Obfuscated name: _ief27c0efcbe509
 
 class {
   static {

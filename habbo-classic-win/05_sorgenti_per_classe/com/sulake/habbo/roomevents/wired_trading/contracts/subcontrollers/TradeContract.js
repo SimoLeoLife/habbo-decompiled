@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 373888.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/contracts/subcontrollers/TradeContract.as
-// Nome offuscato: _i26498b7676dd41
+// Extracted from HabboAirLauncher.deobf.js, line 373888.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/contracts/subcontrollers/TradeContract.as
+// Obfuscated name: _i26498b7676dd41
 
 class extends AbstractContract {
   static {

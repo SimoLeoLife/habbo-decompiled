@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 215309.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/domain/FriendCategory.as
-// Nome offuscato: _i93ea2c42770c65
+// Extracted from HabboAirLauncher.deobf.js, line 215309.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/domain/FriendCategory.as
+// Obfuscated name: _i93ea2c42770c65
 
 class a {
   static {

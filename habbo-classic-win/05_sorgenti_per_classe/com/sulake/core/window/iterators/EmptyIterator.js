@@ -1,8 +1,8 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 141607.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/iterators/EmptyIterator.as
-// Nome offuscato: _ib1a5be698103a0
+// Extracted from HabboAirLauncher.deobf.js, line 141607.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/iterators/EmptyIterator.as
+// Obfuscated name: _ib1a5be698103a0
 
-class a extends _i6e5afb6abd5bbb {
+class a extends UnkInterface_6e5afb {
   static {
     n(this, "EmptyIterator");
   }

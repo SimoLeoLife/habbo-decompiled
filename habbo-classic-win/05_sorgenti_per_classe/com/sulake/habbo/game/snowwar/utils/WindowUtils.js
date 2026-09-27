@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 143908.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/utils/WindowUtils.as
-// Nome offuscato: _i9cd301e8b2b5e0
+// Extracted from HabboAirLauncher.deobf.js, line 143908.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/utils/WindowUtils.as
+// Obfuscated name: _i9cd301e8b2b5e0
 
 class {
   static {
@@ -51,7 +51,7 @@ class {
     return e instanceof ContainerController || e instanceof TabContainerButtonController;
   }
   static uint(e) {
-    return e instanceof _i2ca70a7fcdecec;
+    return e instanceof UnkClass_2ca70a;
   }
   static _r693386423de72b(e) {
     return e instanceof BorderController;
@@ -63,6 +63,6 @@ class {
     return e instanceof ItemListController;
   }
   static _r3cd914a4ce2444(e) {
-    return e instanceof _i590fabdc28cedf;
+    return e instanceof UnkClass_590fab;
   }
 }

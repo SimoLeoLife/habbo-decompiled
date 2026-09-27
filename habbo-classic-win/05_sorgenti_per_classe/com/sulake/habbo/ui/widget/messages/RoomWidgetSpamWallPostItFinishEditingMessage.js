@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 162038.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetSpamWallPostItFinishEditingMessage.as
-// Nome offuscato: _ia429154f85ccab
+// Extracted from HabboAirLauncher.deobf.js, line 162038.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetSpamWallPostItFinishEditingMessage.as
+// Obfuscated name: _ia429154f85ccab
 
 class extends RoomWidgetMessage {
   constructor(r, t, i, s, o) {

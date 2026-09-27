@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 188311.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/BuilderSubscriptionCatalogWidget.as
-// Nome offuscato: _ifbf969513add2b
+// Extracted from HabboAirLauncher.deobf.js, line 188311.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/BuilderSubscriptionCatalogWidget.as
+// Obfuscated name: _ifbf969513add2b
 
 class extends CatalogWidget {
   constructor(r, t) {

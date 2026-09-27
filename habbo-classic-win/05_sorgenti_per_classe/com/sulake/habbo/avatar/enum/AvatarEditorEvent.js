@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158370.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/enum/AvatarEditorEvent.as
-// Nome offuscato: _i77ffb8eb653325
+// Extracted from HabboAirLauncher.deobf.js, line 158370.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/enum/AvatarEditorEvent.as
+// Obfuscated name: _i77ffb8eb653325
 
 class {
   static {

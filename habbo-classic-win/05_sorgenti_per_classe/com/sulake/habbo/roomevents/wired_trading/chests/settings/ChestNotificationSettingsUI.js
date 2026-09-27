@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 371464.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/settings/ChestNotificationSettingsUI.as
-// Nome offuscato: _i7bc183c8a43751
+// Extracted from HabboAirLauncher.deobf.js, line 371464.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/settings/ChestNotificationSettingsUI.as
+// Obfuscated name: _i7bc183c8a43751
 
 class extends AbstractUbuntuWiredUI {
   constructor(r, t) {
@@ -50,7 +50,7 @@ class extends AbstractUbuntuWiredUI {
     _.splitterVisible = !1;
     let h = t.createBorderSection("${wiredchests.notification_settings.notification_mode}", _),
       p = 320,
-      m = _ic7f867ad53849e._rd4b507212bb7db / 2.4,
+      m = UnkClass_c7f867._rd4b507212bb7db / 2.4,
       v = new ListScrollParams(!1, p, m, !0);
     ((this.framePreset = t._r2c9ac233cf1a70(
       [s, l, h, this._r43e1962e8d351e],
@@ -104,7 +104,7 @@ class extends AbstractUbuntuWiredUI {
   }
   _rf7f875b488f891 = n(() => {
     this.var_2898.send(
-      new _i24ffcb42b6733b(
+      new class_2718(
         this._chestId,
         this._notificationMode.selectedId,
         this.var_1627.get(0).selected,

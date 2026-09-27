@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 108153.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_3186.as
-// Nome offuscato: _i73b1dc9d145f9d
+// Extracted from HabboAirLauncher.deobf.js, line 108153.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_3186.as
+// Obfuscated name: _i73b1dc9d145f9d
 
 class extends MessageEvent {
     static {

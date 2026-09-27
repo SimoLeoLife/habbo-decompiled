@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 374465.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/transactions/details/furni_overview/TransactionOverviewView.as
-// Nome offuscato: _i0ba1aa4b7efb44
+// Extracted from HabboAirLauncher.deobf.js, line 374465.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/transactions/details/furni_overview/TransactionOverviewView.as
+// Obfuscated name: _i0ba1aa4b7efb44
 
 class a {
   constructor(e, r) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 357075.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_monitor/WiredMenuMonitorTab.as
-// Nome offuscato: _i3c0b158fe4ce87
+// Extracted from HabboAirLauncher.deobf.js, line 357075.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_monitor/WiredMenuMonitorTab.as
+// Obfuscated name: _i3c0b158fe4ce87
 
 class a extends WiredMenuDefaultTab {
   static {
@@ -95,12 +95,12 @@ class a extends WiredMenuDefaultTab {
   }
   _r7e5d4aa03855ee = n((e) => {
     (this.clearButton.disable(),
-      this.controller.send(new _i6740669a906427()),
+      this.controller.send(new UnkMessageComposer_0args_674066()),
       (this._r9f651ae55690ea = _ia411d8d8194a3a()),
       globalThis.setTimeout(this.updateButtonsUI, a.CLEAR_LOGS_TIMEOUT + 500));
   }, "_r7e5d4aa03855ee");
   _rdc8ae427938b40 = n((e) => {
-    this.controller._r757a5ebc533593.send(new _i3d9f3af732b347(1, _ifaf38892102cfa.PAGE_SIZE, -1, -1, ""));
+    this.controller._r757a5ebc533593.send(new UnkMessageComposer_5args_3d9f3a(1, UnkConstants_faf388.PAGE_SIZE, -1, -1, ""));
   }, "_rdc8ae427938b40");
   updateRoomStatsUI() {
     ((this.statWiredUsageHtml.caption = this.localization.getLocalizationWithParams(

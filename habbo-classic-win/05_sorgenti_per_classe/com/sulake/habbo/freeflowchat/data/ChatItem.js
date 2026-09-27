@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 200363.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/data/ChatItem.as
-// Nome offuscato: _ia3aae74ed814ca
+// Extracted from HabboAirLauncher.deobf.js, line 200363.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/data/ChatItem.as
+// Obfuscated name: _ia3aae74ed814ca
 
 class {
   static {

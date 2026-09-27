@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 319236.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/stickie/SpamWallPostItFurniWidget.as
-// Nome offuscato: _i8e77c984fbd756
+// Extracted from HabboAirLauncher.deobf.js, line 319236.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/stickie/SpamWallPostItFurniWidget.as
+// Obfuscated name: _i8e77c984fbd756
 
 class extends MX {
   static {

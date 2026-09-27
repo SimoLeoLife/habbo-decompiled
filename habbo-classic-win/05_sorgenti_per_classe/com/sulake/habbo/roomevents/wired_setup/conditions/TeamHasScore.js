@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 366859.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/TeamHasScore.as
-// Nome offuscato: _i1d921306cbeb3f
+// Extracted from HabboAirLauncher.deobf.js, line 366859.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/TeamHasScore.as
+// Obfuscated name: _i1d921306cbeb3f
 
 class extends DefaultConditionType {
   static {

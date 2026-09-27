@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 215441.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/AlertView.as
-// Nome offuscato: _i1d964d2b696352
+// Extracted from HabboAirLauncher.deobf.js, line 215441.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/AlertView.as
+// Obfuscated name: _i1d964d2b696352
 
 class a {
   static {

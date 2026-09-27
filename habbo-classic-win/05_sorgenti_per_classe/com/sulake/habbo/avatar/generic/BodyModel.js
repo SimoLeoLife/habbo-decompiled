@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 163334.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/generic/BodyModel.as
-// Nome offuscato: _if932d426471cef
+// Extracted from HabboAirLauncher.deobf.js, line 163334.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/generic/BodyModel.as
+// Obfuscated name: _if932d426471cef
 
 class extends CategoryBaseModel {
   static {

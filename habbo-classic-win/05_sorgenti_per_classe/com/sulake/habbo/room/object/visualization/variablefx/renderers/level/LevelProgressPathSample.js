@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 288823.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/level/LevelProgressPathSample.as
-// Nome offuscato: _i15a10bf98354a5
+// Extracted from HabboAirLauncher.deobf.js, line 288823.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/level/LevelProgressPathSample.as
+// Obfuscated name: _i15a10bf98354a5
 
 class a {
   constructor(e, r, t, i) {

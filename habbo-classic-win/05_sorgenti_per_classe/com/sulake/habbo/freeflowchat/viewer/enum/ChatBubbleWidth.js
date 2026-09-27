@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 200544.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/enum/ChatBubbleWidth.as
-// Nome offuscato: _iacf874ac30f50e
+// Extracted from HabboAirLauncher.deobf.js, line 200544.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/enum/ChatBubbleWidth.as
+// Obfuscated name: _iacf874ac30f50e
 
 class a {
   static {

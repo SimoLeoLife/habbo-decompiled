@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145225.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/FurniIconImageReadyEvent.as
-// Nome offuscato: _i2ff5545a92af25
+// Extracted from HabboAirLauncher.deobf.js, line 145225.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/FurniIconImageReadyEvent.as
+// Obfuscated name: _i2ff5545a92af25
 
 class a extends M {
   static {

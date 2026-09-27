@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 333171.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/RoomToolsWidgetHandler.as
-// Nome offuscato: _ie5864b61bc82b7
+// Extracted from HabboAirLauncher.deobf.js, line 333171.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/RoomToolsWidgetHandler.as
+// Obfuscated name: _ie5864b61bc82b7
 
 class {
   static {
@@ -84,7 +84,7 @@ class {
     this._navigator?._r32d169e0ccf735(e);
   }
   _r26ff9fd8042368() {
-    this._container?.connection?.send(new _i91d8a6f47dd539(1));
+    this._container?.connection?.send(new class_3659(1));
   }
   get _r43a02485c61e00() {
     return this._navigator?._r2fec64fe1f887e() ?? !1;

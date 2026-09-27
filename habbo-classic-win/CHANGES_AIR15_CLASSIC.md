@@ -58,7 +58,7 @@ layer. Only a few belong to the client itself:
 
 ## Connection: WebSocket instead of a TCP socket
 
-The class that was the socket in AS3 (`_i28a7b58ffe1ff6`, a subclass of
+The class that was the socket in AS3 (`_i28a7b58ffe1ff6`, placeholder name `UnkEventDispatcherWrapperSubclass_28a7b5`, a subclass of
 `EventDispatcherWrapper`) keeps its interface (`readInt`, `readShort`, `writeBytes`,
 `endian`, `bytesAvailable`) but uses a **binary WebSocket**:
 
@@ -149,8 +149,8 @@ classes are too small to be recognized.
 
 ## Where to look
 
-- Connection: `05_sorgenti_per_classe/_non_abbinate/_i28a7b58ffe1ff6.js`.
+- Connection: `05_sorgenti_per_classe/_unmatched/UnkEventDispatcherWrapperSubclass_28a7b5.js`.
 - Startup, renderer and session: `04_sorgenti_js/HabboAirLauncher.deobf.js`, functions
   `productionStartupArguments`, `initializeGraphicsApplication`,
   `installRendererSettings`, `showRendererFallbackNotice`, class `HabboAirLaunchStage`.
-- Full JS ↔ AIR 15 mappings: `06_report/classi.csv`, `06_report/membri.csv`.
+- Full JS ↔ AIR 15 mappings: `06_report/classes.csv`, `06_report/members.csv`.

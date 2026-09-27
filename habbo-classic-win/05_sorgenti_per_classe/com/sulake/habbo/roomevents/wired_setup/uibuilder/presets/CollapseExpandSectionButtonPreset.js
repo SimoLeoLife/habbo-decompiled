@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 345682.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/CollapseExpandSectionButtonPreset.as
-// Nome offuscato: _i75df1570b9d891
+// Extracted from HabboAirLauncher.deobf.js, line 345682.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/CollapseExpandSectionButtonPreset.as
+// Obfuscated name: _i75df1570b9d891
 
 class extends WiredUIPreset {
   static {

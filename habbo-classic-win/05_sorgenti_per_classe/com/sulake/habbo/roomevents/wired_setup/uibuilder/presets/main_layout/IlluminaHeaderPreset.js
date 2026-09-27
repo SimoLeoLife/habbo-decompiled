@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 353018.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/main_layout/IlluminaHeaderPreset.as
-// Nome offuscato: _i3edf0d1907dc23
+// Extracted from HabboAirLauncher.deobf.js, line 353018.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/main_layout/IlluminaHeaderPreset.as
+// Obfuscated name: _i3edf0d1907dc23
 
 class extends Lc {
   static {

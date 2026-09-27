@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 144374.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purse/PurseUpdateEvent.as
-// Nome offuscato: _iac8a51b0ca3ecb
+// Extracted from HabboAirLauncher.deobf.js, line 144374.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purse/PurseUpdateEvent.as
+// Obfuscated name: _iac8a51b0ca3ecb
 
 class extends M {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 207778.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/elements/ConcurrentUsersInfoElementHandler.as
-// Nome offuscato: _i9439df8b752f0f
+// Extracted from HabboAirLauncher.deobf.js, line 207778.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/elements/ConcurrentUsersInfoElementHandler.as
+// Obfuscated name: _i9439df8b752f0f
 
 class a {
   static {
@@ -18,7 +18,7 @@ class a {
   var_3576 = -1;
   var_3485 = -1;
   _window = null;
-  _r65a67a0bca4899 = new _i05394ecc0c0c4d(a.UPDATE_INTERVAL_MS);
+  _r65a67a0bca4899 = new UnkEventDispatcherWrapperSubclass_05394e(a.UPDATE_INTERVAL_MS);
   _disposed = !1;
   constructor() {
     this._r65a67a0bca4899.addEventListener(DeBouncer.addEventListener, this._r74a888e08bca64);

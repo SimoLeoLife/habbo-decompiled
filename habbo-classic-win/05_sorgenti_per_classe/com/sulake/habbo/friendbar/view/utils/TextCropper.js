@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 212520.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/utils/TextCropper.as
-// Nome offuscato: _ia137f6f7ac7e48
+// Extracted from HabboAirLauncher.deobf.js, line 212520.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/utils/TextCropper.as
+// Obfuscated name: _ia137f6f7ac7e48
 
 class {
   static {

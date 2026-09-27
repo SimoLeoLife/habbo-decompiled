@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 285015.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/VariableFxPreviewStyleDefinition.as
-// Nome offuscato: _i720b3bfea4fc76
+// Extracted from HabboAirLauncher.deobf.js, line 285015.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/VariableFxPreviewStyleDefinition.as
+// Obfuscated name: _i720b3bfea4fc76
 
 class {
   constructor(e, r, t, i, s, o, d, c, f, l, b = null, _ = null) {

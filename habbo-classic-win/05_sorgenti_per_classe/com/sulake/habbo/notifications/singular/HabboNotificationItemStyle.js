@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 262852.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/HabboNotificationItemStyle.as
-// Nome offuscato: _i50a67c0c0682bf
+// Extracted from HabboAirLauncher.deobf.js, line 262852.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/HabboNotificationItemStyle.as
+// Obfuscated name: _i50a67c0c0682bf
 
 class {
   static {

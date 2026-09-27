@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 263844.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/utils/PetImageUtility.as
-// Nome offuscato: _if06879cdbf5e00
+// Extracted from HabboAirLauncher.deobf.js, line 263844.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/utils/PetImageUtility.as
+// Obfuscated name: _if06879cdbf5e00
 
 class {
   static {

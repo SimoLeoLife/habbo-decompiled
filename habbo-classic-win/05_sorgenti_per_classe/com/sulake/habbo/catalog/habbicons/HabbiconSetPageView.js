@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 178328.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconSetPageView.as
-// Nome offuscato: _i475d7198c6923c
+// Extracted from HabboAirLauncher.deobf.js, line 178328.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconSetPageView.as
+// Obfuscated name: _i475d7198c6923c
 
 class a {
   constructor(e, r, t, i, s) {

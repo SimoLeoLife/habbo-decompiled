@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 157911.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/communication/wireformat/class_3722.as
-// Nome offuscato: _i2f68cab7ba0c7d
+// Extracted from HabboAirLauncher.deobf.js, line 157911.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/communication/wireformat/class_3722.as
+// Obfuscated name: _i2f68cab7ba0c7d
 
 class a {
     static {

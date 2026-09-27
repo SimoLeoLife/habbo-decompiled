@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 209151.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/SafetyQuizPromoWidget.as
-// Nome offuscato: _i0115def2a60883
+// Extracted from HabboAirLauncher.deobf.js, line 209151.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/SafetyQuizPromoWidget.as
+// Obfuscated name: _i0115def2a60883
 
 class {
   constructor(e) {

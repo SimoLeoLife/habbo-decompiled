@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 247889.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/RoomVisitsCtrl.as
-// Nome offuscato: _i3246fba6366324
+// Extracted from HabboAirLauncher.deobf.js, line 247889.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/RoomVisitsCtrl.as
+// Obfuscated name: _i3246fba6366324
 
 class a {
   constructor(e, r) {
@@ -23,10 +23,10 @@ class a {
     return this._disposed;
   }
   show() {
-    ((this.var_994 = new _i05394ecc0c0c4d(300, 1)),
+    ((this.var_994 = new UnkEventDispatcherWrapperSubclass_05394e(300, 1)),
       this.var_994.addEventListener(DeBouncer.addEventListener, this.onResizeTimer),
       this._main.messageHandler._r1286a18737519d(this),
-      this._main.connection?.send(new _i1d202138ce76cd(this._userId)),
+      this._main.connection?.send(new UnkMessageComposer_1args_1d2021(this._userId)),
       (this._frame = this._main.getXmlWindow("roomvisits_frame")),
       (this.var_122 = this._frame?.findChildByName("visits_list")),
       (this._rdd77714b42f9d3 = this.var_122?.getListItemAt(0)),

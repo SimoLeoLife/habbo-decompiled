@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158446.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/events/FriendBarResizeEvent.as
-// Nome offuscato: _i673d8f3008848c
+// Extracted from HabboAirLauncher.deobf.js, line 158446.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/events/FriendBarResizeEvent.as
+// Obfuscated name: _i673d8f3008848c
 
 class a extends M {
   static {

@@ -1,11 +1,11 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 312740.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/controller/CraftingProgressBarController.as
-// Nome offuscato: _iece46080a7f3ee
+// Extracted from HabboAirLauncher.deobf.js, line 312740.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/controller/CraftingProgressBarController.as
+// Obfuscated name: _iece46080a7f3ee
 
 class {
   constructor(e) {
     this.var_17 = e;
-    ((this._r02ea1ce67bb323 = new _i05394ecc0c0c4d(70)),
+    ((this._r02ea1ce67bb323 = new UnkEventDispatcherWrapperSubclass_05394e(70)),
       this._r02ea1ce67bb323.addEventListener(DeBouncer.addEventListener, this._r455bd34b0bb303));
   }
   static {

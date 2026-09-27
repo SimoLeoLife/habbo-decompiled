@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 370423.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/variables/VariableTypes.as
-// Nome offuscato: _ieff13fd733e8cd
+// Extracted from HabboAirLauncher.deobf.js, line 370423.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/variables/VariableTypes.as
+// Obfuscated name: _ieff13fd733e8cd
 
 class {
   static {
@@ -26,6 +26,6 @@ class {
     return "variable";
   }
   _r58bebf6acaa0b3(e) {
-    return e instanceof _icbbc47f0f04020;
+    return e instanceof UnkSubclassOf_class_2396_cbbc47;
   }
 }

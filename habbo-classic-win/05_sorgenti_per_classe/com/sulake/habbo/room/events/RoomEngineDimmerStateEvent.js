@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 70444.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomEngineDimmerStateEvent.as
-// Nome offuscato: _icc603d6edb30df
+// Extracted from HabboAirLauncher.deobf.js, line 70444.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomEngineDimmerStateEvent.as
+// Obfuscated name: _icc603d6edb30df
 
 class a extends RoomEngineEvent {
   constructor(r, t, i, s, o, d, c, f = !1, l = !1) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 184089.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/navigation/CatalogNavigator.as
-// Nome offuscato: _i0ea404ab16d5ed
+// Extracted from HabboAirLauncher.deobf.js, line 184089.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/navigation/CatalogNavigator.as
+// Obfuscated name: _i0ea404ab16d5ed
 
 class a {
   constructor(e, r, t) {

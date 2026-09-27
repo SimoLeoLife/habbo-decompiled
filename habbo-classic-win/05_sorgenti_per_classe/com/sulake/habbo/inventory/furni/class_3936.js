@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 237405.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/furni/class_3936.as
-// Nome offuscato: _ibe2e3f77fbcc64
+// Extracted from HabboAirLauncher.deobf.js, line 237405.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/furni/class_3936.as
+// Obfuscated name: _ibe2e3f77fbcc64
 
 class a {
   static {

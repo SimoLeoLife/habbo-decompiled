@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 72288.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/HabboWebApiError.as
-// Nome offuscato: _id3e5e50d7d20c1
+// Extracted from HabboAirLauncher.deobf.js, line 72288.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/HabboWebApiError.as
+// Obfuscated name: _id3e5e50d7d20c1
 
 class {
   static {

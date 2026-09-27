@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 152891.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/tableview/TableCellView.as
-// Nome offuscato: _i13478fabf83476
+// Extracted from HabboAirLauncher.deobf.js, line 152891.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/tableview/TableCellView.as
+// Obfuscated name: _i13478fabf83476
 
 class a {
   constructor(e, r, t, i) {
@@ -227,7 +227,7 @@ class a {
     ((e.visible = !0),
       (e.blend = 0),
       this._transitionTimer == null
-        ? ((this._transitionTimer = new _i05394ecc0c0c4d(t, i)),
+        ? ((this._transitionTimer = new UnkEventDispatcherWrapperSubclass_05394e(t, i)),
           this._transitionTimer.addEventListener(DeBouncer.addEventListener, () => {
             this._transitionTimer != null &&
               (e.blend = a.easeInOutCubic(this._transitionTimer._rdf3dbbec26e6b1, s, o - s, i));

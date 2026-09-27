@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 180742.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectDataRequestEvent.as
-// Nome offuscato: _i39ae2b9a9a941b
+// Extracted from HabboAirLauncher.deobf.js, line 180742.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/events/RoomObjectDataRequestEvent.as
+// Obfuscated name: _i39ae2b9a9a941b
 
 class extends RoomObjectEvent {
   static {

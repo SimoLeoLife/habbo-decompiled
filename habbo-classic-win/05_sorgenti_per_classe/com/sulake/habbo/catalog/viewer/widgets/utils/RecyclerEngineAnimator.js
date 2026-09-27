@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 194021.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/utils/RecyclerEngineAnimator.as
-// Nome offuscato: _i12cfcfaa9f1e5b
+// Extracted from HabboAirLauncher.deobf.js, line 194021.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/utils/RecyclerEngineAnimator.as
+// Obfuscated name: _i12cfcfaa9f1e5b
 
 class a {
   constructor(e, r, t) {
@@ -86,7 +86,7 @@ class a {
       (this._disposed = !0));
   }
   startTimer() {
-    ((this.var_382 = new _i05394ecc0c0c4d(a.const_1247)),
+    ((this.var_382 = new UnkEventDispatcherWrapperSubclass_05394e(a.const_1247)),
       this.var_382.addEventListener(DeBouncer.addEventListener, this._re072be5b77c307),
       this.var_382.start());
   }

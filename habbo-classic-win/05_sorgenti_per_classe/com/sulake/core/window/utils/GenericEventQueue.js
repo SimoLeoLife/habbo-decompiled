@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 135496.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/utils/GenericEventQueue.as
-// Nome offuscato: _i0eba7a41a4183a
+// Extracted from HabboAirLauncher.deobf.js, line 135496.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/utils/GenericEventQueue.as
+// Obfuscated name: _i0eba7a41a4183a
 
 class {
   static {

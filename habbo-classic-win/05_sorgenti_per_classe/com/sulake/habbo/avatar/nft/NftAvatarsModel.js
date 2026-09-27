@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 164366.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/nft/NftAvatarsModel.as
-// Nome offuscato: _ieeced3384abf5a
+// Extracted from HabboAirLauncher.deobf.js, line 164366.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/nft/NftAvatarsModel.as
+// Obfuscated name: _ieeced3384abf5a
 
 class extends CategoryBaseModel {
   static {
@@ -56,7 +56,7 @@ class extends CategoryBaseModel {
     r != null &&
       ((this._rbd7bb21546eafb = new class_3782(this.onUserNftWardrobeMessage)),
       r._r2e106e2349a0b6(this._rbd7bb21546eafb),
-      r.connection?.send(new _i05e2bf25b0974b()));
+      r.connection?.send(new GetUserNftWardrobeMessageComposer()));
   }
   onUserNftWardrobeMessage = n((e) => {
     for (let r of this._nftAvatars) r.dispose();

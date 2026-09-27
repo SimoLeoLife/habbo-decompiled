@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 126548.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_229/class_4103.as
-// Nome offuscato: _ifd4d91297c863b
+// Extracted from HabboAirLauncher.deobf.js, line 126548.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_229/class_4103.as
+// Obfuscated name: _ifd4d91297c863b
 
 class {
     static {
@@ -11,7 +11,7 @@ class {
     }
     var_1923 = [];
     var_811 = [];
-    var_4920 = new _ie72f764c2e0439();
+    var_4920 = new UnkClass_e72f76();
     get habbicons() {
       return this.var_1923;
     }

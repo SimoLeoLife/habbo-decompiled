@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 257322.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/roomsettings/BanListCtrl.as
-// Nome offuscato: _i371306483ee1e7
+// Extracted from HabboAirLauncher.deobf.js, line 257322.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/roomsettings/BanListCtrl.as
+// Obfuscated name: _i371306483ee1e7
 
 class extends RI {
   static {

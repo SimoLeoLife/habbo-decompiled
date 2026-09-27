@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 207524.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/CommunityGoalVsModeWidgetWithVoting.as
-// Nome offuscato: _ie02dd6838d9e94
+// Extracted from HabboAirLauncher.deobf.js, line 207524.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/CommunityGoalVsModeWidgetWithVoting.as
+// Obfuscated name: _ie02dd6838d9e94
 
 class extends Oz {
   static {

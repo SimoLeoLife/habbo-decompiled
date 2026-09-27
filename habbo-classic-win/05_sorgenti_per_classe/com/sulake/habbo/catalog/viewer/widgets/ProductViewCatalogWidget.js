@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 192654.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/ProductViewCatalogWidget.as
-// Nome offuscato: _i77f18ccdb42f79
+// Extracted from HabboAirLauncher.deobf.js, line 192654.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/ProductViewCatalogWidget.as
+// Obfuscated name: _i77f18ccdb42f79
 
 class a extends CatalogWidget {
   constructor(r, t) {
@@ -530,11 +530,11 @@ class a extends CatalogWidget {
         );
       }
       default:
-        _i3c6cb319998ce7.isSupported(r.productType) &&
+        UnkClass_3c6cb3.isSupported(r.productType) &&
           this._r881a3ee5209d1d != null &&
           this._r4efa1bd199ae9f != null &&
           ((this._r881a3ee5209d1d.visible = !0),
-          (this._r4efa1bd199ae9f.productInfo = new _i3c6cb319998ce7(r)),
+          (this._r4efa1bd199ae9f.productInfo = new UnkClass_3c6cb3(r)),
           this._rb1ec22d8302353 != null && (this._rb1ec22d8302353.visible = !1));
         break;
     }
@@ -931,7 +931,7 @@ class a extends CatalogWidget {
     if (r === "" || this._catalog == null) return;
     let t = this._catalog.assets.loadAssetFromFile(
       r,
-      new _i636490202c0f9a(`${this._catalog.imageGalleryHost}${r}.gif`),
+      new UnkClass_636490(`${this._catalog.imageGalleryHost}${r}.gif`),
       "image/gif",
     );
     t?.addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._rbd9d54e2af9eac);

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145172.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/HabboClubLevelEnum.as
-// Nome offuscato: _id7a65d24d806e0
+// Extracted from HabboAirLauncher.deobf.js, line 145172.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/HabboClubLevelEnum.as
+// Obfuscated name: _id7a65d24d806e0
 
 class a {
   static {

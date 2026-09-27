@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 162441.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/events/ExtensionViewEvent.as
-// Nome offuscato: _ic79ebb342f5385
+// Extracted from HabboAirLauncher.deobf.js, line 162441.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/events/ExtensionViewEvent.as
+// Obfuscated name: _ic79ebb342f5385
 
 class extends M {
   static {

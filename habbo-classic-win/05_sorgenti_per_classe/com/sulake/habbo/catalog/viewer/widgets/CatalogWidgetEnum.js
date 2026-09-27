@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 188006.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/CatalogWidgetEnum.as
-// Nome offuscato: _ifb2212afec3a7b
+// Extracted from HabboAirLauncher.deobf.js, line 188006.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/CatalogWidgetEnum.as
+// Obfuscated name: _ifb2212afec3a7b
 
 class {
   static {

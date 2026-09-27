@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 28698.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/KeyboardControl.as
-// Nome offuscato: _i30d3585baf676b
+// Extracted from HabboAirLauncher.deobf.js, line 28698.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/KeyboardControl.as
+// Obfuscated name: _i30d3585baf676b
 
 class extends M {
   constructor(r = "", t = !1, i = !1, s = 0, o = 0, d = 0, c = !1, f = !1, l = !1, b = !1, _ = !1) {

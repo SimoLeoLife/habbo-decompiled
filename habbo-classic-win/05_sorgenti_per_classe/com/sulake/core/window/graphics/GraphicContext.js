@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 127963.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/GraphicContext.as
-// Nome offuscato: _i8bd2895b29a5ff
+// Extracted from HabboAirLauncher.deobf.js, line 127963.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/GraphicContext.as
+// Obfuscated name: _i8bd2895b29a5ff
 
 class a extends Sprite {
   static {
@@ -99,7 +99,7 @@ class a extends Sprite {
     ) {
       case a.GC_TYPE_BITMAP:
         ((this.var_1460 = !0),
-          this.setDisplayObject(new _i3a5c6f457acdad()),
+          this.setDisplayObject(new UnkClass_3a5c6f()),
           this.allocateDrawBuffer(this._rectangle.width, this._rectangle.height));
         break;
       case a.const_1322: {
@@ -111,10 +111,10 @@ class a extends Sprite {
         break;
       }
       case a.GC_TYPE_SHAPE:
-        this.setDisplayObject(new _ic6b6cdf3ccea3d());
+        this.setDisplayObject(new UnkClass_c6b6cd());
         break;
       case a.GC_TYPE_MORPH_SHAPE:
-        this.setDisplayObject(new _ie543c9890905ee());
+        this.setDisplayObject(new UnkInterface_e543c9());
         break;
       case a.GC_TYPE_CONTAINER:
         this.setDisplayObject(new Sprite());
@@ -204,7 +204,7 @@ class a extends Sprite {
           "byPhaseWindow",
           i("GraphicContext.setDrawRegion.refreshBoundsRect"),
         ),
-      this.var_1460 && s instanceof _i3a5c6f457acdad && d && this._r048363f0a0c393(s, e.width, e.height),
+      this.var_1460 && s instanceof UnkClass_3a5c6f && d && this._r048363f0a0c393(s, e.width, e.height),
       c &&
         _i42bc3fcc4cb515(
           "GraphicContext.setDrawRegion.updateMask",
@@ -218,7 +218,7 @@ class a extends Sprite {
               : t != null && s != null
                 ? (s instanceof Pt && s._rf82950eda7e75c(null),
                   this._mask == null &&
-                    ((this._mask = new _ic6b6cdf3ccea3d()), (this._mask.visible = !0), super.addChild(this._mask)),
+                    ((this._mask = new UnkClass_c6b6cd()), (this._mask.visible = !0), super.addChild(this._mask)),
                   this._mask.graphics.clear(),
                   this._mask.graphics.beginFill(255),
                   this._mask.graphics.drawRect(t.x, t.y, t.width, t.height),
@@ -271,7 +271,7 @@ class a extends Sprite {
   fetchDrawBuffer() {
     if (!this.var_1460) return null;
     let e = this.getDisplayObject();
-    return e instanceof _i3a5c6f457acdad ? e.bitmapData : null;
+    return e instanceof UnkClass_3a5c6f ? e.bitmapData : null;
   }
   _r8f28ac7a198abd(e) {
     (this.graphics.clear(),
@@ -286,7 +286,7 @@ class a extends Sprite {
       () => {
         if (!this.var_1460) return null;
         let t = this.getDisplayObject();
-        if (!(t instanceof _i3a5c6f457acdad)) return null;
+        if (!(t instanceof UnkClass_3a5c6f)) return null;
         let i = t.bitmapData;
         return (
           i != null &&
@@ -316,7 +316,7 @@ class a extends Sprite {
   _rd76526bdfd6cb5() {
     if (!this.var_1460) return;
     let e = this.getDisplayObject();
-    if (e instanceof _i3a5c6f457acdad && e.bitmapData != null) {
+    if (e instanceof UnkClass_3a5c6f && e.bitmapData != null) {
       let r = e.bitmapData;
       ((e.bitmapData = null), (a.var_1377 -= r.width * r.height * 4), r.dispose());
     }
@@ -333,7 +333,7 @@ class a extends Sprite {
   }
   _r0fafb5967540c5(e, r) {
     let t = this.getDisplayObject();
-    return t instanceof _i3a5c6f457acdad && t.bitmapData != null && t.bitmapData.width === e && t.bitmapData.height === r;
+    return t instanceof UnkClass_3a5c6f && t.bitmapData != null && t.bitmapData.width === e && t.bitmapData.height === r;
   }
   _r10b0a32d3c47d9(e, r) {
     return e == null || r == null
@@ -341,7 +341,7 @@ class a extends Sprite {
       : e.x === r.x && e.y === r.y && e.width === r.width && e.height === r.height;
   }
   _r3efcbbbc4c09e1(e, r) {
-    if (!(r instanceof _i3a5c6f457acdad) || r.bitmapData == null || !this._r130a266ea4f7bb) return !1;
+    if (!(r instanceof UnkClass_3a5c6f) || r.bitmapData == null || !this._r130a266ea4f7bb) return !1;
     let t = Math.max(r.bitmapData.width * r.bitmapData.height, 0),
       i = Math.max(Math.ceil(e.width) * Math.ceil(e.height), 0);
     return Math.max(t, i) >= a._rbfe8fa11411509;
@@ -456,7 +456,7 @@ class a extends Sprite {
   }
   _rd6d22ec4ce46ce() {
     if (this._ra61e3c60e0213a != null) return this._ra61e3c60e0213a;
-    let e = new _i3a5c6f457acdad();
+    let e = new UnkClass_3a5c6f();
     return (
       (e.name = `${this.name} - Drop Shadow`),
       (e.mouseEnabled = !1),

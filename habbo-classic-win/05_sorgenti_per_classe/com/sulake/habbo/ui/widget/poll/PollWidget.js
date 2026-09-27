@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 325522.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/poll/PollWidget.as
-// Nome offuscato: _ic6e81ef7e17882
+// Extracted from HabboAirLauncher.deobf.js, line 325522.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/poll/PollWidget.as
+// Obfuscated name: _ic6e81ef7e17882
 
 class extends RoomWidgetBase {
   static {

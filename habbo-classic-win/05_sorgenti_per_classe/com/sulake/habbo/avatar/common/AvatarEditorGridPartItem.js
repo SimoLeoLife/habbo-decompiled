@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 165655.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/common/AvatarEditorGridPartItem.as
-// Nome offuscato: _i5a2e0c5c118229
+// Extracted from HabboAirLauncher.deobf.js, line 165655.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/common/AvatarEditorGridPartItem.as
+// Obfuscated name: _i5a2e0c5c118229
 
 class a {
   static {
@@ -178,13 +178,13 @@ class a {
     for (let s of this.var_1221.parts) {
       let o = null;
       if (t)
-        o = _ib619bfd98fe9f2.as({
+        o = UnkClass_b619bf.as({
           value: this.var_789.getAssetByName(this.getAssetName(s, r)),
           _r35f8c7df03c28f: Qt,
         });
       else
         for (r = 0; !t && r < a._r5f7f6e23b9324a.length;)
-          ((o = _ib619bfd98fe9f2.as({
+          ((o = UnkClass_b619bf.as({
             value: this.var_789.getAssetByName(this.getAssetName(s, r)),
             _r35f8c7df03c28f: Qt,
           })),
@@ -213,13 +213,13 @@ class a {
     for (let s of i) {
       let o = null;
       if (t)
-        o = _ib619bfd98fe9f2.as({
+        o = UnkClass_b619bf.as({
           value: this.var_789.getAssetByName(this.getAssetName(s, r)),
           _r35f8c7df03c28f: Qt,
         });
       else
         for (r = 0; !t && r < a._r5f7f6e23b9324a.length;)
-          ((o = _ib619bfd98fe9f2.as({
+          ((o = UnkClass_b619bf.as({
             value: this.var_789.getAssetByName(this.getAssetName(s, r)),
             _r35f8c7df03c28f: Qt,
           })),
@@ -243,7 +243,7 @@ class a {
   }
   setAlpha(e, r) {
     let t = new D(0, 0, e.width, e.height),
-      i = new _i4210dc3239901d();
+      i = new UnkClass_4210dc();
     return ((i.alphaMultiplier = r), e.colorTransform(t, i), e);
   }
   _r0ef646f4f9ba74 = n((e, r) => {

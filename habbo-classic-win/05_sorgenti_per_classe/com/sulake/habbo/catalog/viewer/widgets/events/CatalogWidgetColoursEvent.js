@@ -1,8 +1,8 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 144458.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/events/CatalogWidgetColoursEvent.as
-// Nome offuscato: _ib349a35b511031
+// Extracted from HabboAirLauncher.deobf.js, line 144458.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/events/CatalogWidgetColoursEvent.as
+// Obfuscated name: _ib349a35b511031
 
-class extends _ic4d6c8d627ab4e {
+class extends UnkClass_c4d6c8 {
   constructor(r, t, i, s, o = 0, d = !1, c = !1) {
     super(CatalogWidgetEventEnum.COLOUR_ARRAY, d, c);
     this._r9ffdd05ee5d61d = r;

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 65953.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/events/WindowKeyboardEvent.as
-// Nome offuscato: _ia303ff1c517a6c
+// Extracted from HabboAirLauncher.deobf.js, line 65953.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/events/WindowKeyboardEvent.as
+// Obfuscated name: _ia303ff1c517a6c
 
 class a extends y {
   static {

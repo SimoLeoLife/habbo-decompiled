@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 191098.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/MarketPlaceOwnItemsCatalogWidget.as
-// Nome offuscato: _ic22ec06fa8f907
+// Extracted from HabboAirLauncher.deobf.js, line 191098.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/MarketPlaceOwnItemsCatalogWidget.as
+// Obfuscated name: _ic22ec06fa8f907
 
 class a extends CatalogWidget {
   static {
@@ -45,9 +45,9 @@ class a extends CatalogWidget {
     this.displayMainView();
     let e = this._window?.findChildByName("item_list");
     if (e == null || this._r2d0177ed538798 == null) return !1;
-    (this._r2d0177ed538798.add(_i4e558243c209b2._r7e3fcbc1e80373, e.removeListItem(e.getListItemByName("ongoing_item"))),
-      this._r2d0177ed538798.add(_i4e558243c209b2.SOLD, e.removeListItem(e.getListItemByName("sold_item"))),
-      this._r2d0177ed538798.add(_i4e558243c209b2.EXPIRED, e.removeListItem(e.getListItemByName("expired_item"))));
+    (this._r2d0177ed538798.add(UnkConstants_4e5582._r7e3fcbc1e80373, e.removeListItem(e.getListItemByName("ongoing_item"))),
+      this._r2d0177ed538798.add(UnkConstants_4e5582.SOLD, e.removeListItem(e.getListItemByName("sold_item"))),
+      this._r2d0177ed538798.add(UnkConstants_4e5582.EXPIRED, e.removeListItem(e.getListItemByName("expired_item"))));
     let r = this._window?.findChildByName("search_input");
     return (
       r != null && (r.text = ""),
@@ -178,7 +178,7 @@ class a extends CatalogWidget {
           let l = r.getLocalization("catalog.marketplace.offer.price_own_item");
           ((l = l.replace("%price%", `${s.price}`)), (f.caption = l));
         }
-        if (s.status === _i4e558243c209b2._r7e3fcbc1e80373) {
+        if (s.status === UnkConstants_4e5582._r7e3fcbc1e80373) {
           let l = o.findChildByName("item_time");
           if (l != null) {
             let b = Math.max(1, s.timeLeftMinutes),
@@ -189,7 +189,7 @@ class a extends CatalogWidget {
             ((m = m.replace("%time%", p)), (l.caption = m));
           }
         }
-        if (s.status === _i4e558243c209b2.SOLD) {
+        if (s.status === UnkConstants_4e5582.SOLD) {
           let l = o.findChildByName("item_sold");
           l != null &&
             (l.caption = this.getStatusText(
@@ -199,7 +199,7 @@ class a extends CatalogWidget {
               "catalog.marketplace.offer.sold_at",
             ));
         }
-        if (s.status === _i4e558243c209b2.EXPIRED) {
+        if (s.status === UnkConstants_4e5582.EXPIRED) {
           let l = o.findChildByName("item_expired");
           l != null &&
             (l.caption = this.getStatusText(
@@ -458,11 +458,11 @@ class a extends CatalogWidget {
     if (e == null) return -1;
     switch (e.name) {
       case "ongoing_item":
-        return _i4e558243c209b2._r7e3fcbc1e80373;
+        return UnkConstants_4e5582._r7e3fcbc1e80373;
       case "sold_item":
-        return _i4e558243c209b2.SOLD;
+        return UnkConstants_4e5582.SOLD;
       case "expired_item":
-        return _i4e558243c209b2.EXPIRED;
+        return UnkConstants_4e5582.EXPIRED;
       default:
         return -1;
     }

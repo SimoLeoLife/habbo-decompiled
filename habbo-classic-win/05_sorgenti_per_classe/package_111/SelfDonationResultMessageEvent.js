@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 110337.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_111/SelfDonationResultMessageEvent.as
-// Nome offuscato: _i57291da3846856
+// Extracted from HabboAirLauncher.deobf.js, line 110337.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_111/SelfDonationResultMessageEvent.as
+// Obfuscated name: _i57291da3846856
 
 class extends MessageEvent {
     static {

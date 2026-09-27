@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161118.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetSpamWallPostItEditEvent.as
-// Nome offuscato: _i1957ca1daf815e
+// Extracted from HabboAirLauncher.deobf.js, line 161118.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/events/RoomWidgetSpamWallPostItEditEvent.as
+// Obfuscated name: _i1957ca1daf815e
 
 class extends RoomWidgetUpdateEvent {
   constructor(r, t, i, s, o = !1, d = !1) {

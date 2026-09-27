@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 267150.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/tasks/RewardTrackTaskLevelView.as
-// Nome offuscato: _ibc17860aa681d0
+// Extracted from HabboAirLauncher.deobf.js, line 267150.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/tasks/RewardTrackTaskLevelView.as
+// Obfuscated name: _ibc17860aa681d0
 
 class a {
   static {

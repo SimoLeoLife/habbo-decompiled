@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 272765.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/avatar/additions/FloatingHeart.as
-// Nome offuscato: _i3be64fb43d22c9
+// Extracted from HabboAirLauncher.deobf.js, line 272765.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/avatar/additions/FloatingHeart.as
+// Obfuscated name: _i3be64fb43d22c9
 
 class a extends ExpressionAddition {
   static {

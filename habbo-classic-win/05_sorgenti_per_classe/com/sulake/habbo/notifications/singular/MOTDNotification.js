@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 261928.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/MOTDNotification.as
-// Nome offuscato: _i34a530f27856ee
+// Extracted from HabboAirLauncher.deobf.js, line 261928.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/MOTDNotification.as
+// Obfuscated name: _i34a530f27856ee
 
 class a {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 71953.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/localization/Localization.as
-// Nome offuscato: _i60c7cc4160d141
+// Extracted from HabboAirLauncher.deobf.js, line 71953.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/localization/Localization.as
+// Obfuscated name: _i60c7cc4160d141
 
 class {
   constructor(e, r, t = null) {

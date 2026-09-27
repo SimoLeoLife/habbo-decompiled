@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 181596.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/messages/RoomObjectRoomFloorHoleUpdateMessage.as
-// Nome offuscato: _i2b688d4db8c4e9
+// Extracted from HabboAirLauncher.deobf.js, line 181596.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/messages/RoomObjectRoomFloorHoleUpdateMessage.as
+// Obfuscated name: _i2b688d4db8c4e9
 
 class extends RoomObjectUpdateMessage {
   constructor(r, t, i = 0, s = 0, o = 0, d = 0, c = !1) {

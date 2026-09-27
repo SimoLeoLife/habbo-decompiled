@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161907.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetPlayListUserActionMessage.as
-// Nome offuscato: _i5da47fa6575bbf
+// Extracted from HabboAirLauncher.deobf.js, line 161907.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetPlayListUserActionMessage.as
+// Obfuscated name: _i5da47fa6575bbf
 
 class extends RoomWidgetMessage {
   static {

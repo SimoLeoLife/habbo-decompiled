@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 315478.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/mysterytrophy/MysteryTrophyOpenDialogView.as
-// Nome offuscato: _i61ea4fdd7b758c
+// Extracted from HabboAirLauncher.deobf.js, line 315478.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/mysterytrophy/MysteryTrophyOpenDialogView.as
+// Obfuscated name: _i61ea4fdd7b758c
 
 class a {
   constructor(e) {
@@ -58,7 +58,7 @@ class a {
         this.close();
         break;
       case a.const_300:
-        (this.connection?.send(new _i2f7f5309ac5d95(this.var_2971, this.getTrophyInscription() ?? "")), this.close());
+        (this.connection?.send(new UnkMessageComposer_2args_2f7f53(this.var_2971, this.getTrophyInscription() ?? "")), this.close());
         break;
     }
   }, "onMouseClick");

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 183779.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/TopViewSelector.as
-// Nome offuscato: _id7229627ba0bb1
+// Extracted from HabboAirLauncher.deobf.js, line 183779.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/TopViewSelector.as
+// Obfuscated name: _id7229627ba0bb1
 
 class {
   constructor(e, r) {

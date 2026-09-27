@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 267760.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/theme/RewardTrackTheme.as
-// Nome offuscato: _i1d4e3f80ae1ff4
+// Extracted from HabboAirLauncher.deobf.js, line 267760.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/theme/RewardTrackTheme.as
+// Obfuscated name: _i1d4e3f80ae1ff4
 
 class a {
   constructor(e, r, t, i, s) {

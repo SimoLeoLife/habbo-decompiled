@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 187054.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/special_items_display/SpecialItemsController.as
-// Nome offuscato: _id40d4536cc14db
+// Extracted from HabboAirLauncher.deobf.js, line 187054.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/special_items_display/SpecialItemsController.as
+// Obfuscated name: _id40d4536cc14db
 
 class a extends ue {
   static {
@@ -62,7 +62,7 @@ class a extends ue {
     this.parseSpecialItems() &&
       (this._freeClaim.length > 0
         ? ((this._r6ccb8ce9dd56d3 = a.CLAIM_STATE_FETCHING),
-          this._communication?.connection?.send(new _iefb9c57bef1d1c(this._freeClaim)))
+          this._communication?.connection?.send(new UnkMessageComposer_1args_efb9c5(this._freeClaim)))
         : (this._r6ccb8ce9dd56d3 = a.CLAIM_STATE_NOT_APPLICABLE),
       this.openView());
   }
@@ -75,7 +75,7 @@ class a extends ue {
   _r58e83b7bd599ce() {
     this._freeClaim.length !== 0 &&
       ((this._r6ccb8ce9dd56d3 !== a.CLAIM_STATE_CLAIMABLE && this._r6ccb8ce9dd56d3 !== a.CLAIM_STATE_BROWSING) ||
-        (this._communication?.connection?.send(new _i61003cdcdaebec(this._freeClaim)),
+        (this._communication?.connection?.send(new UnkMessageComposer_1args_61003c(this._freeClaim)),
         (this._r6ccb8ce9dd56d3 = a.CLAIM_STATE_CLAIMED),
         this._view?.isShowing() && this._view.updateClaimState()));
   }

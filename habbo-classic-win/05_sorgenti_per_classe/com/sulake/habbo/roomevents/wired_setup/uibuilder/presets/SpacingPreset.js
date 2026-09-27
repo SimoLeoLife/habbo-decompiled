@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 347720.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/SpacingPreset.as
-// Nome offuscato: _i12794419348d10
+// Extracted from HabboAirLauncher.deobf.js, line 347720.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/SpacingPreset.as
+// Obfuscated name: _i12794419348d10
 
 class extends WiredUIPreset {
   static {

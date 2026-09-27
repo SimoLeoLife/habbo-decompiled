@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 200564.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/history/visualization/enum/class_2455.as
-// Nome offuscato: _i39c5fa10c913a3
+// Extracted from HabboAirLauncher.deobf.js, line 200564.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/history/visualization/enum/class_2455.as
+// Obfuscated name: _i39c5fa10c913a3
 
 class a {
   static {

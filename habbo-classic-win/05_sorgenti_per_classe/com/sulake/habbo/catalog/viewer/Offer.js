@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 172417.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/Offer.as
-// Nome offuscato: _ib785ec6e474a87
+// Extracted from HabboAirLauncher.deobf.js, line 172417.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/Offer.as
+// Obfuscated name: _ib785ec6e474a87
 
 class a {
   constructor(e, r, t, i, s, o, d, c, f = dr.NO_CLUB, l, b, _) {

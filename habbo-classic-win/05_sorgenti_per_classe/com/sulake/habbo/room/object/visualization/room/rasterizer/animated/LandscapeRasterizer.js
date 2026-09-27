@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 283481.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/rasterizer/animated/LandscapeRasterizer.as
-// Nome offuscato: _i0207260716a6da
+// Extracted from HabboAirLauncher.deobf.js, line 283481.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/rasterizer/animated/LandscapeRasterizer.as
+// Obfuscated name: _i0207260716a6da
 
 class a extends u_ {
   static {
@@ -23,8 +23,8 @@ class a extends u_ {
     return p == null
       ? null
       : !h.isStatic(s) && a.UPDATE_INTERVAL > 0
-        ? new _i3fbc7ebaffb088(p, Math.round(_ / a.UPDATE_INTERVAL) * a.UPDATE_INTERVAL + a.UPDATE_INTERVAL)
-        : new _i3fbc7ebaffb088(p, -1);
+        ? new UnkClass_3fbc7e(p, Math.round(_ / a.UPDATE_INTERVAL) * a.UPDATE_INTERVAL + a.UPDATE_INTERVAL)
+        : new UnkClass_3fbc7e(p, -1);
   }
   _rb67ca682c77f71(e, r) {
     return r == null ? super._rb67ca682c77f71(e, r) : `${e}_${r.x < 0 ? 0 : 1}`;
@@ -35,12 +35,12 @@ class a extends u_ {
     for (let t of e.child("landscape").toArray()) {
       if (!this._r291a932119ee17(t) || !da.checkRequiredAttributes(t, ["id"])) continue;
       let i = String(t.attribute("id") ?? ""),
-        s = new _i676ed24348a6f1();
+        s = new UnkPlaneSubclass_676ed2();
       for (let o of t.child("animatedVisualization").toArray()) {
         if (!this._r291a932119ee17(o) || !da.checkRequiredAttributes(o, ["size"])) continue;
         let d = this.parsePlaneMaterialCells(o, "size"),
-          c = this.parseMaskBitmaps(o, "horizontalAngle", _i676ed24348a6f1._r9519ddaa6bb42e),
-          f = this.parseMaskBitmaps(o, "verticalAngle", _i676ed24348a6f1._rd71d30b14bb04d),
+          c = this.parseMaskBitmaps(o, "horizontalAngle", UnkPlaneSubclass_676ed2._r9519ddaa6bb42e),
+          f = this.parseMaskBitmaps(o, "verticalAngle", UnkPlaneSubclass_676ed2._rd71d30b14bb04d),
           l = o.child("visualizationLayer").length() + o.child("animationLayer").length(),
           b = s.createPlaneVisualization(d, l, this.getGeometry(d, c, f));
         if (b == null) continue;
@@ -53,7 +53,7 @@ class a extends u_ {
               let m = String(p.attribute("materialId") ?? ""),
                 v = m.length > 0 ? this.PlaneDrawingData(m) : null,
                 w = this.parsePlaneMaterialCells(p, "offset", pl.DEFAULT_OFFSET),
-                I = this.parsePlaneMaterialCells(p, "color", _i676ed24348a6f1.DEFAULT_COLOR),
+                I = this.parsePlaneMaterialCells(p, "color", UnkPlaneSubclass_676ed2.DEFAULT_COLOR),
                 C =
                   String(p.attribute("align") ?? "") === "bottom" ? pl.ALIGN_BOTTOM : pl.ALIGN_TOP;
               b.setLayer(h, v, I, C, w);

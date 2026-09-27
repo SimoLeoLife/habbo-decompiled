@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 307417.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/OwnAvatarMenuView.as
-// Nome offuscato: _i8a0a9e606bc93b
+// Extracted from HabboAirLauncher.deobf.js, line 307417.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/OwnAvatarMenuView.as
+// Obfuscated name: _i8a0a9e606bc93b
 
 class a extends AvatarContextInfoButtonView {
   static {

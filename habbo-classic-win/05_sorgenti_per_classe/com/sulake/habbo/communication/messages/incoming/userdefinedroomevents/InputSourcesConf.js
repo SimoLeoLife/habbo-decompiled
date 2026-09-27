@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 107207.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/InputSourcesConf.as
-// Nome offuscato: _ia39457da758e35
+// Extracted from HabboAirLauncher.deobf.js, line 107207.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/InputSourcesConf.as
+// Obfuscated name: _ia39457da758e35
 
 class a {
     static {

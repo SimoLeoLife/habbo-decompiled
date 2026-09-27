@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145208.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/BadgeImageReadyEvent.as
-// Nome offuscato: _i8d9db79ac28721
+// Extracted from HabboAirLauncher.deobf.js, line 145208.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/BadgeImageReadyEvent.as
+// Obfuscated name: _i8d9db79ac28721
 
 class a extends M {
   static {

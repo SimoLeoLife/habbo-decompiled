@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 186118.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/recycler/PrizeContainer.as
-// Nome offuscato: _i7aa6e318aa1948
+// Extracted from HabboAirLauncher.deobf.js, line 186118.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/recycler/PrizeContainer.as
+// Obfuscated name: _i7aa6e318aa1948
 
 class extends PrizeGridItem {
   static {

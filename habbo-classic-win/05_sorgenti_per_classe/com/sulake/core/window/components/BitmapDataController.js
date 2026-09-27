@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 130955.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/BitmapDataController.as
-// Nome offuscato: _i501382b48f2e73
+// Extracted from HabboAirLauncher.deobf.js, line 130955.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/BitmapDataController.as
+// Obfuscated name: _i501382b48f2e73
 
 class extends st {
   static {

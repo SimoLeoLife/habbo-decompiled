@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 326473.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/roomtools/RoomToolsWidget.as
-// Nome offuscato: _i5fb4c00ce52ab2
+// Extracted from HabboAirLauncher.deobf.js, line 326473.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/roomtools/RoomToolsWidget.as
+// Obfuscated name: _i5fb4c00ce52ab2
 
 class a extends RoomWidgetBase {
   static {
@@ -37,7 +37,7 @@ class a extends RoomWidgetBase {
         this._radeba2a5dcbcec,
       ));
     let d = this.handler.containerRef?.sessionDataManager;
-    this.var_114.setCollapsed(d?.isNoob === !0 || !((d?.uiFlags ?? 0) & _i5a1c5671564b8b._rcf00a07cad041a));
+    this.var_114.setCollapsed(d?.isNoob === !0 || !((d?.uiFlags ?? 0) & UnkConstants_5a1c56._rcf00a07cad041a));
   }
   dispose() {
     (this.var_1149?.stop(),
@@ -94,7 +94,7 @@ class a extends RoomWidgetBase {
       this._r781e70fafd4b9b == null ||
       (this.var_114.disableRoomHistoryButtons(),
       this.var_1149?.stop(),
-      (this.var_1149 = new _i05394ecc0c0c4d(2e3, 1)),
+      (this.var_1149 = new UnkEventDispatcherWrapperSubclass_05394e(2e3, 1)),
       this.var_1149.addEventListener(DeBouncer.addEventListener, this._r56e36861dabdcb),
       this.var_1149.start(),
       this._r781e70fafd4b9b.setElementVisible("tags", !0));

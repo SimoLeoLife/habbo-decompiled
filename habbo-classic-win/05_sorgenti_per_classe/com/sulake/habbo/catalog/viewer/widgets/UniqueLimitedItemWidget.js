@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 195914.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/UniqueLimitedItemWidget.as
-// Nome offuscato: _ic177a6d1710e9c
+// Extracted from HabboAirLauncher.deobf.js, line 195914.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/UniqueLimitedItemWidget.as
+// Obfuscated name: _ic177a6d1710e9c
 
 class a extends CatalogWidget {
   constructor(r, t) {
@@ -36,7 +36,7 @@ class a extends CatalogWidget {
       this.window != null && (this.window.visible = !1),
       this.events?.addEventListener?.(CatalogWidgetEventEnum.SELECT_PRODUCT, this._rae8e17ddaeb413),
       this.events?.addEventListener?.(CatalogWidgetEventEnum.const_1080, this._rce61fa4648e9ea),
-      (this.var_1303 = new _i05394ecc0c0c4d(a.SUPPLY_REFRESH_PERIOD_MS)),
+      (this.var_1303 = new UnkEventDispatcherWrapperSubclass_05394e(a.SUPPLY_REFRESH_PERIOD_MS)),
       this.var_1303.addEventListener(DeBouncer.addEventListener, this.onSupplyLeftTimer),
       !0
     );

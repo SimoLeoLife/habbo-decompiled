@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 107308.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_124/AllVariablesInRoom.as
-// Nome offuscato: _icdc775e0814d19
+// Extracted from HabboAirLauncher.deobf.js, line 107308.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_124/AllVariablesInRoom.as
+// Obfuscated name: _icdc775e0814d19
 
 class extends l7 {
     static {

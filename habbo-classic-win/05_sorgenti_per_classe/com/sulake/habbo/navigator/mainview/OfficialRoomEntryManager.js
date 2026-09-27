@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 256337.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/OfficialRoomEntryManager.as
-// Nome offuscato: _i78a06652f62200
+// Extracted from HabboAirLauncher.deobf.js, line 256337.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/OfficialRoomEntryManager.as
+// Obfuscated name: _i78a06652f62200
 
 class a {
   constructor(e) {

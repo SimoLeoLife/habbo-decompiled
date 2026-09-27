@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 211586.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/tabs/tokens/AchievementToken.as
-// Nome offuscato: _i1e11c708e45f70
+// Extracted from HabboAirLauncher.deobf.js, line 211586.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/tabs/tokens/AchievementToken.as
+// Obfuscated name: _i1e11c708e45f70
 
 class extends bl {
   static {

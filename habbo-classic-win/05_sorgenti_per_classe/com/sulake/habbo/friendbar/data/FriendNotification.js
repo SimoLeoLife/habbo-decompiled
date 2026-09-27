@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 211272.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/data/FriendNotification.as
-// Nome offuscato: _i9f60804682a4fd
+// Extracted from HabboAirLauncher.deobf.js, line 211272.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/data/FriendNotification.as
+// Obfuscated name: _i9f60804682a4fd
 
 class a {
   constructor(e, r, t) {

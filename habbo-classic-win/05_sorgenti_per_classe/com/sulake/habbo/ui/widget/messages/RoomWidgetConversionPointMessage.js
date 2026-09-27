@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161491.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetConversionPointMessage.as
-// Nome offuscato: _ia4fb66dd542d3a
+// Extracted from HabboAirLauncher.deobf.js, line 161491.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetConversionPointMessage.as
+// Obfuscated name: _ia4fb66dd542d3a
 
 class extends RoomWidgetMessage {
   static {

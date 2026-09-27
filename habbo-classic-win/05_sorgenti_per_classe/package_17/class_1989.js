@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 73246.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_17/class_1989.as
-// Nome offuscato: _i833c5cbeb65c65
+// Extracted from HabboAirLauncher.deobf.js, line 73246.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_17/class_1989.as
+// Obfuscated name: _i833c5cbeb65c65
 
 class {
     static {
@@ -15,7 +15,7 @@ class {
     constructor(e) {
       this.name = e.readString();
       let r = e.readInteger();
-      for (let t = 0; t < r; t++) this._rddb8305acca679.push(new _i772b304e360005(e));
+      for (let t = 0; t < r; t++) this._rddb8305acca679.push(new UnkClass_772b30(e));
     }
     get disposed() {
       return this._disposed;

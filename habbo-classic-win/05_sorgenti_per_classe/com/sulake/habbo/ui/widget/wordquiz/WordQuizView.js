@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 326984.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/wordquiz/WordQuizView.as
-// Nome offuscato: _i411d38a0520560
+// Extracted from HabboAirLauncher.deobf.js, line 326984.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/wordquiz/WordQuizView.as
+// Obfuscated name: _i411d38a0520560
 
 class a {
   constructor(e) {
@@ -98,7 +98,7 @@ class a {
   displayResults(e) {
     (this.createWindow(a.STATE_RESULT),
       this.updateResults(e),
-      (this._r296a04323547dc = new _i05394ecc0c0c4d(a._reafb3c1e24c241, 1)),
+      (this._r296a04323547dc = new UnkEventDispatcherWrapperSubclass_05394e(a._reafb3c1e24c241, 1)),
       this._r296a04323547dc.addEventListener(DeBouncer.addEventListener, this._r91eaa220f267a4),
       this._r296a04323547dc.start());
   }

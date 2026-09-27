@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 151478.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/RarityItemGridOverlayWidget.as
-// Nome offuscato: _i9d2121157a7d8c
+// Extracted from HabboAirLauncher.deobf.js, line 151478.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/RarityItemGridOverlayWidget.as
+// Obfuscated name: _i9d2121157a7d8c
 
 class {
   constructor(e, r) {

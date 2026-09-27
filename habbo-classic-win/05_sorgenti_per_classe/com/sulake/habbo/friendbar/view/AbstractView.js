@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 206405.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/AbstractView.as
-// Nome offuscato: _i24fd9c805f49b4
+// Extracted from HabboAirLauncher.deobf.js, line 206405.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/AbstractView.as
+// Obfuscated name: _i24fd9c805f49b4
 
 class extends ue {
   static {

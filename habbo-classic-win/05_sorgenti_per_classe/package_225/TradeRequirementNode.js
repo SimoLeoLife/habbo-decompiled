@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 110009.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_225/TradeRequirementNode.as
-// Nome offuscato: _id39db73c6b64c2
+// Extracted from HabboAirLauncher.deobf.js, line 110009.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_225/TradeRequirementNode.as
+// Obfuscated name: _id39db73c6b64c2
 
 class a {
     static {

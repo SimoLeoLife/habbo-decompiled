@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 289384.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/level/LevelWithProgressRenderer.as
+// Extracted from HabboAirLauncher.deobf.js, line 289384.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/level/LevelWithProgressRenderer.as
 
 class a {
   static {
@@ -19,7 +19,7 @@ class a {
   var_1772 = null;
   _badgeRenderKey = "";
   _context;
-  _frame = new _i5ec3143bd5c7df();
+  _frame = new UnkClass_5ec314();
   var_3458 = "";
   _r3262c8d749092c = new oh();
   _r248aab6b3b2127 = !1;
@@ -108,7 +108,7 @@ class a {
   createPrebake(e) {
     let r = class_3649._r0826336a1ed27b(e.config.color, e.config.extra),
       t = this.resolveAssets(e, !!r._rdc05eda693c910);
-    return new _i9dcec8c32c62ab(new ug(t, { height: a.FRAME_HEIGHT, width: 21, x: 0, y: 0 }));
+    return new UnkClass_9dcec8(new ug(t, { height: a.FRAME_HEIGHT, width: 21, x: 0, y: 0 }));
   }
   resolveAssets(e, r) {
     let t = a._rf2a2b0e5caf703;

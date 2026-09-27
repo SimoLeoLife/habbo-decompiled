@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 209400.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/layout/backgroundobjects/BackgroundObject.as
-// Nome offuscato: _i575bd81238cd74
+// Extracted from HabboAirLauncher.deobf.js, line 209400.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/layout/backgroundobjects/BackgroundObject.as
+// Obfuscated name: _i575bd81238cd74
 
 class {
   constructor(e, r, t, i, s, o = !1) {

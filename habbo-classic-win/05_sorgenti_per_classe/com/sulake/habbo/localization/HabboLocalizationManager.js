@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 127594.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/localization/HabboLocalizationManager.as
-// Nome offuscato: _ibd5fe54eb935d3
+// Extracted from HabboAirLauncher.deobf.js, line 127594.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/localization/HabboLocalizationManager.as
+// Obfuscated name: _ibd5fe54eb935d3
 
 class extends Sne {
   static {

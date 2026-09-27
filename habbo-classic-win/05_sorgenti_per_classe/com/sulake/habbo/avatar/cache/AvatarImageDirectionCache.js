@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 166887.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/cache/AvatarImageDirectionCache.as
-// Nome offuscato: _ia7a5c584a0b344
+// Extracted from HabboAirLauncher.deobf.js, line 166887.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/cache/AvatarImageDirectionCache.as
+// Obfuscated name: _ia7a5c584a0b344
 
 class a {
   static {

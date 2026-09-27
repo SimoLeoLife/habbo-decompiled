@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 369970.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/variables/class_4030.as
-// Nome offuscato: _ib5b5f0c01b473a
+// Extracted from HabboAirLauncher.deobf.js, line 369970.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/variables/class_4030.as
+// Obfuscated name: _ib5b5f0c01b473a
 
 class a extends class_3947 {
   static {

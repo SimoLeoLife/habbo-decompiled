@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 173636.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/clubcenter/ClubSpecialInfoBubbleView.as
-// Nome offuscato: _i8ae9398e39f4c6
+// Extracted from HabboAirLauncher.deobf.js, line 173636.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/clubcenter/ClubSpecialInfoBubbleView.as
+// Obfuscated name: _i8ae9398e39f4c6
 
 class a {
   constructor(e, r, t, i) {
@@ -54,7 +54,7 @@ class a {
         .replace("%actual%", String(d)),
     ),
       this._window.activate(),
-      this.var_63?.stage?.addEventListener(_ifd7c1208e3417e.CLICK, this._r20e8e12397dc16));
+      this.var_63?.stage?.addEventListener(UnkClass_fd7c12.CLICK, this._r20e8e12397dc16));
   }
   static {
     n(this, "ClubSpecialInfoBubbleView");
@@ -62,7 +62,7 @@ class a {
   static MARGIN = 8;
   _window = null;
   dispose() {
-    (this.var_63?.stage?.removeEventListener(_ifd7c1208e3417e.CLICK, this._r20e8e12397dc16),
+    (this.var_63?.stage?.removeEventListener(UnkClass_fd7c12.CLICK, this._r20e8e12397dc16),
       this._window?.dispose(),
       (this._window = null),
       (this.var_63 = null));

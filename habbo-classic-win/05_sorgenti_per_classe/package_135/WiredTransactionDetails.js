@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 110778.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_135/WiredTransactionDetails.as
-// Nome offuscato: _ib942451190ba6f
+// Extracted from HabboAirLauncher.deobf.js, line 110778.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_135/WiredTransactionDetails.as
+// Obfuscated name: _ib942451190ba6f
 
 class {
     static {

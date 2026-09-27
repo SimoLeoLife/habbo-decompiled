@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 135941.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/utils/WindowParser.as
-// Nome offuscato: _i60493a873695ea
+// Extracted from HabboAirLauncher.deobf.js, line 135941.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/utils/WindowParser.as
+// Obfuscated name: _i60493a873695ea
 
 class a {
   static {
@@ -84,7 +84,7 @@ class a {
       if (e.child(a.VARIABLES).length() > 0) {
         let b = this._rb651e03da4380e(o, a.VARIABLES),
           _ = b != null ? this._r0cc292efd3d372(b) : null,
-          h = _ != null ? new _if56d7fe9b9f681(this._rd4ae456307900f(_).map((p) => new yi(p))) : rr().children();
+          h = _ != null ? new UnkClass_f56d7f(this._rd4ae456307900f(_).map((p) => new yi(p))) : rr().children();
         h.length() > 0 && (t == null && (t = new B()), class_3122._r49e6f06a45fc47(h, t));
       }
       let c = this._rb651e03da4380e(o, a.FILTERS),
@@ -253,7 +253,7 @@ class a {
     if (e == null) return [];
     let r = this._rf5a3e97ffd710c.get(e);
     if (r != null) return r.slice();
-    let t = XMLPropertyArrayParser.parse(new _if56d7fe9b9f681(this._rd4ae456307900f(e).map((i) => new yi(i))));
+    let t = XMLPropertyArrayParser.parse(new UnkClass_f56d7f(this._rd4ae456307900f(e).map((i) => new yi(i))));
     return (this._rf5a3e97ffd710c.set(e, t), t.slice());
   }
   _r42bbd6d4a73032(e) {

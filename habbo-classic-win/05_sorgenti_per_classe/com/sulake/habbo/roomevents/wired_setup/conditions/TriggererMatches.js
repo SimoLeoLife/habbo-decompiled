@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 367083.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/TriggererMatches.as
-// Nome offuscato: _i6cfd83d81b1639
+// Extracted from HabboAirLauncher.deobf.js, line 367083.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/TriggererMatches.as
+// Obfuscated name: _i6cfd83d81b1639
 
 class extends DefaultConditionType {
   static {

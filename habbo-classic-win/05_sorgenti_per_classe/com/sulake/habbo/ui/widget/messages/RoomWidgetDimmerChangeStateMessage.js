@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161553.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetDimmerChangeStateMessage.as
-// Nome offuscato: _id199079f133072
+// Extracted from HabboAirLauncher.deobf.js, line 161553.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetDimmerChangeStateMessage.as
+// Obfuscated name: _id199079f133072
 
 class a extends RoomWidgetMessage {
   static {

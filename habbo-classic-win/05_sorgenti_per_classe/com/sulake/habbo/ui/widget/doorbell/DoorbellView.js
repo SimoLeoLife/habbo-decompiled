@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 313528.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/doorbell/DoorbellView.as
-// Nome offuscato: _iaa0ffb9723fcea
+// Extracted from HabboAirLauncher.deobf.js, line 313528.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/doorbell/DoorbellView.as
+// Obfuscated name: _iaa0ffb9723fcea
 
 class {
   static {

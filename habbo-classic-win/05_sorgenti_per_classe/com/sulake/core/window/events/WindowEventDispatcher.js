@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 128694.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/events/WindowEventDispatcher.as
-// Nome offuscato: _i987528105a7949
+// Extracted from HabboAirLauncher.deobf.js, line 128694.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/events/WindowEventDispatcher.as
+// Obfuscated name: _i987528105a7949
 
 class a {
   static {

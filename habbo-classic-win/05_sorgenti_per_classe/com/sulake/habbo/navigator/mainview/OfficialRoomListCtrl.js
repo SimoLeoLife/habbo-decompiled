@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 255514.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/OfficialRoomListCtrl.as
-// Nome offuscato: _iee750cac5bd23e
+// Extracted from HabboAirLauncher.deobf.js, line 255514.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/OfficialRoomListCtrl.as
+// Obfuscated name: _iee750cac5bd23e
 
 class {
   constructor(e) {

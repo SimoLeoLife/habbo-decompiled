@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 277273.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureBuilderPlaceholderVisualization.as
-// Nome offuscato: _i20801533b340a2
+// Extracted from HabboAirLauncher.deobf.js, line 277273.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureBuilderPlaceholderVisualization.as
+// Obfuscated name: _i20801533b340a2
 
 class extends Pc {
   static {

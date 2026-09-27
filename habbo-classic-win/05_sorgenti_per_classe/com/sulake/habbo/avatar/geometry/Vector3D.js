@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 169708.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/geometry/Vector3D.as
-// Nome offuscato: _ic25f9f9f1b2a0e
+// Extracted from HabboAirLauncher.deobf.js, line 169708.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/geometry/Vector3D.as
+// Obfuscated name: _ic25f9f9f1b2a0e
 
 class a {
   constructor(e = 0, r = 0, t = 0) {

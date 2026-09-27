@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 152197.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/HabboWindowManagerComponent.as
-// Nome offuscato: _ic6ad2622dd81e4
+// Extracted from HabboAirLauncher.deobf.js, line 152197.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/HabboWindowManagerComponent.as
+// Obfuscated name: _ic6ad2622dd81e4
 
 class extends ue {
     static {
@@ -27,7 +27,7 @@ class extends ue {
         (this._r4a6cdb5b3ae688 ??= null),
         (this._hintManager ??= null),
         (this._rd288b36b14d170 ??= null),
-        _i97d37f52ba43cc.refresh(),
+        UnkClass_97d37f.refresh(),
         (cj.defaultLinkTarget = "habboMain"));
     }
     get dependencies() {
@@ -112,7 +112,7 @@ class extends ue {
       ((this.var_1871 = this._r0397d5f1999ca1[sCt] ?? null),
         this._r03143426e35a1d(this),
         this.registerUpdateReceiver(this, 0),
-        this.queueInterface(new _i0944d2585efdf9(), (o = null, d = null) => {
+        this.queueInterface(new UnkInterface_0944d2(), (o = null, d = null) => {
           this._r466bf75c86a858(o, d);
         }),
         (this._r5f0bab59c561ed = new HabbletLinkHandler(this)),
@@ -324,7 +324,7 @@ class extends ue {
     get _rcdfcdcf96d65cf() {
       if (this._r4a6cdb5b3ae688 != null) return this._r4a6cdb5b3ae688.styleSheet;
       if (this._hintManager == null) {
-        let e = new _ib0061b42edfac2(),
+        let e = new UnkClass_b0061b(),
           r = this._r5dbb115a8ab201("habbopedia_css");
         (r != null && r.length > 0 && e.parseCSS(r), (this._hintManager = e));
       }
@@ -364,10 +364,10 @@ class extends ue {
     }, "_raa064a5c854398");
     IIDHabboConfigurationManager = n((e) => {
       this._communication != null &&
-        ((this._rd288b36b14d170 ??= new Np(this)), (this._r681d0d32b3fb26 = new _i0a2ca7a30d7842(this)));
+        ((this._rd288b36b14d170 ??= new Np(this)), (this._r681d0d32b3fb26 = new UnkClass_0a2ca7(this)));
     }, "IIDHabboConfigurationManager");
     _r466bf75c86a858 = n((e = null, r = null) => {
-      r?.release(new _i0944d2585efdf9());
+      r?.release(new UnkInterface_0944d2());
     }, "_r466bf75c86a858");
     _r9930c9aa85c95b(e) {
       return this.assets.getAssetByName(e)?.content;

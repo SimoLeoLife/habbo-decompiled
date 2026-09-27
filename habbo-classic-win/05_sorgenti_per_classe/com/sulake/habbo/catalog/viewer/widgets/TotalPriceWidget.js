@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 195512.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/TotalPriceWidget.as
-// Nome offuscato: _iba074b304e1a23
+// Extracted from HabboAirLauncher.deobf.js, line 195512.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/TotalPriceWidget.as
+// Obfuscated name: _iba074b304e1a23
 
 class a extends CatalogWidget {
   constructor(r, t) {

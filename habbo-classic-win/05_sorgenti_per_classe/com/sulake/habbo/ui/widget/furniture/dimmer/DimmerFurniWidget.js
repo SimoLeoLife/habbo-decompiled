@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 316716.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/dimmer/DimmerFurniWidget.as
-// Nome offuscato: _i4c04346bce7a60
+// Extracted from HabboAirLauncher.deobf.js, line 316716.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/dimmer/DimmerFurniWidget.as
+// Obfuscated name: _i4c04346bce7a60
 
 class a extends RoomWidgetBase {
   static {
@@ -59,7 +59,7 @@ class a extends RoomWidgetBase {
       (this.var_1427 = e.isOn),
       (this.var_2043 = e._ree0dc0daf170e4 - 1),
       (this.var_1479 = []));
-    for (let r of e.presets) r != null && this.var_1479.push(new _i0973b3ad4e4c9d(r.id, r.type, r.color, r.light));
+    for (let r of e.presets) r != null && this.var_1479.push(new UnkClass_0973b3(r.id, r.type, r.color, r.light));
     this.showInterface();
   }, "_ra8c2e6253d1659");
   _r083999418603c4 = n((e) => {

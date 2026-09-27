@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 71334.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/onBoardingHcUi/ColouredButton.as
-// Nome offuscato: _i160c7d9612a1e2
+// Extracted from HabboAirLauncher.deobf.js, line 71334.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/onBoardingHcUi/ColouredButton.as
+// Obfuscated name: _i160c7d9612a1e2
 
 class a extends Button {
   static {
@@ -29,7 +29,7 @@ class a extends Button {
           (this._r2392cfbe544fae = Tr._r203d00b7beb802(_i4b01ea81f74ef8("button_yellow_pressed_png"), new D(8, 10, 6, 4))),
           (this._r43a41e16b5980b = Tr._r203d00b7beb802(_i4b01ea81f74ef8("button_yellow_inactive_png"), new D(8, 10, 6, 4))),
           (this._r106d9e9c3ed2b9 = Tr._r203d00b7beb802(_i4b01ea81f74ef8("button_yellow_rollover_png"), new D(8, 10, 6, 4))),
-          (this._icon = new _i3a5c6f457acdad(_i4b01ea81f74ef8("icon_hc"))));
+          (this._icon = new UnkClass_3a5c6f(_i4b01ea81f74ef8("icon_hc"))));
         break;
       case a.BUTTON_GREEN:
       default:

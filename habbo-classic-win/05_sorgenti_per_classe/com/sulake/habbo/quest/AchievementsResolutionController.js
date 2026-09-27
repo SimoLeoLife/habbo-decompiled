@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 265134.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/AchievementsResolutionController.as
-// Nome offuscato: _i73770f35d8fe45
+// Extracted from HabboAirLauncher.deobf.js, line 265134.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/AchievementsResolutionController.as
+// Obfuscated name: _i73770f35d8fe45
 
 class a {
   constructor(e) {

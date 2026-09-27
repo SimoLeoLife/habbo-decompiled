@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 316973.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/externalimage/ExternalImageWidget.as
-// Nome offuscato: _i61bb441827e106
+// Extracted from HabboAirLauncher.deobf.js, line 316973.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/externalimage/ExternalImageWidget.as
+// Obfuscated name: _i61bb441827e106
 
 class a extends RoomWidgetBase {
   static {
@@ -170,7 +170,7 @@ class a extends RoomWidgetBase {
       (this._rf62c4dad9a3906 = new StringUtil("image/png")),
       this._rf62c4dad9a3906.addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._rf309bbcc5112ed),
       this._rf62c4dad9a3906.addEventListener(Le.ASSET_LOADER_EVENT_ERROR, this._ra189ddc9cb67d6),
-      this._rf62c4dad9a3906.load(new _i636490202c0f9a(e)));
+      this._rf62c4dad9a3906.load(new UnkClass_636490(e)));
   }
   drawImage(e) {
     if (this._window == null || this.var_184 == null) return;
@@ -186,7 +186,7 @@ class a extends RoomWidgetBase {
         0,
       )));
     let r = new Pe(),
-      t = new _i4210dc3239901d();
+      t = new UnkClass_4210dc();
     ((t.color = 0),
       (r.ty += 1),
       this.var_184.bitmap.draw(e, r, t),
@@ -237,11 +237,11 @@ class a extends RoomWidgetBase {
   _r73b4261ab48b98() {
     let e = this.ownHandler.extraDataServiceUrl + this._r21fcda32c1b3fb;
     (this._r44442c4c5d0dc7(),
-      (this._r8a19ce384ecc77 = new _ib182ac399b1881()),
-      this._r8a19ce384ecc77.addEventListener(_i9006bf9233cf9a._re0bd97c8c9195c, this._r11ef5c1f202325),
+      (this._r8a19ce384ecc77 = new UnkEventDispatcherWrapperSubclass_b182ac()),
+      this._r8a19ce384ecc77.addEventListener(UnkClass_9006bf._re0bd97c8c9195c, this._r11ef5c1f202325),
       this._r8a19ce384ecc77.addEventListener(M.ComponentDependency, this._r3257c8a9ebdc48),
-      this._r8a19ce384ecc77.addEventListener(_i207e0270849f6a._rb9739f8a5177c3, this._reaca6a7ba03893),
-      this._r8a19ce384ecc77.load(new _i636490202c0f9a(e)));
+      this._r8a19ce384ecc77.addEventListener(UnkErrorEventSubclass_207e02._rb9739f8a5177c3, this._reaca6a7ba03893),
+      this._r8a19ce384ecc77.load(new UnkClass_636490(e)));
   }
   _rd076abd1ede6e8() {
     ((this._r21fcda32c1b3fb = null),
@@ -268,9 +268,9 @@ class a extends RoomWidgetBase {
       (this._rf62c4dad9a3906 = null));
   }
   _r44442c4c5d0dc7() {
-    (this._r8a19ce384ecc77?.removeEventListener(_i9006bf9233cf9a._re0bd97c8c9195c, this._r11ef5c1f202325),
+    (this._r8a19ce384ecc77?.removeEventListener(UnkClass_9006bf._re0bd97c8c9195c, this._r11ef5c1f202325),
       this._r8a19ce384ecc77?.removeEventListener(M.ComponentDependency, this._r3257c8a9ebdc48),
-      this._r8a19ce384ecc77?.removeEventListener(_i207e0270849f6a._rb9739f8a5177c3, this._reaca6a7ba03893),
+      this._r8a19ce384ecc77?.removeEventListener(UnkErrorEventSubclass_207e02._rb9739f8a5177c3, this._reaca6a7ba03893),
       (this._r8a19ce384ecc77 = null));
   }
   updateWindowPosition() {
@@ -311,7 +311,7 @@ class a extends RoomWidgetBase {
             )
             ?._r3fecca3423f155(
               HabboAlertDialogFlag.const_427,
-              new _iada4b60c6952bf(
+              new UnkClass_ada4b6(
                 this.localizations?.getLocalization("inventory.remove.external_image_wallitem_delete") ?? "",
                 "",
                 !0,
@@ -344,7 +344,7 @@ class a extends RoomWidgetBase {
           break;
         case "twitterShare":
           (this._r4c5d0b6a622c5e &&
-            _i7dcfde9cf3179b(new _i636490202c0f9a("http://www.twitter.com/share?url=" + this._r4c5d0b6a622c5e), "_blank"),
+            _i7dcfde9cf3179b(new UnkClass_636490("http://www.twitter.com/share?url=" + this._r4c5d0b6a622c5e), "_blank"),
             this.ownHandler.container?._r697386a8fb5bf8?.trackEventLog(
               "Stories",
               "twitter",
@@ -354,7 +354,7 @@ class a extends RoomWidgetBase {
           break;
         case "fbShare":
           (this._r4c5d0b6a622c5e &&
-            _i7dcfde9cf3179b(new _i636490202c0f9a("https://www.facebook.com/sharer/sharer.php?u=" + this._r4c5d0b6a622c5e), "_blank"),
+            _i7dcfde9cf3179b(new UnkClass_636490("https://www.facebook.com/sharer/sharer.php?u=" + this._r4c5d0b6a622c5e), "_blank"),
             this.ownHandler.container?._r697386a8fb5bf8?.trackEventLog(
               "Stories",
               "facebook",
@@ -391,7 +391,7 @@ class a extends RoomWidgetBase {
     let r = e.target;
     if (!(r == null || r !== this._rf62c4dad9a3906))
       try {
-        let t = new _ifdd92074c780c7().decode(r.bytes);
+        let t = new UnkClass_fdd920().decode(r.bytes);
         t != null && this.drawImage(t);
       } catch {
       } finally {
@@ -402,7 +402,7 @@ class a extends RoomWidgetBase {
     this._r41c64f5d9d7f4f();
   }, "_ra189ddc9cb67d6");
   _r864466b37a6e3d = n((e) => {
-    e != null && !ua.getJSONValue(e.link) && _i7dcfde9cf3179b(new _i636490202c0f9a(e.link), "_blank");
+    e != null && !ua.getJSONValue(e.link) && _i7dcfde9cf3179b(new UnkClass_636490(e.link), "_blank");
   }, "_r864466b37a6e3d");
   _r11ef5c1f202325 = n((e) => {
     e.status === 403 &&

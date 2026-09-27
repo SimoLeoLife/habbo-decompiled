@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 222392.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/ui/GameEndingViewController.as
-// Nome offuscato: _ife50d5168941f1
+// Extracted from HabboAirLauncher.deobf.js, line 222392.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/ui/GameEndingViewController.as
+// Obfuscated name: _ife50d5168941f1
 
 class a {
   constructor(e, r, t, i, s) {
@@ -27,7 +27,7 @@ class a {
       this._rc48cb7ca67aee6._rd31af608f83beb
         ? je.hideElement(this._window, "statusContainer")
         : (je.showElement(this._window, "statusContainer"),
-          this._rc48cb7ca67aee6.communication?.connection?.send(new _i5dd11c8c1c20f0(class_3666.SNOWWAR))),
+          this._rc48cb7ca67aee6.communication?.connection?.send(new Game2GetAccountGameStatusMessageComposer(class_3666.SNOWWAR))),
       this.updateGamesLeft());
   }
   static {
@@ -246,7 +246,7 @@ class a {
     e &&
       (this._rc48cb7ca67aee6._r79edc3fe766723(!0),
       this._state === a.STATE_LOBBY || this._state === a._rf22a7f472bd113
-        ? (this._rc48cb7ca67aee6.communication?.connection?.send(new _i6c04e8214933d7()),
+        ? (this._rc48cb7ca67aee6.communication?.connection?.send(new class_3513()),
           this._rc48cb7ca67aee6._r2773a0a439d827 > -1 &&
             this._rc48cb7ca67aee6.communication?.connection?.send(
               new class_2142(this._rc48cb7ca67aee6._r2773a0a439d827, !1, !0),
@@ -256,8 +256,8 @@ class a {
             ? this._rc48cb7ca67aee6.communication?.connection?.send(
                 new class_2142(this._rc48cb7ca67aee6._r2773a0a439d827, !1, !0),
               )
-            : this._rc48cb7ca67aee6.communication?.connection?.send(new _ied976cfb0cf69f())
-          : this._rc48cb7ca67aee6.communication?.connection?.send(new _ied976cfb0cf69f()),
+            : this._rc48cb7ca67aee6.communication?.connection?.send(new Game2ExitGameMessageComposer())
+          : this._rc48cb7ca67aee6.communication?.connection?.send(new Game2ExitGameMessageComposer()),
       this._r816d0e8339b4ef());
   }
   _r816d0e8339b4ef() {
@@ -479,7 +479,7 @@ class a {
   }
   _r2884b5a375e12e(e) {
     (this._r816d0e8339b4ef(),
-      (this._r88958903546a45 = new _i05394ecc0c0c4d(1e3, e)),
+      (this._r88958903546a45 = new UnkEventDispatcherWrapperSubclass_05394e(1e3, e)),
       this._r88958903546a45.addEventListener(DeBouncer.addEventListener, this.onTick),
       this._r88958903546a45.start(),
       (this._counter = e));

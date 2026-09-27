@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 279699.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureRoomBillboardVisualization.as
-// Nome offuscato: _ia937140dea5d06
+// Extracted from HabboAirLauncher.deobf.js, line 279699.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureRoomBillboardVisualization.as
+// Obfuscated name: _ia937140dea5d06
 
 class extends dg {
   static {

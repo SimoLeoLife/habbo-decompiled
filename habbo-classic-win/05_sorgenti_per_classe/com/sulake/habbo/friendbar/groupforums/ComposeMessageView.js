@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 205685.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/ComposeMessageView.as
-// Nome offuscato: _i5fc7873e38918b
+// Extracted from HabboAirLauncher.deobf.js, line 205685.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/ComposeMessageView.as
+// Obfuscated name: _i5fc7873e38918b
 
 class a {
   static {
@@ -41,7 +41,7 @@ class a {
         (this._status.caption = this.var_63.localizationManager.getLocalization(
           "groupforum.compose.reply_hint",
         )),
-      (this.var_382 = new _i05394ecc0c0c4d(1e3, 0)),
+      (this.var_382 = new UnkEventDispatcherWrapperSubclass_05394e(1e3, 0)),
       this.var_382.addEventListener(DeBouncer.addEventListener, this._r76ce286f901681),
       this.var_382.start());
   }

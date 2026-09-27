@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 325581.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/roomqueue/RoomQueueWidget.as
-// Nome offuscato: _ie3ccaacf060e9f
+// Extracted from HabboAirLauncher.deobf.js, line 325581.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/roomqueue/RoomQueueWidget.as
+// Obfuscated name: _ie3ccaacf060e9f
 
 class extends RoomWidgetBase {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 260339.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/view/search/results/RoomEntryUtils.as
-// Nome offuscato: _ia543ca7619b1d5
+// Extracted from HabboAirLauncher.deobf.js, line 260339.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/view/search/results/RoomEntryUtils.as
+// Obfuscated name: _ia543ca7619b1d5
 
 class {
   static {

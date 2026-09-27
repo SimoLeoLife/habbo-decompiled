@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 125670.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_233/HumanThrowsSnowballAtPositionEventData.as
-// Nome offuscato: _i52f465f94b99cc
+// Extracted from HabboAirLauncher.deobf.js, line 125670.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_233/HumanThrowsSnowballAtPositionEventData.as
+// Obfuscated name: _i52f465f94b99cc
 
 class extends Ma {
     static {

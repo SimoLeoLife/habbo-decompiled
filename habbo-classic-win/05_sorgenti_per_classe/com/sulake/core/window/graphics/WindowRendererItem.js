@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 141852.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/WindowRendererItem.as
-// Nome offuscato: _i2f9556e6e9e0e1
+// Extracted from HabboAirLauncher.deobf.js, line 141852.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/WindowRendererItem.as
+// Obfuscated name: _i2f9556e6e9e0e1
 
 class a {
   static {
@@ -22,7 +22,7 @@ class a {
   static _r7e30a0a3aadd8b = new Set();
   static _r323919d88d8abb = new Set();
   static MATRIX = new Pe();
-  static COLOR_TRANSFORM = new _i4210dc3239901d();
+  static COLOR_TRANSFORM = new UnkClass_4210dc();
   _buffer = null;
   _r4004c1bd6fe180;
   _disposed = !1;

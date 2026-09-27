@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 345731.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/PaddedContainerPreset.as
-// Nome offuscato: _ief57aad8ea1044
+// Extracted from HabboAirLauncher.deobf.js, line 345731.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/PaddedContainerPreset.as
+// Obfuscated name: _ief57aad8ea1044
 
 class extends WiredUIPreset {
   static {

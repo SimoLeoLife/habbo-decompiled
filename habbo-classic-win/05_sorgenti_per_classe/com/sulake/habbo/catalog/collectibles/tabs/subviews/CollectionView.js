@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 174630.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/tabs/subviews/CollectionView.as
-// Nome offuscato: _i447617a98b2453
+// Extracted from HabboAirLauncher.deobf.js, line 174630.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/tabs/subviews/CollectionView.as
+// Obfuscated name: _i447617a98b2453
 
 class a {
   constructor(e, r, t) {
@@ -226,13 +226,13 @@ class a {
       if (this._previewStatus === a.PREVIEW_STATUS_BONUS)
         (this._r4eb39feb7f70c0._r64b9f0f252ae91(),
           this.var_374.controller.send(
-            new _i31311e8950de32(this._r4eb39feb7f70c0.collectionId, this.var_374.activeWallet),
+            new UnkMessageComposer_2args_31311e(this._r4eb39feb7f70c0.collectionId, this.var_374.activeWallet),
           ),
           this.var_374._r036314013a3102());
       else if (this._previewStatus === a.PREVIEW_STATUS_REWARD)
         (this._r4eb39feb7f70c0._r342ef8f77cd3b9(),
           this.var_374.controller.send(
-            new _i9ca1638af6efb8(this._r4eb39feb7f70c0.collectionId, this.var_374.activeWallet),
+            new UnkMessageComposer_2args_9ca163(this._r4eb39feb7f70c0.collectionId, this.var_374.activeWallet),
           ),
           this.var_374._r036314013a3102());
       else return;
@@ -293,7 +293,7 @@ class a {
     for (let r of this._r4eb39feb7f70c0.items) {
       let t = e?.clone();
       if (t == null) continue;
-      let i = new _i00239fd41288f9(this.var_374.controller, r, t, this);
+      let i = new UnkAbstractCollectibleItemRendererSubclass_00239f(this.var_374.controller, r, t, this);
       (this.itemGrid?.addGridItem(t), this._r9cb5f682dfdc11.push(i));
     }
   }

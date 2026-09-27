@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 206940.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/UserListWidget.as
-// Nome offuscato: _i0d3f63d44477e7
+// Extracted from HabboAirLauncher.deobf.js, line 206940.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/UserListWidget.as
+// Obfuscated name: _i0d3f63d44477e7
 
 class {
   constructor(e) {
@@ -15,16 +15,16 @@ class {
   _r91b6429e3f5b48 = [0, 10, 5, 0, 5, 10, 0, 10, 5, 10];
   _r95f9b9f99240df = [];
   _rb630a7d997d50a = [
-    _i6c0c96c1d5cea5._r20a7fb2cb94dc0,
-    _i6c0c96c1d5cea5._r14fa2ce68e577a,
-    _i6c0c96c1d5cea5._r20a7fb2cb94dc0,
-    _i6c0c96c1d5cea5._r20a7fb2cb94dc0,
-    _i6c0c96c1d5cea5._r14fa2ce68e577a,
-    _i6c0c96c1d5cea5._r20a7fb2cb94dc0,
-    _i6c0c96c1d5cea5._r20a7fb2cb94dc0,
-    _i6c0c96c1d5cea5._r20a7fb2cb94dc0,
-    _i6c0c96c1d5cea5._r14fa2ce68e577a,
-    _i6c0c96c1d5cea5._r20a7fb2cb94dc0,
+    UnkConstants_6c0c96._r20a7fb2cb94dc0,
+    UnkConstants_6c0c96._r14fa2ce68e577a,
+    UnkConstants_6c0c96._r20a7fb2cb94dc0,
+    UnkConstants_6c0c96._r20a7fb2cb94dc0,
+    UnkConstants_6c0c96._r14fa2ce68e577a,
+    UnkConstants_6c0c96._r20a7fb2cb94dc0,
+    UnkConstants_6c0c96._r20a7fb2cb94dc0,
+    UnkConstants_6c0c96._r20a7fb2cb94dc0,
+    UnkConstants_6c0c96._r14fa2ce68e577a,
+    UnkConstants_6c0c96._r20a7fb2cb94dc0,
   ];
   get container() {
     return this._container;
@@ -108,7 +108,7 @@ class {
       s = this._r91b6429e3f5b48[r] ?? 0;
     ((e.y += s + 70),
       s < 0 && (e.height += -s),
-      i != null && (i.direction = this._rb630a7d997d50a[r] ?? _i6c0c96c1d5cea5._r20a7fb2cb94dc0));
+      i != null && (i.direction = this._rb630a7d997d50a[r] ?? UnkConstants_6c0c96._r20a7fb2cb94dc0));
     let o = e.findChildByName("extra_link_region");
     o != null && (o.y -= s);
   }

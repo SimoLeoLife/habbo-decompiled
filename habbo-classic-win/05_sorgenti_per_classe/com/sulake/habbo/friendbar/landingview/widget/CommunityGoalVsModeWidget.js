@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 207489.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/CommunityGoalVsModeWidget.as
-// Nome offuscato: _i77257fa6720e78
+// Extracted from HabboAirLauncher.deobf.js, line 207489.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/CommunityGoalVsModeWidget.as
+// Obfuscated name: _i77257fa6720e78
 
 class a extends Nz {
   static {

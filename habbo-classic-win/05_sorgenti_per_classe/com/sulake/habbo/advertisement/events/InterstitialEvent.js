@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158350.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/advertisement/events/InterstitialEvent.as
-// Nome offuscato: _i17ae80d02b1e0d
+// Extracted from HabboAirLauncher.deobf.js, line 158350.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/advertisement/events/InterstitialEvent.as
+// Obfuscated name: _i17ae80d02b1e0d
 
 class extends M {
   constructor(r, t = "", i = !1, s = !1) {

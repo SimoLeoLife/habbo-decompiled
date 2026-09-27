@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 256611.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/roomsettings/EnforceCategoryCtrl.as
-// Nome offuscato: _i7eab44859f4902
+// Extracted from HabboAirLauncher.deobf.js, line 256611.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/roomsettings/EnforceCategoryCtrl.as
+// Obfuscated name: _i7eab44859f4902
 
 class {
   constructor(e) {
@@ -53,7 +53,7 @@ class {
           let t = this._rcf1ca8d4fbf34d[Math.max(0, this._r4ec286ff6f66f4)] ?? null;
           (t != null &&
             this._navigator.communication.connection.send(
-              new _iea06b44be4f89a(this._navigator.data._ra9e7830c65d383, t.nodeId, this._r6dae881ca72323),
+              new class_2690(this._navigator.data._ra9e7830c65d383, t.nodeId, this._r6dae881ca72323),
             ),
             this.close());
         }

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 62490.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/hurlant/crypto/prng/ARC4.as
-// Nome offuscato: _i94ddee1971fa98
+// Extracted from HabboAirLauncher.deobf.js, line 62490.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/hurlant/crypto/prng/ARC4.as
+// Obfuscated name: _i94ddee1971fa98
 
 class {
   static {

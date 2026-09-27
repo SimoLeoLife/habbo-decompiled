@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 66398.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/motion/class_3272.as
-// Nome offuscato: _i43282b0b4b3ed0
+// Extracted from HabboAirLauncher.deobf.js, line 66398.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/motion/class_3272.as
+// Obfuscated name: _i43282b0b4b3ed0
 
 class a {
   static {
@@ -76,7 +76,7 @@ class a {
     return 1e3 / (e > 0 ? e : 60);
   }
   static _r34a80096cf5580() {
-    return (a.var_382 || (a.var_382 = new _i05394ecc0c0c4d(a._r0d0be63c64b69b(), 0)), a.var_382);
+    return (a.var_382 || (a.var_382 = new UnkEventDispatcherWrapperSubclass_05394e(a._r0d0be63c64b69b(), 0)), a.var_382);
   }
   static _r83f86b7296655b() {
     let e = a._r34a80096cf5580();

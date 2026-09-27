@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 336446.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/product/ProductDataParser.as
-// Nome offuscato: _ida43bde8bb5d5f
+// Extracted from HabboAirLauncher.deobf.js, line 336446.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/product/ProductDataParser.as
+// Obfuscated name: _ida43bde8bb5d5f
 
 class a extends Ft {
   constructor(r, t) {
@@ -19,7 +19,7 @@ class a extends Ft {
   requestData(r) {
     let t = this.URLRequest?.getAssetByName("productdata") ?? null;
     t != null && (this.URLRequest?.removeAsset(t) ?? null)?.dispose();
-    let i = this.URLRequest?.loadAssetFromFile("productdata", new _i636490202c0f9a(r), "text/plain") ?? null;
+    let i = this.URLRequest?.loadAssetFromFile("productdata", new UnkClass_636490(r), "text/plain") ?? null;
     i != null &&
       (i.addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._r8ffc183e74766c),
       i.addEventListener(Le.ASSET_LOADER_EVENT_ERROR, this._ra043558ac49c64));
@@ -85,7 +85,7 @@ class a extends Ft {
     for (let i of a.asArray(t.productdata?.product)) {
       let s = a._r2bb782be179832(i.code);
       s.length !== 0 &&
-        (this.var_438[s] = new _icdf87d94f6e96e(s, a._r2bb782be179832(i.name), a._r2bb782be179832(i.description)));
+        (this.var_438[s] = new UnkClass_cdf87d(s, a._r2bb782be179832(i.name), a._r2bb782be179832(i.description)));
     }
     return (this.dispatchEvent(new M(a.READY)), !0);
   }
@@ -99,7 +99,7 @@ class a extends Ft {
     if (t == null || this.var_438 == null) return !1;
     for (let i of a.getChildren(t, "product")) {
       let s = a.getAttribute(i, "code");
-      this.var_438[s] = new _icdf87d94f6e96e(
+      this.var_438[s] = new UnkClass_cdf87d(
         s,
         a._rd13735678592b7(i, "name"),
         a._rd13735678592b7(i, "description"),
@@ -117,7 +117,7 @@ class a extends Ft {
         let d = o.split(","),
           c = d.shift() ?? "",
           f = d.shift() ?? "";
-        this.var_438[c] = new _icdf87d94f6e96e(c, f);
+        this.var_438[c] = new UnkClass_cdf87d(c, f);
       }
     }
     this.dispatchEvent(new M(a.READY));

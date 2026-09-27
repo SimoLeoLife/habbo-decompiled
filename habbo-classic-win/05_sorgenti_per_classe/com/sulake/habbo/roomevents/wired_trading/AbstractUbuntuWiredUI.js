@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 355276.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/AbstractUbuntuWiredUI.as
-// Nome offuscato: _ie2256911de4c76
+// Extracted from HabboAirLauncher.deobf.js, line 355276.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/AbstractUbuntuWiredUI.as
+// Obfuscated name: _ie2256911de4c76
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 188547.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/bundlepurchaseinfodisplay/ExtraInfoListItem.as
-// Nome offuscato: _if637dccafabd48
+// Extracted from HabboAirLauncher.deobf.js, line 188547.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/bundlepurchaseinfodisplay/ExtraInfoListItem.as
+// Obfuscated name: _if637dccafabd48
 
 class a {
   constructor(e, r, t, i = a.ALIGN_TOP, s = !1) {

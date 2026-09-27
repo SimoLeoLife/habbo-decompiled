@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 345149.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/VerticalSplitterPreset.as
-// Nome offuscato: _i56fd4ebd3ffc7a
+// Extracted from HabboAirLauncher.deobf.js, line 345149.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/VerticalSplitterPreset.as
+// Obfuscated name: _i56fd4ebd3ffc7a
 
 class a extends WiredUIPreset {
   static {

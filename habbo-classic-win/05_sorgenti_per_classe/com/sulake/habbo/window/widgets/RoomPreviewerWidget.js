@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 151577.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/RoomPreviewerWidget.as
+// Extracted from HabboAirLauncher.deobf.js, line 151577.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/RoomPreviewerWidget.as
 
 class a {
   constructor(e, r) {
@@ -128,7 +128,7 @@ class a {
   }
   createAvatarImage(e) {
     if (e == null || this._r2e19863e2c683e == null) return;
-    let r = new _i3a5c6f457acdad();
+    let r = new UnkClass_3a5c6f();
     ((r.bitmapData = e), (r.scaleX = 2), (r.scaleY = 2), this._r2e19863e2c683e.setDisplayObject(r));
   }
   toString() {

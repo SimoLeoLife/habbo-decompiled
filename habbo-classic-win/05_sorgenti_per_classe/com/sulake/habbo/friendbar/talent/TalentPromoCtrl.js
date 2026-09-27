@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 210465.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/talent/TalentPromoCtrl.as
-// Nome offuscato: _i1ca738ed098a85
+// Extracted from HabboAirLauncher.deobf.js, line 210465.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/talent/TalentPromoCtrl.as
+// Obfuscated name: _i1ca738ed098a85
 
 class a {
   static {
@@ -50,7 +50,7 @@ class a {
       this.var_41?.toolbar?.extensionView?._rb18768cf275a26(ToolbarDisplayExtensionIds.TALENT_PROMO_EXTENSION_ID);
   }
   _r6e2e75987c854e(e) {
-    this.promotedTalentTrack !== "" && this.var_41?.send(new _if9facacd89b741(this.promotedTalentTrack));
+    this.promotedTalentTrack !== "" && this.var_41?.send(new UnkMessageComposer_1args_f9faca(this.promotedTalentTrack));
   }
   _r7c10075ba0f04b(e) {
     let r = ClassUtils.getParser(e, class_3928);

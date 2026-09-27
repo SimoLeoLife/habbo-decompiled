@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 201820.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/simulation/ChatBubbleSimulationWithLimitedWideRect.as
-// Nome offuscato: _i0686fd39d501f8
+// Extracted from HabboAirLauncher.deobf.js, line 201820.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/simulation/ChatBubbleSimulationWithLimitedWideRect.as
+// Obfuscated name: _i0686fd39d501f8
 
 class a extends c5 {
   static {

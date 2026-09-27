@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 277166.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/AvatarFurnitureVisualizationData.as
-// Nome offuscato: _i43c1376b8a0ee1
+// Extracted from HabboAirLauncher.deobf.js, line 277166.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/AvatarFurnitureVisualizationData.as
+// Obfuscated name: _i43c1376b8a0ee1
 
 class extends FurnitureVisualizationData {
   static {

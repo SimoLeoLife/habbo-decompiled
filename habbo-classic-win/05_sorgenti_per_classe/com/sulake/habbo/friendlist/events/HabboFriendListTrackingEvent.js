@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158606.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/events/HabboFriendListTrackingEvent.as
-// Nome offuscato: _i8de99593910eed
+// Extracted from HabboAirLauncher.deobf.js, line 158606.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/events/HabboFriendListTrackingEvent.as
+// Obfuscated name: _i8de99593910eed
 
 class {
   static {

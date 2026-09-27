@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 342157.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/CitizenshipVipQuestsPromoExtension.as
-// Nome offuscato: _i4b719a04aad1e9
+// Extracted from HabboAirLauncher.deobf.js, line 342157.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/CitizenshipVipQuestsPromoExtension.as
+// Obfuscated name: _i4b719a04aad1e9
 
 class {
   static {
@@ -63,7 +63,7 @@ class {
       (this._view = null));
   }
   onButtonClicked = n((e) => {
-    (this.var_36?.send(new _id3ca6e96fb5cb2(this._vipQuestsCampaignName)), this.destroyWindow());
+    (this.var_36?.send(new class_2922(this._vipQuestsCampaignName)), this.destroyWindow());
   }, "onButtonClicked");
   onMinMax = n((e) => {
     ((this._expanded = !this._expanded), this.assignState());

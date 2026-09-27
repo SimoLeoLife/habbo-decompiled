@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 362198.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/model/class_4348.as
-// Nome offuscato: _i9024f2460f2748
+// Extracted from HabboAirLauncher.deobf.js, line 362198.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/model/class_4348.as
+// Obfuscated name: _i9024f2460f2748
 
 class a {
   static {
@@ -37,8 +37,8 @@ class a {
       (this.sourceType = Ve.USER_SOURCE),
       (this.visibility < class_4330.ONLY_USER || this.visibility > class_4330.const_445) &&
         (this.visibility = class_4330.const_120),
-      (this._r09ab560170f112 < _ic0d82f49e1914d.ALWAYS || this._r09ab560170f112 > _ic0d82f49e1914d.NEVER) &&
-        (this._r09ab560170f112 = _ic0d82f49e1914d.ALWAYS),
+      (this._r09ab560170f112 < UnkConstants_c0d82f.ALWAYS || this._r09ab560170f112 > UnkConstants_c0d82f.NEVER) &&
+        (this._r09ab560170f112 = UnkConstants_c0d82f.ALWAYS),
       this.sourceType === Ve.var_64 &&
         this.visibility !== class_4330.name_11 &&
         this.visibility !== class_4330.const_445 &&
@@ -69,7 +69,7 @@ class a {
         this.rendererId,
         r.defaultRenderer,
       ).id),
-      this.categoryId === _i3b0b1a104db30e._r09950f0f2ac684)
+      this.categoryId === UnkClass_3b0b1a._r09950f0f2ac684)
     ) {
       ((this._r528f4963a1a948 = 0), (this._r5e470edbfdddac = 100));
       let t = VariableFxEditorMetadata._r15f8ad460b1ea3(r);
@@ -83,7 +83,7 @@ class a {
       (this.segments = a.clamp(this.segments, 0, 100)),
       VariableFxEditorMetadata.rendererSupportsSegments(this.segmentRendererId) || (this.segments = 0),
       (this.var_1226 =
-        this.categoryId === _i3b0b1a104db30e._r45eac009b1fbcb
+        this.categoryId === UnkClass_3b0b1a._r45eac009b1fbcb
           ? a.sanitizeIconAlignment(this.var_1226)
           : class_4355.const_27),
       this.icon == null && (this.icon = ""),
@@ -102,9 +102,9 @@ class a {
       o = a.copyExtra(r.extra);
     return (
       this.segments > 0 && o.setProperty("segments", this.segments),
-      this.categoryId === _i3b0b1a104db30e._r09950f0f2ac684
+      this.categoryId === UnkClass_3b0b1a._r09950f0f2ac684
         ? o.setProperty("sub_renderer", this._r57e125b612fc29)
-        : this.categoryId === _i3b0b1a104db30e._r45eac009b1fbcb &&
+        : this.categoryId === UnkClass_3b0b1a._r45eac009b1fbcb &&
           (this.icon.length > 0 && o.setProperty("icon", this.icon),
           o.setProperty("icon_alignment", a.iconAlignmentRuntimeValue(this.var_1226))),
       new G1(
@@ -123,7 +123,7 @@ class a {
     );
   }
   get segmentRendererId() {
-    return this.categoryId === _i3b0b1a104db30e._r09950f0f2ac684 && this.rendererId === class_2881.const_1180
+    return this.categoryId === UnkClass_3b0b1a._r09950f0f2ac684 && this.rendererId === class_2881.const_1180
       ? this._r57e125b612fc29
       : this.rendererId;
   }

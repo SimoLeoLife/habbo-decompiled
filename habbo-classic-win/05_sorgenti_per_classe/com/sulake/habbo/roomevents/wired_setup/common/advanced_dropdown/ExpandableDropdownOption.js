@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 354211.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/common/advanced_dropdown/ExpandableDropdownOption.as
-// Nome offuscato: _i09162108aba3ec
+// Extracted from HabboAirLauncher.deobf.js, line 354211.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/common/advanced_dropdown/ExpandableDropdownOption.as
+// Obfuscated name: _i09162108aba3ec
 
 class {
   constructor(e, r, t = !1) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 219653.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/gameobjects/SnowballPileGameObject.as
-// Nome offuscato: _i4ba81d678b4546
+// Extracted from HabboAirLauncher.deobf.js, line 219653.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/gameobjects/SnowballPileGameObject.as
+// Obfuscated name: _i4ba81d678b4546
 
 class a extends SnowballGivingGameObject {
   static {

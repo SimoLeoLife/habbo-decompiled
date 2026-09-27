@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 339916.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/nux/NuxNoobRoomOfferView.as
-// Nome offuscato: _i73d1d6187e7005
+// Extracted from HabboAirLauncher.deobf.js, line 339916.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/nux/NuxNoobRoomOfferView.as
+// Obfuscated name: _i73d1d6187e7005
 
 class {
   static {

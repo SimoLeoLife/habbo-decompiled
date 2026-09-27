@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 221582.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/utils/SnowWarAnimatedWindowElement.as
-// Nome offuscato: _i96e0e29f3f6515
+// Extracted from HabboAirLauncher.deobf.js, line 221582.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/utils/SnowWarAnimatedWindowElement.as
+// Obfuscated name: _i96e0e29f3f6515
 
 class {
   constructor(e, r, t, i, s = 100, o = !1) {
@@ -11,7 +11,7 @@ class {
       for (let d = i - 1; d > 1; d--)
         this._frames.push(e.getAssetByName(`${t}${d}`)?.content ?? new A(1, 1, !0, 0));
     (this.update(),
-      (this.var_382 = new _i05394ecc0c0c4d(s)),
+      (this.var_382 = new UnkEventDispatcherWrapperSubclass_05394e(s)),
       this.var_382.addEventListener(DeBouncer.addEventListener, this._ra94988f96f2fa9),
       this.var_382.start());
   }

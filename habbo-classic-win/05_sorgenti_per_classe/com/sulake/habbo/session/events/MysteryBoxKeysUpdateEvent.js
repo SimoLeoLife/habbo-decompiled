@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145259.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/MysteryBoxKeysUpdateEvent.as
-// Nome offuscato: _i8ba26a7a9b53fd
+// Extracted from HabboAirLauncher.deobf.js, line 145259.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/MysteryBoxKeysUpdateEvent.as
+// Obfuscated name: _i8ba26a7a9b53fd
 
 class a extends M {
   static {

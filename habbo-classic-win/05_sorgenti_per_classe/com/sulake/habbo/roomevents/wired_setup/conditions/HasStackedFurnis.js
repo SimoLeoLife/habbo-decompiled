@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 366629.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/HasStackedFurnis.as
-// Nome offuscato: _i6f5db4eff2cabc
+// Extracted from HabboAirLauncher.deobf.js, line 366629.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/HasStackedFurnis.as
+// Obfuscated name: _i6f5db4eff2cabc
 
 class extends DefaultConditionType {
   static {

@@ -1,12 +1,12 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 82564.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/data/class_2604.as
-// Nome offuscato: _ifa4fa14c1c9ab8
+// Extracted from HabboAirLauncher.deobf.js, line 82564.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/data/class_2604.as
+// Obfuscated name: _ifa4fa14c1c9ab8
 
 class a extends class_1944 {
   static {
     n(this, "class_2604");
   }
-  static FORMAT_KEY = _iae7a134fea2fc8._r3c684e808ca07e;
+  static FORMAT_KEY = UnkConstants_ae7a13._r3c684e808ca07e;
   static INTERNAL_STATE_KEY = "s";
   static INTERNAL_RESULT_KEY = "r";
   _state = "";

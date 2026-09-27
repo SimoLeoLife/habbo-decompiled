@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 205956.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/GroupForumController.as
-// Nome offuscato: _i4f770b8c4065c9
+// Extracted from HabboAirLauncher.deobf.js, line 205956.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/GroupForumController.as
+// Obfuscated name: _i4f770b8c4065c9
 
 class a extends ue {
   static {
@@ -155,7 +155,7 @@ class a extends ue {
     let i = Number(r[2]),
       s = r.length > 3 ? Number(r[3]) : 0;
     (this._rb8c52fe0d37d3f(t),
-      this._r6358b2bd53ae19.connection.send(new _i10b537753bd456(t, i)),
+      this._r6358b2bd53ae19.connection.send(new UnkMessageComposer_2args_10b537(t, i)),
       this._r5769194d7bf27e(t, i, s));
   }
   openGroupForum(e) {
@@ -165,13 +165,13 @@ class a extends ue {
     (this._r16a5244344407b(),
       (this._reabd61168b287c = e),
       (this._r6d081f73e8cc24 = a._r7321e5b6409ed3),
-      this._r6358b2bd53ae19?.connection.send(new _i69d2f563614870(e, r, ThreadsListData.PAGE_SIZE)));
+      this._r6358b2bd53ae19?.connection.send(new UnkMessageComposer_3args_69d2f5(e, r, ThreadsListData.PAGE_SIZE)));
   }
   _rf4a83de1ff14f8(e, r) {
-    this._r6358b2bd53ae19?.connection.send(new _i0b97a25d7308cb(e, r, ThreadsListData.PAGE_SIZE));
+    this._r6358b2bd53ae19?.connection.send(new UnkMessageComposer_3args_0b97a2(e, r, ThreadsListData.PAGE_SIZE));
   }
   _r169616a7b5d3ec(e, r, t) {
-    this._r6358b2bd53ae19?.connection.send(new _i0a24f78b563654(e, r, t, ThreadsListData.PAGE_SIZE));
+    this._r6358b2bd53ae19?.connection.send(new UnkMessageComposer_4args_0a24f7(e, r, t, ThreadsListData.PAGE_SIZE));
   }
   updateForumSettings(e, r, t, i, s) {
     this._r6358b2bd53ae19?.connection.send(new class_2576(e, r, t, i, s));
@@ -189,16 +189,16 @@ class a extends ue {
     let t = null;
     (e.canPostMessage && (t = class_2751.HIDDEN_BY_ADMIN),
       e.canModerate && (t = class_2751.PERMANENTLY_HIDDEN_BY_MOD),
-      t != null && this._r6358b2bd53ae19.connection.send(new _i1d41947217e2e8(e.groupId, r, t)));
+      t != null && this._r6358b2bd53ae19.connection.send(new class_2638(e.groupId, r, t)));
   }
   _r17f63c425d036f(e, r) {
-    this._r6358b2bd53ae19?.connection.send(new _i1d41947217e2e8(e.groupId, r, class_2751.RESTORED_BY_ADMIN));
+    this._r6358b2bd53ae19?.connection.send(new class_2638(e.groupId, r, class_2751.RESTORED_BY_ADMIN));
   }
   _r96c49a5cd47203(e, r, t, i) {
-    this._r6358b2bd53ae19?.connection.send(new _i0a423addb7de1c(e.groupId, r, t, i));
+    this._r6358b2bd53ae19?.connection.send(new UnkMessageComposer_4args_0a423a(e.groupId, r, t, i));
   }
   _r1b67803b29b316(e, r, t, i) {
-    this._r6358b2bd53ae19?.connection.send(new _i0a423addb7de1c(e.groupId, r, t, i));
+    this._r6358b2bd53ae19?.connection.send(new UnkMessageComposer_4args_0a423a(e.groupId, r, t, i));
   }
   _rb1c939952cd277(e, r) {
     this._r38069d7f74fd46?._rb1c939952cd277(e.groupId, r);
@@ -207,10 +207,10 @@ class a extends ue {
     if (this._r6358b2bd53ae19 == null) return;
     let i = class_2751.HIDDEN_BY_ADMIN;
     (e.canModerate && (i = class_2751.PERMANENTLY_HIDDEN_BY_MOD),
-      this._r6358b2bd53ae19.connection.send(new _ieb224a67b9cea6(this.var_95.groupId, r, t, i)));
+      this._r6358b2bd53ae19.connection.send(new UnkMessageComposer_4args_eb224a(this.var_95.groupId, r, t, i)));
   }
   _r2b2df88dfa92f8(e, r, t) {
-    this._r6358b2bd53ae19?.connection.send(new _ieb224a67b9cea6(e.groupId, r, t, class_2751.RESTORED_BY_ADMIN));
+    this._r6358b2bd53ae19?.connection.send(new UnkMessageComposer_4args_eb224a(e.groupId, r, t, class_2751.RESTORED_BY_ADMIN));
   }
   _r699ed42ce6865d(e, r, t) {
     this._r38069d7f74fd46?._r699ed42ce6865d(e.groupId, r, t);
@@ -236,7 +236,7 @@ class a extends ue {
       this.var_95 != null &&
       (e || this._re1448e1c333322 > this.var_95.lastReadMessageId)
     ) {
-      let r = new _iec9d12f8b70e1c();
+      let r = new UnkMessageComposer_0args_ec9d12();
       (e
         ? r.add(
             this.var_95.groupId,
@@ -250,7 +250,7 @@ class a extends ue {
   }
   _r199efd2c1fbc47() {
     if (this._r6358b2bd53ae19 == null || this._r95a89204800661 == null) return;
-    let e = new _iec9d12f8b70e1c();
+    let e = new UnkMessageComposer_0args_ec9d12();
     for (let r of this._r95a89204800661.forums)
       r.unreadMessages > 0 && e.add(r.groupId, r.totalMessages, !0);
     e.size > 0 && (this._r6358b2bd53ae19.connection.send(e), this.updateUnreadForumsCount(0));
@@ -288,7 +288,7 @@ class a extends ue {
   }
   startPollingForUnreadForumsCount() {
     let e = this._configurationManager.getInteger("groupforum.poll.period", 300);
-    ((this._r6ba59e87f419e4 = new _i05394ecc0c0c4d(e * 1e3, 0)),
+    ((this._r6ba59e87f419e4 = new UnkEventDispatcherWrapperSubclass_05394e(e * 1e3, 0)),
       (this._r7d56e0e082f0a3 = () => this._rb69622c096c04d()),
       this._r6ba59e87f419e4.addEventListener(DeBouncer.addEventListener, this._r7d56e0e082f0a3),
       this._r6ba59e87f419e4.start(),
@@ -299,7 +299,7 @@ class a extends ue {
       (this._reabd61168b287c = a._r7321e5b6409ed3),
       (this._r6d081f73e8cc24 = e),
       (this._re1448e1c333322 = 0),
-      this._r6358b2bd53ae19?.connection.send(new _i2323035bb96b14(e)));
+      this._r6358b2bd53ae19?.connection.send(new UnkMessageComposer_1args_232303(e)));
   }
   _r802d5052161096 = n((e) => {
     let r = e.getParser(),
@@ -444,8 +444,8 @@ class a extends ue {
   _rb69622c096c04d = n(() => {
     this._r6358b2bd53ae19 != null &&
       (this.var_157 != null
-        ? this._r6358b2bd53ae19.connection.send(new _i69d2f563614870(a.FORUMS_LIST_CODE_MY_FORUMS, 0, ThreadsListData.PAGE_SIZE))
-        : this._r6358b2bd53ae19.connection.send(new _i36053fecbbe29a()));
+        ? this._r6358b2bd53ae19.connection.send(new UnkMessageComposer_3args_69d2f5(a.FORUMS_LIST_CODE_MY_FORUMS, 0, ThreadsListData.PAGE_SIZE))
+        : this._r6358b2bd53ae19.connection.send(new UnkMessageComposer_0args_36053f()));
   }, "_rb69622c096c04d");
   _r31607d601e6f57 = n((e) => {
     this.updateUnreadForumsCount(e.getParser()._r2599717433efcc);

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161587.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetDimmerSavePresetMessage.as
-// Nome offuscato: _ida1d376bc23f37
+// Extracted from HabboAirLauncher.deobf.js, line 161587.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetDimmerSavePresetMessage.as
+// Obfuscated name: _ida1d376bc23f37
 
 class a extends RoomWidgetMessage {
   static {

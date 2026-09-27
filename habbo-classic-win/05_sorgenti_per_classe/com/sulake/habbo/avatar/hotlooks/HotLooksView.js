@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 163805.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/hotlooks/HotLooksView.as
-// Nome offuscato: _ia96e1dde56a061
+// Extracted from HabboAirLauncher.deobf.js, line 163805.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/hotlooks/HotLooksView.as
+// Obfuscated name: _ia96e1dde56a061
 
 class {
   static {

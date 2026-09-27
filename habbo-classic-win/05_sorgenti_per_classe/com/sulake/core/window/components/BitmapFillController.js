@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 131242.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/BitmapFillController.as
-// Nome offuscato: _i8b0919275ce546
+// Extracted from HabboAirLauncher.deobf.js, line 131242.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/BitmapFillController.as
+// Obfuscated name: _i8b0919275ce546
 
 class a extends StaticBitmapWrapperController {
   static {

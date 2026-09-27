@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 134769.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/services/WindowToolTipAgent.as
-// Nome offuscato: _i88e4658aa09095
+// Extracted from HabboAirLauncher.deobf.js, line 134769.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/services/WindowToolTipAgent.as
+// Obfuscated name: _i88e4658aa09095
 
 class extends WindowMouseOperator {
   static {
@@ -60,7 +60,7 @@ class extends WindowMouseOperator {
         (this._re66073e9e7a15e.y = this._rf8f9fc25599fa4.mouseY),
         this.getMousePositionRelativeTo(e, this._re66073e9e7a15e, this.var_2437),
         this.var_744 === null &&
-          ((this.var_744 = new _i05394ecc0c0c4d(this.var_2281, 1)),
+          ((this.var_744 = new UnkEventDispatcherWrapperSubclass_05394e(this.var_2281, 1)),
           this.var_744.addEventListener(DeBouncer.addEventListener, this.showToolTip)),
         this.var_744.reset(),
         this.var_744.start()),

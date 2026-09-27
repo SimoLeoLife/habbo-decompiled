@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 315815.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/contextmenu/PurchasableClothingConfirmationView.as
-// Nome offuscato: _i5388f65d6e31c9
+// Extracted from HabboAirLauncher.deobf.js, line 315815.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/contextmenu/PurchasableClothingConfirmationView.as
+// Obfuscated name: _i5388f65d6e31c9
 
 class a {
   constructor(e) {
@@ -66,7 +66,7 @@ class a {
       ))
     ) {
       this.var_17.handler.container.connection?.send(
-        new _i4a93efd1b68d0b(
+        new UnkMessageComposer_2args_4a93ef(
           this._newFigureString,
           this.var_17.handler.container.sessionDataManager?.gender ?? "",
         ),

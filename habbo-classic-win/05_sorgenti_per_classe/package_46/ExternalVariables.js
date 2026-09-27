@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 65362.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_46/ExternalVariables.as
-// Nome offuscato: _if3ef17ac8dcf90
+// Extracted from HabboAirLauncher.deobf.js, line 65362.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_46/ExternalVariables.as
+// Obfuscated name: _if3ef17ac8dcf90
 
 class {
   static {

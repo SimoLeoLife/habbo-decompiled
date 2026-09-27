@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 234646.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/badges/BadgeGridView.as
-// Nome offuscato: _i40358324654c2d
+// Extracted from HabboAirLauncher.deobf.js, line 234646.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/badges/BadgeGridView.as
+// Obfuscated name: _i40358324654c2d
 
 class a {
   constructor(e, r, t) {

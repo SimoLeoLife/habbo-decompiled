@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 213682.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/HabboFriendBar.as
-// Nome offuscato: _i991c91b29ccdc8
+// Extracted from HabboAirLauncher.deobf.js, line 213682.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/HabboFriendBar.as
+// Obfuscated name: _i991c91b29ccdc8
 
 class extends ue {
   static {
@@ -12,8 +12,8 @@ class extends ue {
       e.attachComponent(new $9e(e, 0, t), [new IIDHabboFriendBarView()]),
       e.attachComponent(new HabboLandingView(e, 0, t), [new IIDHabboLandingView()]),
       e.attachComponent(new HabboTalent(e, 0, t), [new IIDHabboTalent()]),
-      e.attachComponent(new HabboEpicPopupView(e, 0, t), [new _i27c389c329e120()]),
-      e.attachComponent(new z2e(e, 0, t), [new _i690e38c7db2c45()]));
+      e.attachComponent(new HabboEpicPopupView(e, 0, t), [new UnkInterface_27c389()]),
+      e.attachComponent(new z2e(e, 0, t), [new UnkInterface_690e38()]));
   }
   set visible(e) {
     let r = this.queueInterface(new IIDHabboFriendBarView());

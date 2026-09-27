@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 132904.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/DropListItemController.as
-// Nome offuscato: _i8e84a85ff1fa7a
+// Extracted from HabboAirLauncher.deobf.js, line 132904.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/DropListItemController.as
+// Obfuscated name: _i8e84a85ff1fa7a
 
 class extends ContainerButtonController {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 225559.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/GroupCreatedWindowCtrl.as
-// Nome offuscato: _i10de3d6b342844
+// Extracted from HabboAirLauncher.deobf.js, line 225559.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/GroupCreatedWindowCtrl.as
+// Obfuscated name: _i10de3d6b342844
 
 class {
   static {
@@ -36,6 +36,6 @@ class {
         this._window.center()));
   }
   onClose = n((e, r) => {
-    e.type === u.CLICK && (this.close(), this.var_41?.send(new _i494540f04bf21d(this._groupId, !1)));
+    e.type === u.CLICK && (this.close(), this.var_41?.send(new class_1949(this._groupId, !1)));
   }, "onClose");
 }

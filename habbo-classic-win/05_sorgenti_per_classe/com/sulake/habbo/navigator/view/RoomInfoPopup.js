@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 259679.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/view/RoomInfoPopup.as
-// Nome offuscato: _i5eb52478b5589e
+// Extracted from HabboAirLauncher.deobf.js, line 259679.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/view/RoomInfoPopup.as
+// Obfuscated name: _i5eb52478b5589e
 
 class {
   static {
@@ -291,11 +291,11 @@ class {
       !this._window ||
       (this._r676f5528dffdec
         ? (this._navigator.communication.connection.send(
-            new _i9aee4cde0d1471(this.var_55.flatId),
+            new UnkMessageComposer_1args_9aee4c(this.var_55.flatId),
           ),
           (this._r676f5528dffdec = !1))
         : (this._navigator.communication.connection.send(
-            new _i155badb9742492(this.var_55.flatId),
+            new UnkMessageComposer_1args_155bad(this.var_55.flatId),
           ),
           (this._r676f5528dffdec = !0)),
       (this._r2d49dcb9e13606("favorite_icon").assetUri =
@@ -306,7 +306,7 @@ class {
       !this.var_55 ||
       !this._window ||
       (this._r7b3573a83666c5 ||
-        (this._navigator.communication.connection.send(new _i25b16c52c60064(this.var_55.flatId)),
+        (this._navigator.communication.connection.send(new UnkMessageComposer_1args_25b16c(this.var_55.flatId)),
         (this._r7b3573a83666c5 = !0)),
       (this._r2d49dcb9e13606("home_icon").assetUri =
         `newnavigator_icon_home_${this._r7b3573a83666c5 ? "yes" : "no"}`));

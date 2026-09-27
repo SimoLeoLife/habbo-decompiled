@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 69426.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/animation/Juggler.as
-// Nome offuscato: _i1b22f88ecd0b88
+// Extracted from HabboAirLauncher.deobf.js, line 69426.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/animation/Juggler.as
+// Obfuscated name: _i1b22f88ecd0b88
 
 class a {
   static {

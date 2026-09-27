@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 251631.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/ClubPromoAlertView.as
+// Extracted from HabboAirLauncher.deobf.js, line 251631.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/ClubPromoAlertView.as
 
 class extends Zm {
   constructor(r, t, i, s) {

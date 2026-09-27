@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 342672.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/PurseAreaExtension.as
-// Nome offuscato: _id57b9e7142e781
+// Extracted from HabboAirLauncher.deobf.js, line 342672.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/PurseAreaExtension.as
+// Obfuscated name: _id57b9e7142e781
 
 class a {
   static {

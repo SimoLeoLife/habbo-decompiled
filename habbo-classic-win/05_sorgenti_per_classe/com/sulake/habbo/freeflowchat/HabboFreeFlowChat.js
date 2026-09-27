@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 203852.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/HabboFreeFlowChat.as
-// Nome offuscato: _ic7e06ddd04f428
+// Extracted from HabboAirLauncher.deobf.js, line 203852.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/HabboFreeFlowChat.as
+// Obfuscated name: _ic7e06ddd04f428
 
 class a extends ue {
   static {
@@ -112,7 +112,7 @@ class a extends ue {
     ]);
   }
   initComponent() {
-    (this._communication?._r2e106e2349a0b6(new _i2c7b489ce44a85((e) => this._r773ce30a57f0a5(e))),
+    (this._communication?._r2e106e2349a0b6(new UnkMessageEvent_class_2880((e) => this._r773ce30a57f0a5(e))),
       this._communication?._r2e106e2349a0b6(new class_2117((e) => this.onRoomEnter(e))),
       this._communication?._r2e106e2349a0b6(new class_2027((e) => this._r0eea1a74d208c9(e))),
       this._communication?._r2e106e2349a0b6(new class_2084((e) => this._r5eb6956567f062(e))),
@@ -297,14 +297,14 @@ class a extends ue {
   }
   set _rd00b498733a8a7(e) {
     ((this.var_2068 = e),
-      this._communication?.connection.send(new _i555ac0097e7881(this.var_2068, this._r013c08b1437d5f)));
+      this._communication?.connection.send(new UnkMessageComposer_2args_555ac0(this.var_2068, this._r013c08b1437d5f)));
   }
   get _re247be6bfa9ecb() {
     return this._r013c08b1437d5f;
   }
   set _re247be6bfa9ecb(e) {
     ((this._r013c08b1437d5f = this._reb4fdc017a9b30(e)),
-      this._communication?.connection.send(new _i555ac0097e7881(this.var_2068, this._r013c08b1437d5f)));
+      this._communication?.connection.send(new UnkMessageComposer_2args_555ac0(this.var_2068, this._r013c08b1437d5f)));
   }
   get _r1209c95b94b7ec() {
     return this._chatMode;
@@ -366,7 +366,7 @@ class a extends ue {
   }
   sendChatPreferences() {
     this._communication?.connection.send(
-      new _if09c5ad91a1823(this._chatMode, this._chatBubbleWidth, this.var_1330),
+      new UnkMessageComposer_3args_f09c5a(this._chatMode, this._chatBubbleWidth, this.var_1330),
     );
   }
   sanitizeChatMode(e) {
@@ -442,7 +442,7 @@ class a extends ue {
       !r && this._rfec1d3671b0e8d
         ? ((this._rdb11f2cdb9a585 = new D2e(this)),
           (this._r3d6c0e226ef51d = new C2e(this)),
-          (this._r38cae2631006a0 = new _i2ff19c5d0969b6(this)),
+          (this._r38cae2631006a0 = new UnkClass_2ff19c(this)),
           (this._rcd84d0c43efd54 = new M2e(this)),
           this._ra34ffd8c2126ff && this._r0ff913ec7096db())
         : r &&

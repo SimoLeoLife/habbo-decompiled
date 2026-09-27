@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 313072.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/controller/CraftingGridControllerBase.as
-// Nome offuscato: _if37f59f47bfab8
+// Extracted from HabboAirLauncher.deobf.js, line 313072.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/crafting/controller/CraftingGridControllerBase.as
+// Obfuscated name: _if37f59f47bfab8
 
 class {
   constructor(e) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 342925.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/settings/OtherSettingsView.as
-// Nome offuscato: _i4c372bcdde2472
+// Extracted from HabboAirLauncher.deobf.js, line 342925.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/settings/OtherSettingsView.as
+// Obfuscated name: _i4c372bcdde2472
 
 class {
   static {
@@ -80,12 +80,12 @@ class {
       l = this._window.findChildByName("btn_reset_phone_number_collection");
     l != null && (l.visible = f);
     let b = this._window.findChildByName("graphics_settings");
-    (b != null && (b.visible = _if28e28c93a63c8.host != null),
-      _if28e28c93a63c8.host != null &&
+    (b != null && (b.visible = UnkClass_f28e28.host != null),
+      UnkClass_f28e28.host != null &&
         ((this._r4217385c122fb9 = this._window.findChildByName("graphics_renderer")),
         this._r4217385c122fb9?.populate(["WebGL", "WebGPU"]),
         this._r4217385c122fb9 != null &&
-          ((this._r4217385c122fb9.selection = _if28e28c93a63c8.host.preference === "webgpu" ? 1 : 0),
+          ((this._r4217385c122fb9.selection = UnkClass_f28e28.host.preference === "webgpu" ? 1 : 0),
           this._r4217385c122fb9.addEventListener(y.const_238, this._rf83d558325619f)),
         (this._window.findChildByName("graphics_renderer_label").caption = this.localize(
           "memenu.settings.graphics.renderer",
@@ -117,7 +117,7 @@ class {
     this._rea86f930f2ca32();
   }, "_rf83d558325619f");
   _rea86f930f2ca32() {
-    let e = _if28e28c93a63c8.host;
+    let e = UnkClass_f28e28.host;
     if (e == null || this._window == null) return;
     let r = this._r4217385c122fb9?.selection,
       i = (r === 0 || r === 1) && (r === 1 ? "webgpu" : "webgl") !== e.preference,
@@ -135,7 +135,7 @@ class {
     let r = this._r53f292ec37c45a?.selection ?? -1;
     r < class_2191.const_120 ||
       (this._toolbar?.messenger?._r886f5f3217a046(r),
-      this._toolbar?.connection?.send(new _ifcfff33b14b31b(r)));
+      this._toolbar?.connection?.send(new UnkMessageComposer_1args_fcfff3(r)));
   }, "_r43cd00ff835ac3");
   onButtonClicked = n((e, r) => {
     if (!(e.type !== u.CLICK || this._toolbar == null || this._window == null))
@@ -143,7 +143,7 @@ class {
         case "graphics_renderer_apply": {
           let t = this._r4217385c122fb9?.selection;
           if (t !== 0 && t !== 1) break;
-          let i = _if28e28c93a63c8.host,
+          let i = UnkClass_f28e28.host,
             s = t === 1 ? "webgpu" : "webgl";
           i != null &&
             s !== i.preference &&
@@ -163,7 +163,7 @@ class {
             let t = this._window.findChildByName("ignore_room_invites_checkbox")?.isSelected ?? !1;
             (this._toolbar.messenger._r4f6b546b4abacd(t),
               this._toolbar.connection?.send(
-                new _i3328024d70ceb5(this._toolbar.messenger._r9cbce3346eb027()),
+                new UnkMessageComposer_1args_332802(this._toolbar.messenger._r9cbce3346eb027()),
               ));
           }
           break;
@@ -175,14 +175,14 @@ class {
         case "disable_room_camera_follow_checkbox": {
           let t =
             this._window.findChildByName("disable_room_camera_follow_checkbox")?.isSelected ?? !1;
-          (this._toolbar.connection?.send(new _i0dc938c014aed7(t)),
+          (this._toolbar.connection?.send(new UnkMessageComposer_1args_0dc938(t)),
             this._toolbar.sessionDataManager?.setRoomCameraFollowDisabled(t));
           break;
         }
         case "btn_reset_phone_number_collection":
           ((this._window.findChildByName("btn_reset_phone_number_collection").visible = !1),
             this._r751258d83e0205(),
-            this._toolbar.connection?.send(new _ib7700ceb78cad6()));
+            this._toolbar.connection?.send(new class_2946()));
           break;
       }
   }, "onButtonClicked");

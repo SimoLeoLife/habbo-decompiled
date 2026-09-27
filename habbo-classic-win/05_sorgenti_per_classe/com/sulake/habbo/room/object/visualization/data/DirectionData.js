@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 275899.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/data/DirectionData.as
-// Nome offuscato: _i005445f9600522
+// Extracted from HabboAirLauncher.deobf.js, line 275899.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/data/DirectionData.as
+// Obfuscated name: _i005445f9600522
 
 class {
   static {

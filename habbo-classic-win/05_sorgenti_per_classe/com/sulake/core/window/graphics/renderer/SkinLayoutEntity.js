@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 137410.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/SkinLayoutEntity.as
-// Nome offuscato: _i40d16acb24349e
+// Extracted from HabboAirLauncher.deobf.js, line 137410.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/SkinLayoutEntity.as
+// Obfuscated name: _i40d16acb24349e
 
 class a {
   static {

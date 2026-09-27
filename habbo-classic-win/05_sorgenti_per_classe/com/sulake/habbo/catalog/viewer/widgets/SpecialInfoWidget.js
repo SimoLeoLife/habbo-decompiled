@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 195464.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/SpecialInfoWidget.as
-// Nome offuscato: _i6714d114740f39
+// Extracted from HabboAirLauncher.deobf.js, line 195464.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/SpecialInfoWidget.as
+// Obfuscated name: _i6714d114740f39
 
 class extends CatalogWidget {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 181571.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/messages/RoomObjectRoomColorUpdateMessage.as
-// Nome offuscato: _ib36abe10a75890
+// Extracted from HabboAirLauncher.deobf.js, line 181571.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/messages/RoomObjectRoomColorUpdateMessage.as
+// Obfuscated name: _ib36abe10a75890
 
 class extends RoomObjectUpdateMessage {
   constructor(r, t, i, s) {

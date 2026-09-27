@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 159198.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionDimmerPresetsEvent.as
-// Nome offuscato: _ifa4be023e1e580
+// Extracted from HabboAirLauncher.deobf.js, line 159198.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionDimmerPresetsEvent.as
+// Obfuscated name: _ifa4be023e1e580
 
 class extends RoomSessionEvent {
   static {

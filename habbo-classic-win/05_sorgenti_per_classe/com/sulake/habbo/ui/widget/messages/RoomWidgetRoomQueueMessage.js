@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161976.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetRoomQueueMessage.as
-// Nome offuscato: _ia849bdd29634a2
+// Extracted from HabboAirLauncher.deobf.js, line 161976.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetRoomQueueMessage.as
+// Obfuscated name: _ia849bdd29634a2
 
 class extends RoomWidgetMessage {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 312039.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chatinput/RoomChatInputWidget.as
-// Nome offuscato: _i5377b64960d6f9
+// Extracted from HabboAirLauncher.deobf.js, line 312039.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chatinput/RoomChatInputWidget.as
+// Obfuscated name: _i5377b64960d6f9
 
 class a extends RoomWidgetBase {
   static {
@@ -131,7 +131,7 @@ class a extends RoomWidgetBase {
     ((this._re31d82644eb0a6 = !0),
       this._r6d467da79f585f != null
         ? this._r6d467da79f585f.reset()
-        : ((this._r6d467da79f585f = new _i05394ecc0c0c4d(1e3, e.seconds)),
+        : ((this._r6d467da79f585f = new UnkEventDispatcherWrapperSubclass_05394e(1e3, e.seconds)),
           this._r6d467da79f585f.addEventListener(DeBouncer.addEventListener, this._r5dea2cc838e9eb),
           this._r6d467da79f585f.addEventListener(DeBouncer._rf33144eac61595, this._rf9e12bf0621d32)),
       this._r6d467da79f585f.start(),

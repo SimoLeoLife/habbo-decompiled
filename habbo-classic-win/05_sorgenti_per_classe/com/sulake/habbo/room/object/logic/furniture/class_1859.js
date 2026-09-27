@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 298917.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/class_1859.as
-// Nome offuscato: _i6bdf21f5c55b93
+// Extracted from HabboAirLauncher.deobf.js, line 298917.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/class_1859.as
+// Obfuscated name: _i6bdf21f5c55b93
 
 class extends Qr {
   static {
@@ -11,7 +11,7 @@ class extends Qr {
   }
   processUpdateMessage(e) {
     super.processUpdateMessage(e);
-    let r = e instanceof _i39f7ecd6ab9902 ? e : null,
+    let r = e instanceof UnkRoomObjectUpdateMessageSubclass_39f7ec ? e : null,
       t = r?.data instanceof ao ? r.data : null;
     t != null && this.updateBadge(t.getValue(1));
     let i = e instanceof RoomObjectGroupBadgeUpdateMessage ? e : null;
@@ -24,7 +24,7 @@ class extends Qr {
   }
   mouseEvent(e, r) {
     if (!(e == null || r == null || this.object == null)) {
-      if (e.type === _ifd7c1208e3417e.DOUBLE_CLICK) {
+      if (e.type === UnkClass_fd7c12.DOUBLE_CLICK) {
         this._rce2b5eb85a79e0();
         return;
       }

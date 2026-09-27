@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 176007.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/tabs/RewardClaimsTab.as
-// Nome offuscato: _i6d7b308f6e9949
+// Extracted from HabboAirLauncher.deobf.js, line 176007.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/tabs/RewardClaimsTab.as
+// Obfuscated name: _i6d7b308f6e9949
 
 class {
   constructor(e, r) {
@@ -64,7 +64,7 @@ class {
       (this.var_2608 = null));
   }
   _r7a5132a0911745() {
-    this._messageEvents = [new _i88cbf57ca7400f(this._reb062476575fa6), new _i977235da9592f3(this._rb9099246ec420b)];
+    this._messageEvents = [new UnkMessageEvent_88cbf5(this._reb062476575fa6), new UnkMessageEvent_977235(this._rb9099246ec420b)];
     for (let e of this._messageEvents) this.var_195.addMessageEvent(e);
   }
   _r54966bbf2a1f1c(e) {
@@ -80,7 +80,7 @@ class {
   _r59a555ac14a735() {
     if (this._rea3cad2cf6cdcf || this._r5d232577329abc.length === 0) return;
     let e = this._r5d232577329abc.shift() ?? null;
-    e != null && (this.var_195.send(new _ic6e7fb9dd87740(e)), (this._rea3cad2cf6cdcf = !0));
+    e != null && (this.var_195.send(new class_3508(e)), (this._rea3cad2cf6cdcf = !0));
   }
   _r009379f0031716() {
     let e = (this._reac17eb647de08?.numListItems ?? 0) > 0,
@@ -90,11 +90,11 @@ class {
   onClaimClicked = n((e) => {
     (this.claimButton?.disable(),
       (this._r58f6ff4638c06b = !0),
-      this.var_195.send(new _i3be8d874c5a05e()),
+      this.var_195.send(new class_2774()),
       this.setPlaceholder(!1));
   }, "onClaimClicked");
   _reb062476575fa6 = n((e) => {
-    let r = ClassUtils.getParser(e, _ib647471e66bb8b);
+    let r = ClassUtils.getParser(e, UnkMessageParser_I_b64747);
     if (r != null) {
       for (let t of r?._reb1781c553920a ?? [])
         t.claimedAmount < t.claimLimit && this.createRewardItem(t);
@@ -107,7 +107,7 @@ class {
     }
   }, "_reb062476575fa6");
   _rb9099246ec420b = n((e) => {
-    let r = ClassUtils.getParser(e, _i9b580059905140);
+    let r = ClassUtils.getParser(e, UnkMessageParser_H_9b5800);
     r != null &&
       (this.var_195.notifications.addItem(
         r?.success

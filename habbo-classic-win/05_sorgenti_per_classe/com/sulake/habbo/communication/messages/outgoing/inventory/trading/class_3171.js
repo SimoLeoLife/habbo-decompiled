@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 118004.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/outgoing/inventory/trading/class_3171.as
-// Nome offuscato: _id15ef5b6055a58
+// Extracted from HabboAirLauncher.deobf.js, line 118004.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/outgoing/inventory/trading/class_3171.as
+// Obfuscated name: _id15ef5b6055a58
 
 class {
     static {

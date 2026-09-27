@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 50731.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/events/EventListenerStruct.as
-// Nome offuscato: _i8c1cad61acb86a
+// Extracted from HabboAirLauncher.deobf.js, line 50731.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/events/EventListenerStruct.as
+// Obfuscated name: _i8c1cad61acb86a
 
 class {
   static {

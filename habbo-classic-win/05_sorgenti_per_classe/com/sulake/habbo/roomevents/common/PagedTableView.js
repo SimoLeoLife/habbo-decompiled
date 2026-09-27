@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 358337.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/common/PagedTableView.as
-// Nome offuscato: _ia7f76a0064569b
+// Extracted from HabboAirLauncher.deobf.js, line 358337.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/common/PagedTableView.as
+// Obfuscated name: _ia7f76a0064569b
 
 class a {
   static {

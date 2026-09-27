@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 324287.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/playlisteditor/MusicInventoryGridView.as
-// Nome offuscato: _ie1bbcfedb4dfd3
+// Extracted from HabboAirLauncher.deobf.js, line 324287.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/playlisteditor/MusicInventoryGridView.as
+// Obfuscated name: _ie1bbcfedb4dfd3
 
 class {
   constructor(e, r, t) {

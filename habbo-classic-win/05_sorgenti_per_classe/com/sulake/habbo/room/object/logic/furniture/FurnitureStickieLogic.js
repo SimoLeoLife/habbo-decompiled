@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 300857.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureStickieLogic.as
-// Nome offuscato: _ifa5875e1aa7e01
+// Extracted from HabboAirLauncher.deobf.js, line 300857.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureStickieLogic.as
+// Obfuscated name: _ifa5875e1aa7e01
 
 class extends Qr {
   static {
@@ -23,7 +23,7 @@ class extends Qr {
   }
   mouseEvent(e, r) {
     if (!(e == null || r == null || this.object == null)) {
-      if (e.type === _ifd7c1208e3417e.DOUBLE_CLICK) {
+      if (e.type === UnkClass_fd7c12.DOUBLE_CLICK) {
         this._rce2b5eb85a79e0();
         return;
       }

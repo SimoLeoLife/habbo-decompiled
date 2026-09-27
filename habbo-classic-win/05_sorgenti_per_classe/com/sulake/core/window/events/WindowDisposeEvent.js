@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 128673.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/events/WindowDisposeEvent.as
-// Nome offuscato: _i5886b0e1d8aaad
+// Extracted from HabboAirLauncher.deobf.js, line 128673.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/events/WindowDisposeEvent.as
+// Obfuscated name: _i5886b0e1d8aaad
 
 class a extends y {
   static {

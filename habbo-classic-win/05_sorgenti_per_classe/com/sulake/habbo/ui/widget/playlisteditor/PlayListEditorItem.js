@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 324475.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/playlisteditor/PlayListEditorItem.as
-// Nome offuscato: _ieb1422ae3889af
+// Extracted from HabboAirLauncher.deobf.js, line 324475.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/playlisteditor/PlayListEditorItem.as
+// Obfuscated name: _ieb1422ae3889af
 
 class a {
   constructor(e, r, t, i) {

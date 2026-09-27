@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 259618.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/view/QuickLinksView.as
-// Nome offuscato: _i8133903a5dc245
+// Extracted from HabboAirLauncher.deobf.js, line 259618.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/view/QuickLinksView.as
+// Obfuscated name: _i8133903a5dc245
 
 class {
   static {

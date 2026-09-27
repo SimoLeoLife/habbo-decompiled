@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 223330.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/ui/GamesMainViewController.as
-// Nome offuscato: _idcd149a6052b30
+// Extracted from HabboAirLauncher.deobf.js, line 223330.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/ui/GamesMainViewController.as
+// Obfuscated name: _idcd149a6052b30
 
 class a {
   constructor(e) {
@@ -72,7 +72,7 @@ class a {
     (e > 0 &&
       ((this.var_458 = e),
       this._r16a998701b7199 == null &&
-        ((this._r16a998701b7199 = new _i05394ecc0c0c4d(1e3, this.var_458)),
+        ((this._r16a998701b7199 = new UnkEventDispatcherWrapperSubclass_05394e(1e3, this.var_458)),
         this._r16a998701b7199.addEventListener(DeBouncer.addEventListener, this.onTick),
         this._r16a998701b7199.start())),
       this.updateGameStartingStatus());

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 125639.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_233/HumanThrowsSnowballAtHumanEventData.as
-// Nome offuscato: _i8df76a54832d54
+// Extracted from HabboAirLauncher.deobf.js, line 125639.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_233/HumanThrowsSnowballAtHumanEventData.as
+// Obfuscated name: _i8df76a54832d54
 
 class extends Ma {
     static {

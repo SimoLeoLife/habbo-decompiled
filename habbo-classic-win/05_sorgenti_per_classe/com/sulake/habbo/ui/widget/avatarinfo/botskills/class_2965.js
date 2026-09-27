@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 308349.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/botskills/class_2965.as
-// Nome offuscato: _ic50216c9275a21
+// Extracted from HabboAirLauncher.deobf.js, line 308349.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/botskills/class_2965.as
+// Obfuscated name: _ic50216c9275a21
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 224556.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/ColorGridCtrl.as
-// Nome offuscato: _i5165dd008e74fb
+// Extracted from HabboAirLauncher.deobf.js, line 224556.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/ColorGridCtrl.as
+// Obfuscated name: _i5165dd008e74fb
 
 class {
   static {
@@ -107,7 +107,7 @@ class {
     let o = e.findChildByName(r);
     if (o == null) return;
     let d = t.clone();
-    (s != null && d.colorTransform(d.rect, new _i4210dc3239901d(s.red / 255, s.green / 255, s.blue / 255)),
+    (s != null && d.colorTransform(d.rect, new UnkClass_4210dc(s.red / 255, s.green / 255, s.blue / 255)),
       (o.bitmap = d),
       (o.visible = i));
   }

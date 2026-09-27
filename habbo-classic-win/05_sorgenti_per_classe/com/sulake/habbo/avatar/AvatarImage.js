@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 167737.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/AvatarImage.as
-// Nome offuscato: _i0a80381622f50a
+// Extracted from HabboAirLauncher.deobf.js, line 167737.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/AvatarImage.as
+// Obfuscated name: _i0a80381622f50a
 
 class a {
   static {
@@ -459,7 +459,7 @@ class a {
       this._r850a8fbeb0bf18.add(e, t | 0));
   }
   getAsset(e) {
-    return _ib619bfd98fe9f2.as({ value: this._assets?.getAssetByName(e) ?? null, _r35f8c7df03c28f: Qt });
+    return UnkClass_b619bf.as({ value: this._assets?.getAssetByName(e) ?? null, _r35f8c7df03c28f: Qt });
   }
   _r3a5ff1651c302a(e) {
     return this.getAsset(e)?.nativeTexture ?? null;

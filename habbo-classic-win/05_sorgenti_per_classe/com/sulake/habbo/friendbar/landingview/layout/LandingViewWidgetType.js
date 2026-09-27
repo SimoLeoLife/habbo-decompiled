@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 209326.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/layout/LandingViewWidgetType.as
-// Nome offuscato: _i13adec41529b00
+// Extracted from HabboAirLauncher.deobf.js, line 209326.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/layout/LandingViewWidgetType.as
+// Obfuscated name: _i13adec41529b00
 
 class a {
   static {
@@ -50,7 +50,7 @@ class a {
       case a.EXPIRINGCATALOGPAGE:
         return new Uz(r);
       case a.const_951:
-        return new _i0103ec5a1d9771(r);
+        return new UnkClass_0103ec(r);
       case a.const_1387:
         return new M9e(r);
       case a.HABBOMODERATIONPROMO:

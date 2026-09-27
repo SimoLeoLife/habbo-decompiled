@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 361279.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/levelupper/ExponentialLevelUpper.as
-// Nome offuscato: _i62b37be5b0966a
+// Extracted from HabboAirLauncher.deobf.js, line 361279.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/levelupper/ExponentialLevelUpper.as
+// Obfuscated name: _i62b37be5b0966a
 
 class extends AbstractLevelUpConfig {
   constructor(r, t, i) {

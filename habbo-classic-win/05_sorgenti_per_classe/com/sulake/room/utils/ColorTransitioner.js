@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 79848.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/utils/ColorTransitioner.as
-// Nome offuscato: _id7d64f91cbaa45
+// Extracted from HabboAirLauncher.deobf.js, line 79848.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/utils/ColorTransitioner.as
+// Obfuscated name: _id7d64f91cbaa45
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 225944.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge/BadgeLayerCtrl.as
-// Nome offuscato: _ieb784f9082b663
+// Extracted from HabboAirLauncher.deobf.js, line 225944.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge/BadgeLayerCtrl.as
+// Obfuscated name: _ieb784f9082b663
 
 class a {
   static {

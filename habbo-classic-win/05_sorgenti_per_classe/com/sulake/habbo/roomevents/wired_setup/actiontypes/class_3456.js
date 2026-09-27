@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 365150.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/class_3456.as
-// Nome offuscato: _ibc5d69e50e2d07
+// Extracted from HabboAirLauncher.deobf.js, line 365150.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/actiontypes/class_3456.as
+// Obfuscated name: _ibc5d69e50e2d07
 
 class extends DefaultActionType {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 366268.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/chests/class_4118.as
-// Nome offuscato: _ia588d27ab32e78
+// Extracted from HabboAirLauncher.deobf.js, line 366268.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/chests/class_4118.as
+// Obfuscated name: _ia588d27ab32e78
 
 class extends ChestHasAmount {
   static {

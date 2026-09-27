@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 273843.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/stacked/StackedAdditionStack.as
-// Nome offuscato: _i63057e56fc7c66
+// Extracted from HabboAirLauncher.deobf.js, line 273843.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/stacked/StackedAdditionStack.as
+// Obfuscated name: _i63057e56fc7c66
 
 class a {
   static {
@@ -180,7 +180,7 @@ class a {
     }
     let o = new Pe();
     (o.translate(i, s),
-      this._bitmap.draw(t, o, new _i4210dc3239901d(1, 1, 1, e.sprite.alpha / 255), e.sprite.blendMode));
+      this._bitmap.draw(t, o, new UnkClass_4210dc(1, 1, 1, e.sprite.alpha / 255), e.sprite.blendMode));
   }
   removeFinishedAdditions() {
     let e = !1;

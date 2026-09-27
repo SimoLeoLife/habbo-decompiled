@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 367475.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/selectors/SelectorCodes.as
-// Nome offuscato: _i4e17952804f917
+// Extracted from HabboAirLauncher.deobf.js, line 367475.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/selectors/SelectorCodes.as
+// Obfuscated name: _i4e17952804f917
 
 class {
   static {

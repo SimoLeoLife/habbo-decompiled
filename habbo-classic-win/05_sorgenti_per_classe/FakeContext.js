@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 61081.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/FakeContext.as
-// Nome offuscato: _ia22a5ba0294f30
+// Extracted from HabboAirLauncher.deobf.js, line 61081.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/FakeContext.as
+// Obfuscated name: _ia22a5ba0294f30
 
 class {
   static {

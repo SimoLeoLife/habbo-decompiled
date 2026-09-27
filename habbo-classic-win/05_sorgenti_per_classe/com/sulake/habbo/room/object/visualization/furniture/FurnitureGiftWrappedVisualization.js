@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 278939.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureGiftWrappedVisualization.as
-// Nome offuscato: _ifed280f5c59983
+// Extracted from HabboAirLauncher.deobf.js, line 278939.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureGiftWrappedVisualization.as
+// Obfuscated name: _ifed280f5c59983
 
 class extends Pc {
   static {

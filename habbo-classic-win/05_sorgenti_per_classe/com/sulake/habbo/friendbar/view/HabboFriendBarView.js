@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 212560.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/HabboFriendBarView.as
-// Nome offuscato: _i3c21f28a3503c6
+// Extracted from HabboAirLauncher.deobf.js, line 212560.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/HabboFriendBarView.as
+// Obfuscated name: _i3c21f28a3503c6
 
 class a extends AbstractView {
   static {
@@ -236,7 +236,7 @@ class a extends AbstractView {
         let i = this._rac9072fcec5669(e);
         if (i == null) return;
         for (let s of this.recycle) {
-          if (s instanceof _i07f8e08f70f09a) {
+          if (s instanceof UnkClass_07f8e0) {
             s.avatarImageReady(t, i);
             return;
           }
@@ -255,7 +255,7 @@ class a extends AbstractView {
     return this.var_414?.findChildByName(e);
   }
   _r339c2cfe1300a6() {
-    for (let e of this.recycle) e instanceof _i4c37cdb2f3ddf9 && e._r7cefabbfdccfbb(yd.TYPE_MESSENGER, !0);
+    for (let e of this.recycle) e instanceof UnkClass_4c37cd && e._r7cefabbfdccfbb(yd.TYPE_MESSENGER, !0);
   }
   linkReceived(e) {
     let r = e.split("/");
@@ -342,8 +342,8 @@ class a extends AbstractView {
   }
   get _r7d298f998725a3() {
     let e = 0;
-    for (let r of this.recycle) r instanceof _i4c37cdb2f3ddf9 && e++;
-    for (let r of this.recycle) r instanceof _i4c37cdb2f3ddf9 && e++;
+    for (let r of this.recycle) r instanceof UnkClass_4c37cd && e++;
+    for (let r of this.recycle) r instanceof UnkClass_4c37cd && e++;
     return e;
   }
   _r401c32f0dd50c0(e) {
@@ -422,7 +422,7 @@ class a extends AbstractView {
         .addEventListener?.(y.const_755, this.onDesktopResized),
       this.populate(),
       this.var_2634 == null &&
-        ((this.var_2634 = new _i05394ecc0c0c4d(1e3 / a.COLLAPSE_ANIMATION_FPS)),
+        ((this.var_2634 = new UnkEventDispatcherWrapperSubclass_05394e(1e3 / a.COLLAPSE_ANIMATION_FPS)),
         this.var_2634.addEventListener?.(DeBouncer.addEventListener, this._r1ac39791d669a1)),
       this._re83e5f8eede939 && this.notifyMessenger(!0));
   }
@@ -443,7 +443,7 @@ class a extends AbstractView {
       (e.blend = 0.3),
       this.var_414.addChild(e),
       this._r7033dba2401e76 == null &&
-        ((this._r7033dba2401e76 = new _i05394ecc0c0c4d(Jn.totalRunningTime, 1)),
+        ((this._r7033dba2401e76 = new UnkEventDispatcherWrapperSubclass_05394e(Jn.totalRunningTime, 1)),
         this._r7033dba2401e76.addEventListener?.(DeBouncer._rf33144eac61595, this.onRemoveDimmer),
         this._r7033dba2401e76.start()));
   }
@@ -455,7 +455,7 @@ class a extends AbstractView {
       this.var_382 == null &&
         (r != null && (r.visible = !1),
         t != null && (t.visible = !0),
-        (this.var_382 = new _i05394ecc0c0c4d(500, 0)),
+        (this.var_382 = new UnkEventDispatcherWrapperSubclass_05394e(500, 0)),
         this.var_382.addEventListener?.(DeBouncer.addEventListener, this._r76ce286f901681),
         this.var_382.start());
     else {
@@ -624,7 +624,7 @@ class a extends AbstractView {
       ((this.var_487.visible = e.var_4825 !== 0), this.notifyMessenger(e._hasUnread));
   }, "_rfe9c1b533ae799");
   _r729c945b759c35 = n((e) => {
-    this._r238010c5c0d7fd(!(e.uiFlags & _i5a1c5671564b8b._r373bc350e1a95e), !1, !1);
+    this._r238010c5c0d7fd(!(e.uiFlags & UnkConstants_5a1c56._r373bc350e1a95e), !1, !1);
   }, "_r729c945b759c35");
   _r1ac39791d669a1 = n((e) => {
     if (this.var_414 == null || this.var_2634 == null) return;

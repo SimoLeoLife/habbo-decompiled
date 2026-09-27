@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 60759.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/events/HotelViewEvent.as
-// Nome offuscato: _i6171cdba5ca527
+// Extracted from HabboAirLauncher.deobf.js, line 60759.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/events/HotelViewEvent.as
+// Obfuscated name: _i6171cdba5ca527
 
 class extends M {
   static {

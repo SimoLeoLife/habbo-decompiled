@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145315.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/UserNameUpdateEvent.as
-// Nome offuscato: _i69fa3993b80504
+// Extracted from HabboAirLauncher.deobf.js, line 145315.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/UserNameUpdateEvent.as
+// Obfuscated name: _i69fa3993b80504
 
 class a extends M {
   static {

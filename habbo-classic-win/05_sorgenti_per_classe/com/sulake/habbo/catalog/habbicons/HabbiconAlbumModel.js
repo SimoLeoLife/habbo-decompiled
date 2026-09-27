@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 177717.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconAlbumModel.as
-// Nome offuscato: _i2840facf0120d4
+// Extracted from HabboAirLauncher.deobf.js, line 177717.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconAlbumModel.as
+// Obfuscated name: _i2840facf0120d4
 
 class {
   static {

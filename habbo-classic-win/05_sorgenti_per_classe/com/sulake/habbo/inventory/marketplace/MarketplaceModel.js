@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 242276.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/marketplace/MarketplaceModel.as
-// Nome offuscato: _i10ab26bd6c6dc0
+// Extracted from HabboAirLauncher.deobf.js, line 242276.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/marketplace/MarketplaceModel.as
+// Obfuscated name: _i10ab26bd6c6dc0
 
 class a {
   constructor(e, r, t, i, s, o) {
@@ -136,18 +136,18 @@ class a {
   _rcb5911238817f8(e) {
     this._r2a19d3769df7bd != null ||
       e == null ||
-      (this.var_63?._r9275a8e42af3cc != null && ((this._r2a19d3769df7bd = e), this.send(new _ifdcc6e8791f84f())));
+      (this.var_63?._r9275a8e42af3cc != null && ((this._r2a19d3769df7bd = e), this.send(new UnkMessageComposer_0args_fdcc6e())));
   }
   _rd5e717522e480e() {
-    (this.send(new _i6c05689a74a374()), (this._ra4fb5d72c8d344 = !0));
+    (this.send(new UnkMessageComposer_0args_6c0568()), (this._ra4fb5d72c8d344 = !0));
   }
   makeOffer(e, r) {
     if (this.releaseItems == null || this.releaseItems.length === 0) return;
     let t = Math.max(1, Math.min(Math.trunc(r), this.releaseItems.length)),
       i = [];
     for (let o = 0; o < t; o++) i.push(this.releaseItems[o].ref);
-    let s = this.releaseItems[0].isWallItem ? _ib652a2a837b978._rea0492d8723e0e : _ib652a2a837b978._r91f4af675534a9;
-    (this.send(new _ib652a2a837b978(e, s, i)), this._rc62fbd899c6085());
+    let s = this.releaseItems[0].isWallItem ? UnkMessageComposer_3args_b652a2._rea0492d8723e0e : UnkMessageComposer_3args_b652a2._r91f4af675534a9;
+    (this.send(new UnkMessageComposer_3args_b652a2(e, s, i)), this._rc62fbd899c6085());
   }
   rarityLevel() {
     let e = this._rd5049fe2b449a4();

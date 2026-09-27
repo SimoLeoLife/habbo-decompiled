@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 365942.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/common/utils/WiredUserAction.as
-// Nome offuscato: _icb42933946e5f8
+// Extracted from HabboAirLauncher.deobf.js, line 365942.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/common/utils/WiredUserAction.as
+// Obfuscated name: _icb42933946e5f8
 
 class a {
   constructor(e, r, t = !1, i = null, s = null) {

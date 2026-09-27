@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 365685.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/ConditionCodes.as
-// Nome offuscato: _i30bf7c5d3206ea
+// Extracted from HabboAirLauncher.deobf.js, line 365685.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/ConditionCodes.as
+// Obfuscated name: _i30bf7c5d3206ea
 
 class {
   static {

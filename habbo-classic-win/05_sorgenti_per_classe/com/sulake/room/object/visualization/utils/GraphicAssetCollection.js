@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 272506.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/object/visualization/utils/GraphicAssetCollection.as
-// Nome offuscato: _ife606a88bea7d7
+// Extracted from HabboAirLauncher.deobf.js, line 272506.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/object/visualization/utils/GraphicAssetCollection.as
+// Obfuscated name: _ife606a88bea7d7
 
 class a {
   static {

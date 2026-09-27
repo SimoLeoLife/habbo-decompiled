@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 245728.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/class_1784.as
-// Nome offuscato: _id571b4f59fe3a6
+// Extracted from HabboAirLauncher.deobf.js, line 245728.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/class_1784.as
+// Obfuscated name: _id571b4f59fe3a6
 
 class {
   constructor(e, r, t) {

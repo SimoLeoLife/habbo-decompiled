@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 82348.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/data/HighScoreData.as
-// Nome offuscato: _i1078f31c72dbaf
+// Extracted from HabboAirLauncher.deobf.js, line 82348.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/data/HighScoreData.as
+// Obfuscated name: _i1078f31c72dbaf
 
 class {
   static {

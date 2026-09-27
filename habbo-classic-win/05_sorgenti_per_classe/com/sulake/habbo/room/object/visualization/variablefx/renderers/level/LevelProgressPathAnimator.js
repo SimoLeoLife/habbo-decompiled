@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 288850.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/level/LevelProgressPathAnimator.as
-// Nome offuscato: _i79abe72a89ebfc
+// Extracted from HabboAirLauncher.deobf.js, line 288850.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/level/LevelProgressPathAnimator.as
+// Obfuscated name: _i79abe72a89ebfc
 
 class a {
   static {

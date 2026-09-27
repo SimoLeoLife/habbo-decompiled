@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 201666.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/simulation/ChatBubbleSimulationEntity.as
-// Nome offuscato: _iafcc3dc1f16fab
+// Extracted from HabboAirLauncher.deobf.js, line 201666.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/simulation/ChatBubbleSimulationEntity.as
+// Obfuscated name: _iafcc3dc1f16fab
 
 class a {
   static {

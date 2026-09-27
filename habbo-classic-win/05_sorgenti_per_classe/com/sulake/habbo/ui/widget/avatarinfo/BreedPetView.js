@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 306552.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/BreedPetView.as
-// Nome offuscato: _i4f4da9743c6149
+// Extracted from HabboAirLauncher.deobf.js, line 306552.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/BreedPetView.as
+// Obfuscated name: _i4f4da9743c6149
 
 class a extends AvatarContextInfoButtonView {
   static {

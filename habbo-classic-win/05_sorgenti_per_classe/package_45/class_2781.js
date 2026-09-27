@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 91714.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_45/class_2781.as
-// Nome offuscato: _i1eeee38d5ad055
+// Extracted from HabboAirLauncher.deobf.js, line 91714.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_45/class_2781.as
+// Obfuscated name: _i1eeee38d5ad055
 
 class a {
     static {
@@ -38,7 +38,7 @@ class a {
             o && ((d = e.readBoolean()), (l = a.const_84)));
         else if (l === a.const_129) ((b = e.readInteger()), (r = e.readString()));
         else if (l === a.const_816) {
-          if (((b = e.readInteger()), (s = _i5205b2079e8037._r41d3e1274ff5f9(mi.FORMAT_KEY)), !s)) return !1;
+          if (((b = e.readInteger()), (s = UnkClass_5205b2._r41d3e1274ff5f9(mi.FORMAT_KEY)), !s)) return !1;
           ((s.uniqueSerialNumber = e.readInteger()),
             (s.uniqueSeriesSize = e.readInteger()),
             (l = a.const_84));

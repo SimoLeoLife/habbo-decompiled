@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 146210.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/theme/Theme.as
-// Nome offuscato: _i688a65c20d3750
+// Extracted from HabboAirLauncher.deobf.js, line 146210.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/theme/Theme.as
+// Obfuscated name: _i688a65c20d3750
 
 class {
   constructor(e, r, t, i, s) {

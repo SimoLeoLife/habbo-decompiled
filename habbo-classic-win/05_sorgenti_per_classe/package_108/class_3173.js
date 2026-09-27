@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 85817.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_108/class_3173.as
-// Nome offuscato: _ib2e81f84c49273
+// Extracted from HabboAirLauncher.deobf.js, line 85817.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_108/class_3173.as
+// Obfuscated name: _ib2e81f84c49273
 
 class a extends dw {
     static {

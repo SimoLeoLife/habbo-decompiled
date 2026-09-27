@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 80579.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/RoomPlaneMaskData.as
-// Nome offuscato: _ib285662306a365
+// Extracted from HabboAirLauncher.deobf.js, line 80579.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/RoomPlaneMaskData.as
+// Obfuscated name: _ib285662306a365
 
 class {
   static {

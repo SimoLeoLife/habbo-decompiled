@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 231554.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/HabboWayController.as
-// Nome offuscato: _i81a9a0d72d6af8
+// Extracted from HabboAirLauncher.deobf.js, line 231554.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/HabboWayController.as
+// Obfuscated name: _i81a9a0d72d6af8
 
 class a {
   constructor(e) {

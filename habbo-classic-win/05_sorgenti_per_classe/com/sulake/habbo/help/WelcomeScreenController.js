@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 233641.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/WelcomeScreenController.as
-// Nome offuscato: _i06c1071cdac330
+// Extracted from HabboAirLauncher.deobf.js, line 233641.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/WelcomeScreenController.as
+// Obfuscated name: _i06c1071cdac330
 
 class {
   constructor(e) {

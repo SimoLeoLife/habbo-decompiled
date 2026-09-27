@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158630.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/events/GameChatEvent.as
-// Nome offuscato: _i9f2aa15e5c932b
+// Extracted from HabboAirLauncher.deobf.js, line 158630.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/events/GameChatEvent.as
+// Obfuscated name: _i9f2aa15e5c932b
 
 class extends M {
   constructor(r, t, i, s, o, d, c, f, l, b, _ = !1, h = !1) {

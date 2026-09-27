@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 325692.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/roomtools/RoomToolsCtrlBase.as
-// Nome offuscato: _i3027ee33afa33e
+// Extracted from HabboAirLauncher.deobf.js, line 325692.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/roomtools/RoomToolsCtrlBase.as
+// Obfuscated name: _i3027ee33afa33e
 
 class {
   static {
@@ -53,7 +53,7 @@ class {
   }
   _r85ef1af7aa9b4b() {
     (this._r61a7436ffcef19(),
-      (this._r7aed409c8fbfce = new _i05394ecc0c0c4d(this._rd14b855fd9ebb8, 1)),
+      (this._r7aed409c8fbfce = new UnkEventDispatcherWrapperSubclass_05394e(this._rd14b855fd9ebb8, 1)),
       this._r7aed409c8fbfce.addEventListener(DeBouncer.addEventListener, this._r37d18607e42a0d),
       this._r7aed409c8fbfce.start());
   }

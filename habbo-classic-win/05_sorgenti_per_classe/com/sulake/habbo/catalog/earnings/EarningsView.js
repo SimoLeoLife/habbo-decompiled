@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 180261.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/earnings/EarningsView.as
-// Nome offuscato: _i6946992fde5ee2
+// Extracted from HabboAirLauncher.deobf.js, line 180261.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/earnings/EarningsView.as
+// Obfuscated name: _i6946992fde5ee2
 
 class a {
   static {

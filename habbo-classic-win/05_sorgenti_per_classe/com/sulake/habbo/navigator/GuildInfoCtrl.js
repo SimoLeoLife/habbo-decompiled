@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 251813.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/GuildInfoCtrl.as
-// Nome offuscato: _i4ce4fd230e7f1b
+// Extracted from HabboAirLauncher.deobf.js, line 251813.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/GuildInfoCtrl.as
+// Obfuscated name: _i4ce4fd230e7f1b
 
 class a {
   constructor(e) {
@@ -37,6 +37,6 @@ class a {
       (this._groupId = r.habboGroupId));
   }
   _r4a0db457f57ff2 = n(() => {
-    this._groupId > 0 && this._navigator?.send(new _i494540f04bf21d(this._groupId, !0));
+    this._groupId > 0 && this._navigator?.send(new class_1949(this._groupId, !0));
   }, "_r4a0db457f57ff2");
 }

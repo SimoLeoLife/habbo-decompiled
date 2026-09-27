@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 196879.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/VideoOfferManager.as
-// Nome offuscato: _id9d3527ebb6cd0
+// Extracted from HabboAirLauncher.deobf.js, line 196879.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/VideoOfferManager.as
+// Obfuscated name: _id9d3527ebb6cd0
 
 class a {
   constructor(e) {

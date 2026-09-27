@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 151848.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/RunningNumberWidget.as
-// Nome offuscato: _ib28d223f96859a
+// Extracted from HabboAirLauncher.deobf.js, line 151848.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/RunningNumberWidget.as
+// Obfuscated name: _ib28d223f96859a
 
 class a {
   constructor(e, r) {

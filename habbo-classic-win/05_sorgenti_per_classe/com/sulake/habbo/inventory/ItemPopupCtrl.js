@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 239145.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/ItemPopupCtrl.as
-// Nome offuscato: _iaf559a20f2184a
+// Extracted from HabboAirLauncher.deobf.js, line 239145.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/ItemPopupCtrl.as
+// Obfuscated name: _iaf559a20f2184a
 
 class a {
   constructor(e, r, t, i) {
@@ -28,8 +28,8 @@ class a {
   static CLOSE_DELAY_MS = 100;
   static IMAGE_MAX_WIDTH = 180;
   static IMAGE_MAX_HEIGHT = 200;
-  _r626cf944d280b6 = new _i05394ecc0c0c4d(a.OPEN_DELAY_MS, 1);
-  var_753 = new _i05394ecc0c0c4d(a.CLOSE_DELAY_MS, 1);
+  _r626cf944d280b6 = new UnkEventDispatcherWrapperSubclass_05394e(a.OPEN_DELAY_MS, 1);
+  var_753 = new UnkEventDispatcherWrapperSubclass_05394e(a.CLOSE_DELAY_MS, 1);
   _ra23e08f67c2003 = n((e) => this._r55145e05378703(e), "_ra23e08f67c2003");
   _rb80b97555e121e = n((e) => this.onHideTimer(e), "_rb80b97555e121e");
   _ra3f89244be9ad5 = n((e) => this._r968de56a6383b4(e), "_ra3f89244be9ad5");
@@ -153,8 +153,8 @@ class a {
   loadExtraData(e) {
     if (this._inventory == null) return;
     let r = this._inventory.getProperty("extra_data_service_url") + e,
-      t = new _ib182ac399b1881();
-    (t.addEventListener(M.ComponentDependency, this._ra3f89244be9ad5), t.load(new _i636490202c0f9a(r)));
+      t = new UnkEventDispatcherWrapperSubclass_b182ac();
+    (t.addEventListener(M.ComponentDependency, this._ra3f89244be9ad5), t.load(new UnkClass_636490(r)));
   }
   _r968de56a6383b4(e) {
     let r = e.target,
@@ -174,7 +174,7 @@ class a {
   loadImage(e) {
     if (ua.getJSONValue(e)) return;
     let r = new StringUtil("image/png");
-    (r.addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._r5a7605de6fb4cc), r.load(new _i636490202c0f9a(e)));
+    (r.addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._r5a7605de6fb4cc), r.load(new UnkClass_636490(e)));
   }
   onExtImageLoaded(e) {
     if (this.var_93 == null || !this._r0223faad0a6390 || this._assets == null) return;
@@ -182,7 +182,7 @@ class a {
       t = this.var_93.findChildByName("item_image");
     if (r == null || t == null) return;
     r.removeEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._r5a7605de6fb4cc);
-    let i = new _ifdd92074c780c7().decode(r.bytes),
+    let i = new UnkClass_fdd920().decode(r.bytes),
       s = new A(Math.min(a.IMAGE_MAX_WIDTH, i.width), Math.min(a.IMAGE_MAX_HEIGHT, i.height), !0, 16777215),
       o = a.IMAGE_MAX_WIDTH / Math.max(1, i.width),
       d = new Pe();

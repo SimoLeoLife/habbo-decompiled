@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 140931.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/StrokeController.as
-// Nome offuscato: _i01a05cf990eab8
+// Extracted from HabboAirLauncher.deobf.js, line 140931.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/StrokeController.as
+// Obfuscated name: _i01a05cf990eab8
 
 class a extends st {
   static {

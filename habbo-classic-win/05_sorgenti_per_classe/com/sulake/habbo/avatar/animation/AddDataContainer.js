@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 169188.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/animation/AddDataContainer.as
-// Nome offuscato: _i044aaccceba670
+// Extracted from HabboAirLauncher.deobf.js, line 169188.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/animation/AddDataContainer.as
+// Obfuscated name: _i044aaccceba670
 
 class {
   static {

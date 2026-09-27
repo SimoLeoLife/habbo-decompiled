@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 353795.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/levelupper/AbstractLevelUpConfig.as
-// Nome offuscato: _i424e917c37d0d2
+// Extracted from HabboAirLauncher.deobf.js, line 353795.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/levelupper/AbstractLevelUpConfig.as
+// Obfuscated name: _i424e917c37d0d2
 
 class {
   static {

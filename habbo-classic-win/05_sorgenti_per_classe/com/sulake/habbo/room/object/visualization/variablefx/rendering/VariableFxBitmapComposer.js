@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 285462.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/rendering/VariableFxBitmapComposer.as
-// Nome offuscato: _if9c565e581aaf2
+// Extracted from HabboAirLauncher.deobf.js, line 285462.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/rendering/VariableFxBitmapComposer.as
+// Obfuscated name: _if9c565e581aaf2
 
 class a {
   constructor(e) {
@@ -112,7 +112,7 @@ class a {
       this._bitmapData.draw(
         e,
         new Pe(1, 0, 0, 1, r | 0, t | 0),
-        d >= 255 ? null : new _i4210dc3239901d(1, 1, 1, d / 255),
+        d >= 255 ? null : new UnkClass_4210dc(1, 1, 1, d / 255),
         i,
         c,
         !1,
@@ -152,13 +152,13 @@ class a {
   }
   _rbd941b8c3bc263(e) {
     let r = a.clampOpacity(e);
-    return r >= 255 ? null : new _i4210dc3239901d(1, 1, 1, r / 255);
+    return r >= 255 ? null : new UnkClass_4210dc(1, 1, 1, r / 255);
   }
   _r19be948caf51fb(e, r) {
     let t = a.clampOpacity(r);
     if (e == null) return this._rbd941b8c3bc263(t);
     let i = t / 255;
-    return new _i4210dc3239901d(
+    return new UnkClass_4210dc(
       e.redMultiplier,
       e.greenMultiplier,
       e.blueMultiplier,
@@ -178,7 +178,7 @@ class a {
       s = (e >>> 16) & 255,
       o = (e >>> 8) & 255,
       d = e & 255;
-    return new _i4210dc3239901d(s / 255, o / 255, d / 255, (i * t) / 65025);
+    return new UnkClass_4210dc(s / 255, o / 255, d / 255, (i * t) / 65025);
   }
   _r108e390155cb0f(e) {
     return new VariableFxClipRect(e.left, e.top, e.right - e.left, e.bottom - e.top);

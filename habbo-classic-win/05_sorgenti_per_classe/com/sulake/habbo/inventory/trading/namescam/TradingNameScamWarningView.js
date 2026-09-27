@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 240214.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/trading/namescam/TradingNameScamWarningView.as
-// Nome offuscato: _i99839d6e8d7d7f
+// Extracted from HabboAirLauncher.deobf.js, line 240214.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/trading/namescam/TradingNameScamWarningView.as
+// Obfuscated name: _i99839d6e8d7d7f
 
 class a {
   constructor(e, r, t, i) {
@@ -10,7 +10,7 @@ class a {
     let s = t?.getAssetByName("inventory_trading_name_scam_warning_xml")?.content;
     ((this._window = s != null ? this._windowManager?.buildFromXML(s, a.DESKTOP_WINDOW_LAYER) : null),
       this._window?.enableLookupCache(),
-      (this._r94cc33a3089389 = new _i05394ecc0c0c4d(1e3, a.var_1028)),
+      (this._r94cc33a3089389 = new UnkEventDispatcherWrapperSubclass_05394e(1e3, a.var_1028)),
       this._r94cc33a3089389.addEventListener(DeBouncer.addEventListener, this._r2180e3ad8e093d),
       this.headerCloseButton?.addEventListener(u.CLICK, this.onWindowClose),
       this.dismissButton?.addEventListener(u.CLICK, this.onWindowClose),

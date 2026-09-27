@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 55040.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/assets/BitmapDataAsset.as
+// Extracted from HabboAirLauncher.deobf.js, line 55040.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/assets/BitmapDataAsset.as
 
 class a {
     constructor(e, r = null) {
@@ -149,7 +149,7 @@ class a {
           } catch {}
         (this._unknown instanceof A
           ? this.var_76 && this._unknown.dispose()
-          : this._unknown instanceof _i3a5c6f457acdad
+          : this._unknown instanceof UnkClass_3a5c6f
             ? this._unknown.bitmapData?.dispose()
             : this._unknown instanceof re && this._unknown.clear(),
           (this._unknown = null),
@@ -205,7 +205,7 @@ class a {
         if (typeof this._unknown == "function") {
           let e = new this._unknown();
           if (
-            e instanceof _i3a5c6f457acdad &&
+            e instanceof UnkClass_3a5c6f &&
             (a._r5ab9537d52907a
               ? ((this._bitmap = e.bitmapData?.clone() ?? null), e.bitmapData?.dispose())
               : ((this._bitmap = e.bitmapData), (e.bitmapData = null)),
@@ -221,7 +221,7 @@ class a {
             return;
           }
         }
-        if (this._unknown instanceof _i3a5c6f457acdad) {
+        if (this._unknown instanceof UnkClass_3a5c6f) {
           if (((this._bitmap = this._unknown.bitmapData), this._bitmap == null))
             throw new Error("Failed to convert Bitmap to BitmapDataAsset!");
           ((this.var_76 = !0), (this._unknown = null));
@@ -251,7 +251,7 @@ class a {
         }
         if (this._unknown instanceof re)
           try {
-            ((this._bitmap = new _ifdd92074c780c7().decode(this._unknown)),
+            ((this._bitmap = new UnkClass_fdd920().decode(this._unknown)),
               this._bitmap != null &&
                 ((this.var_76 = !0),
                 (a.var_2072 += this._bitmap.width * this._bitmap.height * 4)));
@@ -292,7 +292,7 @@ class a {
         ((this._bitmap = e._unknown), (this.var_76 = !1));
         return;
       }
-      if (e._unknown instanceof _i3a5c6f457acdad) {
+      if (e._unknown instanceof UnkClass_3a5c6f) {
         ((this._bitmap = e._unknown.bitmapData), (this.var_76 = !1));
         return;
       }
@@ -395,7 +395,7 @@ class a {
       if (this._unknown instanceof a) return this._unknown.nativeTexture;
       if (this._unknown instanceof re && this._r3c647d57349305()) return this._rab7cf9636f44b3(this._unknown);
       if (this._unknown instanceof A) return this._r6640f46cd8b220(this._unknown.texture, this._unknown);
-      if (this._unknown instanceof _i3a5c6f457acdad) {
+      if (this._unknown instanceof UnkClass_3a5c6f) {
         let e = this._unknown.bitmapData;
         return e != null ? this._r6640f46cd8b220(e.texture, e) : null;
       }

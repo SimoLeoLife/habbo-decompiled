@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 319501.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/trophy/TrophyFurniWidget.as
-// Nome offuscato: _if225c4fdd9e945
+// Extracted from HabboAirLauncher.deobf.js, line 319501.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/trophy/TrophyFurniWidget.as
+// Obfuscated name: _if225c4fdd9e945
 
 class a extends RoomWidgetBase {
   constructor(r, t, i, s, o) {

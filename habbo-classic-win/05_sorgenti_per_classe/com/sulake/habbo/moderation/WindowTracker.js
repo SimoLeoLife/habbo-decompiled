@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 247555.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/WindowTracker.as
-// Nome offuscato: _i58406f37d2a825
+// Extracted from HabboAirLauncher.deobf.js, line 247555.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/WindowTracker.as
+// Obfuscated name: _i58406f37d2a825
 
 class {
   static {

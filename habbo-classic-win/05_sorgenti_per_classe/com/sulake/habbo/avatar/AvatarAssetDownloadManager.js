@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 168696.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/AvatarAssetDownloadManager.as
-// Nome offuscato: _iee6f7ccba77688
+// Extracted from HabboAirLauncher.deobf.js, line 168696.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/AvatarAssetDownloadManager.as
+// Obfuscated name: _iee6f7ccba77688
 
 class a extends Ft {
   static {
@@ -44,7 +44,7 @@ class a extends Ft {
     d != null &&
       ((this.purgeInitDownloadBuffer = this.events),
       d.addEventListener?.("AVATAR_RENDER_READY", this.purgeInitDownloadBuffer));
-    let c = new _i636490202c0f9a(t),
+    let c = new UnkClass_636490(t),
       f = this._assets.getAssetByName("figuremap");
     if (f == null)
       ((this.getAssetByName = this._assets.loadAssetFromFile("figuremap", c, "text/xml")),
@@ -53,7 +53,7 @@ class a extends Ft {
       let b = _i2de4077bf0631e(f.content);
       this._r48e037026243f6(b);
     }
-    ((this._rd952d4671036f6 = new _i05394ecc0c0c4d(a.DOWNLOAD_TIMEOUT, 1)),
+    ((this._rd952d4671036f6 = new UnkEventDispatcherWrapperSubclass_05394e(a.DOWNLOAD_TIMEOUT, 1)),
       this._rd952d4671036f6.addEventListener(DeBouncer._rf33144eac61595, this._r8e407fc9562407));
   }
   dispose() {
@@ -92,7 +92,7 @@ class a extends Ft {
       ? `${this._r2750dc1950553f}&retry=${this.var_2504}`
       : `${this._r2750dc1950553f}?retry=${this.var_2504}`;
     (this._r9eec9c715ab41c(),
-      (this.getAssetByName = this._assets.loadAssetFromFile("figuremap", new _i636490202c0f9a(r), "text/xml")),
+      (this.getAssetByName = this._assets.loadAssetFromFile("figuremap", new UnkClass_636490(r), "text/xml")),
       this._rb7b5799dd17338());
   }, "onConfigurationError");
   IIDHabboConfigurationManager = n((e) => {
@@ -180,7 +180,7 @@ class a extends Ft {
         typeof this.var_41 == "object" &&
         this.var_41.onMandatoryLibrariesReady?.call(this.var_41)),
       (this._rb520fb44401706 = this._rb520fb44401706.filter((s) => s.libraryName !== r.libraryName)),
-      t.length > 0 && this.dispatchEvent(new _i370608800c92e4(a.LIBRARY_LOADED, r.libraryName)),
+      t.length > 0 && this.dispatchEvent(new UnkClass_370608(a.LIBRARY_LOADED, r.libraryName)),
       this._rd952d4671036f6.start());
   }, "_r311242dd72a3c4");
   _r61a23987e8c6fb() {

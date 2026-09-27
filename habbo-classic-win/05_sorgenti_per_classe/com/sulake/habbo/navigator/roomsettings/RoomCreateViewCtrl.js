@@ -1,10 +1,10 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 256706.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/roomsettings/RoomCreateViewCtrl.as
+// Extracted from HabboAirLauncher.deobf.js, line 256706.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/roomsettings/RoomCreateViewCtrl.as
 
 class a {
   constructor(e) {
     this._navigator = e;
-    ((this._r922070854330e9 = new _i05394ecc0c0c4d(100)),
+    ((this._r922070854330e9 = new UnkEventDispatcherWrapperSubclass_05394e(100)),
       this._r922070854330e9.addEventListener(DeBouncer.addEventListener, this._re328e24ab5154f),
       this._r80b80a5eb7af72());
   }
@@ -57,43 +57,43 @@ class a {
       this.refreshSelection());
   }
   _r80b80a5eb7af72() {
-    (this._layouts.push(new _i69a645768ac185(dr.NO_CLUB, 104, "a")),
-      this._layouts.push(new _i69a645768ac185(dr.NO_CLUB, 94, "b")),
-      this._layouts.push(new _i69a645768ac185(dr.NO_CLUB, 36, "c")),
-      this._layouts.push(new _i69a645768ac185(dr.NO_CLUB, 84, "d")),
-      this._layouts.push(new _i69a645768ac185(dr.NO_CLUB, 80, "e")),
-      this._layouts.push(new _i69a645768ac185(dr.NO_CLUB, 80, "f")),
-      this._layouts.push(new _i69a645768ac185(dr.NO_CLUB, 416, "i")),
-      this._layouts.push(new _i69a645768ac185(dr.NO_CLUB, 320, "j")),
-      this._layouts.push(new _i69a645768ac185(dr.NO_CLUB, 448, "k")),
-      this._layouts.push(new _i69a645768ac185(dr.NO_CLUB, 352, "l")),
-      this._layouts.push(new _i69a645768ac185(dr.NO_CLUB, 384, "m")),
-      this._layouts.push(new _i69a645768ac185(dr.NO_CLUB, 372, "n")),
-      this._layouts.push(new _i69a645768ac185(dr.CLUB, 80, "g")),
-      this._layouts.push(new _i69a645768ac185(dr.CLUB, 74, "h")),
-      this._layouts.push(new _i69a645768ac185(dr.CLUB, 416, "o")),
-      this._layouts.push(new _i69a645768ac185(dr.CLUB, 352, "p")),
-      this._layouts.push(new _i69a645768ac185(dr.CLUB, 304, "q")),
-      this._layouts.push(new _i69a645768ac185(dr.CLUB, 336, "r")),
-      this._layouts.push(new _i69a645768ac185(dr.CLUB, 748, "u")),
-      this._layouts.push(new _i69a645768ac185(dr.CLUB, 438, "v")),
-      this._layouts.push(new _i69a645768ac185(dr.VIP, 540, "t")),
-      this._layouts.push(new _i69a645768ac185(dr.VIP, 512, "w")),
-      this._layouts.push(new _i69a645768ac185(dr.VIP, 396, "x")),
-      this._layouts.push(new _i69a645768ac185(dr.VIP, 440, "y")),
-      this._layouts.push(new _i69a645768ac185(dr.VIP, 456, "z")),
-      this._layouts.push(new _i69a645768ac185(dr.VIP, 208, "0")),
-      this._layouts.push(new _i69a645768ac185(dr.VIP, 1009, "1")),
-      this._layouts.push(new _i69a645768ac185(dr.VIP, 1044, "2")),
-      this._layouts.push(new _i69a645768ac185(dr.VIP, 183, "3")),
-      this._layouts.push(new _i69a645768ac185(dr.VIP, 254, "4")),
-      this._layouts.push(new _i69a645768ac185(dr.VIP, 1024, "5")),
-      this._layouts.push(new _i69a645768ac185(dr.VIP, 801, "6")),
-      this._layouts.push(new _i69a645768ac185(dr.VIP, 354, "7")),
-      this._layouts.push(new _i69a645768ac185(dr.VIP, 888, "8")),
-      this._layouts.push(new _i69a645768ac185(dr.VIP, 926, "9")),
-      this._layouts.push(new _i69a645768ac185(-1, 2500, "snowwar1")),
-      this._layouts.push(new _i69a645768ac185(-1, 2500, "snowwar2")));
+    (this._layouts.push(new UnkClass_69a645(dr.NO_CLUB, 104, "a")),
+      this._layouts.push(new UnkClass_69a645(dr.NO_CLUB, 94, "b")),
+      this._layouts.push(new UnkClass_69a645(dr.NO_CLUB, 36, "c")),
+      this._layouts.push(new UnkClass_69a645(dr.NO_CLUB, 84, "d")),
+      this._layouts.push(new UnkClass_69a645(dr.NO_CLUB, 80, "e")),
+      this._layouts.push(new UnkClass_69a645(dr.NO_CLUB, 80, "f")),
+      this._layouts.push(new UnkClass_69a645(dr.NO_CLUB, 416, "i")),
+      this._layouts.push(new UnkClass_69a645(dr.NO_CLUB, 320, "j")),
+      this._layouts.push(new UnkClass_69a645(dr.NO_CLUB, 448, "k")),
+      this._layouts.push(new UnkClass_69a645(dr.NO_CLUB, 352, "l")),
+      this._layouts.push(new UnkClass_69a645(dr.NO_CLUB, 384, "m")),
+      this._layouts.push(new UnkClass_69a645(dr.NO_CLUB, 372, "n")),
+      this._layouts.push(new UnkClass_69a645(dr.CLUB, 80, "g")),
+      this._layouts.push(new UnkClass_69a645(dr.CLUB, 74, "h")),
+      this._layouts.push(new UnkClass_69a645(dr.CLUB, 416, "o")),
+      this._layouts.push(new UnkClass_69a645(dr.CLUB, 352, "p")),
+      this._layouts.push(new UnkClass_69a645(dr.CLUB, 304, "q")),
+      this._layouts.push(new UnkClass_69a645(dr.CLUB, 336, "r")),
+      this._layouts.push(new UnkClass_69a645(dr.CLUB, 748, "u")),
+      this._layouts.push(new UnkClass_69a645(dr.CLUB, 438, "v")),
+      this._layouts.push(new UnkClass_69a645(dr.VIP, 540, "t")),
+      this._layouts.push(new UnkClass_69a645(dr.VIP, 512, "w")),
+      this._layouts.push(new UnkClass_69a645(dr.VIP, 396, "x")),
+      this._layouts.push(new UnkClass_69a645(dr.VIP, 440, "y")),
+      this._layouts.push(new UnkClass_69a645(dr.VIP, 456, "z")),
+      this._layouts.push(new UnkClass_69a645(dr.VIP, 208, "0")),
+      this._layouts.push(new UnkClass_69a645(dr.VIP, 1009, "1")),
+      this._layouts.push(new UnkClass_69a645(dr.VIP, 1044, "2")),
+      this._layouts.push(new UnkClass_69a645(dr.VIP, 183, "3")),
+      this._layouts.push(new UnkClass_69a645(dr.VIP, 254, "4")),
+      this._layouts.push(new UnkClass_69a645(dr.VIP, 1024, "5")),
+      this._layouts.push(new UnkClass_69a645(dr.VIP, 801, "6")),
+      this._layouts.push(new UnkClass_69a645(dr.VIP, 354, "7")),
+      this._layouts.push(new UnkClass_69a645(dr.VIP, 888, "8")),
+      this._layouts.push(new UnkClass_69a645(dr.VIP, 926, "9")),
+      this._layouts.push(new UnkClass_69a645(-1, 2500, "snowwar1")),
+      this._layouts.push(new UnkClass_69a645(-1, 2500, "snowwar2")));
   }
   _re328e24ab5154f = n((e) => {
     let r = this._selectedLayout?.view?.findChildByName("select_arrow");
@@ -309,7 +309,7 @@ class a {
       }
     }
     let c = this._rd2f30fd1f9e54a.selection;
-    this._navigator.send(new _i222609ab66ee55(r, t, i, d, o, c));
+    this._navigator.send(new UnkMessageComposer_6args_222609(r, t, i, d, o, c));
   }, "_rae991e0df1a3a5");
   close() {
     (this._content != null && (this._content.visible = !1), this._r922070854330e9?.reset());

@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 226576.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/GuildManagementWindowCtrl.as
+// Extracted from HabboAirLauncher.deobf.js, line 226576.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/GuildManagementWindowCtrl.as
 
 class a {
   static {
@@ -350,13 +350,13 @@ class a {
         case a._rbe7f360c9fb979: {
           let e = this._window.findChildByName("name_txt")?.text ?? "",
             r = this._window.findChildByName("desc_txt")?.text ?? "";
-          (this._data.isOwner && this.var_41.send(new _i7e3b2187bfe1ec(this._data.groupId, e, r)),
+          (this._data.isOwner && this.var_41.send(new UnkMessageComposer_3args_7e3b21(this._data.groupId, e, r)),
             this.var_41.events.dispatchEvent?.(new GuildSettingsChangedInManageEvent(GuildSettingsChangedInManageEvent.GUILD_VISUAL_SETTINGS_CHANGED, this._data.groupId)));
           return;
         }
         case a.VIEW_BADGE: {
           let e = this._r43f4612052f01c?._re0464c210e97d9 ? this._r43f4612052f01c._r8c06e29dd50a40() : [];
-          (this._data.isOwner && this.var_41.send(new _i61cf81490334cd(this._data.groupId, e)),
+          (this._data.isOwner && this.var_41.send(new UnkMessageComposer_2args_61cf81(this._data.groupId, e)),
             this.var_41.events.dispatchEvent?.(new GuildSettingsChangedInManageEvent(GuildSettingsChangedInManageEvent.GUILD_VISUAL_SETTINGS_CHANGED, this._data.groupId)));
           return;
         }
@@ -367,14 +367,14 @@ class a {
             r = this.var_278?.isInitialized
               ? this.var_278._r4e3e2dbfcb6022()
               : this._data._r95ee941642047f;
-          (this._data.isOwner && this.var_41.send(new _iedffb9898d210d(this._data.groupId, e, r)),
+          (this._data.isOwner && this.var_41.send(new UnkMessageComposer_3args_edffb9(this._data.groupId, e, r)),
             this.var_41.events.dispatchEvent?.(new GuildSettingsChangedInManageEvent(GuildSettingsChangedInManageEvent.GUILD_VISUAL_SETTINGS_CHANGED, this._data.groupId)));
           return;
         }
         case a._r8e78665801125e:
           (this._data.isOwner &&
             this.var_41.send(
-              new _i6467d87e5ba4d8(
+              new UnkMessageComposer_3args_6467d8(
                 this._data.groupId,
                 this._r6b1fafe6bd66a8?.guildType ?? iQ._r0c2f6e840546db,
                 this._r6b1fafe6bd66a8?._r40e0656765dad1 ?? iQ._rf28a828a634ee8,
@@ -399,7 +399,7 @@ class a {
       o = this.var_278?.isInitialized
         ? this.var_278._r4e3e2dbfcb6022()
         : this._data._r95ee941642047f;
-    ((this.var_1599 = 0), this.var_41.send(new _i3a572da23dd3d6(r, t, e.roomId, s, o, i)));
+    ((this.var_1599 = 0), this.var_41.send(new class_2433(r, t, e.roomId, s, o, i)));
   }
   _r321c96d5fa0b3f() {
     return this.var_98 !== this._rd58bf9d9207423(this.var_98 - 1);

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 268019.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/premium/RewardTrackPremiumPurchaseConfirmationView.as
-// Nome offuscato: _i0518797a9eca25
+// Extracted from HabboAirLauncher.deobf.js, line 268019.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/premium/RewardTrackPremiumPurchaseConfirmationView.as
+// Obfuscated name: _i0518797a9eca25
 
 class a {
   constructor(e, r) {
@@ -64,7 +64,7 @@ class a {
     (this.var_512 !== null &&
       (this.var_512.stop(),
       this.var_512.removeEventListener(DeBouncer._rf33144eac61595, this._rb5487cd997da9f)),
-      (this.var_512 = new _i05394ecc0c0c4d(a.RETRY_ENABLE_DELAY_MS, 1)),
+      (this.var_512 = new UnkEventDispatcherWrapperSubclass_05394e(a.RETRY_ENABLE_DELAY_MS, 1)),
       this.var_512.addEventListener(DeBouncer._rf33144eac61595, this._rb5487cd997da9f),
       this.var_512.start());
   }

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 280608.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/pet/ExperienceData.as
-// Nome offuscato: _if4cd9156baa739
+// Extracted from HabboAirLauncher.deobf.js, line 280608.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/pet/ExperienceData.as
+// Obfuscated name: _if4cd9156baa739
 
 class a {
   constructor(e) {

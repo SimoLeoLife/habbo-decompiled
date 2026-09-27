@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 342236.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/ClubDiscountPromoExtension.as
-// Nome offuscato: _i9ae7a45195b169
+// Extracted from HabboAirLauncher.deobf.js, line 342236.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/ClubDiscountPromoExtension.as
+// Obfuscated name: _i9ae7a45195b169
 
 class a {
   static {
@@ -43,7 +43,7 @@ class a {
         let r = this._toolbar.inventory._rb6cef0460c1b1c;
         (r < 1440 &&
           r > 0 &&
-          ((this._r3874c88f71c422 = new _i05394ecc0c0c4d(r * 60 * 1e3, 1)),
+          ((this._r3874c88f71c422 = new UnkEventDispatcherWrapperSubclass_05394e(r * 60 * 1e3, 1)),
           this._r3874c88f71c422.addEventListener(DeBouncer._rf33144eac61595, this._r8e85ed0de6252c),
           this._r3874c88f71c422.start()),
           this.assignState(),
@@ -120,7 +120,7 @@ class a {
   animate(e) {
     e
       ? (this._rf55dddd6c8ea4e?.stop(),
-        (this._rf55dddd6c8ea4e = new _i05394ecc0c0c4d(15e3)),
+        (this._rf55dddd6c8ea4e = new UnkEventDispatcherWrapperSubclass_05394e(15e3)),
         this._rf55dddd6c8ea4e.addEventListener(DeBouncer.addEventListener, this._rd3fc565ff37c80),
         this._rf55dddd6c8ea4e.start())
       : (this._rf55dddd6c8ea4e?.stop(), (this._rf55dddd6c8ea4e = null), this._r7defa44c449ec1());
@@ -151,7 +151,7 @@ class a {
       (this._r2f26bd6fd1e3bd = 0));
   }
   _r62f2557fd48d4e() {
-    ((this._rcaf99c2dce245b = new _i05394ecc0c0c4d(25, 26)),
+    ((this._rcaf99c2dce245b = new UnkEventDispatcherWrapperSubclass_05394e(25, 26)),
       this._rcaf99c2dce245b.addEventListener(DeBouncer.addEventListener, this._r0c7da324149cb3),
       this._rcaf99c2dce245b.addEventListener(DeBouncer._rf33144eac61595, this._rb62b9bb802b1c4),
       this._rcaf99c2dce245b.start());
@@ -183,7 +183,7 @@ class a {
       (this._toolbar.connection?.send(
         new class_2154("DiscountPromo", "discount", "client.club.extend.discount.clicked"),
       ),
-      this._toolbar.connection?.send(new _i40c8cbe3cea2be()));
+      this._toolbar.connection?.send(new class_2868()));
   }, "_rf846e791bc205a");
   _rae86016742efb8 = n((e) => {
     let r = this._view?.findChildByName("promo_text");

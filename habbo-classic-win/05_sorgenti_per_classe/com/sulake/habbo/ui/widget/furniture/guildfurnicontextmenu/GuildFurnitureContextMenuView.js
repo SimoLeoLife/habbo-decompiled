@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 315018.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/guildfurnicontextmenu/GuildFurnitureContextMenuView.as
-// Nome offuscato: _i65279069478f2e
+// Extracted from HabboAirLauncher.deobf.js, line 315018.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/guildfurnicontextmenu/GuildFurnitureContextMenuView.as
+// Obfuscated name: _i65279069478f2e
 
 class extends FurnitureContextInfoView {
   constructor(r, t, i) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 251019.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/class_1978.as
-// Nome offuscato: _i8aa0f7d2c50476
+// Extracted from HabboAirLauncher.deobf.js, line 251019.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/class_1978.as
+// Obfuscated name: _i8aa0f7d2c50476
 
 class a extends ue {
   static {
@@ -18,7 +18,7 @@ class a extends ue {
   constructor(e, r = 0, t = null) {
     (super(e, r, t),
       (this._messageEvents = [
-        new _i644b29f3da956d(this._re9b7f5b939a11a),
+        new UnkMessageEvent_644b29(this._re9b7f5b939a11a),
         new class_2824(this._re78d34339c996e),
         new class_3772(this._r6bea55e05df9d2),
       ]));
@@ -64,7 +64,7 @@ class a extends ue {
     ((this.var_3307 |= 1 << e),
       this._rbc4feaa7e4d07c !== "" &&
         (this.var_3307 & 31) === 31 &&
-        (this.send(new _i6c3581b43177e9(this._rbc4feaa7e4d07c)), (this._rbc4feaa7e4d07c = "")));
+        (this.send(new UnkMessageComposer_1args_6c3581(this._rbc4feaa7e4d07c)), (this._rbc4feaa7e4d07c = "")));
   }
   send(e) {
     this._r6358b2bd53ae19?.connection.send(e);
@@ -227,7 +227,7 @@ ZXC\\CFOMOY`
     e.type === u.CLICK &&
       (this._r5175da2cb7ded9 !== "" &&
         this.var_3307 === 0 &&
-        (this.send(new _i6c3581b43177e9(this._r5175da2cb7ded9)), (this._r5175da2cb7ded9 = "")),
+        (this.send(new UnkMessageComposer_1args_6c3581(this._r5175da2cb7ded9)), (this._r5175da2cb7ded9 = "")),
       this.hide());
   }, "onWindowClose");
   hide() {

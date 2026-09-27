@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 68854.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/TextWindowUtils.as
-// Nome offuscato: _i1e518c34a37364
+// Extracted from HabboAirLauncher.deobf.js, line 68854.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/TextWindowUtils.as
+// Obfuscated name: _i1e518c34a37364
 
 class a {
   static {
@@ -8,7 +8,7 @@ class a {
   }
   static setHTMLLinkStyle(e, r, t, i, s = !0) {
     if (e == null) return;
-    let o = new _ib0061b42edfac2(),
+    let o = new UnkClass_b0061b(),
       d = { color: a.toHexString(r) },
       c = { color: a.toHexString(t) },
       f = { color: a.toHexString(i) },

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 227140.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/GuildMembersWindowCtrl.as
-// Nome offuscato: _i95783eae7683cb
+// Extracted from HabboAirLauncher.deobf.js, line 227140.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/GuildMembersWindowCtrl.as
+// Obfuscated name: _i95783eae7683cb
 
 class a {
   static {
@@ -11,7 +11,7 @@ class a {
   var_41;
   _window = null;
   _groupId = 0;
-  var_754 = new _i05394ecc0c0c4d(1e3, 1);
+  var_754 = new UnkEventDispatcherWrapperSubclass_05394e(1e3, 1);
   _data = null;
   _re407f68feaa7c1 = null;
   _loadingIcon = null;
@@ -356,7 +356,7 @@ class a {
       t.owner ||
       (t.member
         ? this.var_41?._rb02cf61da43355(r.id, this._data.groupId)
-        : this.var_41?.send(new _i7c06f8e9d30b13(this._data.groupId, t.userId)));
+        : this.var_41?.send(new UnkMessageComposer_2args_7c06f8(this._data.groupId, t.userId)));
   }, "_r019de7fe69d36a");
   _r98c39ebe237e49 = n((e) => {
     let r = e.target;
@@ -386,12 +386,12 @@ class a {
       t.owner ||
       this._data == null ||
       (t.blocked
-        ? this.var_41?.send(new _i8e8810e8ce9a4c(this._data.groupId, t.userId))
+        ? this.var_41?.send(new UnkMessageComposer_2args_8e8810(this._data.groupId, t.userId))
         : t.admin
-          ? this.var_41?.send(new _ifa4b75e22ed5b9(this._data.groupId, t.userId))
+          ? this.var_41?.send(new UnkMessageComposer_2args_fa4b75(this._data.groupId, t.userId))
           : t.member
-            ? this.var_41?.send(new _id34f337efc6435(this._data.groupId, t.userId))
-            : this.var_41?.send(new _i2f1a3ef69779ad(this._data.groupId, t.userId)));
+            ? this.var_41?.send(new UnkMessageComposer_2args_d34f33(this._data.groupId, t.userId))
+            : this.var_41?.send(new UnkMessageComposer_2args_2f1a3e(this._data.groupId, t.userId)));
   }, "_r9a81d375425a1f");
   _rd3faecd24fd0f8 = n((e, r) => {
     e.type === u.CLICK && this.var_41?.send(new class_2134(r.id));
@@ -404,7 +404,7 @@ class a {
     e.type === y.const_238 && this.doSearch(0);
   }, "onTypeDropmenu");
   _rb5acbb6ca3c0ea = n((e, r) => {
-    e.type === u.CLICK && this._data != null && this.var_41?.send(new _ib71115acb7b3bb(this._data.groupId));
+    e.type === u.CLICK && this._data != null && this.var_41?.send(new UnkMessageComposer_1args_b71115(this._data.groupId));
   }, "_rb5acbb6ca3c0ea");
   onSearchTimer = n((e) => {
     this._window?.visible && this.doSearch(0);

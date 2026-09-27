@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 353833.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/levelupper/LinearLevelUpper.as
-// Nome offuscato: _i4b3d4c68501bcd
+// Extracted from HabboAirLauncher.deobf.js, line 353833.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/levelupper/LinearLevelUpper.as
+// Obfuscated name: _i4b3d4c68501bcd
 
 class extends AbstractLevelUpConfig {
   constructor(r, t) {

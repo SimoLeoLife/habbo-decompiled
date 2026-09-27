@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 247876.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/OpenRoomInSpectatorMode.as
-// Nome offuscato: _i800668bea26789
+// Extracted from HabboAirLauncher.deobf.js, line 247876.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/OpenRoomInSpectatorMode.as
+// Obfuscated name: _i800668bea26789
 
 class {
   constructor(e, r, t) {

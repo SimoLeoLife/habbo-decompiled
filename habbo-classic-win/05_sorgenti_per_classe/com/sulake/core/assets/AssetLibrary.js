@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 57495.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/assets/AssetLibrary.as
-// Nome offuscato: _i897a65216cbef3
+// Extracted from HabboAirLauncher.deobf.js, line 57495.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/assets/AssetLibrary.as
+// Obfuscated name: _i897a65216cbef3
 
 class a extends Ft {
   constructor(r, t = rr("")) {
@@ -130,15 +130,15 @@ class a extends Ft {
     let f = this._r3a24ad2d48bfc0(o),
       l =
         f != null
-          ? new _i3e3f74903041d4(o, c.mimeType, this.buildCachedContent(c.mimeType, f), f, s)
-          : new _i46640d8c9d76bf(c.mimeType, s);
+          ? new UnkClass_3e3f74(o, c.mimeType, this.buildCachedContent(c.mimeType, f), f, s)
+          : new UnkClass_46640d(c.mimeType, s);
     (l.addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._r2336db808bb2e6),
       l.addEventListener(Le.ASSET_LOADER_EVENT_ERROR, this._r2336db808bb2e6),
       l.addEventListener(Le.ASSET_LOADER_EVENT_UNLOAD, this._r2336db808bb2e6),
       l.addEventListener(Le.ASSET_LOADER_EVENT_PROGRESS, this._r2336db808bb2e6),
       l.addEventListener(Le.ASSET_LOADER_EVENT_STATUS, this._r2336db808bb2e6),
       l.addEventListener(Le.ASSET_LOADER_EVENT_OPEN, this._r2336db808bb2e6));
-    let b = new _i747e83453460e9(r, l);
+    let b = new UnkClass_747e83(r, l);
     return (this._r3b0ca21e559b04.set(o, b), l.load(t), b);
   }
   getAssetByName(r) {
@@ -358,7 +358,7 @@ class a extends Ft {
     return r.startsWith("text/")
       ? ((i.position = 0), i.readUTFBytes(i.length))
       : r === "image/png"
-        ? ((i.position = 0), new _i3a5c6f457acdad(new _ifdd92074c780c7().decode(i)))
+        ? ((i.position = 0), new UnkClass_3a5c6f(new UnkClass_fdd920().decode(i)))
         : ((i.position = 0), i);
   }
   buildCacheFileBytes(r, t, i) {
@@ -446,20 +446,20 @@ class a extends Ft {
   static _re2d75a5591163c() {
     a._rd5d06597a46b0c == null &&
       (a._rd5d06597a46b0c = new Map([
-        ["application/octet-stream", new _i92fb003cfc8852("application/octet-stream", UnknownAsset, null, "bin")],
-        ["application/json", new _i92fb003cfc8852("application/json", UnknownAsset, null, "json")],
-        ["text/plain", new _i92fb003cfc8852("text/plain", iie, null, "txt")],
-        ["text/xml", new _i92fb003cfc8852("text/xml", Df, null, "xml")],
-        ["text/html", new _i92fb003cfc8852("text/html", Df, null, "htm", "html")],
-        ["image/png", new _i92fb003cfc8852("image/png", Qt, null, "png")],
-        ["image/jpeg", new _i92fb003cfc8852("image/jpeg", UnknownAsset, null, "jpg", "jpeg")],
-        ["image/gif", new _i92fb003cfc8852("image/gif", UnknownAsset, null, "gif")],
-        ["audio/mpeg", new _i92fb003cfc8852("audio/mpeg", B6, _i22998b55e65c88, "mp3")],
-        ["audio/mp3", new _i92fb003cfc8852("audio/mp3", B6, _i22998b55e65c88, "mp3")],
-        ["sound/mp3", new _i92fb003cfc8852("sound/mp3", B6, _i22998b55e65c88, "mp3")],
-        ["audio/ogg", new _i92fb003cfc8852("audio/ogg", B6, _i22998b55e65c88, "ogg")],
-        ["audio/wav", new _i92fb003cfc8852("audio/wav", B6, _i22998b55e65c88, "wav")],
-        ["audio/x-wav", new _i92fb003cfc8852("audio/x-wav", B6, _i22998b55e65c88, "wav")],
+        ["application/octet-stream", new UnkClass_92fb00("application/octet-stream", UnknownAsset, null, "bin")],
+        ["application/json", new UnkClass_92fb00("application/json", UnknownAsset, null, "json")],
+        ["text/plain", new UnkClass_92fb00("text/plain", iie, null, "txt")],
+        ["text/xml", new UnkClass_92fb00("text/xml", Df, null, "xml")],
+        ["text/html", new UnkClass_92fb00("text/html", Df, null, "htm", "html")],
+        ["image/png", new UnkClass_92fb00("image/png", Qt, null, "png")],
+        ["image/jpeg", new UnkClass_92fb00("image/jpeg", UnknownAsset, null, "jpg", "jpeg")],
+        ["image/gif", new UnkClass_92fb00("image/gif", UnknownAsset, null, "gif")],
+        ["audio/mpeg", new UnkClass_92fb00("audio/mpeg", B6, UnkClass_22998b, "mp3")],
+        ["audio/mp3", new UnkClass_92fb00("audio/mp3", B6, UnkClass_22998b, "mp3")],
+        ["sound/mp3", new UnkClass_92fb00("sound/mp3", B6, UnkClass_22998b, "mp3")],
+        ["audio/ogg", new UnkClass_92fb00("audio/ogg", B6, UnkClass_22998b, "ogg")],
+        ["audio/wav", new UnkClass_92fb00("audio/wav", B6, UnkClass_22998b, "wav")],
+        ["audio/x-wav", new UnkClass_92fb00("audio/x-wav", B6, UnkClass_22998b, "wav")],
       ]));
   }
 }

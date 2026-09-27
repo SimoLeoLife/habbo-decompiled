@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 217849.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/utils/Direction8.as
-// Nome offuscato: _i9da34c54331b7f
+// Extracted from HabboAirLauncher.deobf.js, line 217849.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/utils/Direction8.as
+// Obfuscated name: _i9da34c54331b7f
 
 class a {
   constructor(e, r, t, i) {

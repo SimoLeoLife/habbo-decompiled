@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 164763.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/common/AvatarEditorGridView.as
-// Nome offuscato: _i1de3fe29df8cdd
+// Extracted from HabboAirLauncher.deobf.js, line 164763.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/common/AvatarEditorGridView.as
+// Obfuscated name: _i1de3fe29df8cdd
 
 class a {
   static {

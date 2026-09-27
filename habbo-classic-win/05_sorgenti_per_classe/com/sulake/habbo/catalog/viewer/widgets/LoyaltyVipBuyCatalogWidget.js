@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 190448.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/LoyaltyVipBuyCatalogWidget.as
+// Extracted from HabboAirLauncher.deobf.js, line 190448.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/LoyaltyVipBuyCatalogWidget.as
 
 class extends CatalogWidget {
   static {
@@ -25,7 +25,7 @@ class extends CatalogWidget {
       ? ((this._offers = []),
         (this.var_63 = this._catalog._r5a5819a5decf89()),
         this.var_63.registerVisualization(this),
-        this.var_63.requestOffers(_id2bfaa31fdabf7._rb2c7506df019d4),
+        this.var_63.requestOffers(UnkConstants_d2bfaa._rb2c7506df019d4),
         !0)
       : !1;
   }

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 192057.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/PetsCatalogWidget.as
-// Nome offuscato: _i2aa67793cf48f9
+// Extracted from HabboAirLauncher.deobf.js, line 192057.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/PetsCatalogWidget.as
+// Obfuscated name: _i2aa67793cf48f9
 
 class extends CatalogWidget {
   constructor(r, t) {
@@ -96,9 +96,9 @@ class extends CatalogWidget {
   }
   _rd886c8bcbe0933 = n((r = null) => {
     if (this._rc63b0340e99313) return;
-    this.events?.dispatchEvent?.(new _i121d99a7e32a38(this._r7f47dd305b3bb7));
+    this.events?.dispatchEvent?.(new UnkClass_121d99(this._r7f47dd305b3bb7));
     let t = this._offers?.getWithIndex(0) ?? null;
-    (t != null && this.events?.dispatchEvent?.(new _idfee6137b0eb86(t)),
+    (t != null && this.events?.dispatchEvent?.(new UnkClass_dfee61(t)),
       this.events?.dispatchEvent?.(
         new CatalogWidgetColoursEvent(this._r1fed97381165b2.slice(), "ctlg_clr_27x22_1", "ctlg_clr_27x22_2", "ctlg_clr_27x22_3"),
       ));

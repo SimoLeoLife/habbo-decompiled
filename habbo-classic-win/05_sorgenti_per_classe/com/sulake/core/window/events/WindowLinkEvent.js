@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 66004.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/events/WindowLinkEvent.as
-// Nome offuscato: _i103754db5ae282
+// Extracted from HabboAirLauncher.deobf.js, line 66004.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/events/WindowLinkEvent.as
+// Obfuscated name: _i103754db5ae282
 
 class a extends y {
   static {

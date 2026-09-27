@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 340998.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/abstractsubmenu/AbstractSubMenuController.as
-// Nome offuscato: _id457b02a15b536
+// Extracted from HabboAirLauncher.deobf.js, line 340998.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/abstractsubmenu/AbstractSubMenuController.as
+// Obfuscated name: _id457b02a15b536
 
 class {
   static {

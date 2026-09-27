@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 357716.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_variable_overview/WiredMenuOverviewTab.as
-// Nome offuscato: _ie1a00f1b35c15e
+// Extracted from HabboAirLauncher.deobf.js, line 357716.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_variable_overview/WiredMenuOverviewTab.as
+// Obfuscated name: _ie1a00f1b35c15e
 
 class a extends WiredMenuDefaultTab {
   static {
@@ -36,7 +36,7 @@ class a extends WiredMenuDefaultTab {
       this.createVariableList(),
       this.createPropertiesTable(),
       this.createTextTable(),
-      this.addMessageEvent(new _id4ba75047d765c((t) => this.onAllVariableHolders(t))),
+      this.addMessageEvent(new UnkMessageEvent_d4ba75((t) => this.onAllVariableHolders(t))),
       this.highlightHoldersButton.addEventListener(u.CLICK, this._r2a9bc61bc84151),
       this.manageButton.addEventListener(u.CLICK, this._r276ff0bad02e5d),
       this.deleteButton.addEventListener(u.CLICK, this.onDeleteClick));
@@ -131,7 +131,7 @@ class a extends WiredMenuDefaultTab {
     ((this.var_4508 = _ia411d8d8194a3a()), this.controller._rf5e384520bc525.getAllVariables(this.var_423));
   }
   requestHolders() {
-    ((this.var_5070 = _ia411d8d8194a3a()), this.controller.send(new _i4ef6b032f45ef6(this.selectedVariableId)));
+    ((this.var_5070 = _ia411d8d8194a3a()), this.controller.send(new UnkMessageComposer_1args_4ef6b0(this.selectedVariableId)));
   }
   var_423 = n((e) => {
     ((this._allVariables = e), this._rb1888e9019ee7c ? this.updateLoadingState() : this.initializeInterface());
@@ -178,7 +178,7 @@ class a extends WiredMenuDefaultTab {
       t = null;
     for (let i of this._allVariables ?? []) {
       if (i.isInvisible || i.variableTarget !== this._r57e793aff829f9.selectedType) continue;
-      let s = new _i2c080e8e5a5aae(i, this.controller._r41f5cc7d3516ce);
+      let s = new UnkClass_2c080e(i, this.controller._r41f5cc7d3516ce);
       (i === this._rd998198c47dc35 && (t = s), r.push(s));
     }
     (this._rb0e5da68dbbd02._rb800e4dd98c360(r),
@@ -234,7 +234,7 @@ class a extends WiredMenuDefaultTab {
     let r = this._r9f0890ff639aee();
     r == null ||
       !this._r2dbae538d28312 ||
-      this.controller.send(new _icb14348d6e5af0(r.variableId, 1, _i50108c33681996.PAGE_SIZE, 0, -1));
+      this.controller.send(new UnkMessageComposer_5args_cb1434(r.variableId, 1, UnkConstants_50108c.PAGE_SIZE, 0, -1));
   }, "_r276ff0bad02e5d");
   onDeleteClick = n((e) => {
     if (!this._r503782e76f1eb9) return;
@@ -249,7 +249,7 @@ class a extends WiredMenuDefaultTab {
   _r0a36649014204a = n((e, r) => {
     (e.dispose(),
       !(r.type !== y.const_1300 || !this._r503782e76f1eb9) &&
-        (this.stopHighlight(), this.controller.send(new _i9bda7121a95267(this._r9f0890ff639aee().variableId))));
+        (this.stopHighlight(), this.controller.send(new UnkMessageComposer_1args_9bda71(this._r9f0890ff639aee().variableId))));
   }, "_r0a36649014204a");
   startHighlight() {
     ((this._highlightEnabled = !0),

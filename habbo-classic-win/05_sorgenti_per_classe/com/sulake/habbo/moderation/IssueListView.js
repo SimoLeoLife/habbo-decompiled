@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 249418.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/IssueListView.as
-// Nome offuscato: _i7b78c4930d7410
+// Extracted from HabboAirLauncher.deobf.js, line 249418.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/IssueListView.as
+// Obfuscated name: _i7b78c4930d7410
 
 class {
   constructor(e, r, t) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 182803.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/club/VipBenefitsWindow.as
-// Nome offuscato: _i2021392b2ee590
+// Extracted from HabboAirLauncher.deobf.js, line 182803.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/club/VipBenefitsWindow.as
+// Obfuscated name: _i2021392b2ee590
 
 class {
   static {

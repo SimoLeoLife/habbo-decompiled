@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 244907.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/HabboInventory.as
-// Nome offuscato: _i22a77772e782d2
+// Extracted from HabboAirLauncher.deobf.js, line 244907.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/HabboInventory.as
+// Obfuscated name: _i22a77772e782d2
 
 class extends ue {
   static {
@@ -74,15 +74,15 @@ class extends ue {
     ]);
   }
   initComponent() {
-    ((this._incomingMessages = new _ifffc223d172097___(this)),
+    ((this._incomingMessages = new UnkClass_fffc22__________(this)),
       this.context._r7e43d9f4706607(this),
       (this._r47f3cb1aa1ae77 = new class_1806(this._communication, this.events, this)),
       this._windowManager != null && (this._view = new rpe(this, this._windowManager, this.assets)),
-      this._communication?.connection.send(new _i591c5f10fa34d3()),
-      this._communication?.connection.send(new _i38fbd8de4844ea()),
-      this._communication?.connection.send(new _i6a30e753af0e10()),
-      this._communication?.connection.send(new _i78e5a6cee892f0("habbo_club")),
-      this._communication?.connection.send(new _i0be7dd9566680f()));
+      this._communication?.connection.send(new UnkMessageComposer_0args_591c5f()),
+      this._communication?.connection.send(new UnkMessageComposer_0args_38fbd8()),
+      this._communication?.connection.send(new UnkMessageComposer_0args_6a30e7()),
+      this._communication?.connection.send(new class_1869("habbo_club")),
+      this._communication?.connection.send(new class_2011()));
   }
   dispose() {
     if (!this.disposed) {
@@ -601,7 +601,7 @@ class extends ue {
       ),
       this._r85e5d4e839e693.add(
         class_2106.PETS,
-        new _i27a49090a9ceca(
+        new UnkClass_27a490(
           this._r16bea6ae6f8390(),
           this._windowManager,
           this._communication,
@@ -611,7 +611,7 @@ class extends ue {
       ),
       this._r85e5d4e839e693.add(
         class_2106.BOTS,
-        new _i3bf5e28ee38044(
+        new UnkClass_3bf5e2(
           this._r72f6faa332b954(),
           this._windowManager,
           this._communication,
@@ -622,7 +622,7 @@ class extends ue {
       ),
       this._r85e5d4e839e693.add(
         class_2106.COLLECTIBLES,
-        new _iba4c94629214f9(
+        new UnkClass_ba4c94(
           this._r02cdf3c271df23(),
           this._communication,
           this.assets,

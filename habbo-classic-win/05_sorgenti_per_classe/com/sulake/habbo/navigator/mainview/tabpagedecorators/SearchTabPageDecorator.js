@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 252478.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/tabpagedecorators/SearchTabPageDecorator.as
-// Nome offuscato: _ib8cae57a34e22f
+// Extracted from HabboAirLauncher.deobf.js, line 252478.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/tabpagedecorators/SearchTabPageDecorator.as
+// Obfuscated name: _ib8cae57a34e22f
 
 class {
   constructor(e) {

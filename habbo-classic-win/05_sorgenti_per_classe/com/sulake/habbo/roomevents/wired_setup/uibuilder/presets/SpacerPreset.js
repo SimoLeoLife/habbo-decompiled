@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 347692.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/SpacerPreset.as
-// Nome offuscato: _i1ccbae7544152a
+// Extracted from HabboAirLauncher.deobf.js, line 347692.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/SpacerPreset.as
+// Obfuscated name: _i1ccbae7544152a
 
 class extends WiredUIPreset {
   static {

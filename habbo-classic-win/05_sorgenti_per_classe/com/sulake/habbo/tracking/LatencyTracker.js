@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 181900.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/tracking/LatencyTracker.as
-// Nome offuscato: _i31caa08e5a4bc6
+// Extracted from HabboAirLauncher.deobf.js, line 181900.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/tracking/LatencyTracker.as
+// Obfuscated name: _i31caa08e5a4bc6
 
 class {
   static {
@@ -48,7 +48,7 @@ class {
   onPingResponse(e) {
     if (this._r3023b068d82b58 == null || this._latencyValues == null || this._r49621084c4a423 == null)
       return;
-    let r = ClassUtils.getParser(e, _ic88079c8b8ede5);
+    let r = ClassUtils.getParser(e, UnkMessageParser_I_c88079);
     if (r == null) return;
     let t = this._r3023b068d82b58.getValue(r.requestId);
     if (t == null) return;
@@ -72,7 +72,7 @@ class {
       let f = Math.trunc(o / d);
       if (Math.abs(c - this.var_4082) > this.var_5521 || this.var_4082 === 0) {
         this.var_4082 = c;
-        let l = new _if3d6cb2d92f53a(c, f, this._latencyValues.length);
+        let l = new class_3369(c, f, this._latencyValues.length);
         this._r49621084c4a423.send(l);
       }
       this._latencyValues = [];

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 82662.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/variablefx/VariableFxStatusModelData.as
-// Nome offuscato: _i7d1168d84081c2
+// Extracted from HabboAirLauncher.deobf.js, line 82662.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/variablefx/VariableFxStatusModelData.as
+// Obfuscated name: _i7d1168d84081c2
 
 class a {
   constructor(e, r) {

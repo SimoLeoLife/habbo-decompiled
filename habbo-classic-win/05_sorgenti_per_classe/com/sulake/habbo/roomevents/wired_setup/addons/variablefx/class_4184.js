@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 362525.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/class_4184.as
-// Nome offuscato: _ide8973f47e57a7
+// Extracted from HabboAirLauncher.deobf.js, line 362525.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/class_4184.as
+// Obfuscated name: _ide8973f47e57a7
 
 class extends class_4106 {
   static {
@@ -10,7 +10,7 @@ class extends class_4106 {
     return AddonCodes.VARIABLE_FX_LEVELLING_PROGRESS;
   }
   get categoryId() {
-    return _i3b0b1a104db30e._r09950f0f2ac684;
+    return UnkClass_3b0b1a._r09950f0f2ac684;
   }
   createTopInfoPreset(e) {
     return e.createUsageInfoSection("${wiredfurni.params.variablefx.levelling_progress.info}");

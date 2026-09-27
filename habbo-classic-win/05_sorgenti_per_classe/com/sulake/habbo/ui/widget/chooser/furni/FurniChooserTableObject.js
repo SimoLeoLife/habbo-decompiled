@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 312211.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chooser/furni/FurniChooserTableObject.as
-// Nome offuscato: _i42c6f04c087d37
+// Extracted from HabboAirLauncher.deobf.js, line 312211.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chooser/furni/FurniChooserTableObject.as
+// Obfuscated name: _i42c6f04c087d37
 
 class {
   constructor(e) {

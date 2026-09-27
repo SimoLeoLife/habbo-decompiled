@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 289675.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/number/NumberDisplayRendererBase.as
-// Nome offuscato: _i6efbc504472990
+// Extracted from HabboAirLauncher.deobf.js, line 289675.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/number/NumberDisplayRendererBase.as
+// Obfuscated name: _i6efbc504472990
 
 class {
   static {
@@ -10,7 +10,7 @@ class {
   _r37488543afd048;
   var_4256 = {};
   _rcbebc9526bcd7e;
-  _frame = new _i5ec3143bd5c7df();
+  _frame = new UnkClass_5ec314();
   _icon;
   var_4642;
   var_3292 = "";

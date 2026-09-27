@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 231639.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/HabboWayQuizController.as
-// Nome offuscato: _ia57b98dae89605
+// Extracted from HabboAirLauncher.deobf.js, line 231639.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/HabboWayQuizController.as
+// Obfuscated name: _ia57b98dae89605
 
 class a {
   constructor(e) {
@@ -48,10 +48,10 @@ class a {
     return this._disposed;
   }
   _r8a1993ef7d8317() {
-    this._habboHelp?._rb13ed3a89b85ae(new _i2aab97f8361721(a.HABBO_WAY_QUIZ_CODE));
+    this._habboHelp?._rb13ed3a89b85ae(new UnkMessageComposer_1args_2aab97(a.HABBO_WAY_QUIZ_CODE));
   }
   _rb99f6f4b9af8d6() {
-    this._habboHelp?._rb13ed3a89b85ae(new _i2aab97f8361721(a.SAFETY_QUIZ_CODE));
+    this._habboHelp?._rb13ed3a89b85ae(new UnkMessageComposer_1args_2aab97(a.SAFETY_QUIZ_CODE));
   }
   _rc945f4bc23fedd = n((e) => {
     let r = ClassUtils.getParser(e, class_2636);
@@ -235,7 +235,7 @@ class a {
   setCurrentQuestion(e) {
     if (e >= this.questionCount) {
       this._habboHelp?._rb13ed3a89b85ae(
-        new _i77c58ef847037c(
+        new UnkMessageComposer_2args_77c58e(
           this._quizCode,
           this.var_1835.map((s) => s ?? 0),
         ),

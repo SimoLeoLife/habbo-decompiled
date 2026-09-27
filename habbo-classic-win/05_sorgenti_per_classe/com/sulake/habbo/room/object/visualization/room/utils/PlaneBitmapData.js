@@ -1,13 +1,13 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 50044.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/utils/PlaneBitmapData.as
-// Nome offuscato: _i47495cdaf483e0
+// Extracted from HabboAirLauncher.deobf.js, line 50044.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/utils/PlaneBitmapData.as
+// Obfuscated name: _i47495cdaf483e0
 
 class extends Sprite {
   constructor(r, t) {
     super();
     this._scale9Grid = r;
     this._r270ad72a30994f = t;
-    ((this._bitmap = new _i3a5c6f457acdad()),
+    ((this._bitmap = new UnkClass_3a5c6f()),
       (this._r95924cff37cc3c = this._r270ad72a30994f.width),
       (this._r27bd3ec1cffb1b = this._r270ad72a30994f.height),
       this.addChild(this._bitmap),

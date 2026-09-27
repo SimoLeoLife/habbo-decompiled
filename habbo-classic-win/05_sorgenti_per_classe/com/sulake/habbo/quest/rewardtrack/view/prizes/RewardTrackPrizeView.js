@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 266733.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/prizes/RewardTrackPrizeView.as
-// Nome offuscato: _i10c01de1628146
+// Extracted from HabboAirLauncher.deobf.js, line 266733.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/prizes/RewardTrackPrizeView.as
+// Obfuscated name: _i10c01de1628146
 
 class a {
   static {
@@ -22,7 +22,7 @@ class a {
     ((this.var_63 = e), (this.var_292 = r), (this._rab287109183752 = t), this.refresh());
   }
   refresh() {
-    ((this.productIcon.widget.productInfo = new _i4a83021938f554(this._rab287109183752)),
+    ((this.productIcon.widget.productInfo = new UnkClass_4a8302(this._rab287109183752)),
       (this.quantityContainer.visible = this._rab287109183752.rewardAmount > 1),
       (this._r7a92be0108a816.text = String(this._rab287109183752.rewardAmount)),
       (this.productIcon.y =

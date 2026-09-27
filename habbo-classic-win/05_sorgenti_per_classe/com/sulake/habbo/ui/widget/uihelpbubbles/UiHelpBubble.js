@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 326652.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/uihelpbubbles/UiHelpBubble.as
-// Nome offuscato: _i1ed6da471a3c64
+// Extracted from HabboAirLauncher.deobf.js, line 326652.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/uihelpbubbles/UiHelpBubble.as
+// Obfuscated name: _i1ed6da471a3c64
 
 class {
   constructor(e, r, t) {

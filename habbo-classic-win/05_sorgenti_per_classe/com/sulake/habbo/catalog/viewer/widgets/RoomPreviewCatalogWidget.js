@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 194888.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/RoomPreviewCatalogWidget.as
-// Nome offuscato: _i5ec124401ee52b
+// Extracted from HabboAirLauncher.deobf.js, line 194888.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/RoomPreviewCatalogWidget.as
+// Obfuscated name: _i5ec124401ee52b
 
 class extends CatalogWidget {
   static {
@@ -32,7 +32,7 @@ class extends CatalogWidget {
     );
   }
   _r953e33111bd217(e, r) {
-    !this.disposed && e && this.events?.dispatchEvent?.(new _i402cad4748bdc2(!1, r));
+    !this.disposed && e && this.events?.dispatchEvent?.(new UnkClass_402cad(!1, r));
   }
   imageReady(e, r) {
     if (!this.disposed) {

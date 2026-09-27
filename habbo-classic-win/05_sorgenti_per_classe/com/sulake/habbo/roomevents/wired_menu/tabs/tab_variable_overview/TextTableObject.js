@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 357658.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_variable_overview/TextTableObject.as
-// Nome offuscato: _i837e74ffde12ad
+// Extracted from HabboAirLauncher.deobf.js, line 357658.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_variable_overview/TextTableObject.as
+// Obfuscated name: _i837e74ffde12ad
 
 class {
   constructor(e, r) {

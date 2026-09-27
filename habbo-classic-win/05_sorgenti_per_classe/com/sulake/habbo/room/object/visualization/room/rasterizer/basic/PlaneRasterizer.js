@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 283155.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/rasterizer/basic/PlaneRasterizer.as
-// Nome offuscato: _i409db2025a9976
+// Extracted from HabboAirLauncher.deobf.js, line 283155.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/rasterizer/basic/PlaneRasterizer.as
+// Obfuscated name: _i409db2025a9976
 
 class a {
   static {
@@ -85,8 +85,8 @@ class a {
       for (let t of r) {
         if (!this._r291a932119ee17(t) || !da.checkRequiredAttributes(t, ["size"])) continue;
         let i = this.parsePlaneMaterialCells(t, "size"),
-          s = this.parseMaskBitmaps(t, "horizontalAngle", _i6095d43a6309e2._r9519ddaa6bb42e),
-          o = this.parseMaskBitmaps(t, "verticalAngle", _i6095d43a6309e2._rd71d30b14bb04d),
+          s = this.parseMaskBitmaps(t, "horizontalAngle", UnkPlaneSubclass_6095d4._r9519ddaa6bb42e),
+          o = this.parseMaskBitmaps(t, "verticalAngle", UnkPlaneSubclass_6095d4._rd71d30b14bb04d),
           d = t.child("visualizationLayer").toArray(),
           c = e.createPlaneVisualization(i, d.length, this.getGeometry(i, s, o));
         if (c != null)
@@ -96,7 +96,7 @@ class a {
             let b = String(l.attribute("materialId") ?? ""),
               _ = b.length > 0 ? this.PlaneDrawingData(b) : null,
               h = this.parsePlaneMaterialCells(l, "offset", pl.DEFAULT_OFFSET),
-              p = this.parsePlaneMaterialCells(l, "color", _i6095d43a6309e2.DEFAULT_COLOR),
+              p = this.parsePlaneMaterialCells(l, "color", UnkPlaneSubclass_6095d4.DEFAULT_COLOR),
               v = String(l.attribute("align") ?? "") === "bottom" ? pl.ALIGN_BOTTOM : pl.ALIGN_TOP;
             c.setLayer(f, _, p, v, h);
           }

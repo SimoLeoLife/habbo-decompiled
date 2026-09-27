@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 193950.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/franksemotions/FrankRecyclerEmotion.as
-// Nome offuscato: _ic17bf475d2c9f2
+// Extracted from HabboAirLauncher.deobf.js, line 193950.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/franksemotions/FrankRecyclerEmotion.as
+// Obfuscated name: _ic17bf475d2c9f2
 
 class a {
   constructor(e) {
@@ -41,7 +41,7 @@ class a {
       (e.addChild(this._bitmap),
       (this._startTime = Date.now()),
       (this.var_3995 = this._bitmap.y),
-      (this.var_382 = new _i05394ecc0c0c4d(1e3 / 60)),
+      (this.var_382 = new UnkEventDispatcherWrapperSubclass_05394e(1e3 / 60)),
       this.var_382.addEventListener(DeBouncer.addEventListener, this.onTick),
       this.var_382.start());
   }

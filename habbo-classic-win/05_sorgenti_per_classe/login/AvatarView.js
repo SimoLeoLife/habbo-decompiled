@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 156634.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/login/AvatarView.as
-// Nome offuscato: _idef684cb055ee2
+// Extracted from HabboAirLauncher.deobf.js, line 156634.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/login/AvatarView.as
+// Obfuscated name: _idef684cb055ee2
 
 class extends Sprite {
   constructor(r) {
@@ -46,10 +46,10 @@ class extends Sprite {
       this._rcbd72301749d81.addChild(this._re2b835e51ac513),
       this._rcbd72301749d81.addChild(this._rb9678cbbdfb915),
       Tr._re6097546621e3d(r, 15 - r.height, this._rb9678cbbdfb915, 20, this._re2b835e51ac513),
-      (this._avatarGlow = new _i3a5c6f457acdad(_i4406f2f280a16f("avatar_glow_png"))),
+      (this._avatarGlow = new UnkClass_3a5c6f(_i4406f2f280a16f("avatar_glow_png"))),
       (this._avatarGlow.blendMode = ie.ADD),
       (this._avatarGlow.visible = !1),
-      (this.var_1013 = new _i3a5c6f457acdad(_i4406f2f280a16f("avatar_halo_png"))),
+      (this.var_1013 = new UnkClass_3a5c6f(_i4406f2f280a16f("avatar_halo_png"))),
       (this.var_1013.blendMode = ie._r107d7b1bac2f9f),
       (this.var_1013.visible = !1),
       this.addTitleField(),
@@ -63,12 +63,12 @@ class extends Sprite {
       let i = r[t];
       if (t > 6) break;
       let s = new Sprite(),
-        o = new _i3a5c6f457acdad(_i4406f2f280a16f("placeholder_avatar_png"));
+        o = new UnkClass_3a5c6f(_i4406f2f280a16f("placeholder_avatar_png"));
       (s.addChild(o),
         this._r3a5389d52ead36.push(s),
         this.addChild(s),
         (s.name = String(t)),
-        s.addEventListener(_ifd7c1208e3417e.CLICK, this._r47706054ec8552),
+        s.addEventListener(UnkClass_fd7c12.CLICK, this._r47706054ec8552),
         (s.x = (t + 1) * this._spaceBetweenImages + t * 100),
         (s.y = 50),
         this._r1fc212f444f396(s, o, i));
@@ -87,7 +87,7 @@ class extends Sprite {
       let s = await Uy._r6dc693b333c923(this.getAvatarUrl(i));
       if (s == null) return;
       (r.contains(t) && r.removeChild(t),
-        r.addChild(new _i3a5c6f457acdad(s)),
+        r.addChild(new UnkClass_3a5c6f(s)),
         this._avatarGlow != null && (this._avatarGlow.visible = !0),
         this.var_1013 != null && (this.var_1013.visible = !0),
         this._r5b23125648139f(this._r3a5389d52ead36[this._rae18e668311e09]));
@@ -174,7 +174,7 @@ class extends Sprite {
     t != null && this._context._ra107d59ede6be8(t);
   }, "_r058b77f59e5c26");
   ChatHistoryScrollBar = n((r) => {
-    let t = new _i05394ecc0c0c4d(20, 1);
+    let t = new UnkEventDispatcherWrapperSubclass_05394e(20, 1);
     (t.addEventListener(DeBouncer._rf33144eac61595, this._r3652bb4f2af925), t.start());
   }, "ChatHistoryScrollBar");
   _r3652bb4f2af925 = n((r) => {

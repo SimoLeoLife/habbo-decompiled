@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 307231.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/DecorateModeView.as
-// Nome offuscato: _ie20aa5fa58d118
+// Extracted from HabboAirLauncher.deobf.js, line 307231.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/DecorateModeView.as
+// Obfuscated name: _ie20aa5fa58d118
 
 class extends AvatarContextInfoButtonView {
   static {

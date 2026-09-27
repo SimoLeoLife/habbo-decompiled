@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 137300.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/utils/ChildEntityArray.as
-// Nome offuscato: _i5f1beebae443d1
+// Extracted from HabboAirLauncher.deobf.js, line 137300.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/utils/ChildEntityArray.as
+// Obfuscated name: _i5f1beebae443d1
 
 class extends class_4347 {
   static {

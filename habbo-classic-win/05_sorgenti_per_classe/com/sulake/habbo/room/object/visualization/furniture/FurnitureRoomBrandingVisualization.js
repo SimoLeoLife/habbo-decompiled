@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 279481.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureRoomBrandingVisualization.as
-// Nome offuscato: _i7516a4400c4aac
+// Extracted from HabboAirLauncher.deobf.js, line 279481.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureRoomBrandingVisualization.as
+// Obfuscated name: _i7516a4400c4aac
 
 class a extends Pc {
   static {

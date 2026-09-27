@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 280046.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureWaterAreaVisualization.as
-// Nome offuscato: _ib7e16c22bce345
+// Extracted from HabboAirLauncher.deobf.js, line 280046.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureWaterAreaVisualization.as
+// Obfuscated name: _ib7e16c22bce345
 
 class a extends Pa {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 172307.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/BundleProductContainer.as
-// Nome offuscato: _i6956f9cc3a8fa9
+// Extracted from HabboAirLauncher.deobf.js, line 172307.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/BundleProductContainer.as
+// Obfuscated name: _i6956f9cc3a8fa9
 
 class extends I0 {
   static {

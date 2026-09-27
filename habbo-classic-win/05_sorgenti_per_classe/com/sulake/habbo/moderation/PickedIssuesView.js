@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 249542.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/PickedIssuesView.as
-// Nome offuscato: _i291dc03cc69aea
+// Extracted from HabboAirLauncher.deobf.js, line 249542.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/PickedIssuesView.as
+// Obfuscated name: _i291dc03cc69aea
 
 class {
   constructor(e, r, t) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 324942.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/playlisteditor/PlayListEditorWidget.as
-// Nome offuscato: _ia4595a858c8a71
+// Extracted from HabboAirLauncher.deobf.js, line 324942.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/playlisteditor/PlayListEditorWidget.as
+// Obfuscated name: _ia4595a858c8a71
 
 class a extends RoomWidgetBase {
   constructor(r, t, i, s = null, o = null, d = null, c = null) {
@@ -78,7 +78,7 @@ class a extends RoomWidgetBase {
       (t = (t % a._r4f9c470c65c6dd) + a._re56532ea804b80),
       (i = (i % a._r912caf8d33a46d) + a._r936bc9cd8a2163),
       (s = (s % a._r9a282172e16334) + a._ra2c6ded23a2a2d),
-      new _i4210dc3239901d(t / 255, i / 255, s / 255)
+      new UnkClass_4210dc(t / 255, i / 255, s / 255)
     );
   }
   _r9dda2f0a86966c(r) {
@@ -104,15 +104,15 @@ class a extends RoomWidgetBase {
   }
   _r436bff01c15f8f(r) {
     let t = this._soundManager?.soundManager,
-      i = t?._r1e81274f76e6d5(_ia57980bbc2be8f._r91444358db0d2d) ?? -1;
+      i = t?._r1e81274f76e6d5(UnkConstants_a57980._r91444358db0d2d) ?? -1;
     if (i !== -1) {
       let s = t?._r716cd8f1931469(i);
       s?._r551c6e37b9b07d != null && (s._r551c6e37b9b07d._r754bf5401e8707 = 0);
     }
-    t?._r327803e778efff(r, _ia57980bbc2be8f._r741ad58ad5e51a, 0, 0, 0, 0);
+    t?._r327803e778efff(r, UnkConstants_a57980._r741ad58ad5e51a, 0, 0, 0, 0);
   }
   _rb2da6120579a49() {
-    this._soundManager?.soundManager?.stop(_ia57980bbc2be8f._r741ad58ad5e51a);
+    this._soundManager?.soundManager?.stop(UnkConstants_a57980._r741ad58ad5e51a);
   }
   _rac43efd7337d8b(r) {
     return this.assets?.getAssetByName(r)?.content?.clone() ?? null;
@@ -120,7 +120,7 @@ class a extends RoomWidgetBase {
   retrieveWidgetImage(r) {
     let t = this._configuration?.getProperty("image.library.playlist.url") ?? "";
     this.assets
-      ?.loadAssetFromFile(r, new _i636490202c0f9a(`${t}${r}.gif`), "image/gif")
+      ?.loadAssetFromFile(r, new UnkClass_636490(`${t}${r}.gif`), "image/gif")
       ?.addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._re63c2704996dde);
   }
   _r4f2d526fec5f12() {

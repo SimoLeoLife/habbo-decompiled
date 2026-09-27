@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 222006.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/ui/GameArenaView.as
-// Nome offuscato: _i8934c5d3273a99
+// Extracted from HabboAirLauncher.deobf.js, line 222006.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/ui/GameArenaView.as
+// Obfuscated name: _i8934c5d3273a99
 
 class a {
   constructor(e) {
@@ -34,7 +34,7 @@ class a {
       this._re58e6162b5e9f9?.dispose(),
       (this._re58e6162b5e9f9 = null),
       this._r448919959a600d != null &&
-        (this._r448919959a600d.removeEventListener(_ifd7c1208e3417e.var_370, this._r063deefec1fad5),
+        (this._r448919959a600d.removeEventListener(UnkClass_fd7c12.var_370, this._r063deefec1fad5),
         (this._r448919959a600d = null)),
       (this.var_1678 = []),
       (this._rd9a4b477089b96 = []),
@@ -66,7 +66,7 @@ class a {
       (this._rc48cb7ca67aee6._r5e3ef8a2b11d2a != null &&
         (this._rc48cb7ca67aee6._r5e3ef8a2b11d2a.visible = !1),
         (this._r448919959a600d = this._rc48cb7ca67aee6.context?.dispatchEvent?.stage ?? null),
-        this._r448919959a600d?.addEventListener(_ifd7c1208e3417e.var_370, this._r063deefec1fad5));
+        this._r448919959a600d?.addEventListener(UnkClass_fd7c12.var_370, this._r063deefec1fad5));
     }
   }
   _rd0e38177616a5f(e) {

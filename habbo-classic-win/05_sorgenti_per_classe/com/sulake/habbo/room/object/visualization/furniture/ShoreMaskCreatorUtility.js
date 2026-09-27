@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 279892.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/ShoreMaskCreatorUtility.as
-// Nome offuscato: _i32a211069af09a
+// Extracted from HabboAirLauncher.deobf.js, line 279892.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/ShoreMaskCreatorUtility.as
+// Obfuscated name: _i32a211069af09a
 
 class a {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 61866.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_48/JSONDecoder.as
-// Nome offuscato: _ib3222cfc97e3a2
+// Extracted from HabboAirLauncher.deobf.js, line 61866.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_48/JSONDecoder.as
+// Obfuscated name: _ib3222cfc97e3a2
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 317503.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/friendfurni/FriendFurniEngravingView.as
-// Nome offuscato: _i6b2c24eeb663c0
+// Extracted from HabboAirLauncher.deobf.js, line 317503.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/friendfurni/FriendFurniEngravingView.as
+// Obfuscated name: _i6b2c24eeb663c0
 
 class a {
   static {
@@ -117,7 +117,7 @@ class a {
         e.invalidate());
     } else if (e.setDisplayObject !== void 0) {
       let f = e,
-        l = new _i3a5c6f457acdad();
+        l = new UnkClass_3a5c6f();
       ((l.bitmapData = r), f.setDisplayObject(l));
     }
   }

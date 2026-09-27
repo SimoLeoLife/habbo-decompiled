@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 340963.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/BottomBackgroundBorder.as
-// Nome offuscato: _if687f0b68f6963
+// Extracted from HabboAirLauncher.deobf.js, line 340963.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/BottomBackgroundBorder.as
+// Obfuscated name: _if687f0b68f6963
 
 class {
   static {

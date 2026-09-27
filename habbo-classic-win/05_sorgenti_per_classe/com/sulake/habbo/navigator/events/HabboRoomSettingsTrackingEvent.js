@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158842.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/events/HabboRoomSettingsTrackingEvent.as
-// Nome offuscato: _ied3e1a0245233d
+// Extracted from HabboAirLauncher.deobf.js, line 158842.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/events/HabboRoomSettingsTrackingEvent.as
+// Obfuscated name: _ied3e1a0245233d
 
 class {
   static {

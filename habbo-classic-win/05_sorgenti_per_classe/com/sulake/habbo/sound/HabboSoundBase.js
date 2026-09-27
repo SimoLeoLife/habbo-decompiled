@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 337292.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/HabboSoundBase.as
-// Nome offuscato: _if98cddcc8836a1
+// Extracted from HabboAirLauncher.deobf.js, line 337292.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/HabboSoundBase.as
+// Obfuscated name: _if98cddcc8836a1
 
 class {
   static {
@@ -55,7 +55,7 @@ class {
     ((this._volume = e), this.setChannelVolume(e));
   }
   setChannelVolume(e) {
-    this._soundObject != null && (this._soundObject._r24165a2568d0c7 = new _i366982a182b463(e));
+    this._soundObject != null && (this._soundObject._r24165a2568d0c7 = new UnkClass_366982(e));
   }
   get position() {
     return this._soundObject?.position ?? 0;

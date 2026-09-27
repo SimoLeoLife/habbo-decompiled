@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 216560.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/class_3626.as
-// Nome offuscato: _i0739d382225a0b
+// Extracted from HabboAirLauncher.deobf.js, line 216560.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/class_3626.as
+// Obfuscated name: _i0739d382225a0b
 
 class {
   static {
@@ -37,7 +37,7 @@ class {
     this.var_122 == null ||
       this._friendList == null ||
       e.view == null ||
-      ((e.view.color = this._friendList._r6dce2f14add5ec._rc2e3809e8c04e6(_ia4c17117df4f10._rfadb4d8e33d276, r)),
+      ((e.view.color = this._friendList._r6dce2f14add5ec._rc2e3809e8c04e6(UnkConstants_a4c171._rfadb4d8e33d276, r)),
       this.setButtonBg(e.view, "reject"),
       this.setButtonBg(e.view, "accept"));
   }

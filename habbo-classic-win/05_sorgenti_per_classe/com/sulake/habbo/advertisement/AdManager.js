@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 162587.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/advertisement/AdManager.as
-// Nome offuscato: _i4c0eeb7d9fbd02
+// Extracted from HabboAirLauncher.deobf.js, line 162587.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/advertisement/AdManager.as
+// Obfuscated name: _i4c0eeb7d9fbd02
 
 class a extends ue {
   static {
@@ -43,7 +43,7 @@ class a extends ue {
       }),
     );
     let e = this.getProperty("ads.domain");
-    e !== "" && _id4273840e749f2.loadPolicyFile(`http://${e}/crossdomain.xml`);
+    e !== "" && UnkClass_d42738.loadPolicyFile(`http://${e}/crossdomain.xml`);
     let r = this.getProperty("billboard.adwarning.left.url"),
       t = this.getProperty("billboard.adwarning.right.url"),
       i = this.getProperty("image.library.url");
@@ -93,7 +93,7 @@ class a extends ue {
     )
       return;
     o.push(new AdImageRequest(e, i, s, r, t));
-    let d = new _i636490202c0f9a(i),
+    let d = new UnkClass_636490(i),
       c = this.assets.loadAssetFromFile(i, d, "image/png");
     (c.addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, (f) => {
       this._r91c7cd3cb51804(f);
@@ -103,7 +103,7 @@ class a extends ue {
       }));
   }
   _r79a979aaf6cb29(e, r, t) {
-    let i = new _i636490202c0f9a(r);
+    let i = new UnkClass_636490(r);
     this.assets.loadAssetFromFile(e, i, "image/png").addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, (o) => {
       t(o);
     });
@@ -183,7 +183,7 @@ class a extends ue {
   _rade9458ca68b72(e) {
     return e instanceof A
       ? e
-      : e instanceof _i3a5c6f457acdad || this._r4f1e2fb0a800e6(e)
+      : e instanceof UnkClass_3a5c6f || this._r4f1e2fb0a800e6(e)
         ? e.bitmapData
         : this._r756964d8871c83(e)
           ? this._rade9458ca68b72(e.content)

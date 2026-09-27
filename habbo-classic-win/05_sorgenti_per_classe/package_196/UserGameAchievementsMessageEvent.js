@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 85066.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_196/UserGameAchievementsMessageEvent.as
-// Nome offuscato: _ic909ad7273decb
+// Extracted from HabboAirLauncher.deobf.js, line 85066.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_196/UserGameAchievementsMessageEvent.as
+// Obfuscated name: _ic909ad7273decb
 
 class extends MessageEvent {
     static {

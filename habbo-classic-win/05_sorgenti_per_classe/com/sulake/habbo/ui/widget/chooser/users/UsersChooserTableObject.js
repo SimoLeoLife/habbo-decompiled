@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 312493.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chooser/users/UsersChooserTableObject.as
-// Nome offuscato: _i3e724795fb6d96
+// Extracted from HabboAirLauncher.deobf.js, line 312493.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chooser/users/UsersChooserTableObject.as
+// Obfuscated name: _i3e724795fb6d96
 
 class {
   constructor(e) {

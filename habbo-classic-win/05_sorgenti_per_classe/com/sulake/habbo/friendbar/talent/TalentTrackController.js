@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 210694.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/talent/TalentTrackController.as
-// Nome offuscato: _i9c741afed6d979
+// Extracted from HabboAirLauncher.deobf.js, line 210694.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/talent/TalentTrackController.as
+// Obfuscated name: _i9c741afed6d979
 
 class a {
   static {
@@ -41,12 +41,12 @@ class a {
       }),
     ),
       this._habboTalent?._rf3db13932bfb60?._r2e106e2349a0b6(
-        new _i71ce07f1d9b7d6((e) => {
+        new UnkMessageEvent_71ce07((e) => {
           this.onGroupDetails(e);
         }),
       ),
       this._habboTalent?._rf3db13932bfb60?._r2e106e2349a0b6(
-        new _ie9ed5c966609e8((e) => {
+        new UnkMessageEvent_e9ed5c((e) => {
           this.onEmailStatus(e);
         }),
       ),
@@ -322,7 +322,7 @@ class a {
           (f.procedure = (l) => {
             this._r2f027ae11ae9f9(l);
           }),
-          this._habboTalent?.send(new _i5d612eaa458bb5()),
+          this._habboTalent?.send(new UnkMessageComposer_0args_5d612e()),
           this.setEmailErrorStatus(!1));
       }
     }
@@ -340,7 +340,7 @@ class a {
         case Vl.const_653: {
           this.closeAndLog(r.name);
           let t = this._habboTalent?.getInteger("guide.help.alpha.groupid", 0) ?? 0;
-          t > 0 && ((this._r47c9b98a757eb7 = t), this._habboTalent?.send(new _i494540f04bf21d(t, !1)));
+          t > 0 && ((this._r47c9b98a757eb7 = t), this._habboTalent?.send(new class_1949(t, !1)));
           break;
         }
         case Vl.const_655:
@@ -352,8 +352,8 @@ class a {
           break;
         case Vl.const_174:
           (this.closeAndLog(r.name),
-            this._habboTalent?.avatarEditor?._rdaf967f79ea08a(_ic723960da8d613._r4a110ddb22fcf1, null, null, !0),
-            this._habboTalent?.avatarEditor?._rb825ef6be7b35c(_ic723960da8d613._r4a110ddb22fcf1));
+            this._habboTalent?.avatarEditor?._rdaf967f79ea08a(UnkConstants_c72396._r4a110ddb22fcf1, null, null, !0),
+            this._habboTalent?.avatarEditor?._rb825ef6be7b35c(UnkConstants_c72396._r4a110ddb22fcf1));
           break;
       }
   }
@@ -394,7 +394,7 @@ class a {
       this._habboTalent?.tracking?.trackGoogle("newbieTourWindow", "click_refuseTour"));
   }
   setText(e) {
-    e.type === u.CLICK && this._habboTalent?.send(new _i16b46cb7122b10(this.getEmailText()?.text ?? ""));
+    e.type === u.CLICK && this._habboTalent?.send(new UnkMessageComposer_1args_16b46c(this.getEmailText()?.text ?? ""));
   }
   _r2f027ae11ae9f9(e) {
     e.type === y.const_962 && this.setEmailErrorStatus(!1);

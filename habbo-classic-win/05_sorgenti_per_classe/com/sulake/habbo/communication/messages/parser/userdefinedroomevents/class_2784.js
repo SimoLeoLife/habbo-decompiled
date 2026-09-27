@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 126127.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/userdefinedroomevents/class_2784.as
-// Nome offuscato: _ic909b52b32226f
+// Extracted from HabboAirLauncher.deobf.js, line 126127.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/userdefinedroomevents/class_2784.as
+// Obfuscated name: _ic909b52b32226f
 
 class {
     static {
@@ -33,7 +33,7 @@ class {
           w = e.readLong(),
           I = e.readInteger();
         for (let C = 0; C < I; C++) i.add(e.readString(), e.readString());
-        this.var_692.push(new _i4ba2041f482297(s, o, d, c, f, l, b, _, h, p, m, v, w, i));
+        this.var_692.push(new UnkClass_4ba204(s, o, d, c, f, l, b, _, h, p, m, v, w, i));
       }
       return !0;
     }

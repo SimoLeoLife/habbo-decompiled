@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 265007.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/AchievementResolutionProgressView.as
-// Nome offuscato: _i9128f8e1ce3f9f
+// Extracted from HabboAirLauncher.deobf.js, line 265007.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/AchievementResolutionProgressView.as
+// Obfuscated name: _i9128f8e1ce3f9f
 
 class a {
   constructor(e) {

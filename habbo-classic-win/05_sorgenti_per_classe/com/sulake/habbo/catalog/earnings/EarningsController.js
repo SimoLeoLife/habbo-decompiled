@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 180452.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/earnings/EarningsController.as
-// Nome offuscato: _i81f3d4b76e3fcd
+// Extracted from HabboAirLauncher.deobf.js, line 180452.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/earnings/EarningsController.as
+// Obfuscated name: _i81f3d4b76e3fcd
 
 class extends ue {
   static {

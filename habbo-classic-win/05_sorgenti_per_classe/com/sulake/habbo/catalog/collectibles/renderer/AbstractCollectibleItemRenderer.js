@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 174452.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/renderer/AbstractCollectibleItemRenderer.as
-// Nome offuscato: _ia1f54ca54221ee
+// Extracted from HabboAirLauncher.deobf.js, line 174452.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/collectibles/renderer/AbstractCollectibleItemRenderer.as
+// Obfuscated name: _ia1f54ca54221ee
 
 class {
   constructor(e, r, t) {

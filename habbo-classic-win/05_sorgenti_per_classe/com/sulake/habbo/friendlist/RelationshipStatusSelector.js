@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 215520.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/RelationshipStatusSelector.as
-// Nome offuscato: _ie359c5d6d7037d
+// Extracted from HabboAirLauncher.deobf.js, line 215520.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/RelationshipStatusSelector.as
+// Obfuscated name: _ie359c5d6d7037d
 
 class {
   static {

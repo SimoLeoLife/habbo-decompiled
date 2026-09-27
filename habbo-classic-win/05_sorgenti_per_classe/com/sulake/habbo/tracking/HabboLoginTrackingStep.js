@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145137.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/tracking/HabboLoginTrackingStep.as
-// Nome offuscato: _ib9db25ba5bb458
+// Extracted from HabboAirLauncher.deobf.js, line 145137.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/tracking/HabboLoginTrackingStep.as
+// Obfuscated name: _ib9db25ba5bb458
 
 class {
   static {

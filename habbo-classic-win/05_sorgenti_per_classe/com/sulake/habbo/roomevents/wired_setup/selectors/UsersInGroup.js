@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 368211.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/selectors/UsersInGroup.as
-// Nome offuscato: _i0a887c435a5b8c
+// Extracted from HabboAirLauncher.deobf.js, line 368211.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/selectors/UsersInGroup.as
+// Obfuscated name: _i0a887c435a5b8c
 
 class a extends DefaultSelectorType {
   static {
@@ -46,7 +46,7 @@ class a extends DefaultSelectorType {
   _rabd0908fce4e71() {
     let e = Date.now();
     e > this.var_4837 + 1e3 * a.REQUEST_TIMEOUT &&
-      ((this.var_4837 = e), this._r41f5cc7d3516ce.send(new _i7e48847e87b1ec()));
+      ((this.var_4837 = e), this._r41f5cc7d3516ce.send(new UnkMessageComposer_0args_7e4884()));
   }
   _r59ccf8a09e0742(e) {
     let r = [];

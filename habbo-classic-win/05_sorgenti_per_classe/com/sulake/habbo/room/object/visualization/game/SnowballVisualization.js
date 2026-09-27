@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 280428.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/game/SnowballVisualization.as
-// Nome offuscato: _i0bb384571b8eca
+// Extracted from HabboAirLauncher.deobf.js, line 280428.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/game/SnowballVisualization.as
+// Obfuscated name: _i0bb384571b8eca
 
 class a extends bb {
   static {
@@ -11,7 +11,7 @@ class a extends bb {
   static const_987 = 16;
   _r9425ff6094578f = null;
   initialize(e) {
-    if (!(e instanceof _i66eb785a68df77)) return !1;
+    if (!(e instanceof UnkClass_66eb78)) return !1;
     ((this._r9425ff6094578f = e), this._r68dbc243d37d4a(2));
     let r = this.getSprite(0),
       t = this.getSprite(1),

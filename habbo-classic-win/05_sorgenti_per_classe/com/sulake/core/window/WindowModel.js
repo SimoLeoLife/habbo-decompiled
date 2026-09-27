@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 128887.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/WindowModel.as
-// Nome offuscato: _i19c2b7aa5197f4
+// Extracted from HabboAirLauncher.deobf.js, line 128887.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/WindowModel.as
+// Obfuscated name: _i19c2b7aa5197f4
 
 class a {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 335576.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/FurniIconImageManager.as
-// Nome offuscato: _ibf6442cab0de8c
+// Extracted from HabboAirLauncher.deobf.js, line 335576.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/FurniIconImageManager.as
+// Obfuscated name: _ibf6442cab0de8c
 
 class a {
   constructor(e, r, t, i) {
@@ -50,7 +50,7 @@ class a {
         .replace("%typeid%", i)
         .replace("%param%", o.hasIndexedColor ? `_${o.colourIndex}` : "");
     if (!this._rb6b8150f17c66d.hasKey(s)) {
-      let c = this._assets?.loadAssetFromFile(s, new _i636490202c0f9a(d), "image/png") ?? null;
+      let c = this._assets?.loadAssetFromFile(s, new UnkClass_636490(d), "image/png") ?? null;
       (this._rb6b8150f17c66d.add(s, [e, r, t]),
         c?.addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._re3a21345c1fd5c),
         c?.addEventListener(Le.ASSET_LOADER_EVENT_ERROR, this._r47a7f41627e9b1));

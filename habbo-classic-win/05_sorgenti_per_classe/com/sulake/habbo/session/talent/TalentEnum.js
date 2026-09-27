@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145328.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/talent/TalentEnum.as
-// Nome offuscato: _ifa72c25c14e1ee
+// Extracted from HabboAirLauncher.deobf.js, line 145328.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/talent/TalentEnum.as
+// Obfuscated name: _ifa72c25c14e1ee
 
 class a {
   static {

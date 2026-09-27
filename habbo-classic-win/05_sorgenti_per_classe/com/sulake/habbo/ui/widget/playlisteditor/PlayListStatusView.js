@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 324654.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/playlisteditor/PlayListStatusView.as
-// Nome offuscato: _if0ac1127ca58f1
+// Extracted from HabboAirLauncher.deobf.js, line 324654.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/playlisteditor/PlayListStatusView.as
+// Obfuscated name: _if0ac1127ca58f1
 
 class a {
   constructor(e, r) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 343317.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/settings/WordFilterSettingsView.as
-// Nome offuscato: _ia79883c0fbd2af
+// Extracted from HabboAirLauncher.deobf.js, line 343317.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/settings/WordFilterSettingsView.as
+// Obfuscated name: _ia79883c0fbd2af
 
 class {
   static {
@@ -61,7 +61,7 @@ class {
       this._window.findChildByName("back_btn")?.addEventListener(u.CLICK, this.onCloseButtonClick),
       (this.var_1358 = this._window.findChildByName("add_word_input")),
       (this._rb4d50006335087 = this._window.findChildByName("wordlist")),
-      this._toolbar.connection?.send(new _i4353025774e3ae()));
+      this._toolbar.connection?.send(new class_2370()));
   }
   _r7dac9e349ff515 = n((e) => {
     let r = ClassUtils.getParser(e, ModifyCustomFilterResultMessageEventParser);
@@ -112,7 +112,7 @@ class {
     let r = this.var_1358.text;
     r.length > 0 &&
       !this._rfd03bc8894bb8c.includes(r) &&
-      (this._toolbar.connection?.send(new _i9b16f6efcf0c1c(r)),
+      (this._toolbar.connection?.send(new UnkMessageComposer_1args_9b16f6(r)),
       (this.var_1358.text = ""),
       (this.var_376 = -1));
   }, "_rdcd864de560f2d");
@@ -120,7 +120,7 @@ class {
     if (this._toolbar == null || this._rb4d50006335087 == null || this.var_376 < 0) return;
     let t =
       this._rb4d50006335087.getListItemAt(this.var_376)?.findChildByName("text")?.caption ?? "";
-    t.length !== 0 && ((this.var_376 = -1), this._toolbar.connection?.send(new _i554493ea6e3661(t)));
+    t.length !== 0 && ((this.var_376 = -1), this._toolbar.connection?.send(new UnkMessageComposer_1args_554493(t)));
   }, "_r7f5822d23b3305");
   refreshColorsAfterClick(e) {
     for (let r = 0; r < this._rfd03bc8894bb8c.length; r++) {

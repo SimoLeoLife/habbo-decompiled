@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 276144.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/data/AnimationSizeData.as
-// Nome offuscato: _i2cd50a958f5d00
+// Extracted from HabboAirLauncher.deobf.js, line 276144.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/data/AnimationSizeData.as
+// Obfuscated name: _i2cd50a958f5d00
 
 class extends HQ {
   static {

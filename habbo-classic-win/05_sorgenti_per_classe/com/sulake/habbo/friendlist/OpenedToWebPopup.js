@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 216064.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/OpenedToWebPopup.as
-// Nome offuscato: _ib23a6197e97189
+// Extracted from HabboAirLauncher.deobf.js, line 216064.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendlist/OpenedToWebPopup.as
+// Obfuscated name: _ib23a6197e97189
 
 class {
   static {
@@ -16,7 +16,7 @@ class {
     (this.var_725 != null && this.close(null),
       (this.var_725 = this.getOpenedToWebAlert()),
       this.var_382?.stop(),
-      (this.var_382 = new _i05394ecc0c0c4d(2e3, 1)),
+      (this.var_382 = new UnkEventDispatcherWrapperSubclass_05394e(2e3, 1)),
       this.var_382.addEventListener(DeBouncer.addEventListener, this.close.bind(this)),
       this.var_382.start(),
       (this.var_725.x = e),

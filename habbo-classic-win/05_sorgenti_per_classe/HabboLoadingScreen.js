@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 378332.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/HabboLoadingScreen.as
-// Nome offuscato: _ia68bad6e02f1e5
+// Extracted from HabboAirLauncher.deobf.js, line 378332.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/HabboLoadingScreen.as
+// Obfuscated name: _ia68bad6e02f1e5
 
 class a extends Sprite {
   static {
@@ -223,7 +223,7 @@ class a extends Sprite {
     (this.removeEventListener(M._scrollBar, this.ChatHistoryScrollBar),
       this.stage?.addEventListener(M.RESIZE, this.onResize),
       this.positionLoadingScreenDisplayElements(),
-      (this.var_677 = new _i05394ecc0c0c4d(750)),
+      (this.var_677 = new UnkEventDispatcherWrapperSubclass_05394e(750)),
       this.var_677.addEventListener(DeBouncer.addEventListener, this._rb366db0be66767),
       this.var_677.start());
   }, "ChatHistoryScrollBar");

@@ -1,8 +1,8 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 299906.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureJukeboxLogic.as
-// Nome offuscato: _i5b6a182d13dae6
+// Extracted from HabboAirLauncher.deobf.js, line 299906.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureJukeboxLogic.as
+// Obfuscated name: _i5b6a182d13dae6
 
-class extends _ieead78a21202a2 {
+class extends UnkClass_eead78 {
   static {
     n(this, "FurnitureJukeboxLogic");
   }
@@ -28,7 +28,7 @@ class extends _ieead78a21202a2 {
         this.object.getModelController()._ra3dc9a405b5c73(RoomObjectVariableEnum.const_420) !== 1 ||
         (this.var_217 || this.requestInit(),
         this.object.getModelController().setString(RoomWidgetInfostandExtraParamEnum.INFOSTAND_EXTRAPARAM, RoomWidgetInfostandExtraParamEnum.INFOSTAND_EXTRAPARAM_JUKEBOX),
-        !(e instanceof _i39f7ecd6ab9902)))
+        !(e instanceof UnkRoomObjectUpdateMessageSubclass_39f7ec)))
     )
       return;
     let r = this.object.getState(0);
@@ -37,7 +37,7 @@ class extends _ieead78a21202a2 {
   }
   mouseEvent(e, r) {
     if (!(e == null || r == null || this.object == null)) {
-      if (e.type === _ifd7c1208e3417e.DOUBLE_CLICK) {
+      if (e.type === UnkClass_fd7c12.DOUBLE_CLICK) {
         this._rce2b5eb85a79e0();
         return;
       }

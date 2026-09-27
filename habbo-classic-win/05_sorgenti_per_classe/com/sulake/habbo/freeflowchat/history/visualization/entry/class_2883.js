@@ -1,8 +1,8 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 200634.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/history/visualization/entry/class_2883.as
-// Nome offuscato: _iacdfacc0f5faaf
+// Extracted from HabboAirLauncher.deobf.js, line 200634.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/history/visualization/entry/class_2883.as
+// Obfuscated name: _iacdfacc0f5faaf
 
-class extends _i3a5c6f457acdad {
+class extends UnkClass_3a5c6f {
   static {
     n(this, "class_2883");
   }

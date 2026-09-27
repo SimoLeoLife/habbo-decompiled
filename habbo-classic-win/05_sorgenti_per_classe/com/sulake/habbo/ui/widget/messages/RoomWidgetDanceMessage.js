@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161538.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetDanceMessage.as
-// Nome offuscato: _i40433dc1e20340
+// Extracted from HabboAirLauncher.deobf.js, line 161538.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetDanceMessage.as
+// Obfuscated name: _i40433dc1e20340
 
 class a extends RoomWidgetMessage {
   static {

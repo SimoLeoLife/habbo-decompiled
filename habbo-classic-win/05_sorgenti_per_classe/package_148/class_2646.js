@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 106782.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_148/class_2646.as
-// Nome offuscato: _idae8f03dcd308f
+// Extracted from HabboAirLauncher.deobf.js, line 106782.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_148/class_2646.as
+// Obfuscated name: _idae8f03dcd308f
 
 class {
     static {
@@ -23,7 +23,7 @@ class {
       let r = e.readInteger();
       for (let t = 0; t < r; t++) this._tasks.push(new Vl(e));
       r = e.readInteger();
-      for (let t = 0; t < r; t++) this.var_3051.push(new _ia3a76c6302167a(e));
+      for (let t = 0; t < r; t++) this.var_3051.push(new UnkClass_a3a76c(e));
       r = e.readInteger();
       for (let t = 0; t < r; t++) this.class_4223.push(new class_4223(e));
     }

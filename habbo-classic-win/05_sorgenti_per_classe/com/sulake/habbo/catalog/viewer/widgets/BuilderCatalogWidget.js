@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 188175.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/BuilderCatalogWidget.as
-// Nome offuscato: _id4eb1fa5394551
+// Extracted from HabboAirLauncher.deobf.js, line 188175.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/BuilderCatalogWidget.as
+// Obfuscated name: _id4eb1fa5394551
 
 class extends CatalogWidget {
   constructor(r, t) {
@@ -28,7 +28,7 @@ class extends CatalogWidget {
         ? (this._window != null && (this._window.visible = !1), !0)
         : (this._rf41d8647ee8a39 == null &&
             this._catalog.connection != null &&
-            ((this._rf41d8647ee8a39 = new _i93d26d58cde8a4(this._r012a216d88af74)),
+            ((this._rf41d8647ee8a39 = new UnkMessageEvent_93d26d(this._r012a216d88af74)),
             this._catalog.connection.addMessageEvent(this._rf41d8647ee8a39)),
           this._rd7318259311b4b(CatalogWidgetEnum.BUILDER),
           this.updateButtons(),
@@ -65,37 +65,37 @@ class extends CatalogWidget {
   updateButtons(r = !1) {
     if (this._window == null || !this._window.visible) return;
     let t = this._catalog._r4886fce2d9cf5b(this._offer);
-    t === _i7f58a6295d71c9._r521743e2877155 && r && (t = _i7f58a6295d71c9._rb2488512c80ca7);
+    t === UnkConstants_7f58a6._r521743e2877155 && r && (t = UnkConstants_7f58a6._rb2488512c80ca7);
     let i = this._window.findChildByName("place_one"),
       s = this._window.findChildByName("place_many"),
       o = this._window.findChildByName("error_container"),
       d = this._window.findChildByName("error_icon"),
       c = this._window.findChildByName("error_message");
-    if (t === _i7f58a6295d71c9._rb2488512c80ca7) {
+    if (t === UnkConstants_7f58a6._rb2488512c80ca7) {
       (i?.enable(), s?.enable(), o != null && (o.visible = !1));
       return;
     }
     switch ((i?.disable(), s?.disable(), o != null && (o.visible = !0), t)) {
-      case _i7f58a6295d71c9._r2e2ab9b5b6918f:
+      case UnkConstants_7f58a6._r2e2ab9b5b6918f:
         o != null && (o.visible = !1);
         break;
-      case _i7f58a6295d71c9._r4a67fffe7b2e4a:
+      case UnkConstants_7f58a6._r4a67fffe7b2e4a:
         (d && (d.assetUri = "icons_builder_error_furnilimit"),
           c && (c.caption = "${builder.placement_widget.error.limit_reached}"));
         break;
-      case _i7f58a6295d71c9._r510144065b67f3:
+      case UnkConstants_7f58a6._r510144065b67f3:
         (d && (d.assetUri = "icons_builder_error_notroom"),
           c && (c.caption = "${builder.placement_widget.error.not_in_room}"));
         break;
-      case _i7f58a6295d71c9._r521743e2877155:
+      case UnkConstants_7f58a6._r521743e2877155:
         (d && (d.assetUri = "icons_builder_error_room"),
           c && (c.caption = "${builder.placement_widget.error.not_group_admin}"));
         break;
-      case _i7f58a6295d71c9._rbc8ee12966cb3e:
+      case UnkConstants_7f58a6._rbc8ee12966cb3e:
         (d && (d.assetUri = "icons_builder_error_grouproom"),
           c && (c.caption = "${builder.placement_widget.error.group_room}"));
         break;
-      case _i7f58a6295d71c9._r256230159e7116:
+      case UnkConstants_7f58a6._r256230159e7116:
         (d && (d.assetUri = "icons_builder_error_userinroom"),
           c && (c.caption = "${builder.placement_widget.error.visitors}"));
         break;

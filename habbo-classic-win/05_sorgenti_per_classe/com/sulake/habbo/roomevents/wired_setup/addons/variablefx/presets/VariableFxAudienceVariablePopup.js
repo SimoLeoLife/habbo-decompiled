@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 353568.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/presets/VariableFxAudienceVariablePopup.as
-// Nome offuscato: _i5265c346ac78f8
+// Extracted from HabboAirLauncher.deobf.js, line 353568.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/presets/VariableFxAudienceVariablePopup.as
+// Obfuscated name: _i5265c346ac78f8
 
 class a extends WiredUIPreset {
   static {

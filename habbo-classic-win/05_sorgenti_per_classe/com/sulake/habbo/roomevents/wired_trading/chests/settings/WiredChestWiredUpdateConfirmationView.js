@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 371585.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/settings/WiredChestWiredUpdateConfirmationView.as
-// Nome offuscato: _i3ceba6cee5ae9f
+// Extracted from HabboAirLauncher.deobf.js, line 371585.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/settings/WiredChestWiredUpdateConfirmationView.as
+// Obfuscated name: _i3ceba6cee5ae9f
 
 class {
   constructor(e) {

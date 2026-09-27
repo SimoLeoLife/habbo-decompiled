@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 262817.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/HabboNotificationItem.as
-// Nome offuscato: _i7ef92326c57e36
+// Extracted from HabboAirLauncher.deobf.js, line 262817.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/HabboNotificationItem.as
+// Obfuscated name: _i7ef92326c57e36
 
 class {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 314044.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/friendrequest/FriendRequestWidget.as
-// Nome offuscato: _i4a4d87dfc39421
+// Extracted from HabboAirLauncher.deobf.js, line 314044.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/friendrequest/FriendRequestWidget.as
+// Obfuscated name: _i4a4d87dfc39421
 
 class extends RoomWidgetBase {
   static {

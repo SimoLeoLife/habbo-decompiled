@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 59194.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/exceptions/Exception.as
-// Nome offuscato: _i910756d2bbad1a
+// Extracted from HabboAirLauncher.deobf.js, line 59194.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/exceptions/Exception.as
+// Obfuscated name: _i910756d2bbad1a
 
 class a extends Error {
   static {

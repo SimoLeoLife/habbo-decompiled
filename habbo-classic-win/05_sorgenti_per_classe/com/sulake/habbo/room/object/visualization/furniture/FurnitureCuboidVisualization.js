@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 277681.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureCuboidVisualization.as
-// Nome offuscato: _ic20945b9d0adc7
+// Extracted from HabboAirLauncher.deobf.js, line 277681.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureCuboidVisualization.as
+// Obfuscated name: _ic20945b9d0adc7
 
 class extends bb {
   static {

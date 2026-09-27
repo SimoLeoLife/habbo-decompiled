@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 280460.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/pet/PetAnimationSizeData.as
-// Nome offuscato: _i70e5afc24f50b7
+// Extracted from HabboAirLauncher.deobf.js, line 280460.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/pet/PetAnimationSizeData.as
+// Obfuscated name: _i70e5afc24f50b7
 
 class a extends AnimationSizeData {
   static {

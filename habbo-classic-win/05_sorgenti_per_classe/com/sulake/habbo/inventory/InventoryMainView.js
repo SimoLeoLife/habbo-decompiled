@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 241496.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/InventoryMainView.as
-// Nome offuscato: _if01ec582044adb
+// Extracted from HabboAirLauncher.deobf.js, line 241496.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/InventoryMainView.as
+// Obfuscated name: _if01ec582044adb
 
 class a {
   static {

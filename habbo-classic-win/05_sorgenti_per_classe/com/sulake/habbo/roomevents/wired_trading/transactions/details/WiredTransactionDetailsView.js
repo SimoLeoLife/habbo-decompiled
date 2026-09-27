@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 374534.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/transactions/details/WiredTransactionDetailsView.as
-// Nome offuscato: _i2cb4068e1db3a1
+// Extracted from HabboAirLauncher.deobf.js, line 374534.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/transactions/details/WiredTransactionDetailsView.as
+// Obfuscated name: _i2cb4068e1db3a1
 
 class a {
   constructor(e, r) {

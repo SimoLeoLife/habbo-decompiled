@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 317842.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/mannequin/MannequinWidget.as
-// Nome offuscato: _ie4eb1e1696637d
+// Extracted from HabboAirLauncher.deobf.js, line 317842.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/mannequin/MannequinWidget.as
+// Obfuscated name: _ie4eb1e1696637d
 
 class a extends RoomWidgetBase {
   static {
@@ -254,7 +254,7 @@ class a extends RoomWidgetBase {
     e != null && (e.text = "");
   }
   _rc61b63090f2cf1() {
-    this.handler.container?.connection?.send(new _i51aaafbed7ebd3(this.var_2287));
+    this.handler.container?.connection?.send(new UnkMessageComposer_1args_51aaaf(this.var_2287));
   }
   _r26bb83f13ec17f() {
     let e = this._re24f2cd8fd8262();

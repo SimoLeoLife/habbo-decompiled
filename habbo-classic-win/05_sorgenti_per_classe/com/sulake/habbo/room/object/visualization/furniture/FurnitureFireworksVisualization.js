@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 278649.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureFireworksVisualization.as
-// Nome offuscato: _i54e53e0b3b7496
+// Extracted from HabboAirLauncher.deobf.js, line 278649.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureFireworksVisualization.as
+// Obfuscated name: _i54e53e0b3b7496
 
 class extends Pa {
   static {

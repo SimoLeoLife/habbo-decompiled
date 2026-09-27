@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 141629.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/WidgetWindowController.as
-// Nome offuscato: _i449f268347d783
+// Extracted from HabboAirLauncher.deobf.js, line 141629.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/WidgetWindowController.as
+// Obfuscated name: _i449f268347d783
 
 class extends st {
   static {

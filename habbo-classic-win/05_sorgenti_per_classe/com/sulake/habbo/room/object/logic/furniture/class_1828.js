@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 299561.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/class_1828.as
-// Nome offuscato: _ia4c380f0e5de2b
+// Extracted from HabboAirLauncher.deobf.js, line 299561.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/class_1828.as
+// Obfuscated name: _ia4c380f0e5de2b
 
 class a extends _X {
   static {
@@ -15,7 +15,7 @@ class a extends _X {
   }
   processUpdateMessage(e) {
     super.processUpdateMessage(e);
-    let r = e instanceof _i39f7ecd6ab9902 ? e : null,
+    let r = e instanceof UnkRoomObjectUpdateMessageSubclass_39f7ec ? e : null,
       t = r?.data instanceof Bc ? r.data : null;
     if (r != null && t != null && this.object != null) {
       let s = t.getValue(a.VISUALS_KEY) ?? "";

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 248334.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/UserInfoFrameCtrl.as
-// Nome offuscato: _i71af277ba73585
+// Extracted from HabboAirLauncher.deobf.js, line 248334.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/UserInfoFrameCtrl.as
+// Obfuscated name: _i71af277ba73585
 
 class {
   constructor(e, r, t = null) {

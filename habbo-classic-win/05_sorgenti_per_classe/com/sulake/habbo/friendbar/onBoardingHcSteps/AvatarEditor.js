@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 214343.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/onBoardingHcSteps/AvatarEditor.as
-// Nome offuscato: _i2aecae64b181bd
+// Extracted from HabboAirLauncher.deobf.js, line 214343.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/onBoardingHcSteps/AvatarEditor.as
+// Obfuscated name: _i2aecae64b181bd
 
 class a extends Sprite {
   constructor(r) {
@@ -209,7 +209,7 @@ class a extends Sprite {
   _r09e195c24e7f24() {
     let r = this._context._r878bcc7ad74c8f(),
       t = this._context._rbd0bee33837168();
-    ((this._r598195a2143af4 = new _i3a5c6f457acdad()),
+    ((this._r598195a2143af4 = new UnkClass_3a5c6f()),
       (this._r598195a2143af4.x = r + Math.trunc(t / 2) + 15),
       (this._r598195a2143af4.y = 90),
       (this._r598195a2143af4.scaleX = 2),
@@ -258,7 +258,7 @@ class a extends Sprite {
       i = new Sprite();
     ((i.y = 105),
       (this._rc5dd892036d53e = new RadioButtonGroup(this._r48acd042fc85a6)),
-      (this._ra62ba0221a247e = new _i005ccc085f3c54(
+      (this._ra62ba0221a247e = new UnkSpriteSubclass_005ccc(
         this._context.getLocalization("gender.male", "Male"),
         this._rc5dd892036d53e,
         Yi.STYLE_HITCH,
@@ -267,7 +267,7 @@ class a extends Sprite {
         8231575,
       )),
       (this._ra62ba0221a247e.name = a._r3da5f1ce0028b3),
-      (this._r47ce5a7ef17dba = new _i005ccc085f3c54(
+      (this._r47ce5a7ef17dba = new UnkSpriteSubclass_005ccc(
         this._context.getLocalization("gender.female", "Female"),
         this._rc5dd892036d53e,
         Yi.STYLE_HITCH,
@@ -290,7 +290,7 @@ class a extends Sprite {
       )),
       this.addChild(this.var_533),
       (this.var_533.x = r + Math.trunc((t - this.var_533.width) / 2) + 20),
-      (this.var_854 = new _ia35e79954d9cca(0, -10, this._r94e229b119ccb0, 14211288)),
+      (this.var_854 = new UnkButtonSubclass_a35e79(0, -10, this._r94e229b119ccb0, 14211288)),
       i.addChild(this.var_854),
       Yi._ra6a743b365aafe(this._ra62ba0221a247e, 60, this._r47ce5a7ef17dba, 30, this.var_854));
     let s = Yi.createTextField("bottomText", 12, Yi.HITCH_TEXT_HIGHLIGHT_COLOUR, !0, !0, !1, !1);
@@ -333,7 +333,7 @@ class a extends Sprite {
         o.length > 1 && this._rf363293a00054f.set(_, [...o]);
         let h = c * 50 + c * 10,
           p = t * 53 + t * 10,
-          m = new _ic3aafb30a3697a(h, p, this._r617daa248473b0),
+          m = new UnkButtonSubclass_c3aafb(h, p, this._r617daa248473b0),
           v = r
             ? (this._context._rf0eb5f07c94cfb?._r274f6640e76241(
                 l.concat(o).join("-"),
@@ -435,7 +435,7 @@ class a extends Sprite {
       }
   }
   _ra0b08a4d054377(r, t) {
-    let i = new _i87eab2e94f4a7a(0, 0, this._r5ea3444a7199a3, 16777215, r.rgb);
+    let i = new UnkButtonSubclass_87eab2(0, 0, this._r5ea3444a7199a3, 16777215, r.rgb);
     return (
       (i.name = `${t}_${r.id}`),
       i.setColor(r.rgb),
@@ -535,7 +535,7 @@ class a extends Sprite {
   }, "_r617daa248473b0");
   _rc61b63090f2cf1 = n((r) => {
     (this._context._rf3db13932bfb60?.connection.send(
-      new _i4a93efd1b68d0b(this.getFigure(), this.var_106.toLowerCase()),
+      new UnkMessageComposer_2args_4a93ef(this.getFigure(), this.var_106.toLowerCase()),
     ),
       this._context._re06c8ac1f787e4());
   }, "_rc61b63090f2cf1");

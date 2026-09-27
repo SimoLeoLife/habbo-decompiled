@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 275441.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/data/AnimationFrameSequenceData.as
-// Nome offuscato: _ia0054c2ae8a3b4
+// Extracted from HabboAirLauncher.deobf.js, line 275441.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/data/AnimationFrameSequenceData.as
+// Obfuscated name: _ia0054c2ae8a3b4
 
 class {
   constructor(e, r) {

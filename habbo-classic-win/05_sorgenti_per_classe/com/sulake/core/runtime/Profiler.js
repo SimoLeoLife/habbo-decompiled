@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 59675.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/Profiler.as
-// Nome offuscato: _i3bed5e6aff3f32
+// Extracted from HabboAirLauncher.deobf.js, line 59675.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/runtime/Profiler.as
+// Obfuscated name: _i3bed5e6aff3f32
 
 class a extends ue {
   static {

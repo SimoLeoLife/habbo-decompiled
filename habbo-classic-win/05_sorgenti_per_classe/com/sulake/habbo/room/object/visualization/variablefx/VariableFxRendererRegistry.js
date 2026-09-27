@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 290100.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/VariableFxRendererRegistry.as
-// Nome offuscato: _i96287a438137a5
+// Extracted from HabboAirLauncher.deobf.js, line 290100.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/VariableFxRendererRegistry.as
+// Obfuscated name: _i96287a438137a5
 
 class a {
   static {
@@ -27,32 +27,32 @@ class a {
       t.registerRendererFactory("StackedHealthPointsRenderer", (s) => new gwe(s)),
       t.registerRendererFactory("StripedProgressBarRenderer", (s) => new uwe(s)),
       t.registerRendererFactory("ThermometerHealthPointsRenderer", (s) => new hwe(s)),
-      t.register(_i3b0b1a104db30e._r15f6a61625d9ea, class_2881.CLASSIC_PROGRESS, t._rendererFactories.ClassicProgressBarRenderer),
-      t.register(_i3b0b1a104db30e._r15f6a61625d9ea, class_2881.CLASSIC_MINI_PROGRESS, t._rendererFactories.ClassicMiniProgressBarRenderer),
-      t.register(_i3b0b1a104db30e._r15f6a61625d9ea, class_2881.BLOCK_PROGRESS, t._rendererFactories.BlockProgressBarRenderer),
-      t.register(_i3b0b1a104db30e._r15f6a61625d9ea, class_2881.STRIPED_PROGRESS, t._rendererFactories.StripedProgressBarRenderer),
-      t.register(_i3b0b1a104db30e._r15f6a61625d9ea, class_2881.ARROW_PROGRESS, t._rendererFactories.ArrowProgressBarRenderer),
-      t.register(_i3b0b1a104db30e._rf9b6e93d22ffa0, class_2881.BLOCK_PROGRESS, t._rendererFactories.BlockProgressBarRenderer),
-      t.register(_i3b0b1a104db30e._rf9b6e93d22ffa0, class_2881.STRIPED_PROGRESS, t._rendererFactories.StripedProgressBarRenderer),
-      t.register(_i3b0b1a104db30e._rf9b6e93d22ffa0, class_2881.ARROW_PROGRESS, t._rendererFactories.ArrowProgressBarRenderer),
-      t.register(_i3b0b1a104db30e._r6fde9ac7c422ac, class_2881.HEALTH_PROGRESS, t._rendererFactories.HealthProgressBarRenderer),
-      t.register(_i3b0b1a104db30e._r6fde9ac7c422ac, class_2881.MASKED_HEART_FILL, t._rendererFactories.MaskedHeartFillRenderer),
-      t.register(_i3b0b1a104db30e._r6fde9ac7c422ac, class_2881.STACKED_HEALTH_POINTS, t._rendererFactories.StackedHealthPointsRenderer),
+      t.register(UnkClass_3b0b1a._r15f6a61625d9ea, class_2881.CLASSIC_PROGRESS, t._rendererFactories.ClassicProgressBarRenderer),
+      t.register(UnkClass_3b0b1a._r15f6a61625d9ea, class_2881.CLASSIC_MINI_PROGRESS, t._rendererFactories.ClassicMiniProgressBarRenderer),
+      t.register(UnkClass_3b0b1a._r15f6a61625d9ea, class_2881.BLOCK_PROGRESS, t._rendererFactories.BlockProgressBarRenderer),
+      t.register(UnkClass_3b0b1a._r15f6a61625d9ea, class_2881.STRIPED_PROGRESS, t._rendererFactories.StripedProgressBarRenderer),
+      t.register(UnkClass_3b0b1a._r15f6a61625d9ea, class_2881.ARROW_PROGRESS, t._rendererFactories.ArrowProgressBarRenderer),
+      t.register(UnkClass_3b0b1a._rf9b6e93d22ffa0, class_2881.BLOCK_PROGRESS, t._rendererFactories.BlockProgressBarRenderer),
+      t.register(UnkClass_3b0b1a._rf9b6e93d22ffa0, class_2881.STRIPED_PROGRESS, t._rendererFactories.StripedProgressBarRenderer),
+      t.register(UnkClass_3b0b1a._rf9b6e93d22ffa0, class_2881.ARROW_PROGRESS, t._rendererFactories.ArrowProgressBarRenderer),
+      t.register(UnkClass_3b0b1a._r6fde9ac7c422ac, class_2881.HEALTH_PROGRESS, t._rendererFactories.HealthProgressBarRenderer),
+      t.register(UnkClass_3b0b1a._r6fde9ac7c422ac, class_2881.MASKED_HEART_FILL, t._rendererFactories.MaskedHeartFillRenderer),
+      t.register(UnkClass_3b0b1a._r6fde9ac7c422ac, class_2881.STACKED_HEALTH_POINTS, t._rendererFactories.StackedHealthPointsRenderer),
       t.register(
-        _i3b0b1a104db30e._r6fde9ac7c422ac,
+        UnkClass_3b0b1a._r6fde9ac7c422ac,
         class_2881.THERMOMETER_HEALTH_POINTS,
         t._rendererFactories.ThermometerHealthPointsRenderer,
       ),
-      t.register(_i3b0b1a104db30e._r291d821a1c8a67, class_2881.LEVEL_WITH_PROGRESS, t._rendererFactories.LevelWithProgressRenderer),
-      t.register(_i3b0b1a104db30e._r291d821a1c8a67, class_2881.LEVEL_WITH_BAR_AND_NUMERICAL_PROGRESS, t._rendererFactories.LevelDetailsRenderer),
-      t.register(_i3b0b1a104db30e._rd1e8bd7655b6be, class_2881.BOSS_HEALTH_BAR, t._rendererFactories.BossHealthBarRenderer),
+      t.register(UnkClass_3b0b1a._r291d821a1c8a67, class_2881.LEVEL_WITH_PROGRESS, t._rendererFactories.LevelWithProgressRenderer),
+      t.register(UnkClass_3b0b1a._r291d821a1c8a67, class_2881.LEVEL_WITH_BAR_AND_NUMERICAL_PROGRESS, t._rendererFactories.LevelDetailsRenderer),
+      t.register(UnkClass_3b0b1a._rd1e8bd7655b6be, class_2881.BOSS_HEALTH_BAR, t._rendererFactories.BossHealthBarRenderer),
       t.register(
-        _i3b0b1a104db30e._ra1d170efe256aa,
+        UnkClass_3b0b1a._ra1d170efe256aa,
         class_2881.NUMBER_RECOLORABLE,
         t._rendererFactories.RecolorableNumberDisplayRenderer,
       ),
       t.register(
-        _i3b0b1a104db30e._ra1d170efe256aa,
+        UnkClass_3b0b1a._ra1d170efe256aa,
         class_2881.NUMBER_BAKED_COLORS,
         t._rendererFactories.BakedColorNumberDisplayRenderer,
       ),

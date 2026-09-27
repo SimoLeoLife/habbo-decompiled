@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 134399.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/SubstituteParentController.as
-// Nome offuscato: _ifd27ba9b62c124
+// Extracted from HabboAirLauncher.deobf.js, line 134399.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/SubstituteParentController.as
+// Obfuscated name: _ifd27ba9b62c124
 
 class extends st {
   static {

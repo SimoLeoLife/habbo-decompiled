@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 342588.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/purse/PurseClubArea.as
-// Nome offuscato: _i1f3e580416c21f
+// Extracted from HabboAirLauncher.deobf.js, line 342588.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/purse/PurseClubArea.as
+// Obfuscated name: _i1f3e580416c21f
 
 class a extends kg {
   static {
@@ -45,7 +45,7 @@ class a extends kg {
     if (this.var_4145 !== -1 && this._toolbar.inventory.clubLevel !== dr.NO_CLUB) {
       this.setAmount(r, t);
       let i = this._window?.findChildByName("hc_join_button");
-      i != null && us.runMotion(i) == null && us.DropBounce(new _i506da2e7e190eb(i, 900, 16));
+      i != null && us.runMotion(i) == null && us.DropBounce(new UnkClass_506da2(i, 900, 16));
     }
     switch (
       ((this.var_4145 = r), (this._clubMinutes = t), this._toolbar.inventory.clubLevel)

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 59524.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/utils/profiler/tracking/TrackedBitmapData.as
-// Nome offuscato: _ide81f73bd853f7
+// Extracted from HabboAirLauncher.deobf.js, line 59524.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/utils/profiler/tracking/TrackedBitmapData.as
+// Obfuscated name: _ide81f73bd853f7
 
 class a extends A {
   static {

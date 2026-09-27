@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 137559.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/class_4233.as
-// Nome offuscato: _ib275a25e7bab63
+// Extracted from HabboAirLauncher.deobf.js, line 137559.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/class_4233.as
+// Obfuscated name: _ib275a25e7bab63
 
 class a {
   static {
@@ -120,7 +120,7 @@ class a {
                 Number(this._r79d821c37fbd45(this.getAttribute(c, "width"), t) || 0),
                 Number(this._r79d821c37fbd45(this.getAttribute(c, "height"), t) || 0),
               );
-      e.addChild(new _i7acefcacdff357(s, o, d, f));
+      e.addChild(new UnkClass_7acefc(s, o, d, f));
     }
   }
   static _r4c56951c6e9425(e, r, t, i) {
@@ -217,7 +217,7 @@ class a {
   static _r2de4077bf0631e(e) {
     return e instanceof yi
       ? e.toDomElement()
-      : e instanceof _if56d7fe9b9f681
+      : e instanceof UnkClass_f56d7f
         ? e.toDomElements()[0]
         : e instanceof Element
           ? e

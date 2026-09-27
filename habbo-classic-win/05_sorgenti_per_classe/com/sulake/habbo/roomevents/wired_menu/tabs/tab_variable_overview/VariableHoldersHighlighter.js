@@ -1,11 +1,11 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 356180.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_variable_overview/VariableHoldersHighlighter.as
-// Nome offuscato: _i8c838f6918f149
+// Extracted from HabboAirLauncher.deobf.js, line 356180.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/tabs/tab_variable_overview/VariableHoldersHighlighter.as
+// Obfuscated name: _i8c838f6918f149
 
 class {
   constructor(e) {
     this._roomEvents = e;
-    let r = new _ibaf84c0aa91c5d(12318714, 1, 4, 4, 4, 1, !0, !1),
+    let r = new UnkClass_baf84c(12318714, 1, 4, 4, 4, 1, !0, !1),
       t = new ColorMatrixFilter_([0.9, 0, 0, 0, 0, 0, 1, 0, 0, 40, 0, 0, 1, 0, 80, 0, 0, 0, 0.85, 0]);
     ((this.var_150 = [t, r]),
       this._roomEvents.roomEngine.events.addEventListener?.(RoomEngineObjectEvent.REMOVED, this.onRoomObjectRemoved));

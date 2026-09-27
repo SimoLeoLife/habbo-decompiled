@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 205264.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/ThreadsListData.as
-// Nome offuscato: _i71d2dad4f131cf
+// Extracted from HabboAirLauncher.deobf.js, line 205264.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/ThreadsListData.as
+// Obfuscated name: _i71d2dad4f131cf
 
 class {
   static {

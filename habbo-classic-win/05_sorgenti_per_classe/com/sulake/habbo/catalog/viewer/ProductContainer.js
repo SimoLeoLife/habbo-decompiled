@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 172182.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/ProductContainer.as
-// Nome offuscato: _i119caa97a40e3e
+// Extracted from HabboAirLauncher.deobf.js, line 172182.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/ProductContainer.as
+// Obfuscated name: _i119caa97a40e3e
 
 class a extends Cm {
   constructor(r, t, i) {

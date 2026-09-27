@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 276373.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/AnimatedFurnitureVisualizationData.as
-// Nome offuscato: _ifab20f58896856
+// Extracted from HabboAirLauncher.deobf.js, line 276373.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/AnimatedFurnitureVisualizationData.as
+// Obfuscated name: _ifab20f58896856
 
 class extends FurnitureVisualizationData {
   static {

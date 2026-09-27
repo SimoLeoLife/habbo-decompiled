@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 131334.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/class_2116.as
-// Nome offuscato: _i78f91090da4435
+// Extracted from HabboAirLauncher.deobf.js, line 131334.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/class_2116.as
+// Obfuscated name: _i78f91090da4435
 
 class extends BitmapDataController {
   static {

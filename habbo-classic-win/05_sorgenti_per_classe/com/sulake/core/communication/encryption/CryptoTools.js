@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 72653.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/communication/encryption/CryptoTools.as
-// Nome offuscato: _ibe9e79c34231b8
+// Extracted from HabboAirLauncher.deobf.js, line 72653.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/communication/encryption/CryptoTools.as
+// Obfuscated name: _ibe9e79c34231b8
 
 class a {
     static {

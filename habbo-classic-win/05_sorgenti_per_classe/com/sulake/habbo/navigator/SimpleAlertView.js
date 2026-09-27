@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 216093.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/SimpleAlertView.as
+// Extracted from HabboAirLauncher.deobf.js, line 216093.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/SimpleAlertView.as
 
 class extends jm {
   static {

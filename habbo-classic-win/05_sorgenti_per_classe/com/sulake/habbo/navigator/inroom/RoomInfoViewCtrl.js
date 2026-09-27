@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 254220.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/inroom/RoomInfoViewCtrl.as
-// Nome offuscato: _i1eba66e26295b5
+// Extracted from HabboAirLauncher.deobf.js, line 254220.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/inroom/RoomInfoViewCtrl.as
+// Obfuscated name: _i1eba66e26295b5
 
 class {
   static {
@@ -326,13 +326,13 @@ class {
         return;
       }
       (this._navigator.trackGoogle("roomInfo", "addFavourite"),
-        this._navigator.send(new _i155badb9742492(this._navigator.data._rd27e27c96c37cd.flatId)));
+        this._navigator.send(new UnkMessageComposer_1args_155bad(this._navigator.data._rd27e27c96c37cd.flatId)));
     }
   }, "onAddFavouriteClick");
   onRemoveFavouriteClick = n((e) => {
     this._navigator?.data._rd27e27c96c37cd != null &&
       (this._navigator.trackGoogle("roomInfo", "removeFavourite"),
-      this._navigator.send(new _i9aee4cde0d1471(this._navigator.data._rd27e27c96c37cd.flatId)));
+      this._navigator.send(new UnkMessageComposer_1args_9aee4c(this._navigator.data._rd27e27c96c37cd.flatId)));
   }, "onRemoveFavouriteClick");
   onRoomSettingsClick = n((e) => {
     let r = this._navigator?.data._rd27e27c96c37cd ?? null;
@@ -354,13 +354,13 @@ class {
       this.close());
   }, "onFloorPlanEditorButtonClick");
   onMuteAllClick = n((e) => {
-    this._navigator?.send(new _ic5cd4b46479178());
+    this._navigator?.send(new class_3366());
   }, "onMuteAllClick");
   onMakeHomeClick = n((e) => {
     let r = this._navigator?.data._rd27e27c96c37cd ?? null;
     r != null &&
       (this._navigator?.trackGoogle("roomInfo", "makeHome"),
-      this._navigator?.send(new _i25b16c52c60064(r.flatId)));
+      this._navigator?.send(new UnkMessageComposer_1args_25b16c(r.flatId)));
   }, "onMakeHomeClick");
   onCloseButtonClick = n((e) => {
     this._r8277097178cec9();
@@ -375,7 +375,7 @@ class {
     this._navigator?.data._rd27e27c96c37cd != null &&
       (this.refreshStaffPick(!0),
       this._navigator.send(
-        new _i20c619f30be6cf(
+        new class_2444(
           this._navigator.data._rd27e27c96c37cd.flatId,
           this._navigator.data._r4af9c5e837edd4,
         ),

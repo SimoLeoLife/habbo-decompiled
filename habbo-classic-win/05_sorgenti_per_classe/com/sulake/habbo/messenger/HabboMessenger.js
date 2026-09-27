@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 247283.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/messenger/HabboMessenger.as
-// Nome offuscato: _i572bdecb417280
+// Extracted from HabboAirLauncher.deobf.js, line 247283.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/messenger/HabboMessenger.as
+// Obfuscated name: _i572bdecb417280
 
 class extends ue {
   static {
@@ -53,7 +53,7 @@ class extends ue {
     ((this._messageEvents = []),
       this.addMessageEvent(new class_2248((e) => this._r835491ace736d9(e))),
       this.addMessageEvent(new class_2121((e) => this._rc8d9b9819345aa(e))),
-      this.addMessageEvent(new _i71ce07f1d9b7d6((e) => this._rd74b3fc36abee7(e))),
+      this.addMessageEvent(new UnkMessageEvent_71ce07((e) => this._rd74b3fc36abee7(e))),
       this.getBoolean("client.minimail.embed.enabled") &&
         (this.addMessageEvent(new class_1958((e) => this._r979919ef0ed4ef(e))),
         this.addMessageEvent(new class_2189((e) => this.class_2189(e)))),
@@ -182,7 +182,7 @@ class extends ue {
       (this._onlineIndicatorPreference = e.getParser()._r8f46066f5e1ab2));
   }, "_rc8d9b9819345aa");
   _rd74b3fc36abee7 = n((e) => {
-    this._followingToGroupRoom && ((this._followingToGroupRoom = !1), this.send(new _if635b6d25e2848(e.data.roomId)));
+    this._followingToGroupRoom && ((this._followingToGroupRoom = !1), this.send(new class_1959(e.data.roomId)));
   }, "_rd74b3fc36abee7");
   _r835491ace736d9 = n((e) => {
     ((this.var_157 = new Ipe(this)),

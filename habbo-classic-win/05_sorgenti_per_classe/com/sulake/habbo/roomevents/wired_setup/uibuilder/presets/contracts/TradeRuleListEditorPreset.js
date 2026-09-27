@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 350525.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/contracts/TradeRuleListEditorPreset.as
-// Nome offuscato: _iff502295c1b254
+// Extracted from HabboAirLauncher.deobf.js, line 350525.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/contracts/TradeRuleListEditorPreset.as
+// Obfuscated name: _iff502295c1b254
 
 class a extends WiredUIPreset {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 317634.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/friendfurni/LoveLockEngravingView.as
-// Nome offuscato: _if749c2519a79a7
+// Extracted from HabboAirLauncher.deobf.js, line 317634.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/friendfurni/LoveLockEngravingView.as
+// Obfuscated name: _if749c2519a79a7
 
 class extends Mg {
   static {

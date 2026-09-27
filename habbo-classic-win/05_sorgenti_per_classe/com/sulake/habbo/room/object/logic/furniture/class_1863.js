@@ -1,8 +1,8 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 299698.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/class_1863.as
-// Nome offuscato: _ife02fee8328419
+// Extracted from HabboAirLauncher.deobf.js, line 299698.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/class_1863.as
+// Obfuscated name: _ife02fee8328419
 
-class a extends _ieead78a21202a2 {
+class a extends UnkClass_eead78 {
   static {
     n(this, "class_1863");
   }
@@ -11,7 +11,7 @@ class a extends _ieead78a21202a2 {
   static STATE_LOCKED = 1;
   state = a.STATE_UNINITIALIZED;
   get _r1acb913b784880() {
-    return _icf8611d0b0b385._r09e2b3a379adb1;
+    return UnkConstants_cf8611._r09e2b3a379adb1;
   }
   get contextMenu() {
     return this.state === a.STATE_UNLOCKED ? class_3015.FRIEND_FURNITURE : class_3015.DUMMY;
@@ -25,7 +25,7 @@ class a extends _ieead78a21202a2 {
   }
   processUpdateMessage(e) {
     super.processUpdateMessage(e);
-    let r = e instanceof _i39f7ecd6ab9902 ? e : null;
+    let r = e instanceof UnkRoomObjectUpdateMessageSubclass_39f7ec ? e : null;
     if (r != null) {
       let t = r.data instanceof ao ? r.data : null;
       this.state = t != null ? t.state : r.state;

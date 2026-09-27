@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 190121.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/LocalizationCatalogWidget.as
-// Nome offuscato: _ia5a23a7dc47646
+// Extracted from HabboAirLauncher.deobf.js, line 190121.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/LocalizationCatalogWidget.as
+// Obfuscated name: _ia5a23a7dc47646
 
 class extends CatalogWidget {
   constructor(r, t) {
@@ -226,7 +226,7 @@ class extends CatalogWidget {
       o = this._catalog?.getProperty("image.library.catalogue.url") ?? "",
       d = `${this._catalog?.getProperty("image.library.url") ?? ""}Top_Story_Images/`,
       c = s?.tags.indexOf("TOP_STORY") !== -1 ? d : o,
-      f = new _i636490202c0f9a(`${c}${r}.gif`);
+      f = new UnkClass_636490(`${c}${r}.gif`);
     t.assets
       .loadAssetFromFile(r, f, "image/gif")
       .addEventListener(Le.ASSET_LOADER_EVENT_COMPLETE, this._rdc25f566c08036);
@@ -240,7 +240,7 @@ class extends CatalogWidget {
     }
   }, "_rdc25f566c08036");
   setLinkStyle(r) {
-    let t = new _ib0061b42edfac2();
+    let t = new UnkClass_b0061b();
     (t._r14e5354d420daf("a:link", { textDecoration: "underline", color: "#333333" }),
       t._r14e5354d420daf("a:hover", { color: "#336a95" }),
       t._r14e5354d420daf("a:active", { color: "#41b7d9" }),

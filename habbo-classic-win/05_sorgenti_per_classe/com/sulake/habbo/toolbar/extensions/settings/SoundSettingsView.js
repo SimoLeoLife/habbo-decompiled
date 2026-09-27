@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 343235.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/settings/SoundSettingsView.as
-// Nome offuscato: _ia8ebcf7c6b2a30
+// Extracted from HabboAirLauncher.deobf.js, line 343235.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/settings/SoundSettingsView.as
+// Obfuscated name: _ia8ebcf7c6b2a30
 
 class {
   static {

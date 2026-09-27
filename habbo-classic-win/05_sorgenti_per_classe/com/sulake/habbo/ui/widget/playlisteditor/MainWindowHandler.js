@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 324726.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/playlisteditor/MainWindowHandler.as
-// Nome offuscato: _i2e3651d0e08c42
+// Extracted from HabboAirLauncher.deobf.js, line 324726.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/playlisteditor/MainWindowHandler.as
+// Obfuscated name: _i2e3651d0e08c42
 
 class a {
   constructor(e, r) {
@@ -23,7 +23,7 @@ class a {
         this.getMusicInventoryGrid(),
         this._r8976fb174e3935,
       )),
-      (this._r69faa25ca16938 = new _i073931f2f0bba2(this.var_17, this.getPlayListEditorItemList())),
+      (this._r69faa25ca16938 = new UnkClass_073931(this.var_17, this.getPlayListEditorItemList())),
       (this.var_502 = new kX(this.var_17, this.getMusicInventoryStatusContainer())),
       (this.var_611 = new qI(this.var_17, this.getPlayListStatusContainer())),
       this.refreshLoadableAsset());
@@ -53,7 +53,7 @@ class a {
     return this._r69faa25ca16938;
   }
   destroy() {
-    (this._r8976fb174e3935 != null && this._r8976fb174e3935.stop(_ia57980bbc2be8f._r741ad58ad5e51a),
+    (this._r8976fb174e3935 != null && this._r8976fb174e3935.stop(UnkConstants_a57980._r741ad58ad5e51a),
       (this._r8976fb174e3935 = null),
       this._r151196fd30016d?.destroy(),
       (this._r151196fd30016d = null),
@@ -215,6 +215,6 @@ class a {
     this.hide();
   }, "onClose");
   _r06a0977331c2f6() {
-    return this._r8976fb174e3935._r1e81274f76e6d5(_ia57980bbc2be8f._r741ad58ad5e51a) !== -1;
+    return this._r8976fb174e3935._r1e81274f76e6d5(UnkConstants_a57980._r741ad58ad5e51a) !== -1;
   }
 }

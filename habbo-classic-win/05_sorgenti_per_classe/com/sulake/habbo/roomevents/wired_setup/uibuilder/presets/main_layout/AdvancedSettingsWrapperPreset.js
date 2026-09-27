@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 351537.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/main_layout/AdvancedSettingsWrapperPreset.as
-// Nome offuscato: _i4c02fecee8e5a2
+// Extracted from HabboAirLauncher.deobf.js, line 351537.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/main_layout/AdvancedSettingsWrapperPreset.as
+// Obfuscated name: _i4c02fecee8e5a2
 
 class extends WiredUIPreset {
   static {

@@ -1,8 +1,8 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 60693.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/StringUtil.as
-// Nome offuscato: _i3390754ca39a3e
+// Extracted from HabboAirLauncher.deobf.js, line 60693.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/StringUtil.as
+// Obfuscated name: _i3390754ca39a3e
 
-class extends _i8b3e506a711509 {
+class extends UnkClass_8b3e50 {
   static {
     n(this, "StringUtil");
   }
@@ -19,7 +19,7 @@ class extends _i8b3e506a711509 {
     if (((this._r07285bc6a5d7ab = !1), (this._r881522143b78d2 = null), this._type === "image/png"))
       try {
         let r = e.clone();
-        ((r.position = 0), (this._r881522143b78d2 = new _i3a5c6f457acdad(new _ifdd92074c780c7().decode(r))));
+        ((r.position = 0), (this._r881522143b78d2 = new UnkClass_3a5c6f(new UnkClass_fdd920().decode(r))));
       } catch {
         this._r881522143b78d2 = null;
       }

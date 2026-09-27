@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 220312.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/leaderboard/LeaderboardTable.as
-// Nome offuscato: _id027c67c14d2a4
+// Extracted from HabboAirLauncher.deobf.js, line 220312.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/leaderboard/LeaderboardTable.as
+// Obfuscated name: _id027c67c14d2a4
 
 class a {
   constructor(e) {
@@ -93,7 +93,7 @@ class a {
     return !0;
   }
   getMessageComposer(e, r, t) {
-    return new _ib5af5c68bb04e7(e, r, t, this.var_244, this.var_1042);
+    return new UnkMessageComposer_5args_b5af5c(e, r, t, this.var_244, this.var_1042);
   }
   scrollDown() {
     if (this.var_501) return !1;

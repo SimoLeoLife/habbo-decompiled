@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 239055.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/effects/Effect.as
-// Nome offuscato: _i4aeaf22f647ba3
+// Extracted from HabboAirLauncher.deobf.js, line 239055.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/effects/Effect.as
+// Obfuscated name: _i4aeaf22f647ba3
 
 class {
   static {

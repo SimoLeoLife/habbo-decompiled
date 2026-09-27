@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 235446.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/bots/BotsView.as
-// Nome offuscato: _i0e897109e22603
+// Extracted from HabboAirLauncher.deobf.js, line 235446.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/bots/BotsView.as
+// Obfuscated name: _i0e897109e22603
 
 class a {
   constructor(e, r, t, i, s) {

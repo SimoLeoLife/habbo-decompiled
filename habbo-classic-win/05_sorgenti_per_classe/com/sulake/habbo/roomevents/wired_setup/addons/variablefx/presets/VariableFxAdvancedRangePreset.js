@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 353487.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/presets/VariableFxAdvancedRangePreset.as
-// Nome offuscato: _i7f7037a2211d9f
+// Extracted from HabboAirLauncher.deobf.js, line 353487.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/presets/VariableFxAdvancedRangePreset.as
+// Obfuscated name: _i7f7037a2211d9f
 
 class extends WiredUIPreset {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 373343.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/WiredChestController.as
-// Nome offuscato: _i067fd58518c8f0
+// Extracted from HabboAirLauncher.deobf.js, line 373343.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/chests/WiredChestController.as
+// Obfuscated name: _i067fd58518c8f0
 
 class a extends ue {
   static {
@@ -76,7 +76,7 @@ class a extends ue {
     (this._r3e5f06e1095c89.hide(), this._rb37506db84c349());
   }
   _rb37506db84c349() {
-    (this.var_830 !== 0 && this._r6358b2bd53ae19.connection?.send(new _id67cc3c2d28dfd(this.var_830)),
+    (this.var_830 !== 0 && this._r6358b2bd53ae19.connection?.send(new UnkMessageComposer_1args_d67cc3(this.var_830)),
       (this.var_830 = 0),
       (this._status = a.STATUS_CLOSED));
   }

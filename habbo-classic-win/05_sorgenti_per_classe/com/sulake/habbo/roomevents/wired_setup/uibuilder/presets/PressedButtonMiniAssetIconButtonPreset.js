@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 346445.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/PressedButtonMiniAssetIconButtonPreset.as
-// Nome offuscato: _i38048c6c00a026
+// Extracted from HabboAirLauncher.deobf.js, line 346445.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/PressedButtonMiniAssetIconButtonPreset.as
+// Obfuscated name: _i38048c6c00a026
 
 class extends Tg {
   static {

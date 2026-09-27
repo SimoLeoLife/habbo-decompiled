@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 249067.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/IssueBundle.as
-// Nome offuscato: _idd60f52a54096e
+// Extracted from HabboAirLauncher.deobf.js, line 249067.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/IssueBundle.as
+// Obfuscated name: _idd60f52a54096e
 
 class {
   constructor(e, r) {

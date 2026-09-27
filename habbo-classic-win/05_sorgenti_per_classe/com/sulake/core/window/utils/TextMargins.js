@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 131536.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/utils/TextMargins.as
-// Nome offuscato: _i79cce6d1fef9c7
+// Extracted from HabboAirLauncher.deobf.js, line 131536.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/utils/TextMargins.as
+// Obfuscated name: _i79cce6d1fef9c7
 
 class a {
   static {

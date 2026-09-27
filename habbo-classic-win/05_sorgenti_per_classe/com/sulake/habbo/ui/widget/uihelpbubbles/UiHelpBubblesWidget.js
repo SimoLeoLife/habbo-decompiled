@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 326818.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/uihelpbubbles/UiHelpBubblesWidget.as
-// Nome offuscato: _if98c0e0f0165f5
+// Extracted from HabboAirLauncher.deobf.js, line 326818.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/uihelpbubbles/UiHelpBubblesWidget.as
+// Obfuscated name: _if98c0e0f0165f5
 
 class extends RoomWidgetBase {
   constructor(r, t, i, s, o, d, c, f) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 346743.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/ScrollListPreset.as
-// Nome offuscato: _i3d55c89b610c88
+// Extracted from HabboAirLauncher.deobf.js, line 346743.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/ScrollListPreset.as
+// Obfuscated name: _i3d55c89b610c88
 
 class a extends WiredUIPreset {
   static {

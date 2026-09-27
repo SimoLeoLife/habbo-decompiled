@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 207310.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/CommunityGoalWidget.as
-// Nome offuscato: _ia49a1510fd5b49
+// Extracted from HabboAirLauncher.deobf.js, line 207310.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/CommunityGoalWidget.as
+// Obfuscated name: _ia49a1510fd5b49
 
 class a {
   constructor(e, r = !1) {

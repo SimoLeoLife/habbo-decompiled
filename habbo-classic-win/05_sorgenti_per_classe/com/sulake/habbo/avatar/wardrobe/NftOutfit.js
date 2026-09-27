@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 164219.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/wardrobe/NftOutfit.as
-// Nome offuscato: _i119c49a0612348
+// Extracted from HabboAirLauncher.deobf.js, line 164219.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/wardrobe/NftOutfit.as
+// Obfuscated name: _i119c49a0612348
 
 class a extends Nj {
   static {

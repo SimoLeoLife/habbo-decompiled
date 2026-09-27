@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 351266.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/sections/applications/ItemTypeSelectionSection.as
-// Nome offuscato: _i0470c12df453ab
+// Extracted from HabboAirLauncher.deobf.js, line 351266.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/sections/applications/ItemTypeSelectionSection.as
+// Obfuscated name: _i0470c12df453ab
 
 class extends AbstractSectionPreset {
   static {

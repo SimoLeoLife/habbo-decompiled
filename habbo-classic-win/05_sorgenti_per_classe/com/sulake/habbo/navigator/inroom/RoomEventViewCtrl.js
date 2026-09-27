@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 253495.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/inroom/RoomEventViewCtrl.as
-// Nome offuscato: _i69c550a90aedf7
+// Extracted from HabboAirLauncher.deobf.js, line 253495.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/inroom/RoomEventViewCtrl.as
+// Obfuscated name: _i69c550a90aedf7
 
 class {
   constructor(e) {
@@ -65,7 +65,7 @@ class {
   }
   _r20b78437532d89 = n((e) => {
     let r = this._navigator?.data._rb6c91108c7cf2d ?? null;
-    (r != null && this._navigator?.send(new _i541847de7ebf79(r._r8148677d694079)), this.close());
+    (r != null && this._navigator?.send(new class_2537(r._r8148677d694079)), this.close());
   }, "_r20b78437532d89");
   _r9a98d7761d81c4 = n((e) => {
     this.close();

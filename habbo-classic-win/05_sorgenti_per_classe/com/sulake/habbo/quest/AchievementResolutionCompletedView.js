@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 264941.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/AchievementResolutionCompletedView.as
-// Nome offuscato: _i7e7db3ed594686
+// Extracted from HabboAirLauncher.deobf.js, line 264941.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/AchievementResolutionCompletedView.as
+// Obfuscated name: _i7e7db3ed594686
 
 class a {
   constructor(e) {

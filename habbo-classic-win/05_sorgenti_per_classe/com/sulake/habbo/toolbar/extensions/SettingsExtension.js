@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 343485.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/SettingsExtension.as
-// Nome offuscato: _i2ecd30a6111f49
+// Extracted from HabboAirLauncher.deobf.js, line 343485.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/SettingsExtension.as
+// Obfuscated name: _i2ecd30a6111f49
 
 class a {
   static {

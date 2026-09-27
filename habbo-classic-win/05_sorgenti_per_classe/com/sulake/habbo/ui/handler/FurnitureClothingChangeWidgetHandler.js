@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 329577.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/FurnitureClothingChangeWidgetHandler.as
-// Nome offuscato: _i33d4e7fb80a4cc
+// Extracted from HabboAirLauncher.deobf.js, line 329577.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/FurnitureClothingChangeWidgetHandler.as
+// Obfuscated name: _i33d4e7fb80a4cc
 
 class a {
   static {
@@ -23,7 +23,7 @@ class a {
     this._container = e;
   }
   dispose() {
-    (this._container?.avatarEditor?.close(_ic723960da8d613._r774d79858ea450),
+    (this._container?.avatarEditor?.close(UnkConstants_c72396._r774d79858ea450),
       (this.var_1271 = !0),
       (this._container = null));
   }
@@ -63,13 +63,13 @@ class a {
             (o = i.getString(RoomObjectVariableEnum.const_1285)),
             (o == null || o === "") && (o = a.DEFAULT_GIRL_CLOTHES)),
           this._container.avatarEditor._rdaf967f79ea08a(
-            _ic723960da8d613._r774d79858ea450,
+            UnkConstants_c72396._r774d79858ea450,
             this,
             [class_1962.TORSO, class_1962.const_94],
             !1,
             "${widget.furni.clothingchange.editor.title}",
           ) != null &&
-            (this._container.avatarEditor.loadAvatarInEditor(_ic723960da8d613._r774d79858ea450, o, s, dr.NO_CLUB),
+            (this._container.avatarEditor.loadAvatarInEditor(UnkConstants_c72396._r774d79858ea450, o, s, dr.NO_CLUB),
             this._container.events?.dispatchEvent?.(
               new RoomWidgetClothingChangeUpdateEvent(RoomWidgetClothingChangeUpdateEvent.SHOW_GENDER_SELECTION, r.objectId, r.objectCategory, r.roomId),
             )));
@@ -86,6 +86,6 @@ class a {
   saveFigure(e, r) {
     this._container != null &&
       (this._container._r2eac8239a09fe7?._r2ffbc65ebca8f8(this.var_344, r, e),
-      this._container.avatarEditor?.close(_ic723960da8d613._r774d79858ea450));
+      this._container.avatarEditor?.close(UnkConstants_c72396._r774d79858ea450));
   }
 }

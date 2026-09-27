@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 348317.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/styles/IlluminaWiredStyle.as
-// Nome offuscato: _i5eb8e5c7d60e31
+// Extracted from HabboAirLauncher.deobf.js, line 348317.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/styles/IlluminaWiredStyle.as
+// Obfuscated name: _i5eb8e5c7d60e31
 
 class a extends WiredStyle {
   static {

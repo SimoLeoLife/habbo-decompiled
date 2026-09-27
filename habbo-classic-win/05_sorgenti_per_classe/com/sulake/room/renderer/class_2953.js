@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 377765.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/renderer/class_2953.as
-// Nome offuscato: _iec03e05c9f1e6f
+// Extracted from HabboAirLauncher.deobf.js, line 377765.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/renderer/class_2953.as
+// Obfuscated name: _iec03e05c9f1e6f
 
 class extends yRe {
   static {

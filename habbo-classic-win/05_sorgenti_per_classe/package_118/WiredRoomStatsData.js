@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 109013.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_118/WiredRoomStatsData.as
-// Nome offuscato: _i994f0d76a86129
+// Extracted from HabboAirLauncher.deobf.js, line 109013.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_118/WiredRoomStatsData.as
+// Obfuscated name: _i994f0d76a86129
 
 class {
     static {

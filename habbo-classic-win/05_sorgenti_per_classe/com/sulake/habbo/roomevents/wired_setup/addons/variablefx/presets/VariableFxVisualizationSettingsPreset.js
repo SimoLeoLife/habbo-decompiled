@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 354488.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/presets/VariableFxVisualizationSettingsPreset.as
-// Nome offuscato: _if3809f26120aaf
+// Extracted from HabboAirLauncher.deobf.js, line 354488.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/variablefx/presets/VariableFxVisualizationSettingsPreset.as
+// Obfuscated name: _if3809f26120aaf
 
 class a extends WiredUIPreset {
   static {
@@ -217,7 +217,7 @@ class a extends WiredUIPreset {
         t._rb36bfb3876ce51 ? e.var_1226 : -1,
       ));
     let s =
-        e.categoryId === _i3b0b1a104db30e._r09950f0f2ac684 && e.rendererId === class_2881.const_1180
+        e.categoryId === UnkClass_3b0b1a._r09950f0f2ac684 && e.rendererId === class_2881.const_1180
           ? e._r57e125b612fc29
           : e.rendererId,
       o = VariableFxEditorMetadata.rendererSupportsSegments(s),
@@ -304,7 +304,7 @@ class a extends WiredUIPreset {
       this._rdd2c3beeeff08f(e)
         ? (r = a.DYNAMIC_COLOR_PREFIX_KEY)
         : this._ra1e315a9316197(e) &&
-          this._state.categoryId !== _i3b0b1a104db30e._r45eac009b1fbcb &&
+          this._state.categoryId !== UnkClass_3b0b1a._r45eac009b1fbcb &&
           (r = a.METALLIC_COLOR_PREFIX_KEY),
       r == null ? this._r88b040612b6459(e.key) : this._r88b040612b6459(r) + " " + this._r88b040612b6459(e.key)
     );

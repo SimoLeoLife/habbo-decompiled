@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 301243.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/room/RoomTileCursorLogic.as
-// Nome offuscato: _id99fbd1db383ba
+// Extracted from HabboAirLauncher.deobf.js, line 301243.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/room/RoomTileCursorLogic.as
+// Obfuscated name: _id99fbd1db383ba
 
 class a extends ObjectLogicBase {
   static {

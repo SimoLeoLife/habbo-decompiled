@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 299681.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/class_2009.as
-// Nome offuscato: _ia806d4fc6737c6
+// Extracted from HabboAirLauncher.deobf.js, line 299681.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/class_2009.as
+// Obfuscated name: _ia806d4fc6737c6
 
 class extends hX {
   static {

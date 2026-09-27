@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 358839.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/variables_management/detail/PermanentVariableHolderPreviewer.as
-// Nome offuscato: _i572072dd32624b
+// Extracted from HabboAirLauncher.deobf.js, line 358839.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/variables_management/detail/PermanentVariableHolderPreviewer.as
+// Obfuscated name: _i572072dd32624b
 
 class a {
   constructor(e, r) {

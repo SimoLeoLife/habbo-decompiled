@@ -1,8 +1,8 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 299261.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureCuckooClockLogic.as
-// Nome offuscato: _i7f5c093fe1ca11
+// Extracted from HabboAirLauncher.deobf.js, line 299261.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurnitureCuckooClockLogic.as
+// Obfuscated name: _i7f5c093fe1ca11
 
-class extends _ieead78a21202a2 {
+class extends UnkClass_eead78 {
   static {
     n(this, "FurnitureCuckooClockLogic");
   }
@@ -13,7 +13,7 @@ class extends _ieead78a21202a2 {
   }
   processUpdateMessage(e) {
     super.processUpdateMessage(e);
-    let r = e instanceof _i39f7ecd6ab9902 ? e : null;
+    let r = e instanceof UnkRoomObjectUpdateMessageSubclass_39f7ec ? e : null;
     r != null
       ? (this._state !== -1 &&
           r.state !== this._state &&

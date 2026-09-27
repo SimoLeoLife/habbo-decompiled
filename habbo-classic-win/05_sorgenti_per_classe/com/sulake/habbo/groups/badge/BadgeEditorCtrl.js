@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 226232.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge/BadgeEditorCtrl.as
-// Nome offuscato: _i9853a4cb4e9a61
+// Extracted from HabboAirLauncher.deobf.js, line 226232.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge/BadgeEditorCtrl.as
+// Obfuscated name: _i9853a4cb4e9a61
 
 class {
   static {

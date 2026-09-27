@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 325961.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/roomtools/RoomToolsToolbarCtrl.as
-// Nome offuscato: _i9298adb12bfa9e
+// Extracted from HabboAirLauncher.deobf.js, line 325961.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/roomtools/RoomToolsToolbarCtrl.as
+// Obfuscated name: _i9298adb12bfa9e
 
 class a extends RoomToolsCtrlBase {
   static {

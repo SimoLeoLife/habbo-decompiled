@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 143696.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/tools/ProfilerOutput.as
-// Nome offuscato: _id73fd8df6e1c3a
+// Extracted from HabboAirLauncher.deobf.js, line 143696.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/tools/ProfilerOutput.as
+// Obfuscated name: _id73fd8df6e1c3a
 
 class a {
     constructor(e, r, t) {
@@ -45,7 +45,7 @@ class a {
         if (e) {
           (this._window.activate(),
             this._rd7b3b1e2e39308._rd7c10d8fcef2f7(!0),
-            this._rd7b3b1e2e39308.queueInterface(new _ie5140e83e66963(), (r, t) => {
+            this._rd7b3b1e2e39308.queueInterface(new UnkInterface_e5140e(), (r, t) => {
               this.profiler = t;
             }));
           return;

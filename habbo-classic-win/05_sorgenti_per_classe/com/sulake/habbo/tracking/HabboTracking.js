@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 182138.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/tracking/HabboTracking.as
-// Nome offuscato: _id97c2b808a4229
+// Extracted from HabboAirLauncher.deobf.js, line 182138.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/tracking/HabboTracking.as
+// Obfuscated name: _id97c2b808a4229
 
 class a extends ue {
   static {
@@ -30,7 +30,7 @@ class a extends ue {
     (e.root.events?.addEventListener?.(ue.COMPONENT_EVENT_ERROR, this._onError),
       ErrorReportStorage.setParameter(HabboErrorVariableEnum.ERROR_VARIABLE_CLIENT_START_TIME, Date.now().toString()),
       ErrorReportStorage.setParameter(HabboErrorVariableEnum.ERROR_VARIABLE_USER_AGENT, s),
-      ErrorReportStorage.setParameter(HabboErrorVariableEnum.ERROR_VARIABLE_CAPABILITIES, _ic7f867ad53849e._rfc02824d36aa13),
+      ErrorReportStorage.setParameter(HabboErrorVariableEnum.ERROR_VARIABLE_CAPABILITIES, UnkClass_c7f867._rfc02824d36aa13),
       ErrorReportStorage.setParameter(HabboErrorVariableEnum.ERROR_VARIABLE_IS_IN_ROOM, String(!1)),
       ErrorReportStorage.setParameter(HabboErrorVariableEnum.ERROR_VARIABLE_LAST_VISITED_ROOM, String(0)),
       this.registerUpdateReceiver(this, 1));
@@ -249,7 +249,7 @@ class a extends ue {
       this.addMessageEvent(new class_2016(this._r8c8f3666e31760)),
       this.addMessageEvent(new class_2117(this._r234f8e9aec4f43)),
       this.addMessageEvent(new class_3670(this._rdfec877e8c88b5)),
-      this.addMessageEvent(new _idba656405e2f9a(this._r2ca2fcceb517eb)));
+      this.addMessageEvent(new UnkMessageEvent_dba656(this._r2ca2fcceb517eb)));
     let e = this.context.events;
     (e.addEventListener?.(HabboCommunicationEvent.INIT, this._rcf0da94d217980),
       e.addEventListener?.(HabboCommunicationEvent.ESTABLISHED, this._rcf0da94d217980),
@@ -534,7 +534,7 @@ class a extends ue {
     }
   }
   _rdfec877e8c88b5 = n((e) => {
-    let r = ClassUtils.getParser(e, _iebbf99541a195c);
+    let r = ClassUtils.getParser(e, UnkMessageParser_empty_ebbf99);
     if (r == null) return;
     let t = r.data?._rc9fc89e7eb27a7;
     t != null && this.legacyTrackGoogle("achievement", "achievement", [t]);
@@ -608,7 +608,7 @@ class a extends ue {
     e.type === RoomEngineEvent.ROOM_INITIALIZED
       ? this._r9c87b3f97d02b4 == null &&
         ((this._rb3a9af521fa495 = e.roomId),
-        (this._r9c87b3f97d02b4 = new _i05394ecc0c0c4d(60 * 1e3, 1)),
+        (this._r9c87b3f97d02b4 = new UnkEventDispatcherWrapperSubclass_05394e(60 * 1e3, 1)),
         this._r9c87b3f97d02b4.addEventListener?.(DeBouncer.addEventListener, this._r1feebedab62510),
         this._r9c87b3f97d02b4.start())
       : e.type === RoomEngineEvent.ROOM_DISPOSED &&

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 366654.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/class_4082.as
-// Nome offuscato: _i940be50a5345a0
+// Extracted from HabboAirLauncher.deobf.js, line 366654.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/class_4082.as
+// Obfuscated name: _i940be50a5345a0
 
 class a extends DefaultConditionType {
   static {

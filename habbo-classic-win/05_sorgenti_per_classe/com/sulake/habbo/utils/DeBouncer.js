@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 29065.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/DeBouncer.as
-// Nome offuscato: _i440f44f3f7bc47
+// Extracted from HabboAirLauncher.deobf.js, line 29065.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/DeBouncer.as
+// Obfuscated name: _i440f44f3f7bc47
 
 class extends M {
   static {

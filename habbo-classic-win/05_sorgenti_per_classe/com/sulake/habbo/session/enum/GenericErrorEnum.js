@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 159002.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/enum/GenericErrorEnum.as
-// Nome offuscato: _i73f5dac30164c3
+// Extracted from HabboAirLauncher.deobf.js, line 159002.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/enum/GenericErrorEnum.as
+// Obfuscated name: _i73f5dac30164c3
 
 class {
   static {

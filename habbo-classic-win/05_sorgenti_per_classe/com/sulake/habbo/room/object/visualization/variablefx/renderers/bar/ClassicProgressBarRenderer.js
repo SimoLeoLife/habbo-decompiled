@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 286706.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/bar/ClassicProgressBarRenderer.as
+// Extracted from HabboAirLauncher.deobf.js, line 286706.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/bar/ClassicProgressBarRenderer.as
 
 class a extends hb {
   static {
@@ -175,7 +175,7 @@ class a extends hb {
     return (
       this.prebakeBackground(c, t, r, s),
       f != null && l != null && this.drawBarBitmap(f, l, (4278190080 | o.rgb) >>> 0, t, r, s),
-      new _i011e37bea19c9d(
+      new UnkClass_011e37(
         {
           assets: t,
           backgroundPrebake: c,

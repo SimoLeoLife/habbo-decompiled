@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 335518.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/BlockedUsersManager.as
-// Nome offuscato: _i6133bf74eed29e
+// Extracted from HabboAirLauncher.deobf.js, line 335518.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/BlockedUsersManager.as
+// Obfuscated name: _i6133bf74eed29e
 
 class {
   constructor(e) {

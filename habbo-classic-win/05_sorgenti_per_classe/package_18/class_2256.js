@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 78184.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_18/class_2256.as
-// Nome offuscato: _ic7ebbe9164bd1b
+// Extracted from HabboAirLauncher.deobf.js, line 78184.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_18/class_2256.as
+// Obfuscated name: _ic7ebbe9164bd1b
 
 class {
     static {

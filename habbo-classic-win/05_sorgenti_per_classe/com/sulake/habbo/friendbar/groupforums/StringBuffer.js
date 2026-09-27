@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 68399.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/StringBuffer.as
-// Nome offuscato: _i4710f86d832e91
+// Extracted from HabboAirLauncher.deobf.js, line 68399.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/groupforums/StringBuffer.as
+// Obfuscated name: _i4710f86d832e91
 
 class a {
     static {

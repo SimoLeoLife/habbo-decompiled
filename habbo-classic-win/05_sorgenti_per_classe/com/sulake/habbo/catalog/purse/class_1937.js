@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 144269.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purse/class_1937.as
-// Nome offuscato: _icd51a8939628e1
+// Extracted from HabboAirLauncher.deobf.js, line 144269.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purse/class_1937.as
+// Obfuscated name: _icd51a8939628e1
 
 class a {
   static {

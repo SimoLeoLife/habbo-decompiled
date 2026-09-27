@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 72584.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/enum/poll/class_4353.as
-// Nome offuscato: _i3fde8ef40bed7b
+// Extracted from HabboAirLauncher.deobf.js, line 72584.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/enum/poll/class_4353.as
+// Obfuscated name: _i3fde8ef40bed7b
 
 class {
   static {

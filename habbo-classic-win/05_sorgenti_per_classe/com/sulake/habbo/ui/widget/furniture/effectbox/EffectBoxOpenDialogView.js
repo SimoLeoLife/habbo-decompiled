@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 314887.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/effectbox/EffectBoxOpenDialogView.as
-// Nome offuscato: _ic9464bc2f1f10b
+// Extracted from HabboAirLauncher.deobf.js, line 314887.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/effectbox/EffectBoxOpenDialogView.as
+// Obfuscated name: _ic9464bc2f1f10b
 
 class a {
   constructor(e) {

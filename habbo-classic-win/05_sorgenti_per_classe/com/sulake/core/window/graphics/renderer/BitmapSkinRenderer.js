@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 137974.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/BitmapSkinRenderer.as
-// Nome offuscato: _i0e4dcd268dad3c
+// Extracted from HabboAirLauncher.deobf.js, line 137974.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/graphics/renderer/BitmapSkinRenderer.as
+// Obfuscated name: _i0e4dcd268dad3c
 
 class a extends SkinRenderer {
   static {
@@ -10,7 +10,7 @@ class a extends SkinRenderer {
   _r8abda58573f732 = new Map();
   _r21fbc1ccd222bd = new Map();
   _transform = new Pe();
-  var_536 = new _i4210dc3239901d();
+  var_536 = new UnkClass_4210dc();
   _rfe8f5791a8c955 = !1;
   static REGION = new D();
   static TOP_LEFT = new E();

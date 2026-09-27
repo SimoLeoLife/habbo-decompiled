@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 358586.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/roomlogs/WiredRoomLogListView.as
-// Nome offuscato: _i286704874a5667
+// Extracted from HabboAirLauncher.deobf.js, line 358586.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/roomlogs/WiredRoomLogListView.as
+// Obfuscated name: _i286704874a5667
 
 class a extends rY {
   constructor(r, t) {
@@ -68,7 +68,7 @@ class a extends rY {
   calculateLastPage() {
     return this.var_63.page == null
       ? -1
-      : Math.trunc(Math.max(this.var_63.page.totalEntries - 1, 0) / _ifaf38892102cfa.PAGE_SIZE + 1);
+      : Math.trunc(Math.max(this.var_63.page.totalEntries - 1, 0) / UnkConstants_faf388.PAGE_SIZE + 1);
   }
   currentPage() {
     return this.var_63.page?.currentPage ?? -1;
@@ -90,7 +90,7 @@ class a extends rY {
   }, "_rc5723cdb49db6e");
   _r75ae2dcf82c9f2() {
     (this._r0c071e689a7678 == null &&
-      ((this._r0c071e689a7678 = new _i05394ecc0c0c4d(a.REFRESH_TIME)),
+      ((this._r0c071e689a7678 = new UnkEventDispatcherWrapperSubclass_05394e(a.REFRESH_TIME)),
       this._r0c071e689a7678.addEventListener(DeBouncer.addEventListener, this._r65194babb43663)),
       this._r0c071e689a7678.start());
   }
@@ -108,7 +108,7 @@ class a extends rY {
       : (t === a._r46fbf8ff75b31b && (t = d._r0174cab56f34bc),
         i === a._r46fbf8ff75b31b && (i = d._r4cdb25d94727f1),
         s == null && (s = ""),
-        this.var_63.send(new _i3d9f3af732b347(r, _ifaf38892102cfa.PAGE_SIZE, i, t, s), o),
+        this.var_63.send(new UnkMessageComposer_5args_3d9f3a(r, UnkConstants_faf388.PAGE_SIZE, i, t, s), o),
         this.onPageLoaded(),
         !0);
   }

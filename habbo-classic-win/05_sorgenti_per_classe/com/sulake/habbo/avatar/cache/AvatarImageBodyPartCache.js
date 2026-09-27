@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 166835.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/cache/AvatarImageBodyPartCache.as
-// Nome offuscato: _i4c82939a4f8e7d
+// Extracted from HabboAirLauncher.deobf.js, line 166835.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/cache/AvatarImageBodyPartCache.as
+// Obfuscated name: _i4c82939a4f8e7d
 
 class {
   static {

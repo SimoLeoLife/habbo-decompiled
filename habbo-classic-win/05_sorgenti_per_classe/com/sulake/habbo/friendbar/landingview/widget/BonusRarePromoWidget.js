@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 206747.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/BonusRarePromoWidget.as
-// Nome offuscato: _i9f2dc93aa21f58
+// Extracted from HabboAirLauncher.deobf.js, line 206747.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/BonusRarePromoWidget.as
+// Obfuscated name: _i9f2dc93aa21f58
 
 class {
   constructor(e) {
@@ -35,7 +35,7 @@ class {
         ((this._container.findChildByName("buy_button").procedure = this._r783110b2c95158),
         (this._container.visible = !1),
         this._landingView?._rf3db13932bfb60?._r2e106e2349a0b6(
-          new class_1841((e) => {
+          new UnkMessageEvent_36edae((e) => {
             this.communicationManager(e);
           }),
         ),
@@ -59,7 +59,7 @@ class {
     ko.applyCommonWidgetSettings(this._container, e);
   }
   requestBonusRareInfo() {
-    this._landingView?._rf3db13932bfb60?.connection?.send(new _i303a4dae2d2a9a());
+    this._landingView?._rf3db13932bfb60?.connection?.send(new class_2437());
   }
   onRoomEngineInitialized = n((e) => {
     this.refreshContent();

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 279716.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/class_1896.as
-// Nome offuscato: _i098e8448cdc3d8
+// Extracted from HabboAirLauncher.deobf.js, line 279716.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/class_1896.as
+// Obfuscated name: _i098e8448cdc3d8
 
 class a extends Pa {
   static {

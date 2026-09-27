@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 262662.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/ClubGiftNotification.as
-// Nome offuscato: _ibd71555efc141a
+// Extracted from HabboAirLauncher.deobf.js, line 262662.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/notifications/singular/ClubGiftNotification.as
+// Obfuscated name: _ibd71555efc141a
 
 class a {
   static {

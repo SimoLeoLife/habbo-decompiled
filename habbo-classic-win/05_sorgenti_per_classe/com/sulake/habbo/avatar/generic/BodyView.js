@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 163274.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/generic/BodyView.as
-// Nome offuscato: _iacdbfb36bcadab
+// Extracted from HabboAirLauncher.deobf.js, line 163274.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/avatar/generic/BodyView.as
+// Obfuscated name: _iacdbfb36bcadab
 
 class a extends CategoryBaseView {
   static {

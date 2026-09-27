@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 211504.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/tabs/tokens/Token.as
+// Extracted from HabboAirLauncher.deobf.js, line 211504.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/view/tabs/tokens/Token.as
 
 class a {
   constructor(e) {
@@ -79,7 +79,7 @@ class a {
         a._r98c73cf2241927,
       );
       (d != null && ((d.assetUri = i), this._icon.addChild(d)),
-        us.runMotion(this._icon) == null && us.DropBounce(new _i506da2e7e190eb(this._icon, 600, 32)));
+        us.runMotion(this._icon) == null && us.DropBounce(new UnkClass_506da2(this._icon, 600, 32)));
     }
   }
 }

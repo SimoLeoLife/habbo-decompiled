@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 152585.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/AnimatedColor.as
-// Nome offuscato: _i34b5455b6fee5a
+// Extracted from HabboAirLauncher.deobf.js, line 152585.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/AnimatedColor.as
+// Obfuscated name: _i34b5455b6fee5a
 
 class {
   static {

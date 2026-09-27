@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 272051.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/object/visualization/RoomObjectSpriteVisualization.as
-// Nome offuscato: _i85ea36654631c1
+// Extracted from HabboAirLauncher.deobf.js, line 272051.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/room/object/visualization/RoomObjectSpriteVisualization.as
+// Obfuscated name: _i85ea36654631c1
 
 class a {
   static {
@@ -121,7 +121,7 @@ class a {
       return new A(1, 1, !0, 0);
     }
     let d = new Pe(),
-      c = new _i4210dc3239901d();
+      c = new UnkClass_4210dc();
     for (let f of i)
       try {
         let l = f._r812b7e27afda96,
@@ -242,7 +242,7 @@ class a {
   _r64a73b0fcfc564(e) {
     if (e == null || e.length === 0) return [];
     let r = [];
-    for (let t of e) (t instanceof ColorMatrixFilter_ || t instanceof _ibaf84c0aa91c5d) && r.push(t);
+    for (let t of e) (t instanceof ColorMatrixFilter_ || t instanceof UnkClass_baf84c) && r.push(t);
     return r;
   }
   _rf5d899923db877(e, r) {
@@ -263,7 +263,7 @@ class a {
     let r = 0,
       t = 0;
     for (let i of e) {
-      if (!(i instanceof _ibaf84c0aa91c5d)) continue;
+      if (!(i instanceof UnkClass_baf84c)) continue;
       let s = Math.max(1, i.quality),
         o = Math.max(1, i.strength);
       ((r = Math.max(r, Math.ceil(i.blurX + s + o))), (t = Math.max(t, Math.ceil(i.blurY + s + o))));

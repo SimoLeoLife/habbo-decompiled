@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 200296.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/ChatViewController.as
-// Nome offuscato: _i2fa0866e7d5ae4
+// Extracted from HabboAirLauncher.deobf.js, line 200296.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/ChatViewController.as
+// Obfuscated name: _i2fa0866e7d5ae4
 
 class {
   constructor(e, r, t) {

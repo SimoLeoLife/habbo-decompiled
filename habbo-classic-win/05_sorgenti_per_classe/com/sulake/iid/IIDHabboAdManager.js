@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158365.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/iid/IIDHabboAdManager.as
+// Extracted from HabboAirLauncher.deobf.js, line 158365.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/iid/IIDHabboAdManager.as
 
 class {
   static {

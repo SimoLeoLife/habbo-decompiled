@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 255089.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/GuestRoomListCtrl.as
-// Nome offuscato: _i92a45a39ef83a6
+// Extracted from HabboAirLauncher.deobf.js, line 255089.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/GuestRoomListCtrl.as
+// Obfuscated name: _i92a45a39ef83a6
 
 class {
   constructor(e, r, t) {
@@ -246,12 +246,12 @@ class {
   onRemoveFavouriteClick = n((e) => {
     let r = e.target,
       t = r?.parent == null ? null : this.tags(r.parent.id);
-    t != null && this._navigator?.send(new _i9aee4cde0d1471(t.flatId));
+    t != null && this._navigator?.send(new UnkMessageComposer_1args_9aee4c(t.flatId));
   }, "onRemoveFavouriteClick");
   onAddFavouriteClick = n((e) => {
     let r = e.target,
       t = r?.parent == null ? null : this.tags(r.parent.id);
-    t != null && this._navigator?.send(new _i155badb9742492(t.flatId));
+    t != null && this._navigator?.send(new UnkMessageComposer_1args_155bad(t.flatId));
   }, "onAddFavouriteClick");
   hilite(e) {
     (this._r22981a9a6249ad != null &&

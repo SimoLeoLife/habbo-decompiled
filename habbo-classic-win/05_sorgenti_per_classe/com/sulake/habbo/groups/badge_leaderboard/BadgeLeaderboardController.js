@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 228036.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge_leaderboard/BadgeLeaderboardController.as
-// Nome offuscato: _i542d825c2b483c
+// Extracted from HabboAirLauncher.deobf.js, line 228036.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/badge_leaderboard/BadgeLeaderboardController.as
+// Obfuscated name: _i542d825c2b483c
 
 class a extends ue {
   static {

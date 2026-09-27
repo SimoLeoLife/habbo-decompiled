@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 265411.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/dailytasks/tasks/RewardDisplayWrapper.as
-// Nome offuscato: _i7df400d6b5f3d7
+// Extracted from HabboAirLauncher.deobf.js, line 265411.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/dailytasks/tasks/RewardDisplayWrapper.as
+// Obfuscated name: _i7df400d6b5f3d7
 
 class {
   constructor(e) {

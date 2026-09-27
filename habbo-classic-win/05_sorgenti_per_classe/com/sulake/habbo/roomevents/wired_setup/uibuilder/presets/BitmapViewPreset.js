@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 345276.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/BitmapViewPreset.as
-// Nome offuscato: _ib1a172ad77c269
+// Extracted from HabboAirLauncher.deobf.js, line 345276.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/BitmapViewPreset.as
+// Obfuscated name: _ib1a172ad77c269
 
 class extends WiredUIPreset {
   static {

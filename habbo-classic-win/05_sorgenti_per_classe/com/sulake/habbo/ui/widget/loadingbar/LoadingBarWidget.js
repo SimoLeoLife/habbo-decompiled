@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 323137.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/loadingbar/LoadingBarWidget.as
-// Nome offuscato: _id2763166e71c58
+// Extracted from HabboAirLauncher.deobf.js, line 323137.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/loadingbar/LoadingBarWidget.as
+// Obfuscated name: _id2763166e71c58
 
 class extends RoomWidgetBase {
   static {

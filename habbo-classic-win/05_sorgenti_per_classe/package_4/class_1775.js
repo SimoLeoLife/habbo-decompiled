@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 74392.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_4/class_1775.as
-// Nome offuscato: _i60e83df179016e
+// Extracted from HabboAirLauncher.deobf.js, line 74392.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_4/class_1775.as
+// Obfuscated name: _i60e83df179016e
 
 class {
     static {
@@ -34,10 +34,10 @@ class {
       ((this.pageId = e.readInteger()),
         (this._r28a444d88bee4d = e.readString()),
         (this._rf3871e54af1151 = e.readString()),
-        (this.localization = new _i011a963010836c(e)),
+        (this.localization = new UnkClass_011a96(e)),
         (this.offers = []));
       let r = e.readInteger();
-      for (let t = 0; t < r; t++) this.offers.push(new _ie671c5da796359(e));
+      for (let t = 0; t < r; t++) this.offers.push(new UnkClass_e671c5(e));
       if (
         ((this.offerId = e.readInteger()),
         (this.var_3503 = e.readBoolean()),

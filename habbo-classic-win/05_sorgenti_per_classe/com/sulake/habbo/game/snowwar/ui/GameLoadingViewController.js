@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 222948.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/ui/GameLoadingViewController.as
-// Nome offuscato: _i823a5b8925ee98
+// Extracted from HabboAirLauncher.deobf.js, line 222948.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/ui/GameLoadingViewController.as
+// Obfuscated name: _i823a5b8925ee98
 
 class {
   constructor(e) {
@@ -180,7 +180,7 @@ class {
   }, "onCancel");
   onClose() {
     (this._rc48cb7ca67aee6._r79edc3fe766723(!0),
-      this._rc48cb7ca67aee6.send(new _ied976cfb0cf69f()),
+      this._rc48cb7ca67aee6.send(new Game2ExitGameMessageComposer()),
       this._rc48cb7ca67aee6._r2773a0a439d827 > -1 &&
         this._rc48cb7ca67aee6.send(new class_2142(this._rc48cb7ca67aee6._r2773a0a439d827, !1, !0)),
       this._rc48cb7ca67aee6._r8627026f199837());

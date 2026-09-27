@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 307292.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/NestBreedingSuccessView.as
-// Nome offuscato: _id2bda7e35b8871
+// Extracted from HabboAirLauncher.deobf.js, line 307292.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/avatarinfo/NestBreedingSuccessView.as
+// Obfuscated name: _id2bda7e35b8871
 
 class a {
   constructor(e) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 62316.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/hurlant/crypto/hash/SHA1.as
-// Nome offuscato: _i70acda92c9464d
+// Extracted from HabboAirLauncher.deobf.js, line 62316.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/hurlant/crypto/hash/SHA1.as
+// Obfuscated name: _i70acda92c9464d
 
 class a extends SHABase {
   static {

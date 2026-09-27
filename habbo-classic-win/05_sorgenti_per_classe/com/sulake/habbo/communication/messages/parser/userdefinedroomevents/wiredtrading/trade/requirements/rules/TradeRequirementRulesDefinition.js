@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 110084.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/userdefinedroomevents/wiredtrading/trade/requirements/rules/TradeRequirementRulesDefinition.as
-// Nome offuscato: _idfae257226e730
+// Extracted from HabboAirLauncher.deobf.js, line 110084.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/userdefinedroomevents/wiredtrading/trade/requirements/rules/TradeRequirementRulesDefinition.as
+// Obfuscated name: _idfae257226e730
 
 class a {
     static {

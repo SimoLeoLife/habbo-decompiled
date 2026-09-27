@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 161988.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetRoomTagSearchMessage.as
-// Nome offuscato: _ide12cf54ee7ab1
+// Extracted from HabboAirLauncher.deobf.js, line 161988.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/messages/RoomWidgetRoomTagSearchMessage.as
+// Obfuscated name: _ide12cf54ee7ab1
 
 class a extends RoomWidgetMessage {
   constructor(r) {

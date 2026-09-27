@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 351302.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/params/HtmlTextParam.as
-// Nome offuscato: _i361e840b433998
+// Extracted from HabboAirLauncher.deobf.js, line 351302.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/params/HtmlTextParam.as
+// Obfuscated name: _i361e840b433998
 
 class a extends Se {
   constructor(r, t = !1, i = 0) {

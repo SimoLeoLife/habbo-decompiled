@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 209246.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/WidgetContainerWidget.as
-// Nome offuscato: _i2623b9e8c97b66
+// Extracted from HabboAirLauncher.deobf.js, line 209246.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/landingview/widget/WidgetContainerWidget.as
+// Obfuscated name: _i2623b9e8c97b66
 
 class a {
   constructor(e) {

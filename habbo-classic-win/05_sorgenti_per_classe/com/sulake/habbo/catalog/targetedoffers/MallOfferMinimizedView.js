@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 187462.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/targetedoffers/MallOfferMinimizedView.as
-// Nome offuscato: _ic33882b6b9e0c6
+// Extracted from HabboAirLauncher.deobf.js, line 187462.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/targetedoffers/MallOfferMinimizedView.as
+// Obfuscated name: _ic33882b6b9e0c6
 
 class a extends OfferView {
   static {

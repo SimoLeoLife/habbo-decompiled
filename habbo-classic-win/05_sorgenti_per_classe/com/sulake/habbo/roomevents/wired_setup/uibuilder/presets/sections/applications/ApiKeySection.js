@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 351183.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/sections/applications/ApiKeySection.as
-// Nome offuscato: _i8aa7ee6f17f870
+// Extracted from HabboAirLauncher.deobf.js, line 351183.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/sections/applications/ApiKeySection.as
+// Obfuscated name: _i8aa7ee6f17f870
 
 class extends AbstractSectionPreset {
   static {

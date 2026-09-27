@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 203046.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/visualization/style/ChatStyle.as
-// Nome offuscato: _i2918945789cfd0
+// Extracted from HabboAirLauncher.deobf.js, line 203046.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/freeflowchat/viewer/visualization/style/ChatStyle.as
+// Obfuscated name: _i2918945789cfd0
 
 class {
   static {
@@ -98,7 +98,7 @@ class {
       let t = (e >> 16) & 255,
         i = (e >> 8) & 255,
         s = e & 255;
-      r.draw(this._color, void 0, new _i4210dc3239901d(t / 255, i / 255, s / 255), ie.DARKEN);
+      r.draw(this._color, void 0, new UnkClass_4210dc(t / 255, i / 255, s / 255), ie.DARKEN);
     } else r = this._background;
     return this._usePixelPerfectNineSlice ? new Tz(this._scale9Grid, r) : _ie2bd349331c380(this._scale9Grid, r);
   }

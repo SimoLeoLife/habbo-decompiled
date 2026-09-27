@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 344981.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/AlignRightWrapperPreset.as
-// Nome offuscato: _i810755096381fa
+// Extracted from HabboAirLauncher.deobf.js, line 344981.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/AlignRightWrapperPreset.as
+// Obfuscated name: _i810755096381fa
 
 class extends WiredUIPreset {
   static {

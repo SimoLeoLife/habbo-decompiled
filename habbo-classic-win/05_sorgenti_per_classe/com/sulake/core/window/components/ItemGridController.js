@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 139258.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/ItemGridController.as
-// Nome offuscato: _icac0a41652d43f
+// Extracted from HabboAirLauncher.deobf.js, line 139258.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/ItemGridController.as
+// Obfuscated name: _icac0a41652d43f
 
 class extends ItemListController {
   static {

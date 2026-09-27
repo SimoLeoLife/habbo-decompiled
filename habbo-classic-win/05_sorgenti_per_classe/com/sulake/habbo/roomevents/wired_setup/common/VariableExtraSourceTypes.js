@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 346867.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/common/VariableExtraSourceTypes.as
-// Nome offuscato: _i55f88194bac350
+// Extracted from HabboAirLauncher.deobf.js, line 346867.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/common/VariableExtraSourceTypes.as
+// Obfuscated name: _i55f88194bac350
 
 class {
   static {

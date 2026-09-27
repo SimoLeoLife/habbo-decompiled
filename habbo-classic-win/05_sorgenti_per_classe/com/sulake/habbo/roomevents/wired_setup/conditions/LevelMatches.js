@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 366767.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/LevelMatches.as
-// Nome offuscato: _i0d0f466958d744
+// Extracted from HabboAirLauncher.deobf.js, line 366767.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/LevelMatches.as
+// Obfuscated name: _i0d0f466958d744
 
 class extends DefaultConditionType {
   static {

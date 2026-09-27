@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 340630.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/phonenumber/VerificationCodeInputView.as
-// Nome offuscato: _i755aef643f76b2
+// Extracted from HabboAirLauncher.deobf.js, line 340630.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/phonenumber/VerificationCodeInputView.as
+// Obfuscated name: _i755aef643f76b2
 
 class a {
   static {
@@ -43,7 +43,7 @@ class a {
     let r = this._window?.findChildByName("retry_wait_label");
     (r != null && (r.visible = !0),
       this._r91eaa220f267a4(),
-      (this._r296a04323547dc = new _i05394ecc0c0c4d(1e3)),
+      (this._r296a04323547dc = new UnkEventDispatcherWrapperSubclass_05394e(1e3)),
       this._r296a04323547dc.addEventListener(DeBouncer.addEventListener, this._r91eaa220f267a4),
       this._r296a04323547dc.start());
   }

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 74126.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/navigation/ICatalogNode.as
-// Nome offuscato: _i9e1d43b96062e4
+// Extracted from HabboAirLauncher.deobf.js, line 74126.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/navigation/ICatalogNode.as
+// Obfuscated name: _i9e1d43b96062e4
 
 class a {
     static {

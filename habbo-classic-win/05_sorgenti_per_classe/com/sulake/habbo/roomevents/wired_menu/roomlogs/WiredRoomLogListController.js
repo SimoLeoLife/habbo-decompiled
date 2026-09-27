@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 358741.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/roomlogs/WiredRoomLogListController.as
-// Nome offuscato: _idbc405bb6ab159
+// Extracted from HabboAirLauncher.deobf.js, line 358741.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/roomlogs/WiredRoomLogListController.as
+// Obfuscated name: _idbc405bb6ab159
 
 class extends ue {
   static {
@@ -15,7 +15,7 @@ class extends ue {
   constructor(e, r, t = 0, i = null) {
     (super(r, t, i),
       (this._roomEvents = e),
-      (this._messageEvents = [new _i886e5bb4df3751((s) => this._rd1049a4649a379(s))]));
+      (this._messageEvents = [new UnkMessageEvent_886e5b((s) => this._rd1049a4649a379(s))]));
     for (let s of this._messageEvents) this.addMessageEvent(s);
   }
   get dependencies() {
@@ -87,7 +87,7 @@ class extends ue {
   }
   _rd1049a4649a379(e) {
     let r = e.getParser();
-    r.page?.amount === _ifaf38892102cfa.PAGE_SIZE &&
+    r.page?.amount === UnkConstants_faf388.PAGE_SIZE &&
       (((this._view == null || !this._view.isShowing()) && !this.var_2737) ||
         ((this.var_225 = r.page),
         this._view == null && (this._view = new D5(this, this._windowManager)),

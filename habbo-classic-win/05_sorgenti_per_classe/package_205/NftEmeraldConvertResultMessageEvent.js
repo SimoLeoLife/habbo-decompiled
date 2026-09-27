@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 96250.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_205/NftEmeraldConvertResultMessageEvent.as
-// Nome offuscato: _i45c141eb9c12de
+// Extracted from HabboAirLauncher.deobf.js, line 96250.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_205/NftEmeraldConvertResultMessageEvent.as
+// Obfuscated name: _i45c141eb9c12de
 
 class extends MessageEvent {
     static {

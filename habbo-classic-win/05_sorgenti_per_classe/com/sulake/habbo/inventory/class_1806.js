@@ -1,13 +1,13 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 243439.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/class_1806.as
-// Nome offuscato: _i9873e4b334fe0a
+// Extracted from HabboAirLauncher.deobf.js, line 243439.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/class_1806.as
+// Obfuscated name: _i9873e4b334fe0a
 
 class {
   constructor(e, r, t) {
     this._communication = e;
     this._events = r;
     this._inventory = t;
-    this._communication?._r2e106e2349a0b6(new _ib6e5bd32bc7209((i) => this._r9c88311daa9157(i)));
+    this._communication?._r2e106e2349a0b6(new UnkMessageEvent_b6e5bd((i) => this._r9c88311daa9157(i)));
   }
   static {
     n(this, "class_1806");
@@ -97,10 +97,10 @@ class {
     for (let s of r) i.add(s);
   }
   _r6f2be14b7b0a5f(e) {
-    this._communication?.connection.send(new _i3d035c65d2b98d(e));
+    this._communication?.connection.send(new UnkMessageComposer_1args_3d035c(e));
   }
   _rc180b5569a84e5(e, r) {
-    this._communication?.connection.send(new _ibd0d7b095c65ff(e, r));
+    this._communication?.connection.send(new UnkMessageComposer_2args_bd0d7b(e, r));
   }
   _rb2f237398c41a6(e, r) {
     let t = this._recc2cbe0c0dd7f.get(e);

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 109715.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_193/ChestStorage.as
-// Nome offuscato: _i47ed806b47f00f
+// Extracted from HabboAirLauncher.deobf.js, line 109715.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_193/ChestStorage.as
+// Obfuscated name: _i47ed806b47f00f
 
 class {
     static {

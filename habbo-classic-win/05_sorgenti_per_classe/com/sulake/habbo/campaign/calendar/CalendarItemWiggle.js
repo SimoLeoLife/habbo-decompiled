@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 339368.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/campaign/calendar/CalendarItemWiggle.as
-// Nome offuscato: _iffe110b74a1377
+// Extracted from HabboAirLauncher.deobf.js, line 339368.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/campaign/calendar/CalendarItemWiggle.as
+// Obfuscated name: _iffe110b74a1377
 
 class a {
   constructor(e) {
@@ -8,7 +8,7 @@ class a {
     this._window != null &&
       ((this._rf31411c64a9d35 = this._window.y),
       (this._window.y -= a.const_221),
-      (this.var_382 = new _i05394ecc0c0c4d(a.TIMER_INTERVAL)),
+      (this.var_382 = new UnkEventDispatcherWrapperSubclass_05394e(a.TIMER_INTERVAL)),
       this.var_382.addEventListener(DeBouncer.addEventListener, this._r76ce286f901681),
       this.var_382.start());
   }

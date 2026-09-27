@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 181837.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/tracking/FramerateTracker.as
-// Nome offuscato: _i08cb8c42ad2df0
+// Extracted from HabboAirLauncher.deobf.js, line 181837.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/tracking/FramerateTracker.as
+// Obfuscated name: _i08cb8c42ad2df0
 
 class {
   static {

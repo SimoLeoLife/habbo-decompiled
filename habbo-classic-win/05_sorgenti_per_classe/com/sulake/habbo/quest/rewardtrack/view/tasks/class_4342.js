@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 267383.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/tasks/class_4342.as
-// Nome offuscato: _i9d09adbec26794
+// Extracted from HabboAirLauncher.deobf.js, line 267383.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/tasks/class_4342.as
+// Obfuscated name: _i9d09adbec26794
 
 class {
   static {

@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 288289.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/healthpoints/StackedHealthPointsRenderer.as
+// Extracted from HabboAirLauncher.deobf.js, line 288289.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/healthpoints/StackedHealthPointsRenderer.as
 
 class a {
   constructor(e) {
@@ -22,7 +22,7 @@ class a {
   static VERTICAL_SPACING = 3;
   static MAX_ROWS = 20;
   var_2881 = -1;
-  _frame = new _i5ec3143bd5c7df();
+  _frame = new UnkClass_5ec314();
   _r9e3b62772cf495 = new mwe();
   _initialized = !1;
   var_3458 = "";

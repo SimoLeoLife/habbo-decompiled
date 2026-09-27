@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 348432.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/newvariablepicker/overview/VariableNodeView.as
-// Nome offuscato: _idc1eecd92ec814
+// Extracted from HabboAirLauncher.deobf.js, line 348432.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/newvariablepicker/overview/VariableNodeView.as
+// Obfuscated name: _idc1eecd92ec814
 
 class a {
   constructor(e, r, t, i) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 369076.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/triggerconfs/class_3900.as
-// Nome offuscato: _id5f32242ddb3b9
+// Extracted from HabboAirLauncher.deobf.js, line 369076.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/triggerconfs/class_3900.as
+// Obfuscated name: _id5f32242ddb3b9
 
 class extends DefaultTriggerConf {
   static {

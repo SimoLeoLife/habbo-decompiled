@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 278016.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureExternalImageVisualization.as
-// Nome offuscato: _ide358056cb5e8c
+// Extracted from HabboAirLauncher.deobf.js, line 278016.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/furniture/FurnitureExternalImageVisualization.as
+// Obfuscated name: _ide358056cb5e8c
 
 class extends class_1882 {
   static {

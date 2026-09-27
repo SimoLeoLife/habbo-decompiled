@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 250330.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/StartPanelCtrl.as
-// Nome offuscato: _i257ad17760d265
+// Extracted from HabboAirLauncher.deobf.js, line 250330.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/StartPanelCtrl.as
+// Obfuscated name: _i257ad17760d265
 
 class {
   constructor(e) {
@@ -102,7 +102,7 @@ class {
   _raeacb7171830b6 = n((e) => {
     this._main._r2512b8a3ecad84.show(
       new N1(
-        new _i671071d9a891e5(this._isGuestRoom ? 0 : 1, this.var_2440),
+        new class_2523(this._isGuestRoom ? 0 : 1, this.var_2440),
         this._main,
         WindowTracker.const_1136,
         this.var_2440,

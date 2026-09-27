@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 159141.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionConfirmPetBreedingResultEvent.as
-// Nome offuscato: _i04c705ae5350f1
+// Extracted from HabboAirLauncher.deobf.js, line 159141.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionConfirmPetBreedingResultEvent.as
+// Obfuscated name: _i04c705ae5350f1
 
 class a extends RoomSessionEvent {
   constructor(r, t, i, s = !1, o = !1) {

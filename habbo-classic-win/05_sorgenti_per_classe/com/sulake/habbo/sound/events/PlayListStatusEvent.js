@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 162241.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/events/PlayListStatusEvent.as
-// Nome offuscato: _ied726fcececf64
+// Extracted from HabboAirLauncher.deobf.js, line 162241.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/sound/events/PlayListStatusEvent.as
+// Obfuscated name: _ied726fcececf64
 
 class extends M {
   static {

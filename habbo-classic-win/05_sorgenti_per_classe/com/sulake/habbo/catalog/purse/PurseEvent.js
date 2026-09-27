@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 144351.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purse/PurseEvent.as
-// Nome offuscato: _ie216553b705598
+// Extracted from HabboAirLauncher.deobf.js, line 144351.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/purse/PurseEvent.as
+// Obfuscated name: _ie216553b705598
 
 class a extends M {
   static {

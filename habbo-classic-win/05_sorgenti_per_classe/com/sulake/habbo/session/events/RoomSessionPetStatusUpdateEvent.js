@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 159473.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionPetStatusUpdateEvent.as
-// Nome offuscato: _i5588afdb7518fc
+// Extracted from HabboAirLauncher.deobf.js, line 159473.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionPetStatusUpdateEvent.as
+// Obfuscated name: _i5588afdb7518fc
 
 class a extends RoomSessionEvent {
   constructor(r, t, i, s, o, d, c = !1, f = !1) {

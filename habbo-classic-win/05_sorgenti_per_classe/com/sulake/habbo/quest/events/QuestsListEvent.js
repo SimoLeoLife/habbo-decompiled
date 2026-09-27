@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158921.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/events/QuestsListEvent.as
-// Nome offuscato: _i2da2e3f4116d12
+// Extracted from HabboAirLauncher.deobf.js, line 158921.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/events/QuestsListEvent.as
+// Obfuscated name: _i2da2e3f4116d12
 
 class a extends M {
   constructor(r, t, i, s = !1, o = !1) {

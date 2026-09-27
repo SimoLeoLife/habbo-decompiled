@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 316506.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/dimmer/DimmerView.as
-// Nome offuscato: _iec80e4a8c23e5f
+// Extracted from HabboAirLauncher.deobf.js, line 316506.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/furniture/dimmer/DimmerView.as
+// Obfuscated name: _iec80e4a8c23e5f
 
 class a {
   static {

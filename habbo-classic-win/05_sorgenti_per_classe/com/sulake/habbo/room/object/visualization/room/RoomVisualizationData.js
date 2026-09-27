@@ -1,14 +1,14 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 283653.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/RoomVisualizationData.as
-// Nome offuscato: _i8459b525b333b4
+// Extracted from HabboAirLauncher.deobf.js, line 283653.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/room/RoomVisualizationData.as
+// Obfuscated name: _i8459b525b333b4
 
 class {
   static {
     n(this, "RoomVisualizationData");
   }
-  var_1118 = new _i572c95e7d59877();
-  var_1455 = new _i0f71c7942ba502();
-  var_1043 = new _ifc8c1f2c209595();
+  var_1118 = new UnkClass_572c95();
+  var_1455 = new UnkClass_0f71c7();
+  var_1043 = new UnkClass_fc8c1f();
   var_1550 = new Kve();
   _rf1bec2a91c53aa = new PlaneMaskManager();
   _initialized = !1;

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 181512.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/messages/RoomObjectItemDataUpdateMessage.as
-// Nome offuscato: _i824d0547164476
+// Extracted from HabboAirLauncher.deobf.js, line 181512.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/messages/RoomObjectItemDataUpdateMessage.as
+// Obfuscated name: _i824d0547164476
 
 class extends RoomObjectUpdateMessage {
   constructor(r) {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 255353.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/domain/RoomSessionTags.as
-// Nome offuscato: _i2cdaf18174f885
+// Extracted from HabboAirLauncher.deobf.js, line 255353.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/domain/RoomSessionTags.as
+// Obfuscated name: _i2cdaf18174f885
 
 class {
   constructor(e, r) {

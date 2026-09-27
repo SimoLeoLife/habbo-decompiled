@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 213278.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/data/HabboFriendBarData.as
-// Nome offuscato: _i83801f53ecf5d4
+// Extracted from HabboAirLauncher.deobf.js, line 213278.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/data/HabboFriendBarData.as
+// Obfuscated name: _i83801f53ecf5d4
 
 class a extends ue {
   static {
@@ -55,11 +55,11 @@ class a extends ue {
       c = n((l) => this._r477c677e768ba6(l), "_i477c677e768ba6"),
       f = n((l) => this._r43c39e0385e668(l), "_i43c39e0385e668");
     (this._r69f016458bd53f?._r2e106e2349a0b6(new class_2248(e)),
-      this._r69f016458bd53f?._r2e106e2349a0b6(new _ib1cf729ef555ec(r)),
-      this._r69f016458bd53f?._r2e106e2349a0b6(new _ib019fd527eda9d(t)),
-      this._r69f016458bd53f?._r2e106e2349a0b6(new _ie039af5c00d36e(i)),
-      this._r69f016458bd53f?._r2e106e2349a0b6(new _ifdf85a61afccf4(s)),
-      this._r69f016458bd53f?._r2e106e2349a0b6(new _id914761a015ed9(o)),
+      this._r69f016458bd53f?._r2e106e2349a0b6(new UnkMessageEvent_b1cf72(r)),
+      this._r69f016458bd53f?._r2e106e2349a0b6(new UnkMessageEvent_b019fd(t)),
+      this._r69f016458bd53f?._r2e106e2349a0b6(new UnkMessageEvent_e039af(i)),
+      this._r69f016458bd53f?._r2e106e2349a0b6(new UnkMessageEvent_fdf85a(s)),
+      this._r69f016458bd53f?._r2e106e2349a0b6(new UnkMessageEvent_d91476(o)),
       this._r69f016458bd53f?._r2e106e2349a0b6(new class_1935(d)),
       this._r69f016458bd53f?._r2e106e2349a0b6(new class_2250(c)),
       this._r69f016458bd53f?._r2e106e2349a0b6(new class_3355(f)),
@@ -143,14 +143,14 @@ class a extends ue {
       ));
   }
   _ra110382b6557cc() {
-    (this._r69f016458bd53f?.connection.send(new _i8e4d2a9ee39ff7()),
+    (this._r69f016458bd53f?.connection.send(new UnkMessageComposer_0args_8e4d2a()),
       this._r69f016458bd53f?.connection.send(
         new class_2154(a.TRACKING_EVENT_CATEGORY, a.TRACKING_EVENT_TYPE, a.TRACKING_EVENT_ACTION_FIND_FRIENDS),
       ));
   }
   _rd4e1f486632930() {
     this._r590f28d02eb9a9 != null &&
-      (this._r590f28d02eb9a9._r31fba0b9e95dac() !== _ia4c17117df4f10.SearchView
+      (this._r590f28d02eb9a9._r31fba0b9e95dac() !== UnkConstants_a4c171.SearchView
         ? this._r590f28d02eb9a9._r5ea4d7eb8b0a8c()
         : this._r590f28d02eb9a9.close());
   }
@@ -198,10 +198,10 @@ class a extends ue {
     this._r69f016458bd53f != null &&
       (e > 0
         ? this._r69f016458bd53f.connection.send(new class_2134(e))
-        : this._r69f016458bd53f.connection.send(new _i494540f04bf21d(Math.abs(e), !0)));
+        : this._r69f016458bd53f.connection.send(new class_1949(Math.abs(e), !0)));
   }
   _rde19ea92fd3543(e) {
-    this._r69f016458bd53f?.connection.send(new _ieb6736d26d7391(e));
+    this._r69f016458bd53f?.connection.send(new UnkMessageComposer_1args_eb6736(e));
   }
   get showFriendNotifications() {
     return this.getBoolean("friendbar.notifications.enabled");
@@ -281,11 +281,11 @@ class a extends ue {
     this._rdfb91d87c4db60?.events.addEventListener?.(ActiveConversationEvent.ACTIVE_CONVERSATION_COUNT_CHANGED, this._r690ec4f65a7b96);
   }, "_r8b3445fb8bb30e");
   _r89804fb6520a29 = n((e) => {
-    let r = ClassUtils.getParser(e, _ibe23a988cf9243);
+    let r = ClassUtils.getParser(e, UnkMessageParser_III_be23a9);
     r != null && this._r7d7adc4bd41a86(r._r3ffeb595461103);
   }, "_r89804fb6520a29");
   _re2d4f827ef2413 = n((e) => {
-    let r = ClassUtils.getParser(e, _i7720fd48030002);
+    let r = ClassUtils.getParser(e, UnkMessageParser_IIII_7720fd);
     if (r == null) return;
     let t = r._r4c37a8f59cd58b,
       i = r._rbefba214d28621,
@@ -357,7 +357,7 @@ class a extends ue {
   }, "_r9998eaa4b9db05");
   _rf9b7cbaf81007e = n((e) => {
     if (!this.showFriendRequests) return;
-    let r = ClassUtils.getParser(e, _i59db89b2520d7d);
+    let r = ClassUtils.getParser(e, UnkMessageParser_empty_59db89);
     if (r?.req == null) return;
     let t = r.req;
     (this.var_194.push(new FriendRequest(t.requestId, t._r19234559776703, t.figureString)),
@@ -365,7 +365,7 @@ class a extends ue {
   }, "_rf9b7cbaf81007e");
   _r5debeb21d04892 = n((e) => {
     if (!this.showFriendRequests) return;
-    let r = ClassUtils.getParser(e, _i9cd5c96c2d404f);
+    let r = ClassUtils.getParser(e, UnkMessageParser_II_9cd5c9);
     if (r == null) return;
     let t = r._r6ec858df0bd32d;
     for (let i of t) this.var_194.push(new FriendRequest(i.requestId, i._r19234559776703, i.figureString));

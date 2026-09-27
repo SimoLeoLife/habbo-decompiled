@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 255571.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/PopularTagsListCtrl.as
-// Nome offuscato: _i6fbe6d805bb83f
+// Extracted from HabboAirLauncher.deobf.js, line 255571.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/navigator/mainview/PopularTagsListCtrl.as
+// Obfuscated name: _i6fbe6d805bb83f
 
 class {
   constructor(e) {

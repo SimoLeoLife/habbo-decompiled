@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 190611.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/MarketPlaceCatalogWidget.as
-// Nome offuscato: _iaf13c10bedabc1
+// Extracted from HabboAirLauncher.deobf.js, line 190611.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/MarketPlaceCatalogWidget.as
+// Obfuscated name: _iaf13c10bedabc1
 
 class a extends CatalogWidget {
   static {
@@ -165,7 +165,7 @@ class a extends CatalogWidget {
     let t = e.getKeys();
     t != null &&
       (this.updateStatusDisplay(a.STATUS_LIST_AVAILABLE, t.length, r),
-      (this._r4b5ad91fc07b1e ??= new _i05394ecc0c0c4d(25)),
+      (this._r4b5ad91fc07b1e ??= new UnkEventDispatcherWrapperSubclass_05394e(25)),
       this._r4b5ad91fc07b1e.removeEventListener(DeBouncer.addEventListener, this._rcb834213f94008),
       this._r4b5ad91fc07b1e.addEventListener(DeBouncer.addEventListener, this._rcb834213f94008),
       (this._rd6faf3bfdf3657 = 0),

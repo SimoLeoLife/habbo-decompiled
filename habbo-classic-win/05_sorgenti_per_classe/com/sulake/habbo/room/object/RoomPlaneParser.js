@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 80806.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/RoomPlaneParser.as
-// Nome offuscato: _ib097b987258927
+// Extracted from HabboAirLauncher.deobf.js, line 80806.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/RoomPlaneParser.as
+// Obfuscated name: _ib097b987258927
 
 class a {
   static {
@@ -325,7 +325,7 @@ class a {
   }
   _r2013da28a384d9(e, r, t, i, s, o = !1) {
     this._r8ff1158f880ba5(e);
-    let d = new _i717b38cd59700b(r, t, i, s);
+    let d = new UnkClass_717b38(r, t, i, s);
     o ? this.var_548.add(e, d) : this._r8503285c04f84a.add(e, d);
   }
   _r8ff1158f880ba5(e) {

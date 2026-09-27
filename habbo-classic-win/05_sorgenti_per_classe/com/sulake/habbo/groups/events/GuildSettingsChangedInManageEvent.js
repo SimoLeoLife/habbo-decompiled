@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158714.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/events/GuildSettingsChangedInManageEvent.as
-// Nome offuscato: _ia8cd5fbc90d9c7
+// Extracted from HabboAirLauncher.deobf.js, line 158714.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/groups/events/GuildSettingsChangedInManageEvent.as
+// Obfuscated name: _ia8cd5fbc90d9c7
 
 class extends M {
   static {

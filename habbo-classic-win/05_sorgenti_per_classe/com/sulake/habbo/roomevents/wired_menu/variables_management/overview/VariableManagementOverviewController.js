@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 359538.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/variables_management/overview/VariableManagementOverviewController.as
-// Nome offuscato: _ib728af19bce8a8
+// Extracted from HabboAirLauncher.deobf.js, line 359538.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/variables_management/overview/VariableManagementOverviewController.as
+// Obfuscated name: _ib728af19bce8a8
 
 class extends ue {
   static {
@@ -15,7 +15,7 @@ class extends ue {
   constructor(e, r, t = 0, i = null) {
     (super(r, t, i),
       (this._roomEvents = e),
-      (this._messageEvents = [new _ia5595f8ffbb41f((s) => this._rd1049a4649a379(s))]));
+      (this._messageEvents = [new UnkMessageEvent_a5595f((s) => this._rd1049a4649a379(s))]));
     for (let s of this._messageEvents) this.addMessageEvent(s);
   }
   get dependencies() {
@@ -94,11 +94,11 @@ class extends ue {
     }
   }
   _rd1049a4649a379(e) {
-    let r = ClassUtils.getParser(e, _i46d12282feecb3);
+    let r = ClassUtils.getParser(e, UnkMessageParser_empty_46d122);
     if (r == null) return;
     let t = r.page;
     t == null ||
-      t.amount !== _i50108c33681996.PAGE_SIZE ||
+      t.amount !== UnkConstants_50108c.PAGE_SIZE ||
       this._roomEvents._rf5e384520bc525.getAllVariables((i) => this.initializeData(i, t));
   }
   initializeData(e, r) {

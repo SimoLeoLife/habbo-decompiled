@@ -1,27 +1,27 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 250454.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/ModerationMessageHandler.as
-// Nome offuscato: _i0f04adb6c7a201
+// Extracted from HabboAirLauncher.deobf.js, line 250454.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/moderation/ModerationMessageHandler.as
+// Obfuscated name: _i0f04adb6c7a201
 
 class {
   constructor(e) {
     this._moderationManager = e;
     let r = this._moderationManager.connection;
     (r?.addMessageEvent(new class_3692(this._rb3a38c902946de)),
-      r?.addMessageEvent(new _ibc8b6e129be42d(this._re8c835f7ef45a9)),
+      r?.addMessageEvent(new UnkMessageEvent_bc8b6e(this._re8c835f7ef45a9)),
       r?.addMessageEvent(new class_2925(this._ra4d72521701362)),
       r?.addMessageEvent(new class_3110(this._rcc0c5334d207cc)),
       r?.addMessageEvent(new class_3810(this._rcf717e3350798b)),
-      r?.addMessageEvent(new _i684452d3e19adb(this.onUserInfo)),
-      r?.addMessageEvent(new _i11a7ecc0c9219e(this.onRoomInfo)),
-      r?.addMessageEvent(new _if3a5029401f43a(this._rb518c60c376a0a)),
-      r?.addMessageEvent(new _i1ef5e023aca108(this._r3e3e0a9b65fe93)),
-      r?.addMessageEvent(new _ia9eb9b8c1ae7d8(this._rf8d831b677e2f9)),
-      r?.addMessageEvent(new _i9faf6818d048e2(this.onRoomVisits)),
+      r?.addMessageEvent(new UnkMessageEvent_684452(this.onUserInfo)),
+      r?.addMessageEvent(new UnkMessageEvent_11a7ec(this.onRoomInfo)),
+      r?.addMessageEvent(new UnkMessageEvent_f3a502(this._rb518c60c376a0a)),
+      r?.addMessageEvent(new UnkMessageEvent_1ef5e0(this._r3e3e0a9b65fe93)),
+      r?.addMessageEvent(new UnkMessageEvent_a9eb9b(this._rf8d831b677e2f9)),
+      r?.addMessageEvent(new UnkMessageEvent_9faf68(this.onRoomVisits)),
       r?.addMessageEvent(new class_2117(this.onRoomEnter)),
       r?.addMessageEvent(new class_1929(this.onRoomExit)),
       r?.addMessageEvent(new class_3174(this._r958be91cc75e86)),
       r?.addMessageEvent(new class_2464(this._rec0cac594b71f0)),
-      r?.addMessageEvent(new _i7cb02b4935d42f(this._rf8506de21fc735)),
+      r?.addMessageEvent(new UnkMessageEvent_7cb02b(this._rf8506de21fc735)),
       r?.addMessageEvent(new class_1939(this._r09330674c979c8)));
   }
   static {
@@ -115,15 +115,15 @@ class {
     r != null && this._moderationManager._r74ed78993f8dd6._r8637a9a49b851b(r.issueId);
   }, "_rcf717e3350798b");
   onUserInfo = n((e) => {
-    let r = ClassUtils.getParser(e, _i02ab606b877598);
+    let r = ClassUtils.getParser(e, UnkMessageParser_empty_02ab60);
     if (r != null && r.data != null) for (let t of this._r49bac3217bfe3b) t.onUserInfo(r.data);
   }, "onUserInfo");
   onRoomInfo = n((e) => {
-    let r = ClassUtils.getParser(e, _i18a4b2aea49db1);
+    let r = ClassUtils.getParser(e, UnkMessageParser_empty_18a4b2);
     if (r != null && r.data != null) for (let t of this._r8add42acc9eb5f) t.onRoomInfo(r.data);
   }, "onRoomInfo");
   _rb518c60c376a0a = n((e) => {
-    let r = ClassUtils.getParser(e, _i50d50d0deb6c87);
+    let r = ClassUtils.getParser(e, UnkMessageParser_empty_50d50d);
     if (r == null || r.data == null) return;
     let t = [r.data._rc99187437356a9],
       i = new Map();
@@ -138,7 +138,7 @@ class {
       ));
   }, "_rb518c60c376a0a");
   _rf8d831b677e2f9 = n((e) => {
-    let r = ClassUtils.getParser(e, _i547bd499983f15);
+    let r = ClassUtils.getParser(e, UnkMessageParser_empty_547bd4);
     r != null &&
       r.data != null &&
       this.onChatlog(
@@ -150,7 +150,7 @@ class {
       );
   }, "_rf8d831b677e2f9");
   _r3e3e0a9b65fe93 = n((e) => {
-    let r = ClassUtils.getParser(e, _iefd565d9f30a1c);
+    let r = ClassUtils.getParser(e, UnkMessageParser_empty_efd565);
     if (r == null || r.data == null) return;
     let t = new Map();
     (t.set(r.data.userId, 0),
@@ -167,7 +167,7 @@ class {
     for (let d of o) d.onChatlog(e, r, t, i, s);
   }
   onRoomVisits = n((e) => {
-    let r = ClassUtils.getParser(e, _ia66d73552c3ece);
+    let r = ClassUtils.getParser(e, UnkMessageParser_empty_a66d73);
     if (r != null && r.data != null) for (let t of this._re42627d33666d9.concat()) t.onRoomVisits(r.data);
   }, "onRoomVisits");
   _rec0cac594b71f0 = n((e) => {
@@ -177,13 +177,13 @@ class {
       i = r._r2f36f47a427424;
     if (t == null || i == null) return;
     let s = [];
-    for (let c of t.getKeys()) s.push(new _i6aa3e3eb0871b8(c, t.getValue(c) ?? "", i.getValue(c) ?? ""));
+    for (let c of t.getKeys()) s.push(new UnkClass_6aa3e3(c, t.getValue(c) ?? "", i.getValue(c) ?? ""));
     let o = 1;
     new Dpe(this._moderationManager, o).show();
     for (let c of this._r4fe4c910178196.concat()) c._r5fd41ee35bc422(o, s);
   }, "_rec0cac594b71f0");
   _rf8506de21fc735 = n((e) => {
-    let r = ClassUtils.getParser(e, _i61099346b99af7);
+    let r = ClassUtils.getParser(e, UnkMessageParser_II_610993);
     r != null &&
       r._r795b64717e95be != null &&
       this._moderationManager._r74ed78993f8dd6.updateSanctionData(

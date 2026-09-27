@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 339515.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/campaign/calendar/CalendarView.as
-// Nome offuscato: _i5214c973cffec6
+// Extracted from HabboAirLauncher.deobf.js, line 339515.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/campaign/calendar/CalendarView.as
+// Obfuscated name: _i5214c973cffec6
 
 class a {
   constructor(e, r) {

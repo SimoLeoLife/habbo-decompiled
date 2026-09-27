@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 328928.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/ExternalImageWidgetHandler.as
-// Nome offuscato: _i443c847635aa66
+// Extracted from HabboAirLauncher.deobf.js, line 328928.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/ExternalImageWidgetHandler.as
+// Obfuscated name: _i443c847635aa66
 
 class {
   static {

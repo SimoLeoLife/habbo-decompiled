@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 195056.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/SongDiskProductViewCatalogWidget.as
-// Nome offuscato: _ib653b920a76f68
+// Extracted from HabboAirLauncher.deobf.js, line 195056.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/SongDiskProductViewCatalogWidget.as
+// Obfuscated name: _ib653b920a76f68
 
 class extends Om {
   constructor(r, t) {
@@ -18,7 +18,7 @@ class extends Om {
         this.onSongInfoReceivedEvent,
       ),
       this._r400cfb2824387d?.connection != null &&
-        ((this._r7179cc95d853cf = new _i4415b3d7ee4fd1(this._ra9edcce961a3e0)),
+        ((this._r7179cc95d853cf = new UnkMessageEvent_4415b3(this._ra9edcce961a3e0)),
         this._r400cfb2824387d.connection.addMessageEvent(this._r7179cc95d853cf)));
   }
   static {
@@ -38,7 +38,7 @@ class extends Om {
   dispose() {
     (this.var_1064 != null &&
       this.var_1064.removeEventListener(u.CLICK, this._r36ca3f8f0859a9),
-      this._r400cfb2824387d?.musicController?.soundManager?.stop(_ia57980bbc2be8f._r12a36356ec1cd6),
+      this._r400cfb2824387d?.musicController?.soundManager?.stop(UnkConstants_a57980._r12a36356ec1cd6),
       this._r400cfb2824387d?.musicController?.events.removeEventListener?.(
         SongInfoReceivedEvent.TRAX_SONG_INFO_RECEIVED,
         this.onSongInfoReceivedEvent,
@@ -53,14 +53,14 @@ class extends Om {
       super.dispose());
   }
   closed() {
-    (super.closed(), this._r400cfb2824387d?.musicController?.soundManager?.stop(_ia57980bbc2be8f._r12a36356ec1cd6));
+    (super.closed(), this._r400cfb2824387d?.musicController?.soundManager?.stop(UnkConstants_a57980._r12a36356ec1cd6));
   }
   _r36ca3f8f0859a9 = n((r) => {
     let t = this._r400cfb2824387d?.musicController?.soundManager;
     t != null &&
-      (this._rd6a41a4c205e28(_ia57980bbc2be8f._r91444358db0d2d),
-      this._rd6a41a4c205e28(_ia57980bbc2be8f._r12a36356ec1cd6),
-      t._r327803e778efff(this.var_1046, _ia57980bbc2be8f._r12a36356ec1cd6, 15, 40, 0.5, 2));
+      (this._rd6a41a4c205e28(UnkConstants_a57980._r91444358db0d2d),
+      this._rd6a41a4c205e28(UnkConstants_a57980._r12a36356ec1cd6),
+      t._r327803e778efff(this.var_1046, UnkConstants_a57980._r12a36356ec1cd6, 15, 40, 0.5, 2));
   }, "_r36ca3f8f0859a9");
   _rd6a41a4c205e28(r) {
     let t = this._r400cfb2824387d?.musicController?.soundManager,
@@ -76,7 +76,7 @@ class extends Om {
       ? ((this.var_1046 = Number.parseInt(t.extraParam, 10)),
         this.var_1046 === 0 &&
           ((this._rebb6a81809bb2b = t.extraParam),
-          this._r400cfb2824387d?.connection?.send(new _i49c187f28189ca(this._rebb6a81809bb2b))),
+          this._r400cfb2824387d?.connection?.send(new class_2678(this._rebb6a81809bb2b))),
         this._playPreviewContainer != null && (this._playPreviewContainer.visible = !0))
       : (this.var_1046 = -1),
       this.updateView());

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 374665.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/transactions/details/WiredTransactionDetailsController.as
-// Nome offuscato: _i16c1f1f405500c
+// Extracted from HabboAirLauncher.deobf.js, line 374665.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_trading/transactions/details/WiredTransactionDetailsController.as
+// Obfuscated name: _i16c1f1f405500c
 
 class extends ue {
   static {

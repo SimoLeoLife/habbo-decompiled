@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 361201.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/class_3981.as
-// Nome offuscato: _i57e663d55fd30c
+// Extracted from HabboAirLauncher.deobf.js, line 361201.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/class_3981.as
+// Obfuscated name: _i57e663d55fd30c
 
 class extends SelectorFilter {
   static {

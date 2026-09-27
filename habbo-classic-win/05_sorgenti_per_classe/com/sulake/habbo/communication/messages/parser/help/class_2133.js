@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 87414.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/help/class_2133.as
-// Nome offuscato: _ied527e414d6fc1
+// Extracted from HabboAirLauncher.deobf.js, line 87414.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/communication/messages/parser/help/class_2133.as
+// Obfuscated name: _ied527e414d6fc1
 
 class {
     static {

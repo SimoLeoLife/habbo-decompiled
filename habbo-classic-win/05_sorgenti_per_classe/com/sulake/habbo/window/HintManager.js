@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145615.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/HintManager.as
-// Nome offuscato: _i7ae91cabdb3998
+// Extracted from HabboAirLauncher.deobf.js, line 145615.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/HintManager.as
+// Obfuscated name: _i7ae91cabdb3998
 
 class a {
   constructor(e) {
@@ -55,7 +55,7 @@ class a {
         ((this._hint.fitSizeToContents = !0),
         (this._hint.visible = !1),
         (this._hint.assetUri =
-          t.style === _i757e1b1f2c7471._r17bbd5485459ef ? "common_green_arrow_vertical" : "common_green_arrow_horizontal"),
+          t.style === UnkConstants_757e1b._r17bbd5485459ef ? "common_green_arrow_vertical" : "common_green_arrow_horizontal"),
         (this._r0cc2cae8673924 = t),
         (this._r8007227a910863 = this._r36da693d86657d(t.window)),
         this._r8007227a910863 == null)
@@ -91,7 +91,7 @@ class a {
     let t = this._hint.zoomX,
       i = this._hint.zoomY;
     switch (this._r0cc2cae8673924.style) {
-      case _i757e1b1f2c7471._r17bbd5485459ef: {
+      case UnkConstants_757e1b._r17bbd5485459ef: {
         if (r.y - this._hint.height - a.const_1010 > 0) {
           let s = r.y - this._hint.height;
           (this._hint.y === 0 &&
@@ -150,12 +150,12 @@ class a {
       o = this._hint.width,
       d = this._hint.height;
     ((this._hint.width *= 0.4), (this._hint.height *= 0.4));
-    let c = new _iebb480f306747f(
-      new _i5f3e1b1e9c65b7(
-        new _i7dc350c0d8a790(new _i67c9fd08696d20(this._hint, s, this._r8007227a910863.x, this._r8007227a910863.y), 1),
-        new _iffb4fbee2ed4e7(this._hint, s, o, d),
+    let c = new UnkMotionSubclass_ebb480(
+      new UnkMotionSubclass_5f3e1b(
+        new UnkClass_7dc350(new UnkClass_67c9fd(this._hint, s, this._r8007227a910863.x, this._r8007227a910863.y), 1),
+        new UnkClass_ffb4fb(this._hint, s, o, d),
       ),
-      new _ic903bebd8997c3(() => {
+      new UnkMotionSubclass_c903be(() => {
         (this._windowManager?.registerUpdateReceiver(this, 10), this.update(0));
       }),
     );
@@ -166,7 +166,7 @@ class a {
     let r = new D(),
       t = new E();
     switch ((e.getGlobalPosition(t), this._r0cc2cae8673924.style)) {
-      case _i757e1b1f2c7471._r17bbd5485459ef:
+      case UnkConstants_757e1b._r17bbd5485459ef:
         (t.y - this._hint.height - a.const_1010 > 0
           ? (r.y = t.y - this._hint.height - a.const_1010)
           : (r.y = t.y + e.height + a.const_1010),

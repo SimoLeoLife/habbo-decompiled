@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 221238.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/arena/DefaultGameStage.as
-// Nome offuscato: _i2d286a7637ae90
+// Extracted from HabboAirLauncher.deobf.js, line 221238.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/game/snowwar/arena/DefaultGameStage.as
+// Obfuscated name: _i2d286a7637ae90
 
 class {
   static {

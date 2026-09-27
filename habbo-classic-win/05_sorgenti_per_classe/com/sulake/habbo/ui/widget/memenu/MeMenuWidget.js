@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 323909.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/memenu/MeMenuWidget.as
-// Nome offuscato: _i89645fce0539d9
+// Extracted from HabboAirLauncher.deobf.js, line 323909.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/memenu/MeMenuWidget.as
+// Obfuscated name: _i89645fce0539d9
 
 class a extends RoomWidgetBase {
   static {
@@ -96,7 +96,7 @@ class a extends RoomWidgetBase {
         r = new MeMenuDanceView();
         break;
       case a.const_723:
-        r = new _i9512c820b08983();
+        r = new UnkClass_9512c8();
         break;
       case a.SOUND_SETTINGS_VIEW:
         r = new MeMenuSoundSettingsView();

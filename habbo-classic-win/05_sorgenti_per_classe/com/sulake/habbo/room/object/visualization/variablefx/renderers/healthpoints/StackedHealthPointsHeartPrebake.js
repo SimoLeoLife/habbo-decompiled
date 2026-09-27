@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 288115.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/healthpoints/StackedHealthPointsHeartPrebake.as
-// Nome offuscato: _i4ee873a01ce766
+// Extracted from HabboAirLauncher.deobf.js, line 288115.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/healthpoints/StackedHealthPointsHeartPrebake.as
+// Obfuscated name: _i4ee873a01ce766
 
 class {
   constructor(e) {

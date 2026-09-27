@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 273781.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/stacked/StackedAdditionEntry.as
-// Nome offuscato: _idcd565c9fc5fc2
+// Extracted from HabboAirLauncher.deobf.js, line 273781.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/stacked/StackedAdditionEntry.as
+// Obfuscated name: _idcd565c9fc5fc2
 
 class {
   constructor(e, r, t = 0, i = 0, s = "") {

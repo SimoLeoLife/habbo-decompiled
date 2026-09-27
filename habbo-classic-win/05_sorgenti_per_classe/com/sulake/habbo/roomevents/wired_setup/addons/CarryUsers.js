@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 360207.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/CarryUsers.as
-// Nome offuscato: _if63f0b9622d075
+// Extracted from HabboAirLauncher.deobf.js, line 360207.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/addons/CarryUsers.as
+// Obfuscated name: _if63f0b9622d075
 
 class extends DefaultAddonType {
   static {

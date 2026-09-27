@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 190547.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/marketplace/MarketplaceChart.as
-// Nome offuscato: _iad343899b1a78a
+// Extracted from HabboAirLauncher.deobf.js, line 190547.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/marketplace/MarketplaceChart.as
+// Obfuscated name: _iad343899b1a78a
 
 class {
   constructor(e, r) {

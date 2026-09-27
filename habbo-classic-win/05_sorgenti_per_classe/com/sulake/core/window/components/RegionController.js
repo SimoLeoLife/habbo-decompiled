@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 134957.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/RegionController.as
-// Nome offuscato: _ia0dfc6a291b8a1
+// Extracted from HabboAirLauncher.deobf.js, line 134957.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/components/RegionController.as
+// Obfuscated name: _ia0dfc6a291b8a1
 
 class a extends ContainerController {
   static {

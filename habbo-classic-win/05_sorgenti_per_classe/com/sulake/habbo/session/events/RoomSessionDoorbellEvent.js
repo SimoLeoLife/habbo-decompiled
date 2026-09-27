@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 159239.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionDoorbellEvent.as
-// Nome offuscato: _i9f5428401869b8
+// Extracted from HabboAirLauncher.deobf.js, line 159239.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/session/events/RoomSessionDoorbellEvent.as
+// Obfuscated name: _i9f5428401869b8
 
 class extends RoomSessionEvent {
   constructor(r, t, i, s = !1, o = !1) {

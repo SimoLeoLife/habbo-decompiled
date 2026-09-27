@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 159790.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/enums/AvatarExpressionEnum.as
-// Nome offuscato: _icac11f11495634
+// Extracted from HabboAirLauncher.deobf.js, line 159790.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/enums/AvatarExpressionEnum.as
+// Obfuscated name: _icac11f11495634
 
 class a {
   constructor(e) {

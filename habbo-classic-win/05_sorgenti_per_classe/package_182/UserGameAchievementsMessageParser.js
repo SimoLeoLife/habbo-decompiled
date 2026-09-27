@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 85034.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_182/UserGameAchievementsMessageParser.as
-// Nome offuscato: _idf78bdd9daa4f7
+// Extracted from HabboAirLauncher.deobf.js, line 85034.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_182/UserGameAchievementsMessageParser.as
+// Obfuscated name: _idf78bdd9daa4f7
 
 class {
     static {
@@ -17,7 +17,7 @@ class {
     parse(e) {
       return (
         (this.var_3330 = e.readInteger()),
-        (this.var_1625 = new _i0e323a7477cb49()),
+        (this.var_1625 = new UnkMessageParser_IS_0e323a()),
         this.var_1625.parse(e),
         !0
       );

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 173763.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/clubcenter/HabboClubCenter.as
-// Nome offuscato: _i1a03fa031d38ec
+// Extracted from HabboAirLauncher.deobf.js, line 173763.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/clubcenter/HabboClubCenter.as
+// Obfuscated name: _i1a03fa031d38ec
 
 class a extends ue {
   static {
@@ -75,8 +75,8 @@ class a extends ue {
   }
   initComponent() {
     ((this._messageEvents = []),
-      this.addMessageEvent(new _i7a9ed44e70e487((e) => this._r52365367a76ca3(e))),
-      this.addMessageEvent(new _ic3a4859a0fe886((e) => this._r79a03d8128b989(e))),
+      this.addMessageEvent(new UnkMessageEvent_7a9ed4((e) => this._r52365367a76ca3(e))),
+      this.addMessageEvent(new UnkMessageEvent_c3a485((e) => this._r79a03d8128b989(e))),
       this.addMessageEvent(new class_3784((e) => this.class_3784(e))),
       this.context._r7e43d9f4706607(this),
       this.getBoolean("offers.enabled") &&
@@ -152,7 +152,7 @@ class a extends ue {
     return e === "" ? !0 : e === "1" || e === "true";
   }
   _rb0b9b572bdd5be() {
-    this._catalog?._rc638c80a192240(_id2bfaa31fdabf7._r8cf1b0130b04a1);
+    this._catalog?._rc638c80a192240(UnkConstants_d2bfaa._r8cf1b0130b04a1);
   }
   indicateRewards() {}
   indicateVideoAvailable(e) {
@@ -187,7 +187,7 @@ class a extends ue {
     this._r6358b2bd53ae19 != null && this._messageEvents.push(this._r6358b2bd53ae19._r2e106e2349a0b6(e));
   }
   _r79a03d8128b989 = n((e) => {
-    let r = ClassUtils.getParser(e, _i4aea24887f5b74);
+    let r = ClassUtils.getParser(e, UnkMessageParser_empty_4aea24);
     r != null &&
       ((this._data = r.data),
       (this._r51bdcdb920dee8 = !1),
@@ -223,7 +223,7 @@ class a extends ue {
       this._r6358b2bd53ae19?.connection.send(new class_2402()),
       !a.USE_FAKE_DATA)
     ) {
-      this._r6358b2bd53ae19?.connection.send(new _i51ac136ba7aa6a());
+      this._r6358b2bd53ae19?.connection.send(new UnkMessageComposer_0args_51ac13());
       return;
     }
     ((this._data = {

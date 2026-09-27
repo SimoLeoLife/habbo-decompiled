@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 325116.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/poll/PollContentDialog.as
-// Nome offuscato: _ic1b89d6fa944bd
+// Extracted from HabboAirLauncher.deobf.js, line 325116.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/poll/PollContentDialog.as
+// Obfuscated name: _ic1b89d6fa944bd
 
 class {
   constructor(e, r, t, i, s) {

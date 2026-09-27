@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 245859.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/messenger/habbicons/MessengerHabbiconPickerTileView.as
-// Nome offuscato: _i251efbe6e7b221
+// Extracted from HabboAirLauncher.deobf.js, line 245859.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/messenger/habbicons/MessengerHabbiconPickerTileView.as
+// Obfuscated name: _i251efbe6e7b221
 
 class a {
   constructor(e, r, t, i, s, o) {

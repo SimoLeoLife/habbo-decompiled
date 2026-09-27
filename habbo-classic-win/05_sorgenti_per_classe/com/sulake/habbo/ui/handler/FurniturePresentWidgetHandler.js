@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 330315.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/FurniturePresentWidgetHandler.as
-// Nome offuscato: _i5297e33f5eb882
+// Extracted from HabboAirLauncher.deobf.js, line 330315.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/handler/FurniturePresentWidgetHandler.as
+// Obfuscated name: _i5297e33f5eb882
 
 class a {
   static {

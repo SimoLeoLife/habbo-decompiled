@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 232293.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/namechange/NameChangeView.as
-// Nome offuscato: _ia7d81f5a2758fb
+// Extracted from HabboAirLauncher.deobf.js, line 232293.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/help/namechange/NameChangeView.as
+// Obfuscated name: _ia7d81f5a2758fb
 
 class a {
   constructor(e) {

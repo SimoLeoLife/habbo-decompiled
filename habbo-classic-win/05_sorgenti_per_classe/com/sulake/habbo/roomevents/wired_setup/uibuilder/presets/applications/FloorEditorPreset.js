@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 352092.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/applications/FloorEditorPreset.as
-// Nome offuscato: _iea880e61f5b3bb
+// Extracted from HabboAirLauncher.deobf.js, line 352092.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/applications/FloorEditorPreset.as
+// Obfuscated name: _iea880e61f5b3bb
 
 class extends WiredUIPreset {
   static {

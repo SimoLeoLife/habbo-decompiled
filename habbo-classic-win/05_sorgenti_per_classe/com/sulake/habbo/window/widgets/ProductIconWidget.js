@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 151230.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/ProductIconWidget.as
-// Nome offuscato: _i589f80f45efe53
+// Extracted from HabboAirLauncher.deobf.js, line 151230.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/widgets/ProductIconWidget.as
+// Obfuscated name: _i589f80f45efe53
 
 class {
   constructor(e, r) {
@@ -68,7 +68,7 @@ class {
         break;
       }
       case class_3169.const_123: {
-        let r = new _i694584ab63ea1c();
+        let r = new UnkClass_694584();
         ((r.data = this._windowManager?.catalog?.getPixelEffectIcon(parseInt(e.itemTypeId, 10)) ?? null),
           (this.imageResult = r));
         break;
@@ -87,7 +87,7 @@ class {
         break;
       case class_3169.CHAT_STYLE: {
         let r = parseInt(e.itemTypeId, 10),
-          t = new _i694584ab63ea1c();
+          t = new UnkClass_694584();
         ((t.data =
           this._windowManager?._rafd5b9130c4bfd?.chatStyleLibrary?._r22c9347ecec607(r)?._r270592cedf0213 ??
           null),
@@ -150,7 +150,7 @@ class {
       this.setUnknownImage();
       return;
     }
-    t.setDirection(class_2123.HEAD, _i6c0c96c1d5cea5._r09e15429d8bd81);
+    t.setDirection(class_2123.HEAD, UnkConstants_6c0c96._r09e15429d8bd81);
     let i = t._rb2bd48e3b4d265(class_2123.HEAD);
     if ((t.dispose(), i == null)) {
       this.setUnknownImage();

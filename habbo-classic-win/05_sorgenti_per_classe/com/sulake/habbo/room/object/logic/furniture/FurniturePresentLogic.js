@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 300212.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurniturePresentLogic.as
-// Nome offuscato: _i000a8d1db3bf85
+// Extracted from HabboAirLauncher.deobf.js, line 300212.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/logic/furniture/FurniturePresentLogic.as
+// Obfuscated name: _i000a8d1db3bf85
 
 class a extends Qr {
   static {
@@ -21,11 +21,11 @@ class a extends Qr {
   }
   processUpdateMessage(e) {
     super.processUpdateMessage(e);
-    let r = e instanceof _i39f7ecd6ab9902 ? e : null;
+    let r = e instanceof UnkRoomObjectUpdateMessageSubclass_39f7ec ? e : null;
     r?.data != null &&
       this.object != null &&
       (r.data._r22048429087864(this.object.getModelController()), this._ra36f12ae768244());
-    let t = e instanceof _i6ccdf09949be90 ? e : null;
+    let t = e instanceof UnkRoomObjectUpdateMessageSubclass_6ccdf0 ? e : null;
     t != null &&
       t._r9ec0b3be7d6def === RoomObjectVariableEnum.const_1064 &&
       this.object != null &&
@@ -34,15 +34,15 @@ class a extends Qr {
   mouseEvent(e, r) {
     if (!(e == null || r == null || this.object == null)) {
       switch (e.type) {
-        case _ifd7c1208e3417e.ROLL_OVER:
+        case UnkClass_fd7c12.ROLL_OVER:
           (this._r11e12b4ff1ca8e?.dispatchEvent?.(new RoomObjectFurnitureActionEvent(RoomObjectFurnitureActionEvent.CURSOR_REQUEST_BUTTON, this.object)),
             super.mouseEvent(e, r));
           return;
-        case _ifd7c1208e3417e.ROLL_OUT:
+        case UnkClass_fd7c12.ROLL_OUT:
           (this._r11e12b4ff1ca8e?.dispatchEvent?.(new RoomObjectFurnitureActionEvent(RoomObjectFurnitureActionEvent.CURSOR_REQUEST_ARROW, this.object)),
             super.mouseEvent(e, r));
           return;
-        case _ifd7c1208e3417e.DOUBLE_CLICK:
+        case UnkClass_fd7c12.DOUBLE_CLICK:
           this._rce2b5eb85a79e0();
           return;
       }

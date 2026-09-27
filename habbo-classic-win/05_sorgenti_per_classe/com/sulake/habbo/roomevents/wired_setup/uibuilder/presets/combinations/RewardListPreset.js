@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 349699.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/combinations/RewardListPreset.as
-// Nome offuscato: _i40db6014091ae0
+// Extracted from HabboAirLauncher.deobf.js, line 349699.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/uibuilder/presets/combinations/RewardListPreset.as
+// Obfuscated name: _i40db6014091ae0
 
 class extends WiredUIPreset {
   static {

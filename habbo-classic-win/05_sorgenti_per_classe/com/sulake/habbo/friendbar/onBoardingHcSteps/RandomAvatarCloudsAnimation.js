@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 214251.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/onBoardingHcSteps/RandomAvatarCloudsAnimation.as
-// Nome offuscato: _i287d60928f1c2a
+// Extracted from HabboAirLauncher.deobf.js, line 214251.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/onBoardingHcSteps/RandomAvatarCloudsAnimation.as
+// Obfuscated name: _i287d60928f1c2a
 
 class extends Sprite {
   static {
@@ -24,7 +24,7 @@ class extends Sprite {
   startAnimation() {
     (this._rbc9a3e3bcbfc8a(),
       this._r92c699930a2a2b == null &&
-        ((this._r92c699930a2a2b = new _i05394ecc0c0c4d(80)),
+        ((this._r92c699930a2a2b = new UnkEventDispatcherWrapperSubclass_05394e(80)),
         this._r92c699930a2a2b.addEventListener(DeBouncer.addEventListener, this._rdcbac53b295d9a)));
     let e = Math.round(Math.random() * (this._r44d474bdeae8eb.length - 1));
     ((this._rff5ec517309130 = this._r44d474bdeae8eb[e] ?? 0), this._r92c699930a2a2b.start());

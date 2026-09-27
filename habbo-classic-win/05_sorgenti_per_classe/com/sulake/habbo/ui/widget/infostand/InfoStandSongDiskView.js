@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 321886.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/InfoStandSongDiskView.as
-// Nome offuscato: _i388c88cac39fb0
+// Extracted from HabboAirLauncher.deobf.js, line 321886.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/infostand/InfoStandSongDiskView.as
+// Obfuscated name: _i388c88cac39fb0
 
 class extends X1 {
   static {

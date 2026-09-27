@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 68167.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/LoadingIcon.as
-// Nome offuscato: _i889e6606531734
+// Extracted from HabboAirLauncher.deobf.js, line 68167.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/utils/LoadingIcon.as
+// Obfuscated name: _i889e6606531734
 
 class a {
   static {
@@ -11,7 +11,7 @@ class a {
   _icon = null;
   _r248a78105f6018 = 0;
   constructor() {
-    ((this.var_382 = new _i05394ecc0c0c4d(160)),
+    ((this.var_382 = new UnkEventDispatcherWrapperSubclass_05394e(160)),
       this.var_382.addEventListener(DeBouncer.addEventListener, this._r6e1f79baf49df4));
   }
   dispose() {

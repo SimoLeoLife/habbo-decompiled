@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 342063.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/CitizenshipVipDiscountPromoExtension.as
-// Nome offuscato: _i4ca8c16e8e75c6
+// Extracted from HabboAirLauncher.deobf.js, line 342063.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/toolbar/extensions/CitizenshipVipDiscountPromoExtension.as
+// Obfuscated name: _i4ca8c16e8e75c6
 
 class {
   static {
@@ -31,7 +31,7 @@ class {
         let r = this._toolbar.inventory._rb6cef0460c1b1c;
         (r < 1440 &&
           r > 0 &&
-          ((this._r3874c88f71c422 = new _i05394ecc0c0c4d(r * 60 * 1e3, 1)),
+          ((this._r3874c88f71c422 = new UnkEventDispatcherWrapperSubclass_05394e(r * 60 * 1e3, 1)),
           this._r3874c88f71c422.addEventListener(DeBouncer._rf33144eac61595, this._r8e85ed0de6252c),
           this._r3874c88f71c422.start()),
           this.assignState(),
@@ -69,7 +69,7 @@ class {
       (this._toolbar.connection?.send(
         new class_2154("DiscountPromo", "citizenshipdiscount", "client.club.extend.discount.clicked"),
       ),
-      this._toolbar.connection?.send(new _i40c8cbe3cea2be()));
+      this._toolbar.connection?.send(new class_2868()));
   }, "onButtonClicked");
   assignState() {
     this._view != null &&

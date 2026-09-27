@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158425.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/events/ActiveConversationsCountEvent.as
-// Nome offuscato: _i2e425bff3e7315
+// Extracted from HabboAirLauncher.deobf.js, line 158425.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/events/ActiveConversationsCountEvent.as
+// Obfuscated name: _i2e425bff3e7315
 
 class a extends M {
   constructor(r, t) {

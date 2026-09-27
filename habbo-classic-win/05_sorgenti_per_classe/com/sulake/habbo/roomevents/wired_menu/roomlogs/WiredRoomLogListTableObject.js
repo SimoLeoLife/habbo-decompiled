@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 358522.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/roomlogs/WiredRoomLogListTableObject.as
-// Nome offuscato: _ia990eddaf7d2af
+// Extracted from HabboAirLauncher.deobf.js, line 358522.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_menu/roomlogs/WiredRoomLogListTableObject.as
+// Obfuscated name: _ia990eddaf7d2af
 
 class a {
   constructor(e, r) {

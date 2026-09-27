@@ -1,11 +1,11 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 237772.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chooser/furni/FurniView.as
-// Nome offuscato: _id7abb0e422b7ec
+// Extracted from HabboAirLauncher.deobf.js, line 237772.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/ui/widget/chooser/furni/FurniView.as
+// Obfuscated name: _id7abb0e422b7ec
 
 class a {
   constructor(e) {
     this.var_38 = e;
-    ((this._rb5ea9aad9f0aaa = new _i05394ecc0c0c4d(a.IMAGE_UPDATE_DELAY_MS)),
+    ((this._rb5ea9aad9f0aaa = new UnkEventDispatcherWrapperSubclass_05394e(a.IMAGE_UPDATE_DELAY_MS)),
       this._rb5ea9aad9f0aaa.addEventListener(DeBouncer.addEventListener, this._r9e95959d13d0ed),
       this._rb5ea9aad9f0aaa.start());
   }
@@ -214,7 +214,7 @@ class a {
       (this._view.procedure = (...i) => this.windowEventProc(i[0], i[1])));
     let e = this._view.findChildByName("item_grid"),
       r = this._view.findChildByName("item_grid_pages");
-    ((this.var_605 = new _i426ab6885e4639(e, r)), this.populateFilterOptions(), this.var_136());
+    ((this.var_605 = new UnkClass_426ab6(e, r)), this.populateFilterOptions(), this.var_136());
     let t = this._view.findChildByName("furni_preview_widget")?.widget;
     ((this.RoomPreviewer = t?._r08651d482bdd11 ?? null),
       this._r45a066185859ea(),
@@ -292,7 +292,7 @@ class a {
           (r.visible = !0),
           (r.text = String(c)),
           (o.toolTipCaption = "${inventory.furni.preview.tradeable_amount}"),
-          (r.filters = [new _ibaf84c0aa91c5d(16777215, 1, 3, 3, 300)]))),
+          (r.filters = [new UnkClass_baf84c(16777215, 1, 3, 3, 300)]))),
       s != null &&
         t != null &&
         d != null &&
@@ -305,7 +305,7 @@ class a {
             (t.visible = !0),
             (t.text = String(f)),
             (d.toolTipCaption = "${inventory.furni.preview.recyclable_amount}"),
-            (t.filters = [new _ibaf84c0aa91c5d(16777215, 1, 3, 3, 300)]))));
+            (t.filters = [new UnkClass_baf84c(16777215, 1, 3, 3, 300)]))));
   }
   _r8a8b06fefed963(e) {
     let r = this._view?.findChildByName("unique_limited_item_overlay_widget");

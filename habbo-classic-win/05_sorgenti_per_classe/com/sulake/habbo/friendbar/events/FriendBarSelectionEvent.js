@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 158455.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/events/FriendBarSelectionEvent.as
-// Nome offuscato: _i635225cbef277c
+// Extracted from HabboAirLauncher.deobf.js, line 158455.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/friendbar/events/FriendBarSelectionEvent.as
+// Obfuscated name: _i635225cbef277c
 
 class a extends M {
   constructor(r, t) {

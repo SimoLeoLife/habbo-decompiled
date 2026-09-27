@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 145405.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/AlertDialog.as
-// Nome offuscato: _id25cdd9db61705
+// Extracted from HabboAirLauncher.deobf.js, line 145405.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/window/utils/AlertDialog.as
+// Obfuscated name: _id25cdd9db61705
 
 class a {
   static {
@@ -83,7 +83,7 @@ class a {
           r = this._window.findChildByName(a.BUTTON_CUSTOM);
           break;
       }
-    return r != null ? new _iada4b60c6952bf(r.caption, r.toolTipCaption, r.visible) : null;
+    return r != null ? new UnkClass_ada4b6(r.caption, r.toolTipCaption, r.visible) : null;
   }
   _r3fecca3423f155(e, r) {
     let t = null;

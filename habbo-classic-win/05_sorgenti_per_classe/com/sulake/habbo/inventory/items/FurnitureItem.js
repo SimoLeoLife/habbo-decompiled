@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 237258.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/items/FurnitureItem.as
-// Nome offuscato: _ic5d576eaeb6c7e
+// Extracted from HabboAirLauncher.deobf.js, line 237258.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/items/FurnitureItem.as
+// Obfuscated name: _ic5d576eaeb6c7e
 
 class {
   static {

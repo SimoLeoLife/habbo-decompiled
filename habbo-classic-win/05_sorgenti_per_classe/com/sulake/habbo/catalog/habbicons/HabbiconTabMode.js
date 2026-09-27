@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 177741.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconTabMode.as
-// Nome offuscato: _i8347bfbe07bd59
+// Extracted from HabboAirLauncher.deobf.js, line 177741.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/habbicons/HabbiconTabMode.as
+// Obfuscated name: _i8347bfbe07bd59
 
 class {
   static {

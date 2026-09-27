@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 244663.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/wired_trading/WiredTradingModel.as
-// Nome offuscato: _ia11eda1c0de509
+// Extracted from HabboAirLauncher.deobf.js, line 244663.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/inventory/wired_trading/WiredTradingModel.as
+// Obfuscated name: _ia11eda1c0de509
 
 class a {
   constructor(e, r, t, i, s, o, d, c) {
@@ -139,17 +139,17 @@ class a {
       this._inventory?._r9275a8e42af3cc?.updateView());
   }
   requestAddItemsToTrading(e, r, t, i, s, o) {
-    this._state === a.STATE_ADDING_ITEMS && this.send(new _if46dd33bded642(!1, e));
+    this._state === a.STATE_ADDING_ITEMS && this.send(new UnkMessageComposer_2args_f46dd3(!1, e));
   }
   _rd81a68895835ba(e) {}
   _r4a4d211373e306(e) {
     if (this._state !== a.STATE_ADDING_ITEMS) return;
     let t = this._reac3de971475b5.getWithIndex(e)?.peek();
-    t != null && this._communication?.connection.send(new _if46dd33bded642(!0, [t.id]));
+    t != null && this._communication?.connection.send(new UnkMessageComposer_2args_f46dd3(!0, [t.id]));
   }
   _r8a665f94a05feb() {
     return this._state === a.STATE_ADDING_ITEMS
-      ? (this.send(new _ic0fc284a263b4f(!1)), (this.state = a.STATE_COUNTDOWN), !0)
+      ? (this.send(new UnkMessageComposer_1args_c0fc28(!1)), (this.state = a.STATE_COUNTDOWN), !0)
       : !1;
   }
   _r484203fde64a5c() {
@@ -157,7 +157,7 @@ class a {
   }
   _r9fab3ea8336c25() {
     return this._state === a.STATE_CONFIRMING
-      ? (this.send(new _ic0fc284a263b4f(!0)), (this.state = a.STATE_CONFIRMED), !0)
+      ? (this.send(new UnkMessageComposer_1args_c0fc28(!0)), (this.state = a.STATE_CONFIRMED), !0)
       : !1;
   }
   send(e) {
@@ -175,7 +175,7 @@ class a {
       t && this._inventory?._r9275a8e42af3cc?.updateView());
   }
   _r1718fce2f8e038() {
-    this._communication?.connection.send(new _i6f5e4e71f90a9f());
+    this._communication?.connection.send(new UnkMessageComposer_0args_6f5e4e());
   }
   updateItemGroupMaps(e, r, t, i, s) {
     this._inventory == null ||

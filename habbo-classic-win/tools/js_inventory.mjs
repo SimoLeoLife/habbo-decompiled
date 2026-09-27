@@ -48,8 +48,38 @@ function scan(node, params = []) {
   return { strings, ids, crefs: crefs.filter(x => !local.has(x)) };
 }
 
-const classes = [], funcs = [];
+const classes = [], funcs = [], news = [];
+// tipo di un argomento dedotto dalla forma dell'espressione
+function argType(x) {
+  if (!x) return '?';
+  switch (x.type) {
+    case 'StringLiteral': case 'TemplateLiteral': return 's';
+    case 'NumericLiteral': return 'n';
+    case 'BooleanLiteral': return 'b';
+    case 'UnaryExpression': if (x.operator === '!') return 'b'; if (x.operator === '-' || x.operator === '~' || x.operator === '+') return 'n'; return '?';
+    case 'BinaryExpression':
+      if (['==', '===', '!=', '!==', '<', '>', '<=', '>=', 'instanceof', 'in'].includes(x.operator)) return 'b';
+      if (['-', '*', '/', '%', '|', '&', '^', '<<', '>>', '>>>'].includes(x.operator)) return 'n';
+      if (x.operator === '+') { const l = argType(x.left), r = argType(x.right); return l === 's' || r === 's' ? 's' : l === 'n' && r === 'n' ? 'n' : '?'; }
+      return '?';
+    case 'CallExpression':
+      if (x.callee.type === 'Identifier' && x.callee.name === 'String') return 's';
+      if (x.callee.type === 'Identifier' && (x.callee.name === 'Number' || x.callee.name === 'parseInt')) return 'n';
+      if (x.callee.type === 'Identifier' && x.callee.name === 'Boolean') return 'b';
+      if (x.callee.type === 'MemberExpression' && x.callee.property.name === 'toString') return 's';
+      return '?';
+    case 'ArrayExpression': return 'a';
+    default: return '?';
+  }
+}
 traverse(ast, {
+  NewExpression(p) {
+    if (p.node.callee.type !== 'Identifier') return;
+    const cls = p.findParent(q => q.isClassExpression() || q.isClassDeclaration());
+    let enc = null;
+    if (cls) enc = cls.node.id?.name ?? (cls.parent.type === 'VariableDeclarator' ? cls.parent.id.name : cls.parent.type === 'AssignmentExpression' ? cls.parent.left.name : null);
+    news.push([p.node.callee.name, enc, p.node.arguments.map(argType)]);
+  },
   'ClassExpression|ClassDeclaration'(p) {
     const cls = p.node, name = declaredName(cls);
     let binding = cls.id?.name ?? null;
@@ -88,5 +118,6 @@ const byBinding = new Map(classes.filter(c => c.binding).map(c => [c.binding, c.
 for (const c of classes) for (const m of c.members) if (m.crefs) m.crefs = m.crefs.filter(r => byBinding.has(r));
 for (const c of classes) { c.supName = c.sup ? byBinding.get(c.sup) ?? null : null; c.superRefs = c.superRefs.filter(r => byBinding.has(r)); }
 writeFileSync(out, JSON.stringify(classes));
+writeFileSync(out.replace(/\.json$/, '_news.json'), JSON.stringify(news.filter(n => byBinding.has(n[0]))));
 console.log(classes.length, 'classi;', classes.reduce((a, c) => a + c.members.length, 0), 'membri;',
   classes.filter(c => c.name && !/^_i[0-9a-f]{14}$/.test(c.name)).length, 'con nome reale');

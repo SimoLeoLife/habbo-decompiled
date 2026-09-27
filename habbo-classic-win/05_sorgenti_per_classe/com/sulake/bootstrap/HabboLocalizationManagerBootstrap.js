@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 127813.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/bootstrap/HabboLocalizationManagerBootstrap.as
+// Extracted from HabboAirLauncher.deobf.js, line 127813.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/bootstrap/HabboLocalizationManagerBootstrap.as
 
 class extends HabboLocalizationManager {
     static {

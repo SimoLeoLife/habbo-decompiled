@@ -1,5 +1,5 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 287429.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/bar/StripedProgressBarRenderer.as
+// Extracted from HabboAirLauncher.deobf.js, line 287429.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/room/object/visualization/variablefx/renderers/bar/StripedProgressBarRenderer.as
 
 class a extends hb {
   static {
@@ -171,7 +171,7 @@ class a extends hb {
         m != null &&
         (this.drawBarBitmap(h, p, (4278190080 | o.rgb) >>> 0, l, t, d, r, s),
         this._rd9f9b978a87fca(m, (4278190080 | this._rc3a77210c63093(o.rgb)) >>> 0, _)),
-      new _i011e37bea19c9d(
+      new UnkClass_011e37(
         {
           assets: t,
           backgroundPrebake: f,

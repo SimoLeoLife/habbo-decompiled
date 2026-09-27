@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 264251.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/AchievementCategories.as
-// Nome offuscato: _i11dd5c1c79640b
+// Extracted from HabboAirLauncher.deobf.js, line 264251.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/AchievementCategories.as
+// Obfuscated name: _i11dd5c1c79640b
 
 class a {
   constructor(e, r) {

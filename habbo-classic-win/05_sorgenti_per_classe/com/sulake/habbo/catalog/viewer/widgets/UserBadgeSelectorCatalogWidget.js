@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 195976.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/UserBadgeSelectorCatalogWidget.as
-// Nome offuscato: _i2c643871886e24
+// Extracted from HabboAirLauncher.deobf.js, line 195976.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/UserBadgeSelectorCatalogWidget.as
+// Obfuscated name: _i2c643871886e24
 
 class a extends CatalogWidget {
   constructor(r, t) {
@@ -80,7 +80,7 @@ class a extends CatalogWidget {
   _rd886c8bcbe0933 = n((r) => {
     let t = this.page?.offers[0] ?? null;
     t != null &&
-      (this.events?.dispatchEvent?.(new _ic4d6c8d627ab4e(CatalogWidgetEventEnum.EXTRA_PARAM_REQUIRED_FOR_BUY)), this.events?.dispatchEvent?.(new _idfee6137b0eb86(t)));
+      (this.events?.dispatchEvent?.(new UnkClass_c4d6c8(CatalogWidgetEventEnum.EXTRA_PARAM_REQUIRED_FOR_BUY)), this.events?.dispatchEvent?.(new UnkClass_dfee61(t)));
   }, "_rd886c8bcbe0933");
   createGridItem(r, t) {
     let s = this.page?.viewer.catalog?.windowManager.buildFromXML(this._gridItemLayout);
@@ -111,7 +111,7 @@ class a extends CatalogWidget {
     ((this._rbd95be0cb8014b = null),
       r &&
         (this.events?.dispatchEvent?.(new SetExtraPurchaseParameterEvent("")),
-        this.page?.dispatchWidgetEvent?.(new _iaea7174beb96ef(this.getPreviewerStuffData("")))));
+        this.page?.dispatchWidgetEvent?.(new UnkClass_aea717(this.getPreviewerStuffData("")))));
   }
   _raa48691e3c44e6(r) {
     if (!(this._rbb9b1231ba476b == null || r < 0 || r >= this._rbb9b1231ba476b.length)) {
@@ -122,7 +122,7 @@ class a extends CatalogWidget {
       ((this._rbd95be0cb8014b = this._rbb9b1231ba476b[r] ?? null),
         this.setBadgeGridItemSelectionBg(r, !0),
         this.events?.dispatchEvent?.(new SetExtraPurchaseParameterEvent(this._rbd95be0cb8014b ?? "")),
-        this.page?.dispatchWidgetEvent?.(new _iaea7174beb96ef(this.getPreviewerStuffData(this._rbd95be0cb8014b))));
+        this.page?.dispatchWidgetEvent?.(new UnkClass_aea717(this.getPreviewerStuffData(this._rbd95be0cb8014b))));
     }
   }
   _rec59187c13dd75(r) {

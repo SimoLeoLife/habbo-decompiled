@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 367020.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/TimeMatches.as
-// Nome offuscato: _icadc468a39da67
+// Extracted from HabboAirLauncher.deobf.js, line 367020.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/roomevents/wired_setup/conditions/TimeMatches.as
+// Obfuscated name: _icadc468a39da67
 
 class a extends class_4163 {
   static {

@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 267470.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/tasks/RewardTrackTaskRowView.as
-// Nome offuscato: _i1de53ca6ce61c2
+// Extracted from HabboAirLauncher.deobf.js, line 267470.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/quest/rewardtrack/view/tasks/RewardTrackTaskRowView.as
+// Obfuscated name: _i1de53ca6ce61c2
 
 class {
   constructor(e, r, t, i, s) {

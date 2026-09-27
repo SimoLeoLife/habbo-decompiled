@@ -1,6 +1,6 @@
-// Estratto da HabboAirLauncher.deobf.js, riga 66035.
-// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/events/WindowMouseEvent.as
-// Nome offuscato: _i2896a64fb02f3d
+// Extracted from HabboAirLauncher.deobf.js, line 66035.
+// Matches AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/core/window/events/WindowMouseEvent.as
+// Obfuscated name: _i2896a64fb02f3d
 
 class a extends y {
   static {
