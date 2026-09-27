@@ -16,617 +16,621 @@ How to read the columns:
   `class_N` names are the FFDec labels of AIR 15.
 - **air15 source / air15 ID**: the AS3 class this message corresponds to, and the header
   ID it had in AIR 15. Use this pair to port an emulator from AIR 15 to this build.
-- **parser reads**: the reads the parser performs, in order, as recovered from `parse()`.
-  Reads inside nested data classes are not expanded.
+- **structure**: what the parser reads from the wire, in order, following nested data
+  classes and helper methods (built by `tools/parser_struct.mjs`):
+  `int string bool short byte float double long` are single reads, `Name{ … }` the reads
+  done by data class `Name`, `[ … ]` reads repeated in a loop (normally after an `int`
+  count), `?{ … }` reads done only under a condition (`?{ a | b }` for if/else), `…`
+  where recursion stops (cycle or depth limit).
 - **AIR 15 arg types**: the constructor signature of the matching AS3 composer.
 
 The same data is in `protocol.csv` and `protocol.json`.
 
 ## Incoming (server → client)
 
-| ID | Event | AIR 15 ID | Parser | Parser reads | AIR 15 source |
+| ID | Event | AIR 15 ID | Parser | Structure | AIR 15 source |
 |---|---|---|---|---|---|
-| 1 | UnkMessageEvent_4415b3 |  | UnkMessageParser_SI_1db00d | readString readInteger |  |
-| 3 | UnkMessageEvent_2ca0a0 |  | UnkMessageParser_empty_bd76f6 | - |  |
-| 13 | UnkMessageEvent_36edae |  | UnkMessageParser_SIII_7c7c6f | readString readInteger readInteger readInteger |  |
-| 15 | class_2788 | 3308 | class_4215 | readInteger | package_118/class_2788.as |
-| 24 | class_3567 | 2629 | class_3907 | readString | package_180/class_3567.as |
-| 27 | class_3784 | 1319 | class_3428 | readInteger readInteger readInteger readInteger readString readInteger readInteger | package_164/class_3784.as |
-| 31 | class_2414 | 126 | class_3001 | readInteger readInteger readString readInteger | package_64/class_2414.as |
-| 41 | class_3074 | 3159 | class_3631 | readInteger readString readInteger readInteger | package_164/class_3074.as |
-| 44 | class_3222 | 182 | class_2636 | readString readInteger readInteger | package_32/class_3222.as |
-| 56 | UnkMessageEvent_4e118c |  | UnkMessageParser_II_57eb83 | readInteger readInteger |  |
-| 64 | UnkMessageEvent_7b5700 |  | UnkMessageParser_S_9cae0d | readString |  |
-| 67 | Game2AccountGameStatusMessageEvent | 1173 | Game2AccountGameStatusMessageParser | readInteger readInteger readInteger | package_95/Game2AccountGameStatusMessageEvent.as |
-| 68 | class_1921 | 1171 | class_2960 | readBoolean readInteger readInteger readInteger readInteger readInteger readInteger readInteger readInteger readInteger | package_5/class_1921.as |
-| 76 | class_3408 | 1399 | class_4130 | readBoolean | package_32/class_3408.as |
-| 83 | class_2968 | 1331 | class_3507 | readInteger readBoolean readString | package_98/class_2968.as |
-| 87 | class_3030 | 719 | class_3755 | readBoolean readInteger | package_52/class_3030.as |
-| 89 | UnkMessageEvent_029ea8 |  | UnkMessageParser_B_9222ec | readBoolean |  |
-| 96 | UnkMessageEvent_5280e8 |  | UnkMessageParser_I_152516 | readInteger |  |
-| 99 | class_3442 | 2080 | class_3725 | readInteger readInteger | package_128/class_3442.as |
-| 106 | UnkMessageEvent_644b29 |  | UnkMessageParser_S_f40c83 | readString |  |
-| 113 | UnkMessageEvent_9acd66 |  | UnkMessageParser_I_241be8 | readInteger |  |
-| 116 | class_3603 | 3372 | class_3901 | readString readString readInteger | package_5/class_3603.as |
-| 117 | class_3639 | 781 | class_2851 | readInteger readBoolean readInteger readString readInteger readInteger | package_118/class_3639.as |
-| 145 | class_3083 | 1142 | class_3804 | readInteger readInteger | package_128/class_3083.as |
-| 147 | class_2889 | 1571 | class_2780 | readShort readString readInteger readString | package_50/class_2889.as |
-| 169 | class_2196 | 2129 | class_2214 | readShort | package_65/class_2196.as |
-| 183 | class_2351 | 1693 | class_2556 | readInteger | package_2/class_2351.as |
-| 188 | class_3412 | 3111 | class_3560 | readInteger readInteger readString readString | package_64/class_3412.as |
-| 197 | UnkMessageEvent_93d26d |  | UnkMessageParser_I_d6edaa | readInteger |  |
-| 198 | class_3186 | 378 | class_3360 | readBoolean readInteger readString | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_3186.as |
-| 205 | UnkMessageEvent_3b3d54 |  | UnkMessageParser_I_edc9e4 | readInteger |  |
+| 1 | UnkMessageEvent_4415b3 |  | UnkMessageParser_SI_1db00d | string int |  |
+| 3 | UnkMessageEvent_2ca0a0 |  | UnkMessageParser_empty_bd76f6 | GameLobbyData{ int string int int int int string int int [ GameLobbyPlayerData{ int string string string int int int int } ] } |  |
+| 13 | UnkMessageEvent_36edae |  | UnkMessageParser_SIII_7c7c6f | string int int int |  |
+| 15 | class_2788 | 3308 | class_4215 | int [ class_4332{ int string string int long } ] | package_118/class_2788.as |
+| 24 | class_3567 | 2629 | class_3907 | string | package_180/class_3567.as |
+| 27 | class_3784 | 1319 | class_3428 | int int int [ int string int int ] | package_164/class_3784.as |
+| 31 | class_2414 | 126 | class_3001 | int [ int string ] int [ class_4263{ string int string string int int int } ] | package_64/class_2414.as |
+| 41 | class_3074 | 3159 | class_3631 | int string int int | package_164/class_3074.as |
+| 44 | class_3222 | 182 | class_2636 | string int [ int ] | package_32/class_3222.as |
+| 56 | UnkMessageEvent_4e118c |  | UnkMessageParser_II_57eb83 | int int |  |
+| 64 | UnkMessageEvent_7b5700 |  | UnkMessageParser_S_9cae0d | string |  |
+| 67 | Game2AccountGameStatusMessageEvent | 1173 | Game2AccountGameStatusMessageParser | int int int | package_95/Game2AccountGameStatusMessageEvent.as |
+| 68 | class_1921 | 1171 | class_2960 | bool int int [ int ] int [ int ] int [ int ] int [ int ] | package_5/class_1921.as |
+| 76 | class_3408 | 1399 | class_4130 | bool | package_32/class_3408.as |
+| 83 | class_2968 | 1331 | class_3507 | int bool string | package_98/class_2968.as |
+| 87 | class_3030 | 719 | class_3755 | bool int | package_52/class_3030.as |
+| 89 | UnkMessageEvent_029ea8 |  | UnkMessageParser_B_9222ec | bool |  |
+| 96 | UnkMessageEvent_5280e8 |  | UnkMessageParser_I_152516 | ?{ int } |  |
+| 99 | class_3442 | 2080 | class_3725 | ?{ int int } | package_128/class_3442.as |
+| 106 | UnkMessageEvent_644b29 |  | UnkMessageParser_S_f40c83 | string |  |
+| 113 | UnkMessageEvent_9acd66 |  | UnkMessageParser_I_241be8 | int |  |
+| 116 | class_3603 | 3372 | class_3901 | string string int | package_5/class_3603.as |
+| 117 | class_3639 | 781 | class_2851 | int bool int [ string ] int [ int WiredVariable{ string int string int int bool bool bool bool bool bool bool bool bool ?{ int [ int string ] } } ] | package_118/class_3639.as |
+| 145 | class_3083 | 1142 | class_3804 | ?{ int int } | package_128/class_3083.as |
+| 147 | class_2889 | 1571 | class_2780 | short string int string | package_50/class_2889.as |
+| 169 | class_2196 | 2129 | class_2214 | short | package_65/class_2196.as |
+| 183 | class_2351 | 1693 | class_2556 | int | package_2/class_2351.as |
+| 188 | class_3412 | 3111 | class_3560 | ?{ int int string string } | package_64/class_3412.as |
+| 197 | UnkMessageEvent_93d26d |  | UnkMessageParser_I_d6edaa | int |  |
+| 198 | class_3186 | 378 | class_3360 | bool ?{ int [ string ] } | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_3186.as |
+| 205 | UnkMessageEvent_3b3d54 |  | UnkMessageParser_I_edc9e4 | int |  |
 | 213 | UnkMessageEvent_f3269e |  |  |  |  |
-| 214 | class_2387 | 3942 | class_3914 | readInteger | package_100/class_2387.as |
-| 231 | UnkMessageEvent_42cb04 |  | UnkMessageParser_I_cefa1b | readInteger |  |
-| 251 | UnkMessageEvent_85dbfb |  | UnkMessageParser_I_8af715 | readInteger |  |
-| 261 | class_3692 | 2141 | class_3563 | readInteger readInteger readInteger readInteger readInteger readInteger readInteger readInteger readString readInteger readString readInteger readString readString readInteger readInteger | package_50/class_3692.as |
-| 262 | class_3118 | 63 | class_3673 | readInteger | package_155/class_3118.as |
-| 266 | class_2859 | 2876 | class_2841 | readString readBoolean | package_172/class_2859.as |
-| 272 | Game2JoiningGameFailedMessageEvent | 1178 | Game2JoiningGameFailedMessageParser | readInteger | package_95/Game2JoiningGameFailedMessageEvent.as |
-| 307 | UnkMessageEvent_48b9cb |  | UnkMessageParser_empty_b9e3d3 | - |  |
+| 214 | class_2387 | 3942 | class_3914 | int | package_100/class_2387.as |
+| 231 | UnkMessageEvent_42cb04 |  | UnkMessageParser_I_cefa1b | int |  |
+| 251 | UnkMessageEvent_85dbfb |  | UnkMessageParser_I_8af715 | int [ class_2564{ long long string int string long bool bool byte long long } ] |  |
+| 261 | class_3692 | 2141 | class_3563 | int int int int int int int int string int string int string string int int [ class_4007{ string int int } ] | package_50/class_3692.as |
+| 262 | class_3118 | 63 | class_3673 | int | package_155/class_3118.as |
+| 266 | class_2859 | 2876 | class_2841 | string bool | package_172/class_2859.as |
+| 272 | Game2JoiningGameFailedMessageEvent | 1178 | Game2JoiningGameFailedMessageParser | int | package_95/Game2JoiningGameFailedMessageEvent.as |
+| 307 | UnkMessageEvent_48b9cb |  | UnkMessageParser_empty_b9e3d3 | class_1843{ int [ int string bool ] bool int string string int int int int int bool string int [ class_2482{ int int int } ] string int } |  |
 | 308 | UnkMessageEvent_3a233d |  |  |  |  |
-| 313 | UnkMessageEvent_07ae48 |  | UnkMessageParser_I_d614a2 | readInteger |  |
-| 316 | UnkMessageEvent_3345a2 |  | UnkMessageParser_ISIS_1b7110 | readInteger readString readInteger readString |  |
+| 313 | UnkMessageEvent_07ae48 |  | UnkMessageParser_I_d614a2 | int |  |
+| 316 | UnkMessageEvent_3345a2 |  | UnkMessageParser_ISIS_1b7110 | int string int string |  |
 | 317 | UnkMessageEvent_4761be |  |  |  |  |
-| 325 | UnkMessageEvent_413e6f |  | UnkMessageParser_II_c935c8 | readInteger readInteger |  |
-| 334 | class_1964 | 2398 | class_3217 | readInteger readInteger readBoolean | package_38/class_1964.as |
-| 337 | UnkMessageEvent_d2c042 |  | UnkMessageParser_B_035fbc | readBoolean |  |
-| 339 | UnkMessageEvent_cadc4d |  | UnkMessageParser_IS_a44d28 | readInteger readString |  |
-| 340 | UnkMessageEvent_390f9c |  | UnkMessageParser_I_81aa89 | readInteger |  |
-| 350 | class_3300 | 2092 | class_4190 | readString readString readString | package_205/class_3300.as |
-| 361 | class_3104 | 670 | class_2813 | readInteger readString readInteger readInteger readInteger readString readString readBoolean readInteger readInteger readInteger | package_73/class_3104.as |
-| 364 | class_2988 | 2913 | class_4136 | readInteger readInteger readInteger readInteger | package_77/class_2988.as |
-| 371 | class_3303 | 552 | class_2725 | readInteger readInteger readInteger readInteger readString readInteger readInteger readInteger readString | package_64/class_3303.as |
-| 373 | UnkMessageEvent_2a67f7 |  | UnkMessageParser_III_b43ac9 | readInteger readInteger readInteger |  |
-| 384 | class_3461 | 3930 | class_3482 | readInteger readString readInteger readInteger readInteger readInteger readInteger readInteger readInteger readInteger readInteger readInteger readInteger readString readInteger readBoolean readBoolean readInteger readInteger readInteger readBoolean readBoolean readBoolean readInteger readInteger readInteger readInteger readBoolean | package_11/class_3461.as |
-| 400 | class_2901 | 1285 | class_4154 | readString readInteger readString | package_65/class_2901.as |
-| 402 | class_3468 | 1151 | class_4248 | readInteger readInteger readInteger | package_180/class_3468.as |
-| 419 | class_1935 | 604 | class_1895 | readInteger readInteger readString readInteger readInteger readString readString | package_20/class_1935.as |
-| 422 | UnkMessageEvent_0b2eff |  | UnkMessageParser_II_ea9e96 | readInteger readInteger |  |
-| 426 | UnkMessageEvent_070f79 |  | UnkMessageParser_IIS_2c547c | readInteger readInteger readString |  |
-| 443 | class_2844 | 1001 | class_3983 | readInteger | package_32/class_2844.as |
-| 444 | UnkMessageEvent_2169e5 |  | UnkMessageParser_empty_3ee66a | - |  |
-| 477 | UnkMessageEvent_5e011a |  | UnkMessageParser_II_0bd32d | readInteger readInteger |  |
-| 478 | UnkMessageEvent_ed33e7 |  | UnkMessageParser_II_c83319 | readInteger readInteger |  |
+| 325 | UnkMessageEvent_413e6f |  | UnkMessageParser_II_c935c8 | int int |  |
+| 334 | class_1964 | 2398 | class_3217 | int [ int ] bool | package_38/class_1964.as |
+| 337 | UnkMessageEvent_d2c042 |  | UnkMessageParser_B_035fbc | GameLobbyPlayerData{ int string string string int int int int } bool |  |
+| 339 | UnkMessageEvent_cadc4d |  | UnkMessageParser_IS_a44d28 | int [ string ] |  |
+| 340 | UnkMessageEvent_390f9c |  | UnkMessageParser_I_81aa89 | int [ UnkClass_ca1162{ int int int bool int bool short } ] |  |
+| 350 | class_3300 | 2092 | class_4190 | string string string | package_205/class_3300.as |
+| 361 | class_3104 | 670 | class_2813 | int string int int int ?{ [ string string bool ] } int ?{ int } ?{ int } | package_73/class_3104.as |
+| 364 | class_2988 | 2913 | class_4136 | int int int int GameLevelData{ int int string int } | package_77/class_2988.as |
+| 371 | class_3303 | 552 | class_2725 | int [ int int int string int int int string ] | package_64/class_3303.as |
+| 373 | UnkMessageEvent_2a67f7 |  | UnkMessageParser_III_b43ac9 | int int int |  |
+| 384 | class_3461 | 3930 | class_3482 | int string int int int int int int int int int int int string int bool bool int [ int ] int bool bool bool int int int int bool | package_11/class_3461.as |
+| 400 | class_2901 | 1285 | class_4154 | string int [ string ] | package_65/class_2901.as |
+| 402 | class_3468 | 1151 | class_4248 | int int ?{ int } | package_180/class_3468.as |
+| 419 | class_1935 | 604 | class_1895 | int int string int int string string | package_20/class_1935.as |
+| 422 | UnkMessageEvent_0b2eff |  | UnkMessageParser_II_ea9e96 | int int [ class_4349{ string string string int int } ] |  |
+| 426 | UnkMessageEvent_070f79 |  | UnkMessageParser_IIS_2c547c | int int string |  |
+| 443 | class_2844 | 1001 | class_3983 | int | package_32/class_2844.as |
+| 444 | UnkMessageEvent_2169e5 |  | UnkMessageParser_empty_3ee66a | GameLobbyData{ int string int int int int string int int [ GameLobbyPlayerData{ int string string string int int int int } ] } |  |
+| 477 | UnkMessageEvent_5e011a |  | UnkMessageParser_II_0bd32d | int [ class_3142{ int string bool int int int bool int int bool int int int int } ] int |  |
+| 478 | UnkMessageEvent_ed33e7 |  | UnkMessageParser_II_c83319 | int int |  |
 | 482 | UnkMessageEvent_6e59e3 |  |  |  |  |
-| 487 | UnkMessageEvent_047c26 |  | UnkMessageParser_empty_890bab | - |  |
-| 492 | UnkMessageEvent_00aa3a |  | UnkMessageParser_I_8b7545 | readInteger |  |
-| 493 | class_2197 | 2328 | class_1768 | readInteger readInteger | package_74/class_2197.as |
-| 496 | class_3523 | 108 | class_3997 | readInteger readInteger | package_210/class_3523.as |
-| 497 | UnkMessageEvent_7d9fe5 |  | UnkMessageParser_I_33fbfd | readInteger |  |
-| 501 | UnkMessageEvent_40791a |  | UnkMessageParser_SSB_faca0f | readString readString readBoolean |  |
-| 505 | class_1909 | 2015 | class_3646 | readInteger | package_9/class_1909.as |
-| 507 | class_2220 | 465 | class_2235 | readInteger readString readInteger | package_77/class_2220.as |
-| 510 | Game2GameDirectoryStatusMessageEvent | 2793 | Game2GameDirectoryStatusMessageParser | readInteger readInteger readInteger readInteger | package_95/Game2GameDirectoryStatusMessageEvent.as |
-| 513 | UnkMessageEvent_bad8da |  | UnkMessageParser_SI_d38499 | readString readInteger |  |
-| 514 | UnkMessageEvent_14986c |  | UnkMessageParser_B_e2b073 | readBoolean |  |
-| 520 | UnkMessageEvent_bc8b6e |  | UnkMessageParser_empty_b57d6c | - |  |
+| 487 | UnkMessageEvent_047c26 |  | UnkMessageParser_empty_890bab | TreasureHuntWinnerInfo{ string int string string string } |  |
+| 492 | UnkMessageEvent_00aa3a |  | UnkMessageParser_I_8b7545 | int |  |
+| 493 | class_2197 | 2328 | class_1768 | int [ int ] | package_74/class_2197.as |
+| 496 | class_3523 | 108 | class_3997 | int int | package_210/class_3523.as |
+| 497 | UnkMessageEvent_7d9fe5 |  | UnkMessageParser_I_33fbfd | int |  |
+| 501 | UnkMessageEvent_40791a |  | UnkMessageParser_SSB_faca0f | string string bool |  |
+| 505 | class_1909 | 2015 | class_3646 | int | package_9/class_1909.as |
+| 507 | class_2220 | 465 | class_2235 | int string int GameObjectsData{ int [ int int ] } | package_77/class_2220.as |
+| 510 | Game2GameDirectoryStatusMessageEvent | 2793 | Game2GameDirectoryStatusMessageParser | int int int int | package_95/Game2GameDirectoryStatusMessageEvent.as |
+| 513 | UnkMessageEvent_bad8da |  | UnkMessageParser_SI_d38499 | string int [ class_3833{ int int int bool bool } ] |  |
+| 514 | UnkMessageEvent_14986c |  | UnkMessageParser_B_e2b073 | bool |  |
+| 520 | UnkMessageEvent_bc8b6e |  | UnkMessageParser_empty_b57d6c | class_2205{ int int [ string ] int [ string ] bool bool bool bool bool bool bool int [ string ] } |  |
 | 523 | UnkMessageEvent_b1d1be |  |  |  |  |
 | 527 | UnkMessageEvent_09c27a |  | UnkMessageParser_empty_304c9a | - |  |
-| 536 | UnkMessageEvent_36dccb |  | UnkMessageParser_I_7ce10c | readInteger |  |
-| 537 | class_3772 | 33 | class_2813 | readInteger readString readInteger readInteger readInteger readString readString readBoolean readInteger readInteger readInteger | package_73/class_3772.as |
-| 560 | class_2117 | 789 | class_2161 | readInteger readBoolean | package_64/class_2117.as |
+| 536 | UnkMessageEvent_36dccb |  | UnkMessageParser_I_7ce10c | ?{ int } |  |
+| 537 | class_3772 | 33 | class_2813 | int string int int int ?{ [ string string bool ] } int ?{ int } ?{ int } | package_73/class_3772.as |
+| 560 | class_2117 | 789 | class_2161 | int bool | package_64/class_2117.as |
 | 566 | class_3383 | 292 |  |  | package_32/class_3383.as |
-| 569 | class_3735 | 2426 | class_4221 | readInteger readString readInteger readInteger | package_164/class_3735.as |
-| 577 | UnkMessageEvent_8b984d |  | UnkMessageParser_III_e97abf | readInteger readInteger readInteger |  |
-| 587 | class_2612 | 2164 | class_4111 | readInteger | package_143/class_2612.as |
+| 569 | class_3735 | 2426 | class_4221 | int string int int | package_164/class_3735.as |
+| 577 | UnkMessageEvent_8b984d |  | UnkMessageParser_III_e97abf | int [ int int ] |  |
+| 587 | class_2612 | 2164 | class_4111 | int | package_143/class_2612.as |
 | 595 | UnkMessageEvent_006f0a |  |  |  |  |
-| 598 | class_2066 | 1126 | class_2269 | readInteger readInteger | package_51/class_2066.as |
-| 599 | class_3690 | 844 | class_3629 | readString readString readInteger readInteger | package_150/class_3690.as |
-| 602 | class_2753 | 3600 | class_4088 | readInteger readInteger | package_52/class_2753.as |
-| 604 | class_2836 | 3080 | class_2874 | readInteger readInteger | package_54/class_2836.as |
-| 612 | class_3810 | 2666 | class_2428 | readInteger | package_50/class_3810.as |
-| 619 | class_3680 | 447 | class_3263 | readInteger readString readString readInteger readInteger readBoolean | package_151/class_3680.as |
+| 598 | class_2066 | 1126 | class_2269 | int int | package_51/class_2066.as |
+| 599 | class_3690 | 844 | class_3629 | string string int int | package_150/class_3690.as |
+| 602 | class_2753 | 3600 | class_4088 | int int | package_52/class_2753.as |
+| 604 | class_2836 | 3080 | class_2874 | int int | package_54/class_2836.as |
+| 612 | class_3810 | 2666 | class_2428 | int | package_50/class_3810.as |
+| 619 | class_3680 | 447 | class_3263 | int string string int [ int int int string int int int ?{ [ string string int ] } int [ int int int string int int int ?{ [ string string int ] } ] ] bool | package_151/class_3680.as |
 | 621 | UnkMessageEvent_ca3be0 |  | UnkMessageParser_empty_7d266f | - |  |
 | 627 | UnkMessageEvent_78b2ff |  |  |  |  |
-| 651 | class_3018 | 1743 | class_4070 | readInteger readInteger readInteger readInteger readString readString | package_85/class_3018.as |
-| 652 | UnkMessageEvent_9f9ad5 |  | UnkMessageParser_I_7e0d9e | readInteger |  |
-| 653 | class_2585 | 268 | class_4303 | readInteger readInteger readInteger readInteger | package_110/class_2585.as |
-| 656 | class_3613 | 917 | class_3402 | readString readInteger readInteger | package_150/class_3613.as |
+| 651 | class_3018 | 1743 | class_4070 | int int [ int int string string ] | package_85/class_3018.as |
+| 652 | UnkMessageEvent_9f9ad5 |  | UnkMessageParser_I_7e0d9e | int |  |
+| 653 | class_2585 | 268 | class_4303 | int int int int [ ChestStorage{ int int long bool int ?{ int } } ] | package_110/class_2585.as |
+| 656 | class_3613 | 917 | class_3402 | string int int | package_150/class_3613.as |
 | 657 | UnkMessageEvent_69fb68 |  | UnkMessageParser_empty_dc9795 | - |  |
-| 658 | class_2815 | 3287 | class_3899 | readBoolean readInteger readInteger readString readBoolean | package_5/class_2815.as |
-| 667 | UnkMessageEvent_ce7773 |  | UnkMessageParser_I_92089c | readInteger |  |
-| 668 | class_2746 | 913 | class_3093 | readShort | package_118/class_2746.as |
-| 670 | UnkMessageEvent_37437a |  | UnkMessageParser_B_02c315 | readBoolean |  |
-| 671 | class_3450 | 3226 | class_3105 | readBoolean readBoolean readBoolean readBoolean | package_44/class_3450.as |
+| 658 | class_2815 | 3287 | class_3899 | bool int [ int string bool ] | package_5/class_2815.as |
+| 667 | UnkMessageEvent_ce7773 |  | UnkMessageParser_I_92089c | int |  |
+| 668 | class_2746 | 913 | class_3093 | short | package_118/class_2746.as |
+| 670 | UnkMessageEvent_37437a |  | UnkMessageParser_B_02c315 | bool |  |
+| 671 | class_3450 | 3226 | class_3105 | bool ?{ bool } ?{ bool } ?{ bool } | package_44/class_3450.as |
 | 672 | UnkMessageEvent_27b0d9 |  | UnkMessageParser_empty_ec5959 | - |  |
-| 684 | class_3294 | 2870 | class_2796 | readInteger readInteger readString readString readString readInteger readString | package_85/class_3294.as |
-| 685 | class_2913 | 2261 | class_4095 | readBoolean readBoolean | package_180/class_2913.as |
-| 689 | class_2427 | 425 | class_4286 | readInteger | package_77/class_2427.as |
-| 693 | Game2StartingGameFailedMessageEvent | 736 | Game2StartingGameFailedMessageParser | readInteger | package_95/Game2StartingGameFailedMessageEvent.as |
-| 700 | class_3555 | 3003 | class_3929 | readString | package_1/class_3555.as |
-| 702 | class_2675 | 132 | class_4251 | readInteger | package_49/class_2675.as |
-| 712 | class_3347 | 954 | class_2600 | readString readInteger readString readString | package_53/class_3347.as |
-| 713 | class_3338 | 1842 | class_3427 | readString readInteger readInteger | package_186/class_3338.as |
-| 721 | UnkMessageEvent_f9ccc8 |  | UnkMessageParser_I_8633af | readInteger |  |
+| 684 | class_3294 | 2870 | class_2796 | int [ int string string string int string ] | package_85/class_3294.as |
+| 685 | class_2913 | 2261 | class_4095 | ?{ bool bool } | package_180/class_2913.as |
+| 689 | class_2427 | 425 | class_4286 | int | package_77/class_2427.as |
+| 693 | Game2StartingGameFailedMessageEvent | 736 | Game2StartingGameFailedMessageParser | int | package_95/Game2StartingGameFailedMessageEvent.as |
+| 700 | class_3555 | 3003 | class_3929 | string | package_1/class_3555.as |
+| 702 | class_2675 | 132 | class_4251 | int [ class_4336{ int string int string bool string } ] | package_49/class_2675.as |
+| 712 | class_3347 | 954 | class_2600 | string int [ string string ] | package_53/class_3347.as |
+| 713 | class_3338 | 1842 | class_3427 | string int int | package_186/class_3338.as |
+| 721 | UnkMessageEvent_f9ccc8 |  | UnkMessageParser_I_8633af | int |  |
 | 722 | UnkMessageEvent_acffa7 |  |  |  |  |
-| 725 | class_2016 | 731 | class_2886 | readInteger readInteger readShort readInteger | package_1/class_2016.as |
-| 726 | class_2114 | 3615 | class_2279 | readInteger readInteger readString readString readString readInteger readInteger readInteger readString readInteger readInteger readString readInteger readInteger readString readString readInteger readBoolean readInteger readInteger readInteger readString readInteger readBoolean readBoolean readBoolean readBoolean readBoolean readBoolean readInteger readString readString readInteger readString readInteger readShort | package_64/class_2114.as |
-| 732 | class_3619 | 1446 | class_4124 | readInteger readBoolean | package_143/class_3619.as |
-| 739 | class_3837 | 1074 | class_3385 | readInteger readInteger readInteger readInteger readString readInteger readBoolean readInteger | package_100/class_3837.as |
-| 745 | UnkMessageEvent_5bf337 |  | UnkMessageParser_I_b908ea | readInteger |  |
+| 725 | class_2016 | 731 | class_2886 | int int [ short ] int | package_1/class_2016.as |
+| 726 | class_2114 | 3615 | class_2279 | int [ int string string string int int int string int int ?{ string int int string string int bool int \| ?{ int int string int bool bool bool bool bool bool int string \| ?{ ?{ string int string int ?{ [ short ] } } } } } ] | package_64/class_2114.as |
+| 732 | class_3619 | 1446 | class_4124 | int bool | package_143/class_3619.as |
+| 739 | class_3837 | 1074 | class_3385 | int int [ int int string int ] bool int | package_100/class_3837.as |
+| 745 | UnkMessageEvent_5bf337 |  | UnkMessageParser_I_b908ea | int [ UnkClass_5563ae{ int string int int } ] |  |
 | 750 | class_2469 | 150 | UnkMessageParser_empty_e64c41 | - | package_99/class_2469.as |
-| 784 | WeeklyGameRewardEvent | 2130 | class_4119 | readInteger readInteger readInteger readBoolean | package_107/WeeklyGameRewardEvent.as |
-| 793 | class_2533 | 2959 | UnkMessageParser_III_7cb272 | readInteger readInteger readInteger | package_131/class_2533.as |
-| 794 | class_3712 | 3708 | class_3477 | readInteger readInteger readInteger | package_52/class_3712.as |
+| 784 | WeeklyGameRewardEvent | 2130 | class_4119 | int int int bool | package_107/WeeklyGameRewardEvent.as |
+| 793 | class_2533 | 2959 | UnkMessageParser_III_7cb272 | int [ int int ] | package_131/class_2533.as |
+| 794 | class_3712 | 3708 | class_3477 | int int [ int ] | package_52/class_3712.as |
 | 796 | class_2568 | 267 |  |  | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_2568.as |
-| 802 | class_3355 | 2242 | class_2938 | readString readInteger readString | package_20/class_3355.as |
-| 829 | UnkMessageEvent_ebe499 |  | UnkMessageParser_IB_a670a3 | readInteger readBoolean |  |
-| 832 | class_3246 | 2341 | class_4086 | readInteger readInteger readInteger readInteger | package_110/class_3246.as |
-| 843 | class_2616 | 3339 | class_3204 | readBoolean readString readString readString | package_145/class_2616.as |
-| 848 | class_3252 | 2440 | class_3480 | readBoolean readBoolean readInteger | package_187/class_3252.as |
-| 850 | class_2970 | 1211 | class_2903 | readInteger readString readInteger readString readInteger | package_151/class_2970.as |
-| 856 | class_3757 | 2518 | class_2899 | readInteger readInteger readInteger | package_100/class_3757.as |
-| 864 | class_3275 | 1860 | class_4132 | readInteger readInteger readString | package_118/class_3275.as |
-| 870 | UnkMessageEvent_38a86b |  | UnkMessageParser_III_769903 | readInteger readInteger readInteger |  |
-| 877 | class_3298 | 963 | class_3814 | readString readInteger | package_172/class_3298.as |
-| 882 | class_3745 | 1607 | class_3351 | readInteger readInteger readInteger readInteger readInteger | package_11/class_3745.as |
-| 883 | UnkMessageEvent_38e2de |  | UnkMessageParser_I_246a2c | readInteger |  |
-| 892 | class_2794 | 3790 | class_2963 | readInteger readInteger | package_52/class_2794.as |
-| 898 | class_3058 | 3113 | class_3759 | readInteger readBoolean | package_52/class_3058.as |
-| 910 | class_3483 | 59 | class_4085 | readInteger readBoolean readString | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_3483.as |
-| 916 | class_3793 | 2503 | class_4069 | readInteger readInteger readString | package_1/class_3793.as |
-| 917 | class_2969 | 2902 | class_3913 | readInteger readString readInteger readInteger | package_64/class_2969.as |
-| 923 | UnkMessageEvent_e4765c |  | UnkMessageParser_I_722cca | readInteger |  |
-| 926 | UnkMessageEvent_fce129 |  | UnkMessageParser_I_43cb82 | readInteger |  |
-| 931 | class_3301 | 808 | class_2972 | readInteger readInteger | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_3301.as |
-| 954 | class_3032 | 504 | class_3980 | readShort | package_65/class_3032.as |
-| 955 | UnkMessageEvent_394d4c |  | UnkMessageParser_I_475712 | readInteger |  |
-| 958 | class_2896 | 3620 | class_4240 | readInteger readInteger | package_178/class_2896.as |
+| 802 | class_3355 | 2242 | class_2938 | string int string | package_20/class_3355.as |
+| 829 | UnkMessageEvent_ebe499 |  | UnkMessageParser_IB_a670a3 | int bool |  |
+| 832 | class_3246 | 2341 | class_4086 | int int [ int ] int [ ChestStorage{ int int long bool int ?{ int } } ] | package_110/class_3246.as |
+| 843 | class_2616 | 3339 | class_3204 | bool string string string | package_145/class_2616.as |
+| 848 | class_3252 | 2440 | class_3480 | bool bool int | package_187/class_3252.as |
+| 850 | class_2970 | 1211 | class_2903 | int string int [ string int ] | package_151/class_2970.as |
+| 856 | class_3757 | 2518 | class_2899 | ?{ int int int } | package_100/class_3757.as |
+| 864 | class_3275 | 1860 | class_4132 | int int string | package_118/class_3275.as |
+| 870 | UnkMessageEvent_38a86b |  | UnkMessageParser_III_769903 | int ?{ int [ int ] } |  |
+| 877 | class_3298 | 963 | class_3814 | string int | package_172/class_3298.as |
+| 882 | class_3745 | 1607 | class_3351 | int int [ int ] int [ int ] | package_11/class_3745.as |
+| 883 | UnkMessageEvent_38e2de |  | UnkMessageParser_I_246a2c | int |  |
+| 892 | class_2794 | 3790 | class_2963 | int int | package_52/class_2794.as |
+| 898 | class_3058 | 3113 | class_3759 | int bool | package_52/class_3058.as |
+| 910 | class_3483 | 59 | class_4085 | int bool string | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_3483.as |
+| 916 | class_3793 | 2503 | class_4069 | int [ int string ] | package_1/class_3793.as |
+| 917 | class_2969 | 2902 | class_3913 | int string int int | package_64/class_2969.as |
+| 923 | UnkMessageEvent_e4765c |  | UnkMessageParser_I_722cca | int |  |
+| 926 | UnkMessageEvent_fce129 |  | UnkMessageParser_I_43cb82 | int |  |
+| 931 | class_3301 | 808 | class_2972 | int int | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_3301.as |
+| 954 | class_3032 | 504 | class_3980 | short | package_65/class_3032.as |
+| 955 | UnkMessageEvent_394d4c |  | UnkMessageParser_I_475712 | int |  |
+| 958 | class_2896 | 3620 | class_4240 | int int | package_178/class_2896.as |
 | 961 | UnkMessageEvent_12d5f6 |  |  |  |  |
-| 963 | UnkMessageEvent_616fb7 |  | UnkMessageParser_II_5f9c64 | readInteger readInteger |  |
+| 963 | UnkMessageEvent_616fb7 |  | UnkMessageParser_II_5f9c64 | int int |  |
 | 964 | UnkMessageEvent_12480f |  |  |  |  |
-| 967 | UnkMessageEvent_5072b4 |  | UnkMessageParser_SS_8a3351 | readString readString |  |
-| 969 | class_3528 | 1799 | class_2697 | - | package_64/class_3528.as |
-| 974 | class_3292 | 1621 | class_3085 | readInteger readInteger readString readInteger readInteger readString readInteger | package_44/class_3292.as |
-| 982 | class_2665 | 625 | class_2363 | readInteger | package_114/class_2665.as |
-| 988 | class_2648 | 2614 | class_2543 | readBoolean readInteger readBoolean | package_150/class_2648.as |
-| 990 | class_3464 | 1877 | class_4171 | readString readString | package_99/class_3464.as |
-| 993 | UnkMessageEvent_66f8f8 |  | UnkMessageParser_I_a0afa3 | readInteger |  |
-| 1001 | class_3693 | 3349 | class_3112 | readInteger | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_3693.as |
-| 1006 | UnkMessageEvent_747af9 |  | UnkMessageParser_empty_4c8262 | - |  |
-| 1010 | class_3839 | 1258 | class_4235 | readInteger | package_100/class_3839.as |
+| 967 | UnkMessageEvent_5072b4 |  | UnkMessageParser_SS_8a3351 | string string |  |
+| 969 | class_3528 | 1799 | class_2697 | ?{ class_4263{ string int string string int int int } } | package_64/class_3528.as |
+| 974 | class_3292 | 1621 | class_3085 | int int [ string int int [ string int ] ] | package_44/class_3292.as |
+| 982 | class_2665 | 625 | class_2363 | int | package_114/class_2665.as |
+| 988 | class_2648 | 2614 | class_2543 | bool int [ class_2548{ string string int bool ?{ double int int int } bool bool bool int [ class_4147{ string string string int bool int [ UnkClass_a8ceca{ int int bool } ] } ] int [ class_4050{ string int short string string int bool bool bool } ] } ] bool | package_150/class_2648.as |
+| 990 | class_3464 | 1877 | class_4171 | string string | package_99/class_3464.as |
+| 993 | UnkMessageEvent_66f8f8 |  | UnkMessageParser_I_a0afa3 | int |  |
+| 1001 | class_3693 | 3349 | class_3112 | int | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_3693.as |
+| 1006 | UnkMessageEvent_747af9 |  | UnkMessageParser_empty_4c8262 | UnkClass_486f84{ int string bool int int int bool int int bool } |  |
+| 1010 | class_3839 | 1258 | class_4235 | ?{ int } | package_100/class_3839.as |
 | 1012 | UnkMessageEvent_cac49e |  | UnkMessageParser_empty_6d2c2b | - |  |
-| 1024 | class_3129 | 3153 | class_3878 | readString readInteger | package_32/class_3129.as |
-| 1029 | UnkMessageEvent_210f43 |  | UnkMessageParser_IB_540fc4 | readInteger readBoolean |  |
-| 1030 | UnkMessageEvent_8df262 |  | UnkMessageParser_I_d3aef1 | readInteger |  |
-| 1035 | class_2288 | 3097 | class_2211 | readInteger readInteger | package_20/class_2288.as |
+| 1024 | class_3129 | 3153 | class_3878 | string int | package_32/class_3129.as |
+| 1029 | UnkMessageEvent_210f43 |  | UnkMessageParser_IB_540fc4 | int bool |  |
+| 1030 | UnkMessageEvent_8df262 |  | UnkMessageParser_I_d3aef1 | int |  |
+| 1035 | class_2288 | 3097 | class_2211 | int [ UnkClass_67ec3c{ int string string bool bool string int string string } ] int [ UnkClass_67ec3c{ int string string bool bool string int string string } ] | package_20/class_2288.as |
 | 1036 | UnkMessageEvent_e72a0e |  | UnkMessageParser_empty_ec5697 | - |  |
-| 1038 | class_1991 | 3133 | class_1997 | readInteger | package_9/class_1991.as |
-| 1048 | UnkMessageEvent_cc8083 |  | UnkMessageParser_SSB_d6320a | readString readString readBoolean |  |
-| 1059 | class_2955 | 1489 | class_3579 | readInteger readString readString readInteger readInteger readInteger readInteger readInteger readString readInteger readInteger readInteger readInteger readInteger readInteger readInteger readInteger readBoolean readBoolean readInteger readBoolean readInteger readBoolean readBoolean | package_2/class_2955.as |
+| 1038 | class_1991 | 3133 | class_1997 | int | package_9/class_1991.as |
+| 1048 | UnkMessageEvent_cc8083 |  | UnkMessageParser_SSB_d6320a | string string bool |  |
+| 1059 | class_2955 | 1489 | class_3579 | int string string int int int int int [ string ] int int int int int int int int bool bool int bool int bool class_2849{ int int int } bool | package_2/class_2955.as |
 | 1070 | UnkMessageEvent_6ebdd0 |  | UnkMessageParser_empty_305618 | - |  |
-| 1078 | UnkMessageEvent_c01c57 |  | UnkMessageParser_empty_211304 | - |  |
-| 1081 | class_3007 | 1935 | class_3052 | readInteger readInteger | package_155/class_3007.as |
-| 1087 | class_2989 | 609 | class_3597 | readInteger readInteger readBoolean readBoolean readBoolean readBoolean | package_11/class_2989.as |
-| 1088 | class_3627 | 1300 | class_3799 | readString readInteger readString readInteger readString readBoolean readString | package_100/class_3627.as |
-| 1106 | class_3223 | 2323 | class_3657 | readInteger | package_86/class_3223.as |
-| 1115 | class_2964 | 324 | class_2677 | readInteger readInteger readInteger | package_155/class_2964.as |
-| 1119 | class_3761 | 2115 | class_3923 | readBoolean readInteger readInteger readInteger | package_32/class_3761.as |
-| 1120 | class_3803 | 3712 | class_2458 | readInteger readInteger | package_11/class_3803.as |
-| 1121 | UnkMessageEvent_fab257 |  | UnkMessageParser_empty_07483d | - |  |
-| 1125 | UnkMessageEvent_1d49f0 |  | UnkMessageParser_B_8945f6 | readBoolean |  |
-| 1130 | class_3422 | 2365 | class_3663 | readBoolean | package_196/class_3422.as |
-| 1132 | UnkMessageEvent_12fa1e |  | UnkMessageParser_empty_4e5dd5 | - |  |
-| 1143 | class_2404 | 1467 | class_3883 | readInteger readInteger | package_9/class_2404.as |
-| 1147 | class_3110 | 1667 | class_2499 | readInteger readInteger readInteger readString readBoolean readInteger | package_50/class_3110.as |
-| 1148 | UnkMessageEvent_1e9bcb |  | UnkMessageParser_I_0cbfc0 | readInteger |  |
+| 1078 | UnkMessageEvent_c01c57 |  | UnkMessageParser_empty_211304 | class_2979{ int string int bool } |  |
+| 1081 | class_3007 | 1935 | class_3052 | int int | package_155/class_3007.as |
+| 1087 | class_2989 | 609 | class_3597 | int int bool bool bool bool | package_11/class_2989.as |
+| 1088 | class_3627 | 1300 | class_3799 | ?{ string int string int string bool string } | package_100/class_3627.as |
+| 1106 | class_3223 | 2323 | class_3657 | int | package_86/class_3223.as |
+| 1115 | class_2964 | 324 | class_2677 | int int int | package_155/class_2964.as |
+| 1119 | class_3761 | 2115 | class_3923 | bool int int int | package_32/class_3761.as |
+| 1120 | class_3803 | 3712 | class_2458 | ?{ int int } | package_11/class_3803.as |
+| 1121 | UnkMessageEvent_fab257 |  | UnkMessageParser_empty_07483d | FullGameStatusData{ int int int GameObjectsData{ int [ int int ] } int int GameStatusData{ int int int [ int [ int ] ] } } |  |
+| 1125 | UnkMessageEvent_1d49f0 |  | UnkMessageParser_B_8945f6 | bool |  |
+| 1130 | class_3422 | 2365 | class_3663 | bool | package_196/class_3422.as |
+| 1132 | UnkMessageEvent_12fa1e |  | UnkMessageParser_empty_4e5dd5 | GameLobbyData{ int string int int int int string int int [ GameLobbyPlayerData{ int string string string int int int int } ] } |  |
+| 1143 | class_2404 | 1467 | class_3883 | int int | package_9/class_2404.as |
+| 1147 | class_3110 | 1667 | class_2499 | int [ int int string ] bool int | package_50/class_3110.as |
+| 1148 | UnkMessageEvent_1e9bcb |  | UnkMessageParser_I_0cbfc0 | int [ class_4338{ int string string string int string string } ] |  |
 | 1154 | UnkMessageEvent_542707 |  | UnkMessageParser_empty_e9696d | - |  |
-| 1155 | UnkMessageEvent_73ae21 |  | UnkMessageParser_I_572a71 | readInteger |  |
-| 1156 | class_3689 | 3812 | UnkMessageParser_IS_b74751 | readInteger readString | package_73/class_3689.as |
-| 1159 | class_2513 | 2282 | class_3228 | readInteger readInteger readInteger | package_128/class_2513.as |
-| 1160 | class_1815 | 3407 | class_2808 | readBoolean readString | package_5/class_1815.as |
-| 1169 | UserGameAchievementsMessageEvent | 3029 | UserGameAchievementsMessageParser | readInteger | package_196/UserGameAchievementsMessageEvent.as |
-| 1172 | class_3039 | 3110 | class_4044 | readInteger readInteger readString readInteger | package_32/class_3039.as |
-| 1180 | UnkMessageEvent_2ae9aa |  | UnkMessageParser_empty_f7073f | - |  |
+| 1155 | UnkMessageEvent_73ae21 |  | UnkMessageParser_I_572a71 | int |  |
+| 1156 | class_3689 | 3812 | UnkMessageParser_IS_b74751 | int [ string ] | package_73/class_3689.as |
+| 1159 | class_2513 | 2282 | class_3228 | ?{ int int int } | package_128/class_2513.as |
+| 1160 | class_1815 | 3407 | class_2808 | bool string | package_5/class_1815.as |
+| 1169 | UserGameAchievementsMessageEvent | 3029 | UserGameAchievementsMessageParser | int | package_196/UserGameAchievementsMessageEvent.as |
+| 1172 | class_3039 | 3110 | class_4044 | int [ int string int ] | package_32/class_3039.as |
+| 1180 | UnkMessageEvent_2ae9aa |  | UnkMessageParser_empty_f7073f | UnkClass_2283bf{ int int string int int string string int int int } |  |
 | 1196 | UnkMessageEvent_71ce07 |  | UnkMessageParser_empty_a4ba0e | - |  |
-| 1203 | UnkMessageEvent_1ef5e0 |  | UnkMessageParser_empty_efd565 | - |  |
-| 1210 | class_3174 | 3136 | class_3583 | readInteger readBoolean | package_50/class_3174.as |
-| 1226 | class_3660 | 1267 | class_3221 | readInteger | package_98/class_3660.as |
+| 1203 | UnkMessageEvent_1ef5e0 |  | UnkMessageParser_empty_efd565 | UnkClass_2ada9e{ int string int [ class_4250{ byte short [ string byte bool int string ] short [ class_4238{ string int string string bool } ] } ] } |  |
+| 1210 | class_3174 | 3136 | class_3583 | int bool | package_50/class_3174.as |
+| 1226 | class_3660 | 1267 | class_3221 | int | package_98/class_3660.as |
 | 1230 | UnkMessageEvent_34127d |  | UnkMessageParser_empty_5b123f | - |  |
-| 1233 | class_3424 | 1271 | class_4008 | readInteger | package_77/class_3424.as |
+| 1233 | class_3424 | 1271 | class_4008 | int | package_77/class_3424.as |
 | 1234 | class_3703 | 2116 | class_2454 | - | package_64/class_3703.as |
-| 1240 | class_2361 | 940 | class_3191 | readString readInteger | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_2361.as |
-| 1241 | class_3115 | 2338 | class_4209 | readInteger readInteger | package_110/class_3115.as |
-| 1258 | class_3033 | 880 | class_4012 | readInteger readInteger readInteger | package_49/class_3033.as |
-| 1275 | class_2407 | 1426 | class_2876 | readInteger | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_2407.as |
+| 1240 | class_2361 | 940 | class_3191 | string int [ class_3079{ string string } ] | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_2361.as |
+| 1241 | class_3115 | 2338 | class_4209 | int int | package_110/class_3115.as |
+| 1258 | class_3033 | 880 | class_4012 | int int int | package_49/class_3033.as |
+| 1275 | class_2407 | 1426 | class_2876 | int | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_2407.as |
 | 1276 | UnkMessageEvent_21cd6f |  |  |  |  |
-| 1288 | class_2259 | 2655 | class_2183 | readInteger readInteger readString | package_20/class_2259.as |
-| 1320 | UnkMessageEvent_class_2880 |  | class_2880 | readInteger readString readString readBoolean |  |
-| 1325 | UnkMessageEvent_d4ba75 |  | UnkMessageParser_I_979d53 | readInteger |  |
-| 1333 | UnkMessageEvent_Game2LeaderboardParser_ |  | Game2LeaderboardParser | readInteger readInteger readInteger |  |
-| 1343 | class_3339 | 683 | class_2799 | readInteger readInteger readInteger readString | package_64/class_3339.as |
-| 1346 | UnkMessageEvent_684452 |  | UnkMessageParser_empty_02ab60 | - |  |
-| 1347 | class_3504 | 2936 | class_4103 | readInteger readInteger readInteger | package_42/class_3504.as |
-| 1369 | class_2637 | 1460 | class_4273 | readString readInteger readInteger readInteger | package_133/class_2637.as |
-| 1373 | class_2386 | 3213 | UnkMessageParser_empty_f1f80e | - | package_99/class_2386.as |
-| 1378 | class_3073 | 2965 | class_3996 | readString | package_53/class_3073.as |
+| 1288 | class_2259 | 2655 | class_2183 | int int string | package_20/class_2259.as |
+| 1320 | UnkMessageEvent_class_2880 |  | class_2880 | int [ string string bool ] |  |
+| 1325 | UnkMessageEvent_d4ba75 |  | UnkMessageParser_I_979d53 | int VariableInfoAndHolders{ WiredVariable{ string int string int int bool bool bool bool bool bool bool bool bool ?{ int [ int string ] } } int [ UnkClass_08106d{ int int } ] } |  |
+| 1333 | UnkMessageEvent_Game2LeaderboardParser_ |  | Game2LeaderboardParser | int [ class_4169{ int int int string string string } ] int int |  |
+| 1343 | class_3339 | 683 | class_2799 | int int int string | package_64/class_3339.as |
+| 1346 | UnkMessageEvent_684452 |  | UnkMessageParser_empty_02ab60 | UnkClass_42de16{ int string string int int bool int int int int int string string int int string string ?{ string int } } |  |
+| 1347 | class_3504 | 2936 | class_4103 | int int [ int ] | package_42/class_3504.as |
+| 1369 | class_2637 | 1460 | class_4273 | string int int [ UnkClass_a3a76c{ string } ] int [ class_4223{ string int } ] | package_133/class_2637.as |
+| 1373 | class_2386 | 3213 | UnkMessageParser_empty_f1f80e | class_3624{ int int string int int int int int bool string string int int short } | package_99/class_2386.as |
+| 1378 | class_3073 | 2965 | class_3996 | string | package_53/class_3073.as |
 | 1379 | UnkMessageEvent_4ef98a |  | UnkMessageParser_empty_178047 | - |  |
-| 1381 | class_2003 | 3002 | class_3182 | readInteger readString readInteger readInteger readString readInteger readString | package_53/class_2003.as |
-| 1387 | UnkMessageEvent_6d077c |  | UnkMessageParser_IS_769d7e | readInteger readString |  |
-| 1392 | class_3526 | 2847 | class_3367 | readInteger readByte readByte readInteger readString | package_211/class_3526.as |
-| 1405 | UnkMessageEvent_Game2WeeklyLeaderboardParser___ |  | Game2WeeklyLeaderboardParser | readInteger readInteger readInteger readInteger readInteger |  |
-| 1411 | UnkMessageEvent_f39b73 |  | UnkMessageParser_I_bf7003 | readInteger |  |
-| 1416 | class_1831 | 367 | class_2297 | readString | package_29/class_1831.as |
-| 1418 | class_2372 | 1752 | class_3827 | readString | package_64/class_2372.as |
-| 1426 | UnkMessageEvent_f3e0ff |  | UnkMessageParser_I_c13999 | readInteger |  |
-| 1442 | UnkMessageEvent_99d432 |  | UnkMessageParser_I_dbc206 | readInteger |  |
-| 1443 | class_2544 | 2071 | class_2860 | readInteger readInteger readBoolean | package_109/class_2544.as |
-| 1449 | UnkMessageEvent_70fd7b |  | UnkMessageParser_II_3cf205 | readInteger readInteger |  |
-| 1451 | class_3225 | 3156 | class_4247 | readInteger readString readInteger readInteger readString | package_32/class_3225.as |
-| 1464 | UnkMessageEvent_fd1e8c |  | UnkMessageParser_IS_1dcc58 | readInteger readString |  |
-| 1475 | UnkMessageEvent_e8aa52 |  | UnkMessageParser_II_aa04a2 | readInteger readInteger |  |
-| 1478 | class_2639 | 1352 | class_3400 | readInteger readInteger | package_11/class_2639.as |
-| 1480 | class_2935 | 3592 | class_4164 | readShort readInteger | package_141/class_2935.as |
-| 1485 | class_2835 | 1563 | class_3190 | readInteger readInteger | package_100/class_2835.as |
-| 1497 | class_3770 | 1628 | class_3882 | readByte | package_211/class_3770.as |
-| 1501 | class_3707 | 2090 | class_3927 | readInteger readString readInteger readInteger readInteger | package_100/class_3707.as |
+| 1381 | class_2003 | 3002 | class_3182 | int string int int [ string ] int [ string ] | package_53/class_2003.as |
+| 1387 | UnkMessageEvent_6d077c |  | UnkMessageParser_IS_769d7e | int [ string ] |  |
+| 1392 | class_3526 | 2847 | class_3367 | int [ byte byte int string ] | package_211/class_3526.as |
+| 1405 | UnkMessageEvent_Game2WeeklyLeaderboardParser___ |  | Game2WeeklyLeaderboardParser | int int int int int |  |
+| 1411 | UnkMessageEvent_f39b73 |  | UnkMessageParser_I_bf7003 | int |  |
+| 1416 | class_1831 | 367 | class_2297 | string | package_29/class_1831.as |
+| 1418 | class_2372 | 1752 | class_3827 | string | package_64/class_2372.as |
+| 1426 | UnkMessageEvent_f3e0ff |  | UnkMessageParser_I_c13999 | int |  |
+| 1442 | UnkMessageEvent_99d432 |  | UnkMessageParser_I_dbc206 | int |  |
+| 1443 | class_2544 | 2071 | class_2860 | int int bool | package_109/class_2544.as |
+| 1449 | UnkMessageEvent_70fd7b |  | UnkMessageParser_II_3cf205 | int int |  |
+| 1451 | class_3225 | 3156 | class_4247 | int string int [ int string ] | package_32/class_3225.as |
+| 1464 | UnkMessageEvent_fd1e8c |  | UnkMessageParser_IS_1dcc58 | int string |  |
+| 1475 | UnkMessageEvent_e8aa52 |  | UnkMessageParser_II_aa04a2 | int [ UnkSubclassOf_class_2508_04a79d{ long } ] int [ UnkSubclassOf_class_2508_04a79d{ long } ] |  |
+| 1478 | class_2639 | 1352 | class_3400 | int int | package_11/class_2639.as |
+| 1480 | class_2935 | 3592 | class_4164 | short int | package_141/class_2935.as |
+| 1485 | class_2835 | 1563 | class_3190 | ?{ int int } | package_100/class_2835.as |
+| 1497 | class_3770 | 1628 | class_3882 | byte | package_211/class_3770.as |
+| 1501 | class_3707 | 2090 | class_3927 | int string int int int | package_100/class_3707.as |
 | 1513 | UnkMessageEvent_392f26 |  | UnkMessageParser_empty_da3634 | - |  |
-| 1519 | UnkMessageEvent_7cb02b |  | UnkMessageParser_II_610993 | readInteger readInteger |  |
-| 1521 | class_2494 | 238 | class_3906 | readInteger readInteger readInteger readInteger readInteger | package_85/class_2494.as |
-| 1522 | class_2906 | 577 | class_4022 | readInteger readString | package_77/class_2906.as |
+| 1519 | UnkMessageEvent_7cb02b |  | UnkMessageParser_II_610993 | int int class_3377{ string int int bool ?{ string } ?{ string } } |  |
+| 1521 | class_2494 | 238 | class_3906 | int int int int int | package_85/class_2494.as |
+| 1522 | class_2906 | 577 | class_4022 | int string | package_77/class_2906.as |
 | 1524 | class_3237 | 3491 | class_4239 | - | package_180/class_3237.as |
-| 1532 | class_3588 | 1355 | class_3387 | readInteger readBoolean | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_3588.as |
-| 1542 | class_3318 | 3908 | class_3520 | readInteger readInteger readInteger readBoolean | package_109/class_3318.as |
+| 1532 | class_3588 | 1355 | class_3387 | int bool | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_3588.as |
+| 1542 | class_3318 | 3908 | class_3520 | int int int bool | package_109/class_3318.as |
 | 1545 | UnkMessageEvent_8f6c20 |  | UnkMessageParser_empty_4c85b1 | - |  |
-| 1546 | UnkMessageEvent_0b8d88 |  | UnkMessageParser_I_4d75d2 | readInteger |  |
-| 1551 | class_2294 | 1090 | class_2934 | readString readString | package_53/class_2294.as |
-| 1553 | class_2159 | 815 | class_1775 | readInteger readString readString readInteger readInteger readBoolean readInteger | package_5/class_2159.as |
-| 1557 | class_2700 | 27 | class_4011 | readBoolean readInteger readInteger readString readInteger readInteger | package_100/class_2700.as |
-| 1569 | class_3411 | 1017 | class_2493 | readString readString | package_64/class_3411.as |
+| 1546 | UnkMessageEvent_0b8d88 |  | UnkMessageParser_I_4d75d2 | int [ class_3178{ string int [ SavedSearch{ int string string string } ] } ] |  |
+| 1551 | class_2294 | 1090 | class_2934 | string string | package_53/class_2294.as |
+| 1553 | class_2159 | 815 | class_1775 | int string string UnkClass_011a96{ int [ string ] int [ string ] } int [ UnkClass_e671c5{ int string bool int int int int bool int int bool bool string } ] int bool ?{ int } | package_5/class_2159.as |
+| 1557 | class_2700 | 27 | class_4011 | bool int int string int int | package_100/class_2700.as |
+| 1569 | class_3411 | 1017 | class_2493 | ?{ string string } | package_64/class_3411.as |
 | 1574 | UnkMessageEvent_7d769e |  |  |  |  |
-| 1577 | class_3463 | 2702 | class_2916 | readInteger readString readInteger readString | package_19/class_3463.as |
-| 1593 | UnkMessageEvent_1c4599 |  | UnkMessageParser_SS_43982c | readString readString |  |
-| 1599 | class_2467 | 2752 | class_2871 | readInteger | package_52/class_2467.as |
-| 1600 | UnkMessageEvent_79de7a |  | UnkMessageParser_I_52df2e | readInteger |  |
-| 1601 | UnkMessageEvent_1ae15a |  | UnkMessageParser_II_536f18 | readInteger readInteger |  |
-| 1613 | class_2939 | 358 | class_2729 | readInteger readInteger readInteger | package_11/class_2939.as |
-| 1615 | class_1926 | 3884 | class_1833 | readInteger readString readString readString readString readString readBoolean readInteger readInteger readInteger readBoolean readString readBoolean readBoolean readBoolean readString readInteger readInteger | package_1/class_1926.as |
-| 1616 | class_2250 | 2531 | class_1788 | readInteger readString | package_20/class_2250.as |
-| 1619 | UnkMessageEvent_d2a2e2 |  | UnkMessageParser_empty_a01e06 | - |  |
-| 1634 | UnkMessageEvent_c48121 |  | UnkMessageParser_III_d7faae | readInteger readInteger readInteger |  |
+| 1577 | class_3463 | 2702 | class_2916 | int string int [ string ] | package_19/class_3463.as |
+| 1593 | UnkMessageEvent_1c4599 |  | UnkMessageParser_SS_43982c | string string |  |
+| 1599 | class_2467 | 2752 | class_2871 | int [ class_3177{ int string bool bool string string bool } ] | package_52/class_2467.as |
+| 1600 | UnkMessageEvent_79de7a |  | UnkMessageParser_I_52df2e | int [ class_3017{ int string string string string } ] |  |
+| 1601 | UnkMessageEvent_1ae15a |  | UnkMessageParser_II_536f18 | int int |  |
+| 1613 | class_2939 | 358 | class_2729 | int int int | package_11/class_2939.as |
+| 1615 | class_1926 | 3884 | class_1833 | int string string string string string bool int int int bool string bool bool ?{ bool string } ?{ int int } | package_1/class_1926.as |
+| 1616 | class_2250 | 2531 | class_1788 | int string | package_20/class_2250.as |
+| 1619 | UnkMessageEvent_d2a2e2 |  | UnkMessageParser_empty_a01e06 | UnkClass_eb5a8a{ string string int [ class_2005{ string string int bool int int } ] } |  |
+| 1634 | UnkMessageEvent_c48121 |  | UnkMessageParser_III_d7faae | int int int |  |
 | 1636 | UnkMessageEvent_d520c6 |  | UnkMessageParser_empty_6901a0 | - |  |
-| 1642 | class_2530 | 331 | class_4249 | readInteger readInteger | package_9/class_2530.as |
-| 1643 | UnkMessageEvent_f28d95 |  | UnkMessageParser_BII_cdc91b | readBoolean readInteger readInteger |  |
-| 1645 | UnkMessageEvent_718e5e |  | UnkMessageParser_SI_8d8b7c | readString readInteger |  |
-| 1651 | UnkMessageEvent_5869bc |  | UnkMessageParser_empty_fd5968 | - |  |
+| 1642 | class_2530 | 331 | class_4249 | int int | package_9/class_2530.as |
+| 1643 | UnkMessageEvent_f28d95 |  | UnkMessageParser_BII_cdc91b | bool int int |  |
+| 1645 | UnkMessageEvent_718e5e |  | UnkMessageParser_SI_8d8b7c | string int |  |
+| 1651 | UnkMessageEvent_5869bc |  | UnkMessageParser_empty_fd5968 | class_3815{ int [ class_3942{ string int } ] } |  |
 | 1655 | UnkMessageEvent_b01f21 |  | UnkMessageParser_empty_2497be | - |  |
-| 1659 | UnkMessageEvent_e039af |  | UnkMessageParser_B_b6a1c5 | readBoolean |  |
-| 1669 | class_3806 | 3193 | class_3895 | readBoolean | package_221/class_3806.as |
-| 1671 | UnkMessageEvent_Game2WeeklyLeaderboardParser_ |  | Game2WeeklyLeaderboardParser | readInteger readInteger readInteger readInteger readInteger |  |
-| 1677 | UnkMessageEvent_c3a485 |  | UnkMessageParser_empty_4aea24 | - |  |
-| 1687 | UnkMessageEvent_f38065 |  | UnkMessageParser_I_3810c1 | readInteger |  |
-| 1699 | UnkMessageEvent_2eb2d5 |  | UnkMessageParser_IIISII_7d2b0b | readInteger readInteger readInteger readString readInteger readInteger |  |
-| 1706 | class_2121 | 1428 | class_1928 | readInteger readInteger readInteger readBoolean readBoolean readBoolean readInteger readInteger readBoolean readBoolean readBoolean readInteger readBoolean readBoolean readString readInteger readInteger readInteger readInteger readInteger | package_67/class_2121.as |
-| 1708 | class_2703 | 1108 | class_3974 | readBoolean | package_104/class_2703.as |
-| 1712 | class_2255 | 1297 | class_2061 | readInteger | package_38/class_2255.as |
-| 1719 | class_2395 | 1983 | class_3609 | readInteger readString | package_32/class_2395.as |
-| 1721 | class_3481 | 2714 | class_3704 | readInteger readString | package_44/class_3481.as |
-| 1722 | UnkMessageEvent_b6e5bd |  | UnkMessageParser_IIII_0fe179 | readInteger readInteger readInteger readInteger |  |
-| 1724 | class_3543 | 2367 | class_3283 | readInteger readInteger | package_2/class_3543.as |
-| 1738 | class_2420 | 2382 | class_2509 | readInteger readString | package_52/class_2420.as |
-| 1751 | UnkMessageEvent_b1141e |  | UnkMessageParser_I_fa26ba | readInteger |  |
+| 1659 | UnkMessageEvent_e039af |  | UnkMessageParser_B_b6a1c5 | bool |  |
+| 1669 | class_3806 | 3193 | class_3895 | bool | package_221/class_3806.as |
+| 1671 | UnkMessageEvent_Game2WeeklyLeaderboardParser_ |  | Game2WeeklyLeaderboardParser | int int int int int |  |
+| 1677 | UnkMessageEvent_c3a485 |  | UnkMessageParser_empty_4aea24 | class_2719{ int string double int int int int int int } |  |
+| 1687 | UnkMessageEvent_f38065 |  | UnkMessageParser_I_3810c1 | int |  |
+| 1699 | UnkMessageEvent_2eb2d5 |  | UnkMessageParser_IIISII_7d2b0b | int int [ int string int int ] |  |
+| 1706 | class_2121 | 1428 | class_1928 | int int int bool bool bool int int bool bool bool int bool ?{ bool } ?{ string } ?{ int } ?{ int } ?{ int } ?{ int } ?{ int } | package_67/class_2121.as |
+| 1708 | class_2703 | 1108 | class_3974 | bool ?{ class_3380{ string string string } } | package_104/class_2703.as |
+| 1712 | class_2255 | 1297 | class_2061 | int | package_38/class_2255.as |
+| 1719 | class_2395 | 1983 | class_3609 | int string | package_32/class_2395.as |
+| 1721 | class_3481 | 2714 | class_3704 | int string | package_44/class_3481.as |
+| 1722 | UnkMessageEvent_b6e5bd |  | UnkMessageParser_IIII_0fe179 | int [ int int [ int ] ] |  |
+| 1724 | class_3543 | 2367 | class_3283 | int int | package_2/class_3543.as |
+| 1738 | class_2420 | 2382 | class_2509 | int ?{ string } | package_52/class_2420.as |
+| 1751 | UnkMessageEvent_b1141e |  | UnkMessageParser_I_fa26ba | int |  |
 | 1756 | class_3495 | 3017 | class_4006 | - | package_74/class_3495.as |
-| 1761 | class_2285 | 2633 | class_1990 | readBoolean readBoolean readBoolean | package_9/class_2285.as |
-| 1779 | class_2418 | 3806 | class_4236 | readInteger readBoolean | package_110/class_2418.as |
-| 1786 | UnkMessageEvent_bd2246 |  | UnkMessageParser_I_a654a5 | readInteger |  |
-| 1789 | class_2651 | 2953 | class_3880 | readInteger readInteger readInteger | package_65/class_2651.as |
-| 1815 | UnkMessageEvent_59d999 |  | UnkMessageParser_I_1b4398 | readInteger |  |
-| 1818 | class_2271 | 121 | class_3031 | readInteger readInteger readBoolean | package_1/class_2271.as |
-| 1820 | UnkMessageEvent_fdf85a |  | UnkMessageParser_empty_59db89 | - |  |
-| 1824 | UnkMessageEvent_f3a502 |  | UnkMessageParser_empty_50d50d | - |  |
+| 1761 | class_2285 | 2633 | class_1990 | bool bool ?{ bool } | package_9/class_2285.as |
+| 1779 | class_2418 | 3806 | class_4236 | int bool | package_110/class_2418.as |
+| 1786 | UnkMessageEvent_bd2246 |  | UnkMessageParser_I_a654a5 | int [ class_3746{ int string } ] |  |
+| 1789 | class_2651 | 2953 | class_3880 | int int int | package_65/class_2651.as |
+| 1815 | UnkMessageEvent_59d999 |  | UnkMessageParser_I_1b4398 | ?{ int } |  |
+| 1818 | class_2271 | 121 | class_3031 | int int bool | package_1/class_2271.as |
+| 1820 | UnkMessageEvent_fdf85a |  | UnkMessageParser_empty_59db89 | class_2024{ int string string } |  |
+| 1824 | UnkMessageEvent_f3a502 |  | UnkMessageParser_empty_50d50d | class_3979{ int int int int class_4250{ byte short [ string byte bool int string ] short [ class_4238{ string int string string bool } ] } } |  |
 | 1830 | UnkMessageEvent_29c900 |  | UnkMessageParser_empty_bfd688 | - |  |
-| 1835 | class_2867 | 3636 | class_3909 | readInteger readInteger | package_9/class_2867.as |
-| 1837 | class_2783 | 3588 | class_2398 | readString readInteger | package_64/class_2783.as |
-| 1841 | UnkMessageEvent_3bddd9 |  | UnkMessageParser_I_aca387 | readInteger |  |
+| 1835 | class_2867 | 3636 | class_3909 | int [ int ] | package_9/class_2867.as |
+| 1837 | class_2783 | 3588 | class_2398 | ?{ string int } | package_64/class_2783.as |
+| 1841 | UnkMessageEvent_3bddd9 |  | UnkMessageParser_I_aca387 | int |  |
 | 1846 | UnkMessageEvent_eef5e9 |  | UnkMessageParser_empty_31e5c9 | - |  |
-| 1851 | class_2917 | 2622 | class_3596 | readString readInteger readInteger | package_32/class_2917.as |
-| 1865 | UnkMessageEvent_886e5b |  | UnkMessageParser_empty_2bb62a | - |  |
-| 1866 | UnkMessageEvent_39f258 |  | UnkMessageParser_I_93b99e | readInteger |  |
-| 1873 | UnkMessageEvent_4ac32c |  | UnkMessageParser_BII_74713b | readBoolean readInteger readInteger |  |
-| 1884 | class_3607 | 3627 | class_4002 | readInteger readString | package_32/class_3607.as |
-| 1891 | class_3139 | 2058 | class_3868 | - | package_118/class_3139.as |
-| 1892 | class_3818 | 501 | class_2412 | readInteger readInteger readInteger readInteger | package_155/class_3818.as |
-| 1894 | class_2137 | 3854 | class_2256 | readInteger readInteger | package_20/class_2137.as |
-| 1896 | class_3013 | 3424 | class_3264 | readInteger readInteger | package_128/class_3013.as |
-| 1897 | class_3443 | 1617 | GetCustomFilterResultMessageEventParser | readInteger readString | package_209/class_3443.as |
+| 1851 | class_2917 | 2622 | class_3596 | string int [ int ] | package_32/class_2917.as |
+| 1865 | UnkMessageEvent_886e5b |  | UnkMessageParser_empty_2bb62a | UnkClass_c2a8cf{ int int int int [ WiredLogEntry{ long byte byte string long string } ] bool ?{ byte } bool ?{ byte } bool ?{ string } } |  |
+| 1866 | UnkMessageEvent_39f258 |  | UnkMessageParser_I_93b99e | int |  |
+| 1873 | UnkMessageEvent_4ac32c |  | UnkMessageParser_BII_74713b | bool int int |  |
+| 1884 | class_3607 | 3627 | class_4002 | int string | package_32/class_3607.as |
+| 1891 | class_3139 | 2058 | class_3868 | WiredRoomStatsData{ double double bool int int int int int int int int int int } | package_118/class_3139.as |
+| 1892 | class_3818 | 501 | class_2412 | int int int int | package_155/class_3818.as |
+| 1894 | class_2137 | 3854 | class_2256 | int int [ class_3143{ int string string int string } ] | package_20/class_2137.as |
+| 1896 | class_3013 | 3424 | class_3264 | ?{ int int } | package_128/class_3013.as |
+| 1897 | class_3443 | 1617 | GetCustomFilterResultMessageEventParser | int [ string ] | package_209/class_3443.as |
 | 1907 | UnkMessageEvent_189d98 |  | UnkMessageParser_empty_f90b3d | - |  |
-| 1912 | class_2360 | 919 | class_3236 | readInteger | package_86/class_2360.as |
-| 1916 | UnkMessageEvent_d359bd |  | UnkMessageParser_empty_f05521 | - |  |
-| 1919 | class_2931 | 3021 | class_3053 | readInteger readInteger | package_52/class_2931.as |
-| 1920 | UnkMessageEvent_e76ece |  | UnkMessageParser_IS_0133ad | readInteger readString |  |
-| 1924 | class_3541 | 2956 | class_4079 | readInteger readInteger | package_210/class_3541.as |
-| 1926 | class_2734 | 1694 | class_3739 | readInteger readInteger readInteger readInteger readInteger readInteger readBoolean | package_109/class_2734.as |
-| 1977 | class_3159 | 3068 | class_4189 | readInteger readInteger | package_100/class_3159.as |
-| 1979 | class_2739 | 1273 | class_2426 | readInteger readBoolean | package_128/class_2739.as |
-| 1983 | UnkMessageEvent_072f71 |  | UnkMessageParser_II_331f6b | readInteger readInteger |  |
-| 1994 | UnkMessageEvent_class_2771 |  | class_2771 | readInteger readInteger readInteger |  |
-| 1996 | UnkMessageEvent_9c953a |  | UnkMessageParser_II_509d0d | readInteger readInteger |  |
-| 2002 | class_3674 | 2813 | class_3492 | readInteger | package_196/class_3674.as |
-| 2010 | class_3305 | 3578 | class_3471 | readInteger readInteger readBoolean | package_54/class_3305.as |
+| 1912 | class_2360 | 919 | class_3236 | int | package_86/class_2360.as |
+| 1916 | UnkMessageEvent_d359bd |  | UnkMessageParser_empty_f05521 | class_3358{ int int int int } |  |
+| 1919 | class_2931 | 3021 | class_3053 | int int | package_52/class_2931.as |
+| 1920 | UnkMessageEvent_e76ece |  | UnkMessageParser_IS_0133ad | int string |  |
+| 1924 | class_3541 | 2956 | class_4079 | int int | package_210/class_3541.as |
+| 1926 | class_2734 | 1694 | class_3739 | int [ int int int int int bool ] | package_109/class_2734.as |
+| 1977 | class_3159 | 3068 | class_4189 | int int | package_100/class_3159.as |
+| 1979 | class_2739 | 1273 | class_2426 | ?{ int bool } | package_128/class_2739.as |
+| 1983 | UnkMessageEvent_072f71 |  | UnkMessageParser_II_331f6b | int [ int ] |  |
+| 1994 | UnkMessageEvent_class_2771 |  | class_2771 | int int int |  |
+| 1996 | UnkMessageEvent_9c953a |  | UnkMessageParser_II_509d0d | int int [ UnkClass_0e4112{ int string } ] |  |
+| 2002 | class_3674 | 2813 | class_3492 | int | package_196/class_3674.as |
+| 2010 | class_3305 | 3578 | class_3471 | int int bool | package_54/class_3305.as |
 | 2012 | UnkMessageEvent_2593ef |  | UnkMessageParser_empty_736d39 | - |  |
-| 2020 | class_3740 | 1846 | class_2843 | readInteger readString | package_21/class_3740.as |
-| 2041 | class_2694 | 3866 | class_3449 | readInteger readString readInteger | package_53/class_2694.as |
-| 2045 | UnkMessageEvent_8991cf |  | UnkMessageParser_I_1b536a | readInteger |  |
-| 2086 | class_2914 | 3566 | class_1829 | readInteger | package_33/class_2914.as |
-| 2090 | UnkMessageEvent_e9ed5c |  | UnkMessageParser_SBB_8a56ac | readString readBoolean readBoolean |  |
-| 2091 | UnkMessageEvent_c47825 |  | UnkMessageParser_II_044ecd | readInteger readInteger |  |
-| 2100 | UnkMessageEvent_7d64a1 |  | UnkMessageParser_I_5b34e9 | readInteger |  |
-| 2103 | class_3547 | 2151 | class_4016 | readInteger readInteger readInteger | package_210/class_3547.as |
-| 2109 | UnkMessageEvent_5c77a0 |  | UnkMessageParser_I_8f3b42 | readInteger |  |
+| 2020 | class_3740 | 1846 | class_2843 | int string | package_21/class_3740.as |
+| 2041 | class_2694 | 3866 | class_3449 | int string int class_3800{ int int string int int [ int int int ] } | package_53/class_2694.as |
+| 2045 | UnkMessageEvent_8991cf |  | UnkMessageParser_I_1b536a | int |  |
+| 2086 | class_2914 | 3566 | class_1829 | int [ class_2495{ int int string string } ] | package_33/class_2914.as |
+| 2090 | UnkMessageEvent_e9ed5c |  | UnkMessageParser_SBB_8a56ac | string bool bool |  |
+| 2091 | UnkMessageEvent_c47825 |  | UnkMessageParser_II_044ecd | int int [ class_3136{ int int int string string } ] |  |
+| 2100 | UnkMessageEvent_7d64a1 |  | UnkMessageParser_I_5b34e9 | int |  |
+| 2103 | class_3547 | 2151 | class_4016 | int int int | package_210/class_3547.as |
+| 2109 | UnkMessageEvent_5c77a0 |  | UnkMessageParser_I_8f3b42 | int [ class_3200{ int string bool } ] |  |
 | 2113 | class_1929 | 3568 | class_3401 | - | package_44/class_1929.as |
 | 2125 | class_3683 | 3286 |  |  | package_32/class_3683.as |
-| 2130 | UnkMessageEvent_fbc9cd |  | UnkMessageParser_II_118a91 | readInteger readInteger |  |
-| 2141 | class_2711 | 3112 | class_4027 | readInteger | package_156/class_2711.as |
-| 2146 | UnkMessageEvent_836b5b |  | UnkMessageParser_I_b751d4 | readInteger |  |
+| 2130 | UnkMessageEvent_fbc9cd |  | UnkMessageParser_II_118a91 | int int |  |
+| 2141 | class_2711 | 3112 | class_4027 | int [ class_4208{ string string } ] | package_156/class_2711.as |
+| 2146 | UnkMessageEvent_836b5b |  | UnkMessageParser_I_b751d4 | int |  |
 | 2156 | UnkMessageEvent_40e2d1 |  | UnkMessageParser_empty_256cdc | - |  |
-| 2162 | class_2381 | 1105 | class_3203 | readByte | package_64/class_2381.as |
-| 2190 | class_2084 | 611 | class_3065 | readInteger | package_52/class_2084.as |
-| 2192 | class_3344 | 3557 | class_3918 | readInteger readString | package_32/class_3344.as |
+| 2162 | class_2381 | 1105 | class_3203 | ?{ byte } | package_64/class_2381.as |
+| 2190 | class_2084 | 611 | class_3065 | int | package_52/class_2084.as |
+| 2192 | class_3344 | 3557 | class_3918 | int string | package_32/class_3344.as |
 | 2195 | class_3059 | 3760 | class_3893 | - | package_141/class_3059.as |
-| 2207 | UnkMessageEvent_1f6401 |  | UnkMessageParser_I_eec6a5 | readInteger |  |
-| 2209 | class_2212 | 1043 | class_2133 | readInteger readString readString readString | package_32/class_2212.as |
-| 2210 | UnkMessageEvent_ad699d |  | UnkMessageParser_I_c97e7f | readInteger |  |
-| 2216 | class_3314 | 550 | class_3439 | readLong readInteger readByte readInteger | package_157/class_3314.as |
-| 2218 | class_2453 | 3046 | class_4089 | readInteger readInteger | package_32/class_2453.as |
-| 2219 | class_3574 | 3822 | UnkMessageParser_SIIIIBBIII__02f7b3 | readString readInteger readInteger readInteger readInteger readBoolean readBoolean readInteger readInteger readInteger readInteger | package_49/class_3574.as |
-| 2220 | class_2709 | 1920 | UnkMessageParser_I_faacf6 | readInteger | package_155/class_2709.as |
-| 2231 | UnkMessageEvent_1e7c70 |  | UnkMessageParser_S_9e0797 | readString |  |
-| 2235 | class_3658 | 2753 | class_2442 | readInteger readInteger | package_128/class_3658.as |
-| 2236 | class_3782 | 3305 | class_4131 | readInteger | package_205/class_3782.as |
-| 2249 | UnkMessageEvent_78c686 |  | UnkMessageParser_III_9af129 | readInteger readInteger readInteger |  |
-| 2251 | class_2286 | 2240 | UnkMessageParser_II_859a75 | readInteger readInteger | package_64/class_2286.as |
-| 2258 | UnkMessageEvent_06c02b |  | UnkMessageParser_III_2af927 | readInteger readInteger readInteger |  |
-| 2265 | class_2004 | 401 | class_3840 | readInteger readInteger readInteger | package_53/class_2004.as |
-| 2268 | class_3681 | 1463 | class_2813 | readInteger readString readInteger readInteger readInteger readString readString readBoolean readInteger readInteger readInteger | package_73/class_3681.as |
+| 2207 | UnkMessageEvent_1f6401 |  | UnkMessageParser_I_eec6a5 | int [ UnkClass_c18c5f{ int int } ] |  |
+| 2209 | class_2212 | 1043 | class_2133 | int [ string string string ] | package_32/class_2212.as |
+| 2210 | UnkMessageEvent_ad699d |  | UnkMessageParser_I_c97e7f | int [ class_3487{ int string string string string bool int bool } ] |  |
+| 2216 | class_3314 | 550 | class_3439 | long int byte int | package_157/class_3314.as |
+| 2218 | class_2453 | 3046 | class_4089 | int [ int ] | package_32/class_2453.as |
+| 2219 | class_3574 | 3822 | UnkMessageParser_SIIIIBBIII__02f7b3 | string int int int int bool bool int int int ?{ int } | package_49/class_3574.as |
+| 2220 | class_2709 | 1920 | UnkMessageParser_I_faacf6 | int | package_155/class_2709.as |
+| 2231 | UnkMessageEvent_1e7c70 |  | UnkMessageParser_S_9e0797 | string |  |
+| 2235 | class_3658 | 2753 | class_2442 | ?{ int int } | package_128/class_3658.as |
+| 2236 | class_3782 | 3305 | class_4131 | int [ NftWardrobeItem{ string string string string string } ] | package_205/class_3782.as |
+| 2249 | UnkMessageEvent_78c686 |  | UnkMessageParser_III_9af129 | int int int [ class_2503{ int string class_3800{ int int string int int [ int int int ] } int int } ] |  |
+| 2251 | class_2286 | 2240 | UnkMessageParser_II_859a75 | int [ int ] | package_64/class_2286.as |
+| 2258 | UnkMessageEvent_06c02b |  | UnkMessageParser_III_2af927 | int int [ int ] |  |
+| 2265 | class_2004 | 401 | class_3840 | int int int | package_53/class_2004.as |
+| 2268 | class_3681 | 1463 | class_2813 | int string int int int ?{ [ string string bool ] } int ?{ int } ?{ int } | package_73/class_3681.as |
 | 2273 | UnkMessageEvent_ba739b |  | UnkMessageParser_empty_338fee | - |  |
-| 2282 | UnkMessageEvent_c8b8a2 |  | UnkMessageParser_I_6724c8 | readInteger |  |
-| 2288 | class_3195 | 131 | class_2617 | - | package_11/class_3195.as |
-| 2290 | class_2463 | 1959 | class_3274 | readInteger readInteger readInteger readInteger readInteger readInteger readString readString readInteger readInteger readInteger readString readString | package_64/class_2463.as |
-| 2293 | class_2676 | 2045 | class_4210 | readInteger readInteger readString readInteger readBoolean readBoolean | package_100/class_2676.as |
-| 2296 | class_2732 | 1356 | class_3922 | readInteger readInteger readString readInteger readInteger readString | package_32/class_2732.as |
-| 2301 | UnkMessageEvent_11a7ec |  | UnkMessageParser_empty_18a4b2 | - |  |
-| 2302 | class_2189 | 3656 | class_2063 | readInteger | package_20/class_2189.as |
-| 2305 | class_3354 | 3638 | class_2344 | readInteger readInteger | package_64/class_3354.as |
-| 2307 | class_3741 | 2598 | class_3620 | - | package_100/class_3741.as |
-| 2330 | class_2480 | 2184 | class_4034 | - | package_49/class_2480.as |
-| 2334 | class_3193 | 247 | class_3558 | readInteger | package_100/class_3193.as |
-| 2346 | UnkMessageEvent_b78ac2 |  | UnkMessageParser_empty_aa31d1 | - |  |
+| 2282 | UnkMessageEvent_c8b8a2 |  | UnkMessageParser_I_6724c8 | int |  |
+| 2288 | class_3195 | 131 | class_2617 | int int string int string int bool int int string int string int bool | package_11/class_3195.as |
+| 2290 | class_2463 | 1959 | class_3274 | int int int int int [ int string string ] int int int string string | package_64/class_2463.as |
+| 2293 | class_2676 | 2045 | class_4210 | ?{ int int string int bool bool } | package_100/class_2676.as |
+| 2296 | class_2732 | 1356 | class_3922 | int [ int string ] int [ int string ] | package_32/class_2732.as |
+| 2301 | UnkMessageEvent_11a7ec |  | UnkMessageParser_empty_18a4b2 | class_3956{ int int bool int string } |  |
+| 2302 | class_2189 | 3656 | class_2063 | int | package_20/class_2189.as |
+| 2305 | class_3354 | 3638 | class_2344 | int [ int ] | package_64/class_3354.as |
+| 2307 | class_3741 | 2598 | class_3620 | ?{ AreaHideMessageData{ int bool int int int int bool } } | package_100/class_3741.as |
+| 2330 | class_2480 | 2184 | class_4034 | class_4345{ string int [ class_4363{ int string string int int } ] } | package_49/class_2480.as |
+| 2334 | class_3193 | 247 | class_3558 | ?{ int ?{ class_3800{ int int string int int [ int int int ] } } } | package_100/class_3193.as |
+| 2346 | UnkMessageEvent_b78ac2 |  | UnkMessageParser_empty_aa31d1 | class_3382{ int int string string int int int int int string string string string int int [ string ] } |  |
 | 2348 | UnkMessageEvent_a7fb74 |  | UnkMessageParser_empty_9d4bed | - |  |
-| 2350 | UnkMessageEvent_e96651 |  | UnkMessageParser_empty_26a5cf | - |  |
-| 2362 | UnkMessageEvent_a5595f |  | UnkMessageParser_empty_46d122 | - |  |
-| 2384 | class_1939 | 1021 | class_2046 | readInteger | package_17/class_1939.as |
-| 2387 | class_2027 | 3939 | class_2052 | readBoolean readBoolean readBoolean readBoolean readBoolean readBoolean readInteger readBoolean | package_57/class_2027.as |
-| 2389 | class_2068 | 1019 | class_2693 | readString | package_1/class_2068.as |
-| 2392 | UnkMessageEvent_602c5f |  | UnkMessageParser_I_46888f | readInteger |  |
-| 2394 | UnkMessageEvent_333a8d |  | UnkMessageParser_SI_283c79 | readString readInteger |  |
-| 2395 | class_2717 | 2405 | class_4299 | readInteger readInteger | package_77/class_2717.as |
-| 2402 | class_2368 | 2096 | class_4278 | readString | package_49/class_2368.as |
-| 2408 | class_2578 | 3892 | UnkMessageParser_IS_0e323a | readInteger readString | package_49/class_2578.as |
+| 2350 | UnkMessageEvent_e96651 |  | UnkMessageParser_empty_26a5cf | UnkClass_e671c5{ int string bool int int int int bool int int bool bool string } |  |
+| 2362 | UnkMessageEvent_a5595f |  | UnkMessageParser_empty_46d122 | UnkClass_d9b43d{ string int int int int [ WiredUserVariablesElement{ int int string WiredVariableStorageParameter{ ?{ string } int long string long string } } ] int int } |  |
+| 2384 | class_1939 | 1021 | class_2046 | int [ class_1989{ string int [ UnkClass_772b30{ string int string } ] } ] | package_17/class_1939.as |
+| 2387 | class_2027 | 3939 | class_2052 | bool bool bool bool bool class_2849{ int int int } bool int bool | package_57/class_2027.as |
+| 2389 | class_2068 | 1019 | class_2693 | string | package_1/class_2068.as |
+| 2392 | UnkMessageEvent_602c5f |  | UnkMessageParser_I_46888f | int |  |
+| 2394 | UnkMessageEvent_333a8d |  | UnkMessageParser_SI_283c79 | string int |  |
+| 2395 | class_2717 | 2405 | class_4299 | int Game2GameResult{ bool int int } int [ Game2TeamScoreData{ int int int [ Game2TeamPlayerData{ string int string string int Game2PlayerStatsData{ int int int int int int int int int int } } ] } ] Game2SnowWarGameStats{ int int } | package_77/class_2717.as |
+| 2402 | class_2368 | 2096 | class_4278 | string | package_49/class_2368.as |
+| 2408 | class_2578 | 3892 | UnkMessageParser_IS_0e323a | int [ class_3624{ int int string int int int int int bool string string int int short } ] string | package_49/class_2578.as |
 | 2410 | UnkMessageEvent_0acb51 |  | UnkMessageParser_empty_87cd02 | - |  |
-| 2411 | UnkMessageEvent_a9eb9b |  | UnkMessageParser_empty_547bd4 | - |  |
-| 2412 | UnkMessageEvent_dca033 |  | UnkMessageParser_II_a3ce54 | readInteger readInteger |  |
-| 2417 | class_2954 | 3277 | class_4155 | readString | package_52/class_2954.as |
-| 2427 | class_2391 | 3288 | class_4145 | readBoolean readInteger readString readInteger | package_32/class_2391.as |
+| 2411 | UnkMessageEvent_a9eb9b |  | UnkMessageParser_empty_547bd4 | class_4250{ byte short [ string byte bool int string ] short [ class_4238{ string int string string bool } ] } |  |
+| 2412 | UnkMessageEvent_dca033 |  | UnkMessageParser_II_a3ce54 | int int [ UnkClass_ec27db{ int string } ] |  |
+| 2417 | class_2954 | 3277 | class_4155 | string | package_52/class_2954.as |
+| 2427 | class_2391 | 3288 | class_4145 | bool int string int | package_32/class_2391.as |
 | 2428 | class_2382 | 2157 |  |  | package_98/class_2382.as |
-| 2434 | UnkMessageEvent_afe066 |  | UnkMessageParser_empty_33d5ac | - |  |
-| 2437 | UnkMessageEvent_237f42 |  | UnkMessageParser_I_353f04 | readInteger |  |
-| 2446 | class_1767 | 3157 | class_3787 | readBoolean readInteger | package_11/class_1767.as |
-| 2458 | UnkMessageEvent_345dd7 |  | UnkMessageParser_I_d69420 | readInteger |  |
-| 2462 | class_2411 | 1511 | class_3359 | readInteger readInteger readString | package_100/class_2411.as |
-| 2464 | UnkMessageEvent_c5da2c |  | UnkMessageParser_I_ca35b7 | readInteger |  |
-| 2468 | UnkMessageEvent_aa37f4 |  | UnkMessageParser_I_869ea2 | readInteger |  |
-| 2478 | UnkMessageEvent_9bce94 |  | UnkMessageParser_I_f03fa1 | readInteger |  |
-| 2485 | class_2852 | 1111 | class_4230 | readInteger | package_118/class_2852.as |
-| 2487 | class_2073 | 3318 | class_1931 | readInteger readInteger readInteger readInteger readInteger readInteger readInteger readInteger readInteger readInteger readInteger | package_38/class_2073.as |
-| 2494 | class_2538 | 2373 | class_2737 | readInteger | package_44/class_2538.as |
-| 2505 | UnkMessageEvent_b1cf72 |  | UnkMessageParser_III_be23a9 | readInteger readInteger readInteger |  |
-| 2510 | class_2879 | 256 | class_3210 | readInteger readInteger | package_114/class_2879.as |
-| 2515 | UnkMessageEvent_c92f6a |  | UnkMessageParser_SI_2aa263 | readString readInteger |  |
-| 2525 | class_3510 | 1577 | class_3371 | readInteger readInteger | package_73/class_3510.as |
-| 2534 | UnkMessageEvent_dba656 |  | UnkMessageParser_I_c88079 | readInteger |  |
-| 2539 | UnkMessageEvent_a12f97 |  | UnkMessageParser_I_23d2e8 | readInteger |  |
-| 2542 | UnkMessageEvent_8091a0 |  | UnkMessageParser_ISI_34a079 | readInteger readString readInteger |  |
-| 2546 | UnkMessageEvent_0e477d |  | UnkMessageParser_I_33761f | readInteger |  |
-| 2551 | class_3103 | 184 | class_3872 | readBoolean readInteger readString | package_180/class_3103.as |
-| 2556 | UnkMessageEvent_3c3ba4 |  | UnkMessageParser_empty_5c1bd2 | - |  |
+| 2434 | UnkMessageEvent_afe066 |  | UnkMessageParser_empty_33d5ac | UnkClass_d7315d{ int int int int int [ int ] } |  |
+| 2437 | UnkMessageEvent_237f42 |  | UnkMessageParser_I_353f04 | int |  |
+| 2446 | class_1767 | 3157 | class_3787 | bool int | package_11/class_1767.as |
+| 2458 | UnkMessageEvent_345dd7 |  | UnkMessageParser_I_d69420 | int |  |
+| 2462 | class_2411 | 1511 | class_3359 | ?{ int int string } | package_100/class_2411.as |
+| 2464 | UnkMessageEvent_c5da2c |  | UnkMessageParser_I_ca35b7 | int |  |
+| 2468 | UnkMessageEvent_aa37f4 |  | UnkMessageParser_I_869ea2 | int |  |
+| 2478 | UnkMessageEvent_9bce94 |  | UnkMessageParser_I_f03fa1 | int UnkClass_e671c5{ int string bool int int int int bool int int bool bool string } |  |
+| 2485 | class_2852 | 1111 | class_4230 | int | package_118/class_2852.as |
+| 2487 | class_2073 | 3318 | class_1931 | int int int int [ int int int ] int int int int | package_38/class_2073.as |
+| 2494 | class_2538 | 2373 | class_2737 | int | package_44/class_2538.as |
+| 2505 | UnkMessageEvent_b1cf72 |  | UnkMessageParser_III_be23a9 | int int int [ DummyFriend{ int string int bool bool string int string string string bool bool bool short } ] |  |
+| 2510 | class_2879 | 256 | class_3210 | int int [ class_4105{ int string } ] | package_114/class_2879.as |
+| 2515 | UnkMessageEvent_c92f6a |  | UnkMessageParser_SI_2aa263 | string int |  |
+| 2525 | class_3510 | 1577 | class_3371 | ?{ int int } | package_73/class_3510.as |
+| 2534 | UnkMessageEvent_dba656 |  | UnkMessageParser_I_c88079 | int |  |
+| 2539 | UnkMessageEvent_a12f97 |  | UnkMessageParser_I_23d2e8 | int [ UnkSubclassOf_class_2508_04a79d{ long } ] |  |
+| 2542 | UnkMessageEvent_8091a0 |  | UnkMessageParser_ISI_34a079 | int [ string int [ class_3733{ int int } ] ] |  |
+| 2546 | UnkMessageEvent_0e477d |  | UnkMessageParser_I_33761f | int [ UnkClass_61846c{ int int int [ PrizeMessageData{ string int ?{ string int \| [ PrizeMessageSubProduct{ string int } ] } } ] } ] |  |
+| 2551 | class_3103 | 184 | class_3872 | bool int ?{ string } | package_180/class_3103.as |
+| 2556 | UnkMessageEvent_3c3ba4 |  | UnkMessageParser_empty_5c1bd2 | UnkClass_058c8f{ int [ int int int ] } |  |
 | 2559 | UnkMessageEvent_454807 |  |  |  |  |
-| 2565 | class_3153 | 3480 | class_3426 | readInteger readInteger readString | package_64/class_3153.as |
-| 2566 | class_3615 | 196 | class_2422 | readInteger | package_54/class_3615.as |
-| 2570 | class_3698 | 330 | class_3798 | readInteger readInteger readString | package_216/class_3698.as |
-| 2571 | UnkMessageEvent_36eca7 |  | UnkMessageParser_B_0de40d | readBoolean |  |
-| 2579 | class_2827 | 790 | class_2681 | readString readString | package_64/class_2827.as |
-| 2582 | class_2824 | 3984 | class_3916 | readString readBoolean | package_164/class_2824.as |
-| 2595 | UnkMessageEvent_f13c15 |  | UnkMessageParser_H_b5b4c5 | readShort |  |
-| 2613 | class_3726 | 3181 | class_3972 | - | package_49/class_3726.as |
-| 2629 | class_2898 | 1333 | class_2814 | readInteger readInteger readString readInteger | package_64/class_2898.as |
-| 2643 | class_2991 | 3983 | class_4014 | readString readInteger readString | package_5/class_2991.as |
+| 2565 | class_3153 | 3480 | class_3426 | int [ int string ] | package_64/class_3153.as |
+| 2566 | class_3615 | 196 | class_2422 | int | package_54/class_3615.as |
+| 2570 | class_3698 | 330 | class_3798 | int int string | package_216/class_3698.as |
+| 2571 | UnkMessageEvent_36eca7 |  | UnkMessageParser_B_0de40d | bool class_3017{ int string string string string } |  |
+| 2579 | class_2827 | 790 | class_2681 | string string | package_64/class_2827.as |
+| 2582 | class_2824 | 3984 | class_3916 | string bool | package_164/class_2824.as |
+| 2595 | UnkMessageEvent_f13c15 |  | UnkMessageParser_H_b5b4c5 | short |  |
+| 2613 | class_3726 | 3181 | class_3972 | class_4354{ bool int int int int int int string int int [ int ] } | package_49/class_3726.as |
+| 2629 | class_2898 | 1333 | class_2814 | int [ int string ] int | package_64/class_2898.as |
+| 2643 | class_2991 | 3983 | class_4014 | string int string | package_5/class_2991.as |
 | 2658 | UnkMessageEvent_fd7c36 |  | UnkMessageParser_empty_226663 | - |  |
-| 2663 | UnkMessageEvent_24ff5c |  | UnkMessageParser_empty_ae823c | - |  |
-| 2667 | UnkMessageEvent_7a9ed4 |  | UnkMessageParser_IIII_577cbb | readInteger readInteger readInteger readInteger |  |
+| 2663 | UnkMessageEvent_24ff5c |  | UnkMessageParser_empty_ae823c | UnkClass_353035{ int [ UnkClass_fcb46a{ int string string } ] int [ UnkClass_fcb46a{ int string string } ] int [ UnkClass_6529ec{ int string } ] int [ UnkClass_6529ec{ int string } ] int [ UnkClass_6529ec{ int string } ] } |  |
+| 2667 | UnkMessageEvent_7a9ed4 |  | UnkMessageParser_IIII_577cbb | int int int [ UnkClass_e671c5{ int string bool int int int int bool int int bool bool string } ] int [ class_3518{ int bool int bool } ] |  |
 | 2670 | UnkMessageEvent_8e18b6 |  | UnkMessageParser_empty_a8525a | - |  |
-| 2671 | class_2997 | 734 | class_4062 | readInteger readBoolean | package_178/class_2997.as |
-| 2674 | class_3738 | 2318 | UnkMessageParser_IIBB_ba2277 | readInteger readInteger readBoolean readBoolean | package_64/class_3738.as |
-| 2676 | class_3577 | 2553 | class_3276 | readBoolean | package_44/class_3577.as |
-| 2683 | UnkMessageEvent_7a147e |  | UnkMessageParser_I_9bad5f | readInteger |  |
-| 2684 | Game2WeeklyGroupLeaderboardEvent | 2869 | Game2WeeklyGroupLeaderboardParser | readInteger readInteger readInteger readInteger readInteger readInteger | package_107/Game2WeeklyGroupLeaderboardEvent.as |
-| 2692 | class_3167 | 3684 | class_3287 | readShort | package_65/class_3167.as |
-| 2697 | class_3098 | 2566 | class_2666 | readInteger | package_64/class_3098.as |
-| 2700 | UnkMessageEvent_7e9943 |  | UnkMessageParser_II_5c8b90 | readInteger readInteger |  |
-| 2712 | UnkMessageEvent_225953 |  | UnkMessageParser_I_a9eaf3 | readInteger |  |
-| 2725 | UnkMessageEvent_931f33 |  | UnkMessageParser_SI_41cb7b | readString readInteger |  |
-| 2727 | UnkMessageEvent_7be017 |  | UnkMessageParser_B_2c617e | readBoolean |  |
-| 2766 | UnkMessageEvent_df59df |  | UnkMessageParser_II_4e4f19 | readInteger readInteger |  |
-| 2779 | class_2785 | 222 | class_3576 | readInteger readString | package_64/class_2785.as |
-| 2797 | class_2671 | 3844 | class_2614 | readInteger readInteger readString readInteger | package_151/class_2671.as |
-| 2809 | UnkMessageEvent_9faf68 |  | UnkMessageParser_empty_a66d73 | - |  |
-| 2813 | class_3254 | 1649 | class_3928 | readString readInteger readInteger | package_133/class_3254.as |
-| 2814 | UnkMessageEvent_8ca825 |  | UnkMessageParser_SS_b0d0b8 | readString readString |  |
-| 2818 | class_3040 | 2593 | class_3650 | readInteger readString readInteger | package_100/class_3040.as |
-| 2821 | UnkMessageEvent_8cbe0f |  | UnkMessageParser_II_29d15e | readInteger readInteger |  |
-| 2837 | class_3455 | 3562 | class_4031 | readInteger readInteger readString readString readString readString | package_100/class_3455.as |
-| 2840 | class_3311 | 499 | class_3743 | readInteger readInteger readInteger readInteger readInteger readInteger readBoolean | package_9/class_3311.as |
-| 2851 | class_3516 | 564 | UnkMessageParser_I_b77fa6 | readInteger | package_155/class_3516.as |
-| 2854 | UnkMessageEvent_b3840d |  | UnkMessageParser_B_72b18e | readBoolean |  |
-| 2870 | UnkMessageEvent_4aae56 |  | UnkMessageParser_empty_06b2b3 | - |  |
-| 2873 | class_3670 | 2738 | UnkMessageParser_empty_ebbf99 | - | package_64/class_3670.as |
-| 2880 | class_2146 | 642 | class_1877 | readInteger readString readInteger readString | package_19/class_2146.as |
+| 2671 | class_2997 | 734 | class_4062 | int bool | package_178/class_2997.as |
+| 2674 | class_3738 | 2318 | UnkMessageParser_IIBB_ba2277 | int int class_3800{ int int string int int [ int int int ] } bool bool | package_64/class_3738.as |
+| 2676 | class_3577 | 2553 | class_3276 | bool | package_44/class_3577.as |
+| 2683 | UnkMessageEvent_7a147e |  | UnkMessageParser_I_9bad5f | int |  |
+| 2684 | Game2WeeklyGroupLeaderboardEvent | 2869 | Game2WeeklyGroupLeaderboardParser | int int int int int int | package_107/Game2WeeklyGroupLeaderboardEvent.as |
+| 2692 | class_3167 | 3684 | class_3287 | short | package_65/class_3167.as |
+| 2697 | class_3098 | 2566 | class_2666 | int | package_64/class_3098.as |
+| 2700 | UnkMessageEvent_7e9943 |  | UnkMessageParser_II_5c8b90 | int int [ UnkClass_30c4d3{ int string string } ] |  |
+| 2712 | UnkMessageEvent_225953 |  | UnkMessageParser_I_a9eaf3 | int |  |
+| 2725 | UnkMessageEvent_931f33 |  | UnkMessageParser_SI_41cb7b | string int |  |
+| 2727 | UnkMessageEvent_7be017 |  | UnkMessageParser_B_2c617e | class_3017{ int string string string string } bool |  |
+| 2766 | UnkMessageEvent_df59df |  | UnkMessageParser_II_4e4f19 | int int |  |
+| 2779 | class_2785 | 222 | class_3576 | ?{ int string } | package_64/class_2785.as |
+| 2797 | class_2671 | 3844 | class_2614 | int int [ string int ] | package_151/class_2671.as |
+| 2809 | UnkMessageEvent_9faf68 |  | UnkMessageParser_empty_a66d73 | UnkClass_2ddca0{ int string int [ UnkClass_93a0b7{ int string int int } ] } |  |
+| 2813 | class_3254 | 1649 | class_3928 | string int int | package_133/class_3254.as |
+| 2814 | UnkMessageEvent_8ca825 |  | UnkMessageParser_SS_b0d0b8 | string string |  |
+| 2818 | class_3040 | 2593 | class_3650 | int string int | package_100/class_3040.as |
+| 2821 | UnkMessageEvent_8cbe0f |  | UnkMessageParser_II_29d15e | int int |  |
+| 2837 | class_3455 | 3562 | class_4031 | int int [ string string string ] string | package_100/class_3455.as |
+| 2840 | class_3311 | 499 | class_3743 | int int int int int int [ class_3095{ int string string int int } ] bool ?{ class_3095{ int string string int int } } | package_9/class_3311.as |
+| 2851 | class_3516 | 564 | UnkMessageParser_I_b77fa6 | int | package_155/class_3516.as |
+| 2854 | UnkMessageEvent_b3840d |  | UnkMessageParser_B_72b18e | class_2503{ int string class_3800{ int int string int int [ int int int ] } int int } bool |  |
+| 2870 | UnkMessageEvent_4aae56 |  | UnkMessageParser_empty_06b2b3 | class_2044{ int int [ int string bool ] int [ class_2482{ int int int } ] } |  |
+| 2873 | class_3670 | 2738 | UnkMessageParser_empty_ebbf99 | class_3168{ int int int string int int int int int string string bool int int } | package_64/class_3670.as |
+| 2880 | class_2146 | 642 | class_1877 | int string int [ string ] | package_19/class_2146.as |
 | 2881 | UnkMessageEvent_4b9b0a |  | UnkMessageParser_empty_87a6fb | - |  |
-| 2889 | class_2974 | 1509 | class_3812 | readString readInteger readInteger readBoolean | package_186/class_2974.as |
+| 2889 | class_2974 | 1509 | class_3812 | string int int bool | package_186/class_2974.as |
 | 2890 | UnkMessageEvent_ca12af |  | UnkMessageParser_empty_d96687 | - |  |
 | 2898 | UnkMessageEvent_128551 |  |  |  |  |
-| 2899 | UnkMessageEvent_3ad34e |  | UnkMessageParser_B_5866d8 | readBoolean |  |
-| 2901 | UnkMessageEvent_296493 |  | UnkMessageParser_I_a3a5fe | readInteger |  |
-| 2902 | class_2540 | 2576 | class_2848 | readInteger readString readString | package_64/class_2540.as |
-| 2909 | class_2927 | 2393 | class_3896 | readBoolean readInteger readInteger | package_49/class_2927.as |
-| 2911 | class_2187 | 1107 | class_3829 | readInteger readInteger readInteger readInteger | package_38/class_2187.as |
-| 2912 | class_3794 | 1836 | class_4029 | readInteger | package_42/class_3794.as |
-| 2935 | UnkMessageEvent_Game2LeaderboardParser |  | Game2LeaderboardParser | readInteger readInteger readInteger |  |
-| 2951 | class_2547 | 1879 | class_2425 | readString | package_64/class_2547.as |
-| 2955 | UnkMessageEvent_d00f03 |  | UnkMessageParser_BII_8838ea | readBoolean readInteger readInteger |  |
-| 2963 | UnkMessageEvent_741270 |  | UnkMessageParser_S_c9f2dd | readString |  |
-| 2967 | UnkMessageEvent_f94150 |  | UnkMessageParser_I_6b4cbd | readInteger |  |
-| 2972 | UnkMessageEvent_1b96fa |  | UnkMessageParser_III_cac81d | readInteger readInteger readInteger |  |
-| 2980 | class_3000 | 3699 | class_2760 | readInteger readString | package_32/class_3000.as |
-| 2984 | class_3556 | 3242 | class_4200 | readInteger readInteger readInteger readInteger | package_32/class_3556.as |
-| 2992 | class_2945 | 3762 | class_4080 | readInteger | package_77/class_2945.as |
+| 2899 | UnkMessageEvent_3ad34e |  | UnkMessageParser_B_5866d8 | bool class_2503{ int string class_3800{ int int string int int [ int int int ] } int int } |  |
+| 2901 | UnkMessageEvent_296493 |  | UnkMessageParser_I_a3a5fe | int UnkClass_ec27db{ int string } |  |
+| 2902 | class_2540 | 2576 | class_2848 | int [ string string ] | package_64/class_2540.as |
+| 2909 | class_2927 | 2393 | class_3896 | bool ?{ int int } | package_49/class_2927.as |
+| 2911 | class_2187 | 1107 | class_3829 | int int int int | package_38/class_2187.as |
+| 2912 | class_3794 | 1836 | class_4029 | int | package_42/class_3794.as |
+| 2935 | UnkMessageEvent_Game2LeaderboardParser |  | Game2LeaderboardParser | int [ class_4169{ int int int string string string } ] int int |  |
+| 2951 | class_2547 | 1879 | class_2425 | ?{ string } | package_64/class_2547.as |
+| 2955 | UnkMessageEvent_d00f03 |  | UnkMessageParser_BII_8838ea | bool int ?{ int } |  |
+| 2963 | UnkMessageEvent_741270 |  | UnkMessageParser_S_c9f2dd | string |  |
+| 2967 | UnkMessageEvent_f94150 |  | UnkMessageParser_I_6b4cbd | int |  |
+| 2972 | UnkMessageEvent_1b96fa |  | UnkMessageParser_III_cac81d | int int int |  |
+| 2980 | class_3000 | 3699 | class_2760 | int string | package_32/class_3000.as |
+| 2984 | class_3556 | 3242 | class_4200 | int int int [ int ] | package_32/class_3556.as |
+| 2992 | class_2945 | 3762 | class_4080 | int | package_77/class_2945.as |
 | 2998 | UnkMessageEvent_70e8bc |  |  |  |  |
-| 3008 | SelfDonationResultMessageEvent | 2685 | class_3566 | readInteger | package_111/SelfDonationResultMessageEvent.as |
-| 3016 | class_2599 | 1570 | class_2864 | readInteger readInteger readInteger | package_92/class_2599.as |
-| 3023 | class_3029 | 1325 | class_2417 | readInteger | package_110/class_3029.as |
-| 3034 | UnkMessageEvent_348055 |  | UnkMessageParser_BS_636000 | readBoolean readString |  |
-| 3035 | class_3365 | 2422 | class_3192 | readInteger | package_90/class_3365.as |
-| 3051 | class_3213 | 3950 | class_3288 | readInteger readInteger | package_44/class_3213.as |
-| 3053 | class_3175 | 128 | class_3158 | readInteger | package_90/class_3175.as |
-| 3057 | class_1789 | 2103 | class_1756 | readBoolean | package_21/class_1789.as |
-| 3059 | UnkMessageEvent_fa0c37 |  | UnkMessageParser_B_28fc31 | readBoolean |  |
-| 3060 | UnkMessageEvent_69841c |  | UnkMessageParser_BIIIIIIIII__527c67 | readBoolean readInteger readInteger readInteger readInteger readInteger readInteger readInteger readInteger readInteger readInteger |  |
-| 3070 | class_3319 | 2100 | class_3413 | readString | package_64/class_3319.as |
-| 3073 | UnkMessageEvent_class_3671 |  | class_3671 | readString readBoolean readInteger readInteger |  |
+| 3008 | SelfDonationResultMessageEvent | 2685 | class_3566 | int | package_111/SelfDonationResultMessageEvent.as |
+| 3016 | class_2599 | 1570 | class_2864 | int [ int int ] | package_92/class_2599.as |
+| 3023 | class_3029 | 1325 | class_2417 | int | package_110/class_3029.as |
+| 3034 | UnkMessageEvent_348055 |  | UnkMessageParser_BS_636000 | bool ?{ string } |  |
+| 3035 | class_3365 | 2422 | class_3192 | int | package_90/class_3365.as |
+| 3051 | class_3213 | 3950 | class_3288 | ?{ int int } | package_44/class_3213.as |
+| 3053 | class_3175 | 128 | class_3158 | int | package_90/class_3175.as |
+| 3057 | class_1789 | 2103 | class_1756 | bool | package_21/class_1789.as |
+| 3059 | UnkMessageEvent_fa0c37 |  | UnkMessageParser_B_28fc31 | bool |  |
+| 3060 | UnkMessageEvent_69841c |  | UnkMessageParser_BIIIIIIIII__527c67 | bool int int int int int int int int int int |  |
+| 3070 | class_3319 | 2100 | class_3413 | ?{ class_4263{ string int string string int int int } string } | package_64/class_3319.as |
+| 3073 | UnkMessageEvent_class_3671 |  | class_3671 | ?{ string bool int int } |  |
 | 3078 | class_2539 | 163 | class_3881 | - | package_9/class_2539.as |
-| 3083 | class_3527 | 1041 | class_2649 | readInteger readInteger readInteger readInteger | package_155/class_3527.as |
-| 3089 | class_2727 | 57 | class_2620 | readInteger | package_44/class_2727.as |
-| 3092 | class_2276 | 711 | class_1898 | readString readString | package_9/class_2276.as |
-| 3104 | UnkMessageEvent_Game2WeeklyLeaderboardParser |  | Game2WeeklyLeaderboardParser | readInteger readInteger readInteger readInteger readInteger |  |
-| 3105 | UnkMessageEvent_d99543 |  | UnkMessageParser_II_22161f | readInteger readInteger |  |
-| 3111 | class_2464 | 1773 | class_3055 | readInteger readInteger readString readString | package_117/class_2464.as |
-| 3116 | UnkMessageEvent_eb5a37 |  | UnkMessageParser_ISBI_90029f | readInteger readString readBoolean readInteger |  |
-| 3148 | class_3049 | 114 | class_2557 | - | package_191/class_3049.as |
-| 3149 | class_2248 | 2476 | class_2023 | readInteger readInteger readInteger readInteger | package_20/class_2248.as |
-| 3150 | class_2408 | 555 | class_3084 | readInteger readInteger readInteger | package_64/class_2408.as |
-| 3153 | class_2446 | 2662 | class_4196 | readString readBoolean | package_1/class_2446.as |
+| 3083 | class_3527 | 1041 | class_2649 | int int int int | package_155/class_3527.as |
+| 3089 | class_2727 | 57 | class_2620 | int | package_44/class_2727.as |
+| 3092 | class_2276 | 711 | class_1898 | string string | package_9/class_2276.as |
+| 3104 | UnkMessageEvent_Game2WeeklyLeaderboardParser |  | Game2WeeklyLeaderboardParser | int int int int int |  |
+| 3105 | UnkMessageEvent_d99543 |  | UnkMessageParser_II_22161f | int int |  |
+| 3111 | class_2464 | 1773 | class_3055 | int [ int string string ] | package_117/class_2464.as |
+| 3116 | UnkMessageEvent_eb5a37 |  | UnkMessageParser_ISBI_90029f | int [ string int int string bool int string int int ] |  |
+| 3148 | class_3049 | 114 | class_2557 | WiredTransactionDetails{ WiredTransactionInfo{ long int int string int string long string int int int int int } int [ int ] int [ int ] int [ int ] bool } | package_191/class_3049.as |
+| 3149 | class_2248 | 2476 | class_2023 | int int int int [ class_2832{ int string } ] | package_20/class_2248.as |
+| 3150 | class_2408 | 555 | class_3084 | int [ int ] int | package_64/class_2408.as |
+| 3153 | class_2446 | 2662 | class_4196 | string ?{ bool } | package_1/class_2446.as |
 | 3157 | class_3826 | 1736 | class_3930 | - | package_42/class_3826.as |
-| 3175 | UnkMessageEvent_f8dc94 |  | UnkMessageParser_II_2f0193 | readInteger readInteger |  |
-| 3184 | UnkMessageEvent_d91476 |  | UnkMessageParser_II_9cd5c9 | readInteger readInteger |  |
+| 3175 | UnkMessageEvent_f8dc94 |  | UnkMessageParser_II_2f0193 | int int |  |
+| 3184 | UnkMessageEvent_d91476 |  | UnkMessageParser_II_9cd5c9 | int int [ class_2024{ int string string } ] |  |
 | 3194 | UnkMessageEvent_46c620 |  |  |  |  |
-| 3202 | class_3398 | 679 | class_4244 | readInteger | package_143/class_3398.as |
-| 3207 | NftEmeraldConvertResultMessageEvent | 743 | class_3388 | readInteger readShort | package_205/NftEmeraldConvertResultMessageEvent.as |
-| 3209 | class_3407 | 3492 | class_4077 | readInteger readInteger readInteger readInteger | package_85/class_3407.as |
-| 3210 | UnkMessageEvent_f4b027 |  | UnkMessageParser_I_46fc96 | readInteger |  |
+| 3202 | class_3398 | 679 | class_4244 | int | package_143/class_3398.as |
+| 3207 | NftEmeraldConvertResultMessageEvent | 743 | class_3388 | int short | package_205/NftEmeraldConvertResultMessageEvent.as |
+| 3209 | class_3407 | 3492 | class_4077 | int int [ int int ] | package_85/class_3407.as |
+| 3210 | UnkMessageEvent_f4b027 |  | UnkMessageParser_I_46fc96 | int [ UnkClass_29cd44{ int string int int int } ] |  |
 | 3218 | class_1958 | 325 | class_3397 | - | package_20/class_1958.as |
 | 3255 | UnkMessageEvent_a71dbc |  |  |  |  |
-| 3257 | class_2243 | 362 | class_2074 | readBoolean readBoolean readInteger | package_5/class_2243.as |
-| 3289 | class_2577 | 1921 | class_3565 | readBoolean readString readBoolean readInteger readInteger readInteger | package_100/class_2577.as |
-| 3292 | UnkMessageEvent_8a993f |  | UnkMessageParser_IIS_67a76d | readInteger readInteger readString |  |
-| 3308 | class_2478 | 14 | class_3409 | readInteger readInteger | package_38/class_2478.as |
-| 3319 | class_2688 | 2388 | class_2961 | readBoolean | package_92/class_2688.as |
-| 3332 | class_2894 | 2667 | class_4053 | readInteger readInteger readInteger readString | package_5/class_2894.as |
-| 3344 | class_3304 | 3909 | class_3205 | - | package_191/class_3304.as |
-| 3349 | class_3742 | 2420 | class_4293 | readInteger readInteger readBoolean | package_110/class_3742.as |
-| 3364 | UnkMessageEvent_632e58 |  | UnkMessageParser_II_a98fa1 | readInteger readInteger |  |
-| 3371 | class_3164 | 3146 | class_4116 | readInteger readInteger readInteger readString | package_198/class_3164.as |
-| 3374 | class_3652 | 2431 | class_2528 | readShort readInteger | package_65/class_3652.as |
+| 3257 | class_2243 | 362 | class_2074 | bool bool ?{ int } | package_5/class_2243.as |
+| 3289 | class_2577 | 1921 | class_3565 | bool string bool int int int | package_100/class_2577.as |
+| 3292 | UnkMessageEvent_8a993f |  | UnkMessageParser_IIS_67a76d | int [ int string ] |  |
+| 3308 | class_2478 | 14 | class_3409 | int int | package_38/class_2478.as |
+| 3319 | class_2688 | 2388 | class_2961 | bool | package_92/class_2688.as |
+| 3332 | class_2894 | 2667 | class_4053 | int int int string | package_5/class_2894.as |
+| 3344 | class_3304 | 3909 | class_3205 | class_3240{ int long int int int int [ WiredTransactionInfo{ long int int string int string long string int int int int int } ] } | package_191/class_3304.as |
+| 3349 | class_3742 | 2420 | class_4293 | int int bool | package_110/class_3742.as |
+| 3364 | UnkMessageEvent_632e58 |  | UnkMessageParser_II_a98fa1 | int int |  |
+| 3371 | class_3164 | 3146 | class_4116 | int [ int ] int [ string ] | package_198/class_3164.as |
+| 3374 | class_3652 | 2431 | class_2528 | short int class_2508{ short string int string int [ int ] string string } | package_65/class_3652.as |
 | 3376 | UnkMessageEvent_e0ed71 |  |  |  |  |
-| 3378 | class_2035 | 3886 | class_2371 | readInteger readBoolean | package_38/class_2035.as |
-| 3379 | class_2518 | 2599 | class_4292 | readInteger readInteger readString | package_114/class_2518.as |
-| 3383 | UnkMessageEvent_c13e93 |  | UnkMessageParser_S_036bbf | readString |  |
-| 3386 | class_3628 | 1363 | class_2685 | readBoolean readBoolean | package_118/class_3628.as |
-| 3399 | UnkMessageEvent_477c5e |  | UnkMessageParser_I_246c5b | readInteger |  |
-| 3402 | class_3469 | 416 | class_3919 | readString readInteger | package_99/class_3469.as |
-| 3404 | UnkMessageEvent_2e47b0 |  | UnkMessageParser_B_19fbbf | readBoolean |  |
-| 3420 | class_2684 | 643 | class_3141 | readString readInteger readInteger readInteger readInteger readInteger readInteger readString readInteger readInteger readString readString | package_151/class_2684.as |
-| 3425 | UnkMessageEvent_19340c |  | UnkMessageParser_I_10eb75 | readInteger |  |
+| 3378 | class_2035 | 3886 | class_2371 | int bool | package_38/class_2035.as |
+| 3379 | class_2518 | 2599 | class_4292 | int int string | package_114/class_2518.as |
+| 3383 | UnkMessageEvent_c13e93 |  | UnkMessageParser_S_036bbf | string |  |
+| 3386 | class_3628 | 1363 | class_2685 | bool bool | package_118/class_3628.as |
+| 3399 | UnkMessageEvent_477c5e |  | UnkMessageParser_I_246c5b | int [ SavedSearch{ int string string string } ] |  |
+| 3402 | class_3469 | 416 | class_3919 | string int | package_99/class_3469.as |
+| 3404 | UnkMessageEvent_2e47b0 |  | UnkMessageParser_B_19fbbf | bool |  |
+| 3420 | class_2684 | 643 | class_3141 | string int int int int int int string ?{ int int [ string string ] } | package_151/class_2684.as |
+| 3425 | UnkMessageEvent_19340c |  | UnkMessageParser_I_10eb75 | int |  |
 | 3432 | UnkMessageEvent_77aa81 |  |  |  |  |
-| 3433 | UnkMessageEvent_447a8f |  | UnkMessageParser_I_29fa57 | readInteger |  |
-| 3435 | UnkMessageEvent_f1f31f |  | UnkMessageParser_II_ddc3a4 | readInteger readInteger |  |
-| 3441 | class_3248 | 3381 | class_2558 | readString readString readInteger | package_150/class_3248.as |
+| 3433 | UnkMessageEvent_447a8f |  | UnkMessageParser_I_29fa57 | int |  |
+| 3435 | UnkMessageEvent_f1f31f |  | UnkMessageParser_II_ddc3a4 | int int |  |
+| 3441 | class_3248 | 3381 | class_2558 | string string int | package_150/class_3248.as |
 | 3465 | class_3853 | 3997 | class_3925 | - | package_74/class_3853.as |
-| 3477 | class_3616 | 2292 | class_4009 | readInteger readInteger readString readString | package_85/class_3616.as |
-| 3480 | class_1783 | 3673 | class_2919 | readString readString | package_19/class_1783.as |
-| 3490 | class_3691 | 2031 | class_4174 | readInteger readString | package_100/class_3691.as |
-| 3491 | class_3697 | 1449 | class_3870 | readBoolean readInteger | package_99/class_3697.as |
-| 3492 | class_3653 | 3602 | ModifyCustomFilterResultMessageEventParser | readInteger readString | package_209/class_3653.as |
-| 3494 | UnkMessageEvent_e8c30e |  | UnkMessageParser_IIS_982dda | readInteger readInteger readString |  |
-| 3495 | UnkMessageEvent_cdd01d |  | UnkMessageParser_I_71abed | readInteger |  |
-| 3504 | UnkMessageEvent_b019fd |  | UnkMessageParser_IIII_7720fd | readInteger readInteger readInteger readInteger |  |
-| 3511 | UnkMessageEvent_0fd38c |  | UnkMessageParser_empty_24e747 | - |  |
-| 3515 | class_3835 | 931 | class_4055 | readString readInteger | package_74/class_3835.as |
-| 3516 | class_3542 | 1772 | class_3343 | readInteger readInteger readInteger | package_49/class_3542.as |
-| 3529 | class_2000 | 639 | class_2145 | readInteger readInteger | package_51/class_2000.as |
+| 3477 | class_3616 | 2292 | class_4009 | int int string string | package_85/class_3616.as |
+| 3480 | class_1783 | 3673 | class_2919 | string string | package_19/class_1783.as |
+| 3490 | class_3691 | 2031 | class_4174 | ?{ int string } | package_100/class_3691.as |
+| 3491 | class_3697 | 1449 | class_3870 | bool int | package_99/class_3697.as |
+| 3492 | class_3653 | 3602 | ModifyCustomFilterResultMessageEventParser | int string | package_209/class_3653.as |
+| 3494 | UnkMessageEvent_e8c30e |  | UnkMessageParser_IIS_982dda | int [ class_3380{ string string string } ] int [ string ] |  |
+| 3495 | UnkMessageEvent_cdd01d |  | UnkMessageParser_I_71abed | int [ UnkClass_4e740e{ string int bool bool int int class_2508{ short string int string int [ int ] string string } } ] |  |
+| 3504 | UnkMessageEvent_b019fd |  | UnkMessageParser_IIII_7720fd | int [ class_2832{ int string } ] int [ int ?{ int \| ?{ DummyFriend{ int string int bool bool string int string string string bool bool bool short } \| ?{ DummyFriend{ int string int bool bool string int string string string bool bool bool short } } } } ] |  |
+| 3511 | UnkMessageEvent_0fd38c |  | UnkMessageParser_empty_24e747 | GameStatusData{ int int int [ int [ int ] ] } |  |
+| 3515 | class_3835 | 931 | class_4055 | string int | package_74/class_3835.as |
+| 3516 | class_3542 | 1772 | class_3343 | int int int | package_49/class_3542.as |
+| 3529 | class_2000 | 639 | class_2145 | int int | package_51/class_2000.as |
 | 3540 | UnkMessageEvent_84af07 |  | UnkMessageParser_empty_bcbf08 | - |  |
 | 3544 | UnkMessageEvent_96d243 |  | UnkMessageParser_empty_bb9016 | - |  |
-| 3560 | UnkMessageEvent_563d85 |  | UnkMessageParser_I_364e8a | readInteger |  |
-| 3572 | class_2805 | 583 | class_3364 | readInteger readInteger readInteger | package_86/class_2805.as |
-| 3575 | UnkMessageEvent_7f480a |  | UnkMessageParser_I_8dc8b9 | readInteger |  |
-| 3578 | UnkMessageEvent_d63a1a |  | UnkMessageParser_I_115e08 | readInteger |  |
-| 3581 | class_3637 | 1296 | class_3332 | readByte readBoolean | package_211/class_3637.as |
-| 3583 | UnkMessageEvent_784d51 |  | UnkMessageParser_BI_ac35d5 | readBoolean readInteger |  |
+| 3560 | UnkMessageEvent_563d85 |  | UnkMessageParser_I_364e8a | int |  |
+| 3572 | class_2805 | 583 | class_3364 | int class_4010{ int string int string string } class_4010{ int string int string string } int [ class_3926{ int int [ int ] } ] int | package_86/class_2805.as |
+| 3575 | UnkMessageEvent_7f480a |  | UnkMessageParser_I_8dc8b9 | int |  |
+| 3578 | UnkMessageEvent_d63a1a |  | UnkMessageParser_I_115e08 | int |  |
+| 3581 | class_3637 | 1296 | class_3332 | byte bool | package_211/class_3637.as |
+| 3583 | UnkMessageEvent_784d51 |  | UnkMessageParser_BI_ac35d5 | bool int |  |
 | 3586 | class_2802 | 2555 | class_3894 | - | package_155/class_2802.as |
-| 3592 | UnkMessageEvent_class_2944 |  | class_2944 | readInteger readInteger readInteger |  |
-| 3601 | class_3595 | 3310 | UnkMessageParser_II_acf370 | readInteger readInteger | package_42/class_3595.as |
-| 3605 | class_2590 | 1731 | class_3753 | readInteger | package_141/class_2590.as |
-| 3606 | class_3106 | 1532 | class_2664 | readInteger | package_44/class_3106.as |
-| 3611 | UnkMessageEvent_f3384a |  | UnkMessageParser_IS_62ab49 | readInteger readString |  |
-| 3612 | UnkMessageEvent_37d86d |  | UnkMessageParser_IB_ef5d8c | readInteger readBoolean |  |
-| 3616 | UnkMessageEvent_class_2562 |  | class_2562 | readInteger readString readString readString readInteger readString readInteger readInteger readInteger readInteger readInteger |  |
-| 3631 | UnkMessageEvent_54a032 |  | UnkMessageParser_empty_651f4f | - |  |
-| 3636 | UnkMessageEvent_f762d2 |  | UnkMessageParser_I_e6ae00 | readInteger |  |
-| 3637 | UnkMessageEvent_7cbd2a |  | UnkMessageParser_S_a296ac | readString |  |
-| 3638 | UnkMessageEvent_56094b |  | UnkMessageParser_I_385ac0 | readInteger |  |
-| 3651 | class_3525 | 2482 | class_3960 | readInteger | package_32/class_3525.as |
-| 3655 | class_3155 | 3448 | class_1866 | readInteger readInteger readInteger readInteger readBoolean readInteger | package_33/class_3155.as |
-| 3670 | class_3465 | 3956 | class_3886 | readBoolean readString | package_180/class_3465.as |
-| 3683 | UnkMessageEvent_e56360 |  | UnkMessageParser_IS_12e422 | readInteger readString |  |
-| 3686 | Game2TotalGroupLeaderboardEvent | 2150 | Game2GroupLeaderboardParser | readInteger readInteger readInteger readInteger | package_107/Game2TotalGroupLeaderboardEvent.as |
-| 3691 | UnkMessageEvent_60fd17 |  | UnkMessageParser_I_481bcf | readInteger |  |
+| 3592 | UnkMessageEvent_class_2944 |  | class_2944 | int [ int ] int |  |
+| 3601 | class_3595 | 3310 | UnkMessageParser_II_acf370 | int int | package_42/class_3595.as |
+| 3605 | class_2590 | 1731 | class_3753 | int [ class_3241{ int int int [ class_4122{ string int [ class_4182{ string string } ] } ] } ] | package_141/class_2590.as |
+| 3606 | class_3106 | 1532 | class_2664 | int | package_44/class_3106.as |
+| 3611 | UnkMessageEvent_f3384a |  | UnkMessageParser_IS_62ab49 | int string |  |
+| 3612 | UnkMessageEvent_37d86d |  | UnkMessageParser_IB_ef5d8c | int bool |  |
+| 3616 | UnkMessageEvent_class_2562 |  | class_2562 | int string string string int string int [ int int int ] int |  |
+| 3631 | UnkMessageEvent_54a032 |  | UnkMessageParser_empty_651f4f | WiredUserPermanentVariablesList{ int int string string ?{ int string string } int [ WiredVariableStorageParameter{ ?{ string } int long string long string } ] } |  |
+| 3636 | UnkMessageEvent_f762d2 |  | UnkMessageParser_I_e6ae00 | int |  |
+| 3637 | UnkMessageEvent_7cbd2a |  | UnkMessageParser_S_a296ac | ?{ string } |  |
+| 3638 | UnkMessageEvent_56094b |  | UnkMessageParser_I_385ac0 | int |  |
+| 3651 | class_3525 | 2482 | class_3960 | int | package_32/class_3525.as |
+| 3655 | class_3155 | 3448 | class_1866 | int int int int bool int | package_33/class_3155.as |
+| 3670 | class_3465 | 3956 | class_3886 | bool string | package_180/class_3465.as |
+| 3683 | UnkMessageEvent_e56360 |  | UnkMessageParser_IS_12e422 | int [ string ] |  |
+| 3686 | Game2TotalGroupLeaderboardEvent | 2150 | Game2GroupLeaderboardParser | int [ class_4169{ int int int string string string } ] int int int | package_107/Game2TotalGroupLeaderboardEvent.as |
+| 3691 | UnkMessageEvent_60fd17 |  | UnkMessageParser_I_481bcf | int |  |
 | 3706 | class_2980 | 952 | class_3965 | - | package_57/class_2980.as |
-| 3720 | UnkMessageEvent_977235 |  | UnkMessageParser_H_9b5800 | readShort |  |
-| 3726 | UnkMessageEvent_Game2WeeklyLeaderboardParser__ |  | Game2WeeklyLeaderboardParser | readInteger readInteger readInteger readInteger readInteger |  |
-| 3738 | class_2882 | 3564 | class_3716 | readInteger readInteger readString | package_2/class_2882.as |
-| 3742 | class_2086 | 1392 | class_3302 | readInteger readInteger readInteger readInteger | package_64/class_2086.as |
-| 3745 | class_2940 | 922 | class_2740 | readInteger readString readString readInteger readString readString | package_32/class_2940.as |
-| 3762 | class_3530 | 1817 | class_3877 | readInteger readInteger | package_86/class_3530.as |
-| 3773 | UnkMessageEvent_fdba1a |  | UnkMessageParser_SS_7a1181 | readString readString |  |
-| 3777 | class_2461 | 699 | class_3389 | readInteger readBoolean | package_64/class_2461.as |
-| 3780 | UnkMessageEvent_920848 |  | UnkMessageParser_empty_066c3d | - |  |
-| 3781 | class_2735 | 186 | class_4093 | readInteger readInteger | package_64/class_2735.as |
-| 3786 | class_3454 | 563 | class_3132 | readInteger readInteger readString readInteger readInteger readInteger | package_49/class_3454.as |
-| 3796 | class_2925 | 1868 | class_3496 | readInteger readInteger readInteger readInteger | package_50/class_2925.as |
+| 3720 | UnkMessageEvent_977235 |  | UnkMessageParser_H_9b5800 | short |  |
+| 3726 | UnkMessageEvent_Game2WeeklyLeaderboardParser__ |  | Game2WeeklyLeaderboardParser | int int int int int |  |
+| 3738 | class_2882 | 3564 | class_3716 | int int string | package_2/class_2882.as |
+| 3742 | class_2086 | 1392 | class_3302 | int int int ?{ int } | package_64/class_2086.as |
+| 3745 | class_2940 | 922 | class_2740 | int string string int string string | package_32/class_2940.as |
+| 3762 | class_3530 | 1817 | class_3877 | int int | package_86/class_3530.as |
+| 3773 | UnkMessageEvent_fdba1a |  | UnkMessageParser_SS_7a1181 | string string |  |
+| 3777 | class_2461 | 699 | class_3389 | int bool | package_64/class_2461.as |
+| 3780 | UnkMessageEvent_920848 |  | UnkMessageParser_empty_066c3d | class_2277{ ?{ int int int } } |  |
+| 3781 | class_2735 | 186 | class_4093 | int int | package_64/class_2735.as |
+| 3786 | class_3454 | 563 | class_3132 | int int string int int int | package_49/class_3454.as |
+| 3796 | class_2925 | 1868 | class_3496 | int int int int | package_50/class_2925.as |
 | 3797 | UnkMessageEvent_bca29e |  | UnkMessageParser_empty_a8a144 | - |  |
-| 3804 | UnkMessageEvent_cf0d15 |  | UnkMessageParser_II_349c04 | readInteger readInteger |  |
-| 3809 | class_3534 | 1589 | class_3819 | readBoolean readInteger readString readInteger readInteger readInteger readFloat | package_64/class_3534.as |
+| 3804 | UnkMessageEvent_cf0d15 |  | UnkMessageParser_II_349c04 | int int |  |
+| 3809 | class_3534 | 1589 | class_3819 | bool int string int [ AreaHideMessageData{ int bool int int int int bool } ] int int float | package_64/class_3534.as |
 | 3825 | class_3846 | 3869 |  |  | package_64/class_3846.as |
-| 3833 | class_2999 | 3384 | class_3080 | readInteger readInteger | package_147/class_2999.as |
-| 3853 | class_2723 | 2882 | class_4146 | readInteger readInteger readString | package_9/class_2723.as |
-| 3855 | class_2485 | 514 | class_3571 | readString readInteger readString readString | package_53/class_2485.as |
-| 3864 | class_2507 | 3388 | class_2855 | readBoolean readInteger readString readBoolean readBoolean readInteger readLong readBoolean readLong readLong readInteger readString readString | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_2507.as |
-| 3865 | UnkMessageEvent_88cbf5 |  | UnkMessageParser_I_b64747 | readInteger |  |
-| 3869 | class_2792 | 1349 | class_2484 | readInteger readInteger | package_86/class_2792.as |
+| 3833 | class_2999 | 3384 | class_3080 | ?{ int int } | package_147/class_2999.as |
+| 3853 | class_2723 | 2882 | class_4146 | int [ int string ] | package_9/class_2723.as |
+| 3855 | class_2485 | 514 | class_3571 | string int string string | package_53/class_2485.as |
+| 3864 | class_2507 | 3388 | class_2855 | bool int [ string bool bool int long bool ?{ long long } int [ string string ] ] | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_2507.as |
+| 3865 | UnkMessageEvent_88cbf5 |  | UnkMessageParser_I_b64747 | int [ UnkClass_e0a85e{ string int int int long long long long string string string UnkSubclassOf_class_2508_889878{ string string } } ] |  |
+| 3869 | class_2792 | 1349 | class_2484 | int int | package_86/class_2792.as |
 | 3877 | class_3242 | 3553 | class_3943 | - | package_178/class_3242.as |
-| 3880 | class_3121 | 220 | class_2826 | readInteger readInteger | package_155/class_3121.as |
-| 3884 | UnkMessageEvent_85dfdd |  | UnkMessageParser_I_276987 | readInteger |  |
-| 3909 | UnkMessageEvent_0dcf7a |  | UnkMessageParser_I_f482a8 | readInteger |  |
-| 3913 | class_2728 | 1256 | class_4290 | readInteger readInteger | package_9/class_2728.as |
-| 3919 | class_3021 | 1292 | class_4110 | readInteger | package_100/class_3021.as |
+| 3880 | class_3121 | 220 | class_2826 | int int | package_155/class_3121.as |
+| 3884 | UnkMessageEvent_85dfdd |  | UnkMessageParser_I_276987 | int |  |
+| 3909 | UnkMessageEvent_0dcf7a |  | UnkMessageParser_I_f482a8 | int |  |
+| 3913 | class_2728 | 1256 | class_4290 | int [ int ] | package_9/class_2728.as |
+| 3919 | class_3021 | 1292 | class_4110 | int | package_100/class_3021.as |
 | 3931 | UnkMessageEvent_10ac99 |  | UnkMessageParser_empty_3b2d49 | - |  |
-| 3932 | class_2713 | 3889 | class_2524 | readInteger readInteger | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_2713.as |
-| 3939 | class_3553 | 3447 | class_3559 | readInteger readString readString readString | package_151/class_3553.as |
-| 3976 | UnkMessageEvent_850f17 |  | UnkMessageParser_S_832f16 | readString |  |
-| 3984 | class_3451 | 2378 | class_2706 | readInteger | package_52/class_3451.as |
-| 3986 | class_3202 | 1200 | class_2784 | readInteger readInteger readBoolean readInteger readInteger readBoolean readInteger readInteger readInteger readInteger readInteger readInteger readLong readLong readInteger readString readString | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_3202.as |
-| 3992 | class_3128 | 2114 | UnkMessageParser_I_2d3ddc | readInteger | package_196/class_3128.as |
+| 3932 | class_2713 | 3889 | class_2524 | int [ int ] | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_2713.as |
+| 3939 | class_3553 | 3447 | class_3559 | int string string string | package_151/class_3553.as |
+| 3976 | UnkMessageEvent_850f17 |  | UnkMessageParser_S_832f16 | string |  |
+| 3984 | class_3451 | 2378 | class_2706 | UnkClass_db4946{ int } int UnkClass_bc77fe{ int [ class_4153{ string string int } ] } | package_52/class_3451.as |
+| 3986 | class_3202 | 1200 | class_2784 | int [ int bool int int bool int int int int int int long long int [ string string ] ] | com/sulake/habbo/communication/messages/incoming/userdefinedroomevents/class_3202.as |
+| 3992 | class_3128 | 2114 | UnkMessageParser_I_2d3ddc | int | package_196/class_3128.as |
 | 3993 | UnkMessageEvent_655cc8 |  | UnkMessageParser_empty_f945d9 | - |  |
 
 ## Outgoing (client → server)

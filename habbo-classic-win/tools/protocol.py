@@ -55,19 +55,21 @@ def reads_of(c):
             return ' '.join(x for x in seq if x in READS) or '-'
     return ''
 
+STRUCT = json.load(open('work/parser_struct.json', encoding='utf-8')) if os.path.exists('work/parser_struct.json') else {}
 rows = []
 for kind in ('events', 'composers'):
     for hid, b in sorted(js_reg[kind]):
         c = by_binding.get(b)
         if c is None: continue
         src = as3_src(c)
-        row = dict(direction='incoming' if kind == 'events' else 'outgoing', header=hid, name=final(c),
+        row = dict(direction='incoming' if kind == 'events' else 'outgoing', header=hid, name=final(c), binding=b,
                    obfuscated=c['name'] or '', status='placeholder' if placeholder(c) else ('matched' if src else 'unmatched'),
                    air15_source=src, air15_header=as3_ids[kind].get(src, ''))
         if kind == 'events':
             p = by_binding.get(c['superRefs'][0]) if c.get('superRefs') else None
             row['parser'] = final(p) if p else ''
             row['parser_reads'] = reads_of(p) if p else ''
+            row['structure'] = STRUCT.get(final(p), '') if p else ''
         else:
             ct = next((m for m in c['members'] if m['name'] == 'constructor'), None)
             row['args'] = ct['np'] if ct else 0
@@ -79,9 +81,9 @@ for kind in ('events', 'composers'):
 
 os.makedirs(OUT, exist_ok=True)
 json.dump(rows, open(os.path.join(OUT, 'protocol.json'), 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
-cols = ['direction', 'header', 'name', 'obfuscated', 'status', 'air15_source', 'air15_header', 'parser', 'parser_reads', 'args', 'air15_arg_types']
+cols = ['direction', 'header', 'name', 'obfuscated', 'status', 'air15_source', 'air15_header', 'parser', 'parser_reads', 'structure', 'args', 'air15_arg_types']
 with open(os.path.join(OUT, 'protocol.csv'), 'w', newline='', encoding='utf-8') as fh:
-    w = csv.DictWriter(fh, cols); w.writeheader(); [w.writerow(r) for r in rows]
+    w = csv.DictWriter(fh, cols, extrasaction='ignore'); w.writeheader(); [w.writerow(r) for r in rows]
 
 def md_table(rs, cols, heads):
     out = ['| ' + ' | '.join(heads) + ' |', '|' + '---|' * len(heads)]
@@ -110,15 +112,19 @@ How to read the columns:
   `class_N` names are the FFDec labels of AIR 15.
 - **air15 source / air15 ID**: the AS3 class this message corresponds to, and the header
   ID it had in AIR 15. Use this pair to port an emulator from AIR 15 to this build.
-- **parser reads**: the reads the parser performs, in order, as recovered from `parse()`.
-  Reads inside nested data classes are not expanded.
+- **structure**: what the parser reads from the wire, in order, following nested data
+  classes and helper methods (built by `tools/parser_struct.mjs`):
+  `int string bool short byte float double long` are single reads, `Name{{ … }}` the reads
+  done by data class `Name`, `[ … ]` reads repeated in a loop (normally after an `int`
+  count), `?{{ … }}` reads done only under a condition (`?{{ a | b }}` for if/else), `…`
+  where recursion stops (cycle or depth limit).
 - **AIR 15 arg types**: the constructor signature of the matching AS3 composer.
 
 The same data is in `protocol.csv` and `protocol.json`.
 
 ## Incoming (server → client)
 
-{md_table(ev, ['header', 'name', 'air15_header', 'parser', 'parser_reads', 'air15_source'], ['ID', 'Event', 'AIR 15 ID', 'Parser', 'Parser reads', 'AIR 15 source'])}
+{md_table(ev, ['header', 'name', 'air15_header', 'parser', 'structure', 'air15_source'], ['ID', 'Event', 'AIR 15 ID', 'Parser', 'Structure', 'AIR 15 source'])}
 
 ## Outgoing (client → server)
 

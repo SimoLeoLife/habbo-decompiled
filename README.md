@@ -18,6 +18,8 @@ included: only the decompiled code and the decoded asset contents are.
 - [Results](#results)
 - [Naming conventions in the output](#naming-conventions-in-the-output)
 - [Network protocol table](#network-protocol-table)
+- [Area READMEs](#area-readmes)
+- [Search page](#search-page)
 - [Limitations](#limitations)
 - [Electron host notes](#electron-host-notes)
 - [Running the pipeline on a new build](#running-the-pipeline-on-a-new-build)
@@ -55,7 +57,7 @@ habbo-classic-win/
 │   ├── HabboAirLauncher.min.js      original bundle (byte-identical)
 │   ├── HabboAirLauncher.pretty.js   formatted with Prettier (380k lines)
 │   └── HabboAirLauncher.deobf.js    formatted + recovered names  ← main result
-├── 05_sorgenti_per_classe/   one file per class, placed at its AS3 package path
+├── 05_sorgenti_per_classe/   one file per class, placed at its AS3 package path; README.md index + one per area
 │   ├── com/sulake/...        classes matched to AIR 15 sources (3,366 files with package_N/)
 │   ├── package_N/...         matched classes whose AIR 15 package is an FFDec label
 │   ├── _runtime_and_libraries/  225 readable-name classes not in AS3 (Pixi.js, Flash emulation)
@@ -67,6 +69,7 @@ habbo-classic-win/
 │   ├── classes.csv           every class: hash, minified binding, final name, AIR 15 source, match method
 │   ├── members.csv           every recovered member: hash → name
 │   └── SHA256_originale.txt  hashes of all 75 original files
+├── docs/index.html           offline search page: classes, member hashes, messages
 ├── tools/                    the scripts that produced all of the above (run_all.py runs everything)
 ├── CHANGES_REPORT.md         auto-generated comparison data (new keys, URLs, coverage)
 ├── README.md                 technical notes (Italian)
@@ -79,15 +82,19 @@ The numbered folder names are in Italian: *app estratto* = extracted app,
 
 ## Where to start reading
 
-1. **`05_sorgenti_per_classe/com/sulake/habbo/...`**: browse by feature (catalog,
-   navigator, roomevents/Wired, communication...). Each file starts with a header
-   that names the line in the full bundle and the matching AIR 15 `.as` file.
-2. **`04_sorgenti_js/HabboAirLauncher.deobf.js`**: the whole client in one file.
+1. **[`docs/index.html`](habbo-classic-win/docs/index.html)**: download it and open it
+   in a browser. It searches all classes, member hashes and messages offline (see
+   [Search page](#search-page)).
+2. **`05_sorgenti_per_classe/`**: start from its `README.md`, which lists the areas;
+   each area (`com/sulake/habbo/catalog`, `…/navigator`, `…/roomevents` for Wired…)
+   has its own README (see [Area READMEs](#area-readmes)). Each class file starts with
+   a header that names the line in the full bundle and the matching AIR 15 `.as` file.
+3. **`04_sorgenti_js/HabboAirLauncher.deobf.js`**: the whole client in one file.
    Every matched class carries an inline comment such as
    `/* AIR 15: com/sulake/habbo/communication/enum/HabboCommunicationEvent.as */`.
-3. **`06_report/PROTOCOL.md`**: every network message with its header ID, name,
-   parser reads and AIR 15 counterpart.
-4. Startup and platform code have readable names and are easy to find with grep:
+4. **`06_report/PROTOCOL.md`**: every network message with its header ID, name,
+   full wire structure and AIR 15 counterpart.
+5. Startup and platform code have readable names and are easy to find with grep:
    `productionStartupArguments`, `initializeGraphicsApplication`,
    `installRendererSettings`, `HabboAirLaunchStage`, `installKeyboardBridge`.
 
@@ -263,10 +270,32 @@ Coverage by area (share of AIR 15 classes matched):
 registries (`this.events[ID] = …`, `this.composers[ID] = …`), lists every message of
 this build:
 
-- **incoming**: header ID, event name, parser, the reads the parser performs in
-  order, the AIR 15 class and its AIR 15 header ID;
+- **incoming**: header ID, event name, parser, the **full wire structure** the parser
+  reads, the AIR 15 class and its AIR 15 header ID;
 - **outgoing**: header ID, composer name, constructor arity, the AS3 argument types,
   and the AIR 15 class and header ID.
+
+### Wire structures
+
+[`tools/parser_struct.mjs`](habbo-classic-win/tools/parser_struct.mjs) walks each
+`parse()` method of the deobfuscated bundle and follows everything that receives the
+reader: constructors of nested data classes (`new RoomData(e)`), static and instance
+helpers (`X.read(e)`, `this.readItem(e)`), loops and conditionals. The result is one
+line per parser:
+
+```
+int [ class_1989{ string int [ UnkClass_772b30{ string int string } ] } ]
+```
+
+| Token | Meaning |
+|---|---|
+| `int` `string` `bool` `short` `byte` `float` `double` `long` | one read of that type |
+| `Name{ … }` | the reads done by data class `Name` (its constructor or parse method) |
+| `[ … ]` | reads repeated in a loop, normally preceded by an `int` count |
+| `?{ … }` / `?{ a \| b }` | reads done only under a condition / if-else branches |
+| `…` | recursion stopped (cycle or depth limit of 6) |
+
+609 parsers are covered, 180 of them with nested structures.
 
 The *AIR 15 ID → this build's ID* pairs are what you need to move a server emulator
 from AIR 15 to this build. No message kept its header ID. The same data is in
@@ -281,8 +310,46 @@ from AIR 15 to this build. No message kept its header ID. The same data is in
 - Code written only for the port (Flash emulation, WebSocket layer) has no AS3
   counterpart, so it keeps a placeholder unless the name was left readable.
 - Unmatched classes are not "new features": many are classes rewritten by the port.
-- Parser reads are listed only for `parse()` itself; reads inside nested data
-  classes are not expanded.
+- Wire structures follow the reader only through code the client runs directly: a
+  structure built through a callback or an unresolved dynamic call is cut short.
+
+## Area READMEs
+
+[`tools/area_readmes.py`](habbo-classic-win/tools/area_readmes.py) writes a README in
+each of the 47 areas of `05_sorgenti_per_classe/` (`com/sulake/<x>/<y>`), plus:
+
+- an index at the root of the tree, listing areas with their class and message counts;
+- `_unmatched/README.md`, with the unmatched classes grouped by placeholder pattern;
+- `_runtime_and_libraries/README.md`, with the Pixi.js and Flash-emulation classes.
+
+Each area README has:
+
+- counts: classes, message classes, lines of code;
+- the sub-packages, with links;
+- the 30 largest classes with a real name (superclass, members, lines);
+- the **network messages created or registered by classes of the area**, with header
+  IDs and wire structures. A message is linked to an area through its call sites, so
+  the catalog README lists the catalog messages even though AIR 15 keeps the message
+  classes themselves in `package_N` folders.
+
+## Search page
+
+[`docs/index.html`](habbo-classic-win/docs/index.html), built by
+[`tools/search_page.py`](habbo-classic-win/tools/search_page.py), is a single 1.5 MB
+file with all the data embedded, so it works offline. The repository is private, so
+GitHub Pages is not used: download the file and open it in a browser.
+
+- **Classes** (5,222): final name, obfuscated name, minified binding, status (matched,
+  placeholder, readable, unmatched), member count, AIR 15 source. The name links to
+  the class file on GitHub.
+- **Members** (13,573): hash → recovered name.
+- **Messages** (1,182): direction, header ID, name, parser, wire structure (or the
+  AIR 15 argument types for composers), AIR 15 ID and source.
+
+Several words must all match, in any column: `in 2384`, `catalog composer`,
+`_rf87c1e89581ebe`, `Nav`. A search can be passed in the URL: `index.html#HabboCatalog`.
+The links point to `SimoLeoLife/habbo-decompiled`; the base URL is the third argument
+of `search_page.py`.
 
 ## Electron host notes
 
@@ -302,7 +369,8 @@ From the plain `Main.mjs` / `Session.mjs`:
 
 [`tools/run_all.py`](habbo-classic-win/tools/run_all.py) runs everything in one go:
 unzip, `app.asar` extraction, HAB decoding, formatting, name recovery, rewrite,
-per-class split, protocol table and changes report.
+per-class split, wire structures, protocol table, area READMEs, search page and
+changes report.
 
 Requirements: Node.js ≥ 20, Python ≥ 3.10, the `HabboClassicWin.zip` of the build,
 and the AIR 15 AS3 sources decompiled with FFDec (the `scripts` folder).
@@ -319,8 +387,8 @@ output directory (here, this repository's `habbo-classic-win/`):
 python run_all.py --zip HabboClassicWin.zip --air15 <air15>/03_sorgenti_e_asset/HabboAir/scripts --out ../../new-build --previous ..
 ```
 
-The output has the same layout as `habbo-classic-win/`, plus a `CHANGES_REPORT.md`
-that lists:
+The output has the same layout as `habbo-classic-win/` (including `docs/index.html`
+and the area READMEs), plus a `CHANGES_REPORT.md` that lists:
 
 - build information (release, version, protocol, build time, counts);
 - readable-name classes that do not exist in AIR 15;
@@ -333,8 +401,8 @@ A full run takes about 4 minutes. `npm install` runs automatically the first tim
 Intermediate files (`tools/work/`) are not committed.
 
 The individual steps can also be run by hand from `tools/`: `as3_inventory.py`,
-`js_inventory.mjs`, `match.py`, `finalize.py`, `deobf.mjs`, `protocol.py` and
-`changes.py`. Each script documents its arguments at the top.
+`js_inventory.mjs`, `match.py`, `finalize.py`, `deobf.mjs`, `parser_struct.mjs`,
+`protocol.py`, `area_readmes.py`, `search_page.py` and `changes.py`. Each script documents its arguments at the top.
 
 ## Further documents
 

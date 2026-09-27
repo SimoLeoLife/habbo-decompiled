@@ -7,8 +7,8 @@ usage:
 habbo_air_15_decompiled_deobfuscated/03_sorgenti_e_asset/HabboAir/scripts.
 
 The output directory gets the same layout as this repository:
-02_app_estratto, 03_asset_hab, 04_sorgenti_js, 05_sorgenti_per_classe, 06_report,
-CHANGES_REPORT.md. With --previous, CHANGES_REPORT.md also lists the messages and
+02_app_estratto, 03_asset_hab, 04_sorgenti_js, 05_sorgenti_per_classe (with a README per
+area), 06_report (with PROTOCOL.md), docs/index.html (search page), CHANGES_REPORT.md. With --previous, CHANGES_REPORT.md also lists the messages and
 classes that changed since that earlier run.
 
 Requirements: Node.js >= 20 (npx), Python >= 3.10."""
@@ -16,7 +16,7 @@ import argparse, os, shutil, subprocess, sys, zipfile, hashlib
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SCRIPTS = ['as3_inventory.py', 'js_inventory.mjs', 'match.py', 'finalize.py', 'deobf.mjs',
-           'extract-hab.mjs', 'protocol.py', 'changes.py', 'package.json']
+           'extract-hab.mjs', 'parser_struct.mjs', 'protocol.py', 'area_readmes.py', 'search_page.py', 'changes.py', 'package.json']
 
 def run(cmd, cwd):
     print('>', ' '.join(cmd), flush=True)
@@ -70,9 +70,12 @@ def main():
          os.path.join(src, 'HabboAirLauncher.deobf.js'), per_class], tools)
     for f, t in (('classi.csv', 'classes.csv'), ('membri.csv', 'members.csv'), ('final_map.json', 'name_map.json')):
         shutil.copy(os.path.join(work, f), os.path.join(rep, t))
+    run(['node', '--max-old-space-size=8192', 'parser_struct.mjs', os.path.join(src, 'HabboAirLauncher.deobf.js'), 'work/parser_struct.json'], tools)
     registry = next(os.path.join(dp, f) for dp, _, fs in os.walk(os.path.join(air15, 'com', 'sulake', 'habbo', 'communication'))
                     for f in fs if f.endswith('.as') and '_composers[' in open(os.path.join(dp, f), encoding='utf-8', errors='replace').read())
     run([sys.executable, 'protocol.py', rep, registry], tools)
+    run([sys.executable, 'area_readmes.py', per_class, rep], tools)
+    run([sys.executable, 'search_page.py', out, os.path.join(out, 'docs', 'index.html')], tools)
     run([sys.executable, 'changes.py', out] + ([os.path.abspath(a.previous)] if a.previous else []), tools)
     print('done:', out)
 
