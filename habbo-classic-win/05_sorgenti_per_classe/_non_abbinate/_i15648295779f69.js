@@ -1,0 +1,20 @@
+// Estratto da HabboAirLauncher.deobf.js, riga 116270.
+
+class {
+    static {
+      n(this, "_i15648295779f69");
+    }
+    static {
+      H_t(this, "_i15648295779f69");
+    }
+    _data = [];
+    constructor(e, r) {
+      (this._data.push(e), this._data.push(r));
+    }
+    getMessageArray() {
+      return this._data ?? [];
+    }
+    dispose() {
+      this._data = null;
+    }
+  }

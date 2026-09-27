@@ -1,0 +1,22 @@
+// Estratto da HabboAirLauncher.deobf.js, riga 86991.
+// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_30/class_3663.as
+// Nome offuscato: _ib3cbc8a4ecdbda
+
+class {
+    static {
+      n(this, "class_3663");
+    }
+    static {
+      sMr(this, "class_3663");
+    }
+    var_5824 = !1;
+    flush() {
+      return !1;
+    }
+    parse(e) {
+      return ((this.var_5824 = e.readBoolean()), !0);
+    }
+    get isFirstLoginOfDay() {
+      return this.var_5824;
+    }
+  }

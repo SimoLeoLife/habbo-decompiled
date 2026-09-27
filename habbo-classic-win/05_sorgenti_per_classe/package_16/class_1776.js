@@ -1,0 +1,22 @@
+// Estratto da HabboAirLauncher.deobf.js, riga 114058.
+// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_16/class_1776.as
+// Nome offuscato: _i9f64884426ed24
+
+class {
+    static {
+      n(this, "class_1776");
+    }
+    static {
+      Bct(this, "class_1776");
+    }
+    _data = [];
+    constructor(e, r, t, i, s = !1) {
+      this._data = [e, r, t, i, s];
+    }
+    getMessageArray() {
+      return this._data ?? [];
+    }
+    dispose() {
+      this._data = null;
+    }
+  }

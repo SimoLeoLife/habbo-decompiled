@@ -1,0 +1,32 @@
+// Estratto da HabboAirLauncher.deobf.js, riga 144418.
+// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/com/sulake/habbo/catalog/viewer/widgets/events/CatalogWidgetEventEnum.as
+// Nome offuscato: _ib474ebe10089bb
+
+class {
+  static {
+    n(this, "CatalogWidgetEventEnum");
+  }
+  static WIDGETS_INITIALIZED = "WIDGETS_INITIALIZED";
+  static SELECT_PRODUCT = "SELECT_PRODUCT";
+  static SET_EXTRA_PARAMETER = "CWE_SET_EXTRA_PARM";
+  static PURCHASE = "PURCHASE";
+  static COLOUR_ARRAY = "COLOUR_ARRAY";
+  static MULTI_COLOUR_ARRAY = "MULTI_COLOUR_ARRAY";
+  static COLOUR_INDEX = "COLOUR_INDEX";
+  static TEXT_INPUT = "TEXT_INPUT";
+  static const_465 = "CWE_DROPMENU_SELECT";
+  static APPROVE_NAME_RESULT = "CWE_APPROVE_RESULT";
+  static PURCHASE_OVERRIDE = "PURCHASE_OVERRIDE";
+  static SELLABLE_PET_PALETTES = "SELLABLE_PET_PALETTES";
+  static INIT_PURCHASE = "INIT_PURCHASE";
+  static UPDATE_ROOM_PREVIEW = "UPDATE_ROOM_PREVIEW";
+  static GUILD_SELECTED = "GUILD_SELECTED";
+  static TOTAL_PRICE_WIDGET_INITIALIZED = "TOTAL_PRICE_WIDGET_INITIALIZED";
+  static const_1080 = "CWE_PRODUCT_OFFER_UPDATED";
+  static SET_PREVIEWER_STUFFDATA = "CWE_SET_PREVIEWER_STUFFDATA";
+  static EXTRA_PARAM_REQUIRED_FOR_BUY = "CWE_EXTRA_PARAM_REQUIRED_FOR_BUY";
+  static TOGGLE = "CWE_TOGGLE";
+  static const_1374 = "CWE_BUILDER_SUBSCRIPTION_UPDATED";
+  static ROOM_CHANGED = "CWE_ROOM_CHANGED";
+  static SHOW_WARNING_TEXT = "CWE_SHOW_WARNING_TEXT";
+}

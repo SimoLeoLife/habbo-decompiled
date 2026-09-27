@@ -1,0 +1,31 @@
+// Estratto da HabboAirLauncher.deobf.js, riga 235784.
+
+class {
+  constructor(e) {
+    this.var_183 = e;
+  }
+  static {
+    n(this, "_i1b60011614647b");
+  }
+  get item() {
+    return this.var_183;
+  }
+  get productTypeId() {
+    return this.var_183.productTypeId;
+  }
+  get itemTypeId() {
+    return this.var_183.itemTypeId;
+  }
+  get extraData() {
+    return "";
+  }
+  get _r48777043299a0c() {
+    return this.var_183._r48777043299a0c;
+  }
+  get _r8884fd63e7a9b7() {
+    return "";
+  }
+  get _r465eb48d84170b() {
+    return this.var_183._r465eb48d84170b;
+  }
+}

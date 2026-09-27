@@ -1,0 +1,18 @@
+// Estratto da HabboAirLauncher.deobf.js, riga 76713.
+// Corrisponde a AIR 15: 03_sorgenti_e_asset/HabboAir/scripts/package_65/class_2651.as
+// Nome offuscato: _ice88b11326b67f
+
+class extends MessageEvent {
+    static {
+      n(this, "class_2651");
+    }
+    static {
+      zpr(this, "class_2651");
+    }
+    constructor(e) {
+      super(e, class_3880);
+    }
+    getParser() {
+      return this.var_15;
+    }
+  }
